@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JX885610</GBSeq_locus>
+  <GBSeq_length>1528</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>25-MAY-2013</GBSeq_update-date>
+  <GBSeq_create-date>25-MAY-2013</GBSeq_create-date>
+  <GBSeq_definition>Eidolon helvum parvovirus 2 isolate Parvo_th_node176_9_9_893755 NS1 gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JX885610</GBSeq_primary-accession>
+  <GBSeq_accession-version>JX885610.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JX885610.1|</GBSeqid>
+    <GBSeqid>gi|505580617</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Eidolon helvum parvovirus 2</GBSeq_source>
+  <GBSeq_organism>Eidolon helvum parvovirus 2</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1528</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Baker,K.S.</GBAuthor>
+        <GBAuthor>Leggett,R.M.</GBAuthor>
+        <GBAuthor>Bexfield,N.H.</GBAuthor>
+        <GBAuthor>Alston,M.</GBAuthor>
+        <GBAuthor>Daly,G.</GBAuthor>
+        <GBAuthor>Todd,S.</GBAuthor>
+        <GBAuthor>Tachedjian,M.</GBAuthor>
+        <GBAuthor>Holmes,C.E.</GBAuthor>
+        <GBAuthor>Crameri,S.</GBAuthor>
+        <GBAuthor>Wang,L.F.</GBAuthor>
+        <GBAuthor>Heeney,J.L.</GBAuthor>
+        <GBAuthor>Suu-Ire,R.</GBAuthor>
+        <GBAuthor>Kellam,P.</GBAuthor>
+        <GBAuthor>Cunningham,A.A.</GBAuthor>
+        <GBAuthor>Wood,J.L.</GBAuthor>
+        <GBAuthor>Caccamo,M.</GBAuthor>
+        <GBAuthor>Murcia,P.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Metagenomic study of the viruses of African straw-coloured fruit bats: Detection of a chiropteran poxvirus and isolation of a novel adenovirus</GBReference_title>
+      <GBReference_journal>Virology 441 (2), 95-106 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.virol.2013.03.014</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>23562481</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1528</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Baker,K.S.</GBAuthor>
+        <GBAuthor>Leggett,R.</GBAuthor>
+        <GBAuthor>Bexfield,N.</GBAuthor>
+        <GBAuthor>Alston,M.</GBAuthor>
+        <GBAuthor>Daly,G.</GBAuthor>
+        <GBAuthor>Tachedjian,M.</GBAuthor>
+        <GBAuthor>Wang,L.</GBAuthor>
+        <GBAuthor>Heeney,J.L.</GBAuthor>
+        <GBAuthor>Suu-Ire,R.</GBAuthor>
+        <GBAuthor>Kellam,P.</GBAuthor>
+        <GBAuthor>Cunningham,A.A.</GBAuthor>
+        <GBAuthor>Wood,J.L.N.</GBAuthor>
+        <GBAuthor>Caccamo,M.</GBAuthor>
+        <GBAuthor>Murcia,P.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (27-SEP-2012) Clinical Veterinary Medicine, University of Cambridge, Madingley Road, Cambridge, Cambridgeshire CB30ES, UK</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Assembly Method ABySS v. 1.3.4; Velvet v. 1.2.07; MetaIDBA v. 0.19; MetaCortex v. 1 Sequencing Technology Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1528</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1528</GBInterval_to>
+          <GBInterval_accession>JX885610.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Eidolon helvum parvovirus 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Parvo_th_node176_9_9_893755</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>throat swabs</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Eidolon helvum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:1335482</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Ghana</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Mar-2009</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>206..&gt;1528</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>206</GBInterval_from>
+          <GBInterval_to>1528</GBInterval_to>
+          <GBInterval_accession>JX885610.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AGL97807.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MQAQMEGTRRSLHDIRRYWWTGSAVLEQRENQEIIPYQQLQTILHTWDSRVWQACVLSIWDTTATSDPRPYCFLIDNIKSVKAWLLSAELDSNAQPHVHLLALTHQRSDAFKRSLEQSWPNVRFIALSDLEQPDPTLEVVKCQKCHKPSSLIAYMTKDPLWLACRSETDLVVFQSVYAYDLGERFRLRQQQEQARKADPSTAGMNALTAEITDVIMQHNCKSIEDCMKSAPEIIAKHLHRSGIATIIQNCITWVTSTGGGWSLSKIGARHSPDPAVIHTVLLHQGIEPSHFDSHFYWWVTKQTDKKNTFVLWGPSNTGKSMFIHGFKQCVNWGEVVNSNTFAFEGLINNQFGIWEEPLISPELAEKAKQIFEGMETSIPVKYRKPVKLPRTPILMTTNHAPWRFCTKEEDMFRNRMIIFEWNETTYNVPFTCRVSEYSCKC</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tatgcttgttatctaatcgctgggcaattgaatttgaagtaaaggagtatgaaaatcaatgggtggcttggggaaagcaaagcagattcactgtgggtgaatctactctgcaccgtgcattgggagacttgtttgaagaaggttatataatggttcagaaaggttctgttgattctaatattgacagtgctcttcgttatataagatgcaagcgcaaatggaaggtaccagacgtagtctccatgacatcagaagatactggtggacagggtctgccgtattggagcaaagggaaaatcaagaaataattccctatcaacaactacaaaccatcttacacacctgggattccagagtctggcaagcttgcgtgctttccatatgggacaccactgccacctctgatccgcgaccgtattgttttctgattgataatatcaaatctgttaaagcatggcttttatctgcagaactagattctaatgctcaaccgcatgttcatttattagcattaactcaccaaagatctgatgcttttaaacgcagcttagaacaatcttggcctaatgtgcgctttattgctttatctgatttagaacaacctgatccaaccttagaagtggttaaatgtcaaaaatgtcataaacctagttctctaattgcatatatgactaaagacccattatggctagcatgtagatctgagacagacctagtggtatttcaatctgtatatgcttatgatctaggagaaagatttcgcttaaggcaacaacaagaacaagctagaaaagctgacccctcaacagctggtatgaatgccttaactgctgaaattactgatgttattatgcaacataactgtaagtctattgaagactgtatgaaatctgcacctgaaatcattgctaaacacctacatagatcaggtatagccaccattattcaaaattgtatcacgtgggtcacatctacaggaggtggatggtcgctgtccaaaataggtgcacgccattcaccagatcctgcagttatccacacagttttattgcatcaaggtatagaaccttcacactttgacagtcatttttattggtgggtcacaaaacaaacagataagaaaaatacctttgtcttatggggaccaagtaatactgggaaatctatgttcatacatggttttaaacaatgtgttaattggggtgaagtggttaattctaatacctttgcatttgaaggcttaataaataatcaatttggtatatgggaagaaccattaatatcaccagaattagctgaaaaagctaaacaaatatttgagggaatggaaacatctatacctgtaaaatatagaaaacctgttaaattacctagaacacctatattaatgaccactaatcatgctccttggagattctgtacaaaagaagaagatatgttcagaaacagaatgattatatttgaatggaatgaaaccacttataatgtacctttcacttgcagagttagtgaatatagctgcaaatgc</GBSeq_sequence>
+</GBSeq>

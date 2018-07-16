@@ -1,0 +1,30 @@
+# Import pre-built alignments
+
+  # Import root alignment
+  module unconstrainedAlignmentImporter 
+    import AL_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/root/parvo-ns-root.fna
+    exit
+
+  # Import tip alignments
+
+
+  # Import internal node alignments
+  module unconstrainedAlignmentImporter
+
+    # Genus alignment
+    import AL_PROTO_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/proto-genome.fna
+    #import AL_DEPENDO_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/dependo-genome.fna
+    import AL_AMDO_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/amdo-genome.fna
+    import AL_CHAP_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/chap-genome.fna
+    import AL_SHA_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/sha-genome.fna
+
+
+    #import AL_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/cross-genus/amdo-proto-dependo.faa
+
+    exit
+    
+   # Import protoparvovirus alignments
+
+   # Import chapparvovirus alignments
+   #module unconstrainedAlignmentImporter import AL_CHAPPA_VP -f alignments/internal/genus/chapparvovirus/VP/chapparvovirus-VP.faa
+

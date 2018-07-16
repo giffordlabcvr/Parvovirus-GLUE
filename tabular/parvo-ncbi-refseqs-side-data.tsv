@@ -1,0 +1,26 @@
+accession-ID	virus_name	virus_full_name	virus_subfamily	virus_genus	source
+DQ335246	CAV	Caprine adeno-associated virus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+NC_000936	PfDNV	Periplaneta fuliginosa densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
+NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_001510	MVM1	Minute virus of mice	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_001539	CPV	Canine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_001540	BPV	Bovine parvovirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+NC_001701	GPV	Goose parvovirus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_001718	PPV	Porcine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_002190	IHHN	Infectious hypodermal and hematopoietic necrosis virus	Densovirinae	Penstyldensovirus	ncbi-refseqs
+NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
+NC_004285	AalDNV-2	Aedes albopictus densovirus 2	Densovirinae	Brevidensovirus	ncbi-refseqs
+NC_004287	BmDNV-5	Bombyx mori densovirus 5	Densovirinae	Iteradensovirus	ncbi-refseqs
+NC_004442	CMV	Canine minute virus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_006147	MDPV	Muscovy duck parvovirus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_006148	SnakePV	Snake parvovirus 1	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	ncbi-refseqs
+NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Densovirinae	Hepandensovirus	ncbi-refseqs
+NC_016744	Eh-BtPV-1	Eidolon helvum parvovirus 1	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+NC_024452	ChPV	Chicken parvovirus ABU-P1	Parvovirinae	Aveparvovirus	ncbi-refseqs
+NC_024453	PBoV	Porcine bocavirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_026815	MpBuV	Mpulungu bufavirus	Parvovirinae	Bufaparvovirus	ncbi-refseqs
+U34255	HamsterPV	Hamster parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+KX907333	ChPV.DesRot	Vampire bat chapparvovirus	Parvovirinae	Chapparvovirus	ncbi-refseqs

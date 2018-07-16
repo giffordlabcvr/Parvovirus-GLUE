@@ -1,0 +1,68 @@
+  # Declare reference sequences
+
+  ### Exogenous viruses
+
+  ## Parvovirinae 
+
+  # Protoparvovirus
+  create reference MVM1       		ncbi-refseqs NC_001510
+  create reference CPV        		ncbi-refseqs NC_001539
+  create reference PPV        		ncbi-refseqs NC_001718
+  create reference HamsterPV     	ncbi-refseqs U34255
+
+  # SHA-parvovirus
+  create reference ShaPVe.MonDom.1  PVe-fasta ShaPVe.Monodelphis_domestica.1
+  
+  # Bufaparvovirus
+  create reference MpBuV    		ncbi-refseqs NC_026815
+
+  # Amdoparvovirus
+  create reference AMDV       		ncbi-refseqs NC_001662
+ 
+  # Aveparvovirus
+  create reference ChPV       		ncbi-refseqs NC_024452
+ 
+  # Bocaparvovirus	
+  create reference BPV        		ncbi-refseqs NC_001540
+  create reference PBoV       		ncbi-refseqs NC_024453
+  create reference CMV        		ncbi-refseqs NC_004442
+  
+  # Dependoparvovirus
+  create reference AAV2       		ncbi-refseqs NC_001401
+  create reference SnakePV       	ncbi-refseqs NC_006148
+  create reference CAV        		ncbi-refseqs DQ335246 
+  create reference GPV        		ncbi-refseqs NC_001701
+  create reference MDPV       		ncbi-refseqs NC_006147 
+
+  # Chapparvovirus
+  create reference ChPV.DesRot      ncbi-refseqs KX907333
+
+  # Erythroparvovirus
+  create reference B19     			ncbi-refseqs NC_000883
+
+  # Copiparvovirus
+  create reference BPV2   			ncbi-refseqs NC_006259
+ 
+  # Tetraparvovirus
+  create reference Eh-BtPV-1  		ncbi-refseqs NC_016744
+  
+
+  ## Densovirinae
+  
+  # Brevidensovirus
+  create reference AalDNV-2			ncbi-refseqs NC_004285
+
+  # Iteradensovirus
+  create reference BmDNV-5    		ncbi-refseqs NC_004287
+ 
+  # Ambidensovirus
+  create reference JcDNV      		ncbi-refseqs NC_004284
+  create reference PfDNV      		ncbi-refseqs NC_000936
+
+  # Penstyldensovirus
+  create reference IHHN    		    ncbi-refseqs NC_002190
+ 
+  # Hepandensovirus
+  create reference FCDNV   			ncbi-refseqs NC_014357
+
+

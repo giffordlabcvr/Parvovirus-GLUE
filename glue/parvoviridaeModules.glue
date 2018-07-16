@@ -1,0 +1,8 @@
+  create module -f modules/DNA-ss/parvoviridae/parvoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/DNA-ss/parvoviridae/parvoviridaeSideDataImporter.xml 
+  create module -f modules/DNA-ss/parvoviridae/featureLocationTextToGlue.xml 
+  create module -f modules/DNA-ss/parvoviridae/kuiken2006CodonLabeler.xml   
+  create module -f modules/DNA-ss/parvoviridae/rootAlignmentImporter.xml 
+  create module -f modules/DNA-ss/parvoviridae/unconstrainedAlignmentImporter.xml 
+  create module -f modules/DNA-ss/parvoviridae/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility
+  create module -f modules/DNA-ss/parvoviridae/ePVsideDataImporter.xml

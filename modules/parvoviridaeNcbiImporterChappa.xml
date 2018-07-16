@@ -1,0 +1,26 @@
+<!-- Parvoviridae genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+    <!-- DrPV-1 -->
+    <primaryAccession>KX907333</primaryAccession>
+    <!-- Cebus capucinus imitator -->
+    <primaryAccession>LVWQ01135885</primaryAccession>
+    <!-- Mesitornis unicolor -->
+    <primaryAccession>JJRI01094129</primaryAccession>
+    <!-- Protobothrops mucrosquamatus -->
+    <primaryAccession>BCNE02131058</primaryAccession>
+    <!-- Myotis davidii -->
+    <primaryAccession>ALWT01091740</primaryAccession>
+    <!-- Serinus canaria -->
+    <primaryAccession>CAVT010188449</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+
+

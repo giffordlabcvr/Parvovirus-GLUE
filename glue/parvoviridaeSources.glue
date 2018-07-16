@@ -1,0 +1,9 @@
+  # Import NCBI sources 
+  import source sources/DNA-ss/parvoviridae/ncbi-refseqs/
+
+  # Import EVE FASTA sources 
+  import source sources/DNA-ss/parvoviridae/fasta/amdo-fasta
+  import source sources/DNA-ss/parvoviridae/fasta/chap-fasta
+  import source sources/DNA-ss/parvoviridae/fasta/sha-fasta
+  import source sources/DNA-ss/parvoviridae/fasta/dependo-fasta
+  import source sources/DNA-ss/parvoviridae/fasta/proto-fasta
