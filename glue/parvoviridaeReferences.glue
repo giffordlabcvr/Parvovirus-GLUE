@@ -9,9 +9,6 @@
   create reference CPV        		ncbi-refseqs NC_001539
   create reference PPV        		ncbi-refseqs NC_001718
   create reference HamsterPV     	ncbi-refseqs U34255
-
-  # SHA-parvovirus
-  create reference ShaPVe.MonDom.1  PVe-fasta ShaPVe.Monodelphis_domestica.1
   
   # Bufaparvovirus
   create reference MpBuV    		ncbi-refseqs NC_026815

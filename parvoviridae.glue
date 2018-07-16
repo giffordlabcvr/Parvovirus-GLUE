@@ -1,0 +1,62 @@
+delete project dfe_parvoviridae
+
+create project dfe_parvoviridae "EVE-oriented GLUE project for the Parvoviridae" --minVersion 0.1.50
+
+schema-project dfe_parvoviridae
+
+  run file glue/DNA-ss/parvoviridae/parvoviridaeSchemaExtensions.glue
+  exit
+
+project dfe_parvoviridae
+
+  # load project settings
+  run file glue/DNA-ss/parvoviridae/projectSettings.glue
+
+  # create modules
+  run file glue/DNA-ss/parvoviridae/parvoviridaeModules.glue
+
+
+
+  # Import exogenous sources and data 
+  import source sources/DNA-ss/parvoviridae/ncbi-refseqs
+  run script glue/DNA-ss/parvoviridae/loadExogenousData.js
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module parvoviridaesideDataImporter 
+    populate -f tabular/DNA-ss/parvoviridae/parvo-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Import endogenous sources and data 
+  import source sources/DNA-ss/parvoviridae/PVe-fasta
+  run script glue/DNA-ss/parvoviridae/loadEndogenousData1.js
+  run script glue/DNA-ss/parvoviridae/loadEndogenousData2.js
+
+  # Import metadata for PVe from tabular
+  module ePVsideDataImporter 
+    populate -f tabular/DNA-ss/parvoviridae/PVe-side-data.tsv
+    exit
+
+
+
+
+  # Define genome features
+  run file glue/DNA-ss/parvoviridae/parvoviridaeFeatures.glue
+
+  # Create reference sequences
+  run file glue/DNA-ss/parvoviridae/parvoviridaeReferences.glue
+  
+  # Add feature locations to the master reference
+  module featureLocationTextToGlue transform tabular/DNA-ss/parvoviridae/reference_feature_locations.txt -r
+  
+  # Import alignments
+  run file glue/DNA-ss/parvoviridae/parvoviridaeAlignments.glue
+
+  # Import alignment tree
+  run file glue/DNA-ss/parvoviridae/parvoviridaeAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+  

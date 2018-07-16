@@ -12,14 +12,14 @@
   module unconstrainedAlignmentImporter
 
     # Genus alignment
-    import AL_PROTO_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/proto-genome.fna
-    #import AL_DEPENDO_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/dependo-genome.fna
-    import AL_AMDO_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/amdo-genome.fna
-    import AL_CHAP_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/chap-genome.fna
-    import AL_SHA_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/genus/sha-genome.fna
+    import AL_PROTO_UNCONSTRAINED -f alignments/genus/parvovirinae/proto-genome.fna
+    #import AL_DEPENDO_UNCONSTRAINED -f alignments/genus/parvovirinae/dependo-genome.fna
+    import AL_AMDO_UNCONSTRAINED -f alignments/genus/parvovirinae/amdo-genome.fna
+    import AL_CHAP_UNCONSTRAINED -f alignments/genus/parvovirinae/chap-genome.fna
+    import AL_SHA_UNCONSTRAINED -f alignments/genus/parvovirinae/sha-genome.fna
 
 
-    #import AL_UNCONSTRAINED -f alignments/DNA-ss/parvoviridae/internal/cross-genus/amdo-proto-dependo.faa
+    #import AL_UNCONSTRAINED -f alignments/cross-genus/amdo-proto-dependo.faa
 
     exit
     
