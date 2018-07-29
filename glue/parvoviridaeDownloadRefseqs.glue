@@ -1,4 +1,0 @@
-create module -f modules/DNA-ss/parvoviridae/parvoviridaeNcbiImporterReferences.xml ncbiImporter
-
-# Download NCBI sequences 
-module ncbiImporter import
