@@ -35,7 +35,7 @@ project parvoviridae
   module featureLocationTextToGlue transform tabular/reference_feature_locations.txt -r
   
   # Import alignments
-  run file glue/parvoviridaeAlignments.glue
+  #run file glue/parvoviridaeAlignments.glue
 
   # Import alignment tree
   #run file glue/parvoviridaeAlignmentTree.glue
