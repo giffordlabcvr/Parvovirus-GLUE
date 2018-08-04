@@ -6,6 +6,8 @@
     create field clade VARCHAR 50
     create field type VARCHAR 20
     create field host_sci_name VARCHAR 100
+    create field length INTEGER
+
   exit
 
   table alignment
