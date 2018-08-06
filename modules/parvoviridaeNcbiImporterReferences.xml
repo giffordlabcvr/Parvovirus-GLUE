@@ -47,7 +47,9 @@
 	<primaryAccession>GU938300</primaryAccession>
 	<primaryAccession>KT965075</primaryAccession>    
 	<primaryAccession>MG745669</primaryAccession>
-   
+	<primaryAccession>JF429835</primaryAccession>
+	<primaryAccession>MG972981</primaryAccession>
+  
     <!-- Chicken parvovirus ABU-P1 (Aveparvovirus) -->
     <primaryAccession>NC_024452</primaryAccession>
     <!-- Aedes albopictus densovirus 2 (Brevidensovirus) -->
@@ -94,8 +96,6 @@
     <primaryAccession>NC_012042</primaryAccession>
     <!-- Human bocavirus 2c -->    
     <primaryAccession>NC_024452</primaryAccession>
-    <!-- Bovine parvovirus (Bocavirus) -->
-    <primaryAccession>NC_001540</primaryAccession>
     <!-- Porcine parvovirus (Protoparvovirus) -->
     <primaryAccession>NC_001718</primaryAccession>
     <!-- Porcine parvovirus (Protoparvovirus) -->

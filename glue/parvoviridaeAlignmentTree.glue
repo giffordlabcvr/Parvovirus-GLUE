@@ -28,9 +28,8 @@
     demote member AL_Tetraparvovirus --whereClause "sequence.genus = 'Tetraparvovirus'" 
     extract child AL_Chapparvovirus --refName ChPV.DesRot
     demote member AL_Chapparvovirus --whereClause "sequence.genus = 'Chapparvorvirus'" 
-
-    #extract child AL_Copiparvovirus --refName BPV2
-    #demote member AL_Copiparvovirus --whereClause "sequence.genus = 'Copiparvovirus'" 
+    extract child AL_Copiparvovirus --refName BPV2
+    demote member AL_Copiparvovirus --whereClause "sequence.genus = 'Copiparvovirus'" 
     exit
  
   alignment AL_Densovirinae
@@ -69,7 +68,11 @@
     derive segments AL_TETRA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
-  #alignment AL_Chapparvovirus
-  #  derive segments AL_CHAP_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_Copiparvovirus
+    derive segments AL_COPI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Chapparvovirus
+    derive segments AL_CHAP_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
 
