@@ -14,14 +14,17 @@ This [GLUE](http://tools.glue.cvr.ac.uk) project contains reference information 
 * A comprehensive list of parvovirus genome features and their specific locations on full genome reference sequences.
 * Alignments of parvovirus reference sequences arranged hierarchically by clade.
 
-Who can use this resource, and for what?
+## Who can use this resource, and for what?
 
-Parvoviridae-GLUE can be used a straightforward data repository, with no requirement for use of the GLUE software framework.
+Parvoviridae-GLUE can be used a straightforward data repository, with no requirement for use of the GLUE software framework. 
 
-In addition, however, the Parvoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality. So far we have used Parvoviridae-GLUE to develop the following GLUE extension projects.
+In addition, the Parvoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality.
+So far we have used Parvoviridae-GLUE to develop the following GLUE extension projects. 
 
 [Parvoviridae-EVE](https://giffordlabcvr.github.io/Parvoviridae-EVE/) - a GLUE project for endogenous parvoviral elements.
+[Dependoparvovirus-EVE](https://giffordlabcvr.github.io/Dependoparvovirus-EVE/) - a GLUE project for dependoparvoviruses, focussed on their potential applications as gene therapy vectors. 
 
+Note that Parvoviridae-GLUE serves as a data repository for circovirus reference data, and these data can be accessed here, without any requirement to install GLUE. 
 
 ## Installation
 
