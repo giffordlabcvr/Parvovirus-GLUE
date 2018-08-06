@@ -1,0 +1,51 @@
+# Parvoviridae-GLUE
+
+## Description
+
+This is Parvoviridae-GLUE: a GLUE project for the [parvoviruses](https://viralzone.expasy.org/11?outline=all_by_species) (family Parvoviridae ).
+
+[GLUE](http://tools.glue.cvr.ac.uk) is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
+
+Parvoviruses are small, non-enveloped viruses with circular, single stranded DNA (ssDNA) genomes ~1.8 to ~2.1 kilobases (kb) in length. Parvovirus genomes encode two major proteins: replication-associated protein (Rep) and capsid (Cap), responsible for genome replication and particle formation respectively. Transcription is bidirectional with the rep gene being encoded in the forward sense, and the cap gene being encoded in the complementary sense.
+
+This [GLUE](http://tools.glue.cvr.ac.uk) project contains reference information for the parvovirus family, including:
+
+* A set of parvovirus reference sequences linked to auxiliary data.
+* A comprehensive list of parvovirus genome features and their specific locations on full genome reference sequences.
+* Alignments of parvovirus reference sequences arranged hierarchically by clade.
+
+Who can use this resource, and for what?
+
+Parvoviridae-GLUE can be used a straightforward data repository, with no requirement for use of the GLUE software framework.
+
+In addition, however, the Parvoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality. So far we have used Parvoviridae-GLUE to develop the following GLUE extension projects.
+
+[Parvoviridae-EVE](https://giffordlabcvr.github.io/Parvoviridae-EVE/) - a GLUE project for endogenous parvoviral elements.
+
+
+## Installation
+
+You can install Parvoviridae-GLUE on computers running Windows, MacOSX or Linux.
+
+1. Install [GLUE](http://tools.glue.cvr.ac.uk), based on the [GLUE installation instructions](http://tools.glue.cvr.ac.uk/#/installation). 
+2. Once GLUE is installed and working, you should download Offline Parvoviridae-GLUE and load it in to GLUE.
+3. Clone the Parvoviridae-GLUE repository into your `gluetools/projects` directory.
+4. Within the `gluetools/projects/Parvoviridae-GLUE` directory, start GLUE and build the Parvoviridae-GLUE extension by issuing the following command in GLUE:
+
+```
+Mode path: /
+GLUE> run file parvoviridae.glue
+```
+5. This should run to completion and produce the `OK` result.
+
+
+## Contributors
+
+Robert J. Gifford (robert.gifford@glasgow.ac.uk)
+
+Josh Singer (josh.singer@glasgow.ac.uk)
+
+
+## License
+
+The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
