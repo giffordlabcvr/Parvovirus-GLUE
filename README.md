@@ -19,8 +19,8 @@ Parvoviridae-GLUE can be used a straightforward data repository, with no require
 In addition, the Parvoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality.
 So far we have used Parvoviridae-GLUE to develop the following GLUE extension projects. 
 
-[Parvoviridae-EVE](https://giffordlabcvr.github.io/Parvoviridae-EVE/) - a GLUE project for endogenous parvoviral elements.
-[Dependoparvovirus-EVE](https://giffordlabcvr.github.io/Dependoparvovirus-EVE/) - a GLUE project for dependoparvoviruses, focussed on their potential applications as gene therapy vectors. 
+* [Parvoviridae-EVE](https://giffordlabcvr.github.io/Parvoviridae-EVE/) - a GLUE project for endogenous parvoviral elements.
+* [Dependoparvovirus-EVE](https://giffordlabcvr.github.io/Dependoparvovirus-EVE/) - a GLUE project for dependoparvoviruses, focussed on their potential applications as gene therapy vectors. 
 
 Note that Parvoviridae-GLUE serves as a data repository for circovirus reference data, and these data can be accessed here, without any requirement to install GLUE. 
 
