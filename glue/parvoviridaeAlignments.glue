@@ -20,7 +20,7 @@
     import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/parvovirinae/erythroparvovirus/erythro-genome.fna
     import AL_TETRA_UNCONSTRAINED   -f alignments/internal/parvovirinae/tetraparvovirus/tetra-genome.fna
     import AL_COPI_UNCONSTRAINED    -f alignments/internal/parvovirinae/copiparvovirus/copi-genome.fna
-    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/parvovirinae/chapparvovirus/chap-genome.fna
+    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/unplaced/chapparvovirus/chap-genome.fna
 
     #~# Multiple genera alignments
 

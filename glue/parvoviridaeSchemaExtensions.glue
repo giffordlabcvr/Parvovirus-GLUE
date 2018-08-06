@@ -7,7 +7,7 @@
     create field type VARCHAR 20
     create field host_sci_name VARCHAR 100
     create field length INTEGER
-
+    create field gb_lab_construct BOOLEAN
   exit
 
   table alignment
