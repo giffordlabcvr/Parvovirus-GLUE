@@ -15,6 +15,16 @@
     <primaryAccession>NC_001662</primaryAccession>
     <!-- Human parvovirus B19 (Erythroparvovirus) -->
     <primaryAccession>NC_000883</primaryAccession>
+    <!-- Chipmunk_parvovirus (Erythroparvovirus) -->
+    <primaryAccession>GQ200736</primaryAccession>
+    <!-- Rhesus macaque parvovirus (Erythroparvovirus) -->
+    <primaryAccession>AF221122</primaryAccession>
+    <!-- Pig-tailed macaque parvovirus (Erythroparvovirus) -->
+    <primaryAccession>AF221123</primaryAccession>
+    <!-- Simian parvovirus (Erythroparvovirus) -->
+    <primaryAccession>U26342</primaryAccession>
+    <!-- Bovine_parvovirus 3  (Erythroparvovirus) -->
+    <primaryAccession>AF406967</primaryAccession>
     <!-- Adeno-associated virus-2 (Dependovirus) -->
     <primaryAccession>NC_001401</primaryAccession>
     <!-- Snake parvovirus 1 (Dependovirus) -->
@@ -47,6 +57,16 @@
     <primaryAccession>NC_031695</primaryAccession>
     <!-- Canine bocavirus 1 -->
     <primaryAccession>NC_020499</primaryAccession>
+    <!-- Canine bocavirus 1 -->
+    <primaryAccession>NC_020499</primaryAccession>
+    <!-- California sea lion bocavirus 1 -->
+    <primaryAccession>JN420361</primaryAccession>
+    <!-- Rhinolophus pusillus bocaparvovirus 1 -->
+    <primaryAccession>MF682922</primaryAccession>
+    <!-- Rousettus leschenaultii bocaparvovirus 1 -->
+    <primaryAccession>MF682925</primaryAccession>   
+     <!-- Rhinolophus pusillus bocaparvovirus 1 -->
+    <primaryAccession>MF682923</primaryAccession> 
     <!-- Megabat bufavirus 1 -->
     <primaryAccession>NC_029797</primaryAccession>
     <!-- Raccoon dog amdovirus -->
