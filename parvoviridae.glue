@@ -15,8 +15,11 @@ project parvoviridae
   # create modules
   run file glue/parvoviridaeModules.glue
 
-  # Import exogenous sources and data 
+  # Import sources 
   import source sources/ncbi-refseqs
+  import source sources/parvo-fasta
+
+  # Import data 
   run script glue/loadExogenousData.js
   module genbankXmlPopulator populate
 
@@ -35,7 +38,7 @@ project parvoviridae
   module featureLocationTextToGlue transform tabular/reference_feature_locations.txt -r
   
   # Import alignments
-  #run file glue/parvoviridaeAlignments.glue
+  run file glue/parvoviridaeAlignments.glue
 
   # Import alignment tree
   #run file glue/parvoviridaeAlignmentTree.glue
