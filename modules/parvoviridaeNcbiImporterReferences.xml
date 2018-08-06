@@ -35,6 +35,19 @@
     <primaryAccession>NC_006259</primaryAccession>
     <!-- Eidolon helvum parvovirus 1 (Tetraparvo) -->
     <primaryAccession>NC_016744</primaryAccession>
+    <!-- Deer tetraparvovirus (Tetraparvo) -->
+    <primaryAccession>NC_031670</primaryAccession>
+	<primaryAccession>JF504699</primaryAccession>
+	<primaryAccession>EU200669</primaryAccession>
+	<primaryAccession>EU200677</primaryAccession>
+	<primaryAccession>HQ113143</primaryAccession>
+	<primaryAccession>AY622943</primaryAccession>
+	<primaryAccession>JQ037753</primaryAccession>
+	<primaryAccession>MG745671</primaryAccession>
+	<primaryAccession>GU938300</primaryAccession>
+	<primaryAccession>KT965075</primaryAccession>    
+	<primaryAccession>MG745669</primaryAccession>
+   
     <!-- Chicken parvovirus ABU-P1 (Aveparvovirus) -->
     <primaryAccession>NC_024452</primaryAccession>
     <!-- Aedes albopictus densovirus 2 (Brevidensovirus) -->

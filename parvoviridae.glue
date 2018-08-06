@@ -41,7 +41,7 @@ project parvoviridae
   run file glue/parvoviridaeAlignments.glue
 
   # Import alignment tree
-  #run file glue/parvoviridaeAlignmentTree.glue
+  run file glue/parvoviridaeAlignmentTree.glue
 
   # Validate
   validate

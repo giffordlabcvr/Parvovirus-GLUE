@@ -14,24 +14,23 @@
     exit
 
   alignment AL_Parvovirinae
-    extract child AL_Protoparvovirus --refName CPV
-    demote member AL_Protoparvovirus --whereClause "sequence.genus = 'Protoparvovirus'" 
-    extract child AL_Shaparvovirus --refName CPV
-    demote member AL_Shaparvovirus --whereClause "sequence.genus = 'Shaparvovirus'" 
     extract child AL_Amdoparvovirus --refName CPV
     demote member AL_Amdoparvovirus --whereClause "sequence.genus = 'Amdoparvovirus'" 
-    #extract child AL_Dependoparvovirus --refName AAV2
-    #demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus'" 
+    extract child AL_Protoparvovirus --refName CPV
+    demote member AL_Protoparvovirus --whereClause "sequence.genus = 'Protoparvovirus'" 
+    extract child AL_Dependoparvovirus --refName AAV2
+    demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus'" 
+    extract child AL_Erythroparvovirus --refName B19
+    demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus'" 
+    extract child AL_Bocaparvovirus --refName Eh-BtPV-1
+    demote member AL_Bocaparvovirus --whereClause "sequence.genus = 'Bocaparvovirus'" 
+    extract child AL_Tetraparvovirus --refName Eh-BtPV-1
+    demote member AL_Tetraparvovirus --whereClause "sequence.genus = 'Tetraparvovirus'" 
     extract child AL_Chapparvovirus --refName ChPV.DesRot
     demote member AL_Chapparvovirus --whereClause "sequence.genus = 'Chapparvorvirus'" 
-    #extract child AL_Erythroparvovirus --refName B19
-    #demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus'" 
+
     #extract child AL_Copiparvovirus --refName BPV2
     #demote member AL_Copiparvovirus --whereClause "sequence.genus = 'Copiparvovirus'" 
-    #extract child AL_Tetraparvovirus --refName Eh-BtPV-1
-    #demote member AL_Tetraparvovirus --whereClause "sequence.genus = 'Tetraparvovirus'" 
-    #extract child AL_Bocaparvovirus --refName Eh-BtPV-1
-    #demote member AL_Bocaparvovirus --whereClause "sequence.genus = 'Bocaparvovirus'" 
     exit
  
   alignment AL_Densovirinae
@@ -58,11 +57,19 @@
     derive segments AL_AMDO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
-  #alignment AL_Dependoparvovirus
-  #  derive segments AL_DEPENDO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-  #  exit
-
-  alignment AL_Chapparvovirus
-    derive segments AL_CHAP_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  alignment AL_Dependoparvovirus
+    derive segments AL_DEPENDO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
+
+  alignment AL_Bocaparvovirus
+    derive segments AL_BOCA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Tetraparvovirus
+    derive segments AL_TETRA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  #alignment AL_Chapparvovirus
+  #  derive segments AL_CHAP_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  #  exit
 
