@@ -6,9 +6,7 @@ This is Parvoviridae-GLUE: a GLUE project for the [parvoviruses](https://viralzo
 
 [GLUE](http://tools.glue.cvr.ac.uk) is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
 
-Parvoviruses are small, non-enveloped viruses with circular, single stranded DNA (ssDNA) genomes ~1.8 to ~2.1 kilobases (kb) in length. Parvovirus genomes encode two major proteins: replication-associated protein (Rep) and capsid (Cap), responsible for genome replication and particle formation respectively. Transcription is bidirectional with the rep gene being encoded in the forward sense, and the cap gene being encoded in the complementary sense.
-
-This [GLUE](http://tools.glue.cvr.ac.uk) project contains reference information for the parvovirus family, including:
+ This [GLUE](http://tools.glue.cvr.ac.uk) project contains reference information for the parvovirus family, including:
 
 * A set of parvovirus reference sequences linked to auxiliary data.
 * A comprehensive list of parvovirus genome features and their specific locations on full genome reference sequences.
