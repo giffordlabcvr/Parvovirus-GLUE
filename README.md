@@ -29,15 +29,14 @@ Note that Parvoviridae-GLUE serves as a data repository for circovirus reference
 You can install Parvoviridae-GLUE on computers running Windows, MacOSX or Linux.
 
 1. Install [GLUE](http://tools.glue.cvr.ac.uk), based on the [GLUE installation instructions](http://tools.glue.cvr.ac.uk/#/installation). 
-2. Once GLUE is installed and working, you should download Offline Parvoviridae-GLUE and load it in to GLUE.
-3. Clone the Parvoviridae-GLUE repository into your `gluetools/projects` directory.
-4. Within the `gluetools/projects/Parvoviridae-GLUE` directory, start GLUE and build the Parvoviridae-GLUE extension by issuing the following command in GLUE:
+2. Once GLUE is installed and working, clone the Parvoviridae-GLUE repository into your `gluetools/projects` directory.
+3. Within the `gluetools/projects/Parvoviridae-GLUE` directory, start GLUE and build the Parvoviridae-GLUE extension by issuing the following command in GLUE:
 
 ```
 Mode path: /
 GLUE> run file parvoviridae.glue
 ```
-5. This should run to completion and produce the `OK` result.
+4. This should run to completion and produce the `OK` result.
 
 
 ## Contributors
