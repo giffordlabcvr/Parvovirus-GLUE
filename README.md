@@ -30,7 +30,7 @@ You can install Parvoviridae-GLUE on computers running Windows, MacOSX or Linux.
 
 1. Install [GLUE](http://tools.glue.cvr.ac.uk), based on the [GLUE installation instructions](http://tools.glue.cvr.ac.uk/#/installation). 
 2. Once GLUE is installed and working, clone the Parvoviridae-GLUE repository into your `gluetools/projects` directory.
-3. Within the `gluetools/projects/Parvoviridae-GLUE` directory, start GLUE and build the Parvoviridae-GLUE extension by issuing the following command in GLUE:
+3.  Within the `gluetools/projects/Parvoviridae-GLUE` directory, start GLUE and build the project by issuing the command shown below:
 
 ```
 Mode path: /
