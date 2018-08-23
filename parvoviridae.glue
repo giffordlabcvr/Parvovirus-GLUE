@@ -16,8 +16,7 @@ project parvoviridae
   run file glue/parvoviridaeModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs
-  import source sources/parvo-fasta
+  run file glue/parvoviridaeSources.glue
 
   # Import data 
   run script glue/loadExogenousData.js
