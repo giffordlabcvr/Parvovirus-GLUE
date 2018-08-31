@@ -5,3 +5,4 @@
   create module -f modules/rootAlignmentImporter.xml 
   create module -f modules/unconstrainedAlignmentImporter.xml 
   create module -f modules/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility
+  create module -f modules/fastaExporter.xml fastaExporter

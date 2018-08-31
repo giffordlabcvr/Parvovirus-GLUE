@@ -1,3 +1,3 @@
 <fastaExporter>
-    <idTemplate>${sequenceID}.${virus_short_name}</idTemplate>
+    <idTemplate>${sequenceID}.${name}</idTemplate>
 </fastaExporter>
