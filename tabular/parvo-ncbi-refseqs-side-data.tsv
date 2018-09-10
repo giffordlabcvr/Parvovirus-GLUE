@@ -1,4 +1,9 @@
 accession-ID	virus_name	virus_full_name	virus_subfamily	virus_genus	source
+Cebus_imitator.1               	Cebus_imitator.1               		Chapparvovirinae	Chapparvovirus	fasta
+Mesitornis_unicolor.1          	Mesitornis_unicolor.1          		Chapparvovirinae	Chapparvovirus	fasta
+Myotis_davidii.1               	Myotis_davidii.1               		Chapparvovirinae	Chapparvovirus	fasta
+Protobothrops_mucrosquamatus.1 	Protobothrops_mucrosquamatus.1 		Chapparvovirinae	Chapparvovirus	fasta
+Serinus_canaria.1           	Serinus_canaria.1           		Chapparvovirinae	Chapparvovirus	fasta
 NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
 NC_000936	PfDNV	Periplaneta fuliginosa densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
 NC_004285	AalDNV-2	Aedes albopictus densovirus 2	Densovirinae	Brevidensovirus	ncbi-refseqs
