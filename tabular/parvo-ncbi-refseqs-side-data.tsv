@@ -1,75 +1,74 @@
 accession-ID	virus_name	virus_full_name	virus_subfamily	virus_genus	source
-NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	ncbi-refseqs
-NC_000936	PfDNV	Periplaneta fuliginosa densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
-NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	ncbi-refseqs
-NC_001510	MVM1	Minute virus of mice	Parvovirinae	Protoparvovirus	ncbi-refseqs
-NC_001539	CPV	Canine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
-NC_001540	BPV	Bovine parvovirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
-NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
-NC_001701	GPV	Goose parvovirus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
-NC_001718	PPV	Porcine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
-NC_002190	IHHN	Infectious hypodermal and hematopoietic necrosis virus	Densovirinae	Penstyldensovirus	ncbi-refseqs
-NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
-NC_004285	AalDNV-2	Aedes albopictus densovirus 2	Densovirinae	Brevidensovirus	ncbi-refseqs
-NC_004287	BmDNV-5	Bombyx mori densovirus 5	Densovirinae	Iteradensovirus	ncbi-refseqs
-NC_004442	CMV	Canine minute virus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
-NC_006147	MDPV	Muscovy duck parvovirus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
-NC_006148	SnakePV	Snake parvovirus 1	Parvovirinae	Dependoparvovirus	ncbi-refseqs
-NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	ncbi-refseqs
-NC_012042					ncbi-refseqs
-NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Densovirinae	Hepandensovirus	ncbi-refseqs
-NC_015718					ncbi-refseqs
-NC_016744	Eh-BtPV-1	Eidolon helvum parvovirus 1	Parvovirinae	Tetraparvovirus	ncbi-refseqs
-NC_020499					ncbi-refseqs
-NC_024452	ChPV	Chicken parvovirus ABU-P1	Parvovirinae	Aveparvovirus	ncbi-refseqs
-NC_024453	PBoV	Porcine bocavirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
-NC_025825					ncbi-refseqs
-NC_025891					ncbi-refseqs
-NC_026251	SesaPV-1	Sesavirus CSL10538	Parvovirinae	Unclassified	ncbi-refseqs
-NC_026815	MpBuV	Mpulungu bufavirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
-NC_028136					ncbi-refseqs
-NC_029797					ncbi-refseqs
-NC_030837					ncbi-refseqs
-NC_031450					ncbi-refseqs
-NC_031670					ncbi-refseqs
-NC_031695					ncbi-refseqs
-NC_034445					ncbi-refseqs
-AF221122					ncbi-refseqs
-AF221123					ncbi-refseqs
-AF321230					ncbi-refseqs
-AF406967					ncbi-refseqs
-AY622943					ncbi-refseqs
 Cebus_imitator.1               	ChPV-5	Capuchin-associated chapparvovirus	Chapparvovirinae	Chapparvovirus	fasta
-D00623					ncbi-refseqs
-DQ335246	CAV	Caprine adeno-associated virus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
-EU200669					ncbi-refseqs
-EU200677					ncbi-refseqs
-EU659112					ncbi-refseqs
-EU659120					ncbi-refseqs
-GQ200736					ncbi-refseqs
-GU938300					ncbi-refseqs
-HQ113143					ncbi-refseqs
-JF429835					ncbi-refseqs
-JF504699					ncbi-refseqs
-JN202450					ncbi-refseqs
-JN420361					ncbi-refseqs
-JX505432					ncbi-refseqs
-JX885610					ncbi-refseqs
-KJ396349					ncbi-refseqs
-KJ396350					ncbi-refseqs
-KJ396352					ncbi-refseqs
-KJ641666					ncbi-refseqs
-KT965075					ncbi-refseqs
-KX907333	ChPV-1.DesRot	Vampire bat-associated chapparvovirus	Parvovirinae	Chapparvovirus	ncbi-refseqs
 Mesitornis_unicolor.1          	ChPV-6	Mesite-associated chapparvovirus	Chapparvovirinae	Chapparvovirus	fasta
-MF682922					ncbi-refseqs
-MF682923					ncbi-refseqs
-MF682925					ncbi-refseqs
-MG745669					ncbi-refseqs
-MG745671					ncbi-refseqs
-MG972981					ncbi-refseqs
 Myotis_davidii.1               	ChPV-7	Myotis-associated chapparvovirus	Chapparvovirinae	Chapparvovirus	fasta
 Protobothrops_mucrosquamatus.1 	ChPV-8	Viper-associated chapparvovirus	Chapparvovirinae	Chapparvovirus	fasta
 Serinus_canaria.1           	ChPV-9	Canary-associated chapparvovirus	Chapparvovirinae	Chapparvovirus	fasta
-U26342					ncbi-refseqs
+KX907333	ChPV.DesRot	Vampire bat chapparvovirus	Chapparvovirinae	Chapparvovirus	ncbi-refseqs
+JX885610	EhPV-2	Eidolon helvum parvovirus 2 	Chapparvovirinae	Chapparvovirus	ncbi-refseqs
+NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
+NC_000936	PfDNV	Periplaneta fuliginosa densovirus	Densovirinae	Ambidensovirus	ncbi-refseqs
+NC_004285	AalDNV-2	Aedes albopictus densovirus 2	Densovirinae	Brevidensovirus	ncbi-refseqs
+NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Densovirinae	Hepandensovirus	ncbi-refseqs
+NC_004287	BmDNV-5	Bombyx mori densovirus 5	Densovirinae	Iteradensovirus	ncbi-refseqs
+NC_015718	HaDV2	Helicoverpa armigera densovirus	Densovirinae	Iteradensovirus	ncbi-refseqs
+NC_002190	IHHN	Infectious hypodermal and hematopoietic necrosis virus	Densovirinae	Penstyldensovirus	ncbi-refseqs
+NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+JN202450	GFAV ChPV	Gray fox amdovirus chicken parvovirus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+KJ396349	RFAV	Raccoon dog amdovirus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+KJ396352	RFAV	Arctic fox amdovirus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+NC_025825	RFAV	Raccoon dog amdovirus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+NC_034445	SKAV	Skunk amdoparvovirus	Parvovirinae	Amdoparvovirus	ncbi-refseqs
+NC_024452	ChPV	Chicken parvovirus ABU-P1	Parvovirinae	Aveparvovirus	ncbi-refseqs
+NC_001540	BPV	Bovine parvovirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_020499	CBoV	Canine bocavirus 1	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_004442	CMV	Canine minute virus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+JN420361	CslBoV1	California sea lion bocavirus  1	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_012042	HBoV	Human bocavirus 2c PK	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_024453	PBoV	Porcine bocavirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+JF429835	PBoV4-1	Porcine bocavirus 4-1	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+MF682925	Rol-BtBoV1	Rousettus leschenaultii bocaparvovirus 1	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+MF682922	Rp-BtBoV1	Rhinolophus pusillus bocaparvovirus 1	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+MF682923	Rp-BtBoV2	Rhinolophus pusillus bocaparvovirus 2	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_031695	RsbBoV	Rhinolophus sinicus bocaparvovirus	Parvovirinae	Bocaparvovirus	ncbi-refseqs
+NC_029797	MgBuV	Megabat bufavirus	Parvovirinae	Bufavirus	ncbi-refseqs
+NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	ncbi-refseqs
+NC_031450	PmDNV	Parus major densovirus	Parvovirinae	Densovirus	ncbi-refseqs
+NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+DQ335246	CAV	Caprine adeno-associated virus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_001701	GPV	Goose parvovirus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_006147	MDPV	Muscovy duck parvovirus	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_006148	SnakePV	Snake parvovirus 1	Parvovirinae	Dependoparvovirus	ncbi-refseqs
+NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+AF406967	BPV3	Bovine parvovirus 3	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+GQ200736	ChpPV	Chipmunk parvovirus	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+AF221123	PtMPV	Pig-tailed macaque parvovirus	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+AF221122	RhMPV	Rhesus macaque parvovirus	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+U26342	SPV 	Simian parvovirus	Parvovirinae	Erythroparvovirus	ncbi-refseqs
+NC_026251	Sesa	Sesavirus	Parvovirinae	Marinoparvovirus	ncbi-refseqs
+KJ641666	BtHp-PV	Bat parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_001539	CPV	Canine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+EU659120	CPV	Canine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+EU659112	FPV-4	Feline panleukopenia virus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+JX505432	H-1	H-1 parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
 U34255	HamsterPV	Hamster parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+AF321230	KRV	Kilham rat virus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_026815	MpBuV	Mpulungu bufavirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_001510	MVM1	Minute virus of mice	Parvovirinae	Protoparvovirus	ncbi-refseqs
+D00623	pPPV	Porcine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_001718	PPV	Porcine parvovirus	Parvovirinae	Protoparvovirus	ncbi-refseqs
+NC_030837	SSOV	Sea otter parvovirus 1	Parvovirinae	Protoparvovirus	ncbi-refseqs
+KT965075	Zsana/2013/HUN 	Protoparvovirus Zsana	Parvovirinae	Protoparvovirus	ncbi-refseqs
+JF504699	 O-PARV4	Ovine hokovirus	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+MG745669	-	Rodent tetraparvovirus	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+MG745671	-	Opossum tetraparvovirus	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+MG972981	-	Opossum tetraparvovirus	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+NC_031670	-	Tetraparvovirus sp	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+EU200669	B-PARV4-1	Bovine hokovirus 1	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+NC_028136	B-PARV4-1	Ungulate tetraparvovirus 1 	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+HQ113143	Ch-PARV4	Chimpanzee parv4	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+GU938300	CnP-PARV4	Porcine Cn virus 	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+NC_016744	Eh-BtPV-1	Eidolon helvum parvovirus 1	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+EU200677	P-PARV4	Porcine hokovirus	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+AY622943	PARV4G1 	Human parvovirus 4 G1	Parvovirinae	Tetraparvovirus	ncbi-refseqs
+NC_025891	Sl.L-PV-1	Slow loris parvovirus 1	Parvovirinae	Tetraparvovirus	ncbi-refseqs

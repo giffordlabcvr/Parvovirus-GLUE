@@ -11,6 +11,8 @@
 	demote member AL_Parvovirinae --whereClause "sequence.subfamily = 'Parvovirinae'" 
     extract child AL_Densovirinae --refName JcDNV
 	demote member AL_Densovirinae --whereClause "sequence.subfamily = 'Densovirinae'" 
+    extract child AL_Chapparvovirinae --refName ChPV.DesRot
+	demote member AL_Chapparvovirinae --whereClause "sequence.subfamily = 'Chapparvovirinae'" 
     exit
 
   alignment AL_Parvovirinae
@@ -26,8 +28,6 @@
     demote member AL_Bocaparvovirus --whereClause "sequence.genus = 'Bocaparvovirus'" 
     extract child AL_Tetraparvovirus --refName Eh-BtPV-1
     demote member AL_Tetraparvovirus --whereClause "sequence.genus = 'Tetraparvovirus'" 
-    extract child AL_Chapparvovirus --refName ChPV.DesRot
-    demote member AL_Chapparvovirus --whereClause "sequence.genus = 'Chapparvorvirus'" 
     extract child AL_Copiparvovirus --refName BPV2
     demote member AL_Copiparvovirus --whereClause "sequence.genus = 'Copiparvovirus'" 
     exit
@@ -43,6 +43,11 @@
     demote member AL_Penstyldensovirus --whereClause "sequence.genus = 'Penstyldensovirus'" 
     extract child AL_Hepandensovirus --refName FCDNV
     demote member AL_Hepandensovirus --whereClause "sequence.genus = 'Hepandensovirus'" 
+    exit
+
+  alignment AL_Chapparvovirinae
+    extract child AL_Chapparvovirus --refName ChPV.DesRot
+    demote member AL_Chapparvovirus --whereClause "sequence.genus = 'Chapparvorvirus'" 
     exit
 
 
