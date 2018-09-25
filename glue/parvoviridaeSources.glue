@@ -1,7 +1,7 @@
   # Import NCBI sources 
   import source sources/ncbi-refseqs
 
-  # Import EVE FASTA sources 
+  # Import FASTA sources 
   import source sources/fasta/chapparvovirus
   import source sources/fasta/erythroparvovirus
 

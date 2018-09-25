@@ -1,4 +1,4 @@
-<!-- Parvoviridae genus reference sequences from NCBI -->
+<!-- Parvoviridae reference sequences from NCBI -->
 <ncbiImporter>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
