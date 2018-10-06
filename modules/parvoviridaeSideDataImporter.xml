@@ -23,6 +23,12 @@
         <property>subfamily</property>
     </textFileColumn>
 
+    <textFileColumn>
+        <header>host_species</header>
+        <property>host_sci_name</property>
+    </textFileColumn>
+
+
     <skipMissing>true</skipMissing>
 
 </textFilePopulator>

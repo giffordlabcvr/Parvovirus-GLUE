@@ -16,7 +16,7 @@
     exit
 
   alignment AL_Parvovirinae
-    extract child AL_Amdoparvovirus --refName CPV
+    extract child AL_Amdoparvovirus --refName AMDV
     demote member AL_Amdoparvovirus --whereClause "sequence.genus = 'Amdoparvovirus'" 
     extract child AL_Protoparvovirus --refName CPV
     demote member AL_Protoparvovirus --whereClause "sequence.genus = 'Protoparvovirus'" 
