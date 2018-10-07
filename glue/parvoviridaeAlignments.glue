@@ -14,13 +14,13 @@
     
 	# Parvovirinae
     import AL_PROTO_UNCONSTRAINED   -f alignments/internal/parvovirinae/protoparvovirus/proto-genome.fna
-    #import AL_AMDO_UNCONSTRAINED    -f alignments/internal/parvovirinae/amdoparvovirus/amdo-genome.fna
-    #import AL_DEPENDO_UNCONSTRAINED -f alignments/internal/parvovirinae/dependoparvovirus/dependo-genome.fna
-    #import AL_BOCA_UNCONSTRAINED    -f alignments/internal/parvovirinae/bocaparvovirus/boca-genome.fna
-    #import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/parvovirinae/erythroparvovirus/erythro-genome.fna
-    #import AL_TETRA_UNCONSTRAINED   -f alignments/internal/parvovirinae/tetraparvovirus/tetra-genome.fna
-    #import AL_COPI_UNCONSTRAINED    -f alignments/internal/parvovirinae/copiparvovirus/copi-genome.fna
-    #import AL_CHAP_UNCONSTRAINED    -f alignments/internal/unplaced/chapparvovirus/chap-genome.fna
+    import AL_AMDO_UNCONSTRAINED    -f alignments/internal/parvovirinae/amdoparvovirus/amdo-genome.fna
+    import AL_DEPENDO_UNCONSTRAINED -f alignments/internal/parvovirinae/dependoparvovirus/dependo-genome.fna
+    import AL_BOCA_UNCONSTRAINED    -f alignments/internal/parvovirinae/bocaparvovirus/boca-genome.fna
+    import AL_TETRA_UNCONSTRAINED   -f alignments/internal/parvovirinae/tetraparvovirus/tetra-genome.fna
+    import AL_COPI_UNCONSTRAINED    -f alignments/internal/parvovirinae/copiparvovirus/copi-genome.fna
+    import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/parvovirinae/erythroparvovirus/erythro-genome.fna
+    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/unplaced/chapparvovirus/chap-genome.fna
 
     #~# Multiple genera alignments
 

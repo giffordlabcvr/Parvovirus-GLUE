@@ -31,9 +31,6 @@
   create reference GPV        		ncbi-refseqs NC_001701
   create reference MDPV       		ncbi-refseqs NC_006147 
 
-  # Chapparvovirus
-  create reference ChPV.DesRot      ncbi-refseqs KX907333
-
   # Erythroparvovirus
   create reference B19     			ncbi-refseqs NC_000883
 
@@ -62,4 +59,8 @@
   # Hepandensovirus
   create reference FCDNV   			ncbi-refseqs NC_014357
 
+  ## Chapparvoviruses 
+
+  # Chapparvovirus
+  create reference Mk-PV            ncbi-refseqs MH670587
 

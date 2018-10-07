@@ -11,7 +11,7 @@
 	demote member AL_Parvovirinae --whereClause "sequence.subfamily = 'Parvovirinae'" 
     extract child AL_Densovirinae --refName JcDNV
 	demote member AL_Densovirinae --whereClause "sequence.subfamily = 'Densovirinae'" 
-    extract child AL_Chapparvovirinae --refName ChPV.DesRot
+    extract child AL_Chapparvovirinae --refName Mk-PV
 	demote member AL_Chapparvovirinae --whereClause "sequence.subfamily = 'Chapparvovirinae'" 
     exit
 
@@ -46,7 +46,7 @@
     exit
 
   alignment AL_Chapparvovirinae
-    extract child AL_Chapparvovirus --refName ChPV.DesRot
+    extract child AL_Chapparvovirus --refName Mk-PV
     demote member AL_Chapparvovirus --whereClause "sequence.genus = 'Chapparvorvirus'" 
     exit
 
