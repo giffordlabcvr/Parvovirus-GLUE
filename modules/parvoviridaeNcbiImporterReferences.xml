@@ -5,12 +5,25 @@
   <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
+    <!-- Chimpanzee parv4 isolate PT-P48 -->   	
+	<primaryAccession>AY622943</primaryAccession>
+    <!-- Kilham rat virus -->
+    <primaryAccession>AF321230</primaryAccession>
+    <!-- Feline panleukopenia virus -->
+    <primaryAccession>EU659112</primaryAccession>
+    <!-- Bovine hokovirus strain HK1 -->   
+	<primaryAccession>EU200669</primaryAccession>
+    <!-- Porcine hokovirus strain HK7 -->   
+	<primaryAccession>EU200677</primaryAccession>
+
     <!-- Minute virus of mice (Protoparvovirus) -->
     <primaryAccession>NC_001510</primaryAccession>
     <!-- Mpulungu bufavirus (Bufa) -->
     <primaryAccession>NC_026815</primaryAccession>
     <!-- Adeno-associated virus-1 (Dependovirus) -->
     <primaryAccession>NC_030837</primaryAccession>
+    <!-- Skunk amdoparvovirus strain SK-23 -->
+    <primaryAccession>NC_034445</primaryAccession>
     <!-- Aleutian mink disease virus (Amdoparvovirus) -->
     <primaryAccession>NC_001662</primaryAccession>
     <!-- Human parvovirus B19 (Erythroparvovirus) -->
@@ -36,20 +49,7 @@
     <!-- Eidolon helvum parvovirus 1 (Tetraparvo) -->
     <primaryAccession>NC_016744</primaryAccession>
     <!-- Deer tetraparvovirus (Tetraparvo) -->
-    <primaryAccession>NC_031670</primaryAccession>
-    
-	<primaryAccession>JF504699</primaryAccession>
-	<primaryAccession>EU200669</primaryAccession>
-	<primaryAccession>EU200677</primaryAccession>
-	<primaryAccession>HQ113143</primaryAccession>
-	<primaryAccession>AY622943</primaryAccession>
-	<primaryAccession>MG745671</primaryAccession>
-	<primaryAccession>GU938300</primaryAccession>
-	<primaryAccession>KT965075</primaryAccession>    
-	<primaryAccession>MG745669</primaryAccession>
-	<primaryAccession>JF429835</primaryAccession>
-	<primaryAccession>MG972981</primaryAccession>
-  
+    <primaryAccession>NC_031670</primaryAccession>  
     <!-- Chicken parvovirus ABU-P1 (Aveparvovirus) -->
     <primaryAccession>NC_024452</primaryAccession>
     <!-- Aedes albopictus densovirus 2 (Brevidensovirus) -->
@@ -84,8 +84,6 @@
     <primaryAccession>MF682923</primaryAccession> 
     <!-- Megabat bufavirus 1 -->
     <primaryAccession>NC_029797</primaryAccession>
-    <!-- Raccoon dog amdovirus -->
-    <primaryAccession>KJ396349</primaryAccession>
     <!-- Sea lion sesavirus -->
     <primaryAccession>NC_026251</primaryAccession>
     <!-- Sea otter parvovirus -->
@@ -116,36 +114,48 @@
     <primaryAccession>NC_006147</primaryAccession>
     <!-- Canine parvovirus -->
     <primaryAccession>NC_001539</primaryAccession>
-    <!-- Canine parvovirus -->
-    <primaryAccession>EU659120</primaryAccession>
     <!-- Canine minute virus (Bocaparvovirus) -->
     <primaryAccession>NC_004442</primaryAccession>
     <!-- Fenneropenaeus chinensis hepatopancreatic densovirus (Hepandensovirus) -->
     <primaryAccession>NC_014357</primaryAccession>
+
     <!-- Infectious hypodermal and hematopoietic necrosis virus (Penstyldensovirus) -->
     <primaryAccession>NC_002190</primaryAccession>
     <!-- Desmodus rotundus Chapparvovirus 1 (Chappaparvovirus) -->
     <primaryAccession>KX907333</primaryAccession>
-    <!-- Hamster parvovirus DNA -->
-    <primaryAccession>U34255</primaryAccession>
-    <!-- Kilham rat virus -->
-    <primaryAccession>AF321230</primaryAccession>
+    <!-- Raccoon dog amdovirus isolate HS-R -->
+    <primaryAccession>NC_025825</primaryAccession>
+    <!-- Arctic fox amdovirus isolate NA-F -->
+    <primaryAccession>KJ396352</primaryAccession>
+
+    <!-- Parvovirus YX-2010/CHN isolate CnPPV_JH13 -->
+	<primaryAccession>GU938300</primaryAccession>
+    <!-- Human parvovirus 4 G1 -->   	
+	<primaryAccession>MG745671</primaryAccession>
+    <!-- Chimpanzee parv4 isolate PT-P48 -->   
+	<primaryAccession>HQ113143</primaryAccession>
+
+    <!-- Rodent tetraparvovirus isolate 1135 -->   
+	<primaryAccession>MG745669</primaryAccession>
+    <!-- Mouse kidney parvovirus strain Centenary Institute (Chapparvovirus) -->
+	<primaryAccession>MH670587</primaryAccession>    
+    <!-- Porcine bocavirus 4-1  -->
+	<primaryAccession>JF429835</primaryAccession>
+    <!-- Ungulate copiparvovirus 1  -->	
+	<primaryAccession>MG972981</primaryAccession>
+    <!-- Gray fox amdovirus -->
+    <primaryAccession>JN202450</primaryAccession>
+    <!-- Ovine hokovirus 1 -->   
+	<primaryAccession>JF504699</primaryAccession>
+    <!-- Parvovirus YX-2010/CHN isolate CnPPV_JH13 -->
+
     <!-- H-1 parvovirus -->
     <primaryAccession>JX505432</primaryAccession>
     <!-- Bat parvovirus isolate BtHp-PV/GD2012 -->
     <primaryAccession>KJ641666</primaryAccession>
-    <!-- Feline panleukopenia virus -->
-    <primaryAccession>EU659112</primaryAccession>
-    <!-- Raccoon dog amdovirus isolate HS-R -->
-    <primaryAccession>NC_025825</primaryAccession>
-    <!-- Gray fox amdovirus -->
-    <primaryAccession>JN202450</primaryAccession>
-    <!-- Skunk amdoparvovirus strain SK-23 -->
-    <primaryAccession>NC_034445</primaryAccession>
-    <!-- Raccoon dog amdovirus strain -->
-    <primaryAccession>KJ396350</primaryAccession>
-    <!-- Arctic fox amdovirus isolate NA-F -->
-    <primaryAccession>KJ396352</primaryAccession>
+    <!-- Hamster parvovirus DNA -->
+    <primaryAccession>U34255</primaryAccession>
+
     
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
