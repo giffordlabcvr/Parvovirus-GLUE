@@ -54,8 +54,9 @@ AF321230	Kilham	Kilham rat virus	Parvovirinae	Protoparvovirus	Rattus norvegicus
 NC_026815	MpBuV	Mpulungu bufavirus	Parvovirinae	Protoparvovirus	
 NC_001510	MVM1	Minute virus of mice	Parvovirinae	Protoparvovirus	Mus musculus
 NC_001718	PPV	Porcine parvovirus	Parvovirinae	Protoparvovirus	Sus scrofa
+EU659112	FPV	Feline panleukopenia virus	Parvovirinae	Protoparvovirus	Felis catus
 D00623	PPV-NADL-2	Porcine parvovirus	Parvovirinae	Protoparvovirus	Sus scrofa
-NC_026251	Sesavirus	Sesavirus	Parvovirinae	Sesavirus	
+NC_026251	Sesavirus	Sesavirus	Parvovirinae	Marinoparvovirus	
 EU200669	Bovine-TetraPV	Bovine hokovirus	Parvovirinae	Tetraparvovirus	Bos taurus
 HQ113143	Chimp-Parv-4	Chimpanzee parv4	Parvovirinae	Tetraparvovirus	Pan troglodytes
 NC_031670	Deer-TetraPV	Deer tetraparvovirus	Parvovirinae	Tetraparvovirus	
@@ -69,3 +70,4 @@ MG745669	Rodent-TetraPV	Rodent tetraparvovirus	Parvovirinae	Tetraparvovirus
 NC_028136	Ungulate-TetraPV-1	Ungulate tetraparvovirus 1	Parvovirinae	Tetraparvovirus	
 NC_025891	NcPV-1	Slow loris parvovirus 1	Parvovirinae	Unclassified-3	Nycticebus coucang
 NC_030837	OtterPV-1	Sea otter parvovirus 1	Parvovirinae	Unclassified-4	Enhydra lutris
+JX885610	Eh-PV-2	Eidolon helvum parvovirus 2	Parvovirinae	Unclassified-5	Eidolon helvum
