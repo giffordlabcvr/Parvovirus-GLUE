@@ -1,262 +1,263 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
-  <GBSeq_locus>NC_025891</GBSeq_locus>
-  <GBSeq_length>4844</GBSeq_length>
-  <GBSeq_strandedness>double</GBSeq_strandedness>
-  <GBSeq_moltype>DNA</GBSeq_moltype>
-  <GBSeq_topology>linear</GBSeq_topology>
-  <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>11-DEC-2014</GBSeq_update-date>
-  <GBSeq_create-date>11-DEC-2014</GBSeq_create-date>
-  <GBSeq_definition>Slow loris parvovirus 1 strain Buddha_08, complete genome</GBSeq_definition>
-  <GBSeq_primary-accession>NC_025891</GBSeq_primary-accession>
-  <GBSeq_accession-version>NC_025891.1</GBSeq_accession-version>
-  <GBSeq_other-seqids>
-    <GBSeqid>ref|NC_025891.1|</GBSeqid>
-    <GBSeqid>gnl|NCBI_GENOMES|40226</GBSeqid>
-    <GBSeqid>gi|731978912</GBSeqid>
-  </GBSeq_other-seqids>
-  <GBSeq_project>PRJNA270093</GBSeq_project>
-  <GBSeq_keywords>
-    <GBKeyword>RefSeq</GBKeyword>
-  </GBSeq_keywords>
-  <GBSeq_source>Slow loris parvovirus 1</GBSeq_source>
-  <GBSeq_organism>Slow loris parvovirus 1</GBSeq_organism>
-  <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
-  <GBSeq_references>
-    <GBReference>
-      <GBReference_reference>1</GBReference_reference>
-      <GBReference_position>1..4844</GBReference_position>
-      <GBReference_authors>
-        <GBAuthor>Canuti,M.</GBAuthor>
-        <GBAuthor>Williams,C.V.</GBAuthor>
-        <GBAuthor>Gadi,S.R.</GBAuthor>
-        <GBAuthor>Jebbink,M.F.</GBAuthor>
-        <GBAuthor>Oude Munnink,B.B.</GBAuthor>
-        <GBAuthor>Jazaeri Farsani,S.M.</GBAuthor>
-        <GBAuthor>Cullen,J.M.</GBAuthor>
-        <GBAuthor>van der Hoek,L.</GBAuthor>
-      </GBReference_authors>
-      <GBReference_title>Persistent viremia by a novel parvovirus in a slow loris (Nycticebus coucang) with diffuse histiocytic sarcoma</GBReference_title>
-      <GBReference_journal>Front Microbiol 5, 655 (2014)</GBReference_journal>
-      <GBReference_xref>
-        <GBXref>
-          <GBXref_dbname>doi</GBXref_dbname>
-          <GBXref_id>10.3389/fmicb.2014.00655</GBXref_id>
-        </GBXref>
-      </GBReference_xref>
-      <GBReference_pubmed>25520709</GBReference_pubmed>
-      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
-    </GBReference>
-    <GBReference>
-      <GBReference_reference>2</GBReference_reference>
-      <GBReference_position>1..4844</GBReference_position>
-      <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
-      <GBReference_title>Direct Submission</GBReference_title>
-      <GBReference_journal>Submitted (11-DEC-2014) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
-    </GBReference>
-    <GBReference>
-      <GBReference_reference>3</GBReference_reference>
-      <GBReference_position>1..4844</GBReference_position>
-      <GBReference_authors>
-        <GBAuthor>Canuti,M.</GBAuthor>
-        <GBAuthor>Williams,C.V.</GBAuthor>
-        <GBAuthor>Gadi,S.R.</GBAuthor>
-        <GBAuthor>Jebbink,M.F.</GBAuthor>
-        <GBAuthor>Oude Munnink,B.B.</GBAuthor>
-        <GBAuthor>Jazaeri Farsani,S.M.</GBAuthor>
-        <GBAuthor>Cullen,J.</GBAuthor>
-        <GBAuthor>van der Hoek,L.</GBAuthor>
-      </GBReference_authors>
-      <GBReference_title>Direct Submission</GBReference_title>
-      <GBReference_journal>Submitted (08-NOV-2014) Biology, Memorial University of Newfoundland, 232 Elizabeth Ave, St John's, NL A1B 3X9, Canada</GBReference_journal>
-    </GBReference>
-  </GBSeq_references>
-  <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to KP120516.; ##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##; COMPLETENESS: full length.</GBSeq_comment>
-  <GBSeq_feature-table>
-    <GBFeature>
-      <GBFeature_key>source</GBFeature_key>
-      <GBFeature_location>1..4844</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>1</GBInterval_from>
-          <GBInterval_to>4844</GBInterval_to>
-          <GBInterval_accession>NC_025891.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>organism</GBQualifier_name>
-          <GBQualifier_value>Slow loris parvovirus 1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>mol_type</GBQualifier_name>
-          <GBQualifier_value>genomic DNA</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>strain</GBQualifier_name>
-          <GBQualifier_value>Buddha_08</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>host</GBQualifier_name>
-          <GBQualifier_value>Nycticebus coucang</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>taxon:1581151</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>country</GBQualifier_name>
-          <GBQualifier_value>USA: North Carolina</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>collection_date</GBQualifier_name>
-          <GBQualifier_value>2008</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Sl.L-PV-1</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>gene</GBFeature_key>
-      <GBFeature_location>146..1894</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>146</GBInterval_from>
-          <GBInterval_to>1894</GBInterval_to>
-          <GBInterval_accession>NC_025891.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>locus_tag</GBQualifier_name>
-          <GBQualifier_value>RN59_gp1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GeneID:22520968</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>CDS</GBFeature_key>
-      <GBFeature_location>146..1894</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>146</GBInterval_from>
-          <GBInterval_to>1894</GBInterval_to>
-          <GBInterval_accession>NC_025891.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>locus_tag</GBQualifier_name>
-          <GBQualifier_value>RN59_gp1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>nonstructural protein</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>codon_start</GBQualifier_name>
-          <GBQualifier_value>1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>transl_table</GBQualifier_name>
-          <GBQualifier_value>1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>product</GBQualifier_name>
-          <GBQualifier_value>NS1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>protein_id</GBQualifier_name>
-          <GBQualifier_value>YP_009111339.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GeneID:22520968</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>translation</GBQualifier_name>
-          <GBQualifier_value>MTEDRPDLSPLNGKGFWELVIKLVNSPWTENSTLFSKYDWIEFCDLEGSDDPWYDWPEDEIDIYMAILGIKAIKAITRVLRERSKNKTCNYFGQIEQGGEFFHIHLLFEVDGFVSFLLGRMFETLRQTLRNSVYFGYPFEVSSEIAITKVKTGGRNKVQDGSYIVNYLLKKIPPGEVQYAISNIECLRPYCNSVRNRRALLESVPVSVERFSEPIIMKGKTVDKFMQTLQWCVDEGVTSETIWYKKNPASFRSYQVSAQSRAQAKSILTQAKMEIQISKRLSDYLCREPKENELFSENYVSLLFEANGYSASKAAATLARWAAHQSGKRNTIWLWGPPTTGKTLLASAIANCSPMFGNVNWNNANFPFNDCHKQLLIWWEEGSMLQKFVECAKALLGGTSVRVDRKGTDSALVLRTPVIITSNTDMTCVVDGPVKSWEHKEALEDRMIKYNFERRLPMNLRSITEEEIRQFFWFGSCLQCPPLEFLVPPDGCDSETAYQKLSSLFAAPLGDSTIKTPDLNSSRYIDDGDEGPSERSVKRRRLSLCSVSTEEAASAASCLLDLCSGSFSDGSEGGSFREALGN</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>gene</GBFeature_key>
-      <GBFeature_location>2187..4655</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>2187</GBInterval_from>
-          <GBInterval_to>4655</GBInterval_to>
-          <GBInterval_accession>NC_025891.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>locus_tag</GBQualifier_name>
-          <GBQualifier_value>RN59_gp2</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GeneID:22520967</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>CDS</GBFeature_key>
-      <GBFeature_location>2187..4655</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>2187</GBInterval_from>
-          <GBInterval_to>4655</GBInterval_to>
-          <GBInterval_accession>NC_025891.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>locus_tag</GBQualifier_name>
-          <GBQualifier_value>RN59_gp2</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>capsid protein</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>codon_start</GBQualifier_name>
-          <GBQualifier_value>1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>transl_table</GBQualifier_name>
-          <GBQualifier_value>1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>product</GBQualifier_name>
-          <GBQualifier_value>VP1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>protein_id</GBQualifier_name>
-          <GBQualifier_value>YP_009111340.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GeneID:22520967</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>translation</GBQualifier_name>
-          <GBQualifier_value>MSLSDAMRITHYLQSDDFGKDEWDVTGPNSYYSRLNSRRKQVSDRLSERDGERADTDSTTTGPSTGGVVSEVRVPESDTSSGRKLQSIEEEHGSETEEAPQAGDSKRSGFVVPGYKYMGPGNDPDVGPPVNAADTAARDHDLRYAQMQNAGINPYVKYNKADEKMIEELKSNPEADSDLAGNAARAIWKGKERLTDVLDPLLQKVAPDIPAKPLKQSERPPPVQPIPPPPTSPSKRPSSPILDGVPPDKKPKVSIPSSQQEQPSSIVSGVGGSGMTEFASLPGSGGTTHAVDNWNAGCHFGDDFVITTQSRVCLLECREDKYVSIHPSSTEIKNFFCYGYKTPWSYIDLNRIDIHFTPHDWQTLTENYDSIKPVSLSWHIFHVNVKDVSTHSGDTTLADSAIGTVCSFTDDDYTLPYVLGNCQDTLPSYLPYTIYHLPQYAYCTVGGENPKVRYLGSFHVLEHRNCSLHRAGDRIDYNYEFPSDLPSYRLYAYNQGLFHTDNPLHKQYLWQPKKIEKNTQANASQQGYNVTWEQSEANDYKNKCVNFMPGPSLSSVMQGAKDDLKEIYGDQDYRVTHNTSYLGTGSQNHIQHRVSYGDHEYSIRPGPHGHVTTIHGNRGPVYDVLSAVGYTGSTTSTPRFPDESFDLLVNPFSGHTYSLYSDRNVNANAGMQPTAETMYIMPGMVWDDQQLHYESQIWAKIPQTDGHFHSKPFLGGWGLHNPPPMHFLKLLNVPGPPTSSGSPSILNQYCSFVLTYTIKWSVTKSKGTTQFNFQPKVTPPLIPVKGTGGDSTDPTPVYCPTSSGEVIYPDRVPGSRVKYRHM</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-  </GBSeq_feature-table>
-  <GBSeq_sequence>tccaacggtcgacgctccgcccactatgacgacacttccggtttacgacacacgtcacttcctgtttacgacactgtgacgtacttcctgtctgttcgcttataacccccgcgaacgaacgaacgcgctcagaagagactacaacatgacagaggacagacctgatctctctccgctgaacggcaaaggtttttgggaacttgttattaaactagtgaactctccttggactgaaaacagtactctgttttctaaatatgactggatcgaattttgtgaccttgagggatcagatgatccgtggtatgattggcccgaggatgagatcgatatatatatggccattctgggaatcaaagccattaaagcaattacaagagttcttagagaacgatctaaaaacaaaacatgcaattattttggacagatcgaacaaggaggagaattctttcatattcatttgttatttgaagtagatgggtttgttagtttcttactaggtcgcatgttcgaaacccttcggcagactctgagaaattctgtttactttggttatccatttgaagtgtcgagtgaaattgcaattactaaagtgaaaactggggggcgcaataaagtacaggatggtagttacattgtaaattatctcttaaagaagattcctcctggtgaagttcagtacgctatctctaatatagagtgcctcagaccgtattgtaactctgttaggaatagacgtgctttgttagaatctgttcctgtttctgttgaacgtttctcagagccgatcattatgaagggtaaaactgtggataaatttatgcaaaccctgcaatggtgtgtagatgaaggagtgacttctgaaaccatatggtataaaaaaaatcctgctagctttagaagctaccaggtcagtgctcaaagtagagctcaagcaaagagtattttgactcaagctaagatggaaattcaaatttctaaaaggttgtccgattatttgtgtcgggaacctaaagaaaatgagttgttttctgaaaactatgtgagtcttttgtttgaggctaacggatattctgcttctaaagcagctgctacattggctcggtgggccgctcatcaaagtggtaagagaaataccatctggctttggggtcctccaaccaccggcaaaactctgttagctagtgccattgctaactgttcacctatgtttggaaatgtaaattggaataatgctaactttccattcaatgattgtcataaacaattgctaatctggtgggaagaaggtagtatgcttcagaaatttgttgaatgtgctaaggctctccttggcggaacaagtgtcagggtagatcgcaaaggtactgacagtgctcttgttctaagaactcctgtcataattacatccaatactgacatgacatgtgtagtagatgggcctgttaaaagttgggaacataaggaagccttagaagatagaatgattaagtacaattttgaacggagattacctatgaacttaagatctattacagaagaagaaattaggcagtttttctggtttgggagttgtttgcagtgtccccctttggagtttttggttccgcctgatgggtgtgattcggaaactgcctaccaaaagcttagttccctttttgccgcacccttgggagatagcactataaaaacaccagatctgaacagcagccgttatatcgacgacggcgacgaaggaccttctgagcggtcggtaaaaaggcgtaggttgagcctctgttctgtaagtacagaagaggccgcttcagcggcatcttgtttattagacttgtgttctggtagctttagtgatggctctgaaggggggagtttccgggaagccctggggaactagccttgggcatgcctgggaatctatattggcagccatactaggtgaacagtacactcatgaggactttgctgcagattaccgagactttaatctgcatgtagaccctagatttacaactcacttacatctgggctctcgtactcggggttctgttcacctaaagaggttgcttgagcaagtaggtaaagatattcataataagaaactgagtgctgtggctcttgaaaatgttgataactggttggagcatttgcgtgatgtgtttacaaaacaaagaggctctgagcgagagatgtctctctctgatgcaatgcgaatcactcattacctacagagtgacgactttgggaaggatgagtgggacgtcacaggcccaaatagttattactctcgacttaacagtagaaggaaacaagtttcagatcgcctcagtgaacgcgacggtgaacgggcggacaccgattccacgaccactggaccatctactggaggagttgtgtcagaagttcgggtgcctgagagtgacacctccagcggacgaaaactccagtccatagaggaggaacatggctccgaaactgaagaggctcctcaggcaggcgattcaaaacgctcaggctttgttgtccctggctacaagtacatggggcccgggaatgacccagatgtcggaccccctgttaacgctgctgacacggctgctcgcgaccacgatctccgctatgcgcagatgcagaacgctggcattaacccgtacgttaagtataacaaagctgatgaaaaaatgattgaagagctaaaatctaacccagaagctgattctgatcttgcaggtaacgcggcgcgggctatttggaaaggtaaagaaagactaactgatgttcttgatccactcttacagaaagtagctccggacattccagcaaagcctctaaagcagtcagagcgccctccgcctgtccagcccatacctcctccacctacatcaccgtcgaagaggccatcgagtccgatcttggacggtgtcccacccgacaagaaaccgaaagtttcgatcccttccagccaacaggagcagccctccagcattgtaagcggtgtgggtggaagtggaatgactgaatttgcttcacttcctggttccggcggaaccactcatgccgttgacaactggaacgcagggtgtcattttggggatgattttgtaataactactcagtccagagtgtgtttgttggagtgccgtgaagataagtatgtgagcattcatcctagcagtacagaaataaaaaatttcttctgctacgggtataagacgccttggtcttacatcgatcttaataggatcgatattcattttacgcctcacgattggcaaacgctcacagagaactacgactctattaaaccagttagtttgtcttggcacatctttcatgtaaatgtaaaagatgtctccactcattctggtgacaccactctggctgatagtgctattggtactgtctgttcttttacagatgatgattacactttaccttacgtactcggtaattgtcaggacacactacctagctatctcccctacaccatctatcacctcccacagtacgcgtactgtacagtcgggggggagaacccaaaagtcagatatctagggtccttccatgttcttgaacatcggaattgttctcttcacagagctggtgatcgcattgactacaactatgaatttccttcagatttaccaagctatcgcttgtatgcctataaccagggccttttccatactgacaaccctttacacaaacagtacctgtggcagcccaaaaagatcgaaaagaatacacaagcgaatgcctcacaacaaggatataatgttacttgggaacaaagtgaggctaatgactataagaacaagtgtgttaacttcatgcctggtccaagtctgagcagtgtcatgcaaggtgctaaagacgatctgaaagaaatatatggagaccaggactatcgagtgacacacaatacctcatacttaggtactggttctcagaaccacatccagcacagagttagctatggtgatcatgagtattccattcgacctgggccacacggacacgtgactactatccacggaaatagaggccctgtgtatgacgtgcttagtgctgttggctacactggttccactacaagcacgccgagatttccagatgagtcctttgacctattggtcaatccttttagtggacatacatattcactatacagtgatcgtaatgtcaatgctaatgctggcatgcaacccactgcagagacaatgtatatcatgcctggcatggtgtgggatgaccaacaattacattatgaaagtcagatctgggcaaaaatacctcagactgatggtcactttcactcaaaaccctttttaggtggatggggactacataacccaccgcccatgcattttcttaaacttctaaacgtgccaggaccacctacaagctctggttcaccttccatactaaaccaatattgttcttttgtattgacatacactatcaaatggtctgtgaccaaaagcaaagggaccacacagttcaacttccagccaaaagtcactccacctctcataccagtgaagggtactggaggggatagcactgacccgaccccagtatattgtcctaccagtagtggagaagtcatctacccagatcgtgtccctggaagtcgagtaaaataccgacacatgtaataaaataaataaaattttatgaaccatatatactctcttgtcgtgttgtagtctcttctgagcgcgttcgttcgttcgcgggggttataagcgaacagacaggaagtacgtcacagtgtcgtaaacaggaagtgacgtgtgtcgtaaaccggaagtgtcgtcatagtgggcggagcgtcgaccgttgga</GBSeq_sequence>
-  <GBSeq_xrefs>
-    <GBXref>
-      <GBXref_dbname>BioProject</GBXref_dbname>
-      <GBXref_id>PRJNA270093</GBXref_id>
-    </GBXref>
-  </GBSeq_xrefs>
-</GBSeq>
+
+    <GBSeq_locus>NC_025891</GBSeq_locus>
+    <GBSeq_length>4844</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>11-DEC-2014</GBSeq_create-date>
+    <GBSeq_definition>Slow loris parvovirus 1 strain Buddha_08, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>NC_025891</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_025891.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_025891.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|40226</GBSeqid>
+      <GBSeqid>gi|731978912</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Slow loris parvovirus 1</GBSeq_source>
+    <GBSeq_organism>Slow loris parvovirus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4844</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Canuti,M.</GBAuthor>
+          <GBAuthor>Williams,C.V.</GBAuthor>
+          <GBAuthor>Gadi,S.R.</GBAuthor>
+          <GBAuthor>Jebbink,M.F.</GBAuthor>
+          <GBAuthor>Oude Munnink,B.B.</GBAuthor>
+          <GBAuthor>Jazaeri Farsani,S.M.</GBAuthor>
+          <GBAuthor>Cullen,J.M.</GBAuthor>
+          <GBAuthor>van der Hoek,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Persistent viremia by a novel parvovirus in a slow loris (Nycticebus coucang) with diffuse histiocytic sarcoma</GBReference_title>
+        <GBReference_journal>Front Microbiol 5, 655 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3389/fmicb.2014.00655</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>25520709</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4844</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-DEC-2014) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..4844</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Canuti,M.</GBAuthor>
+          <GBAuthor>Williams,C.V.</GBAuthor>
+          <GBAuthor>Gadi,S.R.</GBAuthor>
+          <GBAuthor>Jebbink,M.F.</GBAuthor>
+          <GBAuthor>Oude Munnink,B.B.</GBAuthor>
+          <GBAuthor>Jazaeri Farsani,S.M.</GBAuthor>
+          <GBAuthor>Cullen,J.</GBAuthor>
+          <GBAuthor>van der Hoek,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-NOV-2014) Biology, Memorial University of Newfoundland, 232 Elizabeth Ave, St John's, NL A1B 3X9, Canada</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to KP120516.; ; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4844</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4844</GBInterval_to>
+            <GBInterval_accession>NC_025891.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Slow loris parvovirus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Buddha_08</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Nycticebus coucang</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1581151</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: North Carolina</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Sl.L-PV-1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>146..1894</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>146</GBInterval_from>
+            <GBInterval_to>1894</GBInterval_to>
+            <GBInterval_accession>NC_025891.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>RN59_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:22520968</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>146..1894</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>146</GBInterval_from>
+            <GBInterval_to>1894</GBInterval_to>
+            <GBInterval_accession>NC_025891.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>RN59_gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_009111339.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:22520968</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTEDRPDLSPLNGKGFWELVIKLVNSPWTENSTLFSKYDWIEFCDLEGSDDPWYDWPEDEIDIYMAILGIKAIKAITRVLRERSKNKTCNYFGQIEQGGEFFHIHLLFEVDGFVSFLLGRMFETLRQTLRNSVYFGYPFEVSSEIAITKVKTGGRNKVQDGSYIVNYLLKKIPPGEVQYAISNIECLRPYCNSVRNRRALLESVPVSVERFSEPIIMKGKTVDKFMQTLQWCVDEGVTSETIWYKKNPASFRSYQVSAQSRAQAKSILTQAKMEIQISKRLSDYLCREPKENELFSENYVSLLFEANGYSASKAAATLARWAAHQSGKRNTIWLWGPPTTGKTLLASAIANCSPMFGNVNWNNANFPFNDCHKQLLIWWEEGSMLQKFVECAKALLGGTSVRVDRKGTDSALVLRTPVIITSNTDMTCVVDGPVKSWEHKEALEDRMIKYNFERRLPMNLRSITEEEIRQFFWFGSCLQCPPLEFLVPPDGCDSETAYQKLSSLFAAPLGDSTIKTPDLNSSRYIDDGDEGPSERSVKRRRLSLCSVSTEEAASAASCLLDLCSGSFSDGSEGGSFREALGN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>2187..4655</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2187</GBInterval_from>
+            <GBInterval_to>4655</GBInterval_to>
+            <GBInterval_accession>NC_025891.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>RN59_gp2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:22520967</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2187..4655</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2187</GBInterval_from>
+            <GBInterval_to>4655</GBInterval_to>
+            <GBInterval_accession>NC_025891.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>RN59_gp2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_009111340.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:22520967</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSLSDAMRITHYLQSDDFGKDEWDVTGPNSYYSRLNSRRKQVSDRLSERDGERADTDSTTTGPSTGGVVSEVRVPESDTSSGRKLQSIEEEHGSETEEAPQAGDSKRSGFVVPGYKYMGPGNDPDVGPPVNAADTAARDHDLRYAQMQNAGINPYVKYNKADEKMIEELKSNPEADSDLAGNAARAIWKGKERLTDVLDPLLQKVAPDIPAKPLKQSERPPPVQPIPPPPTSPSKRPSSPILDGVPPDKKPKVSIPSSQQEQPSSIVSGVGGSGMTEFASLPGSGGTTHAVDNWNAGCHFGDDFVITTQSRVCLLECREDKYVSIHPSSTEIKNFFCYGYKTPWSYIDLNRIDIHFTPHDWQTLTENYDSIKPVSLSWHIFHVNVKDVSTHSGDTTLADSAIGTVCSFTDDDYTLPYVLGNCQDTLPSYLPYTIYHLPQYAYCTVGGENPKVRYLGSFHVLEHRNCSLHRAGDRIDYNYEFPSDLPSYRLYAYNQGLFHTDNPLHKQYLWQPKKIEKNTQANASQQGYNVTWEQSEANDYKNKCVNFMPGPSLSSVMQGAKDDLKEIYGDQDYRVTHNTSYLGTGSQNHIQHRVSYGDHEYSIRPGPHGHVTTIHGNRGPVYDVLSAVGYTGSTTSTPRFPDESFDLLVNPFSGHTYSLYSDRNVNANAGMQPTAETMYIMPGMVWDDQQLHYESQIWAKIPQTDGHFHSKPFLGGWGLHNPPPMHFLKLLNVPGPPTSSGSPSILNQYCSFVLTYTIKWSVTKSKGTTQFNFQPKVTPPLIPVKGTGGDSTDPTPVYCPTSSGEVIYPDRVPGSRVKYRHM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tccaacggtcgacgctccgcccactatgacgacacttccggtttacgacacacgtcacttcctgtttacgacactgtgacgtacttcctgtctgttcgcttataacccccgcgaacgaacgaacgcgctcagaagagactacaacatgacagaggacagacctgatctctctccgctgaacggcaaaggtttttgggaacttgttattaaactagtgaactctccttggactgaaaacagtactctgttttctaaatatgactggatcgaattttgtgaccttgagggatcagatgatccgtggtatgattggcccgaggatgagatcgatatatatatggccattctgggaatcaaagccattaaagcaattacaagagttcttagagaacgatctaaaaacaaaacatgcaattattttggacagatcgaacaaggaggagaattctttcatattcatttgttatttgaagtagatgggtttgttagtttcttactaggtcgcatgttcgaaacccttcggcagactctgagaaattctgtttactttggttatccatttgaagtgtcgagtgaaattgcaattactaaagtgaaaactggggggcgcaataaagtacaggatggtagttacattgtaaattatctcttaaagaagattcctcctggtgaagttcagtacgctatctctaatatagagtgcctcagaccgtattgtaactctgttaggaatagacgtgctttgttagaatctgttcctgtttctgttgaacgtttctcagagccgatcattatgaagggtaaaactgtggataaatttatgcaaaccctgcaatggtgtgtagatgaaggagtgacttctgaaaccatatggtataaaaaaaatcctgctagctttagaagctaccaggtcagtgctcaaagtagagctcaagcaaagagtattttgactcaagctaagatggaaattcaaatttctaaaaggttgtccgattatttgtgtcgggaacctaaagaaaatgagttgttttctgaaaactatgtgagtcttttgtttgaggctaacggatattctgcttctaaagcagctgctacattggctcggtgggccgctcatcaaagtggtaagagaaataccatctggctttggggtcctccaaccaccggcaaaactctgttagctagtgccattgctaactgttcacctatgtttggaaatgtaaattggaataatgctaactttccattcaatgattgtcataaacaattgctaatctggtgggaagaaggtagtatgcttcagaaatttgttgaatgtgctaaggctctccttggcggaacaagtgtcagggtagatcgcaaaggtactgacagtgctcttgttctaagaactcctgtcataattacatccaatactgacatgacatgtgtagtagatgggcctgttaaaagttgggaacataaggaagccttagaagatagaatgattaagtacaattttgaacggagattacctatgaacttaagatctattacagaagaagaaattaggcagtttttctggtttgggagttgtttgcagtgtccccctttggagtttttggttccgcctgatgggtgtgattcggaaactgcctaccaaaagcttagttccctttttgccgcacccttgggagatagcactataaaaacaccagatctgaacagcagccgttatatcgacgacggcgacgaaggaccttctgagcggtcggtaaaaaggcgtaggttgagcctctgttctgtaagtacagaagaggccgcttcagcggcatcttgtttattagacttgtgttctggtagctttagtgatggctctgaaggggggagtttccgggaagccctggggaactagccttgggcatgcctgggaatctatattggcagccatactaggtgaacagtacactcatgaggactttgctgcagattaccgagactttaatctgcatgtagaccctagatttacaactcacttacatctgggctctcgtactcggggttctgttcacctaaagaggttgcttgagcaagtaggtaaagatattcataataagaaactgagtgctgtggctcttgaaaatgttgataactggttggagcatttgcgtgatgtgtttacaaaacaaagaggctctgagcgagagatgtctctctctgatgcaatgcgaatcactcattacctacagagtgacgactttgggaaggatgagtgggacgtcacaggcccaaatagttattactctcgacttaacagtagaaggaaacaagtttcagatcgcctcagtgaacgcgacggtgaacgggcggacaccgattccacgaccactggaccatctactggaggagttgtgtcagaagttcgggtgcctgagagtgacacctccagcggacgaaaactccagtccatagaggaggaacatggctccgaaactgaagaggctcctcaggcaggcgattcaaaacgctcaggctttgttgtccctggctacaagtacatggggcccgggaatgacccagatgtcggaccccctgttaacgctgctgacacggctgctcgcgaccacgatctccgctatgcgcagatgcagaacgctggcattaacccgtacgttaagtataacaaagctgatgaaaaaatgattgaagagctaaaatctaacccagaagctgattctgatcttgcaggtaacgcggcgcgggctatttggaaaggtaaagaaagactaactgatgttcttgatccactcttacagaaagtagctccggacattccagcaaagcctctaaagcagtcagagcgccctccgcctgtccagcccatacctcctccacctacatcaccgtcgaagaggccatcgagtccgatcttggacggtgtcccacccgacaagaaaccgaaagtttcgatcccttccagccaacaggagcagccctccagcattgtaagcggtgtgggtggaagtggaatgactgaatttgcttcacttcctggttccggcggaaccactcatgccgttgacaactggaacgcagggtgtcattttggggatgattttgtaataactactcagtccagagtgtgtttgttggagtgccgtgaagataagtatgtgagcattcatcctagcagtacagaaataaaaaatttcttctgctacgggtataagacgccttggtcttacatcgatcttaataggatcgatattcattttacgcctcacgattggcaaacgctcacagagaactacgactctattaaaccagttagtttgtcttggcacatctttcatgtaaatgtaaaagatgtctccactcattctggtgacaccactctggctgatagtgctattggtactgtctgttcttttacagatgatgattacactttaccttacgtactcggtaattgtcaggacacactacctagctatctcccctacaccatctatcacctcccacagtacgcgtactgtacagtcgggggggagaacccaaaagtcagatatctagggtccttccatgttcttgaacatcggaattgttctcttcacagagctggtgatcgcattgactacaactatgaatttccttcagatttaccaagctatcgcttgtatgcctataaccagggccttttccatactgacaaccctttacacaaacagtacctgtggcagcccaaaaagatcgaaaagaatacacaagcgaatgcctcacaacaaggatataatgttacttgggaacaaagtgaggctaatgactataagaacaagtgtgttaacttcatgcctggtccaagtctgagcagtgtcatgcaaggtgctaaagacgatctgaaagaaatatatggagaccaggactatcgagtgacacacaatacctcatacttaggtactggttctcagaaccacatccagcacagagttagctatggtgatcatgagtattccattcgacctgggccacacggacacgtgactactatccacggaaatagaggccctgtgtatgacgtgcttagtgctgttggctacactggttccactacaagcacgccgagatttccagatgagtcctttgacctattggtcaatccttttagtggacatacatattcactatacagtgatcgtaatgtcaatgctaatgctggcatgcaacccactgcagagacaatgtatatcatgcctggcatggtgtgggatgaccaacaattacattatgaaagtcagatctgggcaaaaatacctcagactgatggtcactttcactcaaaaccctttttaggtggatggggactacataacccaccgcccatgcattttcttaaacttctaaacgtgccaggaccacctacaagctctggttcaccttccatactaaaccaatattgttcttttgtattgacatacactatcaaatggtctgtgaccaaaagcaaagggaccacacagttcaacttccagccaaaagtcactccacctctcataccagtgaagggtactggaggggatagcactgacccgaccccagtatattgtcctaccagtagtggagaagtcatctacccagatcgtgtccctggaagtcgagtaaaataccgacacatgtaataaaataaataaaattttatgaaccatatatactctcttgtcgtgttgtagtctcttctgagcgcgttcgttcgttcgcgggggttataagcgaacagacaggaagtacgtcacagtgtcgtaaacaggaagtgacgtgtgtcgtaaaccggaagtgtcgtcatagtgggcggagcgtcgaccgttgga</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

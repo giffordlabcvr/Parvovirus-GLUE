@@ -14,6 +14,11 @@
     </textFileColumn>
 
     <textFileColumn>
+        <header>virus_full_name</header>
+        <property>full_name</property>
+    </textFileColumn>
+
+    <textFileColumn>
         <header>virus_genus</header>
         <property>genus</property>
     </textFileColumn>
