@@ -25,11 +25,29 @@
   create reference CMV        		ncbi-refseqs NC_004442
   
   # Dependoparvovirus
-  create reference AAV2       		ncbi-refseqs NC_001401
   create reference SnakePV       	ncbi-refseqs NC_006148
   create reference CAV        		ncbi-refseqs DQ335246 
   create reference GPV        		ncbi-refseqs NC_001701
   create reference MDPV       		ncbi-refseqs NC_006147 
+  create reference BdrPV            ncbi-refseqs NC_027429
+  
+  create reference AAV1             ncbi-refseqs NC_002077 
+  create reference AAV2       		ncbi-refseqs NC_001401
+  create reference AAV3       		ncbi-refseqs NC_001729 
+  create reference AAV4       		ncbi-refseqs NC_001829 
+  create reference AAV5       		ncbi-refseqs AF085716  
+  create reference AAV6       		ncbi-refseqs AF028704 
+  create reference AAV7       		ncbi-refseqs NC_006260 
+  create reference AAV8       		ncbi-refseqs NC_006261 
+  create reference AAV9       		ncbi-refseqs AX753250 
+  create reference AAV10       	    ncbi-refseqs LY408697 
+  create reference AAV11       	    ncbi-refseqs AY631966 
+  create reference AAV12       	    ncbi-refseqs DQ813647 
+  create reference NHP-AAV6         ncbi-refseqs AY243002
+  create reference NHP-AAV11        ncbi-refseqs AY243002 
+  create reference NHP-AAV-type1    ncbi-refseqs AY243022 
+  create reference NHP-AAV-type2    ncbi-refseqs AY243021 
+
 
   # Erythroparvovirus
   create reference B19     			ncbi-refseqs NC_000883
