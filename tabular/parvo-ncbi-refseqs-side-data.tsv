@@ -1,7 +1,6 @@
 accession-ID	virus_name	virus_full_name	virus_subfamily	virus_genus	host_species
 Cebus_imitator.1	Cebus_imitator.1	Cebus_imitator.1	Chapparvovirinae	Chapparvovirus	Cebus imitator
 KX907333	ChPV.DesRot	Vampire bat chapparvovirus	Chapparvovirinae	Chapparvovirus	Desmodus rotundus
-Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Chapparvovirinae	Chapparvovirus	Giraffa tippelskirchi
 Mesitornis_unicolor.1	Mesitornis_unicolor.1	Mesitornis_unicolor.1	Chapparvovirinae	Chapparvovirus	Mesitornis unicolor
 MH670587	Mk-PV	Mouse kidney parvovirus	Chapparvovirinae	Chapparvovirus	Mus musculus
 Myotis_davidii.1	Myotis_davidii.1	Myotis_davidii.1	Chapparvovirinae	Chapparvovirus	Myotis davidii
@@ -62,6 +61,7 @@ NC_006148	SnakePV	Snake parvovirus 1	Parvovirinae	Dependoparvovirus	Python regiu
 NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	Homo sapiens
 AF406967	Bovine-PV-3	Bovine parvovirus 3	Parvovirinae	Erythroparvovirus	Bos taurus
 GQ200736	Chipmunk-PV	Chipmunk parvovirus	Parvovirinae	Erythroparvovirus	Tamias sibiricus
+Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Parvovirinae	Erythroparvovirus	Giraffa tippelskirchi
 U26342	Simian-PV	Simian parvovirus	Parvovirinae	Erythroparvovirus	Macaca fascicularis
 AF221123	Simian-PV-pgm	Pig-tailed macaque parvovirus	Parvovirinae	Erythroparvovirus	Macaca nemestrina
 AF221122	Simian-PV-rm	Rhesus macaque parvovirus	Parvovirinae	Erythroparvovirus	Macaca mulatta
@@ -74,9 +74,9 @@ U34255	HamsterPV	Hamster parvovirus	Parvovirinae	Protoparvovirus	Cricetelus gris
 AF321230	Kilham	Kilham rat virus	Parvovirinae	Protoparvovirus	Rattus norvegicus
 NC_026815	MpBuV	Mpulungu bufavirus	Parvovirinae	Protoparvovirus	
 NC_001510	MVM1	Minute virus of mice	Parvovirinae	Protoparvovirus	Mus musculus
-KT965075	Zsana	Protoparvovirus Zsana	Parvovirinae	Protoparvovirus	Sus scrofa
 NC_001718	PPV	Porcine parvovirus	Parvovirinae	Protoparvovirus	Sus scrofa
 D00623	PPV-NADL-2	Porcine parvovirus	Parvovirinae	Protoparvovirus	Sus scrofa
+KT965075	Zsana	Protoparvovirus Zsana	Parvovirinae	Protoparvovirus	Sus scrofa
 EU200669	Bovine-TetraPV	Bovine hokovirus	Parvovirinae	Tetraparvovirus	Bos taurus
 HQ113143	Chimp-Parv-4	Chimpanzee parv4	Parvovirinae	Tetraparvovirus	Pan troglodytes
 NC_031670	Deer-TetraPV	Deer tetraparvovirus	Parvovirinae	Tetraparvovirus	
