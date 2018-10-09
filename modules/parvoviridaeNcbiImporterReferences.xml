@@ -16,6 +16,9 @@
     <!-- Porcine hokovirus strain HK7 -->   
 	<primaryAccession>EU200677</primaryAccession>
 
+
+    <!-- Protoparvovirus Zsana -->
+	<primaryAccession>KT965075</primaryAccession>
     <!-- Minute virus of mice (Protoparvovirus) -->
     <primaryAccession>NC_001510</primaryAccession>
     <!-- Mpulungu bufavirus (Bufa) -->
