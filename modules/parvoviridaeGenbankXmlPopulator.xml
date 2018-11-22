@@ -22,6 +22,12 @@
 					<outputTemplate>Homo sapiens</outputTemplate>
 				</valueConverter>
 
+				<!-- #### Mink -->																																									
+				<valueConverter>
+					<matchPattern>.*[mM]ink.*</matchPattern>
+					<outputTemplate>Neovison vison</outputTemplate>
+				</valueConverter>
+
 				<!-- #### Avian -->																																									
                 <valueConverter>
                     <matchPattern>.*[cC]hicken.*</matchPattern>
