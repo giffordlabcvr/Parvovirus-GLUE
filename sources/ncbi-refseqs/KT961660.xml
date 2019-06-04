@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT961660</GBSeq_locus>
+    <GBSeq_length>2699</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>26-APR-2017</GBSeq_create-date>
+    <GBSeq_definition>Simian parvo-like virus 3 isolate cg5864 NS1 and NP genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT961660</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT961660.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT961660.1|</GBSeqid>
+      <GBSeqid>gi|1101517333</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian parvo-like virus 3</GBSeq_source>
+    <GBSeq_organism>Simian parvo-like virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2699</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kapusinszky,B.B.</GBAuthor>
+          <GBAuthor>Ardeshir,A.</GBAuthor>
+          <GBAuthor>Mulvaney,U.</GBAuthor>
+          <GBAuthor>Deng,X.</GBAuthor>
+          <GBAuthor>Delwart,E.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The complex fecal virome of captive rhesus macaques during acute and idiopathic chronic diarrhea</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2699</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kapusinszky,B.B.</GBAuthor>
+          <GBAuthor>Ardeshir,A.</GBAuthor>
+          <GBAuthor>Mulvaney,U.</GBAuthor>
+          <GBAuthor>Deng,X.</GBAuthor>
+          <GBAuthor>Delwart,E.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-OCT-2015) Virology, Laboratory Medicine, Blood Systems Research Institute, University of California San Francisco, 270 Masonic Avenue, San Francisco, CA 94118, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: EnsembleAssembler v. 1.0.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2699</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2699</GBInterval_to>
+            <GBInterval_accession>KT961660.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian parvo-like virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>cg5864</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Macaca mulatta (Rhesus macaque)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1917075</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>428..2566</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>428</GBInterval_from>
+            <GBInterval_to>2566</GBInterval_to>
+            <GBInterval_accession>KT961660.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>non structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>APC23168.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MHPLPGGHGHHQQSAGRPGTGLHQIPQGLGEPDGGTGHQTDQTQKEMASAGQQRRDAERGGVRKYIWTGSTCVEKDEILSTWAMTAQEIDLHTANLNMQTWMGLVLVIGKGDGEVLDIRDPRPVAFLISSVKNILDFIIVGEYNSEGILHYHVLVKTLMRGDSLQRSLQQKWETHKLAAMSDIEDPNPTLEICKCQKAHRPSALLSYMVKNPIFIAGFNEKNLRYTCSLYYWNAGQKYLEKKEEERRRKQNLPASVLQGGHPVTKDLLDIIYRHGCNTAEEIFRHNPDIIVQHLHKPGFMQIVKNCLAFVEATRGEWSLENNSRQYSPDPGVIHTCLSHQGLDIDEVDFIFYHWINKSHSKKNTILLLGPSNTGKTAFIRGLRGLFDSGEICNGQIFCFEGIVGKKLGVWEEPLISPESAEKCKQVFEGAPTTVPCKYKKPQPLDRTPIIITSNHVPWRYCTPEEQPFRNRMWIIPWNFHCDPPVFVRRSSSASCQCRGCQGGGGGEVPADLGAAGQMQGGEQPVQHVVPGSSPGRELGAGRAGSVSPAVDRGDAGSPGTAGGGAEPLWLHYGFHSTRPGGPGEQRSDQPGPGLGAGSPAGDRGGAGGDPGPGHTGVRIYRSGPGDGFHVEPLEHRGRDDADRGGAGRAGNGGGPTSDHQHGSDRGQHEELQPLVELDAGQAGGHQVETQEPGLGGEVGTLTIPSGGALVNC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1953..2531</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1953</GBInterval_from>
+            <GBInterval_to>2531</GBInterval_to>
+            <GBInterval_accession>KT961660.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>APC23167.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLTSEQLAKCREENNPYNTWFQGPVPDVSWALDAPDPCRQQWIEATRAHRELQEAEQNLSGSTTGSIPHVQAGQGSNAPTSQDLASAPAPQLATGGEPVGIQGPAIPVSEYTVPDPGMDSMWSPSSIEDVMMQIAEELDAQGMEVDQQVITSMEVIEGNMRSYSHWWSWTPGKRAGIKWKPKNQAWVGRWVP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>caggcggcaagaactacagacagtggtacgcggtgagagcgaaactcagacgcgagggccgctgggatccggacacggacaaggacacgcgtcagctgactctcgaggaggtaggcgtccgcgtgccggcgcccaaggtgccgaggatagaagaggaggacagcgaaggtcctccaccgctagagggcgaagaaggggatccggacaaagacaactacgcaggtaagtgacacgtcatttactttcgttttagagctaagatggcgggtcagggattcagcatactcctagaggccgtagatcacccagaagactacgaaaacaacgatcaggtactgcaggacgcgctagatctgctcaacggcaggtggggcctagacggtcagataatcacagacgaggacggtaaaaagtgggggtgggtctactgcacccgcttccaggtggccacgggcaccatcagcaaagcgctgggagacctggtaccggactacatcagattccacaggggctcggcgagccagacggcgggacaggccatcaaactgatcaaactcaaaaagagatggcgagtgccggacagcaacgaagagacgcagagcggggaggtgtccggaagtacatctggacagggtcaacctgcgtggaaaaagatgagatactgagcacctgggccatgacggcccaggagatagacctccacacggccaacctcaacatgcagacgtggatgggccttgtgctggtcataggaaagggagatggggaagtgctagatatcagagatccacgccccgtcgcctttcttataagcagcgtcaagaatatcctagatttcatcatagtgggagaatacaactcggaaggaatcctacactatcacgtgctggtaaagaccctgatgagaggagacagcctgcagcgcagcctgcagcagaaatgggagactcacaagctggcggccatgtcagacatagaagacccgaacccgacgctggagatctgtaagtgtcaaaaagctcacaggccgtcggcgctgctgagctacatggtcaaaaaccccatattcatagcaggtttcaacgagaaaaacctcaggtacacctgctccctgtactactggaacgcgggccaaaaatacctagaaaaaaaagaagaagagagaagacgaaaacaaaacctgccggcctcggtactccaaggaggacacccggtcaccaaagacctgctggacatcatctacagacacggatgcaacacggcggaagagatattcagacacaacccggacatcatagtacagcacctacacaaaccgggcttcatgcagatagtcaaaaactgcctggccttcgtagaggccacgcggggggaatggtcactagaaaacaacagcagacaatactcaccagacccgggcgtcatacacacatgcctgagccaccagggactagacatagacgaggtagacttcatcttctatcactggatcaacaaatcacactccaaaaaaaacaccatactgctactgggtcccagcaacacgggcaagacagctttcatcagggggctcaggggactgttcgactcgggcgagatctgcaacggtcagatcttctgcttcgagggcatagtgggcaaaaaactaggagtgtgggaggaacccctgatcagcccggagtcggcagaaaaatgcaaacaggtcttcgagggggccccgaccacagtcccctgcaaatataaaaaaccacaaccgctagacagaacgcccatcataatcaccagcaatcacgtaccctggcgttactgcacgccagaggaacagcccttcagaaacaggatgtggataatcccgtggaactttcactgcgacccccccgtcttcgtccgcagatccagcagtgcaagctgccaatgccgtggctgccagggaggcggcggcggcgaggttcctgctgacctcggagcagctggccaaatgcagggaggagaacaacccgtacaacacgtggttccagggtccagtcccggacgtgagctgggcgctggacgcgccggatccgtgtcgccagcagtggatcgaggcgacgcgggctcaccgggaactgcaggaggcggagcagaacctctctggctccactacgggttccattccacacgtccaggcgggccaggggagcaacgctccgaccagccaggacctggcctcggcgccggctccccagctggcgaccgggggggagccggtggggatccagggcccggccataccggtgtcagaatataccgttccggacccggggatggattccatgtggagcccctcgagcatcgaggacgtgatgatgcagatcgcggaggagctggacgcgcagggaatggaggtggaccaacaagtgatcaccagcatggaagtgatagagggcaacatgaggagctacagccactggtggagctggacgccgggcaagcgggcgggcatcaagtggaaacccaagaaccaggcctgggtggggaggtgggtaccctgacaatcccctcgggcggggctctcgttaactgttaacgcgcggagcgcgcagcgacgccccgcccccggggcggggaagcagctgctttgcctagatatgcaaacgaaaggaagagtataagaaaactgtggatgtgagtgactggacacagtctatcttccgccatgc</GBSeq_sequence>
+  </GBSeq>
