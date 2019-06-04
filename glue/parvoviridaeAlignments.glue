@@ -1,18 +1,14 @@
-# Import pre-built alignments
+# Import unconstrained pre-built alignments
 
-  # Import root alignment
   module unconstrainedAlignmentImporter 
+
+    #~# Root-level alignments
     import AL_UNCONSTRAINED -f alignments/root/parvo-ns-root.fna
-    exit
 
-  # Import tip alignments
+    #~# Subfamily-level alignments 
 
-  # Import internal node alignments
-  module unconstrainedAlignmentImporter
 
-    #~# Genus-level alignments
-    
-	# Parvovirinae
+    #~# Genera alignments
     import AL_PROTO_UNCONSTRAINED   -f alignments/internal/parvovirinae/protoparvovirus/proto-genome.fna
     import AL_AMDO_UNCONSTRAINED    -f alignments/internal/parvovirinae/amdoparvovirus/amdo-genome.fna
     import AL_DEPENDO_UNCONSTRAINED -f alignments/internal/parvovirinae/dependoparvovirus/dependo-genome.fna
@@ -21,12 +17,5 @@
     import AL_COPI_UNCONSTRAINED    -f alignments/internal/parvovirinae/copiparvovirus/copi-genome.fna
     import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/parvovirinae/erythroparvovirus/erythro-genome.fna
     import AL_CHAP_UNCONSTRAINED    -f alignments/internal/unplaced/chapparvovirus/chap-genome.fna
-
-    #~# Multiple genera alignments
-
-
-    #~# Subfamily-level alignments
-    
-
     exit
     

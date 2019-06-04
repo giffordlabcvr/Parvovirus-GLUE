@@ -1,57 +1,61 @@
-  # Constrained alignment tree
+  ### Constrained alignment tree
 
-  # Whole genome
+  ## Whole genome
 
   create alignment AL_Parvoviridae_MASTER -r CPV
 
   alignment AL_Parvoviridae_MASTER add member --allSequences
   
   alignment AL_Parvoviridae_MASTER
-	extract child AL_Parvovirinae --refName CPV
-	demote member AL_Parvovirinae --whereClause "sequence.subfamily = 'Parvovirinae'" 
-    extract child AL_Densovirinae --refName JcDNV
-	demote member AL_Densovirinae --whereClause "sequence.subfamily = 'Densovirinae'" 
-    extract child AL_Chapparvovirinae --refName Mk-PV
-	demote member AL_Chapparvovirinae --whereClause "sequence.subfamily = 'Chapparvovirinae'" 
+	extract child AL_Parvovirinae      --refName CPV
+	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
+    extract child AL_Densovirinae      --refName JcDNV
+	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'" 
+    extract child AL_Epiparvovirinae   --refName FCDNV
+	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
     exit
 
   alignment AL_Parvovirinae
-    extract child AL_Amdoparvovirus --refName AMDV
-    demote member AL_Amdoparvovirus --whereClause "sequence.genus = 'Amdoparvovirus'" 
-    extract child AL_Protoparvovirus --refName CPV
-    demote member AL_Protoparvovirus --whereClause "sequence.genus = 'Protoparvovirus'" 
+    extract child AL_Amdoparvovirus    --refName AMDV
+    demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus'" 
+    extract child AL_Protoparvovirus   --refName CPV
+    demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus'" 
     extract child AL_Dependoparvovirus --refName AAV2
     demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus'" 
     extract child AL_Erythroparvovirus --refName B19
     demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus'" 
-    extract child AL_Bocaparvovirus --refName Eh-BtPV-1
-    demote member AL_Bocaparvovirus --whereClause "sequence.genus = 'Bocaparvovirus'" 
-    extract child AL_Tetraparvovirus --refName Eh-BtPV-1
-    demote member AL_Tetraparvovirus --whereClause "sequence.genus = 'Tetraparvovirus'" 
-    extract child AL_Copiparvovirus --refName BPV2
-    demote member AL_Copiparvovirus --whereClause "sequence.genus = 'Copiparvovirus'" 
+    extract child AL_Bocaparvovirus    --refName Eh-BtPV-1
+    demote member AL_Bocaparvovirus    --whereClause "sequence.genus = 'Bocaparvovirus'" 
+    extract child AL_Tetraparvovirus   --refName Eh-BtPV-1
+    demote member AL_Tetraparvovirus   --whereClause "sequence.genus = 'Tetraparvovirus'" 
+    extract child AL_Copiparvovirus    --refName BPV2
+    demote member AL_Copiparvovirus    --whereClause "sequence.genus = 'Copiparvovirus'" 
     exit
  
   alignment AL_Densovirinae
-    extract child AL_Brevidensovirus --refName AalDNV-2
-    demote member AL_Brevidensovirus --whereClause "sequence.genus = 'Brevidensovirus'" 
-    extract child AL_Iteradensovirus --refName BmDNV-5
-    demote member AL_Iteradensovirus --whereClause "sequence.genus = 'Iteradensovirus'" 
-    extract child AL_Ambidensovirus --refName JcDNV
-    demote member AL_Ambidensovirus --whereClause "sequence.genus = 'Ambidensovirus'" 
+    extract child AL_Ambidensovirus    --refName JcDNV
+    demote member AL_Ambidensovirus    --whereClause "sequence.genus = 'Ambidensovirus'" 
+    extract child AL_Iteradensovirus   --refName BmDNV-5
+    demote member AL_Iteradensovirus   --whereClause "sequence.genus = 'Iteradensovirus'" 
+    exit
+
+  alignment AL_Epiparvovirinae
+    extract child AL_Hepandensovirus   --refName FCDNV
+    demote member AL_Hepandensovirus   --whereClause "sequence.genus = 'Hepandensovirus'" 
     extract child AL_Penstyldensovirus --refName IHHN
     demote member AL_Penstyldensovirus --whereClause "sequence.genus = 'Penstyldensovirus'" 
-    extract child AL_Hepandensovirus --refName FCDNV
-    demote member AL_Hepandensovirus --whereClause "sequence.genus = 'Hepandensovirus'" 
-    exit
-
-  alignment AL_Chapparvovirinae
-    extract child AL_Chapparvovirus --refName Mk-PV
-    demote member AL_Chapparvovirus --whereClause "sequence.genus = 'Chapparvorvirus'" 
+    extract child AL_Brevidensovirus   --refName AalDNV-2
+    demote member AL_Brevidensovirus   --whereClause "sequence.genus = 'Brevidensovirus'" 
+    extract child AL_Chapparvovirus    --refName Mk-PV
+	demote member AL_Chapparvovirus    --whereClause "sequence.genus = 'Chapparvovirus'" 
     exit
 
 
-  # Derive constrained alignment segments from unconstrained alignments
+  ### Derive constrained alignment segments from unconstrained alignments
+
+  alignment AL_Parvoviridae_MASTER
+    derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
  
   alignment AL_Protoparvovirus
     derive segments AL_PROTO_UNCONSTRAINED -a --mergeStrategy OVERWRITE

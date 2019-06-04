@@ -5,8 +5,8 @@
   ## Parvovirinae 
 
   # Protoparvovirus
-  create reference MVM1       		ncbi-refseqs NC_001510
   create reference CPV        		ncbi-refseqs NC_001539
+  create reference MVM1       		ncbi-refseqs NC_001510
   create reference PPV        		ncbi-refseqs NC_001718
   create reference HamsterPV     	ncbi-refseqs U34255
   
