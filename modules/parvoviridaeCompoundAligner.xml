@@ -1,0 +1,11 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>NS</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>VP</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner/>
+	</aligners>
+</compoundAligner>
