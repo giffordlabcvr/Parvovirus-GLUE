@@ -9,7 +9,7 @@
         feature NS set metatag OWN_CODON_NUMBERING true
         feature NS set metatag INCLUDE_IN_SUMMARY true
         feature NS set metatag CODES_AMINO_ACIDS true
-        feature NS set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+        #feature NS set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
    
     	create feature NS2-P -p whole_genome "Nonstructural protein NS2-P"
         feature NS2-P set field displayName "NS2-P"
@@ -37,7 +37,7 @@
         feature VP set metatag OWN_CODON_NUMBERING true
         feature VP set metatag INCLUDE_IN_SUMMARY true
         feature VP set metatag CODES_AMINO_ACIDS true
-        feature VP set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+        #feature VP set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
     
 		create feature 3UTR "3' UTR"
 

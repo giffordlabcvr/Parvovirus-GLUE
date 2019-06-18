@@ -6,3 +6,5 @@
   create module -f modules/unconstrainedAlignmentImporter.xml 
   create module -f modules/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility
   create module -f modules/fastaExporter.xml fastaExporter
+  create module -f modules/parvoviridaeCompoundAligner.xml
+  
