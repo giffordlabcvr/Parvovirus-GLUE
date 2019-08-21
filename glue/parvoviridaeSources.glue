@@ -2,6 +2,6 @@
   import source sources/ncbi-refseqs
 
   # Import FASTA sources 
-  import source sources/fasta/chapparvovirus
-  import source sources/fasta/erythroparvovirus
+  import source sources/fasta-refseqs/chapparvovirus
+  import source sources/fasta-refseqs/erythroparvovirus
 
