@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JF926695</GBSeq_locus>
+    <GBSeq_length>4129</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-JUN-2014</GBSeq_update-date>
+    <GBSeq_create-date>31-OCT-2011</GBSeq_create-date>
+    <GBSeq_definition>Goose parvovirus-PT NS1 protein and VP1 protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>JF926695</GBSeq_primary-accession>
+    <GBSeq_accession-version>JF926695.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JF926695.1|</GBSeqid>
+      <GBSeqid>gi|354463162</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Goose parvovirus-PT</GBSeq_source>
+    <GBSeq_organism>Goose parvovirus-PT</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4129</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chen,S.</GBAuthor>
+          <GBAuthor>Hu,Q.</GBAuthor>
+          <GBAuthor>Cheng,X.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Cheng,Y.</GBAuthor>
+          <GBAuthor>Lin,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Study on two-combinative attenuated vaccine of goose and muscovy duckling parvovirus</GBReference_title>
+        <GBReference_journal>Chin. J. Vet. Sci. 23 (3), 226-228 (2003)</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4129</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chen,S.</GBAuthor>
+          <GBAuthor>Hu,Q.</GBAuthor>
+          <GBAuthor>Cheng,X.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Cheng,Y.</GBAuthor>
+          <GBAuthor>Lin,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-MAY-2011) Institute of Animal Husbandry and Veterinary Medicine, Fujian Academy of Agriculture Sciences, Fujian Animal Diseases Control Technology Development Center, 247 Wu Si Road, Fuzhou, Fujian 350003, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4129</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4129</GBInterval_to>
+            <GBInterval_accession>JF926695.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Goose parvovirus-PT</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PT</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>muscovy duckling</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1511896</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>1997</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>9..1892</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>9</GBInterval_from>
+            <GBInterval_to>1892</GBInterval_to>
+            <GBInterval_accession>JF926695.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>non-structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS1 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AER25356.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MALSRPLQISSDKFYEVIIRLPSDIDQDVPGLSLNFVEWLSTGVWEPTGIWNMEHVNLPMVTLADKIKNIFIQRWNQFNQDETDFFFQLEEGSEYIHLHCCIAQGNVRSFVLGRYMSQIKDSILRDVYEGKQVKVPDWFSITKTKRGGQNKTVTAAYILHYLIPKKQPELQWAFTNMPLFTAAALCLQKRQELLDAFQESEMNAVVQEDQASTVAPLISNRAAKTYSNLVDWLIEMGITSEKQWLTENKESYRSFQATSSNNRQVKAALENARAEMLLTKTATDYLIGKDPVLDITKNRIYQILKLNNYNPQYVGSILCGWVKREFNKRNAIWLYGPATTGKTNIAEAIAHAVPFYGCVNWTNENFPFNDCVDKMLIWWEEGKMTNKVVESAKAILGGSAVRVDQKCKGSVCIEPTPVIITSNTDMCMIVDGNSTTMEHRIPLEERMFQIVLSHKLEGNFGKISKKEVKEFFKWANDNLVPVVSEFKVPTNEQTKLTEPVPERANEPSEPPKIWAPPTREELEEILRASPELFASVAPLPSSPERSPERKKTRRDYQVRCAMHSLDNSMNVFECLECERANFPEFQSLGENFCNQHGWYDCAFCNELRDDMNEIEHVFAIDDMENEQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1911..4109</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1911</GBInterval_from>
+            <GBInterval_to>4109</GBInterval_to>
+            <GBInterval_accession>JF926695.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP1 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AER25357.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSTFLEKFEDWYETAAASWRHLKAGAPKPKSNQQSQSVSTDRKPQRKDNNRGFVLPGYKYLGPGNGLDKGPPVNKADSVALEHDKAYDQQLKAGDNPYIKFNHADQEFIDNLQGDTSFGGNLGKAVFQAKKRILEPLGLVEEPVNTAPAKKSSGKLTDHYPIVKKPKLSEENSPSPSNSGGEASAAATEGSEPVAAPNMAEGGSGAMGDSAGGADGVGNASGNWHCDSQWLGDTVITKTTRTWVLPSYNNHIYKAITSGTSQDANVQYAGYSTPWGYFDFNRFHCHFSPRDWQRLINNHWGIRPKSLKFKIFNVQVKEVTTQDQTKTIANNLTSTIQVFTDDEHQLPYVLGSATEGTMPPFPSDVYALPQYGYCTMHTNQNGARFNDRSAFYCLEYFPSQMLRTGNNFEFTFDFEEVPFHSMFAHSQDLDRLMNPLVDQYLWNFNEVDSNRNAQFKKAVKGAYGTMGRNWLPGPKFLDQRVRAYPGGTDNYANWNIWSNGNKVNLKDRQYLLQPGPVSATHTEAEASSIPAQNILGLAKDPYRSGSTAAGISDIMVTDEQEVAPTNGVGWKPYGKTVTNEQNTTRAPTSSDLDVLGALPGMVWQNRDIYLQGPIWAKIPKTDGKFHPSPNLGGFGLHNPPPQVFIKNTPVPADPPLEYVNQKWNSYITQYSTGQCTVEMVWELRKENSKRWNPEIQFTSNFGNRTSTMFAPSETGGYVEDRLIGTRYLTQNL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcggagagatggcactttctaggcctcttcagatttcttctgacaaattctatgaagttatcatcaggctaccctcggatattgatcaagatgtgcctggtttgtctcttaactttgtagaatggctttctacgggggtctgggagcccaccggaatatggaatatggagcatgtgaatctccccatggttactctggcagacaaaatcaagaacattttcatccagagatggaaccaattcaatcaggacgaaacggatttcttctttcaattggaagaaggcagtgagtacatccatctgcattgctgcattgcccaggggaatgtccgatcttttgttctggggagatacatgtctcaaattaaagactcaattctgagagatgtgtatgaagggaaacaggtaaaagtcccggattggttttctataactaaaaccaaacggggagggcaaaataagaccgtgactgctgcttatattctgcattacctgattcctaaaaaacaaccggaattacaatgggcttttaccaatatgccccttttcactgctgctgctttatgcctccaaaagaggcaagagttactggatgcttttcaggaaagtgagatgaatgctgtagtgcaggaggatcaagcttcaactgtagctccccttatttccaacagagcagcaaagacctatagtaatctggttgattggctcattgagatgggtatcacctctgaaaaacagtggctaactgaaaataaagagagctaccggagctttcaggctacatcttcaaacaacagacaagtaaaagcagcacttgaaaatgcccgagcagaaatgctactaacaaaaactgccacagactatttgattggaaaagacccagttctggacattactaaaaatcggatctatcaaattctgaagttgaataactataaccctcaatatgtagggagcatcctatgcggatgggtgaaaagagaattcaacaaaagaaatgccatatggctctacggacctgcgaccaccggaaagaccaacatagccgaggctattgcccatgctgtacccttctatggctgtgttaactggactaatgagaactttcctttcaatgactgcgttgataaaatgcttatatggtgggaggagggaaaaatgaccaataaagtagtggaatccgcaaaagcgatactgggggggtctgctgtacgagttgatcaaaagtgtaaggggtctgtttgtattgaacctactcctgtaataattaccagtaatactgatatgtgcatgattgtggatggaaattctactacaatggaacacagaattcctttggaggaaagaatgttccagattgttctttcccataagctggaaggaaattttggaaaaatttcaaaaaaggaggtaaaagagtttttcaaatgggccaatgataatcttgttccagtagtttctgagttcaaagtccctacgaatgaacaaaccaaacttactgagcccgttcctgaacgagcgaatgagccttccgagcctcctaagatatgggctccacctactagggaggagctagaggagatattaagagcgagccccgagctctttgcttcagttgctcctctgccttccagtccggagagatctcctgagagaaagaaaacccgtcgggactatcaggtacgctgtgctatgcacagtttagataactctatgaatgtttttgaatgcctggagtgtgaaagagctaattttcctgaatttcagagtctgggtgaaaacttttgtaatcaacatgggtggtatgattgtgcattctgtaatgaactgagagatgacatgaatgaaattgaacatgtttttgctattgatgatatggagaatgaacaataaagatgattcaaaatagctatgtctacttttttagagaaatttgaagactggtatgagactgcagccgcatcttggcggcatttgaaagctggagcccccaagccaaaatcaaaccaacaatctcagtctgtgtctacagacagaaaaccccaacgaaaagacaataataggggctttgtacttcctggctataagtatcttgggcctggtaacggccttgataaagggccacctgtcaataaagcggacagcgtcgcgcttgagcacgataaagcgtacgaccagcagctcaaggcaggagacaacccctatataaaatttaatcacgcagatcaagaatttatagataatctgcaaggtgatacctcctttggaggcaacctcggaaaagccgtattccaagctaaaaaaagaattctagagcctttaggcctagtagaagaacctgtaaacacggctcctgctaaaaagagtagtggaaaactaacagatcactaccctatagtaaagaagcctaaattatctgaagaaaactctccttcacctagtaatagtggaggagaagcaagtgcagctgccaccgaaggctccgaacctgtggcagcacctaacatggcagagggaggaagcggagctatgggcgactctgcagggggtgccgatggagtgggtaatgcctcaggaaattggcattgcgattcccaatggctgggagacacagtcatcacaaagaccaccagaacctgggtcctgccaagctacaacaaccacatctacaaagcgattaccagtggaacctctcaagatgcaaatgtccagtatgcaggatacagtaccccctgggggtactttgatttcaacagattccactgccacttctctccaagagactggcagagacttatcaacaaccattggggaatcagacccaagtctcttaaattcaagatcttcaatgtccaagtcaaagaagtcacaacgcaggatcagacgaagaccattgcaaacaatctcacgtcaacaattcaagtctttacggatgacgagcatcaactcccgtatgtcctgggctcggctacagaaggcaccatgccgccgttcccgtcggatgtctatgccctgccgcagtacgggtactgcaccatgcacaccaaccagaatggagcacggttcaatgaccgtagtgcattctactgcttagagtacttccctagtcagatgctaagaacaggcaacaactttgagttcacatttgactttgaagaagttcctttccatagcatgttcgctcattcacaggacttagacaggctgatgaaccccctagtggatcaatacctctggaatttcaatgaggtagacagcaacagaaatgctcaatttaaaaaggctgtgaaaggcgcttatggcaccatgggccgcaattggctgccaggacctaaattcctggaccagagagttagggcctatccaggcggaacagataattatgcaaactggaacatctggagtaatggaaacaaggttaatttgaaggacaggcagtacctcctgcaacctggacctgtatcagctactcacacagaagcagaggcttccagcatcccagcccaaaatattttaggtttagctaaagatccatacagatctggcagcactgcagcaggaataagtgatattatggtcacggacgagcaggaagtagcacctacaaacggcgtagggtggaaaccatatggcaagactgtaacgaatgaacaaaacactactagagctcctacgagttcagatcttgatgttcttggagctttaccaggaatggtttggcagaacagagatatatatctacagggtcctatatgggctaaaatacccaaaacagatgggaaatttcatccttctccaaacctgggaggttttggtctccataatccacctccccaggtctttattaaaaatactcctgttcctgcagatcctccactagagtatgtaaatcagaagtggaattcttacattacacagtattcaacagggcagtgtactgtagaaatggtctgggaactcagaaaagaaaactccaagagatggaaccctgagatccaatttaccagtaactttggaaatagaacaagtactatgtttgctccaagtgagactggaggctatgtagaagataggctgattggtaccagatatttgactcagaatctgtaaattctgtgtaaaaattcaaa</GBSeq_sequence>
+  </GBSeq>

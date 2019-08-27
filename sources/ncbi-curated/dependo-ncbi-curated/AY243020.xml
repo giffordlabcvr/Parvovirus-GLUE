@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY243020</GBSeq_locus>
+    <GBSeq_length>2214</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-MAY-2003</GBSeq_update-date>
+    <GBSeq_create-date>09-APR-2003</GBSeq_create-date>
+    <GBSeq_definition>Non-human primate Adeno-associated virus isolate AAVcy.2 capsid protein (VP1) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY243020</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY243020.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY243020.1|</GBSeqid>
+      <GBSeqid>gi|29650535</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Non-human primate Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Non-human primate Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Dependoparvovirus; unclassified Dependovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gao,G.</GBAuthor>
+          <GBAuthor>Alvira,M.R.</GBAuthor>
+          <GBAuthor>Somanathan,S.</GBAuthor>
+          <GBAuthor>Lu,Y.</GBAuthor>
+          <GBAuthor>Vandenberghe,L.H.</GBAuthor>
+          <GBAuthor>Rux,J.J.</GBAuthor>
+          <GBAuthor>Calcedo,R.</GBAuthor>
+          <GBAuthor>Sanmiguel,J.</GBAuthor>
+          <GBAuthor>Abbas,Z.</GBAuthor>
+          <GBAuthor>Wilson,J.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adeno-associated viruses undergo substantial evolution in primates during natural infections</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 100 (10), 6081-6086 (2003)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.0937739100</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>12716974</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gao,G.</GBAuthor>
+          <GBAuthor>Alvira,M.R.</GBAuthor>
+          <GBAuthor>Somanathan,S.</GBAuthor>
+          <GBAuthor>Lu,Y.</GBAuthor>
+          <GBAuthor>Vandenberghe,L.H.</GBAuthor>
+          <GBAuthor>Rux,J.</GBAuthor>
+          <GBAuthor>Calcedo,R.</GBAuthor>
+          <GBAuthor>Sanmiguel,J.</GBAuthor>
+          <GBAuthor>Abbas,Z.</GBAuthor>
+          <GBAuthor>Wilson,J.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-FEB-2003) Department of Medicine, University of Pennsylvania School of Medicine and Wistar Institute, 204 Wistar Institute, 3601 Spruce Street, Philadelphia, PA 19104, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>AY243020.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Non-human primate Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>AAVcy.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:226582</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>AY243020.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>AY243020.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAO88206.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAADGYLPDWLEDNLSEGIREWWDLKPGAPKPKANQQKQDNGRGLVLPGYKYLGPFNGLDKGEPVNAADAAALEHDKAYDQQLNAGDNPYLRYNHADAEFQERLQEDTSFGGNLGRAVFQAKKRVLEPLGLVEEGAKTAPAKKRPVEPSPQRSPDSSTGIGKKGQQPARKRLNFGQTGDSESVPDPQPLGEPPAAPSSVGSGTVAAGGGAPMADNNEGADGVGNASGNWHCDSTWLGDRVITTSTRTWALPTYNNHLYEQISSETAGSTNDNTYFGYSTPWGYFDFNRFHCHFSPRDWQRLINNNWGFRPKKLRFKLFNIQVKEVTTNDGVTTIANNLTSTIQVFSDSEYQLPYVLGSAHQGCLPPFPADVFMIPQYGYLTLNNGSQSVGRSSFYCLEYFPSQMLRTGNNFEFSYSFEDVPFHSSYAHSQSLDRLMNPLIDQYLYYLARTQSDPGGTAGNRELQFYQGGPSTMAEQAKNWLPGPCFRQQRVSKTLDQNNNSNFAWTGATKYHLNGRNSLVNPGVAMATHKDDEDRFFPSSGVLIFGKTGATNKTTLENVLMTNEEEIRPTNPVATEEYGIVSSNLQAANTAAQTQVVNNQGALPGMVWQNRDVYLQGPIWAKIPHTDGNFHPSPLMGGFGLKHPPPQILIKNTPVPANPPEVFTPAKFASFITQYSTGQVSVEIEWELQKENSKRWDPEIQYTSNFEKQTGVDFAVDSQGVYSEPRPIGTRYLTRNL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacctgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacaacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctcaatgcgggtgacaacccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcatttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctgcaaagaagagaccggtagagccgtcacctcagcgttcccccgactcctccacgggcatcggcaagaagggccagcagcccgccagaaagagactcaatttcggtcagactggcgactcagagtcagtccccgaccctcaacctctcggagaacctccagcagcgccctctagtgtgggatctggtacagtggctgcaggcggtggcgcaccaatggcagacaataacgaaggtgccgacggagtgggtaatgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcattaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacgagcaaatctccagtgaaactgcaggtagtaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagaagctgcggttcaagctcttcaacatccaggtcaaggaggtcacgacgaatgacggcgttacgaccatcgctaataaccttaccagcacgattcaggtattctcggactcggaataccagctgccgtacgtcctcggctctgcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacggctacctgactctcaacaatggcagtcagtctgtgggacgttcctccttctactgcctggagtacttcccctctcagatgctgagaacgggcaacaactttgagttcagctacagcttcgaggacgtgcctttccacagcagctacgcacacagccagagcctggaccggctgatgaatcccctcatcgaccagtacttgtactacctggccagaacacagagtgacccaggaggcacagctggcaatcgggaactgcagttttaccagggcgggccttcaactatggccgaacaagccaagaattggttacctggaccctgcttccggcaacaaagggtctccaaaacgctggatcaaaacaacaacagcaactttgcttggactggtgccaccaaatatcacctgaacggcagaaactcgttggttaatcccggcgtcgccatggcaactcacaaggacgacgaggaccgctttttcccatccagcggagtcctgatttttggaaaaactggagcaactaacaaaactacattggaaaatgtgttaatgacaaatgaagaagaaattcgtcctactaatcctgtagccacggaagaatacgggatagtcagcagcaacttacaagcggctaatactgcagcccagacacaagttgtcaacaaccagggagccttacctggcatggtctggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcacacggatggcaactttcacccgtctcctttgatgggcggctttggacttaaacatccgcctcctcagatcctgatcaagaacactcccgttcccgctaatcctccggaggtgtttactcctgccaagtttgcttcgttcatcacacagtacagcaccggacaagtcagcgtggaaatcgagtgggagctgcagaaggaaaacagcaagcgctgggacccggagattcagtacacctccaactttgaaaagcagactggtgtggactttgccgttgacagccagggtgtttactctgagcctcgccctattggcactcgttacctcacccgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

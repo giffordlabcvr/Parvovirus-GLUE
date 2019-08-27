@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN420372</GBSeq_locus>
+    <GBSeq_length>4395</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-SEP-2011</GBSeq_update-date>
+    <GBSeq_create-date>17-AUG-2011</GBSeq_create-date>
+    <GBSeq_definition>California sea lion adeno-associated virus 1 isolate 1187 Rep78 and VP1 genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>JN420372</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN420372.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN420372.1|</GBSeqid>
+      <GBSeqid>gi|343458969</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>California sea lion adeno-associated virus 1</GBSeq_source>
+    <GBSeq_organism>California sea lion adeno-associated virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4395</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Shan,T.</GBAuthor>
+          <GBAuthor>Wang,C.</GBAuthor>
+          <GBAuthor>Cote,C.</GBAuthor>
+          <GBAuthor>Kolman,J.</GBAuthor>
+          <GBAuthor>Onions,D.</GBAuthor>
+          <GBAuthor>Gulland,F.M.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The fecal viral flora of california sea lions</GBReference_title>
+        <GBReference_journal>J. Virol. 85 (19), 9909-9917 (2011)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.05026-11</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>21795334</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4395</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Wang,C.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-AUG-2011) Department of Laboratory Medicine, University of California, San Francisco, Blood Systems Research Institute, 270 Masonic Ave, San Francisco, CA 94118, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4395</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4395</GBInterval_to>
+            <GBInterval_accession>JN420372.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>California sea lion adeno-associated virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>1187</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>sea lion feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Zalophus californianus (California sea lion)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1073950</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: California</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>291..2093</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>291</GBInterval_from>
+            <GBInterval_to>2093</GBInterval_to>
+            <GBInterval_accession>JN420372.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep78</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AEM37643.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASFYEVVAKIPSDLEEHLPGICDDFVSVIMSKEWRLPESSDLVLDQIDQPKLTIADAVRKVFYFEWLKYCRDVEEPLFFFQFEKGKENFHVHMVIETSNVSSMVLGRYIGTIKKKLVRKVFREVEPQMPDWLAVTKTKQSGGVNKTYDKGYIPAYLLPKTQPELQWAWTNIEEYKSASLNLAERKRLVDEFLASLRRDGPSQSEPDDQQPHGPVIRNRTSQKYMALVSWLVENGITSEKQWIQEDQESYLSFNAAGSSRSQIKSALDNASRIMSLTKKASDYLVGQSVPEDITENKIYQLFKMNGYDPAYLGSILLGWCQGRFGKRNTVWLYGPATTGKTNLAEAIAHSVPFYGCVNWTNENFPFNDCVDKMLIWWEEGKMTSKVVESAKAILGGSKVRVDQKCKSSVQIDSTPVIITSNTDMCCVIDGNSTTFEHRQPLEDRMFRINLEQRLSHDFGKITKREVREFLAWAQEYEVDVEHTFEVTKLAKPKVTKRSAPLSDDYKSPAKRARLIPDLVAEEATSSALAEAEEWDLNWDRRYDCRCEAHSMSVRVEGLCRDCEYLNRGKNMCLVHGDTGCHVCHAVPPWVSDPDDCTDEQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2124..4280</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2124</GBInterval_from>
+            <GBInterval_to>4280</GBInterval_to>
+            <GBInterval_accession>JN420372.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AEM37644.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSSLFKEYLQSTGLVGIQSGAPKPKAGQQKQDTGSFEWKKKEDTARGLVLPGYKYLGPFNGLERGEPVNAADAAAQRHDRQYDRILQQGGNPYLTYNHADREFQEELQSDESFGGNLGKAVFQAKKRILEPLGLVEEDPSQPDSSSDNTAPPVKKSRLEEAQPIQSPDVSSSTGGGIADVMSGDAEMAAVGGGAPGVDGQGAEGVGTSSGNWHCDSQWSEGHVRTTSTRTWVLPSYNNHLYKRLGSSAQSNTYNGFSTPWGYLDFNRWHCHFSPRNWQRLINNNWGIRPKRLNVKLFNIQVKEVTTEGGTTTVANNLTSTIQVFADNAYELPYVVDAGHEGALPPFPNDVFMIPQYGYCGLVSGQSQNQSDLCSFYCLEYFPSQMLRTGNNFEMNFRFEDVPFHSMYAHSQSLDRLMNPLIDQYLWSLKQTGNPTGSTTRDLKFIKNKVPNFAHYGKNWLPGPFIRQQGWTTQNINNSVVNFNDMLGKNSTFTLDTRWSSLAPGPCMGDDGRTPSTTKFSNAQLMFGSGTQPTEGGEDAVHITSESEVKATNPTAIDEYGRVADNTQNATTAPTTVGNAAMGAMPGMVWQDRDIYLQGPIWGKIPHTDGHFHPSPLMGGFGYRKPPPQIFIKNTPVPGNPATTFSPNRINNFITQYSTGQVTVTIDWELQKENSKRWNPEVQFTSNFGTVDSLNWAPDNAGNYKEPRVVGSRFLTHIL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tatatagcatgactcacatgttacgttgctgttatgtgtcgagcgagcgagcgagcccaggaggcaggagggggattgcccactctctcaaaagggactgaccattcctgactcatgcctgacctttgttcttctagtctgttcttttgctgacacatttcttatatgttacatattaactatggggtgactgcttttatccaatgagacacagggcgttgccctgcacatgggtatatctgtccgaatgagcgagcgctcagtacagagcgtctctgcttgttaacaagatggcttccttctacgaggtggtggccaagatccccagcgacctggaggagcaccttcccggcatctgcgatgactttgtctctgtgattatgagcaaggagtggcgtttgcccgagagctccgaccttgtcctggaccagattgaccagccgaagctgactatcgcggacgccgtccgcaaggtcttttactttgagtggctcaagtactgccgcgacgtggaagagcccttgttctttttccaatttgagaagggcaaggagaactttcacgtccacatggtcatcgagacctccaacgtgagttccatggtcctgggccggtacattggtactattaaaaagaagctggtccgcaaggtgtttcgggaggtcgagccccagatgcccgactggctagccgtgaccaagactaagcaatccgggggcgttaacaagacctacgacaagggctacattcccgcctacctgctacccaagacccaaccggagcttcagtgggcgtggacaaacatcgaagagtataagagcgccagcctgaacctggccgagcgcaaacggctggtggatgagttcctggcttcgcttcgccgcgacggcccgtctcagagcgagcctgacgaccagcagccccacggaccggtcatcagaaaccggaccagtcaaaagtacatggctctcgtgtcctggctcgtggagaatggaatcaccagcgaaaagcagtggatccaggaagaccaggaaagctacctttcatttaatgctgcaggcagctctaggagccagatcaaatcggccctggacaacgccagtcgaatcatgtctctcacaaagaaagcctctgactatctcgttggacagtccgtccccgaagatatcacagaaaataaaatctaccagctgtttaaaatgaacggatatgaccctgcttacctgggctccattttgctgggatggtgccagggcaggtttggcaaaagaaacaccgtctggctgtatggacccgcgacgacgggcaagacgaacctggcggaggcgattgcgcactctgtgccattttatggttgtgtcaattggaccaacgagaactttcccttcaacgactgcgtggacaaaatgctcatctggtgggaagaaggaaagatgacgtccaaggtggtggaatcggccaaggcgatcttgggcggatccaaggtccgcgtggaccaaaagtgcaagagctccgtgcagattgactcgaccccggtgatcatcacttccaataccgacatgtgctgcgtgattgacggcaattcaaccacgttcgagcaccggcagcccctcgaggaccgcatgttccgcatcaacctcgaacagagactctcccatgactttgggaaaattaccaagagggaggtgcgggaattcctagcctgggcgcaggaatatgaagtagacgtagagcataccttcgaggtgactaagctggcgaagccaaaggtcactaaaaggtccgcccctctgtctgatgactataaaagcccggcaaagagagcgcgcctcattcccgatcttgtcgcggaggaggcaacgtcgagcgctctagccgaggccgaggagtgggacctaaactgggaccgaaggtacgactgccgctgtgaggcacactctatgtctgtgcgggtagaggggctgtgtcgggactgtgaatatctgaaccggggaaaaaatatgtgtcttgttcacggggacaccgggtgtcatgtctgtcatgccgtccccccttgggtgtctgatcctgatgattgtactgatgagcaataaaagttcaaaattctaaactgaaatgtagccatgtcttctttgtttaaagagtacctgcagagtaccggactggtgggtatccagtcgggagcgccgaagccaaaggccggccagcagaagcaggatacagggtcctttgagtggaaaaagaaggaggacacagccagagggctggtccttcccggttacaagtacctcgggcccttcaacggtctagagcggggcgagcctgtgaatgccgcggacgccgcggcccagcgacacgaccgacagtacgatcgtattctacaacaagggggtaatccatacctcacgtacaaccacgccgaccgagagttccaggaggagctccagtctgacgagtcttttgggggaaatcttggcaaggctgtgtttcaggccaagaagcgaatcctagagcccctcggtctggttgaagaggatccctctcagccagattcgtcctcggacaacacggcgccacccgtgaaaaagtcccgtctcgaagaagcccagcccattcaaagtccagacgtttccagcagcactggcggaggaattgccgacgtcatgtctggagatgctgaaatggctgcagtgggcgggggagcaccgggcgtcgacggccagggtgccgagggagtgggtacttcctcgggtaattggcattgcgattcccagtggtcagaaggacacgtcagaaccaccagcaccagaacctgggtgttgcccagctacaacaaccacctgtataaacggcttggaagtagcgcacaatccaatacctacaacggattctccaccccctggggatacctcgacttcaatagatggcactgtcacttcagtcctcggaactggcaacgtctcatcaacaacaactggggcatcagaccaaaaagacttaatgttaaattgttcaacatacaagtcaaagaggtcacgacggaaggggggacgacgaccgtcgccaataaccttaccagcacgattcaggtgtttgcggacaacgcgtacgaactcccgtatgttgtcgacgcgggtcacgagggggcattgccgccgttcccaaacgacgtgtttatgattccccaatacggatactgcgggctggtgtctggtcaaagtcagaatcagtcggacttgtgttcgttttattgcctggagtattttccatcccagatgctgagaacaggaaacaattttgaaatgaatttcaggtttgaagacgttccatttcactccatgtacgcccacagccagtctctagacaggctcatgaatcctttaattgatcagtatctgtggagtctaaaacaaacaggaaacccgactggatcaacaacgagagacttaaaatttatcaagaacaaagttcccaattttgcacattatggaaaaaattggcttcctggaccttttattagacaacaggggtggacaacacaaaatattaataatagtgttgttaattttaatgacatgctgggaaaaaattcgacatttactttggacactagatggagttcattagcgcctggtccgtgtatgggggatgacggacgaactccatccaccaccaagttctcaaatgctcagctcatgtttggatctggaacacaacccaccgaaggcggtgaagatgctgtacatattacatccgagtcggaggtcaaggcaaccaacccaactgcaatcgatgaatacggacgagtggccgataatacgcaaaatgcaacaaccgccccaaccacagtgggaaatgctgcaatgggggccatgcctgggatggtgtggcaagatagggatatctatcttcaaggacccatctggggaaaaataccccatacagacggacattttcatccgtctcctctcatgggggggtttggatacagaaaaccccctccgcaaatttttattaaaaacacccccgttcctggaaatccggcaactacattttctccaaatagaataaacaatttcattactcaatactcaacgggacaagtgaccgttactattgactgggagctgcaaaaggaaaactcaaagagatggaacccagaagtacaatttacatcaaattttggcacggtcgattcactaaactgggcaccggacaacgcgggaaactacaaagaaccaagggtggtggggtctcgattccttacgcatatactataatcatacccaagtatgttgcatatcctcaataaaccgtgtattcgtatcagttataactacgtgtctgtctttcatgagtcatcaatcagacgtccctttgagagagtgggcaatc</GBSeq_sequence>
+  </GBSeq>

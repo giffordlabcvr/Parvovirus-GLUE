@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MDPUPS</GBSeq_locus>
+    <GBSeq_length>3454</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-SEP-1990</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Aleutian mink disease parvovirus (ADV-Utah 1 strain) RNA, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>M32981</GBSeq_primary-accession>
+    <GBSeq_accession-version>M32981.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M32981.1|MDPUPS</GBSeqid>
+      <GBSeqid>gi|331752</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Aleutian mink disease virus</GBSeq_source>
+    <GBSeq_organism>Aleutian mink disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Amdoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3454</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bloom,M.E.</GBAuthor>
+          <GBAuthor>Alexandersen,S.</GBAuthor>
+          <GBAuthor>Perryman,S.</GBAuthor>
+          <GBAuthor>Lechner,D.</GBAuthor>
+          <GBAuthor>Wolfinbarger,J.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequence and genomic organization of Aleutian mink disease parvovirus (ADV): sequence comparisons between a nonpathogenic and a pathogenic strain of ADV</GBReference_title>
+        <GBReference_journal>J. Virol. 62 (8), 2903-2915 (1988)</GBReference_journal>
+        <GBReference_pubmed>2839709</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3454</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bloom,M.E.</GBAuthor>
+          <GBAuthor>Alexandersen,S.</GBAuthor>
+          <GBAuthor>Perryman,S.</GBAuthor>
+          <GBAuthor>Lechner,D.</GBAuthor>
+          <GBAuthor>Wolfinbarger,J.B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Aleutian mink disease parvovirus (strain ADV-Utah 1) RNA.; [1] sites.~[2] for [1].~Draft entry and computer readable sequence for [1] kindly submitted by M.E.Bloom 18-MAR-1990.~Sequence reported below is (+) strand.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3454</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3454</GBInterval_to>
+            <GBInterval_accession>M32981.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Aleutian mink disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:28314</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggatcctgaagatagagctaagaacctaaaagtgtgggttgaagatggacctactaagccttacaaatattttaacaaacaaaccaacaagactacaacaaaccagttcacttgagagactatacattcatatacctgtttaacaaagataagataaatacagatagtatggatggttactttgctgctggtaacggtggcattgttgacaacctaactaacaaagaacgaaaaactttaagaaaaatgtacttagatgagcagagttcagatataatggatgctaatatagactgggaagatggccaagacgcgccaaaagtaactgaccaaactgactcagcaaccacaaaaacaggaactagtttgatttggaaatcatgtgctactaaagtaacctcaaaaaaagaagttgctaatccagttcagcaaccttctaaaaaactgtactcagctcaaaatactttagatgcattgtttaacgttggttgctttactccagaagatatgattataaagcaaagtgacaaataccttgaactatctttagaaccaaacgggcctcaaaaaattaacactttacttcacatgaaccaagtaaagacatcaaccatgatgactgcttttgattgtattataaaatttaatgaagaggaagatgacaaacctttgctagcaactataaaagacatgggacttaatgaacaataccttaagaaggtactatgtaccatcctaaccaagcaaggtggaaagagaggttgtatttggttctatggaccggggggcactggaaaaaccttgctagcatctttaatatgtaaagcaacagtaaactatggtatggttactacaagcaatccaaactttccatggactgactgtggcaatagaaacatcatttgggctgaagagtgtggtaaccttggtaactgggttgaagactttaaagccattactggaggtggtgatgtaaaagtagataccaagaacaagcaacctcaatctattaaaggctgtgtgattgtaacaagcaacaccaacataaccaaagtaactgttggatgtgtggaaacaaacgctcacgcagagccacttaaacagaggatgattaagatacgttgcatgaaaaccatcaaccctaaaactaaaataacaccaggcatgttaaaaagatggctaaatacctgggatagacaaccaattcaactaagccatgagatgcctgaactgtacttaggtaagtgccgttggtaagtaacacattttaaatgccaactttaaaccaacatcaatttatgaggttactttactttacagagactactggaccaaactcgagtgccacaactgccacgaagaatactggcaactcacaacctactactgcaaagagtgcagaaagtgtgaacacggaaaactgcgacacaccaaaaaggggtgcgagcagtgtgcctccgaagcagcacaagagacctcggcatgagtagaagtaagtaacctacttaaagtaacctaacaccatgacactttactttacttgtacttatgttactttactttagttcctcagcactatcctgggaaaaagagaagtgctccaagacacgtatttattcagcaagcaaaaaagaagaagcaaactaaccctgcggtgtaccacggagaagacacaatagaggaaatggattctgctgaacctgaacagatggacactgagcaagcaactaaccaaactgctgaagctgggggtggagggggtgggagtgggggtggtggtggtgggggtggtggggttggtaacagcactggcggctttaataacacaacagaattcaaagtaataaacaatgaagtgtatattacttgtcacgctactagaatggtgcacatcaaccaagctgacacagatgaatacttgatatttaatgctgatagaactactgataccaaaacagctcaaaaaaaactaaacttagaattttttgtatatgatgattttcaccaacaagtaatgacaccttggtttatagtagatagcaacgcttggggtgtgtggatgagtcctaaagactttcaacaaatgaaaacactgtgtagtgagattagtttggttactttggaacaagagatagacaatgtaaccataaagactgtaacagaaaccaaccaaggtaacgcatccaccaagcaattcaacaatgacttaactgcgtcgttacaggttgctttagatactaacaacatactgccatatactccagctgcgccgttgggggaaacactgggctttgttccttggagagcaaccaaaccaacccaatataggtattatcatccatgttacatttacaacagatatcctaacattcaaaagctggggcaggagcaattagaatggactggtacacaagatgattacctgagtgtggatgagcagtactttaactttatcactatagagaacaacatacctattaacattctcagaacgggagataactttcatacaggcttgtatgagtttaacagtaaaccatgtaaactaaccttaagctatcaaagtacacgttgcttggggctacctcctctctgcaaaccaaagacagatacaacacacaaagtaacctcaaaagaaaacggagctgacctaatttacatacaaggacaagataataccagactaggtcacttttggggtgaggaaagaggtaagaaaaacgcagagatgaacagagttagaccttacaacataggttaccaatatcctgaatggataataccagcagggttacagggtagttactttgctggaggaccaagacagtggagtgacacaaccaaaggtgcaggtacacacagtcaacagttacaacagaactttagtactaggtacatctatgacagaaaccacggtggagacaacgaggtagacctattagatggaatacccattcatgaaagaagtaactactactcagaccatgagatagagcaacatacagcaaagcaaccaaagttacgtacaccacccattcaccactcaaaaatagactcgtgggaagaagaaggttggcctgctgcttcaggcacacactttgaagatgaggttatatacctagactactttaactttagtggtgaacaagaattagagtttccacatgaagtattagatgatgctgctcaaatgaaaaagctacttaactcataccaaccaacagttgctcaagacaacgttggtcctgtatacccatggggacagatatgggacaagaaacctgatatggatcacaaacctagcatgaacaacaacgctccatttgtatgtaaaaacaaccctccaggtcaactctttgttaaactaacagaaaacctcactgatacatttaactatgatgaaaatccagacagaataaaaacctatggttactttacttggagaggcaagctt</GBSeq_sequence>
+  </GBSeq>
