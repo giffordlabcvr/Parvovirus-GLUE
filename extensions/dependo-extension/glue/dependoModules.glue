@@ -1,0 +1,2 @@
+create module -f modules/dependoGenbankXmlPopulator.xml dependoGenbankXmlPopulator
+create module -f modules/dependoTextFilePopulator.xml dependoTextFilePopulator

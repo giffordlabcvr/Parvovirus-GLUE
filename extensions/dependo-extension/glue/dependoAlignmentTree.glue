@@ -1,0 +1,13 @@
+  # Constrained alignment tree
+
+  alignment AL_Dependoparvovirus
+    #extract child AL_UNCONSTRAINED_AAV1 --refName AAV1
+    #demote member AL_UNCONSTRAINED_AAV1 --whereClause "sequence.name = 'AAV1'" 
+
+    extract child AL_UNCONSTRAINED_AAV4 --refName AAV4
+    demote member AL_UNCONSTRAINED_AAV4 --whereClause "sequence.name = 'AAV4'" 
+
+    extract child AL_UNCONSTRAINED_AAV5 --refName AAV5
+    demote member AL_UNCONSTRAINED_AAV5 --whereClause "sequence.name = 'AAV5'" 
+
+    exit
