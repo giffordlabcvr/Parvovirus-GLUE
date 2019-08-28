@@ -1,0 +1,13 @@
+
+  # Create schema extension
+  create custom-table endogenous_data
+
+  table endogenous_data
+    create field scaffold VARCHAR 100
+    create field start_position INTEGER
+    create field end_position INTEGER
+    create field orientation VARCHAR 10
+  exit
+
+  create link sequence endogenous_data
+

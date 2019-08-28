@@ -1,0 +1,13 @@
+delete alignment AL_Pestinsect_3
+
+
+delete source ceratina-rescreen
+
+
+import source sources/fasta-rescreen/ceratina-rescreen/
+
+
+create alignment AL_Pestinsect_3_Ceratina -r REF_EFV_PI3_Ceratina
+alignment AL_Pestinsect_3_Ceratina add member --whereClause "source.name = 'ceratina-rescreen'"
+compute alignment AL_Pestinsect_3_Ceratina --whereClause "sequence.source = 'ceratina-rescreen'" flavivirusCompoundAligner 
+

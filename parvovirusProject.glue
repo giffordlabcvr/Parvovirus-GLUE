@@ -1,0 +1,52 @@
+delete project parvoviridae
+
+create project parvoviridae "GLUE project for the Parvoviridae" --minVersion 0.1.50
+
+schema-project parvoviridae
+
+  run file glue/parvoviridaeSchemaExtensions.glue
+  exit
+
+project parvoviridae
+
+  # load project settings
+  run file glue/projectSettings.glue
+
+  # create modules
+  run file glue/parvoviridaeModules.glue
+
+  # Import sources 
+  run file glue/parvoviridaeSources.glue
+  import source sources/fasta-epv-digs
+  import source sources/fasta-epv-consensus
+  
+  # Import data 
+  run script glue/loadExogenousData.js
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module parvoviridaesideDataImporter 
+    populate -f tabular/references/parvo-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Define genome features
+  run file glue/parvoviridaeFeatures.glue
+
+  # Create reference sequences
+  run file glue/parvoviridaeReferences.glue
+  run file glue/epvReferences.glue
+ 
+  
+  # Add feature locations to the master reference
+  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.txt -r
+  
+  # Import alignments
+  run file glue/parvoviridaeAlignments.glue
+
+  # Import alignment tree
+  run file glue/parvoviridaeAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit

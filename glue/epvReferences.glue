@@ -1,0 +1,20 @@
+  # Declare EVE reference sequences
+
+  ### Exogenous viruses
+
+  ## Parvovirinae 
+
+  # Amdoparvovirus
+
+  # Protoparvovirus
+  create reference REF_sha.1-monodelphis fasta-epv-consensus  sha.1-monodelphis
+ 
+  # Dependoparvovirus
+  create reference REF_dependo.1-macropus fasta-epv-consensus  dependo.1-macropus
+    
+  # Erythroparvovirus
+
+  # Copiparvovirus
+ 
+  # Chapparvovirus
+

@@ -1,0 +1,18 @@
+
+  # TIP alignments
+  
+  module unconstrainedAlignmentImporter
+
+    # Parvovirus tip alignments
+    #import AL_UNCONSTRAINED_ECV_Serpentes -f alignments/tips/parvovirus/ECV-serpentes-master-1.fna
+
+   exit
+
+
+  # INTERNAL alignments
+  
+  module unconstrainedAlignmentImporter
+    import AL_UNCONSTRAINED_EPV_Dependo -f alignments/internal/dependo-genome-eve.fna
+    import AL_UNCONSTRAINED_EPV_Proto   -f alignments/internal/proto-genome-eve.fna
+    import AL_UNCONSTRAINED_EPV_Amdo    -f alignments/internal/amdo-genome-eve.fna
+    exit
