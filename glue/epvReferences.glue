@@ -1,17 +1,27 @@
-  # Declare EVE reference sequences
-
-  ### Exogenous viruses
-
-  ## Parvovirinae 
-
+  # Declare parvovirus EVE reference sequences
+  
   # Amdoparvovirus
+  #create reference REF_amdo.1-ellobius           fasta-epv-consensus  amdo.1-ellobius
+
+  # AP
+  #create reference REF_ap.1-protobothrops        fasta-epv-consensus  ap.1-protobothrops
+
+
 
   # Protoparvovirus
-  create reference REF_sha.1-monodelphis fasta-epv-consensus  sha.1-monodelphis
+  #create reference REF_proto.1-rattus            fasta-epv-consensus  proto.1-rattus 
+  #create reference REF_proto.2-apodemus          fasta-epv-consensus  proto.2-apodemus
+  #create reference REF_proto.3-mus_spretus       fasta-epv-consensus  proto.3-mus_spretus
+  create reference REF_proto.4-mus_spicilegus    fasta-epv-consensus  proto.4-mus_spicilegus
+
+  # Shaparvovirus
+  create reference REF_sha.1-monodelphis         fasta-epv-consensus  sha.1-monodelphis
  
   # Dependoparvovirus
-  create reference REF_dependo.1-macropus fasta-epv-consensus  dependo.1-macropus
-    
+  create reference REF_dependo.1-macropus        fasta-epv-consensus  dependo.1-macropus
+  create reference REF_dependo.10-whippomorpha   fasta-epv-consensus  dependo.10-whippomorpha
+  #create reference REF_dependo.9-lagomorpha      fasta-epv-consensus  dependo.9-lagomorpha
+  
   # Erythroparvovirus
 
   # Copiparvovirus

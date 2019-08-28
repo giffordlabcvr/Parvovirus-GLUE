@@ -2,13 +2,14 @@ project parvoviridae
 
   run file glue/epvDeleteModules.glue
 
-  delete alignment AL_UNCONSTRAINED_EPV_Dependo
-  delete alignment AL_UNCONSTRAINED_EPV_Proto
-  delete alignment AL_UNCONSTRAINED_EPV_Amdo  
+  delete alignment AL_EPV-dependo.1-macropus
+  delete alignment AL_EPV-dependo.2-sarcophilus
+  delete alignment AL_EPV-dependo.3-diprotodontia
+  delete alignment AL_EPV-dependo.10-whippomorpha
+  delete alignment AL_EPV-sha.1-monodelphis
 
   delete reference REF_dependo.1-macropus
   delete reference REF_sha.1-monodelphis
-
 
   delete source fasta-epv-consensus
   delete source fasta-epv-curated
@@ -33,7 +34,7 @@ project parvoviridae
   import source sources/fasta-epv-digs
 
   run script glue/loadEndogenousData1.js
-  run script glue/loadEndogenousData2.js
+  #run script glue/loadEndogenousData2.js
   
   # Import metadata for EPV from tabular
   module epvSideDataImporter 

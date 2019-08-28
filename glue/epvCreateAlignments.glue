@@ -1,21 +1,23 @@
 delete alignment AL_EPV-dependo.1-macropus
 delete alignment AL_EPV-dependo.2-sarcophilus
-delete alignment AAL_EPV-dependo.3-diprotodontia
+delete alignment AL_EPV-dependo.3-diprotodontia
+delete alignment AL_EPV-dependo.10-whippomorpha
 delete alignment AL_EPV-sha.1-monodelphis
 
 delete source dependo.1-macropus
 delete source dependo.2-sarcophilus
 delete source dependo.3-diprotodontia
+delete source dependo.10-whippomorpha
 delete source sha.1-monodelphis
 
 import source sources/fasta-epv-bygroup/dependo/dependo.1-macropus/
 import source sources/fasta-epv-bygroup/dependo/dependo.2-sarcophilus/
 import source sources/fasta-epv-bygroup/dependo/dependo.3-diprotodontia/
+import source sources/fasta-epv-bygroup/dependo/dependo.10-whippomorpha/
 
-
-create alignment AL_EPV-dependo.1-Macropus -r REF_dependo.1-macropus 
-alignment AL_EPV-dependo.1-Macropus add member --whereClause "source.name = 'dependo.1-macropus'"
-compute alignment AL_EPV-dependo.1-Macropus --whereClause "sequence.source = 'dependo.1-macropus'" parvoviridaeCompoundAligner 
+create alignment AL_EPV-dependo.1-macropus -r REF_dependo.1-macropus 
+alignment AL_EPV-dependo.1-macropus add member --whereClause "source.name = 'dependo.1-macropus'"
+compute alignment AL_EPV-dependo.1-macropus --whereClause "sequence.source = 'dependo.1-macropus'" parvoviridaeCompoundAligner 
 
 create alignment AL_EPV-dependo.2-sarcophilus -r REF_dependo.1-macropus 
 alignment AL_EPV-dependo.2-sarcophilus add member --whereClause "source.name = 'dependo.2-sarcophilus'"
@@ -25,13 +27,14 @@ create alignment AL_EPV-dependo.3-diprotodontia -r REF_dependo.1-macropus
 alignment AL_EPV-dependo.3-diprotodontia add member --whereClause "source.name = 'dependo.3-diprotodontia'"
 compute alignment AL_EPV-dependo.3-diprotodontia --whereClause "sequence.source = 'dependo.3-diprotodontia'" parvoviridaeCompoundAligner 
 
+create alignment AL_EPV-dependo.10-whippomorpha -r REF_dependo.10-whippomorpha 
+alignment AL_EPV-dependo.10-whippomorpha add member --whereClause "source.name = 'dependo.10-whippomorpha'"
+compute alignment AL_EPV-dependo.10-whippomorpha --whereClause "sequence.source = 'dependo.10-whippomorpha'" parvoviridaeCompoundAligner 
+
+
 
 
 import source sources/fasta-epv-bygroup/sha/sha.1-monodelphis/
-
-create alignment AL_EPV-Sha.1-Monodelphis -r REF_sha.1-monodelphis
-alignment AL_EPV-Sha.1-Monodelphis add member --whereClause "source.name = 'sha.1-monodelphis'"
-compute alignment AL_EPV-Sha.1-Monodelphis --whereClause "sequence.source = 'sha.1-monodelphis'" parvoviridaeCompoundAligner 
 
 create alignment AL_EPV-Sha.1-Monodelphis -r REF_sha.1-monodelphis
 alignment AL_EPV-Sha.1-Monodelphis add member --whereClause "source.name = 'sha.1-monodelphis'"
