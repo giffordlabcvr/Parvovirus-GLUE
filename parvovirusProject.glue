@@ -36,8 +36,7 @@ project parvoviridae
   run file glue/parvoviridaeReferences.glue
   run file glue/epvReferences.glue
  
-  
-  # Add feature locations to the master reference
+  # Add feature locations to references
   module featureLocationTextToGlue transform tabular/references/reference_feature_locations.txt -r
   
   # Import alignments

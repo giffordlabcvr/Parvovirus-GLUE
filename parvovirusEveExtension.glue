@@ -1,13 +1,19 @@
 project parvoviridae
 
   run file glue/epvDeleteModules.glue
-  delete source fasta-epv-consensus
-  delete source fasta-epv-curated
-  delete source fasta-epv-digs
 
   delete alignment AL_UNCONSTRAINED_EPV_Dependo
   delete alignment AL_UNCONSTRAINED_EPV_Proto
   delete alignment AL_UNCONSTRAINED_EPV_Amdo  
+
+  delete reference REF_dependo.1-macropus
+  delete reference REF_sha.1-monodelphis
+
+
+  delete source fasta-epv-consensus
+  delete source fasta-epv-curated
+  delete source fasta-epv-digs
+
   exit
 
 schema-project parvoviridae
@@ -31,11 +37,14 @@ project parvoviridae
   
   # Import metadata for EPV from tabular
   module epvSideDataImporter 
-    populate -f tabular/epv-side-data.tsv
+    populate -f tabular/eve/epv-side-data.tsv
     exit
 
   # Create references
   run file glue/epvReferences.glue
+
+  # Add feature locations to EPV references
+  module featureLocationTextToGlue transform tabular/eve/epv_refseq_feature_locations.tsv -r
 
   # Import EPV sequences and side data 
   #run file glue/epvAlignments.glue

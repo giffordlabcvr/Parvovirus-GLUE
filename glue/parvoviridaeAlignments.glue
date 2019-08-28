@@ -7,7 +7,6 @@
 
     #~# Subfamily-level alignments 
 
-
     #~# Genera alignments
     import AL_PROTO_UNCONSTRAINED   -f alignments/internal/genus/proto/genome/proto-genome.fna
     import AL_AMDO_UNCONSTRAINED    -f alignments/internal/genus/amdo/amdo-genome.fna
@@ -17,6 +16,6 @@
     import AL_COPI_UNCONSTRAINED    -f alignments/internal/genus/copi/copi-genome.fna
     import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/genus/erythro/erythro-genome.fna
     
-    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/subfamily/chap/chap-genome.fna
+    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/subfamily/chapparvovirus/chap-genome.fna
     exit
     
