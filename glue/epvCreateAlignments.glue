@@ -29,10 +29,7 @@ compute alignment AL_EPV-dependo.3-diprotodontia --whereClause "sequence.source 
 
 create alignment AL_EPV-dependo.10-whippomorpha -r REF_dependo.10-whippomorpha 
 alignment AL_EPV-dependo.10-whippomorpha add member --whereClause "source.name = 'dependo.10-whippomorpha'"
-compute alignment AL_EPV-dependo.10-whippomorpha --whereClause "sequence.source = 'dependo.10-whippomorpha'" parvoviridaeCompoundAligner 
-
-
-
+compute alignment AL_EPV-dependo.10-whippomorpha --whereClause "sequence.source = 'dependo.10-whippomorpha'" parvoviridaeCompoundAligner s
 
 import source sources/fasta-epv-bygroup/sha/sha.1-monodelphis/
 

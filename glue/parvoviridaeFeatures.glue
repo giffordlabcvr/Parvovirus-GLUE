@@ -16,21 +16,21 @@
         feature NS2-P set metatag OWN_CODON_NUMBERING true
         feature NS2-P set metatag INCLUDE_IN_SUMMARY true
         feature NS2-P set metatag CODES_AMINO_ACIDS true
-        feature NS2-P set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+        #feature NS2-P set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
     	create feature NS2-L -p whole_genome "Nonstructural protein NS2-L"
         feature NS2-L set field displayName "NS2-L"
         feature NS2-L set metatag OWN_CODON_NUMBERING true
         feature NS2-L set metatag INCLUDE_IN_SUMMARY true
         feature NS2-L set metatag CODES_AMINO_ACIDS true
-        feature NS2-L set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+        #feature NS2-L set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
     	create feature M -p whole_genome "Mid-ORF"
         feature M set field displayName "Mid-ORF"
         feature M set metatag OWN_CODON_NUMBERING true
         feature M set metatag INCLUDE_IN_SUMMARY true
         feature M set metatag CODES_AMINO_ACIDS true
-        feature M set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+        #feature M set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 		create feature VP -p whole_genome "Capsid protein"
         feature VP set field displayName "Capsid"

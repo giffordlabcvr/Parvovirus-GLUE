@@ -1,7 +1,16 @@
-  # Import NCBI sources 
+  # Import NCBI reference sequences 
   import source sources/ncbi-refseqs
 
-  # Import FASTA sources 
+  # Import FASTA reference sequences 
   import source sources/fasta-refseqs/chapparvovirus
   import source sources/fasta-refseqs/erythroparvovirus
 
+  # Import NCBI curated sequences for individual genera
+  import source sources/ncbi-curated/dependo-ncbi-curated/
+  #import source sources/ncbi-curated/proto-ncbi-curated/
+  #import source sources/ncbi-curated/amdo-ncbi-curated/
+
+  # Import EVEs
+  import source sources/fasta-epv-digs/
+  import source sources/fasta-epv-consensus/
+  

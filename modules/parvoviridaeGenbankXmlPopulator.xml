@@ -22,17 +22,63 @@
 					<outputTemplate>Homo sapiens</outputTemplate>
 				</valueConverter>
 
-				<!-- #### Mink -->																																									
+				<!-- #### MUSTELIDS -->
 				<valueConverter>
 					<matchPattern>.*[mM]ink.*</matchPattern>
 					<outputTemplate>Neovison vison</outputTemplate>
 				</valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[mM]ustela vison.*</matchPattern>
+                    <outputTemplate>Neovison vison</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[nN]eovison vison.*</matchPattern>
+                    <outputTemplate>Neovison vison</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[aA]merican mink.*</matchPattern>
+                    <outputTemplate>Neovison vison</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[rR]accoon dog.*</matchPattern>
+                    <outputTemplate>Nyctereutes procyonoides</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>[aA]rctic fox</matchPattern>
+                    <outputTemplate>Vulpes lagopus</outputTemplate>
+                </valueConverter>
+
 
 				<!-- #### Avian -->																																									
                 <valueConverter>
                     <matchPattern>.*[cC]hicken.*</matchPattern>
                     <outputTemplate>Gallus gallus</outputTemplate>
                 </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[mM]uscovy duck.*</matchPattern>
+                    <outputTemplate>Cairina moschata</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[pP]ekin duck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[pP]eking duck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+                 <valueConverter>
+                    <matchPattern>.*[cC]herry [vV]alley duck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+               <valueConverter>
+                    <matchPattern>.*[gG]osling.*</matchPattern>
+                    <outputTemplate>Anser anser</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[gG]oose.*</matchPattern>
+                    <outputTemplate>Anser anser</outputTemplate>
+                </valueConverter>
+
 
 				<!-- #### Dromedary -->																																									
                 <valueConverter>
@@ -61,6 +107,13 @@
 					<matchPattern>.*Bos taurus.*</matchPattern>
 					<outputTemplate>Bos taurus</outputTemplate>
 				</valueConverter>	
+
+				<!-- #### Primate -->																																													
+ 				<valueConverter>
+					<matchPattern>.*[Rr]hesus monkey.*</matchPattern>
+					<outputTemplate>Macaca mulatta</outputTemplate>
+				</valueConverter>	
+	
 				
 			</propertyPopulator>
 		</gbQualifier>

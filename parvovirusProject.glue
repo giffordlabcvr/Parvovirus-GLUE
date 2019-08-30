@@ -5,6 +5,7 @@ create project parvoviridae "GLUE project for the Parvoviridae" --minVersion 0.1
 schema-project parvoviridae
 
   run file glue/parvoviridaeSchemaExtensions.glue
+  run file glue/epvSchemaExtensions.glue
   exit
 
 project parvoviridae
@@ -14,20 +15,14 @@ project parvoviridae
 
   # create modules
   run file glue/parvoviridaeModules.glue
+  run file glue/epvModules.glue
 
   # Import sources 
   run file glue/parvoviridaeSources.glue
-  import source sources/fasta-epv-digs
-  import source sources/fasta-epv-consensus
   
   # Import data 
-  run script glue/loadExogenousData.js
-  module genbankXmlPopulator populate
+  run file glue/parvoviridaeLoadVirusData.glue
 
-  # Import metadata for exogenous reference sequences from tabular
-  module parvoviridaesideDataImporter 
-    populate -f tabular/references/parvo-ncbi-refseqs-side-data.tsv
-    exit
 
   # Define genome features
   run file glue/parvoviridaeFeatures.glue
@@ -38,12 +33,21 @@ project parvoviridae
  
   # Add feature locations to references
   module featureLocationTextToGlue transform tabular/references/reference_feature_locations.txt -r
-  
-  # Import alignments
-  run file glue/parvoviridaeAlignments.glue
 
-  # Import alignment tree
-  run file glue/parvoviridaeAlignmentTree.glue
+  # Load endogenous data
+  run script glue/loadEndogenousData1.js
+  #run script glue/loadEndogenousData2.js
+  
+  # Import metadata for EPV from tabular
+  module epvSideDataImporter 
+    populate -f tabular/eve/epv-side-data.tsv
+    exit
+
+  # Add feature locations to EPV references
+  module featureLocationTextToGlue transform tabular/eve/epv_refseq_feature_locations.tsv -r
+
+  # Import alignments and build constrained alignment tree
+  run file glue/parvoviridaeAlignments.glue
 
   # Validate
   validate

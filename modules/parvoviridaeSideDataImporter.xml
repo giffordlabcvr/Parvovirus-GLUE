@@ -24,6 +24,11 @@
     </textFileColumn>
 
     <textFileColumn>
+        <header>virus_clade</header>
+        <property>clade</property>
+    </textFileColumn>
+
+    <textFileColumn>
         <header>virus_subfamily</header>
         <property>subfamily</property>
     </textFileColumn>
@@ -32,7 +37,6 @@
         <header>host_species</header>
         <property>host_sci_name</property>
     </textFileColumn>
-
 
     <skipMissing>true</skipMissing>
 
