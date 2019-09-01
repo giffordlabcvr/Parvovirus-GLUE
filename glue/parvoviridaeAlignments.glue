@@ -74,6 +74,7 @@
 
   alignment AL_Dependoparvovirus
     extract child AL_AAV               --refName REF_AAV2
+    #demote member AL_AAV               --whereClause "sequence.source.name = 'ncbi-refseqs' and sequence.clade = 'AAV'" 
     demote member AL_AAV               --whereClause "sequence.clade = 'AAV'" 
     exit
 
