@@ -1,0 +1,12 @@
+  run script glue/loadExogenousData.js
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module parvoviridaesideDataImporter 
+    populate -f tabular/references/parvo-ncbi-refseqs-side-data.tsv
+    exit
+    
+  # Import metadata for exogenous reference sequences from tabular
+  module parvoviridaesideDataImporter 
+    populate -f tabular/curated/dependo/dependo-side-data.tsv
+    exit

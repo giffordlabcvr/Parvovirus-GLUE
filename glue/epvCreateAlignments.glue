@@ -1,3 +1,5 @@
+# Clean up old alignments
+
 delete alignment AL_EPV-dependo.1-macropus
 delete alignment AL_EPV-dependo.2-sarcophilus
 delete alignment AL_EPV-dependo.3-diprotodontia
@@ -10,11 +12,13 @@ delete source dependo.3-diprotodontia
 delete source dependo.10-whippomorpha
 delete source sha.1-monodelphis
 
+# Import sources for alignment
 import source sources/fasta-epv-bygroup/dependo/dependo.1-macropus/
 import source sources/fasta-epv-bygroup/dependo/dependo.2-sarcophilus/
 import source sources/fasta-epv-bygroup/dependo/dependo.3-diprotodontia/
 import source sources/fasta-epv-bygroup/dependo/dependo.10-whippomorpha/
 
+# Create alignment
 create alignment AL_EPV-dependo.1-macropus -r REF_dependo.1-macropus 
 alignment AL_EPV-dependo.1-macropus add member --whereClause "source.name = 'dependo.1-macropus'"
 compute alignment AL_EPV-dependo.1-macropus --whereClause "sequence.source = 'dependo.1-macropus'" parvoviridaeCompoundAligner 

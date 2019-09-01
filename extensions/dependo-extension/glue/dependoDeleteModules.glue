@@ -1,1 +1,0 @@
-delete module --whereClause "name like 'dependo%'"
