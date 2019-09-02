@@ -19,7 +19,9 @@
   # Dependoparvovirus
   create reference REF_dependo.1-macropus        fasta-epv-consensus  dependo.1-macropus
   create reference REF_dependo.10-whippomorpha   fasta-epv-consensus  dependo.10-whippomorpha
+  create reference REF_dependo.20-rhinocerotidae fasta-epv-consensus  dependo.20-rhinocerotidae
   #create reference REF_dependo.9-lagomorpha      fasta-epv-consensus  dependo.9-lagomorpha
+  
   
   # Erythroparvovirus
 
