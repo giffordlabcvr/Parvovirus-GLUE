@@ -4,21 +4,55 @@ delete alignment AL_EPV-dependo.1-macropus
 delete alignment AL_EPV-dependo.2-sarcophilus
 delete alignment AL_EPV-dependo.3-diprotodontia
 delete alignment AL_EPV-dependo.10-whippomorpha
-delete alignment AL_EPV-sha.1-monodelphis
+delete alignment AL_EPV-dependo.26-lemuridae
+delete alignment AL_EPV-dependo.34-pteropodidae
 
 delete source dependo.1-macropus
 delete source dependo.2-sarcophilus
 delete source dependo.3-diprotodontia
 delete source dependo.10-whippomorpha
+delete source dependo.26-lemuridae
+delete source dependo.34-pteropodidae
+
+delete source erythro.1-dolichotis
+delete source erythro.2-hyaena
+
+delete alignment AL_EPV-erythro.1-dolichotis
+delete alignment AL_EPV-erythro.2-hyaena
+
+delete alignment AL_EPV-sha.1-monodelphis
+delete alignment AL_EPV-sha.2-sarcophilus
+delete alignment AL_EPV-sha.3-phasocolarctos
+delete alignment AL_EPV-sha.4-vombatus
+delete alignment AL_EPV-sha.5-macropus
+delete alignment AL_EPV-sha.7-cavids
+delete alignment AL_EPV-sha.8-dinomyidae
+delete alignment AL_EPV-sha.9-ctenomyidae
+delete alignment AL_EPV-sha.10-capromyidae
+
+
 delete source sha.1-monodelphis
+delete source sha.2-sarcophilus
+delete source sha.3-phasocolarctos
+delete source sha.4-vombatus
+delete source sha.5-macropus
+delete source sha.7-cavid
+delete source sha.8-dinomyidae
+delete source sha.9-ctenomyidae
+delete source sha.10-capromyidae
+
+
+#~# Dependoparvoviruses
 
 # Import sources for alignment
 import source sources/fasta-epv-bygroup/dependo/dependo.1-macropus/
 import source sources/fasta-epv-bygroup/dependo/dependo.2-sarcophilus/
 import source sources/fasta-epv-bygroup/dependo/dependo.3-diprotodontia/
 import source sources/fasta-epv-bygroup/dependo/dependo.10-whippomorpha/
+import source sources/fasta-epv-bygroup/dependo/dependo.26-lemuridae/
+import source sources/fasta-epv-bygroup/dependo/dependo.34-pteropodidae/
 
-# Create alignment
+# Create alignments
 create alignment AL_EPV-dependo.1-macropus -r REF_dependo.1-macropus 
 alignment AL_EPV-dependo.1-macropus add member --whereClause "source.name = 'dependo.1-macropus'"
 compute alignment AL_EPV-dependo.1-macropus --whereClause "sequence.source = 'dependo.1-macropus'" parvoviridaeCompoundAligner 
@@ -33,11 +67,83 @@ compute alignment AL_EPV-dependo.3-diprotodontia --whereClause "sequence.source 
 
 create alignment AL_EPV-dependo.10-whippomorpha -r REF_dependo.10-whippomorpha 
 alignment AL_EPV-dependo.10-whippomorpha add member --whereClause "source.name = 'dependo.10-whippomorpha'"
-compute alignment AL_EPV-dependo.10-whippomorpha --whereClause "sequence.source = 'dependo.10-whippomorpha'" parvoviridaeCompoundAligner s
+compute alignment AL_EPV-dependo.10-whippomorpha --whereClause "sequence.source = 'dependo.10-whippomorpha'" parvoviridaeCompoundAligner
 
+create alignment AL_EPV-dependo.26-lemuridae -r REF_dependo.10-whippomorpha 
+alignment AL_EPV-dependo.26-lemuridae add member --whereClause "source.name = 'dependo.26-lemuridae'"
+compute alignment AL_EPV-dependo.26-lemuridae --whereClause "sequence.source = 'dependo.26-lemuridae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.34-pteropodidae -r REF_AAV5
+alignment AL_EPV-dependo.34-pteropodidae add member --whereClause "source.name = 'dependo.34-pteropodidae'"
+compute alignment AL_EPV-dependo.34-pteropodidae --whereClause "sequence.source = 'dependo.34-pteropodidae'" parvoviridaeCompoundAligner
+
+
+
+#~# Erythroparvoviruses
+
+# Import sources for alignment
+import source sources/fasta-epv-bygroup/erythro/erythro.2-hyaena/
+
+# Create alignments
+create alignment AL_EPV-erythro.2-hyaena -r REF_B19
+alignment AL_EPV-erythro.2-hyaena add member --whereClause "source.name = 'erythro.2-hyaena'"
+compute alignment AL_EPV-erythro.2-hyaena --whereClause "sequence.source = 'erythro.2-hyaena'" parvoviridaeCompoundAligner 
+
+
+#~# Southern-hemisphere-associated protoparvoviruses
+
+# Import sources for alignment
 import source sources/fasta-epv-bygroup/sha/sha.1-monodelphis/
+import source sources/fasta-epv-bygroup/sha/sha.2-sarcophilus
+import source sources/fasta-epv-bygroup/sha/sha.3-phasocolarctos/
+import source sources/fasta-epv-bygroup/sha/sha.4-vombatus/
+import source sources/fasta-epv-bygroup/sha/sha.5-macropus/
+import source sources/fasta-epv-bygroup/sha/sha.7-cavid/
+import source sources/fasta-epv-bygroup/sha/sha.8-dinomyidae/
+import source sources/fasta-epv-bygroup/sha/sha.9-ctenomyidae/
+import source sources/fasta-epv-bygroup/sha/sha.10-capromyidae
 
-create alignment AL_EPV-Sha.1-Monodelphis -r REF_sha.1-monodelphis
-alignment AL_EPV-Sha.1-Monodelphis add member --whereClause "source.name = 'sha.1-monodelphis'"
-compute alignment AL_EPV-Sha.1-Monodelphis --whereClause "sequence.source = 'sha.1-monodelphis'" parvoviridaeCompoundAligner 
+# Create alignments
+create alignment AL_EPV-sha.1-monodelphis -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.1-monodelphis add member --whereClause "source.name = 'sha.1-monodelphis'"
+compute alignment AL_EPV-sha.1-monodelphis --whereClause "sequence.source = 'sha.1-monodelphis'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.2-sarcophilus -r REF_sha.1-monodelphis
+alignment  AL_EPV-sha.2-sarcophilus add member --whereClause "source.name = 'sha.2-sarcophilus'"
+compute alignment AL_EPV-sha.2-sarcophilus --whereClause "sequence.source = 'sha.2-sarcophilus'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.3-phasocolarctos -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.3-phasocolarctos add member --whereClause "source.name = 'sha.3-phasocolarctos'"
+compute alignment AL_EPV-sha.3-phasocolarctos --whereClause "sequence.source = 'sha.3-phasocolarctos'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.4-vombatus -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.4-vombatus add member --whereClause "source.name = 'sha.4-vombatus'"
+compute alignment AL_EPV-sha.4-vombatus --whereClause "sequence.source = 'sha.4-vombatus'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.5-macropus -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.4-vombatus add member --whereClause "source.name = 'sha.5-macropus'"
+compute alignment AL_EPV-sha.5-macropus --whereClause "sequence.source = 'sha.5-macropus'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.7-cavids -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.7-cavids add member --whereClause "source.name = 'sha.7-cavid'"
+compute alignment AL_EPV-sha.7-cavids --whereClause "sequence.source = 'sha.7-cavid'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.8-dinomyidae -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.8-dinomyidae add member --whereClause "source.name = 'sha.8-dinomyidae'"
+compute alignment AL_EPV-sha.8-dinomyidae --whereClause "sequence.source = 'sha.8-dinomyidae'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.9-ctenomyidae -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.9-ctenomyidae add member --whereClause "source.name = 'sha.9-ctenomyidae'"
+compute alignment AL_EPV-sha.9-ctenomyidae --whereClause "sequence.source = 'sha.9-ctenomyidae'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-sha.10-capromyidae -r REF_sha.1-monodelphis
+alignment AL_EPV-sha.10-capromyidae add member --whereClause "source.name = 'sha.10-capromyidae'"
+compute alignment AL_EPV-sha.10-capromyidae --whereClause "sequence.source = 'sha.10-capromyidae'" parvoviridaeCompoundAligner 
+
+
+
+
+
+
+
 

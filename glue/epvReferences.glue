@@ -7,10 +7,9 @@
   #create reference REF_ap.1-protobothrops        fasta-epv-consensus  ap.1-protobothrops
 
 
-
   # Protoparvovirus
-  #create reference REF_proto.1-rattus            fasta-epv-consensus  proto.1-rattus 
-  #create reference REF_proto.2-apodemus          fasta-epv-consensus  proto.2-apodemus
+  create reference REF_proto.1-rattus            fasta-epv-consensus  proto.1-rattus 
+  create reference REF_proto.2-apodemus          fasta-epv-consensus  proto.2-apodemus
   #create reference REF_proto.3-mus_spretus       fasta-epv-consensus  proto.3-mus_spretus
   create reference REF_proto.4-mus_spicilegus    fasta-epv-consensus  proto.4-mus_spicilegus
 

@@ -95,8 +95,8 @@
     demote member AL_AAV8              --whereClause "sequence.name = 'AAV-8'" 
     extract child AL_AAV9              --refName REF_AAV9
     demote member AL_AAV9              --whereClause "sequence.name = 'AAV-9'" 
-    extract child AL_AAV10             --refName REF_AAV10
-    demote member AL_AAV10             --whereClause "sequence.name = 'AAV-10'" 
+    #extract child AL_AAV10             --refName REF_AAV10
+    #demote member AL_AAV10             --whereClause "sequence.name = 'AAV-10'" 
     extract child AL_AAV11             --refName REF_AAV11
     demote member AL_AAV11             --whereClause "sequence.name = 'AAV-11'" 
     extract child AL_AAV12             --refName REF_AAV12
