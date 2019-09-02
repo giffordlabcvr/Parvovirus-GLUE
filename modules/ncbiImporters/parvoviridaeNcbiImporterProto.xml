@@ -6,7 +6,7 @@
      "Protoparvovirus"[Organism] AND 500:6000[SLEN]
   </eSearchTerm>  
   <sequenceFormat>GENBANK_XML</sequenceFormat>
-  <sourceName>amdo-ncbi-curated</sourceName>
+  <sourceName>ncbi-curated-proto</sourceName>
   <!-- This specifies the field of the GenBank document which will be used as the GLUE sequence ID. The options are:
        GI_NUMBER (default if omitted)
        PRIMARY_ACCESSION -->
