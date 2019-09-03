@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AX244509</GBSeq_locus>
+    <GBSeq_length>1431</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-SEP-2001</GBSeq_update-date>
+    <GBSeq_create-date>28-SEP-2001</GBSeq_create-date>
+    <GBSeq_definition>Sequence 11 from Patent WO0166568</GBSeq_definition>
+    <GBSeq_primary-accession>AX244509</GBSeq_primary-accession>
+    <GBSeq_accession-version>AX244509.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AX244509.1|</GBSeqid>
+      <GBSeqid>pat|WO|0166568|11</GBSeqid>
+      <GBSeqid>gi|15859436</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Feline parvovirus</GBSeq_source>
+    <GBSeq_organism>Feline parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1431</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jensen,W.A.</GBAuthor>
+          <GBAuthor>Lappin,M.R.</GBAuthor>
+          <GBAuthor>Rosen,D.K.</GBAuthor>
+          <GBAuthor>Andrews,J.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Use of recombinant antigens to determine the immune status of an animal</GBReference_title>
+        <GBReference_journal>WO0166568-A2 11 13-SEP-2001 Heska Corporation (US); COLORADO STATE UNIVERSITY RESEARCH FOUNDATION (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1431</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1431</GBInterval_to>
+            <GBInterval_accession>AX244509.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Feline parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10785</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1431</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1431</GBInterval_to>
+            <GBInterval_accession>AX244509.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>unnamed protein product</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAC88561.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSDGAVQPDGGQPAVRNERATGSGNGSGGGGGGGSGGVGISTGTFNNQTEFKFLENGWVEITANSSRLVHLNMPESENYKRVVVNNMDKTAVKGNMALDDTHVQIVTPWSLVDANAWGVWFNPGDWQLIVNTMSELHLVSFEQEIFNVVLKTVSESATQPPTKVYNNDLTASLMVALDSNNTMPFTPAAMRSETLGFYPWKPTIPTPWRYYFQWDRTLIPSHTGTSGTPTNIYHGTDPDDVQFYTIENSVPVHLLRTGDEFATGTFFFDCKPCRLTHTWQTNRALGLPPFLNSLPQSEGATNFGDIGVQQDKRRGVTQMGNTDYITEATIMRPAEVGYSAPYYSFEASTQGPFKIPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPAGDWIQNINFNLPVTNDNVLLPTDPIGGKTGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKEFDTD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagtgatggagcagttcaaccagacggtggtcaacctgctgtcagaaatgaaagagctacaggatctgggaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacgggtactttcaataatcagacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattataaaagagtagttgtaaataatatggataaaactgcagttaaaggaaacatggctttagatgacactcatgtacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatctgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagtaataatactatgccatttactccagcagctatgagatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattaataccatctcatactggaactagtggcacaccaacaaatatatatcatggtacagatccagatgatgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaacagagcattgggcttaccaccatttctaaattctttgcctcaatctgaaggagctactaactttggtgatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacagactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaagcgtctacacaagggccatttaaaatacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactactacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagcaggagattggattcaaaatattaactttaaccttcctgtaacaaatgataatgtattgctaccaacagatccaattggaggtaaaacaggaatcaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgac</GBSeq_sequence>
+  </GBSeq>

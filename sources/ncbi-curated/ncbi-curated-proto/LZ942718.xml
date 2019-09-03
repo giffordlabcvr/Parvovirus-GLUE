@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LZ942718</GBSeq_locus>
+    <GBSeq_length>1764</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-FEB-2018</GBSeq_update-date>
+    <GBSeq_create-date>28-FEB-2018</GBSeq_create-date>
+    <GBSeq_definition>JP 2016529908-A/1: Methods and Kits for Quantifying the Removal of Mock Virus Particles from a Purified Solution</GBSeq_definition>
+    <GBSeq_primary-accession>LZ942718</GBSeq_primary-accession>
+    <GBSeq_accession-version>LZ942718.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LZ942718.1|</GBSeqid>
+      <GBSeqid>pat|JP|2016529908|1</GBSeqid>
+      <GBSeqid>gi|1352326885</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2016529908-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Minute virus of mice</GBSeq_source>
+    <GBSeq_organism>Minute virus of mice</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1764</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dhar,A.</GBAuthor>
+          <GBAuthor>Cetlin,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Methods and Kits for Quantifying the Removal of Mock Virus Particles from a Purified Solution</GBReference_title>
+        <GBReference_journal>JP2016529908-A 1 29-SEP-2016 Mock V Solutions Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Minute Virus of Mice~PN JP 2016529908-A/1~PD 29-SEP-2016~PF 09-SEP-2014 JP 2016539674~PR 10-SEP-2013 US 61/875729~PA Mock V Solutions Inc~PI arun dhar,david cetlin~PT 'Methods and Kits for Quantifying the Removal of Mock Virus~PT Particles from~PT a Purified Solution'~PS N4~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1764</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1764</GBInterval_to>
+            <GBInterval_accession>LZ942718.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Minute virus of mice</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10794</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagtgatggcaccagccaacctgacagcggaaacgctgtccactcagctgcaagagttgaacgagcagctgacggccctggaggctctgggggtgggggctctggcgggggtggggttggtgtttctactgggtcttatgataatcaaacgcattatagattcttgggtgacggctgggtagaaattactgcactagcaactagactagtacatttaaacatgcctaaatcagaaaactattgcagaatcagagttcacaatacaacagacacatcagtcaaaggcaacatggcaaaagatgatgctcatgagcaaatttggacaccatggagcttggtggatgctaatgcttggggagtttggctccagccaagtgactggcaatacatttgcaacaccatgagccagcttaacttggtatcacttgatcaagaaatattcaatgtagtgctgaaaactgttacagagcaagacttaggaggtcaagctataaaaatatacaacaatgaccttacagcttgcatgatggttgcagtagactcaaacaacattttgccatacacacctgcagcaaactcaatggaaacacttggtttctacccctggaaaccaaccatagcatcaccatacaggtactatttttgcgttgacagagatctttcagtgacctacgaaaatcaagaaggcacagttgaacataatgtgatgggaacaccaaaaggaatgaattctcaattttttaccattgagaacacacaacaaatcacattgctcagaacaggggacgaatttgccacaggtacttactactttgacacaaattcagttaaactcacacacacgtggcaaaccaaccgtcaacttggacagcctccactgctgtcaacctttcctgaagctgacactgatgcaggtacacttactgctcaagggagcagacatggaacaacacaaatgggggttaactgggtgagtgaagcaatcagaaccagacctgctcaagtaggattttgtcaaccacacaatgactttgaagccagcagagctggaccatttgctgccccaaaagttccagcagatattactcaaggagtagacaaagaagccaatggcagtgttagatacagttatggcaaacagcatggtgaaaattgggcttcacatggaccagcaccagagcgctacacatgggatgaaacaagctttggttcaggtagagacaccaaagatggttttattcaatcagcaccactagttgttccaccaccactaaatggcattcttacaaatgcaaaccctattgggactaaaaatgacattcatttttcaaatgtttttaacagctatggtccactaactgcattttcacacccaagtcctgtataccctcaaggacaaatatgggacaaagaactagatcttgaacacaaacctagacttcacataactgctccatttgtttgtaaaaacaatgcacctggacaaatgttggttagattaggaccaaacctaactgaccaatatgatccaaacggagccacactttctagaattgttacatacggtacatttttctggaaaggaaaactaaccatgagagcaaaacttagagctaacaccacttggaacccagtgtaccaagtaagtgctgaagacaatggcaactcatacatgagtgtaactaaatggttaccaactgctactggaaacatgcagtctgtgccgcttataacaagacctgttgctagaaatacttactaa</GBSeq_sequence>
+  </GBSeq>

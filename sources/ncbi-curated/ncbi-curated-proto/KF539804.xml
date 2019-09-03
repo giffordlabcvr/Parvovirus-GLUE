@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KF539804</GBSeq_locus>
+    <GBSeq_length>1755</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-SEP-2014</GBSeq_update-date>
+    <GBSeq_create-date>28-FEB-2014</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus 2 isolate H-212 capsid protein VP2 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KF539804</GBSeq_primary-accession>
+    <GBSeq_accession-version>KF539804.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KF539804.1|</GBSeqid>
+      <GBSeqid>gi|582987870</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus 2</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1755</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Csagola,A.</GBAuthor>
+          <GBAuthor>Varga,S.</GBAuthor>
+          <GBAuthor>Lorincz,M.</GBAuthor>
+          <GBAuthor>Tuboly,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Analysis of the full-length VP2 protein of canine parvoviruses circulating in Hungary</GBReference_title>
+        <GBReference_journal>Arch. Virol. 159 (9), 2441-2444 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-014-2068-5</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24696272</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1755</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Csagola,A.</GBAuthor>
+          <GBAuthor>Varga,S.</GBAuthor>
+          <GBAuthor>Lorincz,M.</GBAuthor>
+          <GBAuthor>Tuboly,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-AUG-2013) Microbiology and Infectious Disease, Szent Istvan University Faculty of Veterinary Science, Hungaria Krt. 23-25, Budapest, Pest H-1143, Hungary</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1755</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1755</GBInterval_to>
+            <GBInterval_accession>KF539804.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>H-212</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:246878</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Hungary</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1755</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1755</GBInterval_to>
+            <GBInterval_accession>KF539804.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AHI49041.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSDGAVQPDGGQPAVRNERATGSGNGSGGGGGGGSGGVGISTGTFNNQTEFKFLENGWVEITANSSRLVHLNMPESENYRRVVVNNLDKTAVNGNMALDDTHAQIVTPWSLVDANAWGVWFNPGDWQLIVNTMSELHLVSFEQEIFNVVLKTVSEFATQPPTKVYNNDLTASLMVALDSNNTMPFTPAAMRFETLGFYPWKPTIPTPWRYYFQWDRTLIPSHTGTSGTPTNIYHGTDPDDVQFYTIENSVPVHLLRTGDEFATGTFFFDCKPCRLTHTWQTNRALGLPPFLNSLPQAEGGTNFGYIGVQQDKRRGVTQMGNTNYITEATIMRPAEVGYSAPYYSFEASTQGPFKTPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPEGDWIQNINFNLPVTNDNVLLPTDPIGGKTGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKEFDTDLKPRLHVNAPFVCQNNCPGQLFVKVAPNLTNEYDPDASTNMSRIVTYSDFWWKGKLVFKAKLRASHTWNPIQQMSINVDNQFNYVPSNIGGMKIVYEKSQLAPRKLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagtgatggagcagttcaaccagacggtggtcaacctgctgtcagaaatgaaagagctacaggatctgggaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacgggtactttcaataatcagacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattatagaagagtggttgtaaataatttggataaaactgcagttaacggaaacatggctttagatgatactcatgcacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatttgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagcaataatactatgccatttactccagcagctatgagatttgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattaataccatctcatactggaactagtggcacaccaacaaatatataccatggtacagatccagatgacgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaagctgaaggaggtactaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacaaatgataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcgcctaatttaacaaatgaatatgatcctgatgcatctactaatatgtcaagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcctctcatacttggaatccaattcaacaaatgagtattaatgtagataaccaatttaactatgtaccaagtaatattggaggtatgaagattgtatatgaaaaatctcaactagcacctagaaaattatattaa</GBSeq_sequence>
+  </GBSeq>

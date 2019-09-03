@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JQ178319</GBSeq_locus>
+    <GBSeq_length>526</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-DEC-2012</GBSeq_update-date>
+    <GBSeq_create-date>24-MAR-2012</GBSeq_create-date>
+    <GBSeq_definition>Turkey parvovirus strain TuPV/Poland/G026/2011 nonfunctional nonstructural protein 1 (NS1) gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>JQ178319</GBSeq_primary-accession>
+    <GBSeq_accession-version>JQ178319.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JQ178319.1|</GBSeqid>
+      <GBSeqid>gi|380707368</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Turkey parvovirus 1078</GBSeq_source>
+    <GBSeq_organism>Turkey parvovirus 1078</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..526</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Domanska-Blicharz,K.</GBAuthor>
+          <GBAuthor>Jacukowicz,A.</GBAuthor>
+          <GBAuthor>Lisowska,A.</GBAuthor>
+          <GBAuthor>Minta,Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic characterization of parvoviruses circulating in turkey and chicken flocks in Poland</GBReference_title>
+        <GBReference_journal>Arch. Virol. 157 (12), 2425-2430 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-012-1446-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23011307</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..526</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Domanska-Blicharz,K.</GBAuthor>
+          <GBAuthor>Jacukowicz,A.</GBAuthor>
+          <GBAuthor>Lisowska,A.</GBAuthor>
+          <GBAuthor>Minta,Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-NOV-2011) Department of Poultry Diseases, National Veterinary Research Institute, Al. Partyzantow 57, Pulawy 24-100, Poland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: SeqMan Pro DNASTAR Lasergene v. 8.1.5(3), 414 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..526</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>526</GBInterval_to>
+            <GBInterval_accession>JQ178319.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Turkey parvovirus 1078</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>TuPV/Poland/G026/2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>fecal swabs</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>turkey</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:740933</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Poland</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Apr-2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;526</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>526</GBInterval_to>
+            <GBInterval_accession>JQ178319.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;526</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>526</GBInterval_to>
+            <GBInterval_accession>JQ178319.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional nonstructural protein 1 due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccaacaggaatgccatctcaacagttcatgcagctgcaattagagcaagatgcctaaaattcacattcaacaattggctaacttcaaattggggtttgataacagttgatcaaatgtaccaatttttatgctggggagaactagacggcattccgtccgtgaatagtctcctaaaagatcatcccgaatttaacgggactttgccctataatcaacccaaaggtaaattctgtgccgattgtgttaaccagttcagcactgcagctaacctgaccgtgtgcccagcctgttccggttggaccagaaagccattctccgaagaagaggaacccacctatactggttctgaatccgggctctttgaaaaggccaaccaaggtaagcgcaaggtctcagggatttatccagtaatatggccggatcaataactaatccctgaggccctgcacttacagaggcgattgagctactgggagacggggatccccagcgaatcgagtggattaccagacgagccaracttcac</GBSeq_sequence>
+  </GBSeq>

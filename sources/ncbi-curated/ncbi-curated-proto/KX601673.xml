@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX601673</GBSeq_locus>
+    <GBSeq_length>564</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-FEB-2017</GBSeq_update-date>
+    <GBSeq_create-date>12-FEB-2017</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus 2c strain VTE052-2016 capsid protein (VP2) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KX601673</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX601673.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX601673.1|</GBSeqid>
+      <GBSeqid>gi|1142345764</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus 2c</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus 2c</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..564</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vannamahaxay,S.</GBAuthor>
+          <GBAuthor>Vongkhamchanh,S.</GBAuthor>
+          <GBAuthor>Intanon,M.</GBAuthor>
+          <GBAuthor>Tangtrongsup,S.</GBAuthor>
+          <GBAuthor>Tiwananthagorn,S.</GBAuthor>
+          <GBAuthor>Pringproa,K.</GBAuthor>
+          <GBAuthor>Chuammitri,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization of canine parvovirus in Vientiane, Laos</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2017) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-016-3212-1</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28124140</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..564</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vannamahaxay,S.</GBAuthor>
+          <GBAuthor>Chuammitri,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-JUL-2016) Livestock and Fisheries, Faculty of Agriculture, National University of Laos, 13 southern, Xaythanee, Vientiane capital 1133, Lao Pdr</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..564</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>564</GBInterval_to>
+            <GBInterval_accession>KX601673.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus 2c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>VTE052-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>rectal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Canis familiaris</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:544789</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Laos</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Mar-2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Type2c</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;564</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>564</GBInterval_to>
+            <GBInterval_accession>KX601673.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;564</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>564</GBInterval_to>
+            <GBInterval_accession>KX601673.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQH32567.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GLPPFLNSLPQAEGGTNFGYIGVQQDKRRGVTQMGNTNIITEATIMRPAEVGYSAPYYSCEASTQGPFKTPIAAGRGGAQTDENRAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPEGDWIQNINFNLPVTEDNVLLPTDPIGGKTGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcttaccaccatttctaaattctttgcctcaagctgaaggaggtactaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaacacaaacattattactgaagctactattatgagaccagctgaggtgggttatagtgcaccatattattcttgtgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcgagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacagaagataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaa</GBSeq_sequence>
+  </GBSeq>

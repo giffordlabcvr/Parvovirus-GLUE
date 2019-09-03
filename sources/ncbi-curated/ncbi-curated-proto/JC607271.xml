@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JC607271</GBSeq_locus>
+    <GBSeq_length>5853</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>11-SEP-2014</GBSeq_update-date>
+    <GBSeq_create-date>11-SEP-2014</GBSeq_create-date>
+    <GBSeq_definition>Sequence 1 from Patent WO2014099669</GBSeq_definition>
+    <GBSeq_primary-accession>JC607271</GBSeq_primary-accession>
+    <GBSeq_accession-version>JC607271.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|JC607271.1|</GBSeqid>
+      <GBSeqid>pat|WO|2014099669|1</GBSeqid>
+      <GBSeqid>gi|684896741</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine parvovirus 5</GBSeq_source>
+    <GBSeq_organism>Porcine parvovirus 5</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5853</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>IYER,A.V.</GBAuthor>
+          <GBAuthor>JORDAN,D.M.M.</GBAuthor>
+          <GBAuthor>PATTERSON,A.R.</GBAuthor>
+          <GBAuthor>ROOF,M.B.</GBAuthor>
+          <GBAuthor>VAUGHN,E.M.</GBAuthor>
+          <GBAuthor>VICTORIA,J.G.</GBAuthor>
+          <GBAuthor>VISEK,C.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PORCINE PARVOVIRUS 5A, METHODS OF USE AND VACCINE</GBReference_title>
+        <GBReference_journal>WO2014099669-A1 1 26-JUN-2014 BOEHRINGER INGELHEIM VETMED [US], IYER ARUN V [US], JORDAN DIANNA M MURPHY [US], PATTERSON ABBY RAE [US], ROOF MICHAEL B [US], VAUGHN ERIC MARTIN [US], VICTORIA JOSEPH GILBERT [US], VISEK CALLIE ANN [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5853</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5853</GBInterval_to>
+            <GBInterval_accession>JC607271.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine parvovirus 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1241957</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>In the original SL, it was Porcine parvovirus 5A</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tatttgcaggcttttccctgatattgggaagattcctggggtgactcctgagcggtatatttatgctgtaaacgtgagtacccgtaatgggcaaaagtggccgaaagttgggaccgaggggccattggctgcaggtgtcttacagggggaggcccttttccgtgagacccttaaagaggtccggaaggtgtgccggctgccgcaagaccccccatcttttctttcaattggagaaagttgattccaaagggggtcttcaccttcatttttgtattagtgttgctgctggcactcctagagatgtgtcttcgatgtttaaagccattgagcgtcgagtttccttttactactttggtgtagagggcttgactttttttactcctcataaaaataagcatggggcttggaagagtaatgatgagggctttattgtgaattatcttcttaaaaaattgcctttgtctgagtgtgtgtatgcgtggactaatatggatggggtgattggcgatgcctgtctgaatgaagataagcgcagggaattgttgtctgagcgtcaagatcagggagtcattaaagagctcactgctcctacttttaaagctgctacgggtgataaaatgttgagtgtggtggattggatgtgtgataatgatgtgactacggagcgccgatgggaggaaatatcggctgcgtccctgtactctttccttgctaccccagctggcactcatttggctaaacagtgtcttagagctgcgaatcagcgtattgtgagcactaaaacctcttggttgagtctctgtaaatttgccagtgaaaaggagcttcgtgcttttcaaaatggggatcctgagttgtcttcagacaacaataggatctattacttatttgctatgaataattactgccctgatatggccagtatgattttcttttggtggtctatgcgccaaacgggtaagagaaacagtatttggctgtttggacctgctacaaccggtaaaaccaatttagcaagtgctattgcacatactgctgccagttatgggtgtgttaactggaataacgcaaatttcccgtttcaagacattgtgaatgtgcaactgggttggtgggaggaaggaaagatgacagaggatgtggttgaatgtgctaaggcattgctagggggaagtaatgtaagagttgaccgcaaatgtatgcaatctgcggaagtgcaatctcctccttttattatcacatccaatacggatatgtgccttgtttctcaaggcagttacatcagttttgagcaccagcagcctctccaggatagaatgattaaatttgagtttaaccatgttcttcctggcaatttcggcctcatttctgaagatgaagttgtggccttcttcagaaatggtgcttataatgtgttgaagcatgcgtacatgagaaaggcccagctttttgctctcggtccagcttccttgccatataagccccctacgggtgaattagtgtgtatagaccaagctaagtctccttctccctctgcttctcgccgcagtgtgagaaattggatgacgtgtccccctgatcctgtccaggacgatcccgctgaactggacgagtattttcctccagatactcctccagaggattgtccttgtcctatttctcctgtgagggagtcttgtccctcgccagggccttgccctacccctcctcgcaaaaaacaacggaagagcaagcattgctccttgtctgtctctgcgggtaaagttcctgtggtggttgtgggtgattctgactcagtcccccccgaagaaaaagaaaaagaggaagtttccgtgggggaatcccaggatccacaactgtactgggacctaactctcagtcaatccgacgttcctgtgcctgaagacgagagtacccagtttcctgacgacgctgtggacgcttctgatctcattgctgaacagtagttaaggtatgagccgttctactcaaagagatctttggtctttgttaagggagagacttgaaaggtataaggatcgagttaaatattatggtattttggtgccagaacgtccttctaccttagcatcttattttagtaaagacccacctccagatcctccaactgttaaatttgataaaccctatcaggatgtagatagattctggtttccaacagacgattatactgactggtatgtctggcatggagaggacagacctcctagatttaccgagcattccggtgttcagggttttaaaactaggtgtgagggggggcttcctttaatgcccagtgatcccaaattttgccccatacaaaatttttgggatcagttcgctaattttgatgaggggtctccgtccacccagatcggtgagagtgtttcatggagtgatcattttggaagtcccgatccctctcatcatcaggaggtgagggatgctgatgaagttacttccgagcggcagcaatataaaaataggattgtcaccttactaagaaaagtttattgggctaagcagtggtctgggaaattacaaattaatgttccttccctcgaaagcctttatgagcagatcccctatatgctagcctatatggacgccgataattggcgtcagaatttgttagctgctaaaactctgcgaaccactttggaagcattttcctgtgttccagatccttccacgtgcgatgtcacaatctccacacccctatctggtgaaacggatcccgcctcttttgcaaaatacttatgttcccttgtatgcaacaggtctcaagaaaaagaacaggcgcagacgccttctttgtctccatctaagcaaaaagggcagatgtcaagtcctgattctgcatcgatctcccaacctccccctgaaagtcacaaggatagactgcttcctaaaactgatccccttcaggaagcagggccccttcccgctccccctacagctcagaagcctattatctctaagggtgcaggcggtggagggtcgtctggcttcataatccctccaaaacctcctagccccgatcatactaaagatcccccccctcctcctcctccctctccaattcctcctcctacatctgcgcctgacgcagaggagcacgagctagagcgtgctaagcaggagaaacaagaggaagatgagctcattgaaagaatcaaatcaggagaaggagaaggagaacgaggaggcttcgtcttgccttctcaccactacactggtcctagaaatcctgtcccagctggcaagcctgctgaccccgttgatgaatcttctgcgagacatgacatcaggtatgggcaacgtcttaaacatggagactggccatacctgtgggggaaggacttggataatgctcagcgagatgagattatcaaagctcttcatagtcatgtcaaagtgggaacccaattggcagggaatatagtgaggagtatctggaaggctaaggagctcttaacagaacctgtgtatgagctgttaaagtctattctccctccttcagatttatctaaagttcctcttcctcattcccaacagacagacagaacagaagatccagaaactccaggggagactagaggaactggatcagacagtcctcgatctcctcggccttctggatcaactgaagacgggggaggtccttcttccgagtccagattacctgggagtaaagttccagtagacccatctgccaccacgtctgaagcaaagaggcagaggactgaggaggggatggacatatcttcatgcggtccaggggggatttctgcttctggggctgcttcaaataactctggtcttgcttgtgggggtggggggggtactaatttagggacagaatctcttgtatccggctgtcagtttggtaaaaactctgtgatcacttcatcttttagacgatgtcttatttcaccctggcctgataaatactgttgttcttctgctcacgatcttattcccggagtggtctacgagaccccttggtgctattatgatctgaacgtcatctcaagctacattttttctccttctgcttggcagaggcttttggaggattatgatgcctttcgacctaaatcccttaaagttaccatccagtctttagttttaaagatgtctgtcaaggtgcagaaaaaacaaactacagttcaggattcccagtcagccactattgctatctttgaggataaagactatgactacccctatgtgatgggagggggtcaaaaaacagttccgggtcacttgcccggtcaaccttataatcttcccaagtattcttacagaacccttggttcagtcaaagaaagtaatagggccagtatgggcggttcagggtacactttcaaatccaatcaagatacggaattgttcctgcttgaaacacatgatgccactcttattcgaggcgggggtacttttgagcagtactatgaatttccaaacgatcttcctttcgaaaatttgactcagtatccttgggatatccgccgtcaggataaccccctctatcagcagaggatcactgtcatgtcaggttctgacagagatacggtaggcattctagatggagatttttactctccttttcggttcaaaggacatgatagacccgccatgtggctgccaggacagaggttgattcagggcaaattcatagatacgcacccaatacccaatacagggaggagtggggttcatcctaatgattttcacacaaggggcgatggtcatggtgacacccatagaacacatgaagagaggatctacagtctagatacaggtcttgctgctatgccacgtgccgctcatagacccacccttcagcccggacctaggactctgtctcatgccgtacgcagacccgatggttccaccgtggtcacggctaatgcgtgtgcttacgcttacacccaggagaatcctcatcaggaaccctggagtgatctcaatgtcagacataccatgtataggttagcctatcaacgtcaaaaaggttttcagcaacccggggaccctcttcatattcgaacccatgcttgttatggggacggggatgttaccattccaaaagaagagtccttatggcctactgttctgggtagttgcacagaaaagtcccctgcctgtttagagtcccagatttggtgtaaaacaccaaatgtggacatggtctatggagaacacacaccccctcttgctttatggggtatgcatgctcccccaccccatgtatttctcaggatgcttgctcaagagggtcctcctaatgtcagtacttgcagaccggctcaatctggtcagaccttcatcaatcaatatggtcagtttctcctctgttttaccatggtatgggaagttaagcctagacccaagtccatcaagcagtggaatccacgtccgcccatcagcattcctgttggtcagtctggtcctgctttcattctcgatcaagatggctactaccgtctcccagaacatgtctggtctgccagggaacgtatccgcagcaaacgctagtgcccccagcaatacacttactacagtattgatgtgtcaggcattctggttgattgttttattttggctccgcctactgtatggcccatgtaaacgcatctattatgaaaataaaatacgtcaattgctgatgtaattcgtgttgtaattcttgttttgaaaagcgcatattttcttgccggtctgagtaacaccacctatgacatcatataaatttgattacgtaacttcctctttttacttccgtctttttttgattacgcaatatacacaattctagcagttaactattacacaatatcacac</GBSeq_sequence>
+  </GBSeq>

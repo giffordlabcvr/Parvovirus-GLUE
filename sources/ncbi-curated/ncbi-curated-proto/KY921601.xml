@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY921601</GBSeq_locus>
+    <GBSeq_length>1703</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-MAR-2018</GBSeq_update-date>
+    <GBSeq_create-date>27-MAR-2018</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus strain MX-DCR2/17 VP2 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KY921601</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY921601.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY921601.1|</GBSeqid>
+      <GBSeqid>gi|1368683943</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1703</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cedillo-Rosales,S.</GBAuthor>
+          <GBAuthor>Cedillo-Rosales,D.</GBAuthor>
+          <GBAuthor>Avalos-Ramirez,R.</GBAuthor>
+          <GBAuthor>Contreras-Cordero,J.F.</GBAuthor>
+          <GBAuthor>Trejo-Chavez,A.</GBAuthor>
+          <GBAuthor>Garza-Zermeno,V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic characterization of Canine parvovirus strains from northern Mexico</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1703</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cedillo-Rosales,S.</GBAuthor>
+          <GBAuthor>Cedillo-Rosales,D.</GBAuthor>
+          <GBAuthor>Avalos-Ramirez,R.</GBAuthor>
+          <GBAuthor>Contreras-Cordero,J.F.</GBAuthor>
+          <GBAuthor>Trejo-Chavez,A.</GBAuthor>
+          <GBAuthor>Garza-Zermeno,V.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-APR-2017) Departamento de Virologia Veterinaria, Universidad Autonoma de Nuevo Leon, Facultad de Medicina Veterinaria y Zootecnia, Campus de Ciencias Agropecuarias, Ave. Francisco Villa S/N, Ex-Hacienda El Canada, General Escobedo, Nuevo Leon 66050, Mexico</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1703</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1703</GBInterval_to>
+            <GBInterval_accession>KY921601.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>MX-DCR2/17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>fecal sample</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Canis lupus familiaris</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mexico</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Feb-2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1703</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1703</GBInterval_to>
+            <GBInterval_accession>KY921601.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>coat protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVP71832.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSDGAVQPDGGQPAVRNERATGSGNGSGGGGGGGSGGVGISTGTFNNQTEFKFLENGWVEITANSSRLVHLNMPESENYRRVVVNNLDKTAVNGNMALDDTHAQIVTPWSLVDANAWGVWFNPGDWQLIVNTMSELHLVSFEQEIFNVVLKTVSESATQPPTKVYNNDLTASLMVALDSNNTMPFTPAAMRSETLGFYPWKPTIPTPWRYYFQWDRTLIPSHTGTSGTPTNIYHGTDPDDVQFYTIENSVPVHLLRTGDEFATGTFFFDCKPCRLTHTWQTNRALGLPPFLNSLPQAEGGTNFGYIGVQQDKRRGVTQMGNTNYITEATIMRPAEVGYSAPYYSFEASTQGPFKTPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPEGDWIQNINFNLPVTEDNVLLPTDPIGGKAGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKEFDTDLKPRLHVNAPFVCQNNCPGQLFVKVAPNLTNEYDPDASANMSRIVTYSDFWWKGKLVFKAKLRASHTWNPIQQMSINVDNQFNYVPSNIGG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagtgatggagcagtacaaccagacggtggtcaacctgctgtcagaaatgaaagagctacaggatctgggaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacgggtactttcaataatcaaacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattatagaagagtggttgtaaataatttggacaaaactgcagttaacggaaacatggctttagatgatacccatgcacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatctgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagtaataatactatgccatttactccagcagctatgagatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattaataccatctcatactggaactagtggcacaccaacaaatatataccatggtacagatccagatgatgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaagctgaaggaggtactaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacagggagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacagaagataatgtattactaccaacagatccaattggaggtaaagcaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcgcctaatttaacaaatgaatatgatcctgatgcatctgctaatatgtcaagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcctctcatacttggaatccaattcaacaaatgagtattaatgtagataaccaatttaactatgtaccaagtaatattggagg</GBSeq_sequence>
+  </GBSeq>

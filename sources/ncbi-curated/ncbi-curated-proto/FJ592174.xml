@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FJ592174</GBSeq_locus>
+    <GBSeq_length>4644</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-FEB-2009</GBSeq_update-date>
+    <GBSeq_create-date>04-FEB-2009</GBSeq_create-date>
+    <GBSeq_definition>Mink enteritis virus strain MEVB NS protein and VP protein genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>FJ592174</GBSeq_primary-accession>
+    <GBSeq_accession-version>FJ592174.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|FJ592174.1|</GBSeqid>
+      <GBSeqid>gi|222145983</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Mink enteritis virus</GBSeq_source>
+    <GBSeq_organism>Mink enteritis virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4644</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chen,T.</GBAuthor>
+          <GBAuthor>Yan,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Cloning and anlysis of Mink enteritis virus genome</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4644</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chen,T.</GBAuthor>
+          <GBAuthor>Yan,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-DEC-2008) Division of Zoonosis, Institute of Special Economic Animal and Plant Sciences, CAAS., 15 Luming Street, Jilin, Jilin 132109, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4644</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4644</GBInterval_to>
+            <GBInterval_accession>FJ592174.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Mink enteritis virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>MEVB</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>mink</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10792</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>155..2161</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>155</GBInterval_from>
+            <GBInterval_to>2161</GBInterval_to>
+            <GBInterval_accession>FJ592174.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACM46825.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSGNQYTEEIMEGVNWLKKHAENEAFSFVFKCDNVQLNGKDVRWNNYTKPIQNEELTSLIRGAQTAMDQTEEEEMDWESEVDSLAKKQVQTFDALIKKCLFEVFVSKNIEPNECVWFIQHEWGKDQGWHCHVLLHSKNLQQATGKWLRRQMNMYWSRWLVTLCSVNLTPTEKIKLREIAEDSEWVTILTYRHKQTKKDYVKMVHFGNMIAYYFLTKKKIVHMTKESGYFLSTDSGWKFNFMKYQDRHTVSTLYTEQMKPETVETTVTTAQETKRGRIQTKKEVSIKCTLRDLVSKRVTSPEDWMMLQPDSYIEMMAQPGGENLLKNTLEICTLTLARTKTAFELILEKADNTKLTNFDLANSRTCQIFRMHGWNWIKVCHAIACVLNRQGGKRNTVLFHGPASTGKSIIAQAIAQAVGNVGCYNAANVNFPFNDCTNKNLIWIEEAGNFGQQVNQFKAICSGQTIRIDQKGKGSKQIEPTPVIMTTNENITIVRIGCEERPEHTQPIRDRMLNIKLVCKLPGDFGLVDKEEWPLICAWLVKHGYQSTMANYTHHWGKVPEWDENWAEPKIQEGVNSPGCKDLETQAASNPQSQDHVLTPLTPDVVDLALEPWSTPNTPIAETANQQSNHLGVTHKDVQASPTWSEIEADLRAIFTSEQLEEDFRDDLD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2255..4423</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2255</GBInterval_from>
+            <GBInterval_to>4423</GBInterval_to>
+            <GBInterval_accession>FJ592174.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACM46826.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MCFLIGLVPPGYKYLGPGNSLDQGEPTNPSDAAAKEHDEAYAAYLRSGKNPYLYFSPADQRFIDQTKDAKDWGGKIGHYFFRAKKAIAPVLTDTPDHPSTSRPTKPTKRSKPPPHIFINLAKKKKAGAGQVKRDNLAPMSDGAVQPDGGQPAVRNERATGSGNGSGGGGGGGSGGVGISTGTFNNQTEFKFLENGWVEITANSSRLVHLNMPESENYKRVVVNNMDKTAVKGNMALDDIHVQIVTPWSLVDANAWGVWFNPGDWQLIVNTMSELHLVSFEQEIFNVVLKTVSESATQPPTKVYNNDLTASLMVALDSNNTMPFTPAAMRSETLGFYPWKPTIPTPWRYYFQWDRTLIPSHTGTSGTPTNIYHGTDPDDVQFYTIENSVPVHLLRTGDEFATGTFFFDCKPCRLTHTWQTNRALGLPPFLNSLPQSEGVTNFGDIGVQQDKRRGVTQMGNTDYITEATIMRPAEVGYSAPYYSFEASTQGPFKTPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPAGDWIQNINFNLPVTNDNVLLPTDPIGGKTGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKEFDTDLKPRLHVNAPFVCQNNCPGQLFVKVAPNLTNEYDPDASANMSRIVTYSDFWWKGKLVFKAKLRASHTWNPIQQMSINVDNQFNYVPNNIGAMKIVYEKSQLAPRKLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agaatgataggcggtttgtgtgtttaaacttgggcgggaaaaggtggcgggctaattgtgggcgtggttaaaggtataaaagacaaaccatagaccgttactgacattcgcttcttgtctttgacagagtgaacctatcttactctgactaaccatgtctggcaaccagtatactgaggaaattatggagggagtaaattggttaaagaaacatgcagaaaatgaagcattttcgtttgtttttaaatgtgacaacgtccaactaaatggaaaggatgttcgctggaacaactataccaaaccaattcaaaatgaagagctaacatctttaattagaggagcacaaacagcaatggatcaaaccgaagaagaagaaatggactgggaatcggaagttgatagtctcgccaaaaagcaagtacaaacttttgatgcattaatcaaaaaatgtctttttgaagtctttgtttctaaaaatatagaaccaaatgaatgtgtttggtttattcaacatgaatggggaaaagatcaaggctggcattgtcatgttttacttcatagtaagaacttacaacaagcaactggtaaatggctacgcagacaaatgaatatgtattggagtagatggttggtgactctttgttcggtaaacttaacaccaactgaaaagattaagctcagagaaattgcagaagatagtgaatgggtgactatattaacatacagacataagcaaacaaaaaaagactatgttaaaatggttcattttggaaatatgatagcatattactttttaacaaagaaaaaaattgtccacatgacaaaagaaagtggctattttttaagtactgattctggttggaaatttaactttatgaagtatcaagacagacatactgtcagcacactttacactgaacaaatgaaaccagaaaccgttgaaaccacagtgacgacagcacaggaaacaaagcgcgggagaattcaaactaaaaaagaagtgtcaatcaaatgtactttgcgggacttggttagtaaaagagtaacatcacctgaagactggatgatgttacaaccagatagttatattgaaatgatggcacaaccaggaggtgaaaatcttttaaaaaatacacttgaaatttgtactttgactttagcaagaacaaaaacagcatttgaattaatacttgaaaaagcagataatactaaactaactaactttgatcttgcaaattctagaacatgtcaaatttttagaatgcacggatggaattggattaaagtttgtcacgctatagcatgtgttttaaatagacaaggtggtaaaagaaatacagttctttttcatggaccagcaagtacaggaaaatctattattgctcaagccatagcacaagctgtaggtaatgttggttgttataatgcagcaaatgtaaattttccatttaatgactgtaccaataaaaatttaatttggattgaagaagctggtaactttggtcaacaagttaatcaatttaaagcaatttgttctggacaaacaattagaatcgatcaaaaaggtaaagggagtaagcaaattgaaccaactccagtaattatgacaactaatgaaaatataacaattgtaagaattggatgtgaagaaagacctgaacatacacaaccaataagagacagaatgttgaacattaagttagtatgtaagcttccaggagactttggtctggttgataaagaagaatggcctttaatatgtgcatggttagttaaacatggttatcaatcaaccatggctaactatacacatcattggggaaaagtaccagaatgggacgaaaactgggcggagcctaaaatacaagaaggtgtaaattcaccaggttgcaaagacttagagacacaagcggcaagcaatcctcagagtcaagaccacgttctaactcctctgactccggacgtagtggaccttgcactggaaccgtggagtactccaaatacgcctattgcagaaactgcaaatcaacaatcaaaccatcttggcgttactcacaaagacgtgcaagcgagtccgacatggtccgaaatagaggcagacctgagagccatttttacttctgaacaattggaagaagattttcgagacgacttggattaaggtacgatggcacctccggcaaagagagccaggagaggtaagggtgtgttagtaaagtggggggaggggaaagatttaataacttaactaagtatgtgttttcttataggacttgtgcctccaggttataaatatcttgggcctgggaacagtcttgaccaaggagaaccaactaacccttctgacgccgctgcaaaagaacacgacgaagcttacgctgcttatcttcgctctggtaaaaacccatacttatatttctcgccagcagatcaacgctttatagatcaaactaaggacgctaaagattggggggggaaaataggacattatttttttagagctaaaaaagcaattgctccagtattaactgatacaccagatcatccatcaacatcaagaccaacaaaaccaactaaaagaagtaaaccaccacctcatattttcatcaatcttgcaaaaaaaaaaaaagccggtgcaggacaagtaaaaagagacaatcttgcaccaatgagtgatggagcagttcaaccagacggtggtcaacctgctgtcagaaatgaacgagctacaggatctggaaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacaggtactttcaataatcagacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattataaaagagtagttgtaaataatatggataaaactgcagttaaaggaaacatggctttagatgatattcatgtacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatctgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagtaataatactatgccatttactccagcagctatgagatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattaataccatctcatactggaactagtggcacaccaacaaatatatatcatggtacagatccagatgatgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaatctgaaggagttactaactttggtgatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacagactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaagcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactactacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagcaggagattggattcaaaatattaactttaaccttcctgtaacaaatgataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcgcctaatttaacaaatgaatatgatcctgatgcatctgctaatatgtcgagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcatctcatacttggaatccaattcaacaaatgagtattaatgtagataaccaatttaactatgtaccaaataatattggagctatgaaaattgtatatgaaaaatctcaactagcacctagaaaattatattaatatacttactatgtttttatgtttattacatattattttaagattaattaaattacaacatagaaatattgtacttgtatttgatataggatttagaaggtttgttatatggtatacaataactgtaagaaatagaagaacatttagatcatagttagtagtttgttttataaaatgtaattgtaaactattaatgtatgttgttatggtgtgggtggttg</GBSeq_sequence>
+  </GBSeq>

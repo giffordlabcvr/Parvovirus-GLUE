@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC011425</GBSeq_locus>
+    <GBSeq_length>2215</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-JUL-2015</GBSeq_update-date>
+    <GBSeq_create-date>09-MAY-2015</GBSeq_create-date>
+    <GBSeq_definition>Mfuwe bufavirus gene for NS1, partial cds, strain: ZM09-91</GBSeq_definition>
+    <GBSeq_primary-accession>LC011425</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC011425.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC011425.1|</GBSeqid>
+      <GBSeqid>gi|820687780</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Mfuwe bufavirus</GBSeq_source>
+    <GBSeq_organism>Mfuwe bufavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2215</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sasaki,M.</GBAuthor>
+          <GBAuthor>Orba,Y.</GBAuthor>
+          <GBAuthor>Anindita,P.D.</GBAuthor>
+          <GBAuthor>Ishii,A.</GBAuthor>
+          <GBAuthor>Ueno,K.</GBAuthor>
+          <GBAuthor>Hang'ombe,B.M.</GBAuthor>
+          <GBAuthor>Mweene,A.S.</GBAuthor>
+          <GBAuthor>Ito,K.</GBAuthor>
+          <GBAuthor>Sawa,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Distinct Lineages of Bufavirus in Wild Shrews and Nonhuman Primates</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 21 (7), 1230-1233 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid2107.141969</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26079728</GBReference_pubmed>
+        <GBReference_remark>DOI:10.3201/eid2107.141969</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2215</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sasaki,M.</GBAuthor>
+          <GBAuthor>Orba,Y.</GBAuthor>
+          <GBAuthor>Sawa,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-NOV-2014) Contact:Michihito Sasaki Hokkaido University, Research Center for Zoonosis Control, Division of Molecular Pathobiology; Kita 10 Nishi 10, Kita-ku, Sapporo, Hokkaido 001-0020, Japan URL :http://www.czc.hokudai.ac.jp/pathobiol/ Phone :81-11-706-9513(ex.9513) Fax :81-11-706-7370</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2215</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2215</GBInterval_to>
+            <GBInterval_accession>LC011425.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Mfuwe bufavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>ZM09-91</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>spleen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Papio cynocephalus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1580060</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Zambia: Mfuwe</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..1866</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1866</GBInterval_to>
+            <GBInterval_accession>LC011425.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAR72999.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KNSKHPDIIQVHQLDQQTVSNRDPEKDFKIQTDLKPWRQATIQTALTKKILFDYCKTKSIEPSDLHWFIQTELSKDSGLHIHMLLQSDKLNIQSGKWICKYFSEKWGLLLCTILTLPQENLHEFFNQTKFRNTVENTEWVQVLQYTHPQTKKKYNKPINFGEIIYTYFLCKKPCSGEEGSFGYIYSTDSAFAFDSLCYKDRLHIHNYMRDQDSQLQSSTLTNITPQEKKKKRIESAKEASIKETITNLTKYRLHTQEKWMLGDPDSYIQHIANPGGETVIKATLDIVTLKMSVEKTAYQLIIEQAEETKLNPKKFKAWKLMKHNNFNPKKVWHCIACCLNKQMGKRNTILLCGPASTGKSLIAQKIAQLVGNVGCYNPSNVNFPFNDCSNRNLIWVEEAGNFGTQVNQFKAIMSGQSIRLDQKGKGSKAIEPTPVIMTTNEDITKVTIGSETKPEHRQPIMDRCCRFEMKNRLAGDFGLLENHEIPTIFKWLESKMFLPNLANYCARWEAPPIWGENWNTKAKNIDFDIHNSDEENTNPNSSEKPSLYESLDPTGMNADFQLLLADIENTEKYLNSQMSGYSEPTDEDIATLAQTGYGQALVDGTAIHAKVPMNASNKKGN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaaacagcaaacatccagacatcattcaagttcaccaactagaccaacaaactgtaagtaatagagatcctgaaaaggatttcaaaatccaaactgacttaaaaccatggagacaggccacaatacaaacagcactgacaaaaaagatactatttgactattgcaaaactaaatcaattgaaccaagtgacctacactggttcatacaaactgaactaagcaaagacagcggcctacacatacacatgctcctacaaagtgacaaactaaacatacaaagcggaaaatggatctgcaaatacttcagtgaaaaatggggcctactactatgcaccatactaactcttccacaagaaaatctacatgaattctttaaccaaaccaaattcagaaacacagtagaaaacacagaatgggttcaagtgctacaatacactcatccacaaacaaaaaaaaaatacaacaaaccaatcaactttggagaaatcatctacacatacttcctatgcaaaaaaccatgctcaggagaagaaggttcatttggttacatttattcaactgactctgcatttgcttttgacagtctgtgctacaaagacagactccatattcacaactatatgcgtgaccaagacagtcagttacaaagttcaacactaaccaacatcacaccacaggaaaagaaaaaaaaaagaatagagtctgcaaaggaagctagcataaaggaaaccataaccaacttaaccaaatacagacttcacacacaagagaaatggatgcttggtgacccagattcatacattcaacacattgcaaatccaggaggagaaacagtaattaaagcaaccttagacatagtcactctgaaaatgagtgtagaaaaaacagcataccaactaattatagaacaggcagaagaaaccaaactaaatccaaaaaaattcaaagcatggaaactaatgaaacataacaacttcaatccaaaaaaagtctggcattgcatagcctgctgtctaaacaaacaaatgggaaaaagaaataccatcttactatgtggtcctgccagcacaggcaaaagcctaatagcacaaaaaatagctcagttggttggtaatgtaggatgctacaatcctagcaatgtaaactttccattcaatgactgcagcaacagaaacctaatatgggtagaagaagctggcaactttggcactcaagtaaaccaattcaaagcaatcatgagtggtcaaagtatcagactagatcaaaaaggaaaaggaagcaaagcaattgaaccaactccagtaattatgactaccaatgaagacataaccaaagtaactataggcagtgaaactaaaccagaacacagacagccaatcatggacagatgctgcagatttgaaatgaaaaacagactagctggtgactttggtttactagaaaatcatgaaataccaaccattttcaaatggttagaaagtaaaatgtttcttccaaacttagcaaattactgtgcaagatgggaagctccacccatctggggagaaaactggaatactaaagccaaaaacattgactttgacattcacaactcagatgaagaaaacaccaatccaaactcatcagaaaaacccagtctctatgaatcactcgatccaactggtatgaatgctgactttcagctattactagctgacatagaaaacacagaaaaatacctaaacagtcaaatgagtggctacagtgaaccaaccgatgaggacatagcaacacttgctcaaaccggttacggacaagcattggttgatgggactgccattcatgcaaaagtacctatgaatgcctccaacaaaaagggaaattagaggtaagtgaaactaactaaatcattctaaccatggacgctttactaagatcactacctgtactcttaggctttatactaatgctaatcttcttcttaagcttctgctacctattcctaaacggactaaccaacttccatccaaaaactaacctattcagcacaaaagtaagaaacagtaaaaaaactctaatcatgagttttttacctgtcttactaagtgcgagtgtcacattattaatatgggcactattcatctggctattctacttccatgaagacatacaactacatctcatctatctcaaccaaactaactggactattatcattaaataggttgggttcca</GBSeq_sequence>
+  </GBSeq>

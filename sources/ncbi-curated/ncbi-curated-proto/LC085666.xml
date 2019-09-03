@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC085666</GBSeq_locus>
+    <GBSeq_length>823</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-MAY-2016</GBSeq_update-date>
+    <GBSeq_create-date>31-MAR-2016</GBSeq_create-date>
+    <GBSeq_definition>Megabat bufavirus 2 NS1 gene for nonstructural protein 1, partial cds, isolate: LPK11-10</GBSeq_definition>
+    <GBSeq_primary-accession>LC085666</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC085666.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC085666.1|</GBSeqid>
+      <GBSeqid>gi|1013069533</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Megabat bufavirus 2</GBSeq_source>
+    <GBSeq_organism>Megabat bufavirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..823</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sasaki,M.</GBAuthor>
+          <GBAuthor>Gonzalez,G.</GBAuthor>
+          <GBAuthor>Wada,Y.</GBAuthor>
+          <GBAuthor>Setiyono,A.</GBAuthor>
+          <GBAuthor>Handharyani,E.</GBAuthor>
+          <GBAuthor>Rahmadani,I.</GBAuthor>
+          <GBAuthor>Taha,S.</GBAuthor>
+          <GBAuthor>Adiani,S.</GBAuthor>
+          <GBAuthor>Latief,M.</GBAuthor>
+          <GBAuthor>Kholilullah,Z.A.</GBAuthor>
+          <GBAuthor>Subangkit,M.</GBAuthor>
+          <GBAuthor>Kobayashi,S.</GBAuthor>
+          <GBAuthor>Nakamura,I.</GBAuthor>
+          <GBAuthor>Kimura,T.</GBAuthor>
+          <GBAuthor>Orba,Y.</GBAuthor>
+          <GBAuthor>Ito,K.</GBAuthor>
+          <GBAuthor>Sawa,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Divergent bufavirus harboured in megabats represents a new lineage of parvoviruses</GBReference_title>
+        <GBReference_journal>Sci Rep 6, 24257 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/srep24257</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27113297</GBReference_pubmed>
+        <GBReference_remark>DOI:10.1038/srep24257; Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..823</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sasaki,M.</GBAuthor>
+          <GBAuthor>Orba,Y.</GBAuthor>
+          <GBAuthor>Sawa,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-SEP-2015) Contact:Michihito Sasaki Hokkaido University, Research Center for Zoonosis Control, Division of Molecular Pathobiology; Kita 10 Nishi 10, Kita-ku, Sapporo, Hokkaido 001-0020, Japan URL :http://www.czc.hokudai.ac.jp/pathobiol/en/</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..823</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>823</GBInterval_to>
+            <GBInterval_accession>LC085666.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Megabat bufavirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>LPK11-10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>spleen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Pteropus vampyrus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1756189</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Indonesia: West Sumatra, Lima Puluh Kota</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2011-02</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;823</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>823</GBInterval_to>
+            <GBInterval_accession>LC085666.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;823</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>823</GBInterval_to>
+            <GBInterval_accession>LC085666.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAU69595.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>WVQLLLYRHPTTKKEYVKPVFFGDIIAFYFLNKKPIIKPDDLGYCYSTDSGFHTDSLNFATRKTIADLYKKHKDQQRAAETQITPGPTAQEKKKKRIESAKETSIKETIGVLTDQKLHTQEKWMLGDPDSYIAQIASPGGEQTIKAILEIVTLKMSVDKTAYDLILEAEIQTTKKAKKTKAWKLIKNNNMNPLKVFHAISCCLNKQSGKRNTILLCGPASTGKSLLAQKICQLVGNVGCYNAANVNFPFNDCSNKNLIWVEEAGNFGTQVNQFK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgggtacagttacttctatacagacatccaaccaccaaaaaagaatatgtaaagccagtattctttggtgacattattgctttttactttttaaataaaaaaccaataatcaaaccagatgacctaggttactgctacagcacagacagtggatttcacactgactcactaaactttgcaacaagaaaaacaatagcagacctatacaaaaaacacaaagaccaacagagagcagcagagacacaaataacaccaggtccaactgctcaagaaaaaaaaaagaaaagaatagaaagtgcaaaagaaacaagcatcaaagaaacaattggagtactaactgaccaaaaattacacacacaagaaaaatggatgctaggtgatccagatagctacattgctcaaattgcaagcccaggaggagaacagactatcaaagcaattctagagatagtcactctaaaaatgtctgtagacaagacagcatatgacttaatactagaagctgaaatacaaactacaaaaaaagccaaaaaaaccaaagcatggaaacttattaaaaacaacaacatgaatccactaaaagtcttccatgcaattagctgctgcttaaacaagcaatcaggcaaaagaaacacaattttactatgtgggcctgcaagcacaggaaaaagcctactagctcaaaaaatctgtcagttggttggtaatgtcgggtgctacaatgcagcaaatgtgaactttccattcaatgactgtagcaataaaaatctaatatgggtagaagaagctggcaacttcggaacccaagtaaaccaattcaaaa</GBSeq_sequence>
+  </GBSeq>

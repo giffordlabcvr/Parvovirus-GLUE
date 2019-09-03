@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FJ643429</GBSeq_locus>
+    <GBSeq_length>732</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-OCT-2011</GBSeq_update-date>
+    <GBSeq_create-date>30-MAR-2009</GBSeq_create-date>
+    <GBSeq_definition>Porcine parvovirus strain PB nonfunctional VP1/VP2 gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>FJ643429</GBSeq_primary-accession>
+    <GBSeq_accession-version>FJ643429.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|FJ643429.1|</GBSeqid>
+      <GBSeqid>gi|225637744</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine parvovirus</GBSeq_source>
+    <GBSeq_organism>Porcine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..732</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Streck,A.F.</GBAuthor>
+          <GBAuthor>Bonatto,S.L.</GBAuthor>
+          <GBAuthor>Homeier,T.</GBAuthor>
+          <GBAuthor>Souza,C.K.</GBAuthor>
+          <GBAuthor>Goncalves,K.R.</GBAuthor>
+          <GBAuthor>Gava,D.</GBAuthor>
+          <GBAuthor>Canal,C.W.</GBAuthor>
+          <GBAuthor>Truyen,U.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>High rate of viral evolution in the capsid protein of porcine parvovirus</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 92 (PT 11), 2628-2636 (2011)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.033662-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>21795474</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..732</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Streck,A.F.</GBAuthor>
+          <GBAuthor>Souza,C.K.</GBAuthor>
+          <GBAuthor>Goncalves,K.R.</GBAuthor>
+          <GBAuthor>Gava,D.</GBAuthor>
+          <GBAuthor>Canal,C.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic and phylogeny analysis of the VP1/VP2 gene sequences from porcine parvovirus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..732</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Streck,A.F.</GBAuthor>
+          <GBAuthor>Souza,C.K.</GBAuthor>
+          <GBAuthor>Goncalves,K.R.</GBAuthor>
+          <GBAuthor>Gava,D.</GBAuthor>
+          <GBAuthor>Canal,C.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-JAN-2009) Laboratorio de Virologia, Universidade Federal do Rio Grande do Sul, Av. Bento Goncalves, 9090, Porto Alegre, Rio Grande do Sul 91540-000, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..732</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>732</GBInterval_to>
+            <GBInterval_accession>FJ643429.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PB</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Sus scrofa (swine)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10796</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;732</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>732</GBInterval_to>
+            <GBInterval_accession>FJ643429.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional VP1/VP2 due to mutation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acacagaagcaacagcaattaggccagctcaggtaggatataatacaccatacatgaattttgaatactccaatggtggaccatttctaactcctatagtaccaacagcagacacacaatataatgatgatgaaccaaatggtgctataagatttacaatggattaccaacatggacacttaaccacatcttcacaagagctagaaagatacacattcaatccacaaagtaaatgtggaagagctccaaagcaacaatttaatcaacaggcaccactaaacctagaaaatacaaataatgggaacacttttaccttcagatccaataggagggaaatctaacatgcatttcatgaatacactcaatacatatggaccattaacagcactaaacaatactgcacctgtatttccaaatggtcaaatatgggataaagaacttgatacagatctaaaacctagactacatgttacagctccatttgtttgtaaaaacaatccaccaggacaactatttgtaaaaatagcaccaaacctaacagatgatttcaatgctgactctcctcaacaacctagaataataacttattcaaacttttggtggaaaggaacactaacattcacagcaaaaatgagatccagtaatatgtggaaccctattcaacaacacacaacaacagcagaaaacattggtaactatattcctacaaatattggtggcataagaatgttt</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY742956</GBSeq_locus>
+    <GBSeq_length>2007</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-JAN-2005</GBSeq_update-date>
+    <GBSeq_create-date>31-OCT-2004</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus strain CPV-436 nonstructural protein 1 (NS1) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY742956</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY742956.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY742956.1|</GBSeqid>
+      <GBSeqid>gi|54646360</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2007</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Shackelton,L.A.</GBAuthor>
+          <GBAuthor>Parrish,C.R.</GBAuthor>
+          <GBAuthor>Truyen,U.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>High rate of viral evolution associated with the emergence of carnivore parvovirus</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 102 (2), 379-384 (2005)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.0406765102</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15626758</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2007</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Parrish,C.R.</GBAuthor>
+          <GBAuthor>Shackelton,L.A.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Truyen,U.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-SEP-2004) College of Veterinary Medicine, J.A. Baker Institute, Cornell University, Ithaca, NY 14853, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2007</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2007</GBInterval_to>
+            <GBInterval_accession>AY742956.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>CPV-436</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated in 2003</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2007</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2007</GBInterval_to>
+            <GBInterval_accession>AY742956.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2007</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2007</GBInterval_to>
+            <GBInterval_accession>AY742956.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAV36769.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSGNQYTEEVMEGVNWLKKHAENEAFSFVFKCDNVQLNGKDVRWNNYTKPIQNEELTSLIRGAQTAMDQTEEEEMDWESEVDSLAKKQVQTFDALIKKCLFEVFVSKNIEPNECVWFIQHEWGKDQGWHCHVLLHSKNLQQATGKWLRRQMNMYWSRWLVTLCSVNLTPTEKIKLREIAEDSEWVTILTYRHKQTKKDYVKMVHFGNMIAYYFLTKKKIVHMTKESGYFLSTDSGWKFNFMKYQDRQIVSTLYTEQMKPETVETTVTTAQETKRGRIQTKKEVSIKCTLRDLVSKRVTSPEDWMMLQPDSYIEMMAQPGGENLLKNTLEICTLTLARTKTAFELILEKANNTKLTNFDLANSRTCQIFRMHGWNWIKVCHAIACVLNRQGGKRNTVLFHGPASTGKSIIAQAIAQAVGNVGCYNAANVNFPFNDCTNKNLIWIEEAGNFGQQVNQFKAICSGQTIRIDQKGKGSKQIEPTPVIMTTNENITIVRIGCEERPEHTQPIRDRMLNIKLVCKLPGDFGLVDKEEWPLICAWLVKHGFESTMANYTHHWGKVPEWDENWAEPKIQEGINSPGCKDLETQAASNPQSQDQVPTPLTPDVVDLALEPWSTPDTPIAETANQQSNQLGVTHKDVQASPTWSEIEADLRAIFTSEQLEEDFRDDLD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgtctggcaaccagtatactgaggaagttatggagggagtaaattggttaaagaaacatgcagaaaatgaagcattttcgtttgtttttaaatgtgacaacgtccaactaaatggaaaggatgttcgctggaacaactataccaaaccaattcaaaatgaagagctaacatctttaattagaggagcacaaacagcaatggatcaaaccgaagaagaagaaatggactgggaatcggaagttgatagtctcgccaaaaagcaagtacaaacttttgatgcattaattaaaaaatgtctttttgaagtctttgtttctaaaaatatagaaccaaatgaatgtgtttggtttattcaacatgaatggggaaaagatcaaggctggcattgtcatgttttacttcatagtaagaacttacaacaagcaactggtaaatggctacgcagacaaatgaatatgtattggagtagatggttggtgactctttgttcggtaaacttaacaccaactgaaaagattaagctcagagaaattgcagaagatagtgaatgggtgactatattaacatacagacataagcaaacaaaaaaagactatgttaaaatggttcattttggaaatatgatagcatattactttttaacaaagaaaaaaattgtccacatgacaaaagaaagtggctattttttaagcactgattctggttggaaatttaactttatgaagtatcaagacagacaaattgtcagcacactttacactgaacaaatgaaaccagaaaccgttgaaaccacagtgacgacagcacaggaaacaaagcgcgggagaattcaaactaaaaaggaagtgtcaatcaaatgtactttgcgggacttggttagtaaaagagtaacatcacctgaagactggatgatgttacaaccagatagttatattgaaatgatggcacaaccaggaggtgaaaatcttttaaaaaatacacttgaaatttgtactttgactttagcaagaacaaaaacagcatttgaattaatacttgaaaaagcaaataatactaaactaactaactttgatcttgcaaattctagaacatgtcaaatttttagaatgcacggatggaattggattaaagtttgtcacgctatagcatgtgttttaaatagacaaggtggtaaaagaaatacagttctttttcatggaccagcaagtacaggaaaatctatcattgctcaagccatagcacaagctgtgggtaatgttggttgttataatgcagcaaatgtaaattttccatttaatgactgtaccaataaaaatttaatttggattgaagaagctggtaactttggtcaacaagttaatcaatttaaagcaatctgttctggacagacaattagaattgatcaaaaaggtaaaggaagtaagcaaattgaaccaactccagtaattatgacaactaatgaaaatataacaattgtgagaattggatgtgaagaaagacctgaacatacacaaccaataagagacagaatgttgaacattaagttagtatgtaagcttccaggagactttggtttggttgataaagaagaatggcctttaatatgtgcatggttagttaaacatggttttgaatcaaccatggctaactatacacatcattggggaaaagtaccagaatgggatgaaaactgggcggagcctaaaatacaagaaggtataaattcaccaggttgcaaagacttagagacacaagcggcaagcaatcctcagagtcaagaccaagttccaactcctctgactccggacgtagtggaccttgcactggaaccgtggagtactccagatacgcctattgcagaaactgcaaatcaacaatcaaaccaacttggcgttactcacaaagacgtgcaagcgagtccaacgtggtccgaaatagaggcagacctgagagccatctttacttctgaacaattggaagaagattttcgagacgacttggattaa</GBSeq_sequence>
+  </GBSeq>

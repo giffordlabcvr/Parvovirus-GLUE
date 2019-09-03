@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK649757</GBSeq_locus>
+    <GBSeq_length>591</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-JUN-2019</GBSeq_update-date>
+    <GBSeq_create-date>15-JUN-2019</GBSeq_create-date>
+    <GBSeq_definition>Porcine parvovirus 2 strain PPV 32 capsid protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK649757</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK649757.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK649757.1|</GBSeqid>
+      <GBSeqid>gi|1679654479</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Porcine parvovirus 2</GBSeq_source>
+    <GBSeq_organism>Porcine parvovirus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..591</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lagan Tregaskis,P.</GBAuthor>
+          <GBAuthor>Lemon,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Disease association analysis of porcine circovirus 2 and novel parvovirus's (PPV2 to 4) in archival bio-bank samples of clinically diseased pigs from Northern Ireland and neighbouring European countries</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..591</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lagan Tregaskis,P.</GBAuthor>
+          <GBAuthor>Lemon,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-MAR-2019) Virology, AFBI, Avian Virology VSD AFBI Stoney Road Stormont, Belfast, Co.Down BT4 3SD, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..591</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>MK649757.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Porcine parvovirus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>PPV 32</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>inguinal lymph node</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Domestic Pig Fattener &gt;10 weeks</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1126383</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>United Kingdom</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;591</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>MK649757.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QCY71597.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GTLNLRHNPVLPSRLAIYLGEDQTNGPTFYQPQGTDLDIFPQGFIPGPRPCLPVSTQLRASSDFDEMSAIAYGDPTSNNRHSLMPFTRQATTMSTQSYNRQGEVQRNVHFQLGDMAFARSSAEDNFYEKFDEDKDYRNPGGYVKKPRPLVTAEREGLGERPGDALMVPTWGAHLPGSSTGPGTTKTEKVSLPFIPPM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcacgttgaacctccgtcacaaccctgtactgcctagtagactggccatttatttgggagaggatcaaaccaatgggccaacattttatcagcctcaggggactgatctggacatatttcctcaggggtttataccggggccaagaccgtgtcttccggtttcgacacaactaagagctagcagcgatttcgatgaaatgtctgcgatcgcctacggtgatcccacaagtaacaacaggcactctctcatgccatttaccagacaggcgacaacaatgtccactcaaagctataatcgccagggggaggtgcagagaaatgtacacttccaattgggtgacatggcctttgcgcggtcctctgctgaagataatttttatgaaaaatttgacgaggacaaagattaccgcaatcctggtggctatgtcaaaaaaccgcgacccctggtgacagcagagcgggaaggcctcggagaaagaccaggagacgcccttatggtgcccacctggggagcacacttacctggcagcagtacaggacctggcaccacaaaaacggagaaggtatccctgcccttcattcctcctatg</GBSeq_sequence>
+  </GBSeq>

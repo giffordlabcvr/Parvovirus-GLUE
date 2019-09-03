@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB437434</GBSeq_locus>
+    <GBSeq_length>2247</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>08-JAN-2009</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus VP1 gene for capsid protein VP1, partial cds, strain: 1887/f/3</GBSeq_definition>
+    <GBSeq_primary-accession>AB437434</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB437434.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB437434.1|</GBSeqid>
+      <GBSeqid>gi|219807069</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2247</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mochizuki,M.</GBAuthor>
+          <GBAuthor>Ohshima,T.</GBAuthor>
+          <GBAuthor>Une,Y.</GBAuthor>
+          <GBAuthor>Yachi,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Recombination Between Vaccine and Field Strains of Canine Parvovirus is Revealed by Isolation of Virus in Canine and Feline Cell Cultures</GBReference_title>
+        <GBReference_journal>J. Vet. Med. Sci. 70 (12), 1305-1314 (2008)</GBReference_journal>
+        <GBReference_pubmed>19122396</GBReference_pubmed>
+        <GBReference_remark>Publication_Status: Available-Online</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2247</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oshima,T.</GBAuthor>
+          <GBAuthor>Mochizuki,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-MAY-2008) Contact:Takahisa Oshima Kyoritsu Seiyaku Corporation, Advanced Technology Development Center; 2-9-22 Takamihara, Tsukuba, Ibaraki 300-1252, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2247</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2247</GBInterval_to>
+            <GBInterval_accession>AB437434.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>1887/f/3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>2294-4540</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2247</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2247</GBInterval_to>
+            <GBInterval_accession>AB437434.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..25,98..&gt;2247)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>25</GBInterval_to>
+            <GBInterval_accession>AB437434.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>98</GBInterval_from>
+            <GBInterval_to>2247</GBInterval_to>
+            <GBInterval_accession>AB437434.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAH10516.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PAKRARRGLVPPGYKYLGPGNSLDQGEPTNPSDAAAKEHDEAYAAYLRSGKNPYLYFSPADQRFIDQTKDAKDWGGKIGHYFFRAKKAIAPVLTDTPDHPSTSRPTKPTKRSKPPPHIFINLAKKKKAGAGQVKRDNLAPMSDGAVQPDGGQPAVRNERATGSGNGSGGGGGGGSGGVGISTGTFNNQTEFKFLENGWVEITANSSRLVHLNMPESENYRRVVVNNMDKTAVNGNMALDDIHAQIVTPWSLVDANAWGVWFNPGDWQLIVNTMSELHLVSFEQEIFNVVLKTVSESATQPPTKVYNNDLTASLMVALDSNNTMPFTPAAMRSETLGFYPWKPTIPTPWRYYFQWDRTLVPSHTGTSGTPTNIYHGTDPDDVQFYTIENSVPVHLLRTGDEFATGTFFFDCKPCRLTHTWQTNRALGLPPFLNSLPQSEGATNFGDIGVQQDKRRGVTQMGNTNYITEATIMRPAEVGYSAPYYSFEASTQGPFKTPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPEGDWIQNINFNLPVTDDNVLLPTDPIGGKTGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKEFDTDLKPRLHVNAPFVCQNNCPGQLFVKVAPNLTNEYDPDASANMSRIVTYSDFWWKGKLVFKAKLRASHTWNPIQQMSINVDNQFNYVPSNIGGMKIVYEKSQLAPRKLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tccggcaaagagagccaggagaggtaagggtgtgttagtaaagtggggggagaggaaagatttaataacttaactaagtatgtgtttttttataggacttgtgcctccaggttataaatatcttgggcctgggaacagtcttgaccaaggagaaccaactaacccttctgacgccgctgcaaaagaacacgacgaagcttacgctgcttatcttcgctctggtaaaaacccatacttatatttttcgccagcagatcaacgctttatagatcaaactaaggacgctaaagattggggggggaaaataggacattatttttttagagctaaaaaggcaattgctccagtattaactgatacaccagatcatccatcaacatcaagaccaacaaaaccaactaaaagaagtaaaccaccacctcatattttcatcaatcttgcaaaaaaaaaaaaagccggtgcaggacaagtaaaaagagacaatcttgcaccaatgagtgatggagcagttcaaccagacggtggtcaacctgctgtcagaaatgaaagagctacaggatctgggaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacgggtactttcaataatcagacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattatagaagagtggttgtgaataatatggataaaactgcagttaacggaaacatggctttagatgatattcatgcacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatctgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagtaataatactatgccatttactccagcagctatgagatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattagtaccatctcatactggaactagtggcacaccaacaaatatataccatggtacagatccagatgatgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaatctgaaggagctactaactttggtgatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacagatgataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcacctaatttaacaaatgaatatgatcctgatgcatctgctaatatgtcaagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcctctcatacttggaatccaattcaacaaatgagtattaatgtagataaccaatttaactatgtaccaagtaatattggaggtatgaaaattgtatatgaaaaatctcaactagcacctagaaaattatatta</GBSeq_sequence>
+  </GBSeq>

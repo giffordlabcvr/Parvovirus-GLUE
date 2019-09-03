@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DL137905</GBSeq_locus>
+    <GBSeq_length>1158</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-SEP-2008</GBSeq_update-date>
+    <GBSeq_create-date>26-SEP-2008</GBSeq_create-date>
+    <GBSeq_definition>A novel vaccine for canine infectious diseases</GBSeq_definition>
+    <GBSeq_primary-accession>DL137905</GBSeq_primary-accession>
+    <GBSeq_accession-version>DL137905.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DL137905.1|</GBSeqid>
+      <GBSeqid>pat|WO|2008032796|2</GBSeqid>
+      <GBSeqid>gi|207038544</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>WO 2008032796-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Canine parvovirus</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1158</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Iwabuchi,S.</GBAuthor>
+          <GBAuthor>Tsukui,T.</GBAuthor>
+          <GBAuthor>Okazaki,M.</GBAuthor>
+          <GBAuthor>Yoshimura,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A novel vaccine for canine infectious diseases</GBReference_title>
+        <GBReference_journal>WO2008032796-A 2 20-MAR-2008 NIPPON ZENYAKU KOGYO CO LTD</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS canine parvovirus~PN WO 2008032796-A/2~PD 20-MAR-2008~PF 13-SEP-2007 WO 2007JP067873~PR 13-SEP-2006 JP 200 6-248522~PI shigehiro iwabuchi,toshihiro tsukui,masayuki okazaki,takahiro PI yoshimura~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1158</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1158</GBInterval_to>
+            <GBInterval_accession>DL137905.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10788</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacagatgataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcgcctaatttaacaaatgaatatgatcctgatgcatctgctaatatgtcaagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcctctcatacttggaatccaattcaacaaatgagtattaatgtagataaccaatttaactatgtaccaagtaatattggaggtatgaaaattgtatatgaaaaatctcaactagcacctagaaaattatattaacatacttactatgtttttatgcttattacatattattttaagattaattaaattacagcatagaaatattgtacttgtatttgatataggatttagaaggtttgttatatggtatacaataactgtaagaaatagaagaacatttagatcatagttagtagtttgtaatattgtacttgtatttgatataggatttagaaggtttgttatatggtatacaataactgtaagaaatagaagaacatttagatcatagttagtagtttgttttataaaatgtattgtaaaccattaatgtatgttgttatggtgtgggtggttggttggtttgcccttagaatatgttaaggaccaaaaaaatcaataaaagacatttaaaactaaatggcctcgtatactgtctataaggtgaactaaccttaccataagtatcaatcg</GBSeq_sequence>
+  </GBSeq>

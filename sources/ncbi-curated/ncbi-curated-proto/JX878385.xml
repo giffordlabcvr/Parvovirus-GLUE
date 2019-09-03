@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JX878385</GBSeq_locus>
+    <GBSeq_length>563</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>16-DEC-2012</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus 2a isolate CMVL-08/Jamla/Pet/2012 capsid protein (VP2) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JX878385</GBSeq_primary-accession>
+    <GBSeq_accession-version>JX878385.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JX878385.1|</GBSeqid>
+      <GBSeqid>gi|429459523</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus 2a</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus 2a</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..563</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mittal,M.</GBAuthor>
+          <GBAuthor>Chakravarti,S.</GBAuthor>
+          <GBAuthor>Mohapatra,J.K.</GBAuthor>
+          <GBAuthor>Chug,P.K.</GBAuthor>
+          <GBAuthor>Dubey,R.</GBAuthor>
+          <GBAuthor>Upmanuyu,V.</GBAuthor>
+          <GBAuthor>Narwal,P.S.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+          <GBAuthor>Churamani,C.P.</GBAuthor>
+          <GBAuthor>Kanwar,N.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular typing of canine parvovirus strains circulating from 2008 to 2012 in an organized kennel in India reveals the possibility of vaccination failure</GBReference_title>
+        <GBReference_journal>Infect. Genet. Evol. 23, 1-6 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.meegid.2014.01.015</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24486948</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..563</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mittal,M.</GBAuthor>
+          <GBAuthor>Singh,D.</GBAuthor>
+          <GBAuthor>Chakravarti,S.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular Characterization of Canine Parvovirus (CPV-New 2a) Isolate CMVL-08/Jamla/Pet/2012 from India</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..563</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mittal,M.</GBAuthor>
+          <GBAuthor>Singh,D.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-SEP-2012) Biotechnology Section, Central Military Veterinary Laboratory (CMVL), Sardhana Road, Meerut Cantt, Meerut, Uttar Pradesh 250001, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..563</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>563</GBInterval_to>
+            <GBInterval_accession>JX878385.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus 2a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CMVL-08/Jamla/Pet/2012</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Canis lupus familiaris</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:497961</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Apr-2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;563</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>563</GBInterval_to>
+            <GBInterval_accession>JX878385.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;563</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>563</GBInterval_to>
+            <GBInterval_accession>JX878385.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFZ84668.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CRLTHTWQTNRALGLPPFLNSLPQAEGGTNFGYIGVQQDKRRGVTQMGNTNYITEATIMRPAEVGYSAPYYSFEASTQGPFKTPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPEGDWIQNINFNLPVTNDNVLLPTDPIGGKTGINYTNIFNTYGPLTALNNV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaagctgaaggaggtactaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacaaatgataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgt</GBSeq_sequence>
+  </GBSeq>

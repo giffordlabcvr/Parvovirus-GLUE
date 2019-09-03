@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH645364</GBSeq_locus>
+    <GBSeq_length>590</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-MAY-2019</GBSeq_update-date>
+    <GBSeq_create-date>26-MAY-2019</GBSeq_create-date>
+    <GBSeq_definition>Canine protoparvovirus isolate D-1P-4 VP1 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH645364</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH645364.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH645364.1|</GBSeqid>
+      <GBSeqid>gi|1655373345</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine protoparvovirus</GBSeq_source>
+    <GBSeq_organism>Canine protoparvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..590</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,J.</GBAuthor>
+          <GBAuthor>Cui,L.</GBAuthor>
+          <GBAuthor>Deng,X.</GBAuthor>
+          <GBAuthor>Yu,X.</GBAuthor>
+          <GBAuthor>Zhang,Z.</GBAuthor>
+          <GBAuthor>Yang,Z.</GBAuthor>
+          <GBAuthor>Delwart,E.</GBAuthor>
+          <GBAuthor>Zhang,W.</GBAuthor>
+          <GBAuthor>Hua,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Canine bufavirus in faeces and plasma of dogs with diarrhoea, China</GBReference_title>
+        <GBReference_journal>Emerg Microbes Infect 8 (1), 245-247 (2019)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1080/22221751.2018.1563457</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30866778</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..590</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-JUL-2018) School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..590</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>590</GBInterval_to>
+            <GBInterval_accession>MH645364.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine protoparvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>D-1P-4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>dog</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2172548</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015/2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;590</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>590</GBInterval_to>
+            <GBInterval_accession>MH645364.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QCS26867.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PGPSYSWRNIKPGTKRGKPFHIFVNRARAAKKQRLEQMSDQAAEDGQQQPAVGAAGGHASGGGGGGGSGVGHSTGAFNNRTEFHYHNGEVTIVCHATRQVHLNMPGSEEYLLYQTDHGPRFPKPGDQQLQGRDTINDSYHAKVETPWSLLHANCWGVWFNPADFQHMTAICNELEIIGFEQEIDNIVIKTVTKQGT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accaggaccatcatattcctggagaaacatcaaaccgggcaccaaaagaggtaagccctttcatatctttgtaaatagagccagagctgccaaaaaacaaagactagaacaaatgtcagatcaggcagccgaagatggacaacagcagcctgcagttggggcagctggtggacacgcttcgggaggtggaggtggaggtggaagcggtgttgggcacagtaccggcgcttttaataaccgtactgagttccattatcataatggtgaagttactattgtatgtcacgcaacaagacaggtccatcttaacatgcctgggtcggaagagtacttactctaccaaacagaccacggacctagattccctaaaccgggagaccaacaattacagggcagagacactataaatgactcttaccatgcaaaagtagagacaccatggtcactactacatgccaactgttggggagtctggtttaatccagcagacttccaacacatgacagcaatatgcaatgaacttgaaataattggttttgaacaagaaatagacaacattgtcattaaaactgttaccaaacaaggcacag</GBSeq_sequence>
+  </GBSeq>

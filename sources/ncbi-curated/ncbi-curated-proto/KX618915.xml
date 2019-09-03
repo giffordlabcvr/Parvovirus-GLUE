@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX618915</GBSeq_locus>
+    <GBSeq_length>4363</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>13-MAR-2017</GBSeq_create-date>
+    <GBSeq_definition>Canine parvovirus strain 2a non-structural protein 1, major capsid protein VP1, and major capsid VP2 genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KX618915</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX618915.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX618915.1|</GBSeqid>
+      <GBSeqid>gi|1153692453</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4363</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mendenhall,I.H.</GBAuthor>
+          <GBAuthor>Low,D.</GBAuthor>
+          <GBAuthor>Neves,E.S.</GBAuthor>
+          <GBAuthor>Anwar,A.</GBAuthor>
+          <GBAuthor>Oh,S.</GBAuthor>
+          <GBAuthor>Su,Y.C.F.</GBAuthor>
+          <GBAuthor>Smith,G.J.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evidence of canine parvovirus transmission to a civet cat (Paradoxurus musangus) in Singapore</GBReference_title>
+        <GBReference_journal>One Health 2, 122-125 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.onehlt.2016.07.003</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28616485</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4363</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mendenhall,I.H.</GBAuthor>
+          <GBAuthor>Low,D.</GBAuthor>
+          <GBAuthor>Neves,E.</GBAuthor>
+          <GBAuthor>Anwar,A.</GBAuthor>
+          <GBAuthor>Oh,S.</GBAuthor>
+          <GBAuthor>Su,Y.C.F.</GBAuthor>
+          <GBAuthor>Smith,G.J.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-JUL-2016) Program of Emerging Infectious Diseases, Duke-NUS, 8 College Rd, Singapore 169857, Singapore</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4363</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4363</GBInterval_to>
+            <GBInterval_accession>KX618915.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>2a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Paradoxurus musangus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10788</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Singapore</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>76..2082</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>76</GBInterval_from>
+            <GBInterval_to>2082</GBInterval_to>
+            <GBInterval_accession>KX618915.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQX37229.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSGNQYTEEVMEGVNWLKKHAENEAFSFVFKCDNVQLNGKDVRWNNYTKPIQNEELTSLIRGAQTAMDQTEEEEMDWESEVDSLAKKQVQTFDALIKKCLFEVFVSKNIEPNECVWFIQHEWGKDQGWHCHVLLHSKNLQQATGKWLRRQMNMYWSRWLVTLCSVNLTPTEKIKLREIAEDSEWVTILTYRHKQTKKDYVKMVHFGNMIAYYFLTKKKIVHMTKESGYFLSTDSGWKFNFMKYQDRQIVSTLYTEQMKPETVETTVTTAQETKRGRIQTKKEVSIKCTLRDLVSKRVTSPEDWMMLQPDSYIEMMAQPGGENLLKNTLEICTLTLARTKTAFELILEKADNTKLTNFDLANSRTCQIFRMHGWNWIKVCHAIACVLNRQGGKRNTVLFHGPASTGKSIIAQAIAQAVGNVGCYNAANVNFPFNDCTNKNLIWIEEAGNFGQQVNQFKAICSGQTIRIDQKGKGSKQIEPTPVIMTTNENITIVRIGCEERPEHTQPIRDRMLNIKLVCKLPGDFGLVDKEEWPLICAWLVKHGYESTMANYTHHWGKVPEWDENWAEPKIQKGINSPGCKDLETQAAXNPQSQDQVLTPLTPDVVDLALEPWSTPDTPIAETANQQSNQLGVTHKDVQASPTWSEIXADLRAIFTSEQLEEXFRDDLD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2089..2169</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2089</GBInterval_from>
+            <GBInterval_to>2169</GBInterval_to>
+            <GBInterval_accession>KX618915.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>major capsid protein VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQX37230.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAPPAKRARRGKGVLVKWGEGKNLMT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2590..4344</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2590</GBInterval_from>
+            <GBInterval_to>4344</GBInterval_to>
+            <GBInterval_accession>KX618915.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>major capsid VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQX37231.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSDGAVQPDGGQPAVRNERATGSGNGSGGGGGGGSGGVGISTGTFNNQTEFKFLENGWVEITANSSRLVHLNMPESENYRRVVVNNLDKTAVNGNMALDDTHAQIVTPWSLVDANAWGVWFNPGDWQLIVNTMSELHLVSFEQEIFNVVLKTVSESATQPPTKVYNNDLTASLMVALDSNNTMPFTPAAMRSETLGFYPWKPTIPTPWRYYFQWDRTLIPSHTGTSGTPTNIYHGTDPDDVQFYTIENSVPVHLLRTGDEFATGTFYFDCKPCRLTHTWQTNRALGLPPFLNSLPQAEGDTNFGYIGVQQDKRRGVTQMGNTNIITEATIMRPAEVGYSAPYYSFEASTQGPFKTPIAAGRGGAQTDENQAADGDPRYAFGRQHGQKTTTTGETPERFTYIAHQDTGRYPEGDWIQNINFNLPVTNDNVLLPTDPIGGKAGINYTNIFNTYGPLTALNNVPPVYPNGQIWDKEFDTDLKPRLHVNAPFVCQNNCPGQLFVKVAPNLTNEYDPDASANMSRIVTYSDFWWKGKLVFKAKLRASHTWNPIQQMSINVDNQFNYVPSNIGGMKIVYEKSQLAPRKLY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagacaaaccatagaccgttactgacattcgcttcttgtctttgacagagtgaacctctcttactttgactaaccatgtctggcaaccagtatactgaggaagttatggagggagtaaattggttaaagaaacatgcagaaaatgaagcattttcgtttgtttttaaatgtgacaacgtccaactaaatggaaaggatgttcgctggaacaactataccaaaccaattcaaaatgaagagctaacatctttaattagaggagcacaaacagcaatggatcaaaccgaagaagaagaaatggactgggaatcggaagttgatagtctcgccaaaaagcaagtacaaacttttgatgcattaattaaaaaatgtctttttgaagtctttgtttctaaaaatatagaaccaaatgaatgcgtttggtttattcaacatgaatggggaaaagatcaaggctggcattgtcatgttttacttcatagtaagaacttacaacaagcaactggtaaatggctacgcagacaaatgaatatgtattggagtagatggttggtgactctttgttcggtaaacttaacaccaactgaaaagattaagctcagagaaattgcagaagatagtgaatgggtgactatattaacatacagacataagcaaacaaaaaaagactatgttaaaatggttcattttggaaatatgatagcatattactttttaacaaagaaaaaaattgtccacatgacaaaagaaagtggctattttttaagtactgattctggttggaaatttaactttatgaagtatcaagacagacaaattgtcagcacactttacactgaacaaatgaaaccagaaaccgttgaaaccacagtgacgacagcacaggaaacaaagcgcgggagaattcaaactaaaaaggaagtgtcaatcaaatgtactttgcgggacttggttagtaaaagagtaacatcacctgaagactggatgatgttacaaccagatagttatattgaaatgatggcacaaccaggaggtgaaaatcttttaaaaaatacacttgaaatttgtactttgactttagcaagaacaaaaacagcatttgaattaatacttgaaaaagcagataatactaaactaactaactttgatcttgcaaattctagaacatgtcaaatttttagaatgcacggatggaattggattaaagtttgtcacgctatagcatgtgttttaaatagacaaggtggtaaaagaaatacagttctttttcatggaccagcaagtacaggaaaatctatcattgctcaagccatagcacaagctgtgggtaatgttggttgttataatgcagcaaatgtaaattttccatttaatgactgtaccaataaaaatttaatttggattgaagaagctggtaactttggtcaacaagttaatcaatttaaagcaatctgttctggacaaacaattagaattgatcaaaaaggtaaaggaagtaagcaaattgaaccaactccagtaattatgacaactaatgaaaatataacaattgtgagaattggatgcgaagaaagacctgaacatacacaaccaataagagacagaatgttgaacatcaagttagtatgtaagcttccaggagactttggtttggttgataaagaagaatggcctttaatatgtgcatggttagttaaacatggttatgaatcaaccatggctaactatacacatcattggggaaaagtaccagaatgggatgaaaactgggcggagcctaaaatacaaaaaggtataaattcaccaggttgcaaagacttagagacgcaagcggcargcaatcctcagagtcaagaccaagttctaactcctctgactccggacgtagtggaccttgcactggaaccgtggagtactccagatacgcctattgcagaaactgcaaatcaacaatcaaaccaacttggcgttactcacaaagacgtgcaagcgagtccaacgtggtccgaaatagrggcagacctgagagccatctttacttctgaacaattggaagaagwttttcgagacgacttggattaaggtacgatggcacctccggcaaagagagccaggagaggtaagggtgtgttagtgaagtggggggaggggaagaatttaatgacttaactaagtatgtgtttttttataggacttgtgcctccaggttataaatatcttgggcctgggaacagtcttgaccaaggagaaccaactaacccttctgacgccgctgcaaaagaacacgacgaagcttacgctgcttatcttcgctctggtaaaaacccrtacttatatttctcgccagcagatcaacgctttatagatcaaactaaggacgctaaagattggggggggaaaataggacattatttttttagagctaaaaaggcaattgctccagtattaactgatacaccagatcatccatcaacatcaagaccaacaaaaccaactaaaagaagtagaccmccmcctcatattttyatcaatyttgcaaaaaaaaaaaaagccggtgcaggrcaagtaaaaagagacaatcttgcaccaatgagtgatggagcagttcaaccagacggtggtcagcctgctgtcagaaatgaaagagctacaggatctgggaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacgggtactttcaataatcagacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattatagaagagtggttgtaaataatttggataaaactgcagttaacggaaacatggctttagatgatacccatgcacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatctgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagtaataatactatgccatttactccagcagctatgagatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattaataccatctcatactggaactagtggcacaccaacaaatatataccatggtacagatccagatgatgttcaattttacactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacattttattttgattgtaaaccatgtagactaacacacacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaagctgaaggagatactaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaacattattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacaaatgataatgtattgctaccaacagatccaattggaggtaaagcaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcgcctaatttaacaaatgaatatgatcctgatgcatctgctaatatgtcaagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcctctcatacttggaatccaattcaacaaatgagtattaatgtagataaccaatttaactatgtaccaagtaatattggaggtatgaaaattgtatatgaaaaatctcaactagcacctagaaaattatactaacatacttactatgttttta</GBSeq_sequence>
+  </GBSeq>

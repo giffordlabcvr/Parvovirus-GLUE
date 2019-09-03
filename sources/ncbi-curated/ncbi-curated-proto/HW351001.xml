@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HW351001</GBSeq_locus>
+    <GBSeq_length>672</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-JAN-2014</GBSeq_update-date>
+    <GBSeq_create-date>28-JAN-2014</GBSeq_create-date>
+    <GBSeq_definition>JP 2013535188-A/2: Live attenuated parvovirus</GBSeq_definition>
+    <GBSeq_primary-accession>HW351001</GBSeq_primary-accession>
+    <GBSeq_accession-version>HW351001.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HW351001.1|</GBSeqid>
+      <GBSeqid>pat|JP|2013535188|2</GBSeqid>
+      <GBSeqid>gi|576571840</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2013535188-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Protoparvovirus</GBSeq_source>
+    <GBSeq_organism>Protoparvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..672</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Spibey,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Live attenuated parvovirus</GBReference_title>
+        <GBReference_journal>JP2013535188-A 2 12-SEP-2013 Intervet International B V</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS parvovirus~PN JP 2013535188-A/2~PD 12-SEP-2013~PF 18-JUL-2011 JP 2013519115~PR 19-JUL-2010 US 61/365684 ,16-JUL-2010 EP 10169872.8 PA Intervet International B V~PI norman spibey~PT 'Live attenuated parvovirus'~PS N2~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..672</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>672</GBInterval_to>
+            <GBInterval_accession>HW351001.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Protoparvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1506574</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattagtaccatctcatactggaactagtggcacaccaacaaatatataccatggtacagatccagatgatgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaagctgaaggaggtactaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaagatatgcatttggtagacaacatggtaaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattgg</GBSeq_sequence>
+  </GBSeq>

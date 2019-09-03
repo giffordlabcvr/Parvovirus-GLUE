@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JC600907</GBSeq_locus>
+    <GBSeq_length>4907</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>11-SEP-2014</GBSeq_update-date>
+    <GBSeq_create-date>11-SEP-2014</GBSeq_create-date>
+    <GBSeq_definition>Sequence 9 from Patent WO2014095956</GBSeq_definition>
+    <GBSeq_primary-accession>JC600907</GBSeq_primary-accession>
+    <GBSeq_accession-version>JC600907.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|JC600907.1|</GBSeqid>
+      <GBSeqid>pat|WO|2014095956|9</GBSeqid>
+      <GBSeqid>gi|684905819</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Canine parvovirus</GBSeq_source>
+    <GBSeq_organism>Canine parvovirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4907</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>WASMOEN,T.L.</GBAuthor>
+          <GBAuthor>LAKSHMANAN,N.P.</GBAuthor>
+          <GBAuthor>STACHURA,K.</GBAuthor>
+          <GBAuthor>MOORE,J.</GBAuthor>
+          <GBAuthor>GORE,T.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>CANINE PARVOVIRUS TYPE 2c ISOLATES AND METHODS OF USE</GBReference_title>
+        <GBReference_journal>WO2014095956-A1 9 26-JUN-2014 INTERVET INT BV [NL], INTERVET INC [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4907</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4907</GBInterval_to>
+            <GBInterval_accession>JC600907.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Canine parvovirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10788</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atcattctttagaaccaactgaccaagttcacgtacgtatgacgtgatgacgcgcgctgcgcgcgctgcctacggcagtcacacgtcatacgtacgctccttggtcagttggttctaaagaatgataggcggtttgtgtgtttaaacttgggcgggaaaaggtggcgggctaattgtgggcgtggttaaaggtataaaagacaaaccatagaccgttactgacattcgcttcttgtctttgacagagtgaacctctcttactttgactaaccatgtctggcaaccagtatactgaggaagttatggagggagtaaattggttaaagaaacatgcagagaatgaagcattttcgtttgtttttaaatgtgacaacgtccaactaaatggaaaggatgttcgctggaacaactataccaaaccaattcaaaatgaagagctaacatctttaattagaggagcacaaacagcaatggatcaaaccgaagaagaagaaatggactgggaatcggaagttgatagtctcgccaaaaagcaagtacaaacttttgatgcattaattaaaaaatgtctttttgaagtctttgtttctaaaaatatagaaccaaatgaatgtgtttggtttattcaacatgaatggggaaaagatcaaggctggcattgtcatgttttacttcatagtaagaacttacaacaagcaactggtaaatggctacgcagacaaatgaatatgtattggagtagatggttggtgactctttgttcggtaaatttaacaccaactgaaaagattaagctcagagaaattgcagaagatagtgaatgggtgactatattaacatacagacataagcaaacaaaaaaagactatgttaaaatggttcattttggaaatatgatagcatattactttttaacaaagaaaaaaattgtccacatgacaaaagaaagtggctattttttaagtactgattctggttggaaatttaactttatgaagtatcaagacagacaaattgtcagcacactttacactgaacaaatgaaaccagaaaccgttgaaaccacagtgacgacagcacaggaaacaaagcgcgggagaattcaaactaaaaaggaagtatcaatcaaatgtactttgcgggacttggttagtaaaagagtaacatcacctgaagactggatgatgttacaaccagatagttatattgaaatgatggcacaaccaggaggtgaaaatcttttaaaaaatacacttgaaatttgtactttgactttagcaagaacaaaaacagcatttgaattaatacttgaaaaagcagataatactaaactgactaactttgatcttgcaaattctagaacatgtcagatttttagaatgcacggatggaattggattaaagtttgtcacgctatagcatgtgttttaaatagacaaggtggtaaaagaaatacagttctttttcatggaccagcaagtacaggaaaatctatcattgctcaagccatagcacaagctgtgggtaatgttggttgttataatgcagcaaatgtaaattttccatttaatgactgcaccaataaaaatttaatttggattgaagaagctggtaactttggtcaacaagttaatcaatttaaagcaatttgttccggacaaacaattagaattgatcaaaaaggtaaaggaagtaagcaaattgaaccaactccagtaattatgacaactaatgaaaatataacaattgtgagaattggatgtgaagaaagacctgaacatacacaaccaataagagacagaatgttgaacattaagttagtatgtaagcttccaggagactttggtttggttgataaagaagaatggcctttaatatgtgcatggttagttaaacatggttatgaatcaaccatggctaactatacacatcattggggaaaagtaccagaatgggatgaaaactgggcggagcctaaaatacaagaaggtataaattcaccaggttgcaaagacttagagacgcaagcggcaagcaatcctcagagtcaagaccaagctctaactcctctgactccgaacgtagtggaccttgcactggaaccgtggagtactccagatacgcctattgcaaaaactgcaaatcaacaatcaaaccaacttggcgttactcacaaagacgtgcaagcgagtccaacgtggtccgaaatagaggcagacctgagagccatctttacttctgaacaactggaagaagattttcaagacgacttggattaaggtacgatggcacctccggcaaagagagccaggagaggtaagggtgtgttagtaaagtggggggaggggaaagatttagtaacttaactaagtatgtgtttttttataggacttgtgcctccaggttataaatatcttgggcctgggaacagtcttgaccaaggagaaccaactaacccttctgacgccgctgcaaaagaacacgacgaagcttacgctgcttatcttcgctctggtaaaaacccatacttatatttctcgccagcagatcaacgctttatagatcaaactaaggacgctaaagattggggggggaaaataggacattatttttttagagctaaaaaggcaattgctccagtattaactgatacaccagatcatccatcaacatcaagaccaacaaaaccaactaaaagaagtaaaccaccacctcatattttcatcaatcttgcaaaaaaaaaaaaagccggtgcaggacaagtaaaaagagacaatcttgcaccaatgagtgatggagcagttcaaccagacggtggtcaacctgctgtcagaaatgaaagagctacaggatctgggaacgggtctggaggcgggggtggtggtggttctgggggtgtggggatttctacgggtacttttaataatcagacggaatttaaatttttggaaaacggatgggtggaaatcacagcaaactcaagcagacttgtacatttaaatatgccagaaagtgaaaattatagaagagtggttgtaaataatttggataaaactgcagttaaaggaaacatggctttagatgatactcatgcacaaattgtaacaccttggtcattggttgatgcaaatgcttggggagtttggtttaatccaggagattggcaactaattgttaatactatgagtgagttgcatttagttagttttgaacaagaaatttttaatgttgttttaaagactgtttcagaatctgctactcagccaccaactaaagtttataataatgatttaactgcatcattgatggttgcattagatagtaataatactatgccatttactccagcagctatgagatctgagacattgggtttttatccatggaaaccaaccataccaactccatggagatattattttcaatgggatagaacattaaaaccatctcatactggaactagtggcacaccaacaaatatataccatggtacagatccagatgatgttcaattttatactattgaaaattctgtgccagtacacttactaagaacaggtgatgaatttgctacaggaacatttttttttgattgtaaaccatgtagactaacacatacatggcaaacaaatagagcattgggcttaccaccatttctaaattctttgcctcaagctgaaggaagtgctaactttggttatataggagttcaacaagataaaagacgtggtgtaactcaaatgggaaatacaaactatattactgaagctactattatgagaccagctgaggttggttatagtgcaccatattattcttttgaggcgtctacacaagggccatttaaaacacctattgcagcaggacgggggggagcgcaaacagatgaaaatcaagcagcagatggtgatccaaaatatgcatttggtagacaacatggtcaaaaaactaccacaacaggagaaacacctgagagatttacatatatagcacatcaagatacaggaagatatccagaaggagattggattcaaaatattaactttaaccttcctgtaacagaagataatgtattgctaccaacagatccaattggaggtaaaacaggaattaactatactaatatatttaatacttatggtcctttaactgcattaaataatgtaccaccagtttatccaaatggtcaaatttgggataaagaatttgatactgacttaaaaccaagacttcatgtaaatgcaccatttgtttgtcaaaataattgtcctggtcaattatttgtaaaagttgcgcctaatttaacaaatgaatatgatcctgatgcatctgctaatatgtcaagaattgtaacttactcagatttttggtggaaaggtaaattagtatttaaagctaaactaagagcctctcatacttggaatccaattcaacaaatgagtattaatatagataaccaatttaactatgtaccaagtaatattggaggtatgaaaattgtatatgaaaaatctcaactagcacctagaaaattatattaacatacttactatgtttttatgtttattacatattattttaagattaattaaattacagcatagaaatattgtacttgtacttgatataggatttagaaggtttgttatatggtatacaataactgtaagaaatagaagaacatttagatcatagttagtagtttgttttgtaaaatgtattgtaaaccattaatgtatgttgttatggtgtgggtggttggttggtttgcccttagaatatgttaaggaccaaaaaaaatcaataaaagacatttaaaactaaatggcctcgtatactgtctataaggtgaactaaccttaccataagtatcaatctgtctttaaggggggggtgggtgggagatg</GBSeq_sequence>
+  </GBSeq>
