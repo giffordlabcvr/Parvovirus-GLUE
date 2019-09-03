@@ -22,7 +22,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Gray fox amdovirus</GBSeq_source>
     <GBSeq_organism>Gray fox amdovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Amdoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Amdoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
