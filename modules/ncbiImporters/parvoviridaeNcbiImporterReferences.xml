@@ -99,6 +99,10 @@
 	<primaryAccession>NC_025891</primaryAccession>
 	<primaryAccession>NC_030837</primaryAccession>
     
+    
+	<primaryAccession>MK513531</primaryAccession>
+    <primaryAccession>MG902949</primaryAccession>
+    
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>

@@ -1,5 +1,7 @@
 ### Clean up old alignment build
 
+delete module fastaAlignmentExporter
+
 #~# Dependoparvoviruses
 
 delete alignment AL_EPV-dependo.1-macropus
@@ -91,6 +93,9 @@ delete source sha.11-dinomyidae
 delete source sha.9-ctenomyidae
 delete source sha.10-capromyidae
 
+### CREATE MODULES
+
+create module -f modules/fastaAlignmentExporter.xml
 
 ### CREATE ALIGNMENTS
 
@@ -301,41 +306,40 @@ compute alignment AL_EPV-sha.11-dinomyidae --whereClause "sequence.source = 'sha
 
 # Export alignments
 
-module fastaAlignmentExporter export AL_EPV-dependo.1-macropus -a -o alignments/tips/dependo/dependo.1-macropus.aln.fna
-module fastaAlignmentExporter export AL_EPV-dependo.2-sarcophilus -a -o alignments/tips/dependo/dependo.2-sarcophilus.fna
-module fastaAlignmentExporter export AL_EPV-dependo.3-diprotodontia -a -o alignments/tips/dependo/dependo.3-diprotodontia.fna
-module fastaAlignmentExporter export AL_EPV-dependo.26-lemuridae -a -o alignments/tips/dependo/dependo.26-lemuridae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.28-anoura -a -o alignments/tips/dependo/dependo.28-anoura.fna
-module fastaAlignmentExporter export AL_EPV-dependo.29-carollia -a -o alignments/tips/dependo/dependo.29-carollia.fna
-module fastaAlignmentExporter export AL_EPV-dependo.30-desmodus -a -o alignments/tips/dependo/dependo.30-desmodus.fna
-module fastaAlignmentExporter export AL_EPV-dependo.31-hipposideridae -a -o alignments/tips/dependo/dependo.31-hipposideridae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.32-mormoops -a -o alignments/tips/dependo/dependo.32-mormoops.fna
-module fastaAlignmentExporter export AL_EPV-dependo.33-pipistrellus -a -o alignments/tips/dependo/dependo.33-pipistrellus.fna
-module fastaAlignmentExporter export AL_EPV-dependo.34-pteropodidae -a -o alignments/tips/dependo/dependo.34-pteropodidae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.35-rhinolophoidea -a -o alignments/tips/dependo/dependo.35-rhinolophoidea.fna
-module fastaAlignmentExporter export AL_EPV-dependo.36-tonatia -a -o alignments/tips/dependo/dependo.36-tonatia.fna
-module fastaAlignmentExporter export AL_EPV-dependo.37-vespertilionidae -a -o alignments/tips/dependo/dependo.37-vespertilionidae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.41-bathyergidae -a -o alignments/tips/dependo/dependo.41-bathyergidae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.42-cavid -a -o alignments/tips/dependo/dependo.42-cavid.fna
-module fastaAlignmentExporter export AL_EPV-dependo.43-chinchilla -a -o alignments/tips/dependo/dependo.43-chinchilla.fna
-module fastaAlignmentExporter export AL_EPV-dependo.44-heterocephalus -a -o alignments/tips/dependo/dependo.44-heterocephalus.fna
-module fastaAlignmentExporter export AL_EPV-dependo.45-octodontidae -a -o alignments/tips/dependo/dependo.45-octodontidae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.47-gliridae -a -o alignments/tips/dependo/dependo.47-gliridae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.48-ellobius -a -o alignments/tips/dependo/dependo.47-gliridae.fna
-module fastaAlignmentExporter export AL_EPV-dependo.49-meriones -a -o alignments/tips/dependo/dependo.49-merione.fna
-module fastaAlignmentExporter export AL_EPV-dependo.50-mus -a -o alignments/tips/dependo/dependo.50-mus.fna
-module fastaAlignmentExporter export AL_EPV-dependo.51-rattus -a -o alignments/tips/dependo/dependo.51.fna
-module fastaAlignmentExporter export AL_EPV-dependo.52-apodemus -a -o alignments/tips/dependo/dependo.52-apodemus.fna
-module fastaAlignmentExporter export AL_EPV-dependo.53-cricetidae -a -o alignments/tips/dependo/dependo.53-cricetidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.1-macropus -a -o alignments/tips/eve/dependo/dependo.1-macropus.aln.fna
+module fastaAlignmentExporter export AL_EPV-dependo.2-sarcophilus -a -o alignments/tips/eve/dependo/dependo.2-sarcophilus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.3-diprotodontia -a -o alignments/tips/eve/dependo/dependo.3-diprotodontia.fna
+module fastaAlignmentExporter export AL_EPV-dependo.26-lemuridae -a -o alignments/tips/eve/dependo/dependo.26-lemuridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.28-anoura -a -o alignments/tips/eve/dependo/dependo.28-anoura.fna
+module fastaAlignmentExporter export AL_EPV-dependo.29-carollia -a -o alignments/tips/eve/dependo/dependo.29-carollia.fna
+module fastaAlignmentExporter export AL_EPV-dependo.30-desmodus -a -o alignments/tips/eve/dependo/dependo.30-desmodus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.31-hipposideridae -a -o alignments/tips/eve/dependo/dependo.31-hipposideridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.32-mormoops -a -o alignments/tips/eve/dependo/dependo.32-mormoops.fna
+module fastaAlignmentExporter export AL_EPV-dependo.33-pipistrellus -a -o alignments/tips/eve/dependo/dependo.33-pipistrellus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.34-pteropodidae -a -o alignments/tips/eve/dependo/dependo.34-pteropodidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.35-rhinolophoidea -a -o alignments/tips/eve/dependo/dependo.35-rhinolophoidea.fna
+module fastaAlignmentExporter export AL_EPV-dependo.36-tonatia -a -o alignments/tips/eve/dependo/dependo.36-tonatia.fna
+module fastaAlignmentExporter export AL_EPV-dependo.37-vespertilionidae -a -o alignments/tips/eve/dependo/dependo.37-vespertilionidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.41-bathyergidae -a -o alignments/tips/eve/dependo/dependo.41-bathyergidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.42-cavid -a -o alignments/tips/eve/dependo/dependo.42-cavid.fna
+module fastaAlignmentExporter export AL_EPV-dependo.43-chinchilla -a -o alignments/tips/eve/dependo/dependo.43-chinchilla.fna
+module fastaAlignmentExporter export AL_EPV-dependo.44-heterocephalus -a -o alignments/tips/eve/dependo/dependo.44-heterocephalus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.45-octodontidae -a -o alignments/tips/eve/dependo/dependo.45-octodontidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.47-gliridae -a -o alignments/tips/eve/dependo/dependo.47-gliridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.48-ellobius -a -o alignments/tips/eve/dependo/dependo.47-gliridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.49-meriones -a -o alignments/tips/eve/dependo/dependo.49-merione.fna
+module fastaAlignmentExporter export AL_EPV-dependo.50-mus -a -o alignments/tips/eve/dependo/dependo.50-mus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.51-rattus -a -o alignments/tips/eve/dependo/dependo.51.fna
+module fastaAlignmentExporter export AL_EPV-dependo.52-apodemus -a -o alignments/tips/eve/dependo/dependo.52-apodemus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.53-cricetidae -a -o alignments/tips/eve/dependo/dependo.53-cricetidae.fna
 
-module fastaAlignmentExporter export AAL_EPV-erythro.2-hyaena -a -o alignments/tips/erythro/erythro.2-hyaena
+module fastaAlignmentExporter export AAL_EPV-erythro.2-hyaena -a -o alignments/tips/eve/erythro/erythro.2-hyaena
 
-module fastaAlignmentExporter export AL_EPV-sha.2-sarcophilus -a -o alignments/tips/sha/sha.2-sarcophilus
-module fastaAlignmentExporter export AL_EPV-sha.4-vombatus -a -o alignments/tips/sha/sha.4-vombatus
-module fastaAlignmentExporter export AL_EPV-sha.5-macropus -a -o alignments/tips/sha/sha.5-macropus
-module fastaAlignmentExporter export AL_EPV-sha.9-ctenomyidae -a -o alignments/tips/sha/sha.9-ctenomyidae
-module fastaAlignmentExporter export AL_EPV-sha.10-capromyidae -a -o alignments/tips/sha/sha.10-capromyidae
-module fastaAlignmentExporter export AL_EPV-sha.11-dinomyidae -a -o alignments/tips/sha/sha.11-dinomyidae
-
+module fastaAlignmentExporter export AL_EPV-sha.2-sarcophilus -a -o alignments/tips/eve/sha/sha.2-sarcophilus
+module fastaAlignmentExporter export AL_EPV-sha.4-vombatus -a -o alignments/tips/eve/sha/sha.4-vombatus
+module fastaAlignmentExporter export AL_EPV-sha.5-macropus -a -o alignments/tips/eve/sha/sha.5-macropus
+module fastaAlignmentExporter export AL_EPV-sha.9-ctenomyidae -a -o alignments/tips/eve/sha/sha.9-ctenomyidae
+module fastaAlignmentExporter export AL_EPV-sha.10-capromyidae -a -o alignments/tips/eve/sha/sha.10-capromyidae
+module fastaAlignmentExporter export AL_EPV-sha.11-dinomyidae -a -o alignments/tips/eve/sha/sha.11-dinomyidae
 
 
