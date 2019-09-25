@@ -5,11 +5,6 @@
   import source sources/fasta-refseqs/fasta-chappa
   import source sources/fasta-refseqs/fasta-erythro
 
-  # Import NCBI curated sequences for individual genera
-  import source sources/ncbi-curated/ncbi-curated-dependo/
-  import source sources/ncbi-curated/ncbi-curated-proto/
-  #import source sources/ncbi-curated/ncbi-curated-amdo/
-
   # Import EVEs
   import source sources/fasta-epv-digs/
   import source sources/fasta-epv-consensus/
