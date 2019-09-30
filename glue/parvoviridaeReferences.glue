@@ -78,7 +78,5 @@
   create reference REF_FCDNV   			ncbi-refseqs NC_014357
 
   ## Chapparvoviruses 
-
-  # Chapparvovirus
   create reference REF_Mk-PV            ncbi-refseqs MH670587
 
