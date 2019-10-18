@@ -1,51 +1,53 @@
-# Parvoviridae-GLUE
+# Parvoviridae-EVE
 
 ## Description
 
-This is Parvoviridae-GLUE: a GLUE project for the [parvoviruses](https://viralzone.expasy.org/11?outline=all_by_species) (family Parvoviridae ).
+This is Parvoviridae-EVE, a GLUE project designed to support comparative genomic and evolutionary analysis of parvoviruses.
 
-[GLUE](http://tools.glue.cvr.ac.uk) is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
+Parvoviridae-EVE contains aligned, annotated genome sequence data for:
 
- This [GLUE](http://tools.glue.cvr.ac.uk) project contains reference information for the parvovirus family, including:
+1. Parvoviruses (family Parvoviridae)
+2. Endogenous viral elements (EVEs) derived from parvoviruses
 
-* A set of parvovirus reference sequences linked to auxiliary data.
-* A comprehensive list of parvovirus genome features and their specific locations on full genome reference sequences.
-* Alignments of parvovirus reference sequences arranged hierarchically by clade.
+## Sequence data
 
-## Who can use this resource, and for what?
+The sequence data in this project have been organised into the following sources:
 
-Parvoviridae-GLUE can be used a straightforward data repository, with no requirement for use of the GLUE software framework. 
+*ncbi-refseqs*: Genome-length reference sequences of representative parvovirus species. These XML-formatted files are downloaded directly from NCBI using a GLUE module (see here) and are uniquely identified within this project by their GenBank accession numbers.
 
-In addition, the Parvoviridae-GLUE project can be developed within the GLUE framework by extending the core dataset with new data and functionality.
-So far we have used Parvoviridae-GLUE to develop the following GLUE extension projects. 
+*fasta-curated*: A non-redundant set of parvovirus-derived EVE loci. These FASTA sequences have been curated via systematic screening of whole genome sequence (WGS) assemblies using the DIGS tool. Sequences in this source have unique IDs based on arbitrary numbering.
 
-* [Parvoviridae-EVE](https://giffordlabcvr.github.io/Parvoviridae-EVE/) - a GLUE project for endogenous parvoviral elements.
-* [Dependoparvovirus-EVE](https://giffordlabcvr.github.io/Dependoparvovirus-EVE/) - a GLUE project for dependoparvoviruses, focussed on their potential applications as gene therapy vectors. 
+*fasta-refseqs*: EVE reference sequences - i.e. best-guess estimates of the ancestral parvovirus sequences that gave rise to EVEs. Where possible these are consensus/ancestral sequences derived from alignments included in this project. Sequence IDs used in this source correspond to the names of the unique EVE loci they represent (see here for details). 
 
-Note that Parvoviridae-GLUE serves as a data repository for parvovirus reference data, and these data can be accessed here, without any requirement to install GLUE. 
+## Sequence-associated data
 
-## Installation
+Sequences included in this project are linked to auxiliary data in tabular format, this includes:
 
-You can install Parvoviridae-GLUE on computers running Windows, MacOSX or Linux.
+1. Basic taxonomic data for genome-length virus reference sequence in ncbi-refseqs.
+2. Locus data for the EVE sequences in fasta-curated.
+3. Evolutionary history of the EVE loci represented in fasta-refseqs.
 
-1. Install [GLUE](http://tools.glue.cvr.ac.uk), based on the [GLUE installation instructions](http://tools.glue.cvr.ac.uk/#/installation). 
-2. Once GLUE is installed and working, clone the Parvoviridae-GLUE repository into your `gluetools/projects` directory.
-3.  Within the `gluetools/projects/Parvoviridae-GLUE` directory, start GLUE and build the project by issuing the command shown below:
+## Multiple sequence alignments (MSAs)
 
-```
-Mode path: /
-GLUE> run file parvoviridae.glue
-```
-4. This should run to completion and produce the `OK` result.
+Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
+
+1. Tip (i): Virus species (genome-length)
+2. Tip (ii): EVE lineages (single gene). These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)
+3. Internal: Virus genera (genome-length)
+4. Root: Viruses and EVE reference sequences (single gene)
+
+## GLUE project
+
+On computers with
+[GLUE](http://tools.glue.cvr.ac.uk) installed, the Parvoviridae-EVE project can be instantiated by
+navigating to the project folder, initiating GLUE, and issuing the following command in the GLUE shell:
+
+	Mode path: /
+	GLUE> run file parvoviridaeProject.glue
 
 
 ## Contributors
 
 Robert J. Gifford (robert.gifford@glasgow.ac.uk)
 
-Josh Singer (josh.singer@glasgow.ac.uk)
-
-
-## License
-
-The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+Josh Singer (josh.singer@glasgow.ac.uk) 
