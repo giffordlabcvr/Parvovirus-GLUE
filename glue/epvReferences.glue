@@ -10,16 +10,16 @@
   # Protoparvovirus
   create reference REF_proto.1-rattus            fasta-epv-consensus  proto.1-rattus 
   create reference REF_proto.2-apodemus          fasta-epv-consensus  proto.2-apodemus
-  #create reference REF_proto.3-mus_spretus       fasta-epv-consensus  proto.3-mus_spretus
   create reference REF_proto.4-mus_spicilegus    fasta-epv-consensus  proto.4-mus_spicilegus
+  #create reference REF_proto.3-mus_spretus       fasta-epv-consensus  proto.3-mus_spretus
 
   # Shaparvovirus
   create reference REF_sha.1-monodelphis         fasta-epv-consensus  sha.1-monodelphis
  
   # Dependoparvovirus
-  create reference REF_dependo.1-macropus        fasta-epv-consensus  dependo.1-macropus
-  create reference REF_dependo.10-whippomorpha   fasta-epv-consensus  dependo.10-whippomorpha
-  create reference REF_dependo.20-rhinocerotidae fasta-epv-consensus  dependo.20-rhinocerotidae
+  create reference REF_dependo.0-macropus        fasta-epv-consensus  dependo.0-macropus
+  create reference REF_dependo.1-whippomorpha    fasta-epv-consensus  dependo.1-whippomorpha
+  create reference REF_dependo.4-rhinocerotidae  fasta-epv-consensus  dependo.4-rhinocerotidae
   #create reference REF_dependo.9-lagomorpha      fasta-epv-consensus  dependo.9-lagomorpha
   
   
