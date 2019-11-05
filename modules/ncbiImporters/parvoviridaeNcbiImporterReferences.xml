@@ -99,10 +99,17 @@
 	<primaryAccession>JX885610</primaryAccession>
 	<primaryAccession>NC_025891</primaryAccession>
 	<primaryAccession>NC_030837</primaryAccession>
-    
-    
+	<primaryAccession>NC_040671</primaryAccession>
+	<primaryAccession>AX753253</primaryAccession>     
 	<primaryAccession>MK513531</primaryAccession>
     <primaryAccession>MG902949</primaryAccession>
+    <primaryAccession>NC_038539</primaryAccession>
+    <primaryAccession>MF416383</primaryAccession>
+    <primaryAccession>MF416384</primaryAccession>
+    <primaryAccession>NC_005889</primaryAccession>
+    <primaryAccession>DI393762</primaryAccession>
+    <primaryAccession>HW608044</primaryAccession>
+
     
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
