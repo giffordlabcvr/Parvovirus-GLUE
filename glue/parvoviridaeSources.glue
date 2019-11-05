@@ -1,6 +1,9 @@
   # Import NCBI reference sequences 
   import source sources/ncbi-refseqs
 
+  # Import NCBI curated sequences 
+  import source sources/ncbi-curated/ncbi-curated-dependo
+
   # Import FASTA reference sequences 
   import source sources/fasta-refseqs/fasta-chappa
   import source sources/fasta-refseqs/fasta-erythro
