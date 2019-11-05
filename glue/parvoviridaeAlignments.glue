@@ -18,10 +18,9 @@
     import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/genus/erythro/erythro-genome.fna
 
     #~# Sub-genus alignments
-    import AL_UNCONSTRAINED_AAV     -f alignments/internal/genus/dependo/aav-internal.aln.fna
+    import AL_UNCONSTRAINED_AAV     -f alignments/internal/subgroup/dependo/aav-pure.fna
 
     #~# Species-level alignments   
-
     #import AL_UNCONSTRAINED_AAV1  -f alignments/tips/virus/dependo/aav1.aln.fna
     #import AL_UNCONSTRAINED_AAV2  -f alignments/tips/virus/dependo/aav2.aln.fna
     import AL_UNCONSTRAINED_AAV3  -f alignments/tips/virus/dependo/aav3.aln.fna
