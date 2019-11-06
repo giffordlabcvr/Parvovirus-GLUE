@@ -136,7 +136,7 @@
     derive segments AL_DEPENDO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_AAV
+  alignment AL_AAV_primate
     derive segments AL_UNCONSTRAINED_AAV -a --mergeStrategy OVERWRITE
     exit
 
@@ -148,9 +148,9 @@
     derive segments AL_UNCONSTRAINED_AAV4 -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_AAV5
-    derive segments AL_UNCONSTRAINED_AAV5 -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_AAV5
+  #  derive segments AL_UNCONSTRAINED_AAV5 -a --mergeStrategy OVERWRITE
+  #  exit
 
   alignment AL_AAV6
     derive segments AL_UNCONSTRAINED_AAV6 -a --mergeStrategy OVERWRITE
