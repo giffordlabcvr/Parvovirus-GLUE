@@ -41,29 +41,29 @@ MF682923	Rp-Boca-PV-2	Rhinolophus pusillus bocaparvovirus 2	Rhinolophus pusillus
 NC_006259	BPV2	Bovine parvovirus 2	Bos taurus	Parvovirinae	Copiparvovirus	
 MG972981	CopiPV1	Ungulate copiparvovirus 1	Bos taurus	Parvovirinae	Copiparvovirus	
 NC_026251	Sesavirus	Sesavirus	Zalophus californianus	Parvovirinae	Copiparvovirus	
-NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-DI393763	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-AF085716	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-NC_006261	AAV8	Adeno-associated virus 8	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
-AX753250	AAV9	Adeno-associated virus 9	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV
+NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV2
+NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+DI393763	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+AF085716	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV5
+NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV5
+AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+NC_006261	AAV8	Adeno-associated virus 8	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+AX753250	AAV9	Adeno-associated virus 9	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 NC_027429	BdrPV	Bearded dragon parvovirus strain 2014	Homo sapiens	Parvovirinae	Dependoparvovirus	Reptile
-DQ335246	CAV	Caprine adeno-associated virus	Capra hircus	Parvovirinae	Dependoparvovirus	AAV
+DQ335246	CAV	Caprine adeno-associated virus	Capra hircus	Parvovirinae	Dependoparvovirus	CAV
 NC_001701	GPV	Goose parvovirus	Anser anser	Parvovirinae	Dependoparvovirus	Avian
 NC_006147	MDPV	Muscovy duck parvovirus	Cairina moschata	Parvovirinae	Dependoparvovirus	Avian
-AY243022	NHP-AAV-type1	NHP Adeno-associated virus type 1	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV
-AY243021	NHP-AAV-type2	NHP Adeno-associated virus type 2	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV
-AY243002	NHP-AAV11	NHP Adeno-associated virus 11	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV
-KT984498	NHP-AAV6	NHP Adeno-associated virus 6	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV
+AY243022	NHP-AAV-type1	NHP Adeno-associated virus type 1	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
+AY243021	NHP-AAV-type2	NHP Adeno-associated virus type 2	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
+AY243002	NHP-AAV11	NHP Adeno-associated virus 11	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
+KT984498	NHP-AAV6	NHP Adeno-associated virus 6	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
 NC_006148	SnakePV	Snake parvovirus 1	Python regius	Parvovirinae	Dependoparvovirus	Reptile
 NC_000883	B19	Human parvovirus B19	Homo sapiens	Parvovirinae	Erythroparvovirus	
 AF406967	Bovine-PV-3	Bovine parvovirus 3	Bos taurus	Parvovirinae	Erythroparvovirus	

@@ -72,20 +72,15 @@
     exit
 
   alignment AL_Dependoparvovirus
-    extract child AL_AAV               --refName REF_AAV2
-    #demote member AL_AAV               --whereClause "sequence.source.name = 'ncbi-refseqs' and sequence.clade = 'AAV'" 
-    demote member AL_AAV               --whereClause "sequence.clade = 'AAV'" 
+    extract child AL_AAV_primate       --refName REF_AAV3
+    demote member AL_AAV_primate       --whereClause "sequence.clade = 'AAV_primate'" 
     exit
 
-  alignment AL_AAV
-    extract child AL_AAV2              --refName REF_AAV2
-    demote member AL_AAV2              --whereClause "sequence.name = 'AAV-2'" 
+  alignment AL_AAV_primate
     extract child AL_AAV3              --refName REF_AAV3
     demote member AL_AAV3              --whereClause "sequence.name = 'AAV-3'" 
     extract child AL_AAV4              --refName REF_AAV4
     demote member AL_AAV4              --whereClause "sequence.name = 'AAV-4'" 
-    extract child AL_AAV5              --refName REF_AAV5
-    demote member AL_AAV5              --whereClause "sequence.name = 'AAV-5'" 
     extract child AL_AAV6              --refName REF_AAV6
     demote member AL_AAV6              --whereClause "sequence.name = 'AAV-6'" 
     extract child AL_AAV7              --refName REF_AAV7
