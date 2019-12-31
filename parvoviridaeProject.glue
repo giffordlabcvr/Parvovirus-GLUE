@@ -15,7 +15,6 @@ project parvoviridae
 
   # create modules
   run file glue/parvoviridaeModules.glue
-  run file glue/epvModules.glue
 
   # Import sources 
   run file glue/parvoviridaeSources.glue
@@ -26,29 +25,23 @@ project parvoviridae
   # Define genome features
   run file glue/parvoviridaeFeatures.glue
 
-  # Create reference sequences
+  # Declare reference sequences
   run file glue/parvoviridaeReferences.glue
-  run file glue/epvReferences.glue
- 
-  # Add feature locations to references
-  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.txt -r
 
-  # Load endogenous data
-  run script glue/loadEndogenousData1.js
-  run script glue/loadEndogenousData2.js
-  
-  # Import metadata for EPV from tabular
-  module epvSideDataImporter 
-    populate -f tabular/eve/epv-side-data.tsv
-    exit
-
-  # Add feature locations to EPV references
-  module featureLocationTextToGlue transform tabular/eve/epv_refseq_feature_locations.tsv -r
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
 
   # Import alignments and build constrained alignment tree
   run file glue/parvoviridaeAlignments.glue
+  run file glue/parvoviridaeAlignmentTree.glue
 
   # Validate
   validate
+
+  # Extensions - uncomment lines below to add these to build
+  #run file glue/parvoviridaeExtensionEve.glue
+  #run file glue/parvoviridaeExtensionDependo.glue
+  #run file glue/parvoviridaeExtensionProto.glue
+  #run file glue/parvoviridaeExtensionAmdo.glue
 
   exit
