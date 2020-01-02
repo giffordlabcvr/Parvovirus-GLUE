@@ -1,11 +1,10 @@
   ### Constrained alignment tree for the Parvoviridae
 
-  #~# Whole genome
-
+  #~# Constrained alignment tree
   create alignment AL_Parvoviridae_MASTER --r REF_CPV
 
+  #~# Root (Family)
   alignment AL_Parvoviridae_MASTER add member --allSequences
-  
   alignment AL_Parvoviridae_MASTER
 	extract child AL_Parvovirinae      --refName REF_CPV
 	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
@@ -15,26 +14,22 @@
 	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
     exit
 
+  #~# Subfamily
   alignment AL_Parvovirinae
     extract child AL_Amdoparvovirus    --refName REF_AMDV
     demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus'" 
     extract child AL_Protoparvovirus   --refName REF_CPV
     demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus'" 
-    extract child AL_Dependoparvovirus --refName REF_AAV2
+    extract child AL_Dependoparvovirus --refName REF_SnakePV
     demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus'" 
     extract child AL_Erythroparvovirus --refName REF_B19
     demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus'" 
-    extract child AL_Bocaparvovirus    --refName REF_Eh-BtPV-1
+    extract child AL_Bocaparvovirus    --refName REF_BPV
     demote member AL_Bocaparvovirus    --whereClause "sequence.genus = 'Bocaparvovirus'" 
     extract child AL_Tetraparvovirus   --refName REF_Eh-BtPV-1
     demote member AL_Tetraparvovirus   --whereClause "sequence.genus = 'Tetraparvovirus'" 
     extract child AL_Copiparvovirus    --refName REF_BPV2
     demote member AL_Copiparvovirus    --whereClause "sequence.genus = 'Copiparvovirus'" 
-    exit
-
-  alignment AL_Dependoparvovirus
-    extract child AL_AAV_primate       --refName REF_AAV3
-    demote member AL_AAV_primate       --whereClause "sequence.clade = 'AAV_primate'" 
     exit
 
   alignment AL_Densovirinae
@@ -55,11 +50,17 @@
 	demote member AL_Chapparvovirus    --whereClause "sequence.genus = 'Chapparvovirus'" 
     exit
 
+  #~# Genus
+  alignment AL_Dependoparvovirus
+    extract child AL_AAV_primate       --refName REF_AAV2
+    demote member AL_AAV_primate       --whereClause "sequence.clade = 'AAV_primate'" 
+    exit
+
 
   #~# Derive constrained alignment segments from unconstrained alignments
 
   alignment AL_Parvoviridae_MASTER
-    derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_MASTER_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
  
   alignment AL_Protoparvovirus
