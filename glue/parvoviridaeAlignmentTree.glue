@@ -2,9 +2,9 @@
 
   #~# Constrained alignment tree
   create alignment AL_Parvoviridae_MASTER --r REF_CPV
+  alignment AL_Parvoviridae_MASTER add member --allSequences
 
   #~# Root (Family)
-  alignment AL_Parvoviridae_MASTER add member --allSequences
   alignment AL_Parvoviridae_MASTER
 	extract child AL_Parvovirinae      --refName REF_CPV
 	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
