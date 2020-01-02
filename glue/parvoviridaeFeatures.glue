@@ -52,7 +52,37 @@
         feature ORF2 set metatag OWN_CODON_NUMBERING true
         feature ORF2 set metatag INCLUDE_IN_SUMMARY true
         feature ORF2 set metatag CODES_AMINO_ACIDS true
-  
+ 
+     	create feature ORF3 -p whole_genome "ORF3 protein"
+        feature ORF3 set field displayName "ORF3"
+        feature ORF3 set metatag OWN_CODON_NUMBERING true
+        feature ORF3 set metatag INCLUDE_IN_SUMMARY true
+        feature ORF3 set metatag CODES_AMINO_ACIDS true
+
+     	create feature ORF4 -p whole_genome "ORF4 protein"
+        feature ORF4 set field displayName "ORF4"
+        feature ORF4 set metatag OWN_CODON_NUMBERING true
+        feature ORF4 set metatag INCLUDE_IN_SUMMARY true
+        feature ORF4 set metatag CODES_AMINO_ACIDS true
+
+     	create feature ORF5 -p whole_genome "ORF5 protein"
+        feature ORF5 set field displayName "ORF5"
+        feature ORF5 set metatag OWN_CODON_NUMBERING true
+        feature ORF5 set metatag INCLUDE_IN_SUMMARY true
+        feature ORF5 set metatag CODES_AMINO_ACIDS true
+
+     	create feature ORF6 -p whole_genome "ORF6 protein"
+        feature ORF6 set field displayName "ORF6"
+        feature ORF6 set metatag OWN_CODON_NUMBERING true
+        feature ORF6 set metatag INCLUDE_IN_SUMMARY true
+        feature ORF6 set metatag CODES_AMINO_ACIDS true
+
+     	create feature ORF7 -p whole_genome "ORF7 protein"
+        feature ORF7 set field displayName "ORF7"
+        feature ORF7 set metatag OWN_CODON_NUMBERING true
+        feature ORF7 set metatag INCLUDE_IN_SUMMARY true
+        feature ORF7 set metatag CODES_AMINO_ACIDS true
+ 
     	create feature NS2-P -p whole_genome "Nonstructural protein NS2-P"
         feature NS2-P set field displayName "NS2-P"
         feature NS2-P set metatag OWN_CODON_NUMBERING true

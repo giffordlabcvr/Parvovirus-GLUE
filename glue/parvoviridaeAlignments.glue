@@ -5,20 +5,15 @@
     #~# Root-level alignments
     import AL_UNCONSTRAINED -f alignments/root/parvo-ns-root.fna
 
-    #~# Subfamily-level alignments 
-    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/subfamily/chapparvovirus/chap-genome.fna
-
-    #~# Parvovirinae genera alignments
-    import AL_PROTO_UNCONSTRAINED   -f alignments/internal/genus/proto/proto-genome.fna
-    import AL_AMDO_UNCONSTRAINED    -f alignments/internal/genus/amdo/amdo-genome.fna
-    import AL_DEPENDO_UNCONSTRAINED -f alignments/internal/genus/dependo/dependo-genome.fna
-    import AL_BOCA_UNCONSTRAINED    -f alignments/internal/genus/boca/boca-genome.fna
-    import AL_TETRA_UNCONSTRAINED   -f alignments/internal/genus/tetra/tetra-genome.fna
-    import AL_COPI_UNCONSTRAINED    -f alignments/internal/genus/copi/copi-genome.fna
-    import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/genus/erythro/erythro-genome.fna
-
-    #~# Sub-genus alignments
-    import AL_UNCONSTRAINED_AAV     -f alignments/internal/subgroup/dependo/aav-pure.fna
+    #~# Internal node alignments 
+    import AL_PROTO_UNCONSTRAINED   -f alignments/internal/proto/proto-genome.fna
+    import AL_AMDO_UNCONSTRAINED    -f alignments/internal/amdo/amdo-genome.fna
+    import AL_DEPENDO_UNCONSTRAINED -f alignments/internal/dependo/dependo-genome.fna
+    import AL_BOCA_UNCONSTRAINED    -f alignments/internal/boca/boca-genome.fna
+    import AL_TETRA_UNCONSTRAINED   -f alignments/internal/tetra/tetra-genome.fna
+    import AL_COPI_UNCONSTRAINED    -f alignments/internal/copi/copi-genome.fna
+    import AL_ERYTHRO_UNCONSTRAINED -f alignments/internal/erythro/erythro-genome.fna
+    import AL_CHAP_UNCONSTRAINED    -f alignments/internal/chappa/chap-genome.fna
     
     exit
 
