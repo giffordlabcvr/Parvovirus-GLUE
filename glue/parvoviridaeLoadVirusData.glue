@@ -1,9 +1,9 @@
   # Link to isolate table
-  #run script glue/loadExogenousData.js
+  run script glue/parvoviridaeLoadIsolateData.js
 
-  run script glue/loadExogenousData.js
   module genbankXmlPopulator populate
-
+  #genbankXmlPopulatorDependoparvovirus
+  
   # Import metadata for exogenous reference sequences from tabular
   module parvoviridaesideDataImporter 
     populate -f tabular/references/parvo-ncbi-refseqs-side-data.tsv

@@ -5,18 +5,18 @@ NC_004287	BmDNV-5	Bombyx mori densovirus 5	Bombyx mori	Densovirinae	Iteradensovi
 NC_031450	PmDNV-JL	Parus major densovirus	Parus major (likely contaminant)	Densovirinae	Unclassified-1	
 NC_015718	HaDNV	Helicoverpa armigera densovirus	Helicoverpa armigera	Densovirinae	Unclassified-2	
 NC_004285	AalDNV-2	Aedes albopictus densovirus 2	Aedes albopictus	Epiparvovirinae	Brevidensovirus	
-Cebus_imitator.1	Cebus_imitator.1	Cebus_imitator.1	Cebus imitator	Epiparvovirinae	Chapparvovirus	
+ChPV-Cebus_imitator.1	Cebus_imitator.1	Cebus_imitator.1	Cebus imitator	Epiparvovirinae	Chapparvovirus	
 MG846441	Chicken-PV1	Chicken chapparvovirus 1	Gallus gallus	Epiparvovirinae	Chapparvovirus	
 MG846442	Chicken-PV2	Chicken chapparvovirus 2	Gallus gallus	Epiparvovirinae	Chapparvovirus	
 KX907333	ChPV.DesRot	Desmodus rotundus chapparvovirus	Desmodus rotundus	Epiparvovirinae	Chapparvovirus	
-Mesitornis_unicolor.1	Mesitornis_unicolor.1	Mesitornis_unicolor.1	Mesitornis unicolor	Epiparvovirinae	Chapparvovirus	
+ChPV-Mesitornis_unicolor.1	Mesitornis_unicolor.1	Mesitornis_unicolor.1	Mesitornis unicolor	Epiparvovirinae	Chapparvovirus	
 MH670587	Mk-PV	Mouse kidney parvovirus	Mus musculus	Epiparvovirinae	Chapparvovirus	Nephroparvovirus
-Myotis_davidii.1	Myotis_davidii.1	Myotis_davidii.1	Myotis davidii	Epiparvovirinae	Chapparvovirus	
+ChPV-Myotis_davidii.1	Myotis_davidii.1	Myotis_davidii.1	Myotis davidii	Epiparvovirinae	Chapparvovirus	
 HM362436	Partridge-ChPV1	Partridge chapparvovirus 1	Perdix perdix	Epiparvovirinae	Chapparvovirus	
 NC_040562	PPV7	Porcine parvovirus 7	Sus scrofa	Epiparvovirinae	Chapparvovirus	
-Protobothrops_mucrosquamatus.1	Protobothrops_mucrosquamatus.1	Protobothrops_mucrosquamatus.1	Protobothrops mucrosquamatus	Epiparvovirinae	Chapparvovirus	
+ChPV-Protobothrops_mucrosquamatus.1	Protobothrops_mucrosquamatus.1	Protobothrops_mucrosquamatus.1	Protobothrops mucrosquamatus	Epiparvovirinae	Chapparvovirus	
 KX272741	Rat-PV2	Rat parvovirus 2	Rattus norvegicus	Epiparvovirinae	Chapparvovirus	
-Serinus_canaria.1	Serinus_canaria.1	Serinus_canaria.1	Serinus canaria	Epiparvovirinae	Chapparvovirus	
+ChPV-Serinus_canaria.1	Serinus_canaria.1	Serinus_canaria.1	Serinus canaria	Epiparvovirinae	Chapparvovirus	
 KT961660	Simian-ChPV3	Simian parvo-like virus 3	Macaca mulatta	Epiparvovirinae	Chapparvovirus	
 KX084397	Turkey-PV2	Turkey parvovirus 2	Meleagris gallopavo	Epiparvovirinae	Chapparvovirus	
 NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Fenneropenaeus chinensis	Epiparvovirinae	Hepandensovirus	
@@ -45,12 +45,10 @@ NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Parvovirinae	Dependoparvovi
 LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV2
+NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-DI393763	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-AF085716	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV5
 NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV5
 AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
 NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate

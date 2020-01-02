@@ -38,10 +38,10 @@ project parvoviridae
   # Validate
   validate
 
-  # Extensions - uncomment lines below to add these to build
-  #run file glue/parvoviridaeExtensionEve.glue
-  #run file glue/parvoviridaeExtensionDependo.glue
-  #run file glue/parvoviridaeExtensionProto.glue
-  #run file glue/parvoviridaeExtensionAmdo.glue
-
   exit
+
+  # Extensions - uncomment lines below to add these to build
+  #project parvoviridae run file glue/parvoviridaeExtensionEve.glue
+  #project parvoviridae run file glue/parvoviridaeExtensionDependo.glue
+  #project parvoviridae run file glue/parvoviridaeExtensionProto.glue
+  #project parvoviridae run file glue/parvoviridaeExtensionAmdo.glue
