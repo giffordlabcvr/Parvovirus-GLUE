@@ -9,8 +9,7 @@
         feature NS set metatag OWN_CODON_NUMBERING true
         feature NS set metatag INCLUDE_IN_SUMMARY true
         feature NS set metatag CODES_AMINO_ACIDS true
-        #feature NS set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
-
+ 
     	create feature NS1 -p whole_genome "Replicase protein NS1"
         feature NS1 set field displayName "Replicase N1"
         feature NS1 set metatag OWN_CODON_NUMBERING true

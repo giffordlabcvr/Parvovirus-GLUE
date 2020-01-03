@@ -1,19 +1,6 @@
   ### Exogenous viruses
 
   ## Parvovirinae 
-
-  # Protoparvovirus
-  create reference REF_CPV        		ncbi-refseqs NC_001539
-  create reference REF_MVM1       		ncbi-refseqs NC_001510
-  create reference REF_PPV        		ncbi-refseqs NC_001718
-  create reference REF_HamsterPV     	ncbi-refseqs U34255
-  create reference REF_Zsana     	    ncbi-refseqs KT965075
-  
-  # Bufaparvovirus
-  create reference REF_MpBuV    		ncbi-refseqs NC_026815
-
-  # Amdoparvovirus
-  create reference REF_AMDV       		ncbi-refseqs NC_001662
  
   # Aveparvovirus
   create reference REF_ChPV       		ncbi-refseqs NC_024452
@@ -26,16 +13,14 @@
   # Dependoparvovirus
   create reference REF_SnakePV       	ncbi-refseqs NC_006148
   create reference REF_BdrPV            ncbi-refseqs NC_027429
-
   create reference REF_MDPV       		ncbi-refseqs NC_006147 # Duck
   create reference REF_GPV        		ncbi-refseqs NC_001701 # Goose
   create reference REF_AvAAV-atcc       ncbi-refseqs NC_004828
   create reference REF_AvAAV-da1        ncbi-refseqs NC_006263
-
   create reference REF_BAAV        	    ncbi-refseqs NC_005889 
   create reference REF_CAV        		ncbi-refseqs DQ335246 
   create reference REF_AAV-bat          ncbi-refseqs NC_014468
-   
+  create reference REF_AAV-sealion      ncbi-refseqs NC_040671
   create reference REF_AAV1             ncbi-refseqs NC_002077 
   create reference REF_AAV2       		ncbi-refseqs NC_001401
   create reference REF_AAV3       		ncbi-refseqs NC_001729 
@@ -49,6 +34,17 @@
   create reference REF_AAV11       	    ncbi-refseqs AY631966 
   create reference REF_AAV12       	    ncbi-refseqs DQ813647 
 
+  # Protoparvovirus
+  create reference REF_CPV        		ncbi-refseqs NC_001539
+  create reference REF_MVM1       		ncbi-refseqs NC_001510
+  create reference REF_PPV        		ncbi-refseqs NC_001718
+  create reference REF_HamsterPV     	ncbi-refseqs U34255
+  create reference REF_Zsana     	    ncbi-refseqs KT965075
+  create reference REF_MpBuV    		ncbi-refseqs NC_026815
+  create reference REF_OtterPV-1  		ncbi-refseqs NC_030837
+
+  # Amdoparvovirus
+  create reference REF_AMDV       		ncbi-refseqs NC_001662
 
   # Erythroparvovirus
   create reference REF_B19     			ncbi-refseqs NC_000883
@@ -59,31 +55,31 @@
   # Tetraparvovirus
   create reference REF_Eh-BtPV-1  		ncbi-refseqs NC_016744
   
-  # Unclassified Parvovirinae
-  create reference REF_OtterPV-1  		ncbi-refseqs NC_030837
 
-
-  ## Epiparvovirinae
+  ## Densovirinae
   
-  # Brevidensovirus
-  create reference REF_AalDNV-2			ncbi-refseqs NC_004285
-
-  # Iteradensovirus
-  create reference REF_BmDNV-5    		ncbi-refseqs NC_004287
- 
   # Ambidensovirus
   create reference REF_JcDNV      		ncbi-refseqs NC_004284
   create reference REF_PfDNV      		ncbi-refseqs NC_000936
 
+  # Iteradensovirus
+  create reference REF_BmDNV-5    		ncbi-refseqs NC_004287
+
+
+  ## Epiparvovirinae
+ 
+   # Hepandensovirus
+  create reference REF_FCDNV   			ncbi-refseqs NC_014357
+ 
+  # Brevidensovirus
+  create reference REF_AalDNV-2			ncbi-refseqs NC_004285
+ 
   # Penstyldensovirus
   create reference REF_IHHN    		    ncbi-refseqs NC_002190
  
-  # Hepandensovirus
-  create reference REF_FCDNV   			ncbi-refseqs NC_014357
-
   # Chapparvoviruses 
-  create reference REF_Mk-PV            ncbi-refseqs MH670587
   create reference REF_PPV7             ncbi-refseqs NC_040562
+  create reference REF_Mk-PV            ncbi-refseqs MH670587
   create reference REF_MpChPV           ncbi-refseqs KX084397
   create reference REF_DrChPV           ncbi-refseqs KX907333
 

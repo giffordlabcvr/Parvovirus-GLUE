@@ -1,7 +1,6 @@
   create module -f modules/parvoviridaeSideDataImporter.xml 
   create module -f modules/parvoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
   create module -f modules/featureLocationTextToGlue.xml 
-  create module -f modules/kuiken2006CodonLabeler.xml   
   create module -f modules/rootAlignmentImporter.xml 
   create module -f modules/unconstrainedAlignmentImporter.xml 
   create module -f modules/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility

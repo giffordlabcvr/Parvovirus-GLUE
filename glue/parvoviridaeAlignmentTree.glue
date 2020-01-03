@@ -6,30 +6,32 @@
 
   #~# Root (Family)
   alignment AL_Parvoviridae_MASTER
-	extract child AL_Parvovirinae      --refName REF_CPV
+	extract child AL_Parvovirinae      --refName REF_CPV      # NC_001539
 	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
-    extract child AL_Densovirinae      --refName REF_JcDNV
+    extract child AL_Densovirinae      --refName REF_JcDNV    # NC_004284
 	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'" 
-    extract child AL_Epiparvovirinae   --refName REF_FCDNV
+    extract child AL_Epiparvovirinae   --refName REF_FCDNV    # NC_014357
 	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
     exit
 
   #~# Subfamily
   alignment AL_Parvovirinae
-    extract child AL_Amdoparvovirus    --refName REF_AMDV
+    extract child AL_Amdoparvovirus    --refName REF_AMDV      # NC_001662
     demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus'" 
-    extract child AL_Protoparvovirus   --refName REF_CPV
+    extract child AL_Protoparvovirus   --refName REF_CPV       # NC_001539
     demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus'" 
-    extract child AL_Dependoparvovirus --refName REF_SnakePV
+    extract child AL_Dependoparvovirus --refName REF_SnakePV   # NC_006148
     demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus'" 
-    extract child AL_Erythroparvovirus --refName REF_B19
+    extract child AL_Erythroparvovirus --refName REF_B19       # NC_000883
     demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus'" 
-    extract child AL_Bocaparvovirus    --refName REF_BPV
+    extract child AL_Bocaparvovirus    --refName REF_BPV       # NC_001540
     demote member AL_Bocaparvovirus    --whereClause "sequence.genus = 'Bocaparvovirus'" 
-    extract child AL_Tetraparvovirus   --refName REF_Eh-BtPV-1
+    extract child AL_Tetraparvovirus   --refName REF_Eh-BtPV-1 # NC_016744
     demote member AL_Tetraparvovirus   --whereClause "sequence.genus = 'Tetraparvovirus'" 
-    extract child AL_Copiparvovirus    --refName REF_BPV2
+    extract child AL_Copiparvovirus    --refName REF_BPV2      # NC_006259
     demote member AL_Copiparvovirus    --whereClause "sequence.genus = 'Copiparvovirus'" 
+    extract child AL_Aveparvovirus     --refName REF_ChPV      # NC_024452
+    demote member AL_Aveparvovirus     --whereClause "sequence.genus = 'Aveparvovirus'" 
     exit
 
   alignment AL_Densovirinae
@@ -50,44 +52,45 @@
 	demote member AL_Chapparvovirus    --whereClause "sequence.genus = 'Chapparvovirus'" 
     exit
 
-  #~# Genus
-  alignment AL_Dependoparvovirus
-    extract child AL_AAV_primate       --refName REF_AAV2
-    demote member AL_AAV_primate       --whereClause "sequence.clade = 'AAV_primate'" 
-    exit
-
 
   #~# Derive constrained alignment segments from unconstrained alignments
-
   alignment AL_Parvoviridae_MASTER
-    derive segments AL_MASTER_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_MASTER_UNC        -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_Parvovirinae
+    derive segments AL_PARVOVIRINAE_UNC  -a --mergeStrategy OVERWRITE
     exit
  
   alignment AL_Protoparvovirus
-    derive segments AL_PROTO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_PROTO_UNC         -a --mergeStrategy OVERWRITE
+    exit
+    
+  alignment AL_Erythroparvovirus
+    derive segments AL_ERYTHRO_UNC       -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Amdoparvovirus
-    derive segments AL_AMDO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_AMDO_UNC          -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Dependoparvovirus
-    derive segments AL_DEPENDO_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_DEPENDO_UNC       -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Bocaparvovirus
-    derive segments AL_BOCA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_BOCA_UNC          -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Tetraparvovirus
-    derive segments AL_TETRA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_TETRA_UNC         -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Copiparvovirus
-    derive segments AL_COPI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_COPI_UNC          -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Chapparvovirus
-    derive segments AL_CHAP_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_CHAP_UNC          -a --mergeStrategy OVERWRITE
     exit
 
