@@ -12,7 +12,7 @@ schema-project parvoviridae
   exit
 
   
-project circoviridae
+project parvoviridae
 
   run file glue/eve/epvModules.glue
 
