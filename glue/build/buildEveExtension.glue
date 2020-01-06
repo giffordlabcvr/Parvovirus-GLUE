@@ -2,12 +2,13 @@
 project parvoviridae
 
   run file glue/eve/epvDeleteModules.glue
-  delete source fasta-refseqs
-  delete source fasta-curated
+  delete source fasta-epv-digs
+  delete source fasta-epv-consensus
+
   exit
 
 schema-project parvoviridae
-  run file glue/epvSchemaExtensions.glue
+  run file glue/eve/epvSchemaExtensions.glue
   exit
 
   
@@ -16,8 +17,8 @@ project circoviridae
   run file glue/eve/epvModules.glue
 
   # Import EVE sequences and side data 
-  import source sources/fasta-refseqs/
-  import source sources/fasta-curated/
+  import source sources/fasta-epv-digs/
+  import source sources/fasta-epv-consensus/
   
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
@@ -40,5 +41,3 @@ project circoviridae
   validate
 
   exit
-
-

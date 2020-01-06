@@ -11,4 +11,4 @@ schema-project parvoviridae
 run file glue/build/buildCoreProject.glue
   
 # Build endogenous parvovirus component
-#run file glue/build/buildEveExtension.glue
+run file glue/build/buildEveExtension.glue
