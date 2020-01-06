@@ -38,9 +38,3 @@ project parvoviridae
   validate
 
   exit
-
-  # Extensions - uncomment lines below to add these to build
-  #project parvoviridae run file glue/core/parvoviridaeExtensionEve.glue
-  #project parvoviridae run file glue/core/parvoviridaeExtensionDependo.glue
-  #project parvoviridae run file glue/core/parvoviridaeExtensionProto.glue
-  #project parvoviridae run file glue/core/parvoviridaeExtensionAmdo.glue
