@@ -1,5 +1,5 @@
   # Link to isolate table
-  run script glue/parvoviridaeLoadIsolateData.js
+  run script glue/core/parvoviridaeLoadIsolateData.js
 
   module genbankXmlPopulator populate
   #genbankXmlPopulatorDependoparvovirus

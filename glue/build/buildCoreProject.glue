@@ -1,0 +1,46 @@
+delete project parvoviridae
+
+create project parvoviridae "GLUE project for the Parvoviridae" --minVersion 0.1.50
+
+schema-project parvoviridae
+
+  run file glue/core/parvoviridaeSchemaExtensions.glue
+  exit
+
+project parvoviridae
+
+  # load project settings
+  run file glue/core/projectSettings.glue
+
+  # create modules
+  run file glue/core/parvoviridaeModules.glue
+
+  # Import sources 
+  run file glue/core/parvoviridaeSources.glue
+  
+  # Import data 
+  run file glue/core/parvoviridaeLoadVirusData.glue
+
+  # Define genome features
+  run file glue/core/parvoviridaeFeatures.glue
+
+  # Declare reference sequences
+  run file glue/core/parvoviridaeReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
+
+  # Import alignments and build constrained alignment tree
+  run file glue/core/parvoviridaeAlignments.glue
+  run file glue/core/parvoviridaeAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+
+  # Extensions - uncomment lines below to add these to build
+  #project parvoviridae run file glue/core/parvoviridaeExtensionEve.glue
+  #project parvoviridae run file glue/core/parvoviridaeExtensionDependo.glue
+  #project parvoviridae run file glue/core/parvoviridaeExtensionProto.glue
+  #project parvoviridae run file glue/core/parvoviridaeExtensionAmdo.glue

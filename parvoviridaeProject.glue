@@ -1,47 +1,14 @@
 delete project parvoviridae
 
-create project parvoviridae "GLUE project for the Parvoviridae" --minVersion 0.1.50
+create project parvoviridae "A GLUE project for the Parvoviridae" --minVersion 0.1.66
 
 schema-project parvoviridae
 
-  run file glue/parvoviridaeSchemaExtensions.glue
-  run file glue/epvSchemaExtensions.glue
+  run file glue/core/parvoviridaeSchemaExtensions.glue
   exit
 
-project parvoviridae
-
-  # load project settings
-  run file glue/projectSettings.glue
-
-  # create modules
-  run file glue/parvoviridaeModules.glue
-
-  # Import sources 
-  run file glue/parvoviridaeSources.glue
+# Build core project
+run file glue/build/buildCoreProject.glue
   
-  # Import data 
-  run file glue/parvoviridaeLoadVirusData.glue
-
-  # Define genome features
-  run file glue/parvoviridaeFeatures.glue
-
-  # Declare reference sequences
-  run file glue/parvoviridaeReferences.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
-
-  # Import alignments and build constrained alignment tree
-  run file glue/parvoviridaeAlignments.glue
-  run file glue/parvoviridaeAlignmentTree.glue
-
-  # Validate
-  validate
-
-  exit
-
-  # Extensions - uncomment lines below to add these to build
-  #project parvoviridae run file glue/parvoviridaeExtensionEve.glue
-  #project parvoviridae run file glue/parvoviridaeExtensionDependo.glue
-  #project parvoviridae run file glue/parvoviridaeExtensionProto.glue
-  #project parvoviridae run file glue/parvoviridaeExtensionAmdo.glue
+# Build endogenous parvovirus component
+#run file glue/build/buildEveExtension.glue

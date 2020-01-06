@@ -1,0 +1,44 @@
+
+project parvoviridae
+
+  run file glue/eve/epvDeleteModules.glue
+  delete source fasta-refseqs
+  delete source fasta-curated
+  exit
+
+schema-project parvoviridae
+  run file glue/epvSchemaExtensions.glue
+  exit
+
+  
+project circoviridae
+
+  run file glue/eve/epvModules.glue
+
+  # Import EVE sequences and side data 
+  import source sources/fasta-refseqs/
+  import source sources/fasta-curated/
+  
+  run script glue/eve/loadLocusData1.js
+  run script glue/eve/loadLocusData2.js
+  
+  # Import metadata for EVE from tabular
+  module epvSideDataImporter 
+    populate -f tabular/eve/epv-side-data.tsv
+    exit
+
+  # Declare references 
+  run file glue/eve/epvReferences.glue
+
+  # Import alignments
+  #run file glue/eve/epvAlignments.glue
+
+  # Import alignment tree
+  #run file glue/eve/epvAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+
+

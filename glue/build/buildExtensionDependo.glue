@@ -1,4 +1,48 @@
-  delete module parvoviridaesideDataImporter
+project parvoviridae
+  run file glue/dependoDeleteModules.glue
+  delete source dependo-ncbi-curated
+  delete alignment AL_UNCONSTRAINED_AAV1
+  delete alignment AL_UNCONSTRAINED_AAV3
+  delete alignment AL_UNCONSTRAINED_AAV3b
+  delete alignment AL_UNCONSTRAINED_AAV4
+  delete alignment AL_UNCONSTRAINED_AAV5
+  delete alignment AL_UNCONSTRAINED_AAV6
+  delete alignment AL_UNCONSTRAINED_AAV7
+  delete alignment AL_UNCONSTRAINED_AAV8
+  delete alignment AL_UNCONSTRAINED_AAV9
+  delete alignment AL_UNCONSTRAINED_AAV10
+  delete alignment AL_UNCONSTRAINED_AAV11
+  delete alignment AL_UNCONSTRAINED_AAV12
+  exit
+
+schema-project parvoviridae
+  run file glue/dependoDeleteSchemaExtensions.glue
+  exit
+
+schema-project parvoviridae
+  run file glue/dependoSchemaExtensions.glue
+  exit
+  
+project parvoviridae
+
+  run file glue/dependoModules.glue
+
+  import source sources/dependo-ncbi-curated/
+  module dependoGenbankXmlPopulator populate
+  module dependoTextFilePopulator populate -f tabular/dependo-data.tsv
+  
+  # Declare references 
+  run file glue/dependoReferences.glue
+
+  # Import alignment tree
+  #run file glue/dependoAlignmentTree.glue
+
+  
+  exit
+  
+  
+  
+    delete module parvoviridaesideDataImporter
   delete alignment AL_UNCONSTRAINED_AAV
   delete alignment AL_UNCONSTRAINED_AAV
   delete alignment AL_UNCONSTRAINED_AAV3
