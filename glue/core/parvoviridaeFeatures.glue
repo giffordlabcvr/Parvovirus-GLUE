@@ -1,111 +1,118 @@
-	create feature whole_genome "Whole genome"
-    
-    	feature whole_genome set metatag INFORMATIONAL true
-	
-    	create feature 5UTR -p whole_genome "5' UTR"
+  create feature whole_genome "Whole genome"
+  feature whole_genome set metatag INFORMATIONAL true
 
-    	create feature NS -p whole_genome "Replicase protein"
-        feature NS set field displayName "Replicase"
-        feature NS set metatag OWN_CODON_NUMBERING true
-        feature NS set metatag INCLUDE_IN_SUMMARY true
-        feature NS set metatag CODES_AMINO_ACIDS true
- 
-    	create feature NS1 -p whole_genome "Replicase protein NS1"
-        feature NS1 set field displayName "Replicase N1"
-        feature NS1 set metatag OWN_CODON_NUMBERING true
-        feature NS1 set metatag INCLUDE_IN_SUMMARY true
-        feature NS1 set metatag CODES_AMINO_ACIDS true
- 
-    	create feature NS2 -p whole_genome "Replicase protein NS2"
-        feature NS2 set field displayName "Replicase NS2"
-        feature NS2 set metatag OWN_CODON_NUMBERING true
-        feature NS2 set metatag INCLUDE_IN_SUMMARY true
-        feature NS2 set metatag CODES_AMINO_ACIDS true
+  create feature 3flank "3 prime genomic flanking sequence"
+  feature 3flank set field displayName "5' flank"
+  feature 3flank set metatag INCLUDE_IN_SUMMARY true
 
-    	create feature NP -p whole_genome "NP protein"
-        feature NP set field displayName "Nucleoprotein"
-        feature NP set metatag OWN_CODON_NUMBERING true
-        feature NP set metatag INCLUDE_IN_SUMMARY true
-        feature NP set metatag CODES_AMINO_ACIDS true
+  create feature 5flank "5 prime genomic flanking sequence"
+  feature 5flank set field displayName "5' flank"
+  feature 5flank set metatag INCLUDE_IN_SUMMARY true
 
-    	create feature M -p whole_genome "Mid-ORF"
-        feature M set field displayName "Mid-ORF"
-        feature M set metatag OWN_CODON_NUMBERING true
-        feature M set metatag INCLUDE_IN_SUMMARY true
-        feature M set metatag CODES_AMINO_ACIDS true
+  create feature 5UTR -p whole_genome "5' UTR"
 
-    	create feature AAP -p whole_genome "Assembly activating protein"
-        feature AAP set field displayName "AAP ORF"
-        feature AAP set metatag OWN_CODON_NUMBERING true
-        feature AAP set metatag INCLUDE_IN_SUMMARY true
-        feature AAP set metatag CODES_AMINO_ACIDS true
+  create feature NS -p whole_genome "Replicase protein"
+  feature NS set field displayName "Replicase"
+  feature NS set metatag OWN_CODON_NUMBERING true
+  feature NS set metatag INCLUDE_IN_SUMMARY true
+  feature NS set metatag CODES_AMINO_ACIDS true
 
-    	create feature ORF1 -p whole_genome "ORF1 protein"
-        feature ORF1 set field displayName "ORF1"
-        feature ORF1 set metatag OWN_CODON_NUMBERING true
-        feature ORF1 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF1 set metatag CODES_AMINO_ACIDS true
- 
-     	create feature ORF2 -p whole_genome "ORF2 protein"
-        feature ORF2 set field displayName "ORF2"
-        feature ORF2 set metatag OWN_CODON_NUMBERING true
-        feature ORF2 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF2 set metatag CODES_AMINO_ACIDS true
- 
-     	create feature ORF3 -p whole_genome "ORF3 protein"
-        feature ORF3 set field displayName "ORF3"
-        feature ORF3 set metatag OWN_CODON_NUMBERING true
-        feature ORF3 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF3 set metatag CODES_AMINO_ACIDS true
+  create feature NS1 -p whole_genome "Replicase protein NS1"
+  feature NS1 set field displayName "Replicase N1"
+  feature NS1 set metatag OWN_CODON_NUMBERING true
+  feature NS1 set metatag INCLUDE_IN_SUMMARY true
+  feature NS1 set metatag CODES_AMINO_ACIDS true
 
-     	create feature ORF4 -p whole_genome "ORF4 protein"
-        feature ORF4 set field displayName "ORF4"
-        feature ORF4 set metatag OWN_CODON_NUMBERING true
-        feature ORF4 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF4 set metatag CODES_AMINO_ACIDS true
+  create feature NS2 -p whole_genome "Replicase protein NS2"
+  feature NS2 set field displayName "Replicase NS2"
+  feature NS2 set metatag OWN_CODON_NUMBERING true
+  feature NS2 set metatag INCLUDE_IN_SUMMARY true
+  feature NS2 set metatag CODES_AMINO_ACIDS true
 
-     	create feature ORF5 -p whole_genome "ORF5 protein"
-        feature ORF5 set field displayName "ORF5"
-        feature ORF5 set metatag OWN_CODON_NUMBERING true
-        feature ORF5 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF5 set metatag CODES_AMINO_ACIDS true
+  create feature NP -p whole_genome "NP protein"
+  feature NP set field displayName "Nucleoprotein"
+  feature NP set metatag OWN_CODON_NUMBERING true
+  feature NP set metatag INCLUDE_IN_SUMMARY true
+  feature NP set metatag CODES_AMINO_ACIDS true
 
-     	create feature ORF6 -p whole_genome "ORF6 protein"
-        feature ORF6 set field displayName "ORF6"
-        feature ORF6 set metatag OWN_CODON_NUMBERING true
-        feature ORF6 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF6 set metatag CODES_AMINO_ACIDS true
+  create feature M -p whole_genome "Mid-ORF"
+  feature M set field displayName "Mid-ORF"
+  feature M set metatag OWN_CODON_NUMBERING true
+  feature M set metatag INCLUDE_IN_SUMMARY true
+  feature M set metatag CODES_AMINO_ACIDS true
 
-     	create feature ORF7 -p whole_genome "ORF7 protein"
-        feature ORF7 set field displayName "ORF7"
-        feature ORF7 set metatag OWN_CODON_NUMBERING true
-        feature ORF7 set metatag INCLUDE_IN_SUMMARY true
-        feature ORF7 set metatag CODES_AMINO_ACIDS true
- 
-    	create feature NS2-P -p whole_genome "Nonstructural protein NS2-P"
-        feature NS2-P set field displayName "NS2-P"
-        feature NS2-P set metatag OWN_CODON_NUMBERING true
-        feature NS2-P set metatag INCLUDE_IN_SUMMARY true
-        feature NS2-P set metatag CODES_AMINO_ACIDS true
+  create feature AAP -p whole_genome "Assembly activating protein"
+  feature AAP set field displayName "AAP ORF"
+  feature AAP set metatag OWN_CODON_NUMBERING true
+  feature AAP set metatag INCLUDE_IN_SUMMARY true
+  feature AAP set metatag CODES_AMINO_ACIDS true
 
-    	create feature NS2-L -p whole_genome "Nonstructural protein NS2-L"
-        feature NS2-L set field displayName "NS2-L"
-        feature NS2-L set metatag OWN_CODON_NUMBERING true
-        feature NS2-L set metatag INCLUDE_IN_SUMMARY true
-        feature NS2-L set metatag CODES_AMINO_ACIDS true
+  create feature ORF1 -p whole_genome "ORF1 protein"
+  feature ORF1 set field displayName "ORF1"
+  feature ORF1 set metatag OWN_CODON_NUMBERING true
+  feature ORF1 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF1 set metatag CODES_AMINO_ACIDS true
+
+  create feature ORF2 -p whole_genome "ORF2 protein"
+  feature ORF2 set field displayName "ORF2"
+  feature ORF2 set metatag OWN_CODON_NUMBERING true
+  feature ORF2 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF2 set metatag CODES_AMINO_ACIDS true
+
+  create feature ORF3 -p whole_genome "ORF3 protein"
+  feature ORF3 set field displayName "ORF3"
+  feature ORF3 set metatag OWN_CODON_NUMBERING true
+  feature ORF3 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF3 set metatag CODES_AMINO_ACIDS true
+
+  create feature ORF4 -p whole_genome "ORF4 protein"
+  feature ORF4 set field displayName "ORF4"
+  feature ORF4 set metatag OWN_CODON_NUMBERING true
+  feature ORF4 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF4 set metatag CODES_AMINO_ACIDS true
+
+  create feature ORF5 -p whole_genome "ORF5 protein"
+  feature ORF5 set field displayName "ORF5"
+  feature ORF5 set metatag OWN_CODON_NUMBERING true
+  feature ORF5 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF5 set metatag CODES_AMINO_ACIDS true
+
+  create feature ORF6 -p whole_genome "ORF6 protein"
+  feature ORF6 set field displayName "ORF6"
+  feature ORF6 set metatag OWN_CODON_NUMBERING true
+  feature ORF6 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF6 set metatag CODES_AMINO_ACIDS true
+
+  create feature ORF7 -p whole_genome "ORF7 protein"
+  feature ORF7 set field displayName "ORF7"
+  feature ORF7 set metatag OWN_CODON_NUMBERING true
+  feature ORF7 set metatag INCLUDE_IN_SUMMARY true
+  feature ORF7 set metatag CODES_AMINO_ACIDS true
+
+  create feature NS2-P -p whole_genome "Nonstructural protein NS2-P"
+  feature NS2-P set field displayName "NS2-P"
+  feature NS2-P set metatag OWN_CODON_NUMBERING true
+  feature NS2-P set metatag INCLUDE_IN_SUMMARY true
+  feature NS2-P set metatag CODES_AMINO_ACIDS true
+
+  create feature NS2-L -p whole_genome "Nonstructural protein NS2-L"
+  feature NS2-L set field displayName "NS2-L"
+  feature NS2-L set metatag OWN_CODON_NUMBERING true
+  feature NS2-L set metatag INCLUDE_IN_SUMMARY true
+  feature NS2-L set metatag CODES_AMINO_ACIDS true
 
 
-		create feature VP -p whole_genome "Capsid protein"
-        feature VP set field displayName "Capsid"
-        feature VP set metatag OWN_CODON_NUMBERING true
-        feature VP set metatag INCLUDE_IN_SUMMARY true
-        feature VP set metatag CODES_AMINO_ACIDS true
+  create feature VP -p whole_genome "Capsid protein"
+  feature VP set field displayName "Capsid"
+  feature VP set metatag OWN_CODON_NUMBERING true
+  feature VP set metatag INCLUDE_IN_SUMMARY true
+  feature VP set metatag CODES_AMINO_ACIDS true
 
-		create feature CP -p whole_genome "Capsid protein (Denso)"
-        feature CP set field displayName "Capsid"
-        feature CP set metatag OWN_CODON_NUMBERING true
-        feature CP set metatag INCLUDE_IN_SUMMARY true
-        feature CP set metatag CODES_AMINO_ACIDS true
-    
-		create feature 3UTR "3' UTR"
+  create feature CP -p whole_genome "Capsid protein (Denso)"
+  feature CP set field displayName "Capsid"
+  feature CP set metatag OWN_CODON_NUMBERING true
+  feature CP set metatag INCLUDE_IN_SUMMARY true
+  feature CP set metatag CODES_AMINO_ACIDS true
+
+  create feature 3UTR "3' UTR"
 
