@@ -12,7 +12,7 @@ run file glue/build/buildCoreProject.glue
   
 
 # Extensions - uncomment lines below to add these to build
-#project parvoviridae run file glue/core/buildEveExtension.glue # Build endogenous parvovirus component
+#project parvoviridae run file glue/core/buildEveExtension.glue
 #project parvoviridae run file glue/core/buildExtensionDependo.glue
 #project parvoviridae run file glue/core/buildExtensionProto.glue
 #project parvoviridae run file glue/core/buildExtensionAmdo.glue
