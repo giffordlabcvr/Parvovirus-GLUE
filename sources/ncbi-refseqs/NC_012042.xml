@@ -26,7 +26,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Human bocavirus 2c PK</GBSeq_source>
     <GBSeq_organism>Human bocavirus 2c PK</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Bocaparvovirus; Primate bocaparvovirus 2</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Bocaparvovirus; Primate bocaparvovirus 2</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

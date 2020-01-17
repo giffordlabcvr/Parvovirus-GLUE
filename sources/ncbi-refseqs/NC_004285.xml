@@ -26,7 +26,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Aedes albopictus densovirus 2</GBSeq_source>
     <GBSeq_organism>Aedes albopictus densovirus 2</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Densovirinae; Brevidensovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Densovirinae; Brevidensovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

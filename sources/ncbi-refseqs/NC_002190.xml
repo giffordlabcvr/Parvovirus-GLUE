@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Decapod penstyldensovirus 1</GBSeq_source>
     <GBSeq_organism>Decapod penstyldensovirus 1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Densovirinae; Penstyldensovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Densovirinae; Penstyldensovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -301,23 +301,6 @@
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>
             <GBQualifier_value>MCADSTRASPRKRSRRDAHNEDEEHAEGSSGPDPHRCLQFNTGDSIHITFQTRRYFEFDAANDGNFDGKNLYCLPLHWMNLYLYGLKSSDSSATETQRYKMVKSMMKTYGWKVHKAGVVMHSMVPLMKDLKVSGGTSFETLTFTDTPYLEIFKDTTGLHNQLSTKEADVTLAKWIQNPQLVTVQSTAANYEDPIQQFGFMEQMRTGDRKAYTIHGDTRNWYGGEIPTTGPTFIPKWGGQLKWDKPSLGNLVYPADHHTNDWQQIFMRMSPIKGPNGDELKLGCRVQADFFLHLEVRLPPQGCVASLGMLQYLHAPCTGQLNKCYIMHTN</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
-        <GBFeature_key>STS</GBFeature_key>
-        <GBFeature_location>3786..3804</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>3786</GBInterval_from>
-            <GBInterval_to>3804</GBInterval_to>
-            <GBInterval_accession>NC_002190.2</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>UniSTS:98954</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>

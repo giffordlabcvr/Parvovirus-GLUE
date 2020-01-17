@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Feline panleukopenia virus</GBSeq_source>
     <GBSeq_organism>Feline panleukopenia virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

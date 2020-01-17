@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Protoparvovirus Zsana/2013/HUN</GBSeq_source>
     <GBSeq_organism>Protoparvovirus Zsana/2013/HUN</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus; unclassified Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

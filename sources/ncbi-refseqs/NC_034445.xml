@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Skunk amdoparvovirus</GBSeq_source>
     <GBSeq_organism>Skunk amdoparvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Amdoparvovirus; unclassified Amdoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Amdoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

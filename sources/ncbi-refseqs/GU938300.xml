@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Parvovirus YX-2010/CHN</GBSeq_source>
     <GBSeq_organism>Parvovirus YX-2010/CHN</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Tetraparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Tetraparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>California sea lion bocavirus 1</GBSeq_source>
     <GBSeq_organism>California sea lion bocavirus 1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Bocaparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Bocaparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
