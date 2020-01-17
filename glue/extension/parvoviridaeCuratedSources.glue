@@ -1,4 +1,0 @@
-  # Import NCBI curated sequences for individual genera
-  import source sources/ncbi-curated/ncbi-curated-proto/
-  import source sources/ncbi-curated/ncbi-curated-amdo/
-
