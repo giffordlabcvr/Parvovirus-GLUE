@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Pig-tailed macaque parvovirus</GBSeq_source>
     <GBSeq_organism>Pig-tailed macaque parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Erythroparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Erythroparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

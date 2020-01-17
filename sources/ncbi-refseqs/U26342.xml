@@ -2,7 +2,7 @@
 <GBSeq>
 
     <GBSeq_locus>SPU26342</GBSeq_locus>
-    <GBSeq_length>414</GBSeq_length>
+    <GBSeq_length>4986</GBSeq_length>
     <GBSeq_strandedness>double</GBSeq_strandedness>
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
@@ -21,7 +21,7 @@
     </GBSeq_secondary-accessions>
     <GBSeq_source>Simian parvovirus</GBSeq_source>
     <GBSeq_organism>Simian parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Erythroparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Erythroparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

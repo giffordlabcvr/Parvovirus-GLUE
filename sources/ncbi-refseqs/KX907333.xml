@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Desmodus rotundus parvovirus</GBSeq_source>
     <GBSeq_organism>Desmodus rotundus parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

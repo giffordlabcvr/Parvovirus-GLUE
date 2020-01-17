@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>H-1 parvovirus</GBSeq_source>
     <GBSeq_organism>H-1 parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

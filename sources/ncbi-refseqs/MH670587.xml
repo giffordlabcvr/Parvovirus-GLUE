@@ -7,7 +7,7 @@
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>12-SEP-2018</GBSeq_update-date>
+    <GBSeq_update-date>30-AUG-2019</GBSeq_update-date>
     <GBSeq_create-date>12-SEP-2018</GBSeq_create-date>
     <GBSeq_definition>Mouse kidney parvovirus strain Centenary Institute, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>MH670587</GBSeq_primary-accession>
@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Mouse kidney parvovirus</GBSeq_source>
     <GBSeq_organism>Mouse kidney parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -38,6 +38,7 @@
           <GBAuthor>Santagostino,S.F.</GBAuthor>
           <GBAuthor>Brayton,C.F.</GBAuthor>
           <GBAuthor>Rasmussen,L.</GBAuthor>
+          <GBAuthor>Lisowski,L.</GBAuthor>
           <GBAuthor>Tay,S.S.</GBAuthor>
           <GBAuthor>Harris,D.C.</GBAuthor>
           <GBAuthor>Bertram,J.F.</GBAuthor>
@@ -46,7 +47,7 @@
           <GBAuthor>Lai,J.H.</GBAuthor>
           <GBAuthor>Wu,W.</GBAuthor>
           <GBAuthor>Bachovchin,W.W.</GBAuthor>
-          <GBAuthor>Wong,J.J.L.</GBAuthor>
+          <GBAuthor>Wong,J.J.</GBAuthor>
           <GBAuthor>Gorrell,M.D.</GBAuthor>
           <GBAuthor>Shaban,B.</GBAuthor>
           <GBAuthor>Holmes,E.C.</GBAuthor>
@@ -54,8 +55,15 @@
           <GBAuthor>Monette,S.</GBAuthor>
           <GBAuthor>Weninger,W.</GBAuthor>
         </GBReference_authors>
-        <GBReference_title>An atypical parvovirus driving chronic tubulointerstitial nephropathy and kidney fibrosis</GBReference_title>
-        <GBReference_journal>Cell (2018) In press</GBReference_journal>
+        <GBReference_title>An Atypical Parvovirus Drives Chronic Tubulointerstitial Nephropathy and Kidney Fibrosis</GBReference_title>
+        <GBReference_journal>Cell 175 (2), 530-543 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.cell.2018.08.013</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30220458</GBReference_pubmed>
       </GBReference>
       <GBReference>
         <GBReference_reference>2</GBReference_reference>

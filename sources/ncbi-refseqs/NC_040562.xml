@@ -7,7 +7,7 @@
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>12-FEB-2019</GBSeq_update-date>
+    <GBSeq_update-date>12-SEP-2019</GBSeq_update-date>
     <GBSeq_create-date>12-FEB-2019</GBSeq_create-date>
     <GBSeq_definition>Porcine parvovirus 7 isolate GX49, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_040562</GBSeq_primary-accession>
@@ -22,7 +22,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Porcine parvovirus 7</GBSeq_source>
     <GBSeq_organism>Porcine parvovirus 7</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -133,7 +133,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:39008820</GBQualifier_value>
+            <GBQualifier_value>GeneID:41700642</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
@@ -174,7 +174,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:39008820</GBQualifier_value>
+            <GBQualifier_value>GeneID:41700642</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>
@@ -199,7 +199,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:39008819</GBQualifier_value>
+            <GBQualifier_value>GeneID:41700641</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
@@ -240,7 +240,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:39008819</GBQualifier_value>
+            <GBQualifier_value>GeneID:41700641</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>

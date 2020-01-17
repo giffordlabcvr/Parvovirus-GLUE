@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Adeno-associated virus 12 (AAV12)</GBSeq_source>
     <GBSeq_organism>Adeno-associated virus 12</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

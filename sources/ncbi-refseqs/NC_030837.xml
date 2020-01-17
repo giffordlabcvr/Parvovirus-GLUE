@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Sea otter parvovirus 1</GBSeq_source>
     <GBSeq_organism>Sea otter parvovirus 1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; unclassified Parvoviridae</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

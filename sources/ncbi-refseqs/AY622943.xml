@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Human parvovirus 4 G1</GBSeq_source>
     <GBSeq_organism>Human parvovirus 4 G1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Tetraparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Tetraparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

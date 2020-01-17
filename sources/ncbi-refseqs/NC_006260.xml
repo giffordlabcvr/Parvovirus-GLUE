@@ -7,7 +7,7 @@
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>11-MAR-2010</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>09-SEP-2004</GBSeq_create-date>
     <GBSeq_definition>Adeno-associated virus - 7, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_006260</GBSeq_primary-accession>
@@ -17,13 +17,13 @@
       <GBSeqid>gnl|NCBI_GENOMES|17897</GBSeqid>
       <GBSeqid>gi|51949960</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA14454</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
     <GBSeq_source>Adeno-associated virus - 7</GBSeq_source>
     <GBSeq_organism>Adeno-associated virus - 7</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssDNA viruses; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -234,7 +234,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA14454</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>
