@@ -1,12 +1,3 @@
-delete project parvoviridae
-
-create project parvoviridae "GLUE project for the Parvoviridae" --minVersion 0.1.50
-
-schema-project parvoviridae
-
-  run file glue/core/parvoviridaeSchemaExtensions.glue
-  exit
-
 project parvoviridae
 
   # load project settings
