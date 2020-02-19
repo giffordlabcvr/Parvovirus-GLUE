@@ -17,11 +17,12 @@
   create reference REF_sha.1-monodelphis         fasta-epv-consensus  sha.1-monodelphis
  
   # Dependoparvovirus
-  create reference REF_dependo.0-macropus        fasta-epv-consensus  dependo.0-macropus
-  create reference REF_dependo.1-whippomorpha    fasta-epv-consensus  dependo.1-whippomorpha
-  create reference REF_dependo.4-rhinocerotidae  fasta-epv-consensus  dependo.4-rhinocerotidae
-  #create reference REF_dependo.9-lagomorpha      fasta-epv-consensus  dependo.9-lagomorpha
-  
+  create reference REF_EPV_dependo.0-macropus        fasta-refseqs-epv  dependo.0-macropus-con
+  create reference REF_EPV_dependo.1-whippomorpha    fasta-refseqs-epv  dependo.1-whippomorpha-con
+  create reference REF_EPV_dependo.4-rhinocerotidae  fasta-refseqs-epv  dependo.4-rhinocerotidae-con  
+  create reference REF_EPV_dependo.3-lagomorpha      fasta-refseqs-epv  dependo.3-lagomorpha-con   
+  create reference REF_EPV_dependo.65-passeriformes  fasta-refseqs-epv  dependo.65-passeriformes-con
+  create reference REF_EPV_dependo.66-passeriformes  fasta-refseqs-epv  dependo.66-passeriformes-con
   
   # Erythroparvovirus
 
