@@ -14,6 +14,11 @@
     create field phylogeny CLOB
   exit 
 
+  table member_floc_note
+  	create field ref_nt_coverage_pct DOUBLE
+  	exit
+
+
   # Create schema extension
   create custom-table isolate_data
 
