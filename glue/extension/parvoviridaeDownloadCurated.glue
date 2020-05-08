@@ -1,0 +1,7 @@
+# Download Amdoparvovirus sequences from NCBI GenBank  
+create module -f modules/ncbiImporters/parvoviridaeNcbiImporterAmdo.xml ncbiImporterAmdo
+module ncbiImporterAmdo import
+
+# Download Protoparvovirus sequences from NCBI GenBank  
+create module -f modules/ncbiImporters/parvoviridaeNcbiImporterProto.xml ncbiImporterProto
+module ncbiImporterProto import
