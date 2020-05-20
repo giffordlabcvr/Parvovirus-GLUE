@@ -13,14 +13,14 @@ project parvoviridae
   run file glue/eve/epvModules.glue
 
   # Import EPV sequences
-  import source sources/fasta-epv-digs/
-  import source sources/fasta-epv-refseqs/
+  import source sources/fasta-digs-epv/
+  import source sources/fasta-refseqs-epv/
 
   # Load data
   run file glue/eve/epvLoadData.glue
   
   # Declare references 
-  run file glue/eve/epvReferences.glue
+  #run file glue/eve/epvReferences.glue
 
   # Import alignments
   #run file glue/eve/epvAlignments.glue
