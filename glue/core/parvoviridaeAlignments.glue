@@ -15,8 +15,8 @@
     import AL_BOCA_UNC              -f alignments/internal/boca/boca-genome.fna
     import AL_TETRA_UNC             -f alignments/internal/tetra/tetra-genome.fna
     import AL_COPI_UNC              -f alignments/internal/copi/copi-genome.fna
-    import AL_ERYTHRO_UNC           -f alignments/internal/erythro/erythro-genome.fna
-    import AL_CHAP_UNC              -f alignments/internal/chappa/chap-genome.fna
+    #import AL_ERYTHRO_UNC           -f alignments/internal/erythro/erythro-genome.fna
+    #import AL_CHAP_UNC              -f alignments/internal/chappa/chap-genome.fna
     
     exit
 

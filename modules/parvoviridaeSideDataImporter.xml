@@ -24,11 +24,6 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_clade</header>
-        <property>clade</property>
-    </textFileColumn>
-
-    <textFileColumn>
         <header>virus_subfamily</header>
         <property>subfamily</property>
     </textFileColumn>

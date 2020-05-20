@@ -1,7 +1,7 @@
 // Load EVE data from tab file 
 var loadResult;
-glue.inMode("module/aavTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/locus/epv-locus-data.tsv"]));
+glue.inMode("module/parvoviridaeTabularUtility", function() {
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/epv-digs/epv-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 

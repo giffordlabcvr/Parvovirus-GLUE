@@ -3,7 +3,10 @@
     create field full_name VARCHAR 100
     create field subfamily VARCHAR 50
     create field genus VARCHAR 50
-    create field clade VARCHAR 50
+    create field clade_ns VARCHAR 50
+    create field subclade_ns VARCHAR 50
+    create field clade_vp VARCHAR 50
+    create field subclade_vp VARCHAR 50		
     create field host_sci_name VARCHAR 100
     create field length INTEGER
     create field gb_lab_construct BOOLEAN

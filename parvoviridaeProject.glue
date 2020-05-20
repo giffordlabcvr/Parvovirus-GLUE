@@ -8,11 +8,8 @@ schema-project parvoviridae
   exit
 
 # Build core project
-run file glue/build/buildCoreProject.glue
+run file glue/core/buildCoreProject.glue
   
+# Endogenous parvovirus (EPV) extension
+run file glue/eve/buildEveExtension.glue
 
-# Extensions - uncomment lines below to add these to build
-#project parvoviridae run file glue/core/buildEveExtension.glue
-#project parvoviridae run file glue/core/buildExtensionDependo.glue
-#project parvoviridae run file glue/core/buildExtensionProto.glue
-#project parvoviridae run file glue/core/buildExtensionAmdo.glue

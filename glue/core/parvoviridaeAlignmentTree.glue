@@ -66,9 +66,9 @@
     derive segments AL_PROTO_UNC         -a --mergeStrategy OVERWRITE
     exit
     
-  alignment AL_Erythroparvovirus
-    derive segments AL_ERYTHRO_UNC       -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_Erythroparvovirus
+  #  derive segments AL_ERYTHRO_UNC       -a --mergeStrategy OVERWRITE
+  #  exit
 
   alignment AL_Amdoparvovirus
     derive segments AL_AMDO_UNC          -a --mergeStrategy OVERWRITE
@@ -90,7 +90,7 @@
     derive segments AL_COPI_UNC          -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_Chapparvovirus
-    derive segments AL_CHAP_UNC          -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_Chapparvovirus
+  #  derive segments AL_CHAP_UNC          -a --mergeStrategy OVERWRITE
+  #  exit
 

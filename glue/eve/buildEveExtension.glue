@@ -16,18 +16,13 @@ project parvoviridae
 
   run file glue/eve/epvModules.glue
 
-  # Import EVE sequences and side data 
+  # Import EPV sequences
   import source sources/fasta-epv-digs/
   import source sources/fasta-epv-consensus/
-  
-  run script glue/eve/loadLocusData1.js
-  run script glue/eve/loadLocusData2.js
-  
-  # Import metadata for EVE from tabular
-  module epvSideDataImporter 
-    populate -f tabular/eve/epv-side-data.tsv
-    exit
 
+  # Load data
+  run file glue/eve/epvLoadData.glue
+  
   # Declare references 
   run file glue/eve/epvReferences.glue
 

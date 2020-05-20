@@ -10,7 +10,7 @@ project parvoviridae
   run file glue/core/parvoviridaeSources.glue
   
   # Import data 
-  run file glue/core/parvoviridaeLoadVirusData.glue
+  run file glue/core/parvoviridaeLoadData.glue
 
   # Define genome features
   run file glue/core/parvoviridaeFeatures.glue
@@ -19,7 +19,7 @@ project parvoviridae
   run file glue/core/parvoviridaeReferences.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
+  module featureLocationTextToGlue transform tabular/core/reference_feature_locations.tsv -r
 
   # Import alignments and build constrained alignment tree
   run file glue/core/parvoviridaeAlignments.glue
