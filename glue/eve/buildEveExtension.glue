@@ -1,12 +1,4 @@
 
-project parvoviridae
-
-  run file glue/eve/epvDeleteModules.glue
-  delete source fasta-epv-digs
-  delete source fasta-epv-consensus
-
-  exit
-
 schema-project parvoviridae
   run file glue/eve/epvSchemaExtensions.glue
   exit
@@ -14,11 +6,15 @@ schema-project parvoviridae
   
 project parvoviridae
 
+  # Clean up any previous epv extension build
+  run file glue/eve/deletePreviousBuild.glue
+
+  # Create epv-specific modules
   run file glue/eve/epvModules.glue
 
   # Import EPV sequences
   import source sources/fasta-epv-digs/
-  import source sources/fasta-epv-consensus/
+  import source sources/fasta-epv-refseqs/
 
   # Load data
   run file glue/eve/epvLoadData.glue
