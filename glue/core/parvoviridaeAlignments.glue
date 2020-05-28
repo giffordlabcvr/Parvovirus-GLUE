@@ -3,20 +3,20 @@
   module unconstrainedAlignmentImporter 
 
     #~# Root-level alignments
-    import AL_MASTER_UNC            -f alignments/root/parvo-ns-root.fna
+    import AL_MASTER_UNC            -f alignments/core/root/parvo-ns-root.aln.fna
 
     #~# Internal node alignments (subfamily)
-    import AL_PARVOVIRINAE_UNC      -f alignments/internal/parvovirinae/parvovirinae.fna
+    import AL_PARVOVIRINAE_UNC      -f alignments/core/core/internal/subfamily/parvovirinae.aln.fna
 
     #~# Internal node alignments (genus)
-    import AL_PROTO_UNC             -f alignments/internal/proto/proto-genome.fna
-    import AL_AMDO_UNC              -f alignments/internal/amdo/amdo-genome.fna
-    import AL_DEPENDO_UNC           -f alignments/internal/dependo/dependo-genome.fna
-    import AL_BOCA_UNC              -f alignments/internal/boca/boca-genome.fna
-    import AL_TETRA_UNC             -f alignments/internal/tetra/tetra-genome.fna
-    import AL_COPI_UNC              -f alignments/internal/copi/copi-genome.fna
-    #import AL_ERYTHRO_UNC           -f alignments/internal/erythro/erythro-genome.fna
-    #import AL_CHAP_UNC              -f alignments/internal/chappa/chap-genome.fna
+    import AL_PROTO_UNC             -f alignments/core/internal/genus/proto/proto-genome.aln.fna
+    import AL_AMDO_UNC              -f alignments/core/internal/genus/amdo/amdo-genome.aln.fna
+    import AL_DEPENDO_UNC           -f alignments/core/internal/genus/dependo/dependo-genome.aln.fna
+    #import AL_ERYTHRO_UNC           -f alignments/core/internal/genus/erythro/erythro-genome.aln.fna
+    #import AL_CHAP_UNC              -f alignments/core/internal/genus/chappa/chap-genome.aln.fna
+    import AL_BOCA_UNC              -f alignments/core/internal/genus/boca/boca-genome.aln.fna
+    import AL_TETRA_UNC             -f alignments/core/internal/genus/tetra/tetra-genome.aln.fna
+    import AL_COPI_UNC              -f alignments/core/internal/genus/copi/copi-genome.aln.fna
     
     exit
 
