@@ -7,9 +7,9 @@ glue.inMode("module/parvoviridaeTabularUtility", function() {
 
 _.each(loadResult, function(eveObj) {
 
-	glue.inMode("custom-table-row/locus_data/"+eveObj.id, function() {
+	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Processing sequence:", eveObj.id);
+		glue.log("INFO", "Processing sequence:", eveObj.sequenceID);
 
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
 		glue.command(["set", "field", "start_position", eveObj.extract_start]);
