@@ -1,4 +1,4 @@
->MH670587|Mouse kidney parvovirus strain Centenary Institute 
+>MH670587|Mouse-kidney-parvovirus
 CTACGAAACTGGCAGGGCGCCCGGGTAGTCTTCCACGGGGGCGGGGCCTTTGTTAACATGTGTTAACGTTAACGCACGCA
 GTGCGCGCACATGCAAAGGCCCCGCCCCCGTGGAAGACTACCCGGGCGCCCTGCCAGTTTCGTAGCAGTCATGTGTTGTT
 GTCCTTTGTGTGGATGTGACTGTGGGGACACGGA-ACAGAATATTCTGATT-CGCTTGATATGCCGGGCGGAGGTAATAA
@@ -57,7 +57,7 @@ ACCCATATGAACAAGCAGCCTCCGGCATGTACCTCAACCATAAGGAAATGAGACAAGTCCGCGCAGCCGCAGAAGCAACA
 CGATCTCAACCTGCTGTAGCCATGCAAACTCAATAA------AAAGTCCCTGTGTCCTTACAAACCACATCCACACAATA
 CAAAATCTTATTGTTAACCCGCCTCCCAATCTTGGCTTCACTT--CCTGAACCCCGGGGCGGCCCAGTCGTACAGAACAT
 GTGGGGCCGCCCCGGGGTTCAGGAAGTGAAGCCAAGATTGGGAGGCGGGTTAA-----------------------
->KX907333|Desmodus rotundus parvovirus strain DRA25 nonstructural protein 1 and capsid protein 1 genes 
+>KX907333|Desmodus-rotundus-parvovirus
 --------------------------------------------------------------------------------
 -------------------CAGCGCCCCCGC-CCTCCGGATGCGGGCTGGGCCAATTAGCAACGTAGGAAATGTGAC---
 GTCAATGGTGGTTGTGGTTATGTGTGGACACAGAAACGAGTCATTCTGCACGTAGACACTATGCCGGGAGGA---CATAA
@@ -116,7 +116,7 @@ AACCACAAATCCGA---------------TATCGACAAATGGTCAAT---AAACGTGATCGCACC---GCAGAAACCGCC
 GTCACAATGATGGATCTACAACTCCCACCTAACCTCTAAATAAAGCTTCTG------------TGTCCCCACAACCACAT
 CCACATTAACATATTACC------TGCAATCCCGCCTCCCAACTAAAGGCGGGGCCCGTAGCACTAGCTGCAAGAAGCTA
 GAGCTGCCACCTCGTCTTTTGGGTGTTCGGGGACGTCCCCTGACGGGAACACCCAAAAGACGAGGTGGCAGCTCTA
->ChPV-Serinus_canaria.1|
+>ChPV-Serinus|
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -175,7 +175,7 @@ TAATGGTAGTTCAGGTTTCAATTTTGAAGGTTTAATAGAACAAGTGATTGGCATATGGGAAGAACCTTTAATCAAT----
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------------
->ChPV-Mesitornis_unicolor.1|
+>ChPV-Mesitornis|
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -234,7 +234,7 @@ TATGTTCATCTTCTTCTTCAATTACCAATGCGCAAACGAACATTATACTCCTAGAGCTCGTGAACATAGCTGC-------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------------
->ChPV-Protobothrops_mucrosquamatus.1|
+>ChPV-Protobothrops|
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -293,7 +293,7 @@ AATGTTCATATTCAATTTCATGCACGACATG-------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------------
->ChPV-Cebus_imitator.1|
+>ChPV-Cebus|
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -352,7 +352,7 @@ CATGTATATCTTTTCCTGGTCTCACAATATGCACGAAACACCTTTCTTT-------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------------
->ChPV-Myotis_davidii.1|
+>ChPV-Myotis|
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

@@ -1,5 +1,0 @@
-  # Import NCBI reference sequences 
-  import source sources/ncbi-refseqs
-
-  # Import FASTA reference sequences 
-  import source sources/fasta-refseqs/

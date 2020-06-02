@@ -7,8 +7,9 @@ project parvoviridae
   run file glue/core/parvoviridaeModules.glue
 
   # Import sources 
-  run file glue/core/parvoviridaeSources.glue
-  
+  import source sources/ncbi-refseqs
+  import source sources/fasta-refseqs/
+
   # Import data 
   run file glue/core/parvoviridaeLoadData.glue
 
