@@ -18,7 +18,7 @@ HM362436	Partridge-ChPV1	Partridge chapparvovirus 1	Perdix perdix	Epiparvovirina
 ChPV-Protobothrops_mucrosquamatus.1	Protobothrops_mucrosquamatus.1	Protobothrops_mucrosquamatus.1	Protobothrops mucrosquamatus	Epiparvovirinae	Chapparvovirus	
 KX272741	Rat-PV2	Rat parvovirus 2	Rattus norvegicus	Epiparvovirinae	Chapparvovirus	
 MK513531	Tasmanian-ChPV4	Tasmanian devil-associated chapparvovirus 4	Sarcophilus harrisii	Epiparvovirinae	Chapparvovirus	
-ChPV-Serinus_canaria.1	Serinus_canaria.1	Serinus_canaria.1	Serinus canaria	Epiparvovirinae	Chapparvovirus	
+ChPV-Serinus_canaria.1	Serinus_canaria.1	Serinus_canaria.1	3q	Epiparvovirinae	Chapparvovirus	
 NC_040562	PPV7	Porcine parvovirus 7	Sus scrofa	Epiparvovirinae	Chapparvovirus	
 NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Fenneropenaeus chinensis	Epiparvovirinae	Hepandensovirus	
 NC_002190	IHHN	Infectious hypodermal and hematopoietic necrosis virus	Litopenaeus stylirostris	Epiparvovirinae	Penstyldensovirus	
@@ -42,30 +42,32 @@ JF429835	Prc-Boca-PV-4-1	Porcine bocavirus 4-1	Sus scrofa	Parvovirinae	Bocaparvo
 JN420361	Csl-Boca-PV-1	California sea lion bocavirus 1	Zalophus californianus	Parvovirinae	Bocaparvovirus	
 NC_006259	BPV2	Bovine parvovirus 2	Bos taurus	Parvovirinae	Copiparvovirus	
 MG972981	CopiPV1	Ungulate copiparvovirus 1	Bos taurus	Parvovirinae	Copiparvovirus	
+NC_023860	PPV-6	Porcine parvovirus 6	Sus scrofa	Parvovirinae	Copiparvovirus	
 NC_026251	Sesavirus	Sesavirus	Zalophus californianus	Parvovirinae	Copiparvovirus	
 NC_001701	GPV	Goose parvovirus	Anser anser	Parvovirinae	Dependoparvovirus	Avian
 NC_006147	MDPV	Muscovy duck parvovirus	Cairina moschata	Parvovirinae	Dependoparvovirus	Avian
 DQ335246	CAV	Caprine adeno-associated virus	Capra hircus	Parvovirinae	Dependoparvovirus	CAV
-NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV5
-AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-NC_006261	AAV8	Adeno-associated virus 8	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
-AX753250	AAV9	Adeno-associated virus 9	Homo sapiens	Parvovirinae	Dependoparvovirus	AAV_primate
+NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-B
+AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+NC_006261	AAV8	Adeno-associated virus 8	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
+AX753250	AAV9	Adeno-associated virus 9	Homo sapiens	Parvovirinae	Dependoparvovirus	Dependo-A
 NC_027429	BdrPV	Bearded dragon parvovirus strain 2014	Homo sapiens	Parvovirinae	Dependoparvovirus	Reptile
-AY243022	NHP-AAV-type1	NHP Adeno-associated virus type 1	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
-AY243021	NHP-AAV-type2	NHP Adeno-associated virus type 2	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
-AY243002	NHP-AAV11	NHP Adeno-associated virus 11	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
-KT984498	NHP-AAV6	NHP Adeno-associated virus 6	Macaca mulatta	Parvovirinae	Dependoparvovirus	AAV_primate
+AY243022	NHP-AAV-type1	NHP Adeno-associated virus type 1	Macaca mulatta	Parvovirinae	Dependoparvovirus	Dependo-A
+AY243021	NHP-AAV-type2	NHP Adeno-associated virus type 2	Macaca mulatta	Parvovirinae	Dependoparvovirus	Dependo-A
+AY243002	NHP-AAV11	NHP Adeno-associated virus 11	Macaca mulatta	Parvovirinae	Dependoparvovirus	Dependo-A
+KT984498	NHP-AAV6	NHP Adeno-associated virus 6	Macaca mulatta	Parvovirinae	Dependoparvovirus	Dependo-A
 MF416383	Mouse-AAV1	Mouse adeno associated virus 1	Mus musculus	Parvovirinae	Dependoparvovirus	
 MF416384	Mouse-AAV2	Mouse adeno associated virus 2	Mus musculus	Parvovirinae	Dependoparvovirus	
+NC_025891	NcPV-1	Slow loris parvovirus 1	Nycticebus coucang	Parvovirinae	Dependoparvovirus	
 NC_006148	SnakePV	Snake parvovirus 1	Python regius	Parvovirinae	Dependoparvovirus	Reptile
 NC_004828	AvAAV-atcc	Avian adeno-associated virus ATCC VR-865		Parvovirinae	Dependoparvovirus	
 NC_005889	BAAV	Bovine adeno-associated virus		Parvovirinae	Dependoparvovirus	
@@ -76,6 +78,7 @@ NC_040671	AvAAV-mhh	Avian adeno-associated virus isolate MHH-05-2015		Parvovirin
 AF406967	Bovine-PV-3	Bovine parvovirus 3	Bos taurus	Parvovirinae	Erythroparvovirus	
 EyPV-Giraffa_tippelskirchi.1	EyPV-Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Giraffa tippelskirchi	Parvovirinae	Erythroparvovirus	
 NC_000883	B19	Human parvovirus B19	Homo sapiens	Parvovirinae	Erythroparvovirus	
+NC_004295	V9	Human parvovirus V9	Homo sapiens	Parvovirinae	Erythroparvovirus	
 U26342	Simian-PV	Simian parvovirus	Macaca fascicularis	Parvovirinae	Erythroparvovirus	
 AF221122	Simian-PV-rm	Rhesus macaque parvovirus	Macaca mulatta	Parvovirinae	Erythroparvovirus	
 AF221123	Simian-PV-pgm	Pig-tailed macaque parvovirus	Macaca nemestrina	Parvovirinae	Erythroparvovirus	
@@ -83,13 +86,16 @@ GQ200736	Chipmunk-PV	Chipmunk parvovirus	Tamias sibiricus	Parvovirinae	Erythropa
 NC_001539	CPV	Canine parvovirus	Canis familiaris	Parvovirinae	Protoparvovirus	
 U34255	HamsterPV	Hamster parvovirus	Cricetelus griseus	Parvovirinae	Protoparvovirus	
 NC_026815	MpBuV	Eulipotyphla protoparvovirus 1	Crocidura hirta	Parvovirinae	Protoparvovirus	
+NC_030837	OtterPV-1	Sea otter parvovirus 1	Enhydra lutris	Parvovirinae	Protoparvovirus	
 EU659112	FPV	Feline panleukopenia virus	Felis catus	Parvovirinae	Protoparvovirus	
 KJ641666	BtHp-PV	Bat parvovirus	Hipposideros pomona	Parvovirinae	Protoparvovirus	
 JX505432	H-1	H-1 parvovirus	Homo sapiens (cell line)	Parvovirinae	Protoparvovirus	
 NC_001510	MVM1	Minute virus of mice	Mus musculus	Parvovirinae	Protoparvovirus	
+NC_029797	Bufa-PV-1	Megabat bufavirus 1	Pteropus vampyrus	Parvovirinae	Protoparvovirus	
 AF321230	Kilham	Kilham rat virus	Rattus norvegicus	Parvovirinae	Protoparvovirus	
 NC_001718	PPV	Porcine parvovirus	Sus scrofa	Parvovirinae	Protoparvovirus	
 D00623	PPV-NADL-2	Porcine parvovirus	Sus scrofa	Parvovirinae	Protoparvovirus	
+KJ495710	TusaPV-1	Tusavirus 1 strain Tu491	Unknown	Parvovirinae	Protoparvovirus	
 KT965075	Zsana	Protoparvovirus Zsana	Sus scrofa	Parvovirinae	Protoparvovirus	
 MG745669	Rodent-TetraPV	Rodent tetraparvovirus	Bolomys lasiurus	Parvovirinae	Tetraparvovirus	
 NC_028136	Ungulate-TetraPV-1	Ungulate tetraparvovirus 1	Bos grunniens	Parvovirinae	Tetraparvovirus	
@@ -102,6 +108,3 @@ JF504699	Ovine-TetraPV	Ovine hokovirus 1	Ovis aries	Parvovirinae	Tetraparvovirus
 HQ113143	Chimp-Parv-4	Chimpanzee parv4	Pan troglodytes	Parvovirinae	Tetraparvovirus	
 GU938300	Parvovirus YX-2010	Parvovirus YX-2010	Sus scrofa	Parvovirinae	Tetraparvovirus	
 EU200677	Porcine-TetraPV	Porcine hokovirus	Sus scrofa	Parvovirinae	Tetraparvovirus	
-NC_030837	OtterPV-1	Sea otter parvovirus 1	Enhydra lutris	Parvovirinae	Protoparvovirus	
-NC_025891	NcPV-1	Slow loris parvovirus 1	Nycticebus coucang	Parvovirinae	Dependoparvovirus	
-NC_029797	Bufa-PV-1	Megabat bufavirus 1	Pteropus vampyrus	Parvovirinae	Protoparvovirus	

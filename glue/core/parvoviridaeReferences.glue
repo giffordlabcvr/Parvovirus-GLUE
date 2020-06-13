@@ -51,10 +51,10 @@
   #create reference REF_Chipmunk-PV      ncbi-refseqs U86868
 
 
-
   # Copiparvovirus
   create reference REF_BPV2   			ncbi-refseqs NC_006259
- 
+  create reference REF_PPV6  			ncbi-refseqs NC_023860
+  
   # Tetraparvovirus
   create reference REF_Eh-BtPV-1  		ncbi-refseqs NC_016744
   
@@ -71,7 +71,7 @@
 
   ## Epiparvovirinae
  
-   # Hepandensovirus
+  # Hepandensovirus
   create reference REF_FCDNV   			ncbi-refseqs NC_014357
  
   # Brevidensovirus

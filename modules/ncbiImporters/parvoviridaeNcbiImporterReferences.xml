@@ -6,12 +6,15 @@
   <specificPrimaryAccessions>
 
 
+	  <!-- DENSOVIRINAE -->
 	  <primaryAccession>NC_004284</primaryAccession>
 	  <primaryAccession>NC_000936</primaryAccession>
 	  <primaryAccession>NC_004287</primaryAccession>
 	  <primaryAccession>NC_031450</primaryAccession>
 	  <primaryAccession>NC_015718</primaryAccession>
-	  <primaryAccession>NC_00428</primaryAccession>
+	  
+	  <!-- EPIPARVOVIRINAE -->
+	  <primaryAccession>NC_004285</primaryAccession>
 	  <primaryAccession>KX907333</primaryAccession>
 	  <primaryAccession>MG846441</primaryAccession>
 	  <primaryAccession>MG846442</primaryAccession>
@@ -24,6 +27,8 @@
 	  <primaryAccession>NC_040562</primaryAccession>
 	  <primaryAccession>NC_014357</primaryAccession>
 	  <primaryAccession>NC_002190</primaryAccession>
+	  
+	  <!-- PARVOVIRINAE -->
 	  <primaryAccession>NC_034445</primaryAccession>
 	  <primaryAccession>NC_001662</primaryAccession>
 	  <primaryAccession>NC_025825</primaryAccession>
@@ -44,6 +49,7 @@
 	  <primaryAccession>JN420361</primaryAccession>
 	  <primaryAccession>NC_006259</primaryAccession>
 	  <primaryAccession>MG972981</primaryAccession>
+	  <primaryAccession>NC_023860</primaryAccession>
 	  <primaryAccession>NC_026251</primaryAccession>
 	  <primaryAccession>NC_001701</primaryAccession>
 	  <primaryAccession>NC_006147</primaryAccession>
