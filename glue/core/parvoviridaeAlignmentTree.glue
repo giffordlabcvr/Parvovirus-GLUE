@@ -1,10 +1,9 @@
   ### Constrained alignment tree for the Parvoviridae
 
-  #~# Constrained alignment tree
-  create alignment AL_Parvoviridae_MASTER --r REF_CPV
+  #~# Root (Family)
   alignment AL_Parvoviridae_MASTER add member --allSequences
 
-  #~# Root (Family)
+  #~# Subfamily
   alignment AL_Parvoviridae_MASTER
 	extract child AL_Parvovirinae      --refName REF_CPV      # NC_001539
 	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
@@ -14,7 +13,7 @@
 	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
     exit
 
-  #~# Subfamily
+  #~# Genus
   alignment AL_Parvovirinae
     extract child AL_Amdoparvovirus    --refName REF_AMDV      # NC_001662
     demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus'" 

@@ -1,0 +1,16 @@
+  delete module hepadnaviridaeFeaturePresenceRecorder
+  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
+
+  module hepadnaviridaeFeaturePresenceRecorder 
+
+    #~# Major subclade alignments
+     record feature-presence AL_Hepadnaviridae --recursive --featureName whole_genome --descendentFeatures
+    
+    #~# Genus alignments
+    record feature-presence AL_GENUS_Ortho --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Avi --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Herpeto --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Meta --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Para --recursive --featureName whole_genome --descendentFeatures
+    exit
+
