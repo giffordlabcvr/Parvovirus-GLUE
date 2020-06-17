@@ -1,4 +1,4 @@
-   create module -f modules/epvSideDataImporter.xml
-   create module -f modules/epvUnconstrainedAlignmentImporter.xml
+   create module -f modules/eve/epvSideDataImporter.xml
+   create module -f modules/eve/epvUnconstrainedAlignmentImporter.xml
 
 

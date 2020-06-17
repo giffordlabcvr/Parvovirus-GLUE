@@ -1,9 +1,9 @@
-  create module -f modules/parvoviridaeSideDataImporter.xml 
-  create module -f modules/parvoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/featureLocationTextToGlue.xml 
+  create module -f modules/core/parvoviridaeSideDataImporter.xml 
+  create module -f modules/core/parvoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/core/featureLocationTextToGlue.xml 
 
-  create module -f modules/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility
-  create module -f modules/parvoviridaeCompoundAligner.xml
+  create module -f modules/core/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility
+  create module -f modules/core/parvoviridaeCompoundAligner.xml
 
-  create module -f modules/rootAlignmentImporter.xml 
-  create module -f modules/unconstrainedAlignmentImporter.xml 
+  create module -f modules/core/rootAlignmentImporter.xml 
+  create module -f modules/core/unconstrainedAlignmentImporter.xml 
