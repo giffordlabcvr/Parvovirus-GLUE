@@ -1,10 +1,10 @@
-  delete module hepadnaviridaeFeaturePresenceRecorder
-  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
+  delete module parvoviridaeFeaturePresenceRecorder
+  create module -f modules/parvoviridaeFeaturePresenceRecorder.xml
 
-  module hepadnaviridaeFeaturePresenceRecorder 
+  module parvoviridaeFeaturePresenceRecorder 
 
     #~# Root (Family)
-    #record feature-presence AL_Hepadnaviridae --recursive --featureName whole_genome --descendentFeatures
+    #record feature-presence AL_Parvoviridae --recursive --featureName whole_genome --descendentFeatures
     
     #~# Subfamily
     record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures
@@ -26,6 +26,5 @@
     record feature-presence AL_Penstyldensovirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Brevidensovirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Chapparvovirus --recursive --featureName whole_genome --descendentFeatures
-
     exit
 

@@ -26,6 +26,9 @@ project parvoviridae
   run file glue/core/parvoviridaeAlignments.glue
   run file glue/core/parvoviridaeAlignmentTree.glue
 
+  # Record feature coverage in alignments
+  run file glue/core/parvoviridaeRecordFeaturePresence.glue
+
   # Validate
   validate
 
