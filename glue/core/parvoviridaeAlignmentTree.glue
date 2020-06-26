@@ -1,6 +1,7 @@
   ### Constrained alignment tree for the Parvoviridae
 
   #~# Root (Family)
+  create alignment AL_Parvoviridae_MASTER -r REF_CPV
   alignment AL_Parvoviridae_MASTER add member --allSequences
 
   #~# Subfamily

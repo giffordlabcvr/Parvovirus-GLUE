@@ -1,10 +1,10 @@
   delete module parvoviridaeFeaturePresenceRecorder
-  create module -f modules/parvoviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/parvoviridaeFeaturePresenceRecorder.xml
 
   module parvoviridaeFeaturePresenceRecorder 
 
     #~# Root (Family)
-    #record feature-presence AL_Parvoviridae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Parvoviridae --recursive --featureName whole_genome --descendentFeatures
     
     #~# Subfamily
     record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures

@@ -11,5 +11,5 @@ schema-project parvoviridae
 run file glue/core/buildCoreProject.glue
   
 # Endogenous parvovirus (EPV) extension
-run file glue/eve/buildEveExtension.glue
+#run file glue/eve/buildEveExtension.glue
 
