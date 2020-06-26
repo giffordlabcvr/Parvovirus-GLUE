@@ -9,8 +9,6 @@
   create reference REF_EPV-proto.2-apodemus          fasta-refseqs-epv  proto.2-apodemus
   create reference REF_EPV-proto.4-mus_spicilegus    fasta-refseqs-epv  proto.4-mus_spicilegus
   create reference REF_EPV-proto.3-mus_spretus       fasta-refseqs-epv  proto.3-mus_spretus
-
-  # Basal protoparvovirus
   create reference REF_EPV-proto.11-monodelphis      fasta-refseqs-epv  proto.11-monodelphis
   create reference REF_EPV-proto.12-monodelphis      fasta-refseqs-epv  proto.12-monodelphis
  
