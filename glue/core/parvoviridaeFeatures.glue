@@ -17,6 +17,12 @@
   feature NS set metatag INCLUDE_IN_SUMMARY true
   feature NS set metatag CODES_AMINO_ACIDS true
 
+  create feature Rep78 -p whole_genome "Rep 78 protein"
+  feature Rep78 set field displayName "Replicase"
+  feature Rep78 set metatag OWN_CODON_NUMBERING true
+  feature Rep78 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep78 set metatag CODES_AMINO_ACIDS true
+
   create feature NS1 -p whole_genome "Replicase protein NS1"
   feature NS1 set field displayName "Replicase N1"
   feature NS1 set metatag OWN_CODON_NUMBERING true
@@ -101,6 +107,12 @@
   feature NS2-L set metatag INCLUDE_IN_SUMMARY true
   feature NS2-L set metatag CODES_AMINO_ACIDS true
 
+
+  create feature VP1 -p whole_genome "Capsid protein"
+  feature VP1 set field displayName "Capsid"
+  feature VP1 set metatag OWN_CODON_NUMBERING true
+  feature VP1 set metatag INCLUDE_IN_SUMMARY true
+  feature VP1 set metatag CODES_AMINO_ACIDS true
 
   create feature VP -p whole_genome "Capsid protein"
   feature VP set field displayName "Capsid"

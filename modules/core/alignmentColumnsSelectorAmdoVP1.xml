@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_Meta_MASTER_bgHBV</relRefName>
+    <relRefName>REF_Amdo_MASTER_AMDV </relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>PreCore-Core</featureName>
+        <featureName>VP1</featureName>
         <startCodon>1</startCodon>
         <endCodon>153</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>PreCore-Core</featureName>
-        <startNt>1</startNt>
-        <endNt>457</endNt>
+        <featureName>VP1</featureName>
+        <startNt>648</startNt>
+        <endNt>4347</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
+
