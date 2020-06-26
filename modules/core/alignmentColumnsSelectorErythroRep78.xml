@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_Ortho_MASTER_HBV</relRefName>
+    <relRefName>REF_Erythro_MASTER_B19</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>Polymerase</featureName>
+        <featureName>Rep78</featureName>
         <startCodon>1</startCodon>
-        <endCodon>816</endCodon>
+        <endCodon>616</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>Polymerase</featureName>
-        <startNt>494</startNt>
-        <endNt>2939</endNt>
+        <featureName>Rep78</featureName>
+        <startNt>672</startNt>
+        <endNt>2629</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

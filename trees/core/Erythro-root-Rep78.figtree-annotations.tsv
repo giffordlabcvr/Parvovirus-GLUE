@@ -1,0 +1,7 @@
+taxon	sequenceID	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
+alignment/AL_Erythroparvovirus/member/ncbi-refseqs/AF221122	AF221122	Parvovirinae	Erythroparvovirus	-	-	-	-	-	Macaca mulatta	-	-
+alignment/AL_Erythroparvovirus/member/ncbi-refseqs/AF221123	AF221123	Parvovirinae	Erythroparvovirus	-	-	-	-	-	Macaca nemestrina	-	-
+alignment/AL_Erythroparvovirus/member/ncbi-refseqs/AF406967	AF406967	Parvovirinae	Erythroparvovirus	-	-	-	-	-	Bos taurus	-	-
+alignment/AL_Erythroparvovirus/member/ncbi-refseqs/GQ200736	GQ200736	Parvovirinae	Erythroparvovirus	-	-	-	-	-	Tamias sibiricus	-	-
+alignment/AL_Erythroparvovirus/member/ncbi-refseqs/NC_000883	NC_000883	Parvovirinae	Erythroparvovirus	-	-	-	-	-	Homo sapiens	-	-
+alignment/AL_Erythroparvovirus/member/ncbi-refseqs/U26342	U26342	Parvovirinae	Erythroparvovirus	-	-	-	-	-	Macaca fascicularis	-	-

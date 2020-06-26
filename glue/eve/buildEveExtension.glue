@@ -7,7 +7,7 @@ schema-project parvoviridae
 project parvoviridae
 
   # Clean up any previous epv extension build
-  run file glue/eve/deletePreviousBuild.glue
+  run file glue/eve/epvDeletePreviousBuild.glue
 
   # Create epv-specific modules
   run file glue/eve/epvModules.glue
@@ -20,7 +20,7 @@ project parvoviridae
   run file glue/eve/epvLoadData.glue
   
   # Declare references 
-  #run file glue/eve/epvReferences.glue
+  run file glue/eve/epvReferences.glue
 
   # Import alignments
   #run file glue/eve/epvAlignments.glue

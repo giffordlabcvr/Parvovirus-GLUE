@@ -4,15 +4,15 @@
     <relRefName>REF_Amdo_MASTER_AMDV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>Rep78</featureName>
+        <featureName>VP1</featureName>
         <startCodon>1</startCodon>
-        <endCodon>1976</endCodon>
+        <endCodon>648</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>Rep78</featureName>
-        <startNt>206</startNt>
-        <endNt>591</endNt>
+        <featureName>VP1</featureName>
+        <startNt>2406</startNt>
+        <endNt>4347</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

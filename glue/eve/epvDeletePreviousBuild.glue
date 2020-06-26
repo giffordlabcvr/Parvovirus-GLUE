@@ -1,0 +1,15 @@
+  # Delete extension modules
+  delete module --whereClause "name like 'epv%'"
+
+  # Delete extension alignments
+  multi-delete alignment -w "name like 'AL_EPV%'"
+  multi-delete alignment -w "name like '%_EVE'"
+  multi-delete alignment -w "name like 'AL_EPV%'"
+
+  # Delete extension reference sequences
+  multi-delete reference -w "name like 'REF_EPV%'"
+
+  # Delete EVE sources
+  delete source fasta-digs-epv
+  delete source fasta-refseqs-epv
+

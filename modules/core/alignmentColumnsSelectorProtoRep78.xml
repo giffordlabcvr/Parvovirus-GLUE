@@ -6,13 +6,14 @@
     <aminoAcidRegionSelector>
         <featureName>Rep78</featureName>
         <startCodon>1</startCodon>
-        <endCodon>816</endCodon>
+        <endCodon>669</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>VP1</featureName>
-        <startNt>494</startNt>
-        <endNt>2939</endNt>
+        <featureName>Rep78</featureName>
+        <startNt>272</startNt>
+        <endNt>2276</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
+

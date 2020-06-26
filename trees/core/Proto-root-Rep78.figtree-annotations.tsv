@@ -1,0 +1,8 @@
+taxon	sequenceID	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/AF321230	AF321230	Parvovirinae	Protoparvovirus	-	-	-	-	-	Rattus norvegicus	-	-
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/D00623	D00623	Parvovirinae	Protoparvovirus	-	-	-	-	-	Sus scrofa	-	-
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/JX505432	JX505432	Parvovirinae	Protoparvovirus	-	-	-	-	-	Homo sapiens (cell line)	-	-
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/KJ641666	KJ641666	Parvovirinae	Protoparvovirus	-	-	-	-	-	Hipposideros pomona	-	-
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/NC_001510	NC_001510	Parvovirinae	Protoparvovirus	-	-	-	-	-	Mus musculus	-	-
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/NC_001539	NC_001539	Parvovirinae	Protoparvovirus	-	-	-	-	-	Canis familiaris	-	-
+alignment/AL_Protoparvovirus/member/ncbi-refseqs/U34255	U34255	Parvovirinae	Protoparvovirus	-	-	-	-	-	Cricetelus griseus	-	-

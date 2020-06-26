@@ -1,0 +1,7 @@
+id	locus_numeric_id	seq_type	num_seqs	insertion_name	insertion_full_name	virus_subfamily	virus_genus	virus_clade	host_group_taxlevel	host_group_name	host_order	minimum_age_ortho
+proto.1-rattus-con	1	consensus	1	proto.1-rattus	proto.1-rattus	Parvovirinae	Protoparvovirus	Classical	genus		Rattus	
+proto.2-apodemus	2	reference	2	proto.2-apodemus	proto.2-apodemus	Parvovirinae	Protoparvovirus	Classical	species			
+proto.4-mus_spicilegus	4	reference	4	proto.4-mus_spicilegus	proto.4-mus_spicilegus	Parvovirinae	Protoparvovirus	Classical	species			
+proto.3-mus_spretus	3	reference	3	proto.3-mus_spretus	proto.3-mus_spretus	Parvovirinae	Protoparvovirus	Classical	species			
+proto.11-monodelphis	11	consensus	11	proto.11-monodelphis	proto.11-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.12-monodelphis	12	consensus	12	proto.12-monodelphis	proto.12-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	

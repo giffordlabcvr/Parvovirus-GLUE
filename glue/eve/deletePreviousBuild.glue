@@ -1,4 +1,0 @@
-  run file glue/eve/epvDeleteModules.glue
-  delete source fasta-epv-digs
-  delete source fasta-epv-refseqs
-

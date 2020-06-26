@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_Ortho_MASTER_HBV</relRefName>
+    <relRefName>REF_Erythro_MASTER_B19</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>PreCore-Core</featureName>
+        <featureName>VP1</featureName>
         <startCodon>1</startCodon>
-        <endCodon>178</endCodon>
+        <endCodon>782</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>PreCore-Core</featureName>
-        <startNt>1</startNt>
-        <endNt>532</endNt>
+        <featureName>VP1</featureName>
+        <startNt>2624</startNt>
+        <endNt>4967</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
+

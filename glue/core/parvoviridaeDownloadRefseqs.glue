@@ -1,3 +1,5 @@
+delete module ncbiImporter
+
 create module -f modules/core/parvoviridaeNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 

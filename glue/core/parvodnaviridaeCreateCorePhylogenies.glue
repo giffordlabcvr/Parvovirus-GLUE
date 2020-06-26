@@ -62,15 +62,6 @@
     #  -o trees/core/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
 
 
-    generate nucleotide phylogeny AL_Amdoparvovirus -s alignmentColumnsSelectorAmdoRep78 \
-      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Amdo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_Amdoparvovirus -s alignmentColumnsSelectorAmdoVP1 \
-      -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Amdo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
     generate nucleotide phylogeny AL_Protoparvovirus -s alignmentColumnsSelectorProtoRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/core/Proto-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
@@ -78,7 +69,6 @@
     generate nucleotide phylogeny AL_Protoparvovirus -s alignmentColumnsSelectorProtoVP1 \
       -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/core/Proto-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
-
 
     generate nucleotide phylogeny AL_Erythroparvovirus -s alignmentColumnsSelectorErythroRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
@@ -88,7 +78,6 @@
       -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/core/Erythro-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
 
-
     generate nucleotide phylogeny AL_Dependoparvovirus -s alignmentColumnsSelectorDependoRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/core/Dependo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
@@ -97,28 +86,36 @@
       -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/core/Dependo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
 
+    #generate nucleotide phylogeny AL_Amdoparvovirus -s alignmentColumnsSelectorAmdoRep78 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/core/Amdo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_Amdoparvovirus -s alignmentColumnsSelectorAmdoVP1 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/core/Amdo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
+
 
 
     exit
 
 
   # Re-root phylogeny 
-  module ParvoPhyloUtility 
+  module parvoviridaePhyloUtility 
 
 	#reroot-phylogeny \
     #  --inputFile trees/core/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
     #  --midpoint \
     #  --outputFile trees/core/Parvo-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/core/Amdo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Amdo-VP1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/core/Amdo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/core/Amdo-VP1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/core/Amdo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Amdo-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/core/Amdo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/core/Amdo-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/core/Proto-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
@@ -134,31 +131,29 @@
 
 
   # Export annotations
-  module parvoFigTreeAnnotationExporter 
+  module parvoviridaeFigTreeAnnotationExporter 
   
-    export figtree-annotation AL_TREE_Parvoviridae -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Parvo-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_TREE_Parvoviridae -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Parvo-root-Rep78.figtree-annotations.tsv
+    #export figtree-annotation AL_TREE_Parvoviridae -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Parvo-root-VP1.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Amdo -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Amdo-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Amdo -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Amdo-root-Rep78.figtree-annotations.tsv
+    #export figtree-annotation AL_Amdoparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Amdo-root-VP1.figtree-annotations.tsv
+    #export figtree-annotation AL_Amdoparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Amdo-root-Rep78.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Proto -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
+    export figtree-annotation AL_Protoparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Proto-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Proto -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
+    export figtree-annotation AL_Protoparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Proto-root-Rep78.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Erythro -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
+    export figtree-annotation AL_Erythroparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Erythro-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Erythro -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
+    export figtree-annotation AL_Erythroparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Erythro-root-Rep78.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Dependo -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
+    export figtree-annotation AL_Dependoparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Dependo-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Dependo -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
+    export figtree-annotation AL_Dependoparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Dependo-root-Rep78.figtree-annotations.tsv
 
   exit
