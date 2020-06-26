@@ -1,0 +1,16 @@
+# Import unconstrained pre-built alignments
+
+  module unconstrainedAlignmentImporter 
+
+    #~# Internal node alignments (genus)
+    import AL_EPV_ERYTHRO_UNC           -f alignments/core/internal/genus/erythro-genome+eves.aln.fna
+    import AL_EPV_PROTO_UNC             -f alignments/core/internal/genus/proto-genome-eve.aln.fna
+    import AL_EPV_AMDO_UNC              -f alignments/core/internal/genus/amdo-genome+eves.aln.fna
+    import AL_EPV_DEPENDO_UNC           -f alignments/core/internal/genus/dependo-genome+eves.aln.fna
+    
+    exit
+
+
+
+
+

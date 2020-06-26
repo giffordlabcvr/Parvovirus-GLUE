@@ -1,0 +1,34 @@
+  ### Add EPV sequences to Parvoviridae constrained alignment tree 
+
+  #~# Genus
+  alignment AL_Parvovirinae
+
+    demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus' and source.name = 'fasta-refseqs-epv'" 
+
+    demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus' and source.name = 'fasta-refseqs-epv'" 
+
+    demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus' and source.name = 'fasta-refseqs-epv'" 
+
+    demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus and source.name = 'fasta-refseqs-epv''" 
+    exit
+
+
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+ 
+  alignment AL_Protoparvovirus
+    derive segments AL_EPV_PROTO_UNC   -a --mergeStrategy OVERWRITE
+    exit
+    
+  alignment AL_Erythroparvovirus
+    derive segments AL_EPV_ERYTHRO_UNC -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Amdoparvovirus
+    derive segments AL_EPV_AMDO_UNC    -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Dependoparvovirus
+    derive segments AL_EPV_DEPENDO_UNC -a --mergeStrategy OVERWRITE
+    exit
+
