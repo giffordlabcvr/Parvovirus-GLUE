@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_Meta_MASTER_bgHBV</relRefName>
+    <relRefName>REF_Amdo_MASTER_AMDV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>Polymerase</featureName>
+        <featureName>Rep78</featureName>
         <startCodon>1</startCodon>
-        <endCodon>772</endCodon>
+        <endCodon>1976</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>Polymerase</featureName>
-        <startNt>374</startNt>
-        <endNt>2687</endNt>
+        <featureName>Rep78</featureName>
+        <startNt>206</startNt>
+        <endNt>591</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
