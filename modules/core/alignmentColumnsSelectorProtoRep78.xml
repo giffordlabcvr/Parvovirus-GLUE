@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Ortho_MASTER_HBV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>816</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startNt>494</startNt>
+        <endNt>2939</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

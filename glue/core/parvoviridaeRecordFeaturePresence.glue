@@ -4,7 +4,7 @@
   module parvoviridaeFeaturePresenceRecorder 
 
     #~# Root (Family)
-    record feature-presence AL_Parvoviridae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Parvoviridae_MASTER --recursive --featureName whole_genome --descendentFeatures
     
     #~# Subfamily
     record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures

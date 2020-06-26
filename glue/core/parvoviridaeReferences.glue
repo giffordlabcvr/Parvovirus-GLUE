@@ -3,86 +3,84 @@
   ## Parvovirinae 
  
   # Aveparvovirus
-  create reference REF_ChPV       		ncbi-refseqs NC_024452
+  create reference REF_Ave_MASTER_ChPV      ncbi-refseqs NC_024452
  
   # Bocaparvovirus	
-  create reference REF_BPV        		ncbi-refseqs NC_001540
-  create reference REF_PBoV       		ncbi-refseqs NC_024453
-  create reference REF_CMV        		ncbi-refseqs NC_004442
+  create reference REF_Boca_MASTER_BPV      ncbi-refseqs NC_001540
+  create reference REF_Boca_PBoV            ncbi-refseqs NC_024453
+  create reference REF_Boca_CMV             ncbi-refseqs NC_004442
   
   # Dependoparvovirus
-  create reference REF_SnakePV       	ncbi-refseqs NC_006148
-  create reference REF_BdrPV            ncbi-refseqs NC_027429
-  create reference REF_MDPV       		ncbi-refseqs NC_006147 # Duck
-  create reference REF_GPV        		ncbi-refseqs NC_001701 # Goose
-  create reference REF_AvAAV-atcc       ncbi-refseqs NC_004828
-  create reference REF_AvAAV-da1        ncbi-refseqs NC_006263
-  create reference REF_BAAV        	    ncbi-refseqs NC_005889 
-  create reference REF_CAV        		ncbi-refseqs DQ335246 
-  create reference REF_AAV-bat          ncbi-refseqs NC_014468
-  create reference REF_AAV-sealion      ncbi-refseqs NC_040671
-  create reference REF_AAV1             ncbi-refseqs NC_002077 
-  create reference REF_AAV2       		ncbi-refseqs NC_001401
-  create reference REF_AAV3       		ncbi-refseqs NC_001729 
-  create reference REF_AAV4       		ncbi-refseqs NC_001829 
-  create reference REF_AAV5       		ncbi-refseqs NC_006152  
-  create reference REF_AAV6       		ncbi-refseqs AF028704 
-  create reference REF_AAV7       		ncbi-refseqs NC_006260 
-  create reference REF_AAV8       		ncbi-refseqs NC_006261 
-  create reference REF_AAV9       		ncbi-refseqs AX753250 
-  create reference REF_AAV10       	    ncbi-refseqs LY408697 
-  create reference REF_AAV11       	    ncbi-refseqs AY631966 
-  create reference REF_AAV12       	    ncbi-refseqs DQ813647 
+  create reference REF_Dependo_MASTER_AAV2  ncbi-refseqs NC_001401
+  create reference REF_Dependo_SnakePV      ncbi-refseqs NC_006148
+  create reference REF_Dependo_BdrPV        ncbi-refseqs NC_027429
+  create reference REF_Dependo_MDPV         ncbi-refseqs NC_006147 # Duck
+  create reference REF_Dependo_GPV		    ncbi-refseqs NC_001701 # Goose
+  create reference REF_Dependo_AvAAV-atcc   ncbi-refseqs NC_004828
+  create reference REF_Dependo_AvAAV-da1    ncbi-refseqs NC_006263
+  create reference REF_Dependo_BAAV	        ncbi-refseqs NC_005889 
+  create reference REF_Dependo_CAV   	    ncbi-refseqs DQ335246 
+  create reference REF_Dependo_AAV-bat      ncbi-refseqs NC_014468
+  create reference REF_Dependo_AAV-sealion  ncbi-refseqs NC_040671
+  create reference REF_Dependo_AAV1         ncbi-refseqs NC_002077 
+  create reference REF_Dependo_AAV3  	    ncbi-refseqs NC_001729 
+  create reference REF_Dependo_AAV4         ncbi-refseqs NC_001829 
+  create reference REF_Dependo_AAV5         ncbi-refseqs NC_006152  
+  create reference REF_Dependo_AAV6  	    ncbi-refseqs AF028704 
+  create reference REF_Dependo_AAV7  	    ncbi-refseqs NC_006260 
+  create reference REF_Dependo_AAV8  	    ncbi-refseqs NC_006261 
+  create reference REF_Dependo_AAV9  	    ncbi-refseqs AX753250 
+  create reference REF_Dependo_AAV10        ncbi-refseqs LY408697 
+  create reference REF_Dependo_AAV11        ncbi-refseqs AY631966 
+  create reference REF_Dependo_AAV12        ncbi-refseqs DQ813647 
 
   # Protoparvovirus
-  create reference REF_CPV        		ncbi-refseqs NC_001539
-  create reference REF_MVM1       		ncbi-refseqs NC_001510
-  create reference REF_PPV        		ncbi-refseqs NC_001718
-  create reference REF_HamsterPV     	ncbi-refseqs U34255
-  create reference REF_Zsana     	    ncbi-refseqs KT965075
-  create reference REF_MpBuV    		ncbi-refseqs NC_026815
-  create reference REF_OtterPV-1  		ncbi-refseqs NC_030837
+  create reference REF_Proto_MASTER_CPV     ncbi-refseqs NC_001539
+  create reference REF_Proto_MVM1           ncbi-refseqs NC_001510
+  create reference REF_Proto_PPV            ncbi-refseqs NC_001718
+  create reference REF_Proto_HamsterPV      ncbi-refseqs U34255
+  create reference REF_Proto_Zsana          ncbi-refseqs KT965075
+  create reference REF_Proto_MpBuV          ncbi-refseqs NC_026815
+  create reference REF_Proto_OtterPV-1      ncbi-refseqs NC_030837
 
   # Amdoparvovirus
-  create reference REF_AMDV       		ncbi-refseqs NC_001662
+  create reference REF_Amdo_MASTER_AMDV     ncbi-refseqs NC_001662
 
   # Erythroparvovirus
-  create reference REF_B19     			ncbi-refseqs NC_000883
-  #create reference REF_Chipmunk-PV      ncbi-refseqs U86868
-
+  create reference REF_Erythro_MASTER_B19   ncbi-refseqs NC_000883
+  create reference REF_Erythro_Chipmunk-PV  ncbi-refseqs U86868
 
   # Copiparvovirus
-  create reference REF_BPV2   			ncbi-refseqs NC_006259
-  create reference REF_PPV6  			ncbi-refseqs NC_023860
+  create reference REF_Copi_MASTER_BPV2     ncbi-refseqs NC_006259
+  create reference REF_Copi_PPV6            ncbi-refseqs NC_023860
   
   # Tetraparvovirus
-  create reference REF_Eh-BtPV-1  		ncbi-refseqs NC_016744
+  create reference REF_Tetra_MASTER_EhBtPV1 ncbi-refseqs NC_016744
   
 
   ## Densovirinae
   
   # Ambidensovirus
-  create reference REF_JcDNV      		ncbi-refseqs NC_004284
-  create reference REF_PfDNV      		ncbi-refseqs NC_000936
+  create reference REF_Ambidenso_MASTER_JcDNV     ncbi-refseqs NC_004284
+  create reference REF_Ambidenso_PfDNV            ncbi-refseqs NC_000936
 
   # Iteradensovirus
-  create reference REF_BmDNV-5    		ncbi-refseqs NC_004287
-
+  create reference REF_Iteradenso_MASTER_BmDNV-5  ncbi-refseqs NC_004287
 
   ## Epiparvovirinae
  
   # Hepandensovirus
-  create reference REF_FCDNV   			ncbi-refseqs NC_014357
+  create reference REF_Hepandenso_MASTER_FCDNV    ncbi-refseqs NC_014357
  
   # Brevidensovirus
-  create reference REF_AalDNV-2			ncbi-refseqs NC_004285
+  create reference REF_Brevidenso_MASTER_AalDNV-2 ncbi-refseqs NC_004285
  
   # Penstyldensovirus
-  create reference REF_IHHN    		    ncbi-refseqs NC_002190
+  create reference REF_Penstyldenso_MASTER_IHHN   ncbi-refseqs NC_002190
  
   # Chapparvoviruses 
-  create reference REF_PPV7             ncbi-refseqs NC_040562
-  create reference REF_Mk-PV            ncbi-refseqs MH670587
-  create reference REF_MpChPV           ncbi-refseqs KX084397
-  create reference REF_DrChPV           ncbi-refseqs KX907333
+  create reference REF_Chappa_MASTER_PPV7         ncbi-refseqs NC_040562
+  create reference REF_Chappa_Mk-PV               ncbi-refseqs MH670587
+  create reference REF_Chappa_MpChPV              ncbi-refseqs KX084397
+  create reference REF_Chappa_DrChPV              ncbi-refseqs KX907333
 

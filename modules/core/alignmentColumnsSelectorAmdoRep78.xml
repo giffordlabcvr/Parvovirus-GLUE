@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Meta_MASTER_bgHBV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>772</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startNt>374</startNt>
+        <endNt>2687</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

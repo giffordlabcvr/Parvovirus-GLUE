@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Meta_MASTER_bgHBV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>PreCore-Core</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>153</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>PreCore-Core</featureName>
+        <startNt>1</startNt>
+        <endNt>457</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
