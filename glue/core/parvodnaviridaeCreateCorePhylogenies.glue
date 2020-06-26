@@ -127,6 +127,17 @@
       --midpoint \
       --outputFile trees/core/Proto-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
+	reroot-phylogeny \
+      --inputFile trees/core/Erythro-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/core/Erythro-VP1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/core/Erythro-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/core/Erythro-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+
     exit
 
 
