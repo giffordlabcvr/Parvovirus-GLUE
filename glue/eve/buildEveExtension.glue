@@ -1,9 +1,7 @@
-
 schema-project parvoviridae
   run file glue/eve/epvSchemaExtensions.glue
   exit
 
-  
 project parvoviridae
 
   # Clean up any previous epv extension build
@@ -23,11 +21,17 @@ project parvoviridae
   run file glue/eve/epvReferences.glue
 
   # Import alignments
-  #run file glue/eve/epvAlignments.glue
+  run file glue/eve/epvAlignments.glue
 
   # Import alignment tree
-  #run file glue/eve/epvAlignmentTree.glue
+  run file glue/eve/epvAlignmentTree.glue
 
+  # Record feature coverage in alignments
+  run file glue/eve/epvRecordFeaturePresence.glue
+
+  # Create the EVE phylogenies (reference sequences & EVEs)
+  run file glue/eve/epvCreateRootPhylogenies.glue
+  
   # Validate
   validate
 

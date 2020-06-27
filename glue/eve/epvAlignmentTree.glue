@@ -3,13 +3,13 @@
   #~# Genus
   alignment AL_Parvovirinae
 
-    demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus' and source.name = 'fasta-refseqs-epv'" 
+    demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus' and sequence.source.name = 'fasta-refseqs-epv'" 
 
-    demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus' and source.name = 'fasta-refseqs-epv'" 
+    demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus' and sequence.source.name = 'fasta-refseqs-epv'" 
 
-    demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus' and source.name = 'fasta-refseqs-epv'" 
+    demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus' and sequence.source.name = 'fasta-refseqs-epv'" 
 
-    demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus and source.name = 'fasta-refseqs-epv''" 
+    demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus' and sequence.source.name = 'fasta-refseqs-epv'" 
     exit
 
 

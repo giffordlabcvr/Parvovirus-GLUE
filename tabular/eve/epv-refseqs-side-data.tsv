@@ -3,5 +3,9 @@ proto.1-rattus-con	1	consensus	1	proto.1-rattus	proto.1-rattus	Parvovirinae	Prot
 proto.2-apodemus	2	reference	2	proto.2-apodemus	proto.2-apodemus	Parvovirinae	Protoparvovirus	Classical	species			
 proto.4-mus_spicilegus	4	reference	4	proto.4-mus_spicilegus	proto.4-mus_spicilegus	Parvovirinae	Protoparvovirus	Classical	species			
 proto.3-mus_spretus	3	reference	3	proto.3-mus_spretus	proto.3-mus_spretus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.11-monodelphis	11	consensus	11	proto.11-monodelphis	proto.11-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.12-monodelphis	12	consensus	12	proto.12-monodelphis	proto.12-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.11-monodelphis	11	reference	11	proto.11-monodelphis	proto.11-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.12-monodelphis	12	reference	12	proto.12-monodelphis	proto.12-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.13-monodelphis	13	reference	13	proto.13-monodelphis	proto.13-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.14-tamandua	13	reference	13	proto.14-tamandua	proto.14-tamandua	Parvovirinae	Protoparvovirus	Basal	species	Tamandua	Xenarthra	
+erthryo.1-indri	1	reference	1	erthryo.1-indri	erthryo.1-indri	Parvovirinae	Erythroparvovirus					
+erthryo.2-dolichotis	2	reference	1	erthryo.2-dolichotis_patagonum	erthryo.2-dolichotis_patagonum	Parvovirinae	Erythroparvovirus					
