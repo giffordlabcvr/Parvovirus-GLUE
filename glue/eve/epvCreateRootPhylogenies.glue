@@ -41,15 +41,15 @@
 
 
   # Re-import the recursively populated root alignment into the project
-  module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_TREE_Parvoviridae -f alignments/tree/Parvoviridae-all.aln.fna
-  create alignment AL_TREE_Parvoviridae -r REF_Proto_MASTER_CPV
+  module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_EVE_TREE_Parvoviridae -f alignments/tree/Parvoviridae-all.aln.fna
+  create alignment AL_EVE_TREE_Parvoviridae -r REF_Proto_MASTER_CPV
 
   alignment AL_TREE_Parvoviridae
-	derive segments AL_UNC_TREE_Parvoviridae -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_EVE_TREE_Parvoviridae -a --mergeStrategy OVERWRITE
 	exit
 	
   module parvoviridaeFeaturePresenceRecorder
-    record feature-presence AL_TREE_Parvoviridae --featureName whole_genome --descendentFeatures
+    record feature-presence AL_EVE_TREE_Parvoviridae --featureName whole_genome --descendentFeatures
     exit
 
 
