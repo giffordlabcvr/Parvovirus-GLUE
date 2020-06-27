@@ -23,7 +23,7 @@ project parvoviridae
   run file glue/eve/epvReferences.glue
 
   # Import alignments
-  #run file glue/eve/epvAlignments.glue
+  run file glue/eve/epvAlignments.glue
 
   # Import alignment tree
   #run file glue/eve/epvAlignmentTree.glue
