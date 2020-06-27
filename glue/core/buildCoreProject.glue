@@ -29,7 +29,7 @@ project parvoviridae
   # Record feature coverage in alignments
   run file glue/core/parvoviridaeRecordFeaturePresence.glue
 
-  # Record feature coverage in alignments
+  # Create the core phylogenies (reference sequences only)
   run file glue/core/parvodnaviridaeCreateCorePhylogenies.glue
   
   # Validate

@@ -1,0 +1,20 @@
+  delete module parvoviridaeFeaturePresenceRecorder
+  create module -f modules/core/parvoviridaeFeaturePresenceRecorder.xml
+
+  module parvoviridaeFeaturePresenceRecorder 
+
+    #~# Root (Family)
+    record feature-presence AL_Parvoviridae_MASTER --recursive --featureName whole_genome --descendentFeatures
+    
+    #~# Subfamily
+    record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures
+
+    #~# Genus alignments
+    record feature-presence AL_Amdoparvovirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Protoparvovirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Dependoparvovirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Erythroparvovirus --recursive --featureName whole_genome --descendentFeatures
+    #record feature-presence AL_Bocaparvovirus --recursive --featureName whole_genome --descendentFeatures
+    #record feature-presence AL_Chapparvovirus --recursive --featureName whole_genome --descendentFeatures
+    exit
+
