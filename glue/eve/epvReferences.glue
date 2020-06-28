@@ -1,7 +1,8 @@
   # Declare parvovirus EVE reference sequences
   
-  # Amdoparvovirus
-  #create reference REF_EPV-amdo.1-ellobius          fasta-refseqs-epv  amdo.1-ellobius
+  # Amdoparvovirus 
+  create reference REF_EPV-amdo.1-ellobius           fasta-refseqs-epv  amdo.1-ellobius
+  create reference REF_EPV-amdo.2-ellobius           fasta-refseqs-epv  amdo.2-ellobius
   #create reference REF_EPV-ap.1-protobothrops       fasta-refseqs-epv  ap.1-protobothrops
 
   # Protoparvovirus
