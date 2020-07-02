@@ -1,7 +1,19 @@
   ### Add EPV sequences to Parvoviridae constrained alignment tree 
 
+ #~# Root 
+  alignment AL_Parvoviridae_MASTER
+    
+    add member --whereClause "source.name = 'fasta-refseqs-epv'"
+    add member --whereClause "source.name = 'fasta-digs-epv'"
+  
+    demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-epv'" 
+    demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-epv'" 
+    exit
+
+
   #~# Genus
   alignment AL_Parvovirinae
+
 
     demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus' and sequence.source.name = 'fasta-refseqs-epv'" 
 

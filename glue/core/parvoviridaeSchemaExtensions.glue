@@ -7,9 +7,11 @@
     create field subclade_ns VARCHAR 50
     create field clade_vp VARCHAR 50
     create field subclade_vp VARCHAR 50		
-    create field host_sci_name VARCHAR 100
     create field length INTEGER
+    create field pubmed_id INTEGER
     create field gb_lab_construct BOOLEAN
+    create field gb_create_date DATE
+    create field gb_update_date DATE
   exit
 
   table alignment
@@ -20,7 +22,6 @@
   table member_floc_note
   	create field ref_nt_coverage_pct DOUBLE
   	exit
-
 
   # Create schema extension
   create custom-table isolate_data
