@@ -14,7 +14,7 @@
 		</gbQualifier>
 
 		<gbQualifier name="host">
-			<propertyPopulator property="host_sci_name">
+			<propertyPopulator property="isolate_data.host_sci_name">
 
 				<!-- #### Human -->																																									
 				<valueConverter>
