@@ -8,8 +8,8 @@
   # Protoparvovirus
   create reference REF_EPV-proto.1-rattus            fasta-refseqs-epv  proto.1-rattus-con 
   create reference REF_EPV-proto.2-apodemus          fasta-refseqs-epv  proto.2-apodemus
-  create reference REF_EPV-proto.4-mus_spicilegus    fasta-refseqs-epv  proto.4-mus_spicilegus
   create reference REF_EPV-proto.3-mus_spretus       fasta-refseqs-epv  proto.3-mus_spretus
+  create reference REF_EPV-proto.4-mus_spicilegus    fasta-refseqs-epv  proto.4-mus_spicilegus
   create reference REF_EPV-proto.11-monodelphis      fasta-refseqs-epv  proto.11-monodelphis
   create reference REF_EPV-proto.12-monodelphis      fasta-refseqs-epv  proto.12-monodelphis
  
@@ -22,6 +22,9 @@
   create reference REF_EPV-dependo.66-passeriformes  fasta-refseqs-epv  dependo.66-passeriformes-con
   
   # Erythroparvovirus
+  create reference REF_EPV-erythro.1-indri           fasta-refseqs-epv  erythro.1-indri
+  create reference REF_EPV-erythro.2-dolichotis      fasta-refseqs-epv  erythro.2-dolichotis
 
   # Copiparvovirus
+  #create reference REF_EPV-copi.1-chiroptera        fasta-refseqs-epv  erythro.1-indri
   

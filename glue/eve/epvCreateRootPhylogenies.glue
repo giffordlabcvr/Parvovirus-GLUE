@@ -9,8 +9,7 @@
   delete module parvoviridaeTreeAlignmentImporterNucs
   
   delete module alignmentColumnsSelectorParvoviridaeRoot
-  delete module alignmentColumnsSelectorProtoVP1
-  delete module alignmentColumnsSelectorProtoRep78
+  delete module alignmentColumnsSelectorParvovirinaeRep78
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
@@ -20,152 +19,45 @@
   create module -f modules/core/parvoviridaePhyloUtility.xml
   create module -f modules/core/parvoviridaeFigTreeAnnotationExporter.xml
   create module -f modules/core/parvoviridaeFeaturePresenceRecorder.xml
-
-  #create module -f modules/core/alignmentColumnsSelectorParvoRep78.xml
-  
-  create module -f modules/core/alignmentColumnsSelectorAmdoRep78.xml
-  create module -f modules/core/alignmentColumnsSelectorAmdoVP1.xml
-  create module -f modules/core/alignmentColumnsSelectorProtoVP1.xml
-  create module -f modules/core/alignmentColumnsSelectorProtoRep78.xml
-
-  create module -f modules/core/alignmentColumnsSelectorErythroVP1.xml
-  create module -f modules/core/alignmentColumnsSelectorErythroRep78.xml
-  create module -f modules/core/alignmentColumnsSelectorDependoVP1.xml
-  create module -f modules/core/alignmentColumnsSelectorDependoRep78.xml
-
+  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
  	export AL_Parvoviridae_MASTER -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvoviridae-all.aln.fna
 	exit
 
-
   # Re-import the recursively populated root alignment into the project
   module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_EVE_TREE_Parvoviridae -f alignments/tree/Parvoviridae-all.aln.fna
   create alignment AL_EVE_TREE_Parvoviridae -r REF_Proto_MASTER_CPV
 
-  alignment AL_TREE_Parvoviridae
+  alignment AL_EVE_TREE_Parvoviridae
 	derive segments AL_UNC_EVE_TREE_Parvoviridae -a --mergeStrategy OVERWRITE
 	exit
-	
+
   module parvoviridaeFeaturePresenceRecorder
     record feature-presence AL_EVE_TREE_Parvoviridae --featureName whole_genome --descendentFeatures
     exit
 
-
-  
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    #generate nucleotide phylogeny AL_TREE_Parvoviridae -s alignmentColumnsSelectorParvoRep78 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
-    #  -o trees/eve/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
-    generate nucleotide phylogeny AL_Protoparvovirus -s alignmentColumnsSelectorProtoRep78 \
-      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Proto-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_Protoparvovirus -s alignmentColumnsSelectorProtoVP1 \
-      -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Proto-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_Erythroparvovirus -s alignmentColumnsSelectorErythroRep78 \
-      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Erythro-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_Erythroparvovirus -s alignmentColumnsSelectorErythroVP1 \
-      -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Erythro-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_Dependoparvovirus -s alignmentColumnsSelectorDependoRep78 \
-      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Dependo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_Dependoparvovirus -s alignmentColumnsSelectorDependoVP1 \
-      -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Dependo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_Amdoparvovirus -s alignmentColumnsSelectorAmdoRep78 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/eve/Amdo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_Amdoparvovirus -s alignmentColumnsSelectorAmdoVP1 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/eve/Amdo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
-
+    generate nucleotide phylogeny AL_EVE_TREE_Parvoviridae -s alignmentColumnsSelectorParvovirinaeRep78 \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/eve/Parvo-Rep78-EVE.export_nucs.tre NEWICK_BOOTSTRAPS      
     exit
-
 
   # Re-root phylogeny 
-  module parvoviridaePhyloUtility 
-
-	#reroot-phylogeny \
-    #  --inputFile trees/eve/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/eve/Parvo-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/eve/Amdo-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/eve/Amdo-VP1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/eve/Amdo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/eve/Amdo-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+  module parvoviridaePhyloUtility
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Proto-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Parvo-Rep78-EVE.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Proto-VP1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Proto-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Proto-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Erythro-VP1.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Erythro-VP1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Erythro-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Erythro-Rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-
+      --outputFile trees/eve/Parvo-Rep78-EVE.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
     exit
 
-
   # Export annotations
-  module parvoviridaeFigTreeAnnotationExporter 
-  
-    #export figtree-annotation AL_TREE_Parvoviridae -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Parvo-root-VP1.figtree-annotations.tsv
-
-    #export figtree-annotation AL_Amdoparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Amdo-root-VP1.figtree-annotations.tsv
-    #export figtree-annotation AL_Amdoparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Amdo-root-Rep78.figtree-annotations.tsv
-
-    export figtree-annotation AL_Protoparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Proto-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_Protoparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Proto-root-Rep78.figtree-annotations.tsv
-
-    export figtree-annotation AL_Erythroparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Erythro-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_Erythroparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Erythro-root-Rep78.figtree-annotations.tsv
-
-    export figtree-annotation AL_Dependoparvovirus -w "fLocNotes.featureLoc.feature.name = 'Rep78'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Dependo-root-VP1.figtree-annotations.tsv
-    export figtree-annotation AL_Dependoparvovirus -w "fLocNotes.featureLoc.feature.name = 'VP1'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Dependo-root-Rep78.figtree-annotations.tsv
-
-  exit
-
+  module parvoviridaeFigTreeAnnotationExporter   
+    export figtree-annotation AL_EVE_TREE_Parvoviridae -w \
+    "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+    -f trees/eve/Parvo-root-Rep78-EVE.figtree-annotations.tsv
+    exit

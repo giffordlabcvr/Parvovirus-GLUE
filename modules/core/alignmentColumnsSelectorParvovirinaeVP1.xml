@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Proto_MASTER_CPV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>752</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>VP1</featureName>
+        <startNt>2285</startNt>
+        <endNt>4538</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

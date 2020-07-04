@@ -40,27 +40,7 @@
 	demote member AL_epv-Proto.1-Rattus -w "sequence.locus_data.assigned_name = 'epv-proto.1-rattus'"
 	demote member AL_epv-Proto.1-Rattus -w "sequence.name = 'epv-proto.1-rattus' and sequence.source.name = 'fasta-refseqs-epv'"
 
-	extract child AL_epv-Proto.2-Apodemus -r REF_EPV-Proto.1-apodemus 
-	demote member AL_epv-Proto.2-Apodemus -w "sequence.locus_data.assigned_name = 'epv-proto.2-apodemus'"
-	demote member AL_epv-Proto.2-Apodemus -w "sequence.name = 'epv-proto.2-apodemus' and sequence.source.name = 'fasta-refseqs-epv'"
-
-	extract child AL_epv-Proto.3-Mus_spretus -r REF_EPV-Proto.3-mus_spretus 
-	demote member AL_epv-Proto.3-Mus_spretus -w "sequence.locus_data.assigned_name = 'epv-proto.3-mus_spretus'"
-	demote member AL_epv-Proto.3-Mus_spretus -w "sequence.name = 'epv-proto.3-mus_spretus' and sequence.source.name = 'fasta-refseqs-epv'"
-
-	extract child AL_epv-Proto.4-Mus_spicilegus -r REF_EPV-Proto.4-mus_spicilegus 
-	demote member AL_epv-Proto.4-Mus_spicilegus -w "sequence.locus_data.assigned_name = 'epv-proto.4-mus_spicilegus'"
-	demote member AL_epv-Proto.4-Mus_spicilegus -w "sequence.name = 'epv-proto.4-mus_spicilegus' and sequence.source.name = 'fasta-refseqs-epv'"
-
-    exit
-
-  alignment AL_Protoparvovirus
-
-	extract child AL_epv-Proto.1-Rattus -r REF_EPV-Proto.1-rattus 
-	demote member AL_epv-Proto.1-Rattus -w "sequence.locus_data.assigned_name = 'epv-proto.1-rattus'"
-	demote member AL_epv-Proto.1-Rattus -w "sequence.name = 'epv-proto.1-rattus' and sequence.source.name = 'fasta-refseqs-epv'"
-
-	extract child AL_epv-Proto.2-Apodemus -r REF_EPV-Proto.1-apodemus 
+	extract child AL_epv-Proto.2-Apodemus -r REF_EPV-proto.2-apodemus
 	demote member AL_epv-Proto.2-Apodemus -w "sequence.locus_data.assigned_name = 'epv-proto.2-apodemus'"
 	demote member AL_epv-Proto.2-Apodemus -w "sequence.name = 'epv-proto.2-apodemus' and sequence.source.name = 'fasta-refseqs-epv'"
 

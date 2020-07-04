@@ -5,6 +5,8 @@
   multi-delete alignment -w "name like 'AL_EPV%'"
   multi-delete alignment -w "name like '%_EVE'"
   multi-delete alignment -w "name like 'AL_EPV%'"
+  multi-delete alignment -w "name like 'AL_EVE%'"
+  multi-delete alignment -w "name like 'AL_UNC_EVE_%'"
 
   # Delete extension reference sequences
   multi-delete reference -w "name like 'REF_EPV%'"

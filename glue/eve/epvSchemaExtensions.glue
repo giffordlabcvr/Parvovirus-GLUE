@@ -35,8 +35,8 @@
     create field distance_to_upstream_orf INTEGER
     create field nearest_downstream_orf VARCHAR 100
     create field distance_to_downstream_orf INTEGER
+    create field assigned_name VARCHAR 100
   exit
 
   create link sequence locus_data
-
 

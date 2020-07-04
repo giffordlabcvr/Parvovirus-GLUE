@@ -1,13 +1,13 @@
-sequenceID	locus_numeric_id	seq_type	num_seqs	insertion_name	insertion_full_name	virus_subfamily	virus_genus	virus_clade	host_group_taxlevel	host_group_name	host_order	minimum_age_ortho
-amdo.1-ellobius	1	reference	1	amdo.1-ellobius	amdo.1-ellobius	Parvovirinae	Amdoparvovirus	Classical	species			
-amdo.2-ellobius	2	reference	2	amdo.2-ellobius	amdo.2-ellobius	Parvovirinae	Amdoparvovirus	Classical	species			
-erthryo.1-indri	1	reference	1	erthryo.1-indri	erthryo.1-indri	Parvovirinae	Erythroparvovirus					
-erthryo.2-dolichotis	2	reference	1	erthryo.2-dolichotis_patagonum	erthryo.2-dolichotis_patagonum	Parvovirinae	Erythroparvovirus					
-proto.1-rattus-con	1	consensus	1	proto.1-rattus	proto.1-rattus	Parvovirinae	Protoparvovirus	Classical	genus		Rattus	
-proto.2-apodemus	2	reference	2	proto.2-apodemus	proto.2-apodemus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.4-mus_spicilegus	4	reference	4	proto.4-mus_spicilegus	proto.4-mus_spicilegus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.3-mus_spretus	3	reference	3	proto.3-mus_spretus	proto.3-mus_spretus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.11-monodelphis	11	reference	11	proto.11-monodelphis	proto.11-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.12-monodelphis	12	reference	12	proto.12-monodelphis	proto.12-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.13-monodelphis	13	reference	13	proto.13-monodelphis	proto.13-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.14-tamandua	13	reference	13	proto.14-tamandua	proto.14-tamandua	Parvovirinae	Protoparvovirus	Basal	species	Tamandua	Xenarthra	
+sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	insertion_name	insertion_full_name	virus_subfamily	virus_genus	virus_clade	host_group_taxlevel	host_group_name	host_order	minimum_age_ortho
+amdo.1-ellobius	1	fasta-refseqs-epv	reference	1	amdo.1-ellobius	amdo.1-ellobius	Parvovirinae	Amdoparvovirus	Classical	species			
+amdo.2-ellobius	2	fasta-refseqs-epv	reference	2	amdo.2-ellobius	amdo.2-ellobius	Parvovirinae	Amdoparvovirus	Classical	species			
+erythro.1-indri	1	fasta-refseqs-epv	reference	1	erthryo.1-indri	erthryo.1-indri	Parvovirinae	Erythroparvovirus					
+erythro.2-dolichotis	2	fasta-refseqs-epv	reference	1	erthryo.2-dolichotis_patagonum	erthryo.2-dolichotis_patagonum	Parvovirinae	Erythroparvovirus					
+proto.1-rattus-con	1	fasta-refseqs-epv	consensus	1	proto.1-rattus	proto.1-rattus	Parvovirinae	Protoparvovirus	Classical	genus		Rattus	
+proto.2-apodemus	2	fasta-refseqs-epv	reference	2	proto.2-apodemus	proto.2-apodemus	Parvovirinae	Protoparvovirus	Classical	species			
+proto.4-mus_spicilegus	4	fasta-refseqs-epv	reference	4	proto.4-mus_spicilegus	proto.4-mus_spicilegus	Parvovirinae	Protoparvovirus	Classical	species			
+proto.3-mus_spretus	3	fasta-refseqs-epv	reference	3	proto.3-mus_spretus	proto.3-mus_spretus	Parvovirinae	Protoparvovirus	Classical	species			
+proto.11-monodelphis	11	fasta-refseqs-epv	reference	11	proto.11-monodelphis	proto.11-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.12-monodelphis	12	fasta-refseqs-epv	reference	12	proto.12-monodelphis	proto.12-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.13-monodelphis	13	fasta-refseqs-epv	reference	13	proto.13-monodelphis	proto.13-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
+proto.14-tamandua	13	fasta-refseqs-epv	reference	13	proto.14-tamandua	proto.14-tamandua	Parvovirinae	Protoparvovirus	Basal	species	Tamandua	Xenarthra	

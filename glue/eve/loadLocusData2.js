@@ -18,4 +18,16 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "host_sci_name", eveObj.organism]);
 
 	});
+	
+
+	glue.inMode("sequence/fasta-digs-epv/"+eveObj.sequenceID, function() {
+	
+		glue.log("INFO", "Entering sequence table data for sequence:", eveObj.sequenceID);
+
+		glue.command(["set", "field", "genus", eveObj.virus_genus]);
+		glue.command(["set", "field", "name", eveObj.sequenceID]);
+		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
+	
+	});
+	
 });
