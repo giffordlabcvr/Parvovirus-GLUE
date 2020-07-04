@@ -1,13 +1,63 @@
-sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	insertion_name	insertion_full_name	virus_subfamily	virus_genus	virus_clade	host_group_taxlevel	host_group_name	host_order	minimum_age_ortho
-amdo.1-ellobius	1	fasta-refseqs-epv	reference	1	amdo.1-ellobius	amdo.1-ellobius	Parvovirinae	Amdoparvovirus	Classical	species			
-amdo.2-ellobius	2	fasta-refseqs-epv	reference	2	amdo.2-ellobius	amdo.2-ellobius	Parvovirinae	Amdoparvovirus	Classical	species			
-erythro.1-indri	1	fasta-refseqs-epv	reference	1	erthryo.1-indri	erthryo.1-indri	Parvovirinae	Erythroparvovirus					
-erythro.2-dolichotis	2	fasta-refseqs-epv	reference	1	erthryo.2-dolichotis_patagonum	erthryo.2-dolichotis_patagonum	Parvovirinae	Erythroparvovirus					
-proto.1-rattus-con	1	fasta-refseqs-epv	consensus	1	proto.1-rattus	proto.1-rattus	Parvovirinae	Protoparvovirus	Classical	genus		Rattus	
-proto.2-apodemus	2	fasta-refseqs-epv	reference	2	proto.2-apodemus	proto.2-apodemus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.4-mus_spicilegus	4	fasta-refseqs-epv	reference	4	proto.4-mus_spicilegus	proto.4-mus_spicilegus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.3-mus_spretus	3	fasta-refseqs-epv	reference	3	proto.3-mus_spretus	proto.3-mus_spretus	Parvovirinae	Protoparvovirus	Classical	species			
-proto.11-monodelphis	11	fasta-refseqs-epv	reference	11	proto.11-monodelphis	proto.11-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.12-monodelphis	12	fasta-refseqs-epv	reference	12	proto.12-monodelphis	proto.12-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.13-monodelphis	13	fasta-refseqs-epv	reference	13	proto.13-monodelphis	proto.13-monodelphis	Parvovirinae	Protoparvovirus	Basal	species	Monodelphis domestica	Marsupials	
-proto.14-tamandua	13	fasta-refseqs-epv	reference	13	proto.14-tamandua	proto.14-tamandua	Parvovirinae	Protoparvovirus	Basal	species	Tamandua	Xenarthra	
+sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	intact orf(s)?	expressed?	nearest_upstream_orf	nearest_downstream_orf	human_chr	minimum_age_ortho	host_group_taxlevel	host_group_name	pubmed_id	insertion_name	insertion_full_name	virus_genus
+amdo.1-ellobius	1	fasta-refseqs-epv	reference	1					nk	nk			NK					amdo.1-ellobius	amdo.1-ellobius	Amdoparvovirus
+amdo.2-ellobius	2	fasta-refseqs-epv	reference	1					nk	nk			NK					amdo.2-ellobius	amdo.2-ellobius	Amdoparvovirus
+erythro.1-indri	1	fasta-refseqs-epv	reference	1					nk	nk			NK					erthryo.1-indri	erthryo.1-indri	Erythroparvovirus
+erythro.2-dolichotis	2	fasta-refseqs-epv	reference	1					nk	nk			NK					erthryo.2-dolichotis_patagonum	erthryo.2-dolichotis_patagonum	Erythroparvovirus
+proto.1-rattus-con	1	fasta-refseqs-epv	consensus	1					nk	nk			NK					proto.1-rattus	proto.1-rattus	Protoparvovirus
+proto.2-apodemus	2	fasta-refseqs-epv	reference	1					nk	nk			NK					proto.2-apodemus	proto.2-apodemus	Protoparvovirus
+proto.4-mus_spicilegus	4	fasta-refseqs-epv	reference	1					nk	nk			NK					proto.4-mus_spicilegus	proto.4-mus_spicilegus	Protoparvovirus
+proto.3-mus_spretus	3	fasta-refseqs-epv	reference	1					nk	nk			NK					proto.3-mus_spretus	proto.3-mus_spretus	Protoparvovirus
+proto.11-monodelphis	11	fasta-refseqs-epv	reference	1					nk	nk			NK		Monodelphis domestica	Monodelphis domestica		proto.11-monodelphis	proto.11-monodelphis	Protoparvovirus
+proto.12-monodelphis	12	fasta-refseqs-epv	reference	1					nk	nk			NK		Monodelphis domestica	Monodelphis domestica		proto.12-monodelphis	proto.12-monodelphis	Protoparvovirus
+proto.13-monodelphis	13	fasta-refseqs-epv	reference	1					nk	nk			NK		Monodelphis domestica	Monodelphis domestica		proto.13-monodelphis	proto.13-monodelphis	Protoparvovirus
+proto.14-tamandua	13	fasta-refseqs-epv	reference	1					nk	nk			NK		Tamandua	Tamandua		proto.14-tamandua	proto.14-tamandua	Protoparvovirus
+dependo.0-macropus-con	0	fasta-refseqs-epv			Dependo3	Mammals	Dependo3	Mammals	no	nk?	?	?	NK		species	Macropus eugenii	27377618	dependo.0-macropus	epv-dependo.0-macropus	Dependoparvovirus
+dependo.1-whippomorpha-con	1	fasta-refseqs-epv			Dependo2	Lemuria	Dependo4	Dependo4	no	nk?	PAX5	PAX5	NK	62	clade	Whippomorpha		dependo.1-whippomorpha	epv-dependo.1-whippomorpha	Dependoparvovirus
+dependo.2-vespertilionidae-con	2	fasta-refseqs-epv			Dependo3	Mammals	Dependo3	Mammals	no	nk	?	KIF6	NK		clade	Rhino-Vesper		dependo.2-rhinovesper-con	epv-dependo.2-rhinovespe	Dependoparvovirus
+dependo.3-lagomorpha-con	3	fasta-refseqs-epv			Dependo3	Glires	Dependo3	Mammals	no	Yes	NUP42	GPNMB	NK	51	order	Lagomorpha		dependo.3-lagomorpha	epv-dependo.3-lagomorpha	Dependoparvovirus
+dependo.4-rhinocerotidae-con	4	fasta-refseqs-epv			Dependo2	Lemuria	Dependo4	Dependo4	no	nk	CCDC85A	LOC101927213	ch2	27.9	family	Rhinocerotidae		dependo.4-rhinocerotidae	epv-dependo.4-rhinocerotidae	Dependoparvovirus
+dependo.5-rhinocerotidae-con	5	fasta-refseqs-epv			NULL	NULL	Dependo3	Dependoparvovirus-B	no	nk?	USP38	USP38	NK	27.9	family	Rhinocerotidae		dependo.5-rhinocerotidae	epv-dependo.5-rhinocerotidae	Dependoparvovirus
+dependo.6-elephantidae-con	6	fasta-refseqs-epv			Dependo3	Mammals	NULL	NULL	Rep	Yes	PIK3C3	CELF4	NK		species	Afrotheria		dependo.6-elephantidae	epv-dependo.6-elephantidae	Dependoparvovirus
+dependo.7-bradypus	7	fasta-refseqs-epv			Dependo3	Mammals	NULL	NULL	no	nk	?	?	NK		species	Bradypus		dependo.7-bradypus	epv-dependo.7-bradypus	Dependoparvovirus
+dependo.8-dasypus	8	fasta-refseqs-epv			NULL	NULL	Dependo3	Mammals	no	nk	PRR14L	KCNH8	NK		species	Dasypus		dependo.8-dasypus	epv-dependo.8-dasypus	Dependoparvovirus
+dependo.9-procavia	9	fasta-refseqs-epv			Dependo3	Glires	NULL	NULL	no	nk	NK	NK	NK		clade	Diprotodontia		dependo.8-dasypus	epv-dependo.8-dasypus	Dependoparvovirus
+dependo.10-diprotodontia-con	10	fasta-refseqs-epv			Dependo1	Sauria	NULL	NULL	no	nk	TPD52	TPD52	NK		clade	Diprotodontia		dependo.10-diprotodontia	epv-dependo.10-diprotodontia	Dependoparvovirus
+dependo.11-manis-con	11	fasta-refseqs-epv			Dependo3	Mammals	NULL	NULL	no	nk	NK	NK	NK		genus	Manis		dependo.11-manis	epv-dependo.11-manis	Dependoparvovirus
+dependo.12-orycteropus	12	fasta-refseqs-epv			Dependo3	Mammals	Dependo3	Mammals	no	nk	NK	NK	NK		species	Orycteropus		dependo.12-orycteropus	epv-dependo.12-orycteropus	Dependoparvovirus
+dependo.13-cercopithecidae-con	13	fasta-refseqs-epv			Dependo3	Dependoparvovirus-A	Dependo3	Mammals	Rep	nk	HUNK	MIS18A	NK	19.4	family	Cercopithecidae		dependo.13-cercopithecidae	epv-dependo.13-cercopithecidae	Dependoparvovirus
+dependo.14-cercopithecidae-con	14	fasta-refseqs-epv			Dependo3	Dependoparvovirus-A	NULL	NULL	no	nk	KRT6A	KRT6A	NK	19.4	family	Cercopithecidae		dependo.14-cercopithecidae	epv-dependo.14-cercopithecidae	Dependoparvovirus
+dependo.15-colobus	15	fasta-refseqs-epv			Dependo3	Dependoparvovirus-A	NULL	NULL	no	nk	ENSCAN	GAP43	NK	19.4	species	Colobus		dependo.15-cercopithecidae	epv-dependo.15-cercopithecidae	Dependoparvovirus
+dependo.16-canid-con	16	fasta-refseqs-epv			NULL	NULL	Dependo4	Dependo4	no	nk	SPATS2L	MAIP1	NK		family	Canidae		dependo.16-canid	epv-dependo.16-canid	Dependoparvovirus
+dependo.17-carnivore-con	17	fasta-refseqs-epv			Dependo1	Sauria	NULL	NULL	no	nk	NK	NK	NK		clade	pinniped-mustelid		dependo.17-carnivore	epv-dependo.17-carnivore-con	Dependoparvovirus
+dependo.20-laurasiatheria-con	20	fasta-refseqs-epv			Dependo1	Sauria	NULL	NULL	no	nk	GGT5	GGT5	NK		superorder	Laurasiatheria		dependo.20-laurasiatheria	epv-dependo.20-laurasiatheria-con	Dependoparvovirus
+dependo.22-laurasiatheria-con	22	fasta-refseqs-epv			Dependo1	Sauria	NULL	NULL	no	nk	PCDH19  	DIAPH2	NK	62	superorder	Laurasiatheria		dependo.22-laurasiatheria	epv-dependo.22-laurasiatheria	Dependoparvovirus
+dependo.23-camelidae-con	23	fasta-refseqs-epv			NULL	NULL	Dependo4	Dependo4	no	nk	PNRC2 	RIDA	NK	11.7	family	Camelidae	26037535	dependo.23-camelidae-con	epv-dependo.23-camelidae-con	Dependoparvovirus
+dependo.26-lemuridae-con	26	fasta-refseqs-epv			NULL	NULL	Dependo4	Dependo4	no	nk	ENSPSMG00000005325	ACAD8	NK	55	family	Lemuridae	15085543	dependo.26-lemuridae	epv-dependo.26-lemuridae	Dependoparvovirus
+dependo.27-eulemur-con	27	fasta-refseqs-epv			Dependo3	Prosimian	NULL	NULL	no	nk	NK	NK	NK		genus	Eulemur		dependo.27-eulemur	epv-dependo.27-eulemur	Dependoparvovirus
+dependo.28-daubentonia-con	28	fasta-refseqs-epv			Dependo2	Lemuria	Dependo4	Dependo4	no	nk	NK	NK	NK		genus	Daubentonia		dependo.28-daubentonia	epv-dependo.28-daubentonia	Dependoparvovirus
+dependo.31-chiroptera-con	31	fasta-refseqs-epv			NK	NK	Dependo4	Dependo4	no	nk	NK	NK	NK		order	Chiroptera		dependo.31-chiroptera-con	dependo.31-chiroptera-con	Dependoparvovirus
+dependo.32-chiroptera-con	32	fasta-refseqs-epv			Dependo2	Lemuria	Dependo4	Dependo4	no	nk	NK	NK	NK		order	Chiroptera		dependo.32-chiroptera-con	dependo.32-chiroptera-con	Dependoparvovirus
+dependo.33-pteropodidae-con	33	fasta-refseqs-epv			Dependo2	Lemuria	NK	NK	no	nk	NK	NK	NK		family	Pteropodidae		dependo.33-pteropodidae-con	dependo.33-pteropodidae	Dependoparvovirus
+dependo.35-vespertilionidae-con	35	fasta-refseqs-epv			Dependo3	Mammals	Dependo3	Mammals	no	nk	NK	NK	NK		family	Vespertilionidae		dependo.35-vespertilionidae	dependo.35-vespertilionidae-con	Dependoparvovirus
+dependo.36-vespertilionidae-con	36	fasta-refseqs-epv			Dependo1	Sauria	NULL	NULL	no	nk	NK	NK	NK		family	Vespertilionidae		dependo.36-vespertilionidae	dependo.36-vespertilionidae-con	Dependoparvovirus
+dependo.39-phyllostomidae-con	39	fasta-refseqs-epv			Dependo2	Lemuria	NK	NK	no	nk	NK	NK	NK		family	Phyllostomidae		dependo.38-phyllostomidae	epv-dependo.39-phyllostomidae	Dependoparvovirus
+dependo.40-phyllostomidae-con	40	fasta-refseqs-epv			Dependo2	Lemuria	NK	NK	no	nk	NK	NK	NK		family	Phyllostomidae		dependo.40-phyllostomidae	epv-dependo.40-phyllostomidae	Dependoparvovirus
+dependo.42-chinchilla	43	fasta-refseqs-epv			Dependo3	Glires	NULL	NULL	Rep	nk	NK	NK	NK		genus	Octodon		dependo.42-octodon	epv-dependo.42-octodon	Dependoparvovirus
+dependo.43-octodon	43	fasta-refseqs-epv			Dependo3	Glires	NULL	NULL	Rep	Yes	NK	NK	NK		genus	Chinchilla		dependo.43-chinchilla	epv-dependo.43-chinchilla	Dependoparvovirus
+dependo.44-bathyergidae-con	44	fasta-refseqs-epv			NK	NK	NULL	NULL	no	nk	RPS12 	EYA4	NK	34	family	Bathyergidae		dependo.44-bathyergidae	epv-dependo.44-bathyergidae	Dependoparvovirus
+dependo.45-rodent-con	45	fasta-refseqs-epv			Dependo3	Glires	NULL	NULL	no	nk	RPS12/SLC18B1	EYA4	NK		order	Rodents		dependo.45-rodent	epv-dependo.45-rodent	Dependoparvovirus
+dependo.46-gliridae-con	46	fasta-refseqs-epv			Dependo3	Mammals	Dependo3	Mammals	no	nk	?	?	NK		family	Gliridae		dependo.46-glires	epv-dependo.46-glires	Dependoparvovirus
+dependo.48-rodent-con	46	fasta-refseqs-epv			Dependo3	Mammals	NK	NK	no	nk	?	?	NK		order	Rodents		dependo.48-glires	epv-dependo.48-glires	Dependoparvovirus
+dependo.51-muridae-con	51	fasta-refseqs-epv			NULL	NULL	NK	NK	no	nk	Snx16	Raly1	NK		genus	Mus		dependo.51-muridae	epv-dependo.51-muridae	Dependoparvovirus
+dependo.53-cavidae-con	53	fasta-refseqs-epv			Dependo3	Glires	NULL	NULL	no	nk	NK	NK	NK		family	Cavidae		dependo.53-cavidae	epv-dependo.53-cavidae	Dependoparvovirus
+dependo.54-cavidae-con	54	fasta-refseqs-epv			Dependo3	Glires	NK	NK	no	nk	RBFOX2	Myo9-copy	NK		family	Cavidae		dependo.53-cavidae	epv-dependo.53-cavidae	Dependoparvovirus
+dependo.56-cavidae-con	56	fasta-refseqs-epv			Dependo3	Glires	NULL	NULL	no	nk	TRAT1	MORC1	NK		family	Cavidae		dependo.53-cavidae	epv-dependo.53-cavidae	Dependoparvovirus
+dependo.57-ornithorhynchus	57	fasta-refseqs-epv			Dependo2	Lemuria	NULL	NULL	no	nk	NK	NK	NK		species	Ornithorhynchus		dependo.57-ornithorhynchus	epv-dependo.57-ornithorhynchus	Dependoparvovirus
+dependo.58-ornithorhynchus	58	fasta-refseqs-epv			Dependo1	Sauria	NULL	NULL	no	nk	NK	NK	NK		species	Ornithorhynchus		dependo.58-ornithorhynchus	epv-dependo.58-ornithorhynchus	Dependoparvovirus
+dependo.59-ornithorhynchus	59	fasta-refseqs-epv			Dependo2	Lemuria	NULL	NULL	no	nk	TBC1D32	ENSOANG00000014187	NK		species	Ornithorhynchus		dependo.59-ornithorhynchus	epv-dependo.59-ornithorhynchus	Dependoparvovirus
+dependo.60-sarcophilus	60	fasta-refseqs-epv			NK	NK	NULL	NULL	no	nk	ENSSHAG00000008910	ts	NK		species	Diprotodontia		dependo.60-sarcophilus	epv-dependo.60-sarcophilus	Dependoparvovirus
+dependo.61-sarcophilus	61	fasta-refseqs-epv			NK	NK	NULL	NULL	no	nk	ENSSHAG00000016096 (myoneurin)	ENSSHAG00000017014	NK		order	Diprotodontia		dependo.61-sarcophilus	epv-dependo.61-sarcophilus	Dependoparvovirus
+dependo.62-sarcophilus	62	fasta-refseqs-epv			NK	NK	NULL	NULL	no	nk	ts	IGSF11	NK		order	Diprotodontia		dependo.62-sarcophilus	epv-dependo.62-sarcophilus	Dependoparvovirus
+dependo.65-passeriformes-con	65	fasta-refseqs-epv			Dependo2	NK	NULL	NULL	no	nk	NK	NK	NK		order	Passeriformes		dependo.65-passeriformes	epv-dependo.65-passeriformes	Dependoparvovirus
+dependo.66-passeriformes-con	66	fasta-refseqs-epv			Dependo2	NK	NULL	NULL	no	nk	NK	NK	NK		order	Passeriformes		dependo.66-passeriformes	epv-dependo.66-passeriformes	Dependoparvovirus
+dependo.500-eHV.carlito	500	fasta-refseqs-epv			Herpesvirus	Betaherpes	NULL	NULL	no	nk	NK	NK	NK		genus	Betaherpes		dependo.500-eHV.carlito	epv-dependo.500-eHV.carlito	Dependoparvovirus

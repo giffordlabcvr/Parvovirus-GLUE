@@ -30,7 +30,7 @@ project parvoviridae
   run file glue/eve/epvRecordFeaturePresence.glue
 
   # Create the EVE phylogenies (reference sequences & EVEs)
-  run file glue/eve/epvCreateRootPhylogenies.glue
+  #run file glue/eve/epvCreateRootPhylogenies.glue
   
   # Validate
   validate
