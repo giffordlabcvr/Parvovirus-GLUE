@@ -56,9 +56,6 @@ REF_Dependo_MDPV	VP1	2450	4648
 REF_Erythro_MASTER_B19	whole_genome	1	5596
 REF_Erythro_MASTER_B19	Rep78	616	2631
 REF_Erythro_MASTER_B19	VP1	2624	4969
-REF_Erythro_Chipmunk-PV	whole_genome	1	5097
-REF_Erythro_Chipmunk-PV	Rep78	198	2333
-REF_Erythro_Chipmunk-PV	VP1	2511	5000
 REF_Proto_HamsterPV	whole_genome	1	4773
 REF_Proto_HamsterPV	Rep78	122	2140
 REF_Proto_HamsterPV	VP1	2664	4427

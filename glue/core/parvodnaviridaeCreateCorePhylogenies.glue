@@ -21,8 +21,7 @@
   create module -f modules/core/parvoviridaeFigTreeAnnotationExporter.xml
   create module -f modules/core/parvoviridaeFeaturePresenceRecorder.xml
 
-  create module -f modules/core/alignmentColumnsSelectorParvoRep78.xml
-  create module -f modules/core/alignmentColumnsSelectorParvoVP1.xml  
+  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
   create module -f modules/core/alignmentColumnsSelectorAmdoRep78.xml
   create module -f modules/core/alignmentColumnsSelectorAmdoVP1.xml
   create module -f modules/core/alignmentColumnsSelectorProtoRep78.xml
@@ -54,7 +53,7 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_Parvovirinae -s alignmentColumnsSelectorParvoRep78 \
+    #generate nucleotide phylogeny AL_TREE_Parvovirinae -s alignmentColumnsSelectorParvovirinaeRep78 \
     #  -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
     #  -o trees/core/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
 

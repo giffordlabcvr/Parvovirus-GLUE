@@ -30,7 +30,7 @@ project parvoviridae
   run file glue/core/parvoviridaeRecordFeaturePresence.glue
 
   # Create the core phylogenies (reference sequences only)
-  run file glue/core/parvodnaviridaeCreateCorePhylogenies.glue
+  #run file glue/core/parvodnaviridaeCreateCorePhylogenies.glue
   
   # Validate
   validate
