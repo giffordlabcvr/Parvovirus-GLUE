@@ -74,9 +74,10 @@ NC_005889	BAAV	Bovine adeno-associated virus		Parvovirinae	Dependoparvovirus
 NC_006263	AvAAV-da1	Avian adeno-associated virus strain DA-1		Parvovirinae	Dependoparvovirus	
 NC_014468	AAV-bat	Bat adeno-associated virus YNM		Parvovirinae	Dependoparvovirus	
 NC_038539	AAV-sealion	California sea lion adeno-associated virus 1		Parvovirinae	Dependoparvovirus	
+FJ688147	AAVpo1	Porcine AAV1	Sus scrofa	Parvovirinae	Dependoparvovirus	
 NC_040671	AvAAV-mhh	Avian adeno-associated virus isolate MHH-05-2015		Parvovirinae	Dependoparvovirus	
 AF406967	Bovine-PV-3	Bovine parvovirus 3	Bos taurus	Parvovirinae	Erythroparvovirus	
-EyPV-Giraffa_tippelskirchi.1	EyPV-Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Giraffa tippelskirchi	Parvovirinae	Erythroparvovirus	
+ErthryoPV-Giraffe-1	EyPV-Giraffa_tippelskirchi.1	Giraffa_tippelskirchi.1	Giraffa tippelskirchi	Parvovirinae	Erythroparvovirus	
 NC_000883	B19	Human parvovirus B19	Homo sapiens	Parvovirinae	Erythroparvovirus	
 NC_004295	V9	Human parvovirus V9	Homo sapiens	Parvovirinae	Erythroparvovirus	
 U26342	Simian-PV	Simian parvovirus	Macaca fascicularis	Parvovirinae	Erythroparvovirus	

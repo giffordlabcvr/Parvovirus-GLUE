@@ -1,5 +1,5 @@
   # Clean up from any previous run of this file
-  delete alignment AL_TREE_Parvoviridae
+  delete alignment AL_TREE_Parvovirinae
 
   delete module fastaAlignmentExporter
   delete module raxmlPhylogenyGenerator
@@ -8,7 +8,7 @@
   delete module parvoviridaeFeaturePresenceRecorder
   delete module parvoviridaeTreeAlignmentImporterNucs
   
-  delete module alignmentColumnsSelectorParvoviridaeRoot
+  delete module alignmentColumnsSelectorParvovirinaeRoot
   delete module alignmentColumnsSelectorParvovirinaeRep78
   
   # Create all the modules we need
@@ -23,25 +23,25 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
- 	export AL_Parvoviridae_MASTER -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvoviridae-all.aln.fna
+ 	export AL_Parvovirinae_MASTER -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvovirinae-all.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_EVE_TREE_Parvoviridae -f alignments/tree/Parvoviridae-all.aln.fna
-  create alignment AL_EVE_TREE_Parvoviridae -r REF_Proto_MASTER_CPV
+  module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_EVE_TREE_Parvovirinae -f alignments/tree/Parvovirinae-all.aln.fna
+  create alignment AL_EVE_TREE_Parvovirinae -r REF_Proto_MASTER_CPV
 
-  alignment AL_EVE_TREE_Parvoviridae
-	derive segments AL_UNC_EVE_TREE_Parvoviridae -a --mergeStrategy OVERWRITE
+  alignment AL_EVE_TREE_Parvovirinae
+	derive segments AL_PARVOVIRINAE_UNC -a --mergeStrategy OVERWRITE
 	exit
 
   module parvoviridaeFeaturePresenceRecorder
-    record feature-presence AL_EVE_TREE_Parvoviridae --featureName whole_genome --descendentFeatures
+    record feature-presence AL_EVE_TREE_Parvovirinae --featureName whole_genome --descendentFeatures
     exit
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_EVE_TREE_Parvoviridae -s alignmentColumnsSelectorParvovirinaeRep78 \
+    generate nucleotide phylogeny AL_EVE_TREE_Parvovirinae -s alignmentColumnsSelectorParvovirinaeRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
       -o trees/eve/Parvo-Rep78-EVE.export_nucs.tre NEWICK_BOOTSTRAPS      
     exit
@@ -57,7 +57,7 @@
 
   # Export annotations
   module parvoviridaeFigTreeAnnotationExporter   
-    export figtree-annotation AL_EVE_TREE_Parvoviridae -w \
+    export figtree-annotation AL_EVE_TREE_Parvovirinae -w \
     "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
     -f trees/eve/Parvo-root-Rep78-EVE.figtree-annotations.tsv
     exit

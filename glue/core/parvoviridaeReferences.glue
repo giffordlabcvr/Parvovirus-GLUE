@@ -53,7 +53,6 @@
 
   # Erythroparvovirus
   create reference REF_Erythro_MASTER_B19   ncbi-refseqs NC_000883
-  create reference REF_Erythro_Chipmunk-PV  ncbi-refseqs U86868
   create reference REF_PMPV                 ncbi-refseqs AF221123
   create reference REF_BPV3                 ncbi-refseqs AF406967
 
