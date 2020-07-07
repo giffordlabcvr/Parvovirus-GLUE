@@ -1,0 +1,48 @@
+  # Clean up from any previous run of this file
+  delete alignment AL_TREE_Parvovirinae
+
+  delete module fastaAlignmentExporter
+  delete module raxmlPhylogenyGenerator
+  delete module parvoviridaePhyloUtility
+  delete module parvoviridaeFigTreeAnnotationExporter
+  delete module parvoviridaeFeaturePresenceRecorder
+  delete module parvoviridaeTreeAlignmentImporterNucs 
+  delete module alignmentColumnsSelectorParvovirinaeRoot
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/parvoviridaeTreeAlignmentImporterNucs.xml
+  create module -f modules/core/parvoviridaePhyloUtility.xml
+  create module -f modules/core/parvoviridaeFigTreeAnnotationExporter.xml
+  create module -f modules/core/parvoviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
+  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
+
+
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter
+ 	export AL_Parvovirinae -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvovirinae-all.aln.fna
+	exit
+
+  # Re-import the recursively populated root alignment into the project
+  module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_TREE_Parvovirinae -f alignments/tree/Parvovirinae-all.aln.fna
+  create alignment AL_TREE_Parvovirinae -r REF_Proto_MASTER_CPV
+  
+  alignment AL_TREE_Parvovirinae
+	derive segments AL_UNC_TREE_Parvovirinae -a --mergeStrategy OVERWRITE
+	exit
+	
+  module parvoviridaeFeaturePresenceRecorder
+    record feature-presence AL_TREE_Parvovirinae --featureName whole_genome --descendentFeatures
+    exit
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    #generate nucleotide phylogeny AL_TREE_Parvovirinae -s alignmentColumnsSelectorParvovirinaeRep78 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+    #  -o trees/core/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    exit
