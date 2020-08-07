@@ -35,7 +35,6 @@ for(var i = 0; i < source_names.length; i++) {
 	}
 }
 
-
 // Get alignments
 var myAlignments = get_alignments()
 
@@ -81,7 +80,7 @@ function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary
 	  var ref_nuc  = resultObj1.refNt;	
 	  var codon    = resultObj1.codonNts;	
 
-	  glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
+	  //glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
 
 	  fasta_aa     = fasta_aa+amino1;
 	  fasta_codons = fasta_codons+codon;
