@@ -1,0 +1,182 @@
+  ### Exogenous viruses
+
+  ## Parvovirinae 
+ 
+  create reference REF_Ave_MASTER_ChPV            ncbi-refseqs NC_024452
+  create reference REF_Boca_MASTER_BPV            ncbi-refseqs NC_001540
+  create reference REF_Dependo_MASTER_AAV2        ncbi-refseqs NC_001401
+  create reference REF_Proto_MASTER_CPV           ncbi-refseqs NC_001539
+  create reference REF_Amdo_MASTER_AMDV           ncbi-refseqs NC_001662
+  create reference REF_Erythro_MASTER_B19         ncbi-refseqs NC_000883
+  create reference REF_Copi_MASTER_BPV2           ncbi-refseqs NC_006259
+  create reference REF_Copi_PPV6                  ncbi-refseqs NC_023860
+  create reference REF_Tetra_MASTER_EhBtPV1       ncbi-refseqs NC_016744
+  create reference REF_Ambidenso_MASTER_JcDNV     ncbi-refseqs NC_004284
+  create reference REF_Ambidenso_PfDNV            ncbi-refseqs NC_000936
+  create reference REF_Iteradenso_MASTER_BmDNV-5  ncbi-refseqs NC_004287
+  create reference REF_Hepandenso_MASTER_FCDNV    ncbi-refseqs NC_014357
+  create reference REF_Brevidenso_MASTER_AalDNV-2 ncbi-refseqs NC_004285
+  create reference REF_Penstyldenso_MASTER_IHHN   ncbi-refseqs NC_002190
+  create reference REF_Chappa_MASTER_PPV7         ncbi-refseqs NC_040562
+
+
+
+
+  # Add feature locations to genus master reference sequences
+
+  reference REF_Ave_MASTER_ChPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5257
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 411 2495
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2998 5025
+	  exit
+    
+    exit
+
+
+  reference REF_Amdo_MASTER_AMDV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4801
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 206 1978
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2406 4349
+	  exit
+    
+    exit
+
+
+  reference REF_Boca_MASTER_BPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5517
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 740 2920
+	  exit
+
+ 	add feature-location M
+	feature-location M
+	  add segment 2661 3302
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 3286 5307
+	  exit
+   
+    exit
+
+
+  reference REF_Proto_MASTER_CPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5323
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 130
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 272 2278
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2285 4540
+	  exit
+   
+    exit
+
+
+  reference REF_Tetra_MASTER_EhBtPV1
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5065
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 174 2252
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2279 5038
+	  exit
+   
+    exit
+
+
+
+  reference REF_Erythro_MASTER_B19
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5596
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 616 2631
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2624 4969
+	  exit
+   
+    exit
+
+
+
+  reference REF_Hepandenso_MASTER_FCDNV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 6085
+	  exit
+
+ 	add feature-location NS1
+	feature-location NS1
+	  add segment 62 1345
+	  exit
+
+ 	add feature-location NS2
+	feature-location NS2
+	  add segment 1330 1345
+	  exit
+
+ 	add feature-location CP
+	feature-location CP
+	  add segment 3493 4800
+	  exit
+   
+    exit
+

@@ -17,10 +17,7 @@ project parvoviridae
   run file glue/core/parvoviridaeFeatures.glue
 
   # Declare reference sequences
-  run file glue/core/parvoviridaeReferences.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/core/reference_feature_locations.tsv -r
+  run file glue/core/parvoviridaeMasterReferences.glue
 
   # Import alignments and build constrained alignment tree
   run file glue/core/parvoviridaeAlignments.glue
