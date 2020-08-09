@@ -3,17 +3,13 @@
   ## Parvovirinae 
  
   # Aveparvovirus
-  create reference REF_Ave_MASTER_ChPV      ncbi-refseqs NC_024452
-
  
   # Bocaparvovirus	
-  create reference REF_Boca_MASTER_BPV      ncbi-refseqs NC_001540
   create reference REF_Boca_PBoV            ncbi-refseqs NC_024453
   create reference REF_Boca_CMV             ncbi-refseqs NC_004442
 
   
   # Dependoparvovirus
-  create reference REF_Dependo_MASTER_AAV2  ncbi-refseqs NC_001401
   create reference REF_Dependo_SnakePV      ncbi-refseqs NC_006148
   create reference REF_Dependo_BdrPV        ncbi-refseqs NC_027429
   create reference REF_Dependo_MDPV         ncbi-refseqs NC_006147 # Duck
@@ -38,7 +34,6 @@
 
 
   # Protoparvovirus
-  create reference REF_Proto_MASTER_CPV     ncbi-refseqs NC_001539
   create reference REF_Proto_MVM1           ncbi-refseqs NC_001510
   create reference REF_Proto_PPV            ncbi-refseqs NC_001718
   create reference REF_Proto_HamsterPV      ncbi-refseqs U34255
@@ -48,42 +43,32 @@
 
 
   # Amdoparvovirus
-  create reference REF_Amdo_MASTER_AMDV     ncbi-refseqs NC_001662
-
 
   # Erythroparvovirus
-  create reference REF_Erythro_MASTER_B19   ncbi-refseqs NC_000883
   create reference REF_PMPV                 ncbi-refseqs AF221123
   create reference REF_BPV3                 ncbi-refseqs AF406967
 
   # Copiparvovirus
-  create reference REF_Copi_MASTER_BPV2     ncbi-refseqs NC_006259
   create reference REF_Copi_PPV6            ncbi-refseqs NC_023860
 
   
   # Tetraparvovirus
-  create reference REF_Tetra_MASTER_EhBtPV1 ncbi-refseqs NC_016744
   
 
   ## Densovirinae
   
   # Ambidensovirus
-  create reference REF_Ambidenso_MASTER_JcDNV     ncbi-refseqs NC_004284
   create reference REF_Ambidenso_PfDNV            ncbi-refseqs NC_000936
 
   # Iteradensovirus
-  create reference REF_Iteradenso_MASTER_BmDNV-5  ncbi-refseqs NC_004287
 
   ## Epiparvovirinae
  
   # Hepandensovirus
-  create reference REF_Hepandenso_MASTER_FCDNV    ncbi-refseqs NC_014357
  
   # Brevidensovirus
-  create reference REF_Brevidenso_MASTER_AalDNV-2 ncbi-refseqs NC_004285
  
   # Penstyldensovirus
-  create reference REF_Penstyldenso_MASTER_IHHN   ncbi-refseqs NC_002190
  
   # Chapparvoviruses 
   create reference REF_Chappa_MASTER_PPV7         ncbi-refseqs NC_040562
