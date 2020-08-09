@@ -170,7 +170,7 @@
 
  	add feature-location NS2
 	feature-location NS2
-	  add segment 1330 1345
+	  add segment 1330 1344
 	  exit
 
  	add feature-location CP
