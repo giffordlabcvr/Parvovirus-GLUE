@@ -30,8 +30,21 @@ project parvoviridae
   run file glue/eve/epvRecordFeaturePresence.glue
 
   # Create the EVE phylogenies (reference sequences & EVEs)
-  #run file glue/eve/epvCreateRootPhylogenies.glue
-  
+  run file glue/eve/epvCreateRootPhylogenies.glue
+
+  # Export annotations
+  run file glue/eve/epvExportRootPhylogenyAnnotations.glue
+
+  # Set up constrained alignment tree for orthologs
+  run file glue/eve/epvAlignmentTreeDigs.glue
+
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/eve/epvDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/eve/epvCreateTipPhylogenies.js
+
+ 
   # Validate
   validate
 

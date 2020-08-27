@@ -1,0 +1,9 @@
+  delete module parvoviridaeFigTreeAnnotationExporter
+  create module -f modules/parvoviridaeFigTreeAnnotationExporter.xml
+
+  # Export annotations
+  module parvoviridaeFigTreeAnnotationExporter   
+    export figtree-annotation AL_EVE_TREE_Parvovirinae -w \
+    "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+    -f trees/eve/Parvo-root-Rep78-EVE.figtree-annotations.tsv
+    exit
