@@ -1,0 +1,39 @@
+project aav
+
+  # load project settings
+  run file glue/core/projectSettings.glue
+
+  # create modules
+  run file glue/core/aavModules.glue
+
+  # Import NCBI reference sequences 
+  import source sources/ncbi-refseqs
+ 
+  # Import data 
+  run file glue/core/aavLoadVirusData.glue
+
+  # Define genome features
+  run file glue/core/aavFeatures.glue
+
+  # Declare reference sequences
+  run file glue/core/aavReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/core/aav-refseq-feature-locations.tsv -r
+
+  # Import alignments 
+  run file glue/core/aavAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/core/aavAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/core/aavRecordFeaturePresence.glue
+
+  # Create phylogenies
+  #run file glue/core/aavCreateRootPhylogenies.glue
+
+  # Validate
+  validate
+
+  exit

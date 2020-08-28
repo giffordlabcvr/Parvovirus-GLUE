@@ -1,0 +1,246 @@
+### Clean up old alignment build
+
+delete module fastaAlignmentExporter
+
+#~# Dependoparvoviruses
+
+delete alignment AL_EPV-dependo.1-macropus
+delete alignment AL_EPV-dependo.2-sarcophilus
+delete alignment AL_EPV-dependo.3-diprotodontia
+delete alignment AL_EPV-dependo.10-whippomorpha
+delete alignment AL_EPV-dependo.26-lemuridae
+delete alignment AL_EPV-dependo.28-anoura
+delete alignment AL_EPV-dependo.29-carollia
+delete alignment AL_EPV-dependo.30-desmodus
+delete alignment AL_EPV-dependo.31-hipposideridae
+delete alignment AL_EPV-dependo.32-mormoops
+delete alignment AL_EPV-dependo.33-pipistrellus
+delete alignment AL_EPV-dependo.34-pteropodidae
+delete alignment AL_EPV-dependo.35-rhinolophoidea
+delete alignment AL_EPV-dependo.36-tonatia
+delete alignment AL_EPV-dependo.37-vespertilionidae
+delete alignment AL_EPV-dependo.41-bathyergidae
+delete alignment AL_EPV-dependo.42-cavid
+delete alignment AL_EPV-dependo.43-chinchilla
+delete alignment AL_EPV-dependo.44-heterocephalus
+delete alignment AL_EPV-dependo.45-octodontidae
+delete alignment AL_EPV-dependo.47-gliridae
+delete alignment AL_EPV-dependo.48-ellobius
+delete alignment AL_EPV-dependo.49-meriones
+delete alignment AL_EPV-dependo.50-mus
+delete alignment AL_EPV-dependo.51-rattus
+delete alignment AL_EPV-dependo.52-apodemus
+delete alignment AL_EPV-dependo.53-cricetidae
+
+delete source dependo.1-macropus
+delete source dependo.2-sarcophilus
+delete source dependo.3-diprotodontia
+delete source dependo.10-whippomorpha
+delete source dependo.26-lemuridae
+delete source dependo.28-anoura
+delete source dependo.29-carollia
+delete source dependo.30-desmodus
+delete source dependo.31-hipposideridae
+delete source dependo.32-mormoops
+delete source dependo.33-pipistrellus
+delete source dependo.34-pteropodidae
+delete source dependo.35-rhinolophoidea
+delete source dependo.36-tonatia
+delete source dependo.37-vespertilionidae
+delete source dependo.34-pteropodidae
+delete source dependo.41-bathyergidae
+delete source dependo.42-cavid
+delete source dependo.43-chinchilla
+delete source dependo.44-heterocephalus
+delete source dependo.45-octodontidae
+delete source dependo.47-gliridae
+delete source dependo.48-ellobius
+delete source dependo.49-meriones
+delete source dependo.50-mus
+delete source dependo.51-rattus
+delete source dependo.52-apodemus
+delete source dependo.53-cricetidae
+
+
+### CREATE MODULES
+
+create module -f modules/fastaAlignmentExporter.xml
+
+### CREATE ALIGNMENTS
+
+#~# Dependoparvoviruses
+
+# Import sources for alignment
+import source sources/fasta-epv-bygroup/dependo/dependo.1-macropus/
+import source sources/fasta-epv-bygroup/dependo/dependo.2-sarcophilus/
+import source sources/fasta-epv-bygroup/dependo/dependo.3-diprotodontia/
+import source sources/fasta-epv-bygroup/dependo/dependo.10-whippomorpha/
+import source sources/fasta-epv-bygroup/dependo/dependo.26-lemuridae/
+import source sources/fasta-epv-bygroup/dependo/dependo.28-anoura/
+import source sources/fasta-epv-bygroup/dependo/dependo.29-carollia/
+import source sources/fasta-epv-bygroup/dependo/dependo.30-desmodus/
+import source sources/fasta-epv-bygroup/dependo/dependo.31-hipposideridae/
+import source sources/fasta-epv-bygroup/dependo/dependo.32-mormoops/
+import source sources/fasta-epv-bygroup/dependo/dependo.33-pipistrellus/
+import source sources/fasta-epv-bygroup/dependo/dependo.34-pteropodidae/
+import source sources/fasta-epv-bygroup/dependo/dependo.35-rhinolophoidea/
+import source sources/fasta-epv-bygroup/dependo/dependo.36-tonatia/
+import source sources/fasta-epv-bygroup/dependo/dependo.37-vespertilionidae/
+import source sources/fasta-epv-bygroup/dependo/dependo.41-bathyergidae
+import source sources/fasta-epv-bygroup/dependo/dependo.42-cavid
+import source sources/fasta-epv-bygroup/dependo/dependo.43-chinchilla
+import source sources/fasta-epv-bygroup/dependo/dependo.44-heterocephalus
+import source sources/fasta-epv-bygroup/dependo/dependo.45-octodontidae
+import source sources/fasta-epv-bygroup/dependo/dependo.47-gliridae
+import source sources/fasta-epv-bygroup/dependo/dependo.48-ellobius
+import source sources/fasta-epv-bygroup/dependo/dependo.49-meriones
+import source sources/fasta-epv-bygroup/dependo/dependo.50-mus
+import source sources/fasta-epv-bygroup/dependo/dependo.51-rattus
+import source sources/fasta-epv-bygroup/dependo/dependo.52-apodemus
+import source sources/fasta-epv-bygroup/dependo/dependo.53-cricetidae
+
+# Create alignments
+
+create alignment AL_EPV-dependo.1-macropus -r REF_dependo.1-macropus 
+alignment AL_EPV-dependo.1-macropus add member --whereClause "source.name = 'dependo.1-macropus'"
+compute alignment AL_EPV-dependo.1-macropus --whereClause "sequence.source = 'dependo.1-macropus'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-dependo.2-sarcophilus -r REF_dependo.1-macropus 
+alignment AL_EPV-dependo.2-sarcophilus add member --whereClause "source.name = 'dependo.2-sarcophilus'"
+compute alignment AL_EPV-dependo.2-sarcophilus --whereClause "sequence.source = 'dependo.2-sarcophilus'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-dependo.3-diprotodontia -r REF_dependo.1-macropus 
+alignment AL_EPV-dependo.3-diprotodontia add member --whereClause "source.name = 'dependo.3-diprotodontia'"
+compute alignment AL_EPV-dependo.3-diprotodontia --whereClause "sequence.source = 'dependo.3-diprotodontia'" parvoviridaeCompoundAligner 
+
+create alignment AL_EPV-dependo.10-whippomorpha -r REF_dependo.10-whippomorpha 
+alignment AL_EPV-dependo.10-whippomorpha add member --whereClause "source.name = 'dependo.10-whippomorpha'"
+compute alignment AL_EPV-dependo.10-whippomorpha --whereClause "sequence.source = 'dependo.10-whippomorpha'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.26-lemuridae -r REF_dependo.10-whippomorpha 
+alignment AL_EPV-dependo.26-lemuridae add member --whereClause "source.name = 'dependo.26-lemuridae'"
+compute alignment AL_EPV-dependo.26-lemuridae --whereClause "sequence.source = 'dependo.26-lemuridae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.28-anoura -r REF_AAV5
+alignment AL_EPV-dependo.28-anoura add member --whereClause "source.name = 'dependo.28-anoura'"
+compute alignment AL_EPV-dependo.28-anoura --whereClause "sequence.source = 'dependo.28-anoura'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.29-carollia -r REF_AAV5
+alignment AL_EPV-dependo.29-carollia add member --whereClause "source.name = 'dependo.29-carollia'"
+compute alignment AL_EPV-dependo.29-carollia --whereClause "sequence.source = 'dependo.29-carollia'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.30-desmodus -r REF_AAV5
+alignment AL_EPV-dependo.30-desmodus add member --whereClause "source.name = 'dependo.30-desmodus'"
+compute alignment AL_EPV-dependo.30-desmodus --whereClause "sequence.source = 'dependo.30-desmodus'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.31-hipposideridae -r REF_AAV5
+alignment AL_EPV-dependo.31-hipposideridae add member --whereClause "source.name = 'dependo.31-hipposideridae'"
+compute alignment AL_EPV-dependo.31-hipposideridae --whereClause "sequence.source = 'dependo.31-hipposideridae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.32-mormoops -r REF_AAV5
+alignment AL_EPV-dependo.32-mormoops add member --whereClause "source.name = 'dependo.32-mormoops'"
+compute alignment AL_EPV-dependo.32-mormoops --whereClause "sequence.source = 'dependo.32-mormoops'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.33-pipistrellus -r REF_AAV5
+alignment AL_EPV-dependo.33-pipistrellus add member --whereClause "source.name = 'dependo.33-pipistrellus'"
+compute alignment AL_EPV-dependo.33-pipistrellus --whereClause "sequence.source = 'dependo.33-pipistrellus'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.35-rhinolophoidea -r REF_AAV5
+alignment AL_EPV-dependo.35-rhinolophoidea add member --whereClause "source.name = 'dependo.35-rhinolophoidea'"
+compute alignment AL_EPV-dependo.35-rhinolophoidea --whereClause "sequence.source = 'dependo.35-rhinolophoidea'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.34-pteropodidae -r REF_AAV5
+alignment AL_EPV-dependo.34-pteropodidae add member --whereClause "source.name = 'dependo.34-pteropodidae'"
+compute alignment AL_EPV-dependo.34-pteropodidae --whereClause "sequence.source = 'dependo.34-pteropodidae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.36-tonatia -r REF_AAV5
+alignment AL_EPV-dependo.36-tonatia add member --whereClause "source.name = 'dependo.36-tonatia'"
+compute alignment AL_EPV-dependo.36-tonatia --whereClause "sequence.source = 'dependo.36-tonatia'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.37-vespertilionidae -r REF_AAV5
+alignment AL_EPV-dependo.37-vespertilionidae add member --whereClause "source.name = 'dependo.37-vespertilionidae'"
+compute alignment AL_EPV-dependo.37-vespertilionidae --whereClause "sequence.source = 'dependo.37-vespertilionidae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.41-bathyergidae -r REF_AAV5
+alignment AL_EPV-dependo.41-bathyergidae add member --whereClause "source.name = 'dependo.41-bathyergidae'"
+compute alignment AL_EPV-dependo.41-bathyergidae --whereClause "sequence.source = 'dependo.41-bathyergidae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.42-cavid -r REF_AAV5
+alignment AL_EPV-dependo.42-cavid add member --whereClause "source.name = 'dependo.42-cavid'"
+compute alignment AL_EPV-dependo.42-cavid --whereClause "sequence.source = 'dependo.42-cavid'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.43-chinchilla -r REF_AAV5
+alignment AL_EPV-dependo.43-chinchilla add member --whereClause "source.name = 'dependo.43-chinchilla'"
+compute alignment AL_EPV-dependo.43-chinchilla --whereClause "sequence.source = 'dependo.43-chinchilla'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.44-heterocephalus -r REF_AAV5
+alignment AL_EPV-dependo.44-heterocephalus add member --whereClause "source.name = 'dependo.44-heterocephalus'"
+compute alignment AL_EPV-dependo.44-heterocephalus --whereClause "sequence.source = 'dependo.44-heterocephalus'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.45-octodontidae -r REF_AAV5
+alignment AL_EPV-dependo.45-octodontidae add member --whereClause "source.name = 'dependo.45-octodontidae'"
+compute alignment AL_EPV-dependo.45-octodontidae --whereClause "sequence.source = 'dependo.45-octodontidae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.47-gliridae -r REF_AAV5
+alignment AL_EPV-dependo.47-gliridae add member --whereClause "source.name = 'dependo.47-gliridae'"
+compute alignment AL_EPV-dependo.47-gliridae --whereClause "sequence.source = 'dependo.47-gliridae'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.48-ellobius -r REF_AAV5
+alignment AL_EPV-dependo.48-ellobius add member --whereClause "source.name = 'dependo.48-ellobius'"
+compute alignment AL_EPV-dependo.48-ellobius --whereClause "sequence.source = 'dependo.48-ellobius'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.50-mus -r REF_AAV5
+alignment AL_EPV-dependo.50-mus add member --whereClause "source.name = 'dependo.50-mus'"
+compute alignment AL_EPV-dependo.50-mus --whereClause "sequence.source = 'dependo.50-mus'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.51-rattus -r REF_AAV5
+alignment AL_EPV-dependo.51-rattus add member --whereClause "source.name = 'dependo.51-rattus'"
+compute alignment AL_EPV-dependo.51-rattus --whereClause "sequence.source = 'dependo.51-rattus'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.52-apodemus -r REF_AAV5
+alignment AL_EPV-dependo.52-apodemus add member --whereClause "source.name = 'dependo.52-apodemus'"
+compute alignment AL_EPV-dependo.52-apodemus --whereClause "sequence.source = 'dependo.52-apodemus'" parvoviridaeCompoundAligner
+
+create alignment AL_EPV-dependo.53-cricetidae -r REF_AAV5
+alignment AL_EPV-dependo.53-cricetidae add member --whereClause "source.name = 'dependo.53-cricetidae'"
+compute alignment AL_EPV-dependo.53-cricetidae --whereClause "sequence.source = 'dependo.53-cricetidae'" parvoviridaeCompoundAligner
+
+# Export alignments
+
+module fastaAlignmentExporter export AL_EPV-dependo.1-macropus -a -o alignments/tips/eve/dependo/dependo.1-macropus.aln.fna
+module fastaAlignmentExporter export AL_EPV-dependo.2-sarcophilus -a -o alignments/tips/eve/dependo/dependo.2-sarcophilus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.3-diprotodontia -a -o alignments/tips/eve/dependo/dependo.3-diprotodontia.fna
+module fastaAlignmentExporter export AL_EPV-dependo.26-lemuridae -a -o alignments/tips/eve/dependo/dependo.26-lemuridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.28-anoura -a -o alignments/tips/eve/dependo/dependo.28-anoura.fna
+module fastaAlignmentExporter export AL_EPV-dependo.29-carollia -a -o alignments/tips/eve/dependo/dependo.29-carollia.fna
+module fastaAlignmentExporter export AL_EPV-dependo.30-desmodus -a -o alignments/tips/eve/dependo/dependo.30-desmodus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.31-hipposideridae -a -o alignments/tips/eve/dependo/dependo.31-hipposideridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.32-mormoops -a -o alignments/tips/eve/dependo/dependo.32-mormoops.fna
+module fastaAlignmentExporter export AL_EPV-dependo.33-pipistrellus -a -o alignments/tips/eve/dependo/dependo.33-pipistrellus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.34-pteropodidae -a -o alignments/tips/eve/dependo/dependo.34-pteropodidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.35-rhinolophoidea -a -o alignments/tips/eve/dependo/dependo.35-rhinolophoidea.fna
+module fastaAlignmentExporter export AL_EPV-dependo.36-tonatia -a -o alignments/tips/eve/dependo/dependo.36-tonatia.fna
+module fastaAlignmentExporter export AL_EPV-dependo.37-vespertilionidae -a -o alignments/tips/eve/dependo/dependo.37-vespertilionidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.41-bathyergidae -a -o alignments/tips/eve/dependo/dependo.41-bathyergidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.42-cavid -a -o alignments/tips/eve/dependo/dependo.42-cavid.fna
+module fastaAlignmentExporter export AL_EPV-dependo.43-chinchilla -a -o alignments/tips/eve/dependo/dependo.43-chinchilla.fna
+module fastaAlignmentExporter export AL_EPV-dependo.44-heterocephalus -a -o alignments/tips/eve/dependo/dependo.44-heterocephalus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.45-octodontidae -a -o alignments/tips/eve/dependo/dependo.45-octodontidae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.47-gliridae -a -o alignments/tips/eve/dependo/dependo.47-gliridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.48-ellobius -a -o alignments/tips/eve/dependo/dependo.47-gliridae.fna
+module fastaAlignmentExporter export AL_EPV-dependo.49-meriones -a -o alignments/tips/eve/dependo/dependo.49-merione.fna
+module fastaAlignmentExporter export AL_EPV-dependo.50-mus -a -o alignments/tips/eve/dependo/dependo.50-mus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.51-rattus -a -o alignments/tips/eve/dependo/dependo.51.fna
+module fastaAlignmentExporter export AL_EPV-dependo.52-apodemus -a -o alignments/tips/eve/dependo/dependo.52-apodemus.fna
+module fastaAlignmentExporter export AL_EPV-dependo.53-cricetidae -a -o alignments/tips/eve/dependo/dependo.53-cricetidae.fna
+
+module fastaAlignmentExporter export AAL_EPV-erythro.2-hyaena -a -o alignments/tips/eve/erythro/erythro.2-hyaena
+
+module fastaAlignmentExporter export AL_EPV-sha.2-sarcophilus -a -o alignments/tips/eve/sha/sha.2-sarcophilus
+module fastaAlignmentExporter export AL_EPV-sha.4-vombatus -a -o alignments/tips/eve/sha/sha.4-vombatus
+module fastaAlignmentExporter export AL_EPV-sha.5-macropus -a -o alignments/tips/eve/sha/sha.5-macropus
+module fastaAlignmentExporter export AL_EPV-sha.9-ctenomyidae -a -o alignments/tips/eve/sha/sha.9-ctenomyidae
+module fastaAlignmentExporter export AL_EPV-sha.10-capromyidae -a -o alignments/tips/eve/sha/sha.10-capromyidae
+module fastaAlignmentExporter export AL_EPV-sha.11-dinomyidae -a -o alignments/tips/eve/sha/sha.11-dinomyidae
+
+

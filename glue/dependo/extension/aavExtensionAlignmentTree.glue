@@ -1,0 +1,147 @@
+
+  #~# Root alignment
+  alignment AL_MASTER_Dependo
+
+    add member --whereClause "source.name = 'ncbi-curated' and gb_lab_construct = false"
+    
+    # Demote EPV sequences to internal node alignments for main clades
+    demote member AL_Dependo1 -w "sequence.clade_ns = 'Dependo1' and sequence.source.name = 'ncbi-curated' \
+                               or sequence.clade_vp = 'Dependo1' and sequence.source.name = 'ncbi-curated'"
+    demote member AL_Dependo2 -w "sequence.clade_ns = 'Dependo2' and sequence.source.name = 'ncbi-curated' \
+                               or sequence.clade_vp = 'Dependo2' and sequence.source.name = 'ncbi-curated'"
+    demote member AL_Dependo3 -w "sequence.clade_ns = 'Dependo3' and sequence.source.name = 'ncbi-curated' \
+                               or sequence.clade_vp = 'Dependo3' and sequence.source.name = 'ncbi-curated'"
+    exit
+
+
+  #~# Internal node alignments
+  alignment AL_Dependo2
+  
+    # Demote EPV sequences to internal node alignments for minor clades
+    demote member AL_Dependo_Fowl -w "sequence.subclade_ns = 'Fowl' and sequence.source.name = 'ncbi-curated' \
+                                   or sequence.subclade_vp = 'Fowl' and sequence.source.name = 'ncbi-curated'"
+    exit
+
+  #~# Internal node alignments
+  alignment AL_Dependo3
+  
+    # Demote EPV sequences to internal node alignments for minor clades
+    demote member AL_Dependo_A -w "sequence.subclade_ns = 'Dependo-A' and sequence.source.name = 'ncbi-curated' \
+                                or sequence.subclade_vp = 'Dependo-A' and sequence.source.name = 'ncbi-curated'"
+    demote member AL_Dependo_B -w "sequence.subclade_ns = 'Dependo-B' and sequence.source.name = 'ncbi-curated' \
+                                or sequence.subclade_vp = 'Dependo-B' and sequence.source.name = 'ncbi-curated'"
+    exit
+
+
+  #~# Tip alignments (virus species level)  
+  alignment AL_Dependo_A
+  
+    extract child AL_AAV1              --refName REF_AAV1
+    demote member AL_AAV1              --whereClause "sequence.name = 'AAV-1'" 
+
+    extract child AL_AAV2              --refName REF_MASTER_AAV2
+    demote member AL_AAV2              --whereClause "sequence.name = 'AAV-2'" 
+
+    extract child AL_AAV3a             --refName REF_AAV3a
+    demote member AL_AAV3a             --whereClause "sequence.name = 'AAV-3a'" 
+
+    extract child AL_AAV3b             --refName REF_AAV3b
+    demote member AL_AAV3b             --whereClause "sequence.name = 'AAV-3b'" 
+
+    extract child AL_AAV4              --refName REF_AAV4
+    demote member AL_AAV4              --whereClause "sequence.name = 'AAV-4'" 
+
+    extract child AL_AAV6              --refName REF_AAV6
+    demote member AL_AAV6              --whereClause "sequence.name = 'AAV-6'" 
+
+    extract child AL_AAV7              --refName REF_AAV7
+    demote member AL_AAV7              --whereClause "sequence.name = 'AAV-7'" 
+
+    extract child AL_AAV8              --refName REF_AAV8
+    demote member AL_AAV8              --whereClause "sequence.name = 'AAV-8'" 
+
+    extract child AL_AAV9              --refName REF_AAV9
+    demote member AL_AAV9              --whereClause "sequence.name = 'AAV-9'" 
+
+    extract child AL_AAV10             --refName REF_AAV10
+    demote member AL_AAV10             --whereClause "sequence.name = 'AAV-10'" 
+
+    extract child AL_AAV11             --refName REF_AAV11
+    demote member AL_AAV11             --whereClause "sequence.name = 'AAV-11'" 
+
+    extract child AL_AAV12             --refName REF_AAV12
+    demote member AL_AAV12             --whereClause "sequence.name = 'AAV-12'" 
+    exit
+
+  alignment AL_Dependo_B
+  
+    extract child AL_AAV5              --refName REF_AAV5
+    demote member AL_AAV5              --whereClause "sequence.name = 'AAV-2'" 
+
+    extract child AL_BAAV              --refName REF_BAAV
+    demote member AL_BAAV              --whereClause "sequence.name = 'BAAV'" 
+    exit
+
+
+
+  #~# Derive segments
+  
+  alignment AL_AAV3a
+    derive segments AL_UNC_AAV3a -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV3b
+    derive segments AL_UNC_AAV3b -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV4
+    derive segments AL_UNC_AAV4 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV5
+    derive segments AL_UNC_AAV5 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV6
+    derive segments AL_UNC_AAV6 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV7
+    derive segments AL_UNC_AAV7 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV8
+    derive segments AL_UNC_AAV8 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV9
+    derive segments AL_UNC_AAV9 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV10
+    derive segments AL_UNC_AAV10 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV11
+    derive segments AL_UNC_AAV11 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV12
+    derive segments AL_UNC_AAV12 -a --mergeStrategy OVERWRITE
+    exit
+
+
+  #~# Compute alignments
+  
+  compute alignment AL_AAV1  aavCompoundAligner
+  compute alignment AL_AAV2  aavCompoundAligner
+  compute alignment AL_AAV3a aavCompoundAligner
+  compute alignment AL_AAV3b aavCompoundAligner
+  compute alignment AL_AAV4  aavCompoundAligner
+  compute alignment AL_AAV6  aavCompoundAligner
+  compute alignment AL_AAV7  aavCompoundAligner
+  compute alignment AL_AAV8  aavCompoundAligner
+  compute alignment AL_AAV9  aavCompoundAligner
+  compute alignment AL_AAV10 aavCompoundAligner
+  compute alignment AL_AAV11 aavCompoundAligner
+  compute alignment AL_AAV12 aavCompoundAligner

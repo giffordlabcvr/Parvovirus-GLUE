@@ -1,0 +1,8 @@
+  # Link to isolate table
+  run script glue/core/aavLoadIsolateData.js
+
+  # Import metadata for exogenous reference sequences from tabular
+  module aavSideDataImporter 
+    populate -f tabular/core/aav-refseqs-side-data.tsv
+    exit
+    

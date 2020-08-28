@@ -1,0 +1,70 @@
+  ### Constrained alignment tree for the Dependoparvovirus genus
+
+  #~# Root level (Genus)
+
+  create alignment AL_MASTER_Dependo --r REF_MASTER_AAV2
+  alignment AL_MASTER_Dependo add member --allSequences
+
+
+  #~# Internal nodes (Dependoparvovirus sub-lineages) 
+
+  alignment AL_MASTER_Dependo
+  
+    extract child AL_Dependo1     --refName REF_SnakePV
+    demote member AL_Dependo1     --whereClause "sequence.clade_ns = 'Dependo1'"
+    
+    extract child AL_Dependo2     --refName REF_MDPV
+    demote member AL_Dependo2     --whereClause "sequence.clade_ns = 'Dependo2'"     
+
+    extract child AL_Dependo3     --refName REF_MASTER_AAV2
+    demote member AL_Dependo3     --whereClause "sequence.clade_ns = 'Dependo3'"
+    exit
+
+
+  alignment AL_Dependo1
+  
+    extract child AL_Serpentes  --refName REF_SnakePV
+    demote member AL_Serpentes  --whereClause "sequence.subclade_ns = 'Serpentes'"   
+    exit
+
+
+  alignment AL_Dependo2
+  
+    extract child AL_Dependo_Fowl  --refName REF_MDPV
+    demote member AL_Dependo_Fowl  --whereClause "sequence.subclade_ns = 'Galloanserae'"
+    exit
+
+
+  alignment AL_Dependo3
+
+    extract child AL_Dependo_A   --refName REF_MASTER_AAV2
+    demote member AL_Dependo_A   --whereClause "sequence.subclade_ns = 'Dependoparvovirus-A'"
+      
+    extract child AL_Dependo_B   --refName REF_AAV5
+    demote member AL_Dependo_B   --whereClause "sequence.subclade_ns = 'Dependoparvovirus-B'"
+
+    extract child AL_Rodent      --refName REF_Mouse-AAV1
+    demote member AL_Rodent      --whereClause "sequence.subclade_ns = 'Rodent'"
+
+    extract child AL_Chiroptera  --refName REF_AAV-bat
+    demote member AL_Chiroptera  --whereClause "sequence.subclade_ns = 'Chiroptera'"
+  
+    extract child AL_Carnivore   --refName REF_SealionPV
+    demote member AL_Carnivore   --whereClause "sequence.subclade_ns = 'Carnivore'"
+    exit
+
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_MASTER_Dependo
+    derive segments AL_UNC_DEPENDO_ROOT -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Dependo_A
+    derive segments AL_UNC_DEPENDO_A -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Dependo_B
+    derive segments AL_UNC_DEPENDO_B -a --mergeStrategy OVERWRITE
+    exit
+
+

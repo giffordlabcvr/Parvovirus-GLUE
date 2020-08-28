@@ -1,0 +1,6 @@
+create module -f modules/aavNcbiImporterReferences.xml ncbiImporter
+
+# Download NCBI sequences 
+module ncbiImporter import
+
+export source ncbi-refseqs

@@ -1,0 +1,4 @@
+multi-delete isolate_data -w "sequence.source = 'ncbi-curated'"
+delete alignment AL_UNCONSTRAINED_AAV
+delete source ncbi-curated
+

@@ -1,0 +1,14 @@
+
+  create module -f modules/fastaAlignmentExporter.xml
+  create module -f modules/aavSideDataImporter.xml 
+  create module -f modules/aavGenbankXmlPopulator.xml
+  create module -f modules/featureLocationTextToGlue.xml 
+  create module -f modules/aavMafftAligner.xml
+  create module -f modules/aavStrictFastaAlignmentImporter.xml
+  create module -f modules/aavTabularUtility.xml aavTabularUtility
+  create module -f modules/aavCompoundAligner.xml
+  create module -f modules/unconstrainedAlignmentImporter.xml 
+  create module -f modules/unconstrainedAlignmentImporterSimple.xml
+  create module -f modules/aavPhyloUtility.xml
+  
+  create module -t raxmlPhylogenyGenerator
