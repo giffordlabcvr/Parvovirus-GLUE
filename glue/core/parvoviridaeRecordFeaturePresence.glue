@@ -11,20 +11,5 @@
     record feature-presence AL_Densovirinae --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Epiparvovirinae --recursive --featureName whole_genome --descendentFeatures
 
-    #~# Genus alignments
-    record feature-presence AL_Amdoparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Protoparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Dependoparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Erythroparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Bocaparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Tetraparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Copiparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Aveparvovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Ambidensovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Iteradensovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Hepandensovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Penstyldensovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Brevidensovirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Chapparvovirus --recursive --featureName whole_genome --descendentFeatures
-    exit
+     exit
 

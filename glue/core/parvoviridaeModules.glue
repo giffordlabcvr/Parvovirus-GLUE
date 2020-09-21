@@ -1,7 +1,5 @@
   create module -f modules/core/parvoviridaeSideDataImporter.xml 
   create module -f modules/core/parvoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/core/featureLocationTextToGlue.xml 
-
   create module -f modules/core/parvoviridaeTabularUtility.xml parvoviridaeTabularUtility
   create module -f modules/core/parvoviridaeCompoundAligner.xml
 

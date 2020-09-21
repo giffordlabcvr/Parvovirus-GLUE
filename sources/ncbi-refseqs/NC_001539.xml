@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Canine parvovirus</GBSeq_source>
     <GBSeq_organism>Canine parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Protoparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -236,10 +236,6 @@
             <GBQualifier_value>VP1</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
-            <GBQualifier_name>locus_tag</GBQualifier_name>
-            <GBQualifier_value>CPVgp3</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>
             <GBQualifier_value>capsid protein VP1</GBQualifier_value>
           </GBQualifier>
@@ -267,10 +263,6 @@
           <GBQualifier>
             <GBQualifier_name>gene</GBQualifier_name>
             <GBQualifier_value>VP2</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>locus_tag</GBQualifier_name>
-            <GBQualifier_value>CPVgp4</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>product</GBQualifier_name>

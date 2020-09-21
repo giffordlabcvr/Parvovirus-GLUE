@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Eidolon helvum (bat) parvovirus (Ba-PARV4)</GBSeq_source>
     <GBSeq_organism>Eidolon helvum (bat) parvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Tetraparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Tetraparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

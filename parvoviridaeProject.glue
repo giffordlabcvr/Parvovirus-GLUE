@@ -8,13 +8,12 @@ schema-project parvoviridae
   exit
 
 # Build core project
-
 run file glue/core/buildCoreProject.glue
-#run file glue/core/buildCoreProjectDependo.glue
-#run file glue/core/buildCoreProjectProto.glue
-#run file glue/core/buildCoreProjectErythro.glue
-  
-  
+
+# Build genus extension projects
+run file glue/ext-dependo/core/buildDependoProject.glue
+run file glue/ext-proto/core/buildProtoProject.glue
+
 # Endogenous parvovirus (EPV) extension
-run file glue/eve/buildEveExtension.glue
+#run file glue/eve/buildEveExtension.glue
 

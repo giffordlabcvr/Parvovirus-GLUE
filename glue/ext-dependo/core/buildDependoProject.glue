@@ -1,0 +1,39 @@
+project aav
+
+  # load project settings
+  run file glue/ext-dependo/core/projectSettings.glue
+
+  # create modules
+  run file glue/ext-dependo/core/aavModules.glue
+
+  # Import NCBI reference sequences 
+  import source sources/ncbi-refseqs
+ 
+  # Import data 
+  run file glue/ext-dependo/core/aavLoadVirusData.glue
+
+  # Define genome features
+  run file glue/ext-dependo/core/aavFeatures.glue
+
+  # Declare reference sequences
+  run file glue/ext-dependo/core/aavReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/ext-dependo/core/aav-refseq-feature-locations.tsv -r
+
+  # Import alignments 
+  run file glue/ext-dependo/core/aavAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/ext-dependo/core/aavAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/ext-dependo/core/aavRecordFeaturePresence.glue
+
+  # Create phylogenies
+  #run file glue/ext-dependo/core/aavCreateRootPhylogenies.glue
+
+  # Validate
+  validate
+
+  exit

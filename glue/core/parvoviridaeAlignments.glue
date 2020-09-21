@@ -8,16 +8,6 @@
     #~# Internal node alignments (subfamily)
     import AL_PARVOVIRINAE_UNC      -f alignments/core/internal/subfamily/parvovirinae.aln.fna
 
-    #~# Internal node alignments (genus)
-    import AL_ERYTHRO_UNC           -f alignments/core/internal/genus/erythro-genome.aln.fna
-    import AL_PROTO_UNC             -f alignments/core/internal/genus/proto-genome.aln.fna
-    import AL_AMDO_UNC              -f alignments/core/internal/genus/amdo-genome.aln.fna
-    import AL_DEPENDO_UNC           -f alignments/core/internal/genus/dependo-genome.aln.fna
-    import AL_BOCA_UNC              -f alignments/core/internal/genus/boca-genome.aln.fna
-    import AL_TETRA_UNC             -f alignments/core/internal/genus/tetra-genome.aln.fna
-    import AL_COPI_UNC              -f alignments/core/internal/genus/copi-genome.aln.fna
-    import AL_CHAP_UNC              -f alignments/core/internal/genus/chap-genome.aln.fna
-    
     exit
 
 

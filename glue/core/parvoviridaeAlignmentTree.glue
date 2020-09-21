@@ -14,44 +14,6 @@
 	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
     exit
 
-  #~# Genus
-  alignment AL_Parvovirinae
-    extract child AL_Amdoparvovirus    --refName REF_Amdo_MASTER_AMDV        # NC_001662
-    demote member AL_Amdoparvovirus    --whereClause "sequence.genus = 'Amdoparvovirus'" 
-    extract child AL_Protoparvovirus   --refName REF_Proto_MASTER_CPV        # NC_001539
-    demote member AL_Protoparvovirus   --whereClause "sequence.genus = 'Protoparvovirus'" 
-    extract child AL_Dependoparvovirus --refName REF_Dependo_MASTER_AAV2     # NC_006148
-    demote member AL_Dependoparvovirus --whereClause "sequence.genus = 'Dependoparvovirus'" 
-    extract child AL_Erythroparvovirus --refName REF_Erythro_MASTER_B19      # NC_000883
-    demote member AL_Erythroparvovirus --whereClause "sequence.genus = 'Erythroparvovirus'" 
-    extract child AL_Bocaparvovirus    --refName REF_Boca_MASTER_BPV         # NC_001540
-    demote member AL_Bocaparvovirus    --whereClause "sequence.genus = 'Bocaparvovirus'" 
-    extract child AL_Tetraparvovirus   --refName REF_Tetra_MASTER_EhBtPV1    # NC_016744
-    demote member AL_Tetraparvovirus   --whereClause "sequence.genus = 'Tetraparvovirus'" 
-    extract child AL_Copiparvovirus    --refName REF_Copi_MASTER_BPV2        # NC_006259
-    demote member AL_Copiparvovirus    --whereClause "sequence.genus = 'Copiparvovirus'" 
-    extract child AL_Aveparvovirus     --refName REF_Ave_MASTER_ChPV         # NC_024452
-    demote member AL_Aveparvovirus     --whereClause "sequence.genus = 'Aveparvovirus'" 
-    exit
-
-  alignment AL_Densovirinae
-    extract child AL_Ambidensovirus    --refName REF_Ambidenso_MASTER_JcDNV
-    demote member AL_Ambidensovirus    --whereClause "sequence.genus = 'Ambidensovirus'" 
-    extract child AL_Iteradensovirus   --refName REF_Iteradenso_MASTER_BmDNV-5
-    demote member AL_Iteradensovirus   --whereClause "sequence.genus = 'Iteradensovirus'" 
-    exit
-
-  alignment AL_Epiparvovirinae
-    extract child AL_Hepandensovirus   --refName REF_Hepandenso_MASTER_FCDNV
-    demote member AL_Hepandensovirus   --whereClause "sequence.genus = 'Hepandensovirus'" 
-    extract child AL_Penstyldensovirus --refName REF_Penstyldenso_MASTER_IHHN
-    demote member AL_Penstyldensovirus --whereClause "sequence.genus = 'Penstyldensovirus'" 
-    extract child AL_Brevidensovirus   --refName REF_Brevidenso_MASTER_AalDNV-2
-    demote member AL_Brevidensovirus   --whereClause "sequence.genus = 'Brevidensovirus'" 
-    extract child AL_Chapparvovirus    --refName REF_Chappa_MASTER_PPV7
-	demote member AL_Chapparvovirus    --whereClause "sequence.genus = 'Chapparvovirus'" 
-    exit
-
 
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_Parvoviridae_MASTER
@@ -61,36 +23,5 @@
   alignment AL_Parvovirinae
     derive segments AL_PARVOVIRINAE_UNC  -a --mergeStrategy OVERWRITE
     exit
- 
-  alignment AL_Protoparvovirus
-    derive segments AL_PROTO_UNC         -a --mergeStrategy OVERWRITE
-    exit
-    
-  alignment AL_Erythroparvovirus
-    derive segments AL_ERYTHRO_UNC       -a --mergeStrategy OVERWRITE
-    exit
 
-  alignment AL_Amdoparvovirus
-    derive segments AL_AMDO_UNC          -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_Dependoparvovirus
-    derive segments AL_DEPENDO_UNC       -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_Bocaparvovirus
-    derive segments AL_BOCA_UNC          -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_Tetraparvovirus
-    derive segments AL_TETRA_UNC         -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_Copiparvovirus
-    derive segments AL_COPI_UNC          -a --mergeStrategy OVERWRITE
-    exit
-
-  #alignment AL_Chapparvovirus
-  #  derive segments AL_CHAP_UNC          -a --mergeStrategy OVERWRITE
-  #  exit
 

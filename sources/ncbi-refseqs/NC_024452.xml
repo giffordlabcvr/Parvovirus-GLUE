@@ -23,7 +23,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Chicken parvovirus ABU-P1</GBSeq_source>
     <GBSeq_organism>Chicken parvovirus ABU-P1</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Parvoviridae; Parvovirinae; Aveparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Aveparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
