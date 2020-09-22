@@ -1,8 +1,8 @@
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/aavTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-refseqs-side-data.tsv"]));
-	// glue.log("INFO", "load result was:", loadResult);
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-refseqs-side-data.tsv"]));
+    glue.log("INFO", "load result was:", loadResult);
 });
 
 _.each(loadResult, function(eveObj) {
@@ -25,6 +25,8 @@ _.each(loadResult, function(eveObj) {
 	
 		glue.log("INFO", "Entering sequence table data for EVE reference:", eveObj.sequenceID);
 
+		glue.command(["set", "field", "subfamily", eveObj.virus_subfamily]);
+		glue.command(["set", "field", "genus", eveObj.virus_genus]);
 		glue.command(["set", "field", "assign_clade", eveObj.assign_clade]);
 		glue.command(["set", "field", "assign_subclade", eveObj.assign_subclade]);
 

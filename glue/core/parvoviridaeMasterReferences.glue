@@ -9,7 +9,6 @@
   create reference REF_Amdo_MASTER_AMDV           ncbi-refseqs NC_001662
   create reference REF_Erythro_MASTER_B19         ncbi-refseqs NC_000883
   create reference REF_Copi_MASTER_BPV2           ncbi-refseqs NC_006259
-  create reference REF_Copi_PPV6                  ncbi-refseqs NC_023860
   create reference REF_Tetra_MASTER_EhBtPV1       ncbi-refseqs NC_016744
   create reference REF_Ambidenso_MASTER_JcDNV     ncbi-refseqs NC_004284
   create reference REF_Ambidenso_PfDNV            ncbi-refseqs NC_000936
@@ -22,6 +21,36 @@
 
 
   # Add feature locations to genus master reference sequences
+
+  reference REF_Dependo_MASTER_AAV2
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4679
+	  exit
+
+ 	add feature-location Rep52
+	feature-location Rep52
+	  add segment 993 2186
+	  exit
+
+ 	add feature-location AAP
+	feature-location AAP
+	  add segment 2729 3343
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 321 2186
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2203 4410
+	  exit
+    
+    exit
+
 
   reference REF_Ave_MASTER_ChPV
  

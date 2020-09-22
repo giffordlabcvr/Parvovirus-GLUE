@@ -1,8 +1,9 @@
-  # Link to isolate table
-  run script glue/core/parvoviridaeLoadIsolateData.js
-  
+
   # Import metadata for exogenous reference sequences from tabular
-  module parvoviridaesideDataImporter 
+  module parvoviridaeSideDataImporter 
     populate -f tabular/core/parvo-ncbi-refseqs-side-data.tsv
     exit
-    
+
+  # Link to isolate table
+  run script glue/core/parvoviridaeLoadIsolateData1.js
+  

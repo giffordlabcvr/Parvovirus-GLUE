@@ -17,11 +17,29 @@
   feature NS set metatag INCLUDE_IN_SUMMARY true
   feature NS set metatag CODES_AMINO_ACIDS true
 
+  create feature Rep40 -p whole_genome "Rep 78 protein"
+  feature Rep40 set field displayName "Replicase"
+  feature Rep40 set metatag OWN_CODON_NUMBERING true
+  feature Rep40 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep40 set metatag CODES_AMINO_ACIDS true
+
+  create feature Rep52 -p whole_genome "Rep 78 protein"
+  feature Rep52 set field displayName "Replicase"
+  feature Rep52 set metatag OWN_CODON_NUMBERING true
+  feature Rep52 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep52 set metatag CODES_AMINO_ACIDS true
+
   create feature Rep78 -p whole_genome "Rep 78 protein"
   feature Rep78 set field displayName "Replicase"
   feature Rep78 set metatag OWN_CODON_NUMBERING true
   feature Rep78 set metatag INCLUDE_IN_SUMMARY true
   feature Rep78 set metatag CODES_AMINO_ACIDS true
+
+  create feature AAP -p whole_genome "Assembly activating protein"
+  feature AAP set field displayName "Replicase"
+  feature AAP set metatag OWN_CODON_NUMBERING true
+  feature AAP set metatag INCLUDE_IN_SUMMARY true
+  feature AAP set metatag CODES_AMINO_ACIDS true
 
   create feature NS1 -p whole_genome "Replicase protein NS1"
   feature NS1 set field displayName "Replicase N1"
@@ -46,12 +64,6 @@
   feature M set metatag OWN_CODON_NUMBERING true
   feature M set metatag INCLUDE_IN_SUMMARY true
   feature M set metatag CODES_AMINO_ACIDS true
-
-  create feature AAP -p whole_genome "Assembly activating protein"
-  feature AAP set field displayName "AAP ORF"
-  feature AAP set metatag OWN_CODON_NUMBERING true
-  feature AAP set metatag INCLUDE_IN_SUMMARY true
-  feature AAP set metatag CODES_AMINO_ACIDS true
 
   create feature ORF1 -p whole_genome "ORF1 protein"
   feature ORF1 set field displayName "ORF1"
@@ -106,7 +118,6 @@
   feature NS2-L set metatag OWN_CODON_NUMBERING true
   feature NS2-L set metatag INCLUDE_IN_SUMMARY true
   feature NS2-L set metatag CODES_AMINO_ACIDS true
-
 
   create feature VP1 -p whole_genome "Capsid protein"
   feature VP1 set field displayName "Capsid"

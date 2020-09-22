@@ -1,4 +1,3 @@
-project parvoviridae
 
   # load project settings
   run file glue/core/projectSettings.glue
@@ -8,7 +7,6 @@ project parvoviridae
 
   # Import sources 
   import source sources/ncbi-refseqs
-  import source sources/fasta-refseqs/
 
   # Import data 
   run file glue/core/parvoviridaeLoadData.glue
@@ -31,5 +29,3 @@ project parvoviridae
   
   # Validate
   validate
-
-  exit

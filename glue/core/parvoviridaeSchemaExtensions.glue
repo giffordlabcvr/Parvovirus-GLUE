@@ -3,6 +3,8 @@
     create field full_name VARCHAR 100
     create field subfamily VARCHAR 50
     create field genus VARCHAR 50
+    create field assign_clade VARCHAR 50
+    create field assign_subclade VARCHAR 50
     create field clade_ns VARCHAR 50
     create field subclade_ns VARCHAR 50
     create field clade_vp VARCHAR 50

@@ -4,7 +4,7 @@
 // EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/epv-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/epv-dependo-refseqs-side-data.tsv";
 var rootAlignment = 'AL_MASTER_Dependo';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -16,14 +16,14 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load DIGS hit data from tabular file 
 var loadResult1;
 glue.inMode("module/aavTabularUtility", function() {
-	loadResult1 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-side-data.tsv"]));
+	loadResult1 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult1);
 });
 
 // Load NCBI curated EPV source
 var loadResult2;
 glue.inMode("module/aavTabularUtility", function() {
-	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-ncbi-curated.tsv"]));
+	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-ncbi-curated.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult2);
 });
 

@@ -1,17 +1,17 @@
   delete module epvFastaAlignmentExporter
   delete module epvAlignmentImporterNucs
   
-  create module -f modules/epvFastaAlignmentExporter.xml
-  create module -f modules/epvAlignmentImporterNucs.xml
+  create module -f modules/eve/dependo/epvAlignmentImporterNucs.xml
+  create module -f modules/eve/dependo/epvFastaAlignmentExporter.xml
 
   #~# Import pre-built alignments of EVE sequences
   module unconstrainedAlignmentImporter
 
 	#~# Root aligns
-	import AL_UNC_EPV-root                  -f alignments/eve/root/dependo-root.eve.aln.fna
+	import AL_UNC_EPV-root                  -f alignments/internal/genus/dependo-genome+eves.aln.fna
 
-	#~# Internal aligns for AAV loci 
-	import AL_UNC_DEPENDO-A-EVE             -f alignments/eve/internal/dependo-a-eve.aln.fna
+	#~# Internal aligns
+	import AL_UNC_DEPENDO-A-EVE             -f alignments/internal/subclade/dependo-a-eve.aln.fna
 
 	exit
 
@@ -19,27 +19,28 @@
 
   alignment AL_MASTER_Dependo
 
-	add member -w "source.name = 'fasta-refseqs-epv-con'"
+	add member -w "source.name = 'fasta-refseqs-dependo-epv-con'"
+	add member -w "source.name = 'ncbi-refseqs-dependo-epv'"
 	derive segments AL_UNC_EPV-root  -a --mergeStrategy OVERWRITE
 	exit
 
 
   # Export the recursively populated root gene alignments 
   module epvFastaAlignmentExporter
- 	export AL_MASTER_Dependo -r  REF_MASTER_AAV2 -f Rep78 --recursive -a  -e -o alignments/tree/aav-root-rep78.eve.aln.fna
- 	export AL_MASTER_Dependo -r  REF_MASTER_AAV2 -f VP1 --recursive -a  -e -o alignments/tree/aav-root-vp1.eve.aln.fna
+ 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f Rep78 --recursive -a  -e -o alignments/tree/aav-root-rep78.eve.aln.fna
+ 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f VP1 --recursive -a  -e -o alignments/tree/aav-root-vp1.eve.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/aav-root-rep78.eve.aln.fna
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/aav-root-vp1.eve.aln.fna
 
-  create alignment AL_TREE_ROOT_EVE_Rep -r REF_MASTER_AAV2
+  create alignment AL_TREE_ROOT_EVE_Rep -r REF_Dependo_MASTER_AAV2
   alignment AL_TREE_ROOT_EVE_Rep
 	derive segments AL_UNC_TREE_ROOT_EVE_Rep -a --mergeStrategy OVERWRITE
 	exit
 	
-  create alignment AL_TREE_ROOT_EVE_VP -r REF_MASTER_AAV2
+  create alignment AL_TREE_ROOT_EVE_VP -r REF_Dependo_MASTER_AAV2
   alignment AL_TREE_ROOT_EVE_VP
 	derive segments AL_UNC_TREE_ROOT_EVE_VP -a --mergeStrategy OVERWRITE
 	exit
