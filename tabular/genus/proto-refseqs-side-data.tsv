@@ -1,0 +1,7 @@
+accession-ID	virus_name	virus_full_name	host_species	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
+NC_001718	PPV	Porcine parvovirus	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_001510	MVM	Minute virus of mice	Mus musculus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+U34255	HV	Hamster parvovirus	Mesocricetus auratus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+KT965075	Zsana	Protoparvovirus Zsana	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_026815	EuPV	Eulipotyphla protoparvovirus	Crocidura hirta	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_030837	SoPV	Sea otter parvovirus 1	Enhydra lutris	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE

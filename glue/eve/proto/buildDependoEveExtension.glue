@@ -1,0 +1,40 @@
+
+
+  # create modules
+  run file glue/eve/proto/epvModules.glue
+  
+  # Import endogenous parvoviral element (EPV) sequences
+  run file glue/eve/proto/epvImportSources.glue
+  
+  # Import data for EVE sequences
+  run file glue/eve/proto/epvImportData.glue
+  
+  # Declare references 
+  run file glue/eve/proto/epvReferences.glue
+
+  # Import genus level alignments and define constrained alignment tree
+  run file glue/eve/proto/epvAlignmentsRoot.glue
+  
+  # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
+  run file glue/eve/proto/epvAlignmentTree.glue
+
+  # Record feature coverage in root and clade-level alignments
+  run file glue/eve/proto/epvRecordFeaturePresence.glue
+
+  # Create root-level phylogenies for major genes
+  #run file glue/eve/proto/epvCreateRootPhylogenies.glue
+
+  # Export annotations
+  #run file glue/eve/proto/epvExportRootPhylogenyAnnotations.glue
+
+  # Set up constrained alignment tree for orthologs
+  run file glue/eve/proto/epvAlignmentTreeDigs.glue
+
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/eve/proto/epvDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/eve/proto/epvCreateTipPhylogenies.js
+
+  # Validate
+  validate

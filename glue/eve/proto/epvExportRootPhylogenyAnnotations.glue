@@ -1,0 +1,10 @@
+  delete module aavFigTreeAnnotationExporter
+  create module -f modules/aavFigTreeAnnotationExporter.xml
+
+  # Export annotations
+  module aavFigTreeAnnotationExporter 
+    export figtree-annotation AL_TREE_ROOT_EVE_Rep -f trees/eve-root/aav-root-rep78.eve.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_ROOT_EVE_VP -f trees/eve-root/aav-root-vp1.eve.figtree-annotations.tsv
+    exit
+
+

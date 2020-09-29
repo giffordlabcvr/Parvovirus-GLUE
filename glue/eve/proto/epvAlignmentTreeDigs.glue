@@ -1,0 +1,11 @@
+  ### Set up constrained alignment tree for EPV subclades
+  
+  #~# Internal nodes (Protoparvovirus sub-lineages) 
+
+  alignment AL_MASTER_Proto
+  
+    add member -w "source.name = 'fasta-digs-epv'"
+    add member -w "source.name = 'ncbi-curated-epv'"
+    
+    exit
+

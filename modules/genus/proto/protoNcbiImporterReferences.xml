@@ -1,0 +1,26 @@
+<!-- Protoparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-proto</sourceName>
+  <specificPrimaryAccessions>
+
+	<!-- <primaryAccession>NC_001539</primaryAccession> Master refererence CPV is in core project -->
+	<primaryAccession>NC_001718</primaryAccession>
+	<primaryAccession>NC_001510</primaryAccession>
+	<primaryAccession>U34255</primaryAccession>
+	<primaryAccession>KT965075</primaryAccession>
+	<primaryAccession>AF321230</primaryAccession>
+	<primaryAccession>JX505432</primaryAccession>
+	<primaryAccession>D00623</primaryAccession>
+	<primaryAccession>NC_026815</primaryAccession>
+	<primaryAccession>NC_030837</primaryAccession>
+	<primaryAccession>KJ641666</primaryAccession> <!-- Bat-parvovirus -->
+	<primaryAccession>KJ495710</primaryAccession> <!-- Tusavirus 1 -->
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+
+

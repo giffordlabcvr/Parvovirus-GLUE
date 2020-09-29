@@ -1,0 +1,7 @@
+  ### Set up constrained alignment tree for EPV subclades
+  
+  #~# Internal nodes (Protoparvovirus sub-lineages) 
+
+  alignment AL_MASTER_Proto
+  
+    exit

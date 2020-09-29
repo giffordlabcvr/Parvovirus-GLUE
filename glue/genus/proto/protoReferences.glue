@@ -1,12 +1,12 @@
   # Declare Protoparvovirus reference sequences
 
   ## Canonical parvovirus 
-  create reference REF_Proto_PPV            ncbi-refseqs NC_001718
-  create reference REF_Proto_MVM1           ncbi-refseqs NC_001510
-  create reference REF_Proto_HamsterPV      ncbi-refseqs U34255
+  create reference REF_Proto_PPV            ncbi-refseqs-proto NC_001718
+  create reference REF_Proto_MVM1           ncbi-refseqs-proto NC_001510
+  create reference REF_Proto_HamsterPV      ncbi-refseqs-proto U34255
   
   # Bufa-virus like
-  create reference REF_Proto_Zsana          ncbi-refseqs KT965075
-  create reference REF_Proto_MpBuV          ncbi-refseqs NC_026815
-  create reference REF_Proto_OtterPV-1      ncbi-refseqs NC_030837
+  create reference REF_Proto_Zsana          ncbi-refseqs-proto KT965075
+  create reference REF_Proto_MpBuV          ncbi-refseqs-proto NC_026815
+  create reference REF_Proto_OtterPV-1      ncbi-refseqs-proto NC_030837
 
