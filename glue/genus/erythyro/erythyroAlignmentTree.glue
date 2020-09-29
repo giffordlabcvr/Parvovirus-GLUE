@@ -1,0 +1,26 @@
+  ### Constrained alignment tree for the Protoparvovirus genus
+
+  #~# Root level (Genus)
+
+  create alignment AL_MASTER_Proto --r REF_Proto_MASTER_CPV
+  alignment AL_MASTER_Proto add member  --whereClause "genus = 'Protoparvovirus'"
+
+
+  #~# Internal nodes (Protoparvovirus sub-lineages) 
+
+  alignment AL_MASTER_Proto
+  
+    extract child AL_Proto1     --refName REF_Proto_MASTER_CPV
+    demote member AL_Proto1     --whereClause "sequence.clade_ns = 'Proto1'"
+    
+    extract child AL_Proto2     --refName REF_Proto_MpBuV
+    demote member AL_Proto2     --whereClause "sequence.clade_ns = 'Proto2'"     
+
+    exit
+
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_MASTER_Proto
+    derive segments AL_UNC_PROTO_ROOT -a --mergeStrategy OVERWRITE
+    exit
+

@@ -1,0 +1,30 @@
+
+  # create modules
+  run file glue/genus/amdo/amdoModules.glue
+
+  # Import sources 
+  import source sources/ncbi-refseqs-amdo
+
+  # Import data 
+  run file glue/genus/amdo/amdoLoadVirusData.glue
+
+  # Declare reference sequences
+  run file glue/genus/amdo/amdoReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/genus/amdo-refseq-feature-locations.tsv -r
+
+  # Import alignments 
+  run file glue/genus/amdo/amdoAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/genus/amdo/amdoAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/genus/amdo/amdoRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/genus/amdo/amdoCreateRootPhylogenies.glue
+
+  # Validate
+  validate

@@ -1,0 +1,6 @@
+create module -f modules/genus/proto/protoNcbiImporterReferences.xml ncbiImporter
+
+# Download NCBI sequences 
+module ncbiImporter import
+
+export source ncbi-refseqs-proto

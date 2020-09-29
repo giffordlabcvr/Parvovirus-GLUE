@@ -1,0 +1,13 @@
+
+  create module -f modules/genus/amdo/amdoSideDataImporter.xml 
+  create module -f modules/genus/amdo/amdoMafftAligner.xml
+  create module -f modules/genus/amdo/amdoStrictFastaAlignmentImporter.xml
+  create module -f modules/genus/amdo/amdoCompoundAligner.xml
+  create module -f modules/genus/amdo/featureLocationTextToGlue.xml 
+
+  #create module -t raxmlPhylogenyGenerator
+  #create module -f modules/genus/amdo/fastaAlignmentExporter.xml
+  #create module -f modules/genus/amdo/amdoGenbankXmlPopulator.xml
+  #create module -f modules/genus/amdo/unconstrainedAlignmentImporter.xml 
+  #create module -f modules/genus/amdo/unconstrainedAlignmentImporterSimple.xml
+  #create module -f modules/genus/amdo/amdoPhyloUtility.xml

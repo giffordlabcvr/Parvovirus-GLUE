@@ -1,0 +1,30 @@
+
+  # create modules
+  run file glue/genus/erythyro/erythyroModules.glue
+
+  # Import sources 
+  import source sources/ncbi-refseqs-erythyro
+
+  # Import data 
+  run file glue/genus/erythyro/erythyroLoadVirusData.glue
+
+  # Declare reference sequences
+  run file glue/genus/erythyro/erythyroReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/genus/erythyro-refseq-feature-locations.tsv -r
+
+  # Import alignments 
+  run file glue/genus/erythyro/erythyroAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/genus/erythyro/erythyroAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/genus/erythyro/erythyroRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/genus/erythyro/erythyroCreateRootPhylogenies.glue
+
+  # Validate
+  validate

@@ -1,0 +1,10 @@
+  delete module protoFeaturePresenceRecorder
+  create module -f modules/genus/proto/protoFeaturePresenceRecorder.xml
+
+  module protoFeaturePresenceRecorder 
+
+    #~# Genus-level alignment
+     record feature-presence AL_MASTER_Proto --recursive --featureName whole_genome --descendentFeatures
+    
+    exit
+
