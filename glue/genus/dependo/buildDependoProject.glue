@@ -1,7 +1,4 @@
 
-  # load project settings
-  run file glue/genus/dependo/projectSettings.glue
-
   # create modules
   run file glue/genus/dependo/dependoModules.glue
 

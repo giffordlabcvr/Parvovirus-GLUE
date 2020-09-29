@@ -1,0 +1,6 @@
+create module -f modules/genus/dependo/dependoNcbiImporterReferences.xml ncbiImporter
+
+# Download NCBI sequences 
+module ncbiImporter import
+
+export source ncbi-refseqs-dependo
