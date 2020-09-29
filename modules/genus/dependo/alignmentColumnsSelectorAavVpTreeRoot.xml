@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_AAV2</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>29</startCodon>
+        <endCodon>269</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Rep78</featureName>
+        <startNt>85</startNt>
+        <endNt>850</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

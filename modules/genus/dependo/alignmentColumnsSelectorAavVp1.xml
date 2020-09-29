@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_AAV2</relRefName>
+
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>173</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>190</startCodon>
+        <endCodon>257</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>272</startCodon>
+        <endCodon>377</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>392</startCodon>
+        <endCodon>441</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>562</startCodon>
+        <endCodon>730</endCodon>
+    </aminoAcidRegionSelector>
+    
+
+   
+    <nucleotideRegionSelector>
+        <featureName>VP1</featureName>
+        <startNt>1</startNt>
+        <endNt>2719</endNt>
+    </nucleotideRegionSelector>
+
+    <nucleotideRegionSelector>
+        <featureName>VP1</featureName>
+        <startNt>2770</startNt>
+        <endNt>2971</endNt>
+    </nucleotideRegionSelector>
+     
+    <nucleotideRegionSelector>
+        <featureName>VP1</featureName>
+        <startNt>3016</startNt>
+        <endNt>3331</endNt>
+    </nucleotideRegionSelector>
+     
+    <nucleotideRegionSelector>
+        <featureName>VP1</featureName>
+        <startNt>3376</startNt>
+        <endNt>3523</endNt>
+    </nucleotideRegionSelector>
+     
+    <nucleotideRegionSelector>
+        <featureName>VP1</featureName>
+        <startNt>3886</startNt>
+        <endNt>4390</endNt>
+    </nucleotideRegionSelector>
+
+
+ 
+    
+</alignmentColumnsSelector>
+         
