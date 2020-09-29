@@ -10,7 +10,7 @@
 
   # Extract data from the GenBank files
   module genbankXmlPopulator populate
-  module dependoSideDataImporter populate -f tabular/curated/dependo/dependo-gb-curated-side-data.tsv
+  module dependoSideDataImporter populate -f tabular/gb-curated/dependo-gb-curated-side-data.tsv
 
   # Import alignments
   run file glue/genus/dependo/dependoExtensionAlignments.glue

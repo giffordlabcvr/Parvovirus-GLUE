@@ -3,53 +3,53 @@
   delete alignment AL_UNC_DEPENDO_ROOT_VP
   
   delete module fastaAlignmentExporter
-  delete module aavTreeAlignmentImporterNucs
+  delete module dependoTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
-  delete module aavPhyloUtility
-  delete module aavFigTreeAnnotationExporter
+  delete module phyloUtility
+  delete module dependoFigTreeAnnotationExporter
   
   # Create all the modules we need
-  create module -f modules/fastaAlignmentExporter.xml
-  create module -f modules/aavTreeAlignmentImporterNucs.xml
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/genus/dependo/dependoTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/aavPhyloUtility.xml
-  create module -f modules/aavFigTreeAnnotationExporter.xml
+  create module -t phyloUtility
+  create module -f modules/genus/dependo/dependoFigTreeAnnotationExporter.xml
 
   # Export the gene alignments 
   module fastaAlignmentExporter
-    export AL_MASTER_Dependo -r REF_MASTER_AAV2 -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -o alignments/tree/aav-root-rep78.aln.fna
- 	export AL_MASTER_Dependo -r REF_MASTER_AAV2 -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -o alignments/tree/aav-root-vp1.aln.fna
+    export AL_MASTER_Dependo -r REF_Dependo_MASTER_AAV2 -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/dependo-root-rep78.aln.fna
+ 	export AL_MASTER_Dependo -r REF_Dependo_MASTER_AAV2 -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/dependo-root-vp1.aln.fna
  	exit
 
   # Import the alignments to GLUE
-  module aavTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_NS -f alignments/tree/aav-root-rep78.aln.fna
-  module aavTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_VP -f alignments/tree/aav-root-vp1.aln.fna
+  module dependoTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_NS -f alignments/tree/dependo-root-rep78.aln.fna
+  module dependoTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_VP -f alignments/tree/dependo-root-vp1.aln.fna
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_NS -a -o trees/virus-root/aav-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_VP -a -o trees/virus-root/aav-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_NS -a -o trees/virus-root/dependo-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_VP -a -o trees/virus-root/dependo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
-  module aavPhyloUtility 
+  module phyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/virus-root/aav-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/virus-root/dependo-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/virus-root/aav-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/virus-root/dependo-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/virus-root/aav-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/virus-root/dependo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/virus-root/aav-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/virus-root/dependo-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
-  module aavFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_DEPENDO_ROOT_NS -f trees/virus-root/aav-root-rep78.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_DEPENDO_ROOT_VP -f trees/virus-root/aav-root-vp1.figtree-annotations.tsv
+  module dependoFigTreeAnnotationExporter 
+    export figtree-annotation AL_UNC_DEPENDO_ROOT_NS -f trees/virus-root/dependo-root-rep78.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_DEPENDO_ROOT_VP -f trees/virus-root/dependo-root-vp1.figtree-annotations.tsv
 
   exit
 

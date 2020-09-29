@@ -5,19 +5,20 @@
   delete module fastaAlignmentExporter
   delete module protoTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
+  delete module phyloUtility
   delete module protoFigTreeAnnotationExporter
   
   # Create all the modules we need
-  create module -f modules/fastaAlignmentExporter.xml
-  create module -f modules/protoTreeAlignmentImporterNucs.xml
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/genus/proto/protoTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/protoPhyloUtility.xml
-  create module -f modules/protoFigTreeAnnotationExporter.xml
+  create module -t phyloUtility
+  create module -f modules/genus/proto/protoFigTreeAnnotationExporter.xml
 
   # Export the gene alignments 
   module fastaAlignmentExporter
-    export AL_MASTER_Proto -r REF_Proto_MASTER_CPV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -o alignments/tree/proto-root-rep78.aln.fna
- 	export AL_MASTER_Proto -r REF_Proto_MASTER_CPV -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -o alignments/tree/proto-root-vp1.aln.fna
+    export AL_MASTER_Proto -r REF_Proto_MASTER_CPV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/proto-root-rep78.aln.fna
+ 	export AL_MASTER_Proto -r REF_Proto_MASTER_CPV -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/proto-root-vp1.aln.fna
  	exit
 
   # Import the alignments to GLUE

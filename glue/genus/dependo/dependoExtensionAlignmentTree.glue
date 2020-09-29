@@ -39,7 +39,7 @@
     extract child AL_AAV1              --refName REF_AAV1
     demote member AL_AAV1              --whereClause "sequence.name = 'AAV-1'" 
 
-    extract child AL_AAV2              --refName REF_MASTER_AAV2
+    extract child AL_AAV2              --refName REF_Dependo_MASTER_AAV2
     demote member AL_AAV2              --whereClause "sequence.name = 'AAV-2'" 
 
     extract child AL_AAV3a             --refName REF_AAV3a
