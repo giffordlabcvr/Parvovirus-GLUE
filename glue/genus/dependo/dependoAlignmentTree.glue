@@ -3,7 +3,7 @@
   #~# Root level (Genus)
 
   create alignment AL_MASTER_Dependo --r REF_Dependo_MASTER_AAV2
-  alignment AL_MASTER_Dependo add member  --whereClause "sequence.genus = 'Dependoparvovirus'"
+  alignment AL_MASTER_Dependo add member  --whereClause "genus = 'Dependoparvovirus'"
 
 
   #~# Internal nodes (Dependoparvovirus sub-lineages) 

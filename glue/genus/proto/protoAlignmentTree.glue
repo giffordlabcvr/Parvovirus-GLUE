@@ -3,7 +3,7 @@
   #~# Root level (Genus)
 
   create alignment AL_MASTER_Proto --r REF_Proto_MASTER_CPV
-  alignment AL_MASTER_Proto add member  --whereClause "sequence.genus = 'Protoparvovirus'"
+  alignment AL_MASTER_Proto add member  --whereClause "genus = 'Protoparvovirus'"
 
 
   #~# Internal nodes (Protoparvovirus sub-lineages) 
