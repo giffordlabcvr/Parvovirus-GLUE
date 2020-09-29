@@ -1,6 +1,7 @@
 <!-- Parvoviridae reference sequences from NCBI -->
 <ncbiImporter>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
 
@@ -14,7 +15,6 @@
 	  <primaryAccession>NC_004284</primaryAccession>  <!-- Amdo AMDV --> 
 	  <primaryAccession>NC_000883</primaryAccession>  <!-- REF_Erythro_MASTER_B19 -->
 	  <primaryAccession>NC_006259</primaryAccession>  <!-- REF_Copi_MASTER_BPV2 -->
-	  <primaryAccession>NC_023860</primaryAccession>  <!-- REF_Copi_PPV6 -->
 	  <primaryAccession>NC_016744</primaryAccession>  <!-- REF_Tetra_MASTER_EhBtPV1 -->
 	  <primaryAccession>NC_004284</primaryAccession>  <!-- REF_Ambidenso_MASTER_JcDNV -->
 	  <primaryAccession>NC_000936</primaryAccession>  <!-- REF_Ambidenso_PfDNV -->
@@ -27,6 +27,5 @@
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
-  <sourceName>ncbi-refseqs</sourceName>
 </ncbiImporter>
 

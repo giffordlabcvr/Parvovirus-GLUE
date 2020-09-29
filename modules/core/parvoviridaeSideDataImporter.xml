@@ -4,7 +4,7 @@
     
     <textFileColumn>
         <identifier>true</identifier>
-        <header>accession-ID</header>
+        <header>sequenceID</header>
         <property>sequenceID</property>
     </textFileColumn>
 
@@ -24,14 +24,35 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_subfamily</header>
-        <property>subfamily</property>
+        <header>assign_clade</header>
+        <property>assign_clade</property>
     </textFileColumn>
 
     <textFileColumn>
-        <header>host_species</header>
-        <property>isolate_data.host_sci_name</property>
+        <header>assign_subclade</header>
+        <property>assign_subclade</property>
     </textFileColumn>
+
+    <textFileColumn>
+        <header>virus_clade_ns</header>
+        <property>clade_ns</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>virus_subclade_ns</header>
+        <property>subclade_ns</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>virus_clade_vp</header>
+        <property>clade_vp</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>virus_subclade_vp</header>
+        <property>subclade_vp</property>
+    </textFileColumn>
+ 
 
     <skipMissing>true</skipMissing>
 

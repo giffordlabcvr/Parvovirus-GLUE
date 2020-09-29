@@ -22,9 +22,7 @@
 
 
   # Delete extension alignments
-  multi-delete alignment -w "name like '%-EVE%'"
-  multi-delete alignment -w "name like '%_EVE_%'"
-  multi-delete alignment -w "name like 'AL_EPV%'"
+  multi-delete alignment -w "name like '%-AL_EPV-Dependo%'"
   multi-delete alignment -w "name like 'AL_UNC_EPV%'"
   
   delete alignment AL_Lemuria
@@ -33,7 +31,7 @@
   delete alignment AL_Sauria
 
   # Delete extension reference sequences
-  multi-delete reference -w "name like 'REF_EPV%'"
+  multi-delete reference -w "name like 'REF_EPV_dependo%'"
 
   # Delete sources
   delete source fasta-refseqs-epv-con

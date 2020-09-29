@@ -1,14 +1,14 @@
 
-  create module -f modules/genus/dependo/dependoSideDataImporter.xml 
-  create module -f modules/genus/dependo/dependoMafftAligner.xml
-  create module -f modules/genus/dependo/dependoStrictFastaAlignmentImporter.xml
-  create module -f modules/genus/dependo/dependoTabularUtility.xml aavTabularUtility
-  create module -f modules/genus/dependo/dependoCompoundAligner.xml
-  create module -f modules/genus/dependo/featureLocationTextToGlue.xml 
+  create module -f modules/genus/proto/protoSideDataImporter.xml 
+  create module -f modules/genus/proto/protoMafftAligner.xml
+  create module -f modules/genus/proto/protoStrictFastaAlignmentImporter.xml
+  create module -f modules/genus/proto/protoTabularUtility.xml aavTabularUtility
+  create module -f modules/genus/proto/protoCompoundAligner.xml
+  create module -f modules/genus/proto/featureLocationTextToGlue.xml 
 
   #create module -t raxmlPhylogenyGenerator
-  #create module -f modules/genus/dependo/fastaAlignmentExporter.xml
-  #create module -f modules/genus/dependo/dependoGenbankXmlPopulator.xml
-  #create module -f modules/genus/dependo/unconstrainedAlignmentImporter.xml 
-  #create module -f modules/genus/dependo/unconstrainedAlignmentImporterSimple.xml
-  #create module -f modules/genus/dependo/dependoPhyloUtility.xml
+  #create module -f modules/genus/proto/fastaAlignmentExporter.xml
+  #create module -f modules/genus/proto/protoGenbankXmlPopulator.xml
+  #create module -f modules/genus/proto/unconstrainedAlignmentImporter.xml 
+  #create module -f modules/genus/proto/unconstrainedAlignmentImporterSimple.xml
+  #create module -f modules/genus/proto/protoPhyloUtility.xml
