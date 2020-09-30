@@ -1,10 +1,10 @@
-  delete module protoFeaturePresenceRecorder
-  create module -f modules/genus/proto/protoFeaturePresenceRecorder.xml
+  delete module erythyroFeaturePresenceRecorder
+  create module -f modules/genus/Erythyro/erythyroFeaturePresenceRecorder.xml
 
-  module protoFeaturePresenceRecorder 
+  module erythyroFeaturePresenceRecorder 
 
     #~# Genus-level alignment
-     record feature-presence AL_MASTER_Proto --recursive --featureName whole_genome --descendentFeatures
+     record feature-presence AL_MASTER_Erythyro --recursive --featureName whole_genome --descendentFeatures
     
     exit
 

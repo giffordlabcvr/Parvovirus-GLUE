@@ -47,6 +47,7 @@
     
     exit
 
+
   reference REF_Dependo_MASTER_AAV2
  
  	add feature-location whole_genome
@@ -101,6 +102,31 @@
 	  exit
         
   exit 
+
+
+
+
+  reference REF_Erythro_MASTER_B19
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5596
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 616 2631
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2624 4969
+	  exit
+   
+    exit
+
+
+
 
 
   reference REF_Ave_MASTER_ChPV
@@ -191,28 +217,6 @@
 	  exit
    
     exit
-
-
-
-  reference REF_Erythro_MASTER_B19
- 
- 	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1 5596
-	  exit
-
- 	add feature-location Rep78
-	feature-location Rep78
-	  add segment 616 2631
-	  exit
-
- 	add feature-location VP1
-	feature-location VP1
-	  add segment 2624 4969
-	  exit
-   
-    exit
-
 
 
   reference REF_Hepandenso_MASTER_FCDNV

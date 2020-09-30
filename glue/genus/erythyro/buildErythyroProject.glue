@@ -4,6 +4,7 @@
 
   # Import sources 
   import source sources/ncbi-refseqs-erythyro
+  import source sources/fasta-refseqs-erythyro
 
   # Import data 
   run file glue/genus/erythyro/erythyroLoadVirusData.glue
@@ -12,7 +13,7 @@
   run file glue/genus/erythyro/erythyroReferences.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/genus/erythyro-refseq-feature-locations.tsv -r
+  #module featureLocationTextToGlue transform tabular/genus/erythyro-refseq-feature-locations.tsv -r
 
   # Import alignments 
   run file glue/genus/erythyro/erythyroAlignments.glue

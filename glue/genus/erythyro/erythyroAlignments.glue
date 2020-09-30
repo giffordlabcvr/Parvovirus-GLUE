@@ -3,12 +3,8 @@
   module unconstrainedAlignmentImporter 
 
     #~# Root-level alignments
-    import AL_UNC_PROTO_ROOT     -f alignments/internal/genus/proto-genome.aln.fna
+    import AL_UNC_ERYTHYRO_ROOT     -f alignments/internal/genus/erythyro-genome.aln.fna
     
-    #~# Internal node deep splits 
-    
-    #~# Internal node mammalian subclades     
-
     
     exit
 
