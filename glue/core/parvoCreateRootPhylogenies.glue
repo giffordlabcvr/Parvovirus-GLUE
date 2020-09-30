@@ -3,19 +3,19 @@
 
   delete module fastaAlignmentExporter
   delete module raxmlPhylogenyGenerator
-  delete module parvoviridaePhyloUtility
-  delete module parvoviridaeFigTreeAnnotationExporter
-  delete module parvoviridaeFeaturePresenceRecorder
-  delete module parvoviridaeTreeAlignmentImporterNucs 
+  delete module parvoPhyloUtility
+  delete module parvoFigTreeAnnotationExporter
+  delete module parvoFeaturePresenceRecorder
+  delete module parvoTreeAlignmentImporterNucs 
   delete module alignmentColumnsSelectorParvovirinaeRoot
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/parvoviridaeTreeAlignmentImporterNucs.xml
-  create module -f modules/core/parvoviridaePhyloUtility.xml
-  create module -f modules/core/parvoviridaeFigTreeAnnotationExporter.xml
-  create module -f modules/core/parvoviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/core/parvoPhyloUtility.xml
+  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
   create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
   create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
 
@@ -26,14 +26,14 @@
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module parvoviridaeTreeAlignmentImporterNucs import AL_UNC_TREE_Parvovirinae -f alignments/tree/Parvovirinae-all.aln.fna
+  module parvoTreeAlignmentImporterNucs import AL_UNC_TREE_Parvovirinae -f alignments/tree/Parvovirinae-all.aln.fna
   create alignment AL_TREE_Parvovirinae -r REF_Proto_MASTER_CPV
   
   alignment AL_TREE_Parvovirinae
 	derive segments AL_UNC_TREE_Parvovirinae -a --mergeStrategy OVERWRITE
 	exit
 	
-  module parvoviridaeFeaturePresenceRecorder
+  module parvoFeaturePresenceRecorder
     record feature-presence AL_TREE_Parvovirinae --featureName whole_genome --descendentFeatures
     exit
 

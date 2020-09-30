@@ -4,12 +4,12 @@ var source_name = 'ncbi-curated-dependo-epv';
 // Load the refcon data and store relationships between locus and viral taxonomy
 var epvRefseqResultMap = {};
 get_refcon_data(epvRefseqResultMap, refconDataPath);
-glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
+//glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
 
 
 // Load EVE data from tab file 
 var loadResult;
-glue.inMode("module/aavTabularUtility", function() {
+glue.inMode("module/tabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-ncbi-curated.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
@@ -76,7 +76,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 
   // Load EVE reference data from tab file 
   var loadResult;
-  glue.inMode("module/aavTabularUtility", function() {
+  glue.inMode("module/tabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
 	  // glue.log("INFO", "load result was:", loadResult);
   });

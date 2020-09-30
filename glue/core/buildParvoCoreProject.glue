@@ -1,0 +1,31 @@
+
+  # load project settings
+  run file glue/core/projectSettings.glue
+
+  # create modules
+  run file glue/core/parvoModules.glue
+
+  # Import sources 
+  import source sources/ncbi-refseqs
+
+  # Import data 
+  run file glue/core/parvoLoadData.glue
+
+  # Define genome features
+  run file glue/core/parvoFeatures.glue
+
+  # Declare reference sequences
+  run file glue/core/parvoMasterReferences.glue
+
+  # Import alignments and build constrained alignment tree
+  run file glue/core/parvoAlignments.glue
+  run file glue/core/parvoAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/core/parvoRecordFeaturePresence.glue
+
+  # Create the root phylogenies for the parvoviridae (master reference sequences only)
+  #run file glue/core/parvoCreateRootPhylogenies.glue
+  
+  # Validate
+  validate

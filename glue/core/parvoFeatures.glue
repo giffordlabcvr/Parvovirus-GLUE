@@ -29,6 +29,12 @@
   feature Rep52 set metatag INCLUDE_IN_SUMMARY true
   feature Rep52 set metatag CODES_AMINO_ACIDS true
 
+  create feature Rep68 -p whole_genome "Rep 68 protein"
+  feature Rep68 set field displayName "Replicase"
+  feature Rep68 set metatag OWN_CODON_NUMBERING true
+  feature Rep68 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep68 set metatag CODES_AMINO_ACIDS true
+
   create feature Rep78 -p whole_genome "Rep 78 protein"
   feature Rep78 set field displayName "Replicase"
   feature Rep78 set metatag OWN_CODON_NUMBERING true
@@ -119,23 +125,41 @@
   feature NS2-L set metatag INCLUDE_IN_SUMMARY true
   feature NS2-L set metatag CODES_AMINO_ACIDS true
 
-  create feature VP1 -p whole_genome "Capsid protein"
-  feature VP1 set field displayName "Capsid"
-  feature VP1 set metatag OWN_CODON_NUMBERING true
-  feature VP1 set metatag INCLUDE_IN_SUMMARY true
-  feature VP1 set metatag CODES_AMINO_ACIDS true
-
   create feature VP -p whole_genome "Capsid protein"
   feature VP set field displayName "Capsid"
   feature VP set metatag OWN_CODON_NUMBERING true
   feature VP set metatag INCLUDE_IN_SUMMARY true
   feature VP set metatag CODES_AMINO_ACIDS true
 
+  create feature VP1 -p whole_genome "Capsid protein VP1"
+  feature VP1 set field displayName "Capsid"
+  feature VP1 set metatag OWN_CODON_NUMBERING true
+  feature VP1 set metatag INCLUDE_IN_SUMMARY true
+  feature VP1 set metatag CODES_AMINO_ACIDS true
+
+  create feature VP2 -p whole_genome "Capsid protein  VP2"
+  feature VP2 set field displayName "Capsid"
+  feature VP2 set metatag OWN_CODON_NUMBERING true
+  feature VP2 set metatag INCLUDE_IN_SUMMARY true
+  feature VP2 set metatag CODES_AMINO_ACIDS true
+
+  create feature VP3 -p whole_genome "Capsid protein  VP3"
+  feature VP3 set field displayName "Capsid"
+  feature VP3 set metatag OWN_CODON_NUMBERING true
+  feature VP3 set metatag INCLUDE_IN_SUMMARY true
+  feature VP3 set metatag CODES_AMINO_ACIDS true
+
   create feature CP -p whole_genome "Capsid protein (Denso)"
   feature CP set field displayName "Capsid"
   feature CP set metatag OWN_CODON_NUMBERING true
   feature CP set metatag INCLUDE_IN_SUMMARY true
   feature CP set metatag CODES_AMINO_ACIDS true
+
+  create feature X -p whole_genome "X protein"
+  feature X set field displayName "X"
+  feature X set metatag OWN_CODON_NUMBERING true
+  feature X set metatag INCLUDE_IN_SUMMARY true
+  feature X set metatag CODES_AMINO_ACIDS true
 
   create feature 3UTR "3' UTR"
 

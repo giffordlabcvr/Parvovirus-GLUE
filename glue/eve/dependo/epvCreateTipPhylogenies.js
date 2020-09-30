@@ -32,10 +32,10 @@ _.each(alignmentResult, function(alnObj) {
 
 	if (numTaxa >= 4) {
 
-		glue.command(["compute", "alignment", alignmentName, "aavMafftAligner"]);
+		glue.command(["compute", "alignment", alignmentName, "parvoMafftAligner"]);
   
 		// Record feature coverage in each alignment
-		glue.inMode("/module/aavFeaturePresenceRecorder", function() {		
+		glue.inMode("/module/dependoFeaturePresenceRecorder", function() {		
 			glue.command(["record", "feature-presence", alignmentName, "--recursive", "--featureName", "whole_genome", "--descendentFeatures" ]);
 		});   
 
@@ -49,7 +49,7 @@ _.each(alignmentResult, function(alnObj) {
 
 
 		// Reroot the phylogenies
-		glue.inMode("/module/aavPhyloUtility", function() {
+		glue.inMode("/module/phyloUtility", function() {
 
 			
 			glue.log("INFO", "Tree will be written to path: ", midpointPath);

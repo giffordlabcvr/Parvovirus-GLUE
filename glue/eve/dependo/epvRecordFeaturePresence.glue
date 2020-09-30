@@ -1,7 +1,7 @@
   delete module aavFeaturePresenceRecorder
-  create module -f modules/genus/dependo/dependoFeaturePresenceRecorder.xml
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
 
-  module dependoFeaturePresenceRecorder 
+  module parvoFeaturePresenceRecorder 
 
     #~# Root alignment
     record feature-presence AL_MASTER_Dependo --recursive --featureName whole_genome --descendentFeatures

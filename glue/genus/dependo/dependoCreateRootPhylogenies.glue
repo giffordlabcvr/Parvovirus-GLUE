@@ -3,17 +3,13 @@
   delete alignment AL_UNC_DEPENDO_ROOT_VP
   
   delete module fastaAlignmentExporter
-  delete module dependoTreeAlignmentImporterNucs
-  delete module raxmlPhylogenyGenerator
-  delete module phyloUtility
-  delete module dependoFigTreeAnnotationExporter
+  delete module parvoTreeAlignmentImporterNucs
+  delete module parvoFigTreeAnnotationExporter
   
   # Create all the modules we need
   create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/genus/dependo/dependoTreeAlignmentImporterNucs.xml
-  create module -t raxmlPhylogenyGenerator
-  create module -t phyloUtility
-  create module -f modules/genus/dependo/dependoFigTreeAnnotationExporter.xml
+  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
 
   # Export the gene alignments 
   module fastaAlignmentExporter
@@ -22,34 +18,34 @@
  	exit
 
   # Import the alignments to GLUE
-  module dependoTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_NS -f alignments/tree/dependo-root-rep78.aln.fna
-  module dependoTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_VP -f alignments/tree/dependo-root-vp1.aln.fna
+  module parvoTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_NS -f alignments/tree/dependo-root-rep78.aln.fna
+  module parvoTreeAlignmentImporterNucs import AL_UNC_DEPENDO_ROOT_VP -f alignments/tree/dependo-root-vp1.aln.fna
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_NS -a -o trees/virus-root/dependo-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_VP -a -o trees/virus-root/dependo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_NS -a -o trees/genus-level/dependo-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_DEPENDO_ROOT_VP -a -o trees/genus-level/dependo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
   module phyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/virus-root/dependo-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus-level/dependo-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/virus-root/dependo-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/genus-level/dependo-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/virus-root/dependo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus-level/dependo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/virus-root/dependo-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/genus-level/dependo-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
-  module dependoFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_DEPENDO_ROOT_NS -f trees/virus-root/dependo-root-rep78.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_DEPENDO_ROOT_VP -f trees/virus-root/dependo-root-vp1.figtree-annotations.tsv
+  module parvoFigTreeAnnotationExporter 
+    export figtree-annotation AL_UNC_DEPENDO_ROOT_NS -f trees/genus-level/dependo-root-rep78.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_DEPENDO_ROOT_VP -f trees/genus-level/dependo-root-vp1.figtree-annotations.tsv
 
   exit
 

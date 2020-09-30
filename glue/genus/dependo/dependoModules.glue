@@ -1,14 +1,3 @@
 
   create module -f modules/genus/dependo/dependoSideDataImporter.xml 
-  create module -f modules/genus/dependo/dependoMafftAligner.xml
-  create module -f modules/genus/dependo/dependoStrictFastaAlignmentImporter.xml
-  create module -f modules/genus/dependo/dependoTabularUtility.xml aavTabularUtility
   create module -f modules/genus/dependo/dependoCompoundAligner.xml
-  create module -f modules/genus/dependo/featureLocationTextToGlue.xml 
-
-  #create module -t raxmlPhylogenyGenerator
-  #create module -f modules/genus/dependo/fastaAlignmentExporter.xml
-  #create module -f modules/genus/dependo/dependoGenbankXmlPopulator.xml
-  #create module -f modules/genus/dependo/unconstrainedAlignmentImporter.xml 
-  #create module -f modules/genus/dependo/unconstrainedAlignmentImporterSimple.xml
-  #create module -f modules/genus/dependo/dependoPhyloUtility.xml
