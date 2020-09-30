@@ -3,10 +3,10 @@
        An alternative to eSearchTerm is to specify specific GI numbers or Primary Accessions 
        to retrieve. See ncbiImporterGiNumbers.xml and ncbiImporterPrimaryAccessions.xml for syntax examples -->
   <eSearchTerm>
-     "Amdoparvovirus"[Organism] AND 500:6000[SLEN]
+     "Erythyroparvovirus"[Organism] AND 500:6000[SLEN]
   </eSearchTerm>  
   <sequenceFormat>GENBANK_XML</sequenceFormat>
-  <sourceName>ncbi-curated-amdo</sourceName>
+  <sourceName>ncbi-curated-erythyro</sourceName>
   <!-- This specifies the field of the GenBank document which will be used as the GLUE sequence ID. The options are:
        GI_NUMBER (default if omitted)
        PRIMARY_ACCESSION -->
