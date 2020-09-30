@@ -1,13 +1,3 @@
 
-  create module -f modules/genus/proto/protoSideDataImporter.xml 
-  create module -f modules/genus/proto/protoMafftAligner.xml
-  create module -f modules/genus/proto/protoStrictFastaAlignmentImporter.xml
-  create module -f modules/genus/proto/protoCompoundAligner.xml
-  create module -f modules/genus/proto/featureLocationTextToGlue.xml 
-
-  #create module -t raxmlPhylogenyGenerator
-  #create module -f modules/genus/proto/fastaAlignmentExporter.xml
-  #create module -f modules/genus/proto/protoGenbankXmlPopulator.xml
-  #create module -f modules/genus/proto/unconstrainedAlignmentImporter.xml 
-  #create module -f modules/genus/proto/unconstrainedAlignmentImporterSimple.xml
-  #create module -f modules/genus/proto/protoPhyloUtility.xml
+  create module -f modules/genus/erythyro/erythyroSideDataImporter.xml 
+  create module -f modules/genus/erythyro/erythyroCompoundAligner.xml

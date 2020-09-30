@@ -1,7 +1,16 @@
-accession-ID	virus_name	virus_full_name	host_species	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
-NC_001718	PPV	Porcine parvovirus	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
-NC_001510	MVM	Minute virus of mice	Mus musculus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
-U34255	HV	Hamster parvovirus	Mesocricetus auratus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
-KT965075	Zsana	Protoparvovirus Zsana	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
-NC_026815	EuPV	Eulipotyphla protoparvovirus	Crocidura hirta	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
-NC_030837	SoPV	Sea otter parvovirus 1	Enhydra lutris	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+accession-ID	virus_name	virus_full_name	virus_other_name	host_species	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
+NC_030837	SoPV	Carnivore protoparvovirus	sea otter parvovirus	Enhydra lutris	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_001539	CPV	Carnivore protoparvovirus 1	canine parvovirus	Canis familiaris	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_029797	BtBuV1	Chiropteran protoparvovirus 1	megabat bufavirus 1	Pteropus vampyrus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_026815	EuPV	Eulipotyphla protoparvovirus	Mpulungu (shrew) bufavirus	Crocidura hirta	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_038544	BuV1a	Primate protoparvovirus 1	bufavirus 1a (human)	Homo sapiens	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_039049	WuBuV1	Primate protoparvovirus 2	Wuharv (rhesus) parvovirus 1	Macaca	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_039050	CutaV	Primate protoparvovirus 3	cutavirus (human)	Homo sapiens	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+KJ495710	TuV	Primate protoparvovirus 4	tusavirus	Homo sapiens	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_001510	MVM	Rodent protoparvovirus 1	minute virus of mice	Mus musculus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_038545	RPV1	Rodent protoparvovirus 2	rat parvovirus 1	Rattus familiaris	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_028650	RatBuV	Rodent protoparvovirus 3	rat bufavirus SY-2015	Rattus familiaris	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_001718	PPV	Ungulate protoparvovirus 1	porcine parvovirus	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+NC_043446	PBuV	Ungulate protoparvovirus 2	porcine bufavirus; protoparvovirus (porcine)	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+KT965075	Zsana	Protoparvovirus Zsana	Protoparvovirus Zsana	Sus scrofa	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE
+U34255	HV	Hamster parvovirus	Hamster parvovirus	Mesocricetus auratus	Protoparvovirus	NK	NK	NK	NK	NK	NK	FALSE

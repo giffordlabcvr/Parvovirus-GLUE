@@ -6,17 +6,20 @@
   <specificPrimaryAccessions>
 
 	<!-- <primaryAccession>NC_001539</primaryAccession> Master refererence CPV is in core project -->
-	<primaryAccession>NC_001718</primaryAccession>
-	<primaryAccession>NC_001510</primaryAccession>
-	<primaryAccession>U34255</primaryAccession>
-	<primaryAccession>KT965075</primaryAccession>
-	<primaryAccession>AF321230</primaryAccession>
-	<primaryAccession>JX505432</primaryAccession>
-	<primaryAccession>D00623</primaryAccession>
-	<primaryAccession>NC_026815</primaryAccession>
 	<primaryAccession>NC_030837</primaryAccession>
-	<primaryAccession>KJ641666</primaryAccession> <!-- Bat-parvovirus -->
-	<primaryAccession>KJ495710</primaryAccession> <!-- Tusavirus 1 -->
+	<primaryAccession>NC_029797</primaryAccession>
+	<primaryAccession>NC_026815</primaryAccession>
+	<primaryAccession>NC_038544</primaryAccession>
+	<primaryAccession>NC_039049</primaryAccession>
+	<primaryAccession>NC_039050</primaryAccession>
+	<primaryAccession>KJ495710</primaryAccession>
+	<primaryAccession>NC_001510</primaryAccession>
+	<primaryAccession>NC_038545</primaryAccession>
+	<primaryAccession>NC_028650</primaryAccession>
+	<primaryAccession>NC_001718</primaryAccession>
+	<primaryAccession>NC_043446</primaryAccession>
+	<primaryAccession>KT965075</primaryAccession>
+	<primaryAccession>U34255</primaryAccession>
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

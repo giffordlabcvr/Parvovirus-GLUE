@@ -1,32 +1,32 @@
-accession-ID	virus_name	virus_full_name	host_species	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	virus_genus
-NC_027429	BdrPV	Bearded dragon parvovirus strain 2014	Homo sapiens	Dependo1	Sauria	Dependo1	Sauria	Dependo1	Sauria	FALSE	Dependoparvovirus
-NC_006148	SnakePV	Snake parvovirus 1	Python regius	Dependo1	Sauria	Dependo1	Sauria	Dependo1	Sauria	FALSE	Dependoparvovirus
-NC_001701	GPV	Goose parvovirus	Anser anser	Dependo2	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE	Dependoparvovirus
-NC_006147	MDPV	Muscovy duck parvovirus	Cairina moschata	Dependo2	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE	Dependoparvovirus
-NC_004828	AvAAV-atcc	Avian adeno-associated virus ATCC VR-865		Dependo2	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE	Dependoparvovirus
-NC_006263	AvAAV-da1	Avian adeno-associated virus strain DA-1		Dependo2	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE	Dependoparvovirus
-NC_040671	AvAAV-mhh	Avian adeno-associated virus isolate MHH-05-2015		Dependo2	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE	Dependoparvovirus
-NC_038539	AAV-sealion	California sea lion adeno-associated virus 1		Dependo3	Carnivore	Dependo3	Carnivore	Dependo3	Carnivore	FALSE	Dependoparvovirus
-NC_014468	AAV-bat	Bat adeno-associated virus YNM		Dependo3	Chiroptera	Dependo3	Chiroptera	Dependo3	Chiroptera	FALSE	Dependoparvovirus
-NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-C	FALSE	Dependoparvovirus
-DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-C	FALSE	Dependoparvovirus
-NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-C	FALSE	Dependoparvovirus
-AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-NC_006261	AAV8	Adeno-associated virus 8	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-AX753250	AAV9	Adeno-associated virus 9	Homo sapiens	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-AY243022	NHP-AAV-type1	NHP Adeno-associated virus type 1	Macaca mulatta	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-AY243021	NHP-AAV-type2	NHP Adeno-associated virus type 2	Macaca mulatta	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-AY243002	NHP-AAV11	NHP Adeno-associated virus 11	Macaca mulatta	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-KT984498	NHP-AAV6	NHP Adeno-associated virus 6	Macaca mulatta	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE	Dependoparvovirus
-DQ335246	CAV	Caprine adeno-associated virus	Capra hircus	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	FALSE	Dependoparvovirus
-NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	FALSE	Dependoparvovirus
-NC_005889	BAAV	Bovine adeno-associated virus		Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-C	FALSE	Dependoparvovirus
-FJ688147	AAVpo1	Adeno-associated virus Po1	Sus scrofa	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Porcine	FALSE	Dependoparvovirus
-MF416383	Mouse-AAV1	Mouse adeno associated virus 1	Mus musculus	Dependo3	Rodent	Dependo3	Rodent	Dependo3	Rodent	FALSE	Dependoparvovirus
-MF416384	Mouse-AAV2	Mouse adeno associated virus 2	Mus musculus	Dependo3	Rodent	Dependo3	Rodent	Dependo3	Rodent	FALSE	Dependoparvovirus
+accession-ID	virus_name	virus_full_name	host_species	assign_clade	virus_genus	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
+NC_027429	BdrPV	Bearded dragon parvovirus strain 2014	Homo sapiens	Dependo1	Dependoparvovirus	Sauria	Dependo1	Sauria	Dependo1	Sauria	FALSE
+NC_006148	SnakePV	Snake parvovirus 1	Python regius	Dependo1	Dependoparvovirus	Sauria	Dependo1	Sauria	Dependo1	Sauria	FALSE
+NC_001701	GPV	Goose parvovirus	Anser anser	Dependo2	Dependoparvovirus	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE
+NC_006147	MDPV	Muscovy duck parvovirus	Cairina moschata	Dependo2	Dependoparvovirus	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE
+NC_004828	AvAAV-atcc	Avian adeno-associated virus ATCC VR-865		Dependo2	Dependoparvovirus	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE
+NC_006263	AvAAV-da1	Avian adeno-associated virus strain DA-1		Dependo2	Dependoparvovirus	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE
+NC_040671	AvAAV-mhh	Avian adeno-associated virus isolate MHH-05-2015		Dependo2	Dependoparvovirus	Galloanserae	Dependo2	Galloanserae	Dependo2	Galloanserae	FALSE
+NC_038539	AAV-sealion	California sea lion adeno-associated virus 1		Dependo3	Dependoparvovirus	Carnivore	Dependo3	Carnivore	Dependo3	Carnivore	FALSE
+NC_014468	AAV-bat	Bat adeno-associated virus YNM		Dependo3	Dependoparvovirus	Chiroptera	Dependo3	Chiroptera	Dependo3	Chiroptera	FALSE
+NC_002077	AAV1	Adeno-associated virus 1	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+LY408697	AAV10	Adeno-associated virus 11	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+AY631966	AAV11	Adeno-associated virus 11	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-C	FALSE
+DQ813647	AAV12	Adeno-associated virus 12	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-C	FALSE
+NC_001401	AAV2	Adeno-associated virus 2	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+NC_001729	AAV3	Adeno-associated virus 3	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+AF028705	AAV3B	Adeno-associated virus 3B	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+NC_001829	AAV4	Adeno-associated virus 4	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-C	FALSE
+AF028704	AAV6	Adeno-associated virus 6	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+NC_006260	AAV7	Adeno-associated virus 7	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+NC_006261	AAV8	Adeno-associated virus 8	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+AX753250	AAV9	Adeno-associated virus 9	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+AY243022	NHP-AAV-type1	NHP Adeno-associated virus type 1	Macaca mulatta	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+AY243021	NHP-AAV-type2	NHP Adeno-associated virus type 2	Macaca mulatta	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+AY243002	NHP-AAV11	NHP Adeno-associated virus 11	Macaca mulatta	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+KT984498	NHP-AAV6	NHP Adeno-associated virus 6	Macaca mulatta	Dependo3	Dependoparvovirus	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	FALSE
+DQ335246	CAV	Caprine adeno-associated virus	Capra hircus	Dependo3	Dependoparvovirus	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	FALSE
+NC_006152	AAV5	Adeno-associated virus 5	Homo sapiens	Dependo3	Dependoparvovirus	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	FALSE
+NC_005889	BAAV	Bovine adeno-associated virus		Dependo3	Dependoparvovirus	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Dependoparvovirus-C	FALSE
+FJ688147	AAVpo1	Adeno-associated virus Po1	Sus scrofa	Dependo3	Dependoparvovirus	Dependoparvovirus-B	Dependo3	Dependoparvovirus-B	Dependo3	Porcine	FALSE
+MF416383	Mouse-AAV1	Mouse adeno associated virus 1	Mus musculus	Dependo3	Dependoparvovirus	Rodent	Dependo3	Rodent	Dependo3	Rodent	FALSE
+MF416384	Mouse-AAV2	Mouse adeno associated virus 2	Mus musculus	Dependo3	Dependoparvovirus	Rodent	Dependo3	Rodent	Dependo3	Rodent	FALSE

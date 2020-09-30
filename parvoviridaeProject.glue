@@ -14,8 +14,8 @@ exit
 # Build genus extensions
 project parvoviridae
   #run file glue/genus/dependo/buildDependoProject.glue
-  run file glue/genus/proto/buildProtoProject.glue
-  #run file glue/genus/erythyro/buildErythyroProject.glue
+  #run file glue/genus/proto/buildProtoProject.glue
+  run file glue/genus/erythyro/buildErythyroProject.glue
   #run file glue/genus/amdo/buildAmdoProject.glue
 exit
 

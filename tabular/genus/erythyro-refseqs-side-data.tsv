@@ -1,0 +1,8 @@
+accession-ID	virus_name	virus_full_name	host_species	assign_clade	virus_genus	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
+KF373759	SePV	Pinniped erythroparvovirus 1	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
+NC_000883	B19V	Primate erythroparvovirus 1	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
+NC_038540	SPV	Primate erythroparvovirus 2	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
+NC_038541	RmPV	Primate erythroparvovirus 3	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
+NC_038542	PmPV	Primate erythroparvovirus 4	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
+NC_038543	ChpPV	Rodent erythroparvovirus 1	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
+AF406967	BPV3	Ungulate erythroparvovirus 1	NK	NK	Erythroparvovirus	NK	NK	NK	NK	NK	FALSE
