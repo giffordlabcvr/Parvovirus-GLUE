@@ -2,13 +2,15 @@
 
   ## Parvovirinae 
  
-  create reference REF_Ave_MASTER_ChPV            ncbi-refseqs NC_024452
-  create reference REF_Boca_MASTER_BPV            ncbi-refseqs NC_001540
+  create reference REF_Amdo_MASTER_AMDV           ncbi-refseqs NC_001662
   create reference REF_Dependo_MASTER_AAV2        ncbi-refseqs NC_001401
   create reference REF_Proto_MASTER_CPV           ncbi-refseqs NC_001539
-  create reference REF_Amdo_MASTER_AMDV           ncbi-refseqs NC_001662
   create reference REF_Erythro_MASTER_B19         ncbi-refseqs NC_000883
+
+  create reference REF_Ave_MASTER_ChPV            ncbi-refseqs NC_024452
+  create reference REF_Boca_MASTER_BPV            ncbi-refseqs NC_001540
   create reference REF_Copi_MASTER_BPV2           ncbi-refseqs NC_006259
+
   create reference REF_Tetra_MASTER_EhBtPV1       ncbi-refseqs NC_016744
   create reference REF_Ambidenso_MASTER_JcDNV     ncbi-refseqs NC_004284
   create reference REF_Ambidenso_PfDNV            ncbi-refseqs NC_000936
@@ -19,8 +21,31 @@
   create reference REF_Chappa_MASTER_PPV7         ncbi-refseqs NC_040562
 
 
-
   # Add feature locations to genus master reference sequences
+
+  reference REF_Amdo_MASTER_AMDV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4801
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 206 1978
+	  exit
+
+ 	add feature-location M
+	feature-location  M
+	  add segment 1993 2211
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2406 4349
+	  exit
+    
+    exit
 
   reference REF_Dependo_MASTER_AAV2
  
@@ -93,26 +118,6 @@
  	add feature-location VP1
 	feature-location VP1
 	  add segment 2998 5025
-	  exit
-    
-    exit
-
-
-  reference REF_Amdo_MASTER_AMDV
- 
- 	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1 4801
-	  exit
-
- 	add feature-location Rep78
-	feature-location Rep78
-	  add segment 206 1978
-	  exit
-
- 	add feature-location VP1
-	feature-location VP1
-	  add segment 2406 4349
 	  exit
     
     exit

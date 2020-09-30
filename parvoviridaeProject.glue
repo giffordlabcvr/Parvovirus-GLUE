@@ -3,19 +3,19 @@ delete project parvoviridae
 create project parvoviridae "A GLUE project for the Parvoviridae" --minVersion 0.1.66
 
 schema-project parvoviridae
-  run file glue/core/parvoviridaeSchemaExtensions.glue
+  run file glue/core/parvoSchemaExtensions.glue
   exit
 
 # Build Parvoviridae core in AAV/Dependo project
 project parvoviridae
-  run file glue/core/buildParvoviridaeCoreProject.glue
+  run file glue/core/buildParvoCoreProject.glue
 exit
 
-# Build Dependoparvovirus extension
+# Build genus extensions
 project parvoviridae
-  run file glue/genus/dependo/buildDependoProject.glue
+  #run file glue/genus/dependo/buildDependoProject.glue
   run file glue/genus/proto/buildProtoProject.glue
-  run file glue/genus/erythyro/buildErythyroProject.glue
-  run file glue/genus/amdo/buildAmdoProject.glue
+  #run file glue/genus/erythyro/buildErythyroProject.glue
+  #run file glue/genus/amdo/buildAmdoProject.glue
 exit
 
