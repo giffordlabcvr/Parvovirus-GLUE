@@ -19,21 +19,3 @@ project parvoviridae
   run file glue/genus/amdo/buildAmdoProject.glue
 exit
 
-# Build EVE extension (incorporates EVE loci)
-project parvoviridae
-  #run file glue/eve/dependo/epvDeletePreviousExtensionBuild.glue
-exit
-
-schema-project parvoviridae
-  #run file glue/eve/dependo/epvSchemaExtensions.glue
-exit
-
-project parvoviridae
-  #run file glue/eve/dependo/buildDependoEveExtension.glue
-exit
-
-# Build GenBank extension (incorporates curated set of all dependoparvovirus sequences in GenBank)
-project parvoviridae
-	#run file glue/genus/dependo/buildDependoGenbankExtension.glue
-exit
-

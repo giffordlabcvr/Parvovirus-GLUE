@@ -1,0 +1,13 @@
+# Build EVE extension (incorporates EVE loci)
+project parvoviridae
+  #run file glue/eve/dependo/epvDeletePreviousExtensionBuild.glue
+exit
+
+schema-project parvoviridae
+  #run file glue/eve/dependo/epvSchemaExtensions.glue
+exit
+
+project parvoviridae
+  #run file glue/eve/dependo/buildDependoEveExtension.glue
+exit
+
