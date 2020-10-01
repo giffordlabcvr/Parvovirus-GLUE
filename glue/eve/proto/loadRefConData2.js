@@ -1,7 +1,7 @@
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-refseqs-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-proto-refseqs-side-data.tsv"]));
     //glue.log("INFO", "load result was:", loadResult);
 });
 
