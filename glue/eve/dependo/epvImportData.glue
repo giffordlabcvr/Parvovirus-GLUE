@@ -1,0 +1,12 @@
+
+  # Import EVE references/consensus data
+  run script glue/eve/dependo/loadRefConData1.js
+  run script glue/eve/dependo/loadRefConData2.js
+
+  # Import EVE locus data from DIGS
+  run script glue/eve/dependo/loadLocusData1.js
+  run script glue/eve/dependo/loadLocusData2.js
+
+  # Import EVE locus data from NCBI GENBANK
+  run script glue/eve/dependo/loadGenbankEpvData1.js
+  run script glue/eve/dependo/loadGenbankEpvData2.js

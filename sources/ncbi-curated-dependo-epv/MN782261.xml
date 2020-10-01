@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN782261</GBSeq_locus>
+    <GBSeq_length>4343</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>MAM</GBSeq_division>
+    <GBSeq_update-date>26-MAY-2020</GBSeq_update-date>
+    <GBSeq_create-date>26-MAY-2020</GBSeq_create-date>
+    <GBSeq_definition>Stenella coeruleoalba endogenous virus EPV-Dp.1 sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MN782261</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN782261.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN782261.1|</GBSeqid>
+      <GBSeqid>gi|1798159579</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Stenella coeruleoalba (striped dolphin)</GBSeq_source>
+    <GBSeq_organism>Stenella coeruleoalba</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Stenella</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4343</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hildebrandt,E.</GBAuthor>
+          <GBAuthor>Penzes,J.J.</GBAuthor>
+          <GBAuthor>Gifford,R.J.</GBAuthor>
+          <GBAuthor>Agbandje-Mckenna,M.</GBAuthor>
+          <GBAuthor>Kotin,R.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of dependoparvoviruses across geological timescales - implications for design of AAV-based gene therapy vectors</GBReference_title>
+        <GBReference_journal>Virus Evol (2020) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>https://doi.org/10.1093/ve/veaa043</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4343</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hildebrandt,E.</GBAuthor>
+          <GBAuthor>Kotin,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-NOV-2019) Gene Therapy, UMASS Medical School, 368 Plantation Street, Worcester, MA 01655, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4343</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4343</GBInterval_to>
+            <GBInterval_accession>MN782261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Stenella coeruleoalba</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9737</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>endogenous_virus: EPV-Dp.1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggttcaggaattacacggtttatagagggatcagggttacaggttcttagtaaggtatcttgacccaataaagcgaggaaaataacattaggagtaaactctgcccartcagttggggtgtaattatttgtgaatcggatctctggattccagcgtttgctggattctgatttttgctcccaatcaatttccactgttacctgaccagtggaatactgactaataaaagacttaataggcgtttcagtgaaggccgcaggaggttctgcagggactggartatttttctgcagaatcatcggaggtggatgtttgcacccagagcctcccatgttaggatgaggctgaaaattgccatcagtgtcaggaaytttcgcccaaatagggccctggagatagatgtctttatccatacatacccgaccaggctgtacacccatatataagggcacttacttttgtggtttattgctgggggtgttttgactcgatggaatttttctgccagaagtagctgcatagatatttgttgtttcagtctcatcttctttggtgaaatgtggggtaggtgctttgttggtggtctgcattatcaagctgttatgtacaccaccttccctgcattgtcgttccagttgcttatgccatttggtctgggccttcaaaagctctttgcgggcttcyctggtggcgcagtggttgagagtccgcctgccgatgtagggaacacgggttcgtgccccggtccgggaagatcccacgtgccgcggagcggctgggcccgtgakccatggccgctgagcctgcgcgtccggagcctgtgctccgcaacgggagaggccacaacagtgagaggcccgcgtaccgcaaaaaaaaagaaaaaaaaaaaaaaaagctctttgcatttgccaaccaattctccactgcttggtcctctgcagacatgttwggttgattgttttctttattggttgagaagccctgtatgcattgccacgggcccagctcatagttagtgtatttttgcccatagttactcttcttaatttttgtggtttgaattgtgccatctgctgaagtttggtagaacccatataggtactggtcgacaagggggttggagagatgagtcactctttgattaygcacaaggcaagagtgaaaagggaggtcttcaaaggcatattgaaaaccgaaattattgccaatgcgaagcatctgactggaaaagtattctaggcaataaaaagctgagcgtggagtaggggatgtgttccctctgctcttcatatgcacagtgcagtaccagtactgaggccacataaaaacatcaccgggaaaagcgggcaagcacccctcggtggcatttccaaccacgtatggcagctggtatgtgtcatctgcaaaaatctggatggttgacgttaggttattggcaattgtctttgtgcctgctgcctccatgacctccttaacttgtatgttgaaaattttgattctacgagcctttggtcggatgccccagtagttgttgatgagtcgctgacagtcttggggactccagtggcactggaatctgttgaagtcgaggtaggcccaggggtgctgtaacccaagtaggcggacatgtcagaggcatggcctttaatctgcttgtagagattgttgtcatagaaggrgaacacccaagttctcgtggaacgagtggtgacgagattcccttgtcattgagaatcacatgccaatttcctgaggactctccaatgcctctgttgccrccgcctgcatctgaaacttctgcgtcttgcgtagccatytccaaattactgcttcctgcgcttctcacggtagccactccagaggatccgcggggggccaaagaggtacattctcctcctcgtcctcccgcggggagactgggctctccagggctggtgtctgcggctgcgggggtggggtggggcatgtctgtgaggcccataggtgtcagcaggtgcttcttggcctggaagacacctcgggtaaggtttccaccaaaggaggtatctcctgggaaagagtctatcagctcttggtctgctgaattaaaagtgagataagggttctttccctcctcgattattttgtcgtaggtcatggactcgcatggctgcatccaccttgttgacctgacggcccttagcaaggcygttaatagggccaaggtacttatagccmgggagaacaagactcattgcagagtgtttaggtcatcctccagatscagacaaagctggaagccacggctgctgttggtttgttttagggacagcgcgtccaggttttgagttgcaccaagtagccactgcccggataacattcataacagtcaaaaccgtgatgagccacgcaggtgcgatattcccgcgtatgcttattagattgatccaaaaccaccagcttcgccaaccccttacgttcctcgcacgacaggacaacagctctgtcacggctaaacttgcgctctggacacctcacctttatttcagccagaccagtggtgtcaaggcactgtgaacaggtcaagagactcctcttgtgtgttttcccttgcctcctggggggcccctatatccctgtgtcagctgctgattcagcagatgcggcaggggacgagggaggagctgggggaacttcggcactttccagctgacatggggaactttgagctgctcaccaaggccatggaaatcccctcgctaccgaaactacaactggtctattcatagcactctcaggtaagtggggtttgttagcgcctgtaggaacctcgaacaccggttcaaccggtatagcattgccatggccccactggaaaaattctcttatctcccatttacttatttccccaaatcatgcctgagttttactgtgaacctaaagaggaacattctttcctccaaaggttccttatgttccagggtagtgctgttcccatcaaccacagtacccatatatatattactggtaataagtacaggcgttggttcaatttgcacagaacctttacatttttgatcaaccccgcatggccgacccacccaaaatggctttagcagactctacaattttactggtcatctttccttcctcccaccaaatcaccatcttatctacccagtcattgaaaggaaagttcccattagtccagtttccacagccataaaatggcacagcacgggcaatggcctccacgatgcttgtcttgctggtggtcgcaggtctgtagaaccagatggcggttgcacttgttgaactcccgccgggcccagcgaactaggatgttcgctgccaagacggggtcgtaccgattcacctggaaaagttgaaacaccttgttccttgtgatgtccccgactggaagcttgcctagcaggtagccttcggccgactttgtcaggagcatttcggctcgcgcgttctccagtgctgctctgttgagctcggttgaaagctgctgcgaaaggattctttgtcttccagcagccattgtctctcagaagttattccgttttcgactagccagtccacaccctcgctgtatttgtgagtggtcctgttaagaataacaggtaccgggcttccctggtggcgcagtggttgagagtccgcctgccgatgcaggggacacgggttcgtgccccggtccgggaggatcccacatgccgcggagcggctgggcccgtgagccatggccgctgagcctgcgcgtctggagcctgtgctccgcaacgggagaggccgcggcagtgggaggcccgtgtaccgcaaaaaaaaaaaaaagaataaccggtaccttgttactagggccacagggctctggctgcagatctttcttccactgagcgatcaaagctgggcggctctccgtatggagggtggctggagaaaaggctggaatgttagtccatgcccagtgagcctccggatgctgcttagtgaggagataaaagacagtatagctggcatcaacagatttagtcagcccgccttgttttgtttcagtcacagttacccagtcctcagtgttcggggttataccctccaagtcatcacgcttgataacttccttaatgtgcttgatacgtcagccaagcacaaaggacttaactgttccctgctctaacagacaatgcagatgaaagtactcactgccctcttctagttaacagaaggagagatgtcagggctaatcttagagctccgtgttcatggggaatgacttggtcagatccccagataactgggttctcatggtcaaaaggcccccttctccggcaaaagagaactttccttctctgggg</GBSeq_sequence>
+  </GBSeq>

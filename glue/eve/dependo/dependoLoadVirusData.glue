@@ -1,9 +1,0 @@
-  # Import metadata for exogenous reference sequences from tabular
-  module dependoSideDataImporter 
-    populate -f tabular/genus/dependo-refseqs-side-data.tsv
-    exit
-
-  # Link reference sequences to isolate table
-  run script glue/genus/dependo/dependoLoadIsolateData1.js
-
-    
