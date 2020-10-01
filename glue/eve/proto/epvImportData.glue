@@ -5,4 +5,4 @@
 
   # Import EVE locus data from DIGS
   run script glue/eve/proto/loadLocusData1.js
-  run script glue/eve/proto/loadLocusData2.js
+  #run script glue/eve/proto/loadLocusData2.js
