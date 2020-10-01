@@ -1,11 +1,11 @@
-sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	intact orf(s)?	expressed?	nearest_upstream_orf	nearest_downstream_orf	human_chr	minimum_age_ortho	host_group_taxlevel	host_group_name	pubmed_id	insertion_name	insertion_full_name	virus_genus
-proto.1-rattus-con	1	fasta-refseqs-proto-epv-con	consensus	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.1-rattus	proto.1-rattus	Protoparvovirus
-proto.2-apodemus	2	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.2-apodemus	proto.2-apodemus	Protoparvovirus
-proto.3-mus_spretus	3	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.3-mus_spretus	proto.3-mus_spretus	Protoparvovirus
-proto.4-mus_spicilegus	4	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.4-mus_spicilegus	proto.4-mus_spicilegus	Protoparvovirus
-proto.101-monodelphis	101	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Monodelphis domestica	Monodelphis domestica		proto.101-monodelphis	proto.101-monodelphis	Protoparvovirus
-proto.102-tamandua	102	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Tamandua	Tamandua	NK	proto.102-tamandua	proto.102-tamandua	Protoparvovirus
-proto.103-graphiurus	103	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Monodelphis domestica	Monodelphis domestica		proto.103-graphiurus	proto.103-graphiurus	Protoparvovirus
-proto.107-hydrochoerus	107	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Monodelphis domestica	Monodelphis domestica		proto.107-hydrochoerus	proto.107-hydrochoerus	Protoparvovirus
-proto.108-dinomys	108	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.108-dinomys	proto.108-dinomys	Protoparvovirus
-proto.111-afrotheria	111	fasta-refseqs-proto-epv-con	reference	1	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.111-afrotheria	proto.111-afrotheria	Protoparvovirus
+sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	virus_subfamily	virus_genus	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	intact orf(s)?	expressed?	nearest_upstream_orf	nearest_downstream_orf	human_chr	minimum_age_ortho	host_group_taxlevel	host_group_name	pubmed_id	insertion_name	insertion_full_name
+proto.1-rattus-con	1	fasta-refseqs-proto-epv-con	consensus	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.1-rattus	proto.1-rattus
+proto.2-apodemus	2	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.2-apodemus	proto.2-apodemus
+proto.3-mus_spretus	3	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.3-mus_spretus	proto.3-mus_spretus
+proto.4-mus_spicilegus	4	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.4-mus_spicilegus	proto.4-mus_spicilegus
+proto.101-monodelphis	101	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Monodelphis domestica	Monodelphis domestica		proto.101-monodelphis	proto.101-monodelphis
+proto.102-tamandua	102	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Tamandua	Tamandua	NK	proto.102-tamandua	proto.102-tamandua
+proto.103-graphiurus	103	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Monodelphis domestica	Monodelphis domestica		proto.103-graphiurus	proto.103-graphiurus
+proto.107-hydrochoerus	107	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	Monodelphis domestica	Monodelphis domestica		proto.107-hydrochoerus	proto.107-hydrochoerus
+proto.108-dinomys	108	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.108-dinomys	proto.108-dinomys
+proto.111-afrotheria	111	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	NK	proto.111-afrotheria	proto.111-afrotheria
