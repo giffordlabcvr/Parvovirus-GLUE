@@ -4,8 +4,10 @@
 
   alignment AL_MASTER_Proto
   
-    add member -w "source.name = 'fasta-digs-epv'"
-    add member -w "source.name = 'ncbi-curated-epv'"
+    add member -w "source.name = 'fasta-digs-proto-epv'"
+
+    demote member AL_Proto1    --whereClause "sequence.source.name = 'fasta-digs-proto-epv' and sequence.assign_clade = 'Proto1'"
     
     exit
+
 

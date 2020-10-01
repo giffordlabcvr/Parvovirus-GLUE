@@ -8,7 +8,7 @@ glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
 
 // Load EVE side data from tab file 
 var loadResult;
-glue.inMode("module/aavTabularUtility", function() {
+glue.inMode("module/tabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
@@ -80,7 +80,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 
   // Load EVE reference data from tab file 
   var loadResult;
-  glue.inMode("module/aavTabularUtility", function() {
+  glue.inMode("module/tabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
 	  // glue.log("INFO", "load result was:", loadResult);
   });

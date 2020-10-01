@@ -15,14 +15,14 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 
 // Load DIGS hit data from tabular file 
 var loadResult1;
-glue.inMode("module/aavTabularUtility", function() {
+glue.inMode("module/tabularUtility", function() {
 	loadResult1 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult1);
 });
 
 // Load NCBI curated EPV source
 var loadResult2;
-glue.inMode("module/aavTabularUtility", function() {
+glue.inMode("module/tabularUtility", function() {
 	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-ncbi-curated.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult2);
 });
@@ -114,7 +114,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 
   // Load EVE reference data from tab file 
   var loadResult;
-  glue.inMode("module/aavTabularUtility", function() {
+  glue.inMode("module/tabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
 	  // glue.log("INFO", "load result was:", loadResult);
   });

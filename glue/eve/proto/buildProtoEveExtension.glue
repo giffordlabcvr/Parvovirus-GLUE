@@ -1,4 +1,6 @@
-
+  
+  # delete previous extension
+  #run file glue/eve/proto/epvDeletePreviousExtensionBuild.glue
 
   # create modules
   run file glue/eve/proto/epvModules.glue
@@ -15,7 +17,7 @@
   # Import genus level alignments and define constrained alignment tree
   run file glue/eve/proto/epvAlignmentsRoot.glue
   
-  # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
+  # Set up constrained alignment tree for the Protoparvovirus EPV subclades
   run file glue/eve/proto/epvAlignmentTree.glue
 
   # Record feature coverage in root and clade-level alignments

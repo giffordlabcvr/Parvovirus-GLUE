@@ -4,4 +4,8 @@
 
   alignment AL_MASTER_Proto
   
+    demote member AL_Proto1    --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv-con' and sequence.assign_clade = 'Proto1'"
+    demote member AL_Proto2    --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv-con' and sequence.assign_clade = 'Proto2'"  
+
     exit
+

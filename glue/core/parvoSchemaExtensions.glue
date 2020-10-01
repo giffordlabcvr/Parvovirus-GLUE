@@ -28,6 +28,7 @@
   # Create schema extension
   create custom-table isolate_data
 
+  # Table for isolates
   table isolate_data
     create field isolate VARCHAR 100
     create field host_sci_name VARCHAR 100
@@ -41,4 +42,43 @@
   exit
 
   create link sequence isolate_data
+
+
+  # Table for EVE consensus and reference sequence data
+  create custom-table refcon_data
+  
+  table refcon_data
+    create field locus_numeric_id VARCHAR 50
+    create field host_group_taxlevel VARCHAR 50
+    create field host_group_name VARCHAR 50
+    create field num_species INTEGER
+    create field nearest_upstream_orf VARCHAR 100
+    create field nearest_downstream_orf VARCHAR 100
+    create field human_chr VARCHAR 100
+    create field intergenic BOOLEAN 
+    create field intronic BOOLEAN
+    exit
+  
+  create link sequence refcon_data
+  
+
+  # Table for EVE locus data
+  create custom-table locus_data
+
+  table locus_data
+    create field locus_name VARCHAR 100
+    create field locus_numeric_id INTEGER
+    create field scaffold VARCHAR 100
+    create field start_position INTEGER
+    create field end_position INTEGER
+    create field orientation VARCHAR 10
+    create field host_sci_name VARCHAR 100
+    create field host_class VARCHAR 100
+    create field host_genus VARCHAR 100
+    create field host_superorder VARCHAR 100
+    create field host_order VARCHAR 100
+    create field host_family VARCHAR 100
+    exit
+    
+  create link sequence locus_data
 
