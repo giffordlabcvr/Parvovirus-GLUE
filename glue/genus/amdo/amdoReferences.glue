@@ -1,7 +1,8 @@
-  # Declare Protoparvovirus reference sequences
+  # Declare Amdoparvovirus reference sequences
 
   ## Canonical parvovirus 
-  create reference REF_Proto_PPV            ncbi-refseqs-proto NC_001718
-  create reference REF_Proto_MVM1           ncbi-refseqs-proto NC_001510
-  create reference REF_Proto_HamsterPV      ncbi-refseqs-proto U34255
+  create reference REF_Amdo_GFAV           ncbi-refseqs-amdo NC_038533
+  create reference REF_Amdo_RFAV           ncbi-refseqs-amdo NC_025825
+  create reference REF_Amdo_SKAV           ncbi-refseqs-amdo NC_034445
+  create reference REF_Amdo_RpAPV          ncbi-refseqs-amdo NC_031751
 

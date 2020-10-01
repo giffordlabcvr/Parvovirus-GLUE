@@ -8,15 +8,20 @@ schema-project parvoviridae
 
 # Build Parvoviridae core in AAV/Dependo project
 project parvoviridae
+
   run file glue/core/buildParvoCoreProject.glue
+  
 exit
 
 # Build genus extensions
+
 project parvoviridae
-  #run file glue/genus/amdo/buildAmdoProject.glue
+
+  run file glue/genus/amdo/buildAmdoProject.glue
   run file glue/genus/proto/buildProtoProject.glue
   run file glue/genus/erythyro/buildErythyroProject.glue
   run file glue/genus/dependo/buildDependoProject.glue
+  
 exit
 
 # Build EVE extension (incorporates EVE loci)
@@ -25,10 +30,15 @@ project parvoviridae
 exit
 
 schema-project parvoviridae
-  #run file glue/eve/dependo/epvSchemaExtensions.glue
+  run file glue/eve/dependo/epvSchemaExtensions.glue
 exit
 
 project parvoviridae
-  #run file glue/eve/dependo/buildDependoEveExtension.glue
+
+  run file glue/eve/dependo/buildDependoEveExtension.glue
+  #run file glue/eve/dependo/buildProtoEveExtension.glue
+  #run file glue/eve/dependo/buildAmdoEveExtension.glue
+  #run file glue/eve/dependo/buildErythyroEveExtension.glue
+
 exit
 

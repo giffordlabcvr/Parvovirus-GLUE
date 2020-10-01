@@ -1,7 +1,7 @@
-  delete module amdoFeaturePresenceRecorder
-  create module -f modules/genus/amdo/amdoFeaturePresenceRecorder.xml
+  delete module parvoFeaturePresenceRecorder
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
 
-  module amdoFeaturePresenceRecorder 
+  module parvoFeaturePresenceRecorder 
 
     #~# Genus-level alignment
      record feature-presence AL_MASTER_Amdo --recursive --featureName whole_genome --descendentFeatures

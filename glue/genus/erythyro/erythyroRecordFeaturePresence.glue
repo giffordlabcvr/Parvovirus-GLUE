@@ -1,7 +1,7 @@
-  delete module erythyroFeaturePresenceRecorder
-  create module -f modules/genus/Erythyro/erythyroFeaturePresenceRecorder.xml
+  delete module parvoFeaturePresenceRecorder
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
 
-  module erythyroFeaturePresenceRecorder 
+  module parvoFeaturePresenceRecorder 
 
     #~# Genus-level alignment
      record feature-presence AL_MASTER_Erythyro --recursive --featureName whole_genome --descendentFeatures

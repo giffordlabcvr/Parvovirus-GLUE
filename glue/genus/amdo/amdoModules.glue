@@ -1,6 +1,3 @@
 
   create module -f modules/genus/amdo/amdoSideDataImporter.xml 
-  create module -f modules/genus/amdo/amdoMafftAligner.xml
-  create module -f modules/genus/amdo/amdoStrictFastaAlignmentImporter.xml
   create module -f modules/genus/amdo/amdoCompoundAligner.xml
-  create module -f modules/genus/amdo/featureLocationTextToGlue.xml 

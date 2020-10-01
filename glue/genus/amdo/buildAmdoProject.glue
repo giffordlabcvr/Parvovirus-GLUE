@@ -12,7 +12,7 @@
   run file glue/genus/amdo/amdoReferences.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/genus/amdo-refseq-feature-locations.tsv -r
+  #module featureLocationTextToGlue transform tabular/genus/amdo-refseq-feature-locations.tsv -r
 
   # Import alignments 
   run file glue/genus/amdo/amdoAlignments.glue
@@ -24,7 +24,7 @@
   run file glue/genus/amdo/amdoRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/genus/amdo/amdoCreateRootPhylogenies.glue
+  #run file glue/genus/amdo/amdoCreateRootPhylogenies.glue
 
   # Validate
   validate

@@ -1,7 +1,7 @@
-  delete module protoFeaturePresenceRecorder
-  create module -f modules/genus/proto/protoFeaturePresenceRecorder.xml
+  delete module parvoFeaturePresenceRecorder
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
 
-  module protoFeaturePresenceRecorder 
+  module parvoFeaturePresenceRecorder 
 
     #~# Genus-level alignment
      record feature-presence AL_MASTER_Proto --recursive --featureName whole_genome --descendentFeatures
