@@ -1,0 +1,3 @@
+sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	intact orf(s)?	expressed?	nearest_upstream_orf	nearest_downstream_orf	human_chr	minimum_age_ortho	host_group_taxlevel	host_group_name	pubmed_id	insertion_name	insertion_full_name	virus_genus
+erythro.1-indri	1	fasta-refseqs-epv	reference	1					nk	nk			NK					erthryo.1-indri	erthryo.1-indri	Erythroparvovirus
+erythro.2-dolichotis	2	fasta-refseqs-epv	reference	1					nk	nk			NK					erthryo.2-dolichotis_patagonum	erthryo.2-dolichotis_patagonum	Erythroparvovirus

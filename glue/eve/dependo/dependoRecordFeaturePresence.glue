@@ -1,0 +1,19 @@
+  delete module parvoFeaturePresenceRecorder
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
+
+  module parvoFeaturePresenceRecorder 
+
+    #~# Genus-level alignment
+     record feature-presence AL_MASTER_Dependo --recursive --featureName whole_genome --descendentFeatures
+    
+    #~# Clade alignments
+    record feature-presence AL_Dependo1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Dependo2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Dependo3 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Dependo_A --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Dependo_B --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Rodent --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Chiroptera --recursive --featureName whole_genome --descendentFeatures
+    
+    exit
+

@@ -1,0 +1,54 @@
+
+  delete alignment AL_AAV_All
+  multi-delete alignment -w "name like 'AL_UNC_AAV%'"
+  delete module dependoFeaturePresenceRecorder
+  delete module fastaAlignmentExporter
+  delete module dependoTreeAlignmentImporterNucs
+
+  # Create all the modules we need
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/genus/dependo/dependoFeaturePresenceRecorder.xml
+  create module -f modules/genus/dependo/dependoTreeAlignmentImporterNucs.xml
+
+  # Import unconstrained pre-built alignments
+  module unconstrainedAlignmentImporterSimple
+
+    #~# Species-level    
+
+    import AL_UNC_AAV1  -f alignments/tip/aav1.aln.fna
+    import AL_UNC_AAV2  -f alignments/tip/aav2.aln.fna    
+    exit
+
+  module unconstrainedAlignmentImporter
+        
+    #~# Species-level    
+    import AL_UNC_AAV3a -f alignments/tip/aav3a.aln.fna
+    import AL_UNC_AAV3b -f alignments/tip/aav3b.aln.fna
+    import AL_UNC_AAV4  -f alignments/tip/aav4.aln.fna
+    import AL_UNC_AAV5  -f alignments/tip/aav5.aln.fna
+    import AL_UNC_AAV6  -f alignments/tip/aav6.aln.fna
+    import AL_UNC_AAV7  -f alignments/tip/aav7.aln.fna
+    import AL_UNC_AAV8  -f alignments/tip/aav8.aln.fna
+    import AL_UNC_AAV9  -f alignments/tip/aav9.aln.fna
+    import AL_UNC_AAV10 -f alignments/tip/aav10.aln.fna
+    import AL_UNC_AAV11 -f alignments/tip/aav11.aln.fna
+    import AL_UNC_AAV12 -f alignments/tip/aav12.aln.fna
+    exit
+
+  # Create alignment of all AAV
+  create alignment AL_AAV_All -r REF_Dependo_MASTER_AAV2
+  alignment AL_AAV_All add member -w "source.name = 'ncbi-curated' and subclade_ns = 'Dependo-A' and gb_lab_construct = false \
+								or source.name = 'ncbi-curated' and subclade_vp like 'Dependo-A' and gb_lab_construct = false"
+  compute alignment AL_AAV_All dependoCompoundAligner
+
+  # Record feature coverage
+  module dependoFeaturePresenceRecorder record feature-presence AL_AAV_All --recursive --featureName whole_genome --descendentFeatures
+
+  module fastaAlignmentExporter
+	export AL_AAV_All -r REF_Dependo_MASTER_AAV2 -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60" -o alignments/tree/rep78.export.extension.aln.fna
+	export AL_AAV_All -r REF_Dependo_MASTER_AAV2 -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60" -o alignments/tree/vp1.export.extension.aln.fna
+	exit
+
+  # Import the alignments to GLUE
+  module dependoTreeAlignmentImporterNucs import AL_UNC_AAV_Tree_Rep78 -f alignments/tree/rep78.export.extension.aln.fna
+  module dependoTreeAlignmentImporterNucs import AL_UNC_AAV_Tree_Vp1 -f alignments/tree/vp1.export.extension.aln.fna
