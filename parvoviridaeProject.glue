@@ -19,17 +19,17 @@ project parvoviridae
   run file glue/genus/amdo/buildAmdoProject.glue
   run file glue/genus/proto/buildProtoProject.glue
   run file glue/genus/erythyro/buildErythyroProject.glue
-  #run file glue/genus/dependo/buildDependoProject.glue
+  run file glue/genus/dependo/buildDependoProject.glue
   
 exit
 
 # Build eve extensions
 project parvoviridae
 
-  #run file glue/eve/amdo/buildAmdoEveExtension.glue
+  run file glue/eve/dependo/buildDependoEveExtension.glue
   run file glue/eve/proto/buildProtoEveExtension.glue
+  #run file glue/eve/amdo/buildAmdoEveExtension.glue
   #run file glue/eve/erythyro/buildErythyroEveExtension.glue
-  #run file glue/eve/dependo/buildDependoEveExtension.glue
 
 exit
 
