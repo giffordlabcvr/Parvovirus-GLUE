@@ -33,10 +33,10 @@
   run file glue/eve/proto/epvAlignmentTreeDigs.glue
 
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/proto/epvDemoteOrthologsToTipAlignments.js
+  #run script glue/eve/proto/epvDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  run script glue/eve/proto/epvCreateTipPhylogenies.js
+  #run script glue/eve/proto/epvCreateTipPhylogenies.js
 
   # Validate
   validate

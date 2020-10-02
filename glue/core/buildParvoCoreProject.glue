@@ -25,7 +25,7 @@
   run file glue/core/parvoRecordFeaturePresence.glue
 
   # Create the root phylogenies for the parvoviridae (master reference sequences only)
-  #run file glue/core/parvoCreateRootPhylogenies.glue
+  run file glue/core/parvoCreateRootPhylogenies.glue
   
   # Validate
   validate

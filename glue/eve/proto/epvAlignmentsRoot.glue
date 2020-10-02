@@ -1,8 +1,8 @@
-  delete module fastaAlignmentExporter
+  delete module epvFastaAlignmentExporter
   delete module epvAlignmentImporterNucs
   
   create module -f modules/core/epvAlignmentImporterNucs.xml
-  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/epvFastaAlignmentExporter.xml
 
   #~# Import pre-built alignments of EVE sequences
   module unconstrainedAlignmentImporter
@@ -22,7 +22,7 @@
 
 
   # Export the recursively populated root gene alignments 
-  module fastaAlignmentExporter
+  module epvFastaAlignmentExporter
  	export AL_MASTER_Proto -r  REF_Proto_MASTER_CPV -f Rep78 --recursive -a  -e -o alignments/tree/proto-root-rep78.eve.aln.fna
  	export AL_MASTER_Proto -r  REF_Proto_MASTER_CPV -f VP1 --recursive -a  -e -o alignments/tree/proto-root-vp1.eve.aln.fna
 	exit
