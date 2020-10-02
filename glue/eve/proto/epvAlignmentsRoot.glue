@@ -1,14 +1,14 @@
   delete module fastaAlignmentExporter
-  delete module parvoTreeAlignmentImporterNucs
+  delete module epvAlignmentImporterNucs
   
-  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/core/epvAlignmentImporterNucs.xml
   create module -f modules/core/fastaAlignmentExporter.xml
 
   #~# Import pre-built alignments of EVE sequences
   module unconstrainedAlignmentImporter
 
 	#~# Root aligns
-	import AL_UNC_EPV-root -f alignments/internal/genus/proto-genome+eves.aln.fna
+	import AL_UNC_EPV_PROTO-root -f alignments/internal/genus/proto-genome+eves.aln.fna
 
 	exit
 
@@ -17,7 +17,7 @@
   alignment AL_MASTER_Proto
 
 	add member -w "source.name = 'fasta-refseqs-proto-epv-con'"
-	derive segments AL_UNC_EPV-root  -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_EPV_PROTO-root  -a --mergeStrategy OVERWRITE
 	exit
 
 
@@ -28,18 +28,17 @@
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module parvoTreeAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/proto-root-rep78.eve.aln.fna
-  module parvoTreeAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/proto-root-vp1.eve.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_TREE_EPV_PROTO_Rep -f alignments/tree/proto-root-rep78.eve.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_TREE_EPV_PROTO_VP -f alignments/tree/proto-root-vp1.eve.aln.fna
 
   create alignment AL_TREE_ROOT_EVE_Rep -r REF_Proto_MASTER_CPV
   alignment AL_TREE_ROOT_EVE_Rep
-	derive segments AL_UNC_TREE_ROOT_EVE_Rep -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_EPV_PROTO_Rep -a --mergeStrategy OVERWRITE
 	exit
 	
   create alignment AL_TREE_ROOT_EVE_VP -r REF_Proto_MASTER_CPV
   alignment AL_TREE_ROOT_EVE_VP
-	derive segments AL_UNC_TREE_ROOT_EVE_VP -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_EPV_PROTO_VP -a --mergeStrategy OVERWRITE
 	exit
 
-  
   

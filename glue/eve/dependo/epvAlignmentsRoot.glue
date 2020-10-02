@@ -1,17 +1,17 @@
   delete module epvFastaAlignmentExporter
   delete module epvAlignmentImporterNucs
   
-  create module -f modules/eve/dependo/epvAlignmentImporterNucs.xml
-  create module -f modules/eve/dependo/epvFastaAlignmentExporter.xml
+  create module -f modules/core/epvAlignmentImporterNucs.xml
+  create module -f modules/core/epvFastaAlignmentExporter.xml
 
   #~# Import pre-built alignments of EVE sequences
   module unconstrainedAlignmentImporter
 
 	#~# Root aligns
-	import AL_UNC_EPV-root                  -f alignments/internal/genus/dependo-genome+eves.aln.fna
+	import AL_UNC_EPV_DEPENDO-root   -f alignments/internal/genus/dependo-genome+eves.aln.fna
 
 	#~# Internal aligns
-	import AL_UNC_DEPENDO-A-EVE             -f alignments/internal/subclade/dependo-a-eve.aln.fna
+	import AL_UNC_EPV_DEPENDO-A   -f alignments/internal/subclade/dependo-a-eve.aln.fna
 
 	exit
 
@@ -21,7 +21,7 @@
 
 	add member -w "source.name = 'fasta-refseqs-dependo-epv-con'"
 	add member -w "source.name = 'ncbi-refseqs-dependo-epv'"
-	derive segments AL_UNC_EPV-root  -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_EPV_DEPENDO-root  -a --mergeStrategy OVERWRITE
 	exit
 
 

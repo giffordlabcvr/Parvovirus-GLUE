@@ -26,7 +26,7 @@ exit
 # Build eve extensions
 project parvoviridae
 
-  run file glue/eve/dependo/buildDependoEveExtension.glue
+  #run file glue/eve/dependo/buildDependoEveExtension.glue
   run file glue/eve/proto/buildProtoEveExtension.glue
   #run file glue/eve/amdo/buildAmdoEveExtension.glue
   #run file glue/eve/erythyro/buildErythyroEveExtension.glue
