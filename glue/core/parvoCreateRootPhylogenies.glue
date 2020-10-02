@@ -17,7 +17,7 @@
   create module -f modules/core/parvoFigTreeAnnotationExporter.xml
   create module -f modules/core/parvoFeaturePresenceRecorder.xml
   create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
-  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
+  #create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
 
 
   # Export the recursively populated root gene alignments 
@@ -43,6 +43,6 @@
 
     generate nucleotide phylogeny AL_TREE_Parvovirinae -s alignmentColumnsSelectorParvovirinaeRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
-      -o trees/core/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/family-level/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit

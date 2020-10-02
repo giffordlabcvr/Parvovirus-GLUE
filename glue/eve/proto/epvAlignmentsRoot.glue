@@ -31,13 +31,13 @@
   module epvAlignmentImporterNucs import AL_UNC_TREE_EPV_PROTO_Rep -f alignments/tree/proto-root-rep78.eve.aln.fna
   module epvAlignmentImporterNucs import AL_UNC_TREE_EPV_PROTO_VP -f alignments/tree/proto-root-vp1.eve.aln.fna
 
-  create alignment AL_TREE_ROOT_EVE_Rep -r REF_Proto_MASTER_CPV
-  alignment AL_TREE_ROOT_EVE_Rep
+  create alignment AL_TREE_ROOT_EPV_PROTO_Rep -r REF_Proto_MASTER_CPV
+  alignment AL_TREE_ROOT_EPV_PROTO_Rep
 	derive segments AL_UNC_TREE_EPV_PROTO_Rep -a --mergeStrategy OVERWRITE
 	exit
 	
-  create alignment AL_TREE_ROOT_EVE_VP -r REF_Proto_MASTER_CPV
-  alignment AL_TREE_ROOT_EVE_VP
+  create alignment AL_TREE_ROOT_EPV_PROTO_VP -r REF_Proto_MASTER_CPV
+  alignment AL_TREE_ROOT_EPV_PROTO_VP
 	derive segments AL_UNC_TREE_EPV_PROTO_VP -a --mergeStrategy OVERWRITE
 	exit
 

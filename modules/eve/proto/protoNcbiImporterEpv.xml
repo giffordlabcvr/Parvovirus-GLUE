@@ -1,0 +1,71 @@
+<!-- Dependoparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-epv</sourceName>
+  <specificPrimaryAccessions>
+
+	
+    <!-- HHV6 integration -->	
+	<primaryAccession>X59532</primaryAccession>
+	
+    <!-- Hildebrandt Seqs-->	
+	<primaryAccession>MN782247</primaryAccession>
+	<primaryAccession>MN782248</primaryAccession>
+	<primaryAccession>MN782249</primaryAccession>
+	<primaryAccession>MN782250</primaryAccession>
+	<primaryAccession>MN782251</primaryAccession>
+	<primaryAccession>MN782252</primaryAccession>
+	<primaryAccession>MN782253</primaryAccession>
+	<primaryAccession>MN782254</primaryAccession>
+	<primaryAccession>MN782255</primaryAccession>
+	<primaryAccession>MN782256</primaryAccession>
+	<primaryAccession>MN782257</primaryAccession>
+	<primaryAccession>MN782258</primaryAccession>
+	<primaryAccession>MN782259</primaryAccession>
+	<primaryAccession>MN782260</primaryAccession>
+	<primaryAccession>MN782261</primaryAccession>
+	<primaryAccession>MN782262</primaryAccession>
+	<primaryAccession>MN782263</primaryAccession>
+	<primaryAccession>MN782264</primaryAccession>
+	<primaryAccession>MN782265</primaryAccession>
+	<primaryAccession>MN782266</primaryAccession>
+	<primaryAccession>MN782267</primaryAccession>
+	<primaryAccession>MN782268</primaryAccession>
+	<primaryAccession>MN782269</primaryAccession>
+	<primaryAccession>MN782270</primaryAccession>
+	<primaryAccession>MN782271</primaryAccession>
+	<primaryAccession>MN782272</primaryAccession>
+
+    <!-- Smith Seqs-->	
+	<primaryAccession>KX239848</primaryAccession>
+	<primaryAccession>KX239849</primaryAccession>
+	<primaryAccession>KX239850</primaryAccession>
+	<primaryAccession>KX239851</primaryAccession>
+	<primaryAccession>KX239852</primaryAccession>
+	<primaryAccession>KX239853</primaryAccession>
+	<primaryAccession>KX239854</primaryAccession>
+	<primaryAccession>KX239855</primaryAccession>
+	<primaryAccession>KX239856</primaryAccession>
+	<primaryAccession>KX239857</primaryAccession>
+	<primaryAccession>KX239858</primaryAccession>
+	<primaryAccession>KX239859</primaryAccession>
+	<primaryAccession>KX239860</primaryAccession>
+	<primaryAccession>KX239861</primaryAccession>
+	<primaryAccession>KX239862</primaryAccession>
+	<primaryAccession>KX239863</primaryAccession>
+	<primaryAccession>KX239864</primaryAccession>
+	<primaryAccession>KX239865</primaryAccession>
+	<primaryAccession>KX239866</primaryAccession>
+	<primaryAccession>KX239867</primaryAccession>
+	<primaryAccession>KX239868</primaryAccession>
+	<primaryAccession>KX239869</primaryAccession>
+	<primaryAccession>KX239870</primaryAccession>
+	<primaryAccession>KX239871</primaryAccession>
+	<primaryAccession>KX239872</primaryAccession>
+
+	
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

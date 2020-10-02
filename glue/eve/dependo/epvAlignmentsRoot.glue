@@ -35,13 +35,13 @@
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/aav-root-rep78.eve.aln.fna
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/aav-root-vp1.eve.aln.fna
 
-  create alignment AL_TREE_ROOT_EVE_Rep -r REF_Dependo_MASTER_AAV2
-  alignment AL_TREE_ROOT_EVE_Rep
+  create alignment AL_TREE_ROOT_EPV_DEPENDO_Rep -r REF_Dependo_MASTER_AAV2
+  alignment AL_TREE_ROOT_EPV_DEPENDO_Rep
 	derive segments AL_UNC_TREE_ROOT_EVE_Rep -a --mergeStrategy OVERWRITE
 	exit
 	
-  create alignment AL_TREE_ROOT_EVE_VP -r REF_Dependo_MASTER_AAV2
-  alignment AL_TREE_ROOT_EVE_VP
+  create alignment AL_TREE_ROOT_EPV_DEPENDO_VP -r REF_Dependo_MASTER_AAV2
+  alignment AL_TREE_ROOT_EPV_DEPENDO_VP
 	derive segments AL_UNC_TREE_ROOT_EVE_VP -a --mergeStrategy OVERWRITE
 	exit
 
