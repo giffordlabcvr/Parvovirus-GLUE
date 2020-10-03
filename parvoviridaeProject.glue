@@ -23,7 +23,7 @@ project parvoviridae
   
 exit
 
-# Build eve extensions
+# Build EVE extensions
 project parvoviridae
 
   #run file glue/eve/amdo/buildAmdoEveExtension.glue
@@ -31,5 +31,10 @@ project parvoviridae
   run file glue/eve/dependo/buildDependoEveExtension.glue
   #run file glue/eve/erythyro/buildErythyroEveExtension.glue
 
+exit
+
+# Build GenBank extensions
+project parvoviridae
+  #run file glue/genus/dependo/buildDependoGenbankExtension.glue
 exit
 
