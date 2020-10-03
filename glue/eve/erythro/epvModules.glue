@@ -1,0 +1,3 @@
+  delete module epvFigTreeAnnotationExporter
+  
+  create module -f modules/eve/proto/epvFigTreeAnnotationExporter.xml

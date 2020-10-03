@@ -1,0 +1,6 @@
+  # Declare erythyroparvovirus EVE reference sequences
+  
+  # Mammal
+  create reference REF_EPV_erythyro.1-rattus        fasta-refseqs-erythyro-epv-con  erythyro.1-rattus-con
+  create reference REF_EPV_erythyro.2-apodemus      fasta-refseqs-erythyro-epv-con  erythyro.2-apodemus
+  create reference REF_EPV_erythyro.3-mus_spretus   fasta-refseqs-erythyro-epv-con  erythyro.3-mus_spretus

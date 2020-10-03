@@ -1,5 +1,0 @@
-# Build GenBank extension (incorporates curated set of all dependoparvovirus sequences in GenBank)
-project parvoviridae
-	#run file glue/genus/dependo/buildDependoGenbankExtension.glue
-exit
-
