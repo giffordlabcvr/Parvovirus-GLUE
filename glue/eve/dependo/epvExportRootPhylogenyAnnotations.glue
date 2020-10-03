@@ -3,8 +3,8 @@
 
   # Export annotations
   module epvFigTreeAnnotationExporter 
-    export figtree-annotation AL_TREE_ROOT_EVE_Rep -f trees/genus-level-with-eves/dependo-root-rep78.eve.figtree-annotations.tsv
-    export figtree-annotation AL_TREE_ROOT_EVE_VP -f trees/genus-level-with-eves/dependo-root-vp1.eve.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_ROOT_EPV_DEPENDO_Rep -f trees/genus-level-with-eves/dependo-root-rep78.eve.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_ROOT_EPV_DEPENDO_VP -f trees/genus-level-with-eves/dependo-root-vp1.eve.figtree-annotations.tsv
     exit
 
 

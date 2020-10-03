@@ -1,10 +1,11 @@
+
   # Clean up from any previous run of this file
-  delete alignment AL_UNC_PROTO_ROOT_NS
-  delete alignment AL_UNC_PROTO_ROOT_VP
+  delete alignment AL_UNC_ERYTHYRO_ROOT_NS
+  delete alignment AL_UNC_ERYTHYRO_ROOT_VP
   
   delete module fastaAlignmentExporter
   delete module raxmlPhylogenyGenerator
-  delete module protoPhyloUtility
+  delete module dependoPhyloUtility
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
@@ -13,22 +14,21 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
     
-    generate nucleotide phylogeny AL_TREE_ROOT_EVE_Rep -a -o trees/genus-level-with-eves/proto-root-rep78.eve.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_TREE_ROOT_EVE_VP -a -o trees/genus-level-with-eves/proto-root-vp1.eve.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_TREE_ROOT_EPV_ERYTHYRO_Rep -a -o trees/genus-level-with-eves/dependo-root-rep78.eve.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_TREE_ROOT_EPV_ERYTHYRO_VP -a -o trees/genus-level-with-eves/dependo-root-vp1.eve.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
-  module phyloUtility 
+  module phyloUtility
 
 	reroot-phylogeny \
-      --inputFile trees/genus-level-with-eves/proto-root-rep78.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus-level-with-eves/dependo-root-rep78.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus-level-with-eves/proto-root-rep78.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/genus-level-with-eves/dependo-root-rep78.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus-level-with-eves/proto-root-vp1.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus-level-with-eves/dependo-root-vp1.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus-level-with-eves/proto-root-vp1.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/genus-level-with-eves/dependo-root-vp1.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
-

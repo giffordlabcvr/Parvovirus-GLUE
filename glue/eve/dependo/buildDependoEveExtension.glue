@@ -24,10 +24,10 @@
   run file glue/eve/dependo/epvRecordFeaturePresence.glue
 
   # Create root-level phylogenies for major genes
-  #run file glue/eve/dependo/epvCreateRootPhylogenies.glue
+  run file glue/eve/dependo/epvCreateRootPhylogenies.glue
 
   # Export annotations
-  #run file glue/eve/dependo/epvExportRootPhylogenyAnnotations.glue
+  run file glue/eve/dependo/epvExportRootPhylogenyAnnotations.glue
 
   # Set up constrained alignment tree for orthologs
   run file glue/eve/dependo/epvAlignmentTreeDigs.glue
