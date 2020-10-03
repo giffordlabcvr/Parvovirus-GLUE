@@ -20,9 +20,18 @@ glue.inMode("module/tabularUtility", function() {
 	// glue.log("INFO", "load result was:", loadResult1);
 });
 
+// Load NCBI curated EPV source
+var loadResult2;
+glue.inMode("module/tabularUtility", function() {
+	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-proto-ncbi-curated.tsv"]));
+	// glue.log("INFO", "load result was:", loadResult2);
+});
+
 
 // Process source
 process_source(loadResult1);
+process_source(loadResult2);
+
 
 
 
@@ -47,7 +56,7 @@ function process_source(loadResult) {
 		if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
 			// Does an alignment exist for this locus ID
-			var alignmentName = locus_name.replace("proto.", "AL_EPV-");
+			var alignmentName = locus_name.replace("proto.", "AL_EPV-PROTO-");
 
 			// Get the taxonomy 
 			var locusObj    = epvRefseqResultMap[locus_numeric_id];

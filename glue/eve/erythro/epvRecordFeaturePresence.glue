@@ -4,7 +4,7 @@
   module parvoFeaturePresenceRecorder 
 
     #~# Root alignment
-    record feature-presence AL_MASTER_Proto --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_MASTER_Erythyro --recursive --featureName whole_genome --descendentFeatures
     
     exit
 

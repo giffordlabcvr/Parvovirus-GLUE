@@ -24,10 +24,10 @@
   run file glue/eve/proto/epvRecordFeaturePresence.glue
 
   # Create root-level phylogenies for major genes
-  #run file glue/eve/proto/epvCreateRootPhylogenies.glue
+  run file glue/eve/proto/epvCreateRootPhylogenies.glue
 
   # Export annotations
-  #run file glue/eve/proto/epvExportRootPhylogenyAnnotations.glue
+  run file glue/eve/proto/epvExportRootPhylogenyAnnotations.glue
 
   # Set up constrained alignment tree for orthologs
   run file glue/eve/proto/epvAlignmentTreeDigs.glue
