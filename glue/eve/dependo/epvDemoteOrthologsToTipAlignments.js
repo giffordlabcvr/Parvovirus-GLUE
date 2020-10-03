@@ -56,7 +56,7 @@ function process_source(loadResult) {
 		if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
 			// Does an alignment exist for this locus ID
-			var alignmentName = locus_name.replace("dependo.", "AL_EPV-");
+			var alignmentName = locus_name.replace("dependo.", "AL_EPV-DEPENDO-");
 
 			// Get the taxonomy 
 			var locusObj    = epvRefseqResultMap[locus_numeric_id];
