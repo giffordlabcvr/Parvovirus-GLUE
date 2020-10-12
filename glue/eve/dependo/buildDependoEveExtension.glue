@@ -19,6 +19,7 @@
   
   # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
   run file glue/eve/dependo/epvAlignmentTree.glue
+  run file glue/eve/dependo/epvAlignmentTreeDigs.glue
 
   # Record feature coverage in root and clade-level alignments
   run file glue/eve/dependo/epvRecordFeaturePresence.glue
@@ -28,9 +29,6 @@
 
   # Export annotations
   run file glue/eve/dependo/epvExportRootPhylogenyAnnotations.glue
-
-  # Set up constrained alignment tree for orthologs
-  run file glue/eve/dependo/epvAlignmentTreeDigs.glue
 
   # Create the ortholog (tip) alignments in the constrained alignment tree
   run script glue/eve/dependo/epvDemoteOrthologsToTipAlignments.js

@@ -1,27 +1,28 @@
-  alignment AL_Parvovirinae
+ #~# Root (Family)
   
-	extract child AL_MASTER_Amdo --r REF_Amdo_MASTER_AMDV
-	demote member AL_MASTER_Amdo --whereClause "genus = 'Amdoparvovirus'"
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter
+ 	export AL_Parvoviridae_MASTER -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvoviridae-all.aln.fna
+	exit
 
-	extract child AL_MASTER_Proto  --refName REF_Proto_MASTER_CPV        # NC_001539
-	demote member AL_MASTER_Proto  --whereClause "sequence.genus = 'Protoparvovirus'" 
-		
-	extract child AL_MASTER_Dependo --r REF_Dependo_MASTER_AAV2
-	demote member AL_MASTER_Dependo --whereClause "genus = 'Dependoparvovirus'"
-
-	extract child AL_MASTER_Erythyro --r REF_Erythro_MASTER_B19
-	demote member AL_MASTER_Erythyro --whereClause "genus = 'Erythyroparvovirus'"
-
-	extract child AL_MASTER_Boca --r REF_Boca_MASTER_BPV  # NC_001540
-	demote member AL_MASTER_Boca --whereClause "genus = 'Bocaparvovirus'"
+  # Re-import the recursively populated root alignment into the project
+  module parvoTreeAlignmentImporterNucs import AL_UNC_TREE_Parvoviridae -f alignments/tree/Parvoviridae-all.aln.fna
+  create alignment AL_TREE_Parvoviridae -r REF_Proto_MASTER_CPV
+  
+  alignment AL_TREE_Parvoviridae
+	derive segments AL_UNC_TREE_Parvoviridae -a --mergeStrategy OVERWRITE
+	exit
 	
-	extract child AL_MASTER_Copi --r REF_Copi_MASTER_BPV2  # NC_006259
-	demote member AL_MASTER_Copi --whereClause "genus = 'Copiparvovirus'"
+  module parvoFeaturePresenceRecorder
+    record feature-presence AL_TREE_Parvoviridae --featureName whole_genome --descendentFeatures
+    exit
 
-	extract child AL_MASTER_Tetra --r REF_Tetra_MASTER_EhBtPV1  # NC_016744
-	demote member AL_MASTER_Tetra --whereClause "genus = 'Tetraparvovirus'"
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
 
-	extract child AL_MASTER_Ave --r REF_Ave_MASTER_ChPV  # NC_024452
-	demote member AL_MASTER_Ave --whereClause "genus = 'Aveparvovirus'"
-		
+    generate nucleotide phylogeny AL_TREE_Parvoviridae -s alignmentColumnsSelectorParvoviridaeRep78 \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/family-level/Parvoviridae-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+
     exit

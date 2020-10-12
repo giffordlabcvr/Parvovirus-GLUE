@@ -1,4 +1,5 @@
   # Clean up from any previous run of this file
+  delete alignment AL_UNC_TREE_Parvovirinae
   delete alignment AL_TREE_Parvovirinae
 
   delete module fastaAlignmentExporter
@@ -20,6 +21,9 @@
   #create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
 
 
+ 
+  #~# Subfamily
+  
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
  	export AL_Parvovirinae -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvovirinae-all.aln.fna
@@ -43,6 +47,6 @@
 
     generate nucleotide phylogeny AL_TREE_Parvovirinae -s alignmentColumnsSelectorParvovirinaeRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
-      -o trees/family-level/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/family-level/Parvovirinae-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
