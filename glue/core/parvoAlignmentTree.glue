@@ -1,21 +1,70 @@
-  ### Constrained alignment tree for the Parvoviridae
+  # Import unconstrained pre-built alignments
+  module unconstrainedAlignmentImporter 
+
+    #~# Root-level alignments
+    import AL_MASTER_UNC            -f alignments/root/parvo-ns-root.aln.fna
+
+    #~# Internal node alignments (subfamily)
+    import AL_PARVOVIRINAE_UNC      -f alignments/internal/subfamily/parvovirinae.aln.fna
+
+    exit
+
+
+  ### Define constrained alignment tree for the Parvoviridae
 
   #~# Root (Family)
+  
   create alignment AL_Parvoviridae_MASTER -r REF_Proto_MASTER_CPV
   alignment AL_Parvoviridae_MASTER add member --allSequences
 
   #~# Subfamily
+  
   alignment AL_Parvoviridae_MASTER
+  
 	extract child AL_Parvovirinae      --refName REF_Proto_MASTER_CPV        # NC_001539
-	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
+	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'"
+	
     extract child AL_Densovirinae      --refName REF_Ambidenso_MASTER_JcDNV  # NC_004284
-	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'" 
+	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
+	
     extract child AL_Epiparvovirinae   --refName REF_Hepandenso_MASTER_FCDNV # NC_014357
-	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
+	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 
+	
+    exit
+
+  #~# Genus
+  
+  alignment AL_Parvovirinae
+  
+	extract child AL_MASTER_Amdo --r REF_Amdo_MASTER_AMDV
+	demote member AL_MASTER_Amdo --whereClause "sequence.genus = 'Amdoparvovirus'"
+
+	extract child AL_MASTER_Proto  --refName REF_Proto_MASTER_CPV        # NC_001539
+	demote member AL_MASTER_Proto  --whereClause "sequence.genus = 'Protoparvovirus'" 
+		
+	extract child AL_MASTER_Dependo --r REF_Dependo_MASTER_AAV2
+	demote member AL_MASTER_Dependo --whereClause "sequence.genus = 'Dependoparvovirus'"
+
+	extract child AL_MASTER_Erythyro --r REF_Erythro_MASTER_B19
+	demote member AL_MASTER_Erythyro --whereClause "sequence.genus = 'Erythyroparvovirus'"
+
+	extract child AL_MASTER_Boca --r REF_Boca_MASTER_BPV  # NC_001540
+	demote member AL_MASTER_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
+	
+	extract child AL_MASTER_Copi --r REF_Copi_MASTER_BPV2  # NC_006259
+	demote member AL_MASTER_Copi --whereClause "sequence.genus = 'Copiparvovirus'"
+
+	extract child AL_MASTER_Tetra --r REF_Tetra_MASTER_EhBtPV1  # NC_016744
+	demote member AL_MASTER_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
+
+	extract child AL_MASTER_Ave --r REF_Ave_MASTER_ChPV  # NC_024452
+	demote member AL_MASTER_Ave --whereClause "sequence.genus = 'Aveparvovirus'"
+		
     exit
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
+
   alignment AL_Parvoviridae_MASTER
     derive segments AL_MASTER_UNC        -a --mergeStrategy OVERWRITE
     exit

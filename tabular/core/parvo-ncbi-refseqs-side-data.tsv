@@ -1,17 +1,17 @@
-sequenceID	virus_name	virus_full_name	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	host_species
-NC_024452	ChPV	ChPV	Aveparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Gallus_gallus
-NC_001540	BPV	BPV	Bocaparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Bos taurus
-NC_001401	AAV2	Adeno-associated virus 2	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	Dependo3	Dependo-A	Homo sapiens
-NC_001539	CPV	CPV	Protoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_001662	AMDV	Aleutian mink disease virus	Amdoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Neovison vison
-NC_004284	JcDNV	Junonia coenia densovirus	Ambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_000883	B19	Human parvovirus B19	Erythroparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_006259	BPV2	BPV2	Copiparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_016744	EhBtPV1	EhBtPV1	Tetraparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_004284	JcDNV	JcDNV	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_000936	PfDNV	PfDNV	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_004287	BmDNV-5	BmDNV-5	Iteradensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_014357	FCDNV	FCDNV	Hepandensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_004285	AalDNV-2	AalDNV-2	Brevidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_002190	IHHN	IHHN	Penstyldensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_040562	PPV7	PPV7	Chappaparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+sequenceID	virus_name	virus_full_name	virus_subfamily	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	host_species
+NC_004284	JcDNV	JcDNV	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_000936	PfDNV	PfDNV	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004287	BmDNV-5	BmDNV-5	Densovirinae	Iteradensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004285	AalDNV-2	AalDNV-2	Hamaparvovirinae	Brevidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_040562	PPV7	PPV7	Hamaparvovirinae	Chappaparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_014357	FCDNV	FCDNV	Hamaparvovirinae	Hepandensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_002190	IHHN	IHHN	Hamaparvovirinae	Penstyldensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Neovison vison
+NC_024452	ChPV	ChPV	Parvovirinae	Aveparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Gallus_gallus
+NC_001540	BPV	BPV	Parvovirinae	Bocaparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Bos taurus
+NC_006259	BPV2	BPV2	Parvovirinae	Copiparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	Dependo3	Dependo-A	Homo sapiens
+NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_001539	CPV	CPV	Parvovirinae	Protoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_016744	EhBtPV1	EhBtPV1	Parvovirinae	Tetraparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set

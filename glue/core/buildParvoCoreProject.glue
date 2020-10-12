@@ -18,7 +18,6 @@
   run file glue/core/parvoMasterReferences.glue
 
   # Import alignments and build constrained alignment tree
-  run file glue/core/parvoAlignments.glue
   run file glue/core/parvoAlignmentTree.glue
 
   # Record feature coverage in alignments

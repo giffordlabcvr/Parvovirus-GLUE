@@ -19,6 +19,12 @@
     </textFileColumn>
 
     <textFileColumn>
+        <header>virus_subfamily</header>
+        <property>subfamily</property>
+    </textFileColumn>
+
+ 
+    <textFileColumn>
         <header>virus_genus</header>
         <property>genus</property>
     </textFileColumn>

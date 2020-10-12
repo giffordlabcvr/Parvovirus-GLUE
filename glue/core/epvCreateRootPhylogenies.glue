@@ -1,0 +1,50 @@
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_TREE_Parvovirinae_EPV
+  delete alignment AL_TREE_Parvovirinae_EPV
+
+  delete module fastaAlignmentExporter
+  delete module raxmlPhylogenyGenerator
+  delete module parvoPhyloUtility
+  delete module parvoFigTreeAnnotationExporter
+  delete module parvoFeaturePresenceRecorder
+  delete module parvoTreeAlignmentImporterNucs 
+  delete module alignmentColumnsSelectorParvovirinaeRoot
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/core/parvoPhyloUtility.xml
+  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
+  #create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
+
+
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter
+ 	export AL_Parvovirinae -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvovirinae-all.aln.eve.fna
+	exit
+
+  # Re-import the recursively populated root alignment into the project
+  module parvoTreeAlignmentImporterNucs import AL_UNC_TREE_Parvovirinae_EPV -f alignments/tree/Parvovirinae-all.aln.eve.fna
+  create alignment AL_TREE_Parvovirinae_EPV -r REF_Proto_MASTER_CPV
+  
+  alignment AL_TREE_Parvovirinae_EPV
+	derive segments AL_UNC_TREE_Parvovirinae_EPV -a --mergeStrategy OVERWRITE
+	exit
+	
+  module parvoFeaturePresenceRecorder
+    record feature-presence AL_TREE_Parvovirinae_EPV --featureName whole_genome --descendentFeatures
+    exit
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_TREE_Parvovirinae_EPV -s alignmentColumnsSelectorParvovirinaeRep78 \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/family-level-with-eves/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    exit
+

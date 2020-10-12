@@ -1,8 +1,6 @@
   ### Constrained alignment tree for the Amdoparvovirus genus
 
   #~# Root level (Genus)
-
-  create alignment AL_MASTER_Amdo --r REF_Amdo_MASTER_AMDV
   alignment AL_MASTER_Amdo add member  --whereClause "genus = 'Amdoparvovirus'"
 
 

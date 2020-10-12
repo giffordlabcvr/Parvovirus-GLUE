@@ -1,8 +1,6 @@
   ### Constrained alignment tree for the Erythyroparvovirus genus
 
   #~# Root level (Genus)
-
-  create alignment AL_MASTER_Erythyro --r REF_Erythro_MASTER_B19
   alignment AL_MASTER_Erythyro add member  --whereClause "genus = 'Erythyroparvovirus'"
 
 
