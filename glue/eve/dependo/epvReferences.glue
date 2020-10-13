@@ -52,8 +52,8 @@
   create reference REF_EPV_dependo.59-ornithorhynchus    fasta-refseqs-dependo-epv-con  dependo.59-ornithorhynchus
 
   # Avian
-  create reference REF_EPV_dependo.65-passeriformes      fasta-refseqs-dependo-epv-con  dependo.65-passeriformes-con
-  create reference REF_EPV_dependo.66-passeriformes      fasta-refseqs-dependo-epv-con  dependo.66-passeriformes-con
+  create reference REF_EPV_dependo.165-passeriformes      fasta-refseqs-dependo-epv-con  dependo.165-passeriformes-con
+  create reference REF_EPV_dependo.166-passeriformes      fasta-refseqs-dependo-epv-con  dependo.166-passeriformes-con
 
 
   # Herpes-integrated

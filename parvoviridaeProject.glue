@@ -28,10 +28,10 @@ exit
 # Build genus-level EVE extensions
 project parvoviridae
 
-  run file glue/eve/amdo/buildAmdoEveExtension.glue
-  run file glue/eve/proto/buildProtoEveExtension.glue
+  #run file glue/eve/amdo/buildAmdoEveExtension.glue
+  #run file glue/eve/proto/buildProtoEveExtension.glue
   run file glue/eve/dependo/buildDependoEveExtension.glue
-  run file glue/eve/erythyro/buildErythyroEveExtension.glue
+  #run file glue/eve/erythyro/buildErythyroEveExtension.glue
 
 exit
 

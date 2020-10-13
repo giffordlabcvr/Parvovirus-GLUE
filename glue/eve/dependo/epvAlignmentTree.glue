@@ -1,18 +1,25 @@
   ### Set up constrained alignment tree for EPV subclades
 
 
-  #~# Root (Family)
-  create alignment AL_Parvoviridae_MASTER -r REF_Proto_MASTER_CPV
+  #~# Root (Family)  
   alignment AL_Parvoviridae_MASTER add member --allSequences
+  
   alignment AL_Parvoviridae_MASTER
-	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'" 
-	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'" 
-	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'" 
+  
+	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'"
+	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
+	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'"
+	
     exit
 
 
   #~# Subfamily
 
+  alignment AL_Parvovirinae
+  
+	demote member AL_MASTER_Amdoparvovirus   --whereClause "sequence.genus = 'Amdoparvovirus'"
+	
+    exit
 
 
 
