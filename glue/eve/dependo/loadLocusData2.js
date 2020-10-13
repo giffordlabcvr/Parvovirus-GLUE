@@ -4,7 +4,7 @@ var source_name = 'fasta-digs-dependo-epv';
 // Load the refcon data and store relationships between locus and viral taxonomy
 var epvRefseqResultMap = {};
 get_refcon_data(epvRefseqResultMap, refconDataPath);
-glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
+//glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
 
 // Load EVE side data from tab file 
 var loadResult;
@@ -16,7 +16,7 @@ glue.inMode("module/tabularUtility", function() {
 _.each(loadResult, function(eveObj) {
 
     var locus_numeric_id = eveObj.locus_numeric_id;
-	//glue.log("INFO", "LOADED EPV INFO ", eveObj);
+	glue.log("INFO", "LOADED EPV INFO ", eveObj);
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
 		glue.log("INFO", "Entering locus data for sequence:", eveObj.sequenceID);
