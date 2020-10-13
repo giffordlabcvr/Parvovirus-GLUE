@@ -2,13 +2,18 @@
 
 
   #~# Root (Family)  
-  alignment AL_Parvoviridae_MASTER add member --allSequences
-  
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-dependo-epv-con'"
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-dependo-epv'"
+ 
+ 
+
   alignment AL_Parvoviridae_MASTER
   
-	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'"
-	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
-	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Epiparvovirinae'"
+	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv-con' and sequence.subfamily = 'Parvovirinae'"
+	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv' and sequence.subfamily = 'Parvovirinae'"
+	
+	demote member AL_Densovirinae      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv-con' and sequence.subfamily = 'Densovirinae'"
+	demote member AL_Epiparvovirinae   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv-con' and sequence.subfamily = 'Epiparvovirinae'"
 	
     exit
 
@@ -17,67 +22,9 @@
 
   alignment AL_Parvovirinae
   
-	demote member AL_MASTER_Amdoparvovirus   --whereClause "sequence.genus = 'Amdoparvovirus'"
+	demote member AL_MASTER_Dependo   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv-con' and sequence.genus = 'Amdoparvovirus'"
 	
     exit
-
-
-
-
-  #~# Internal nodes (Dependoparvovirus sub-lineages) 
-
-  alignment AL_MASTER_Dependo
-  
-    add member -w "source.name = 'fasta-digs-dependo-epv'"
-    add member -w "source.name = 'ncbi-curated-dependo-epv'"
-
-    demote member AL_Dependo1    --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Dependo1'"
-    demote member AL_Dependo1    --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_clade = 'Dependo1'"
-
-    demote member AL_Dependo2    --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Dependo2'"  
-    demote member AL_Dependo2    --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_clade = 'Dependo2'"
-    
-    demote member AL_Dependo3    --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Dependo3'"
-    demote member AL_Dependo2    --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_clade = 'Dependo3'"
-
-    demote member AL_Herpesvirus --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Herpesvirus'"
-    
-    exit
-
-
-  alignment AL_Dependo1
-
-    demote member AL_Sauria      --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Sauria'"
-    demote member AL_Sauria      --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Sauria'"
-    exit
-
-  alignment AL_Dependo2
-
-    demote member AL_Lemuria     --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Lemuria'"
-    demote member AL_Lemuria     --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Lemuria'"
-     exit
-
-  alignment AL_Dependo3
-
-    demote member AL_Dependo_A   --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Dependo_A'"
-    demote member AL_Dependo_A   --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Dependo_A'"
-    
-    demote member AL_Dependo_B   --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Dependo_B'"
-    
-    demote member AL_Rodent      --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Rodent'"
-    
-    demote member AL_Chiroptera  --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Chiroptera'"
-    
-    demote member AL_Carnivore   --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Carnivore'"   
-    
-    demote member AL_Glires      --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Glires'"
-    demote member AL_Glires      --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Glires'"
-
-    demote member AL_Marsupial   --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Marsupial'"
-    demote member AL_Marsupial   --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Marsupial'"
-
-    exit
-
 
   
   #~# Internal nodes (Dependoparvovirus sub-lineages) 
@@ -89,7 +36,9 @@
     demote member AL_Dependo3    --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv-con' and sequence.assign_clade = 'Dependo3'"
 
     extract child AL_Herpesvirus --refName REF_EPV_dependo.500-HHV6
+    demote member AL_Herpesvirus --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv-con' and sequence.assign_clade = 'Herpesvirus'"
     demote member AL_Herpesvirus --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv' and sequence.assign_clade = 'Herpesvirus'"
+
     exit
 
   alignment AL_Dependo1
