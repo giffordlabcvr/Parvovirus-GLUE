@@ -1,5 +1,6 @@
 // list the PVe sequences
 var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-digs-dependo-epv'"]);
+
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 
