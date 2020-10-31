@@ -1,11 +1,72 @@
-sequenceID	locus_numeric_id	source_name	seq_type	num_seqs	virus_subfamily	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	intact orf(s)?	expressed?	nearest_upstream_orf	nearest_downstream_orf	human_chr	minimum_age_ortho	host_group_taxlevel	host_group_name	pubmed_id	insertion_name	insertion_full_name
-proto.1-rattus-con	1	fasta-refseqs-proto-epv-con	consensus	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	proto.1-rattus	proto.1-rattus
-proto.2-apodemus	2	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	proto.2-apodemus	proto.2-apodemus
-proto.3-mus_spretus	3	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	proto.3-mus_spretus	proto.3-mus_spretus
-proto.4-mus_spicilegus	4	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	proto.4-mus_spicilegus	proto.4-mus_spicilegus
-proto.101-monodelphis	101	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	Monodelphis domestica	NK	NK	proto.101-monodelphis	proto.101-monodelphis
-proto.102-tamandua	102	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	Tamandua	NK	NK	proto.102-tamandua	proto.102-tamandua
-proto.103-graphiurus	103	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	Monodelphis domestica	NK	NK	proto.103-graphiurus	proto.103-graphiurus
-proto.107-hydrochoerus	107	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	Monodelphis domestica	NK	NK	proto.107-hydrochoerus	proto.107-hydrochoerus
-proto.108-dinomys	108	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	proto.108-dinomys	proto.108-dinomys
-proto.111-afrotheria	111	fasta-refseqs-proto-epv-con	reference	1	Parvovirinae	Protoparvovirus	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	nk	NK	NK	NK	NK	proto.111-afrotheria	proto.111-afrotheria
+locus_numeric_id	sequenceID	source_name	virus_subfamily	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	intact orf(s)?	expressed?	nearest_upstream_orf	nearest_downstream_orf	human_chr	minimum_age_ortho	host_group_taxlevel	host_group_name	pubmed_id	insertion_name	insertion_full_name
+1	Proto.1-Rattus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-A		Proto-A		Proto-A		no	nk?	NK	NK			Species	Rattus			
+3	Proto.3-Apodemus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-A		Proto-A		Proto-A		nk?	nk?	NK	NK			Species	Apodemus			
+2	Proto.2-Mus_spic.	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-A		Proto-A		Proto-A		nk?	nk?	NK	NK			Species	Mus spicelagus			
+4	Proto.4-Mus_spret.	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-A		Proto-A		Proto-A		nk?	nk?	NK	NK			Species	Mus spretus			
+103	Proto.103-Graphiurus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+107	Proto.107-Hydrochoerus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+108	Proto.108-Dinomys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?	 	Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+103	Proto.103-Graphiurus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+107	Proto.107-Hydrochoerus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+108	Proto.108-Dinomys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+109	Proto.109-Cavia	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+111	Proto.111-Afrotheria	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+99	Proto.99-Capromys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+150	Proto -XXXX-Dolichotis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+151	Proto -XXXX-Erethizon	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+152	Proto -XXXX-Hydrochoerus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+153	Proto.XX-Ctenomys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+154	Proto.XX-Erethizon	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+155	Proto.XX-Myocastor	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+156	Proto.XXXx-cavia	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+157	Proto.XXXx-chinchilla	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+158	Proto.XXXx-Cuniculus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+159	Proto.XXYZ-Cuniculus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+160	Proto.XXXx-Myocaster	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+161	Proto.XXXx-octodon	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+162	Proto.XXYZ-Dolichotis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+163	Proto.XXZ-Capromys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+164	Proto.XXX-Capromys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+165	Proto.XXZ-Dinomys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+166	Proto.XZXY-Micronycteris	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+167	Proto.XXXx-Micronycteris	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+168	Proto.XZXY-Octomys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+169	Proto.XX-Octodon	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+170	Proto.XX-Octomys	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+145	Proto.XX-Carollia	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+146	Proto.XZXY-Pteronotus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+14	Proto.14-Tamandua	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+102	Proto.102-Tamandua	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+112	Proto.112-afrotheria	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+113	Proto.XX-Microgale	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+114	Proto.XXXx-Orycteropus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+115	Proto.zXXx-Orycteropus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+116	Proto.XX-Trichechus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+117	Proto.ZXX-Trichecus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+200	Proto.XX-Phascolarctos	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+201	proto.XXX-Phascolarctos	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+202	proto.XZXY-Phascolarctos	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+203	proto.ZXX-Phascolarctos	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+204	proto.ZZX-Phascolarctos	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+205	proto.XXYZ-Phascolarctos	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+206	proto.110-Gymnobelideus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+207	proto.XXXx-Gymnobelideus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+208	proto-XXXX-Gymnobelideus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+209	proto.XXZ-Gymnobelideus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+210	proto.XZXY-Gymnobelideus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+211	proto.XXZ-Macropus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+212	proto.XXXx-macropus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+213	proto.XXYZ-Macropus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+214	proto.XZXY-Macropus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+215	proto.XX_Sarcophilus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+216	proto.110-Sarcophilus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+217	proto.118-Sarcophilus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+218	proto.119-Sarcophilus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+219	proto.XX-Sarcophilus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+220	proto.ZXX-Vombatus	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+221	proto.XX-thylacine	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+222	proto.XZXY-Monodelphis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+223	proto.101-Monodelphis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+224	Proto.11-Monodelphis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+225	Proto.12-Monodelphis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
+226	Proto.13-Monodelphis	fasta-refseqs-proto-epv-con	Parvovirinae	Protoparvovirus	Proto-B?		Proto-B?		Proto-B?		nk?	nk?	NK	NK							
