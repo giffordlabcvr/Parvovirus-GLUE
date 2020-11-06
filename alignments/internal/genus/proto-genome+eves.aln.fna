@@ -1,4 +1,4 @@
->epv-proto.1-Rattus_norvegicus| 
+>proto.1-rattus-con| 
 ATGGCA---GCTAGCCGCTATTCTGATGAGGTTTTGGATACAGTTAATTGGTTAAAAGACCAAGCAACTACTGAAGCCTT
 CTCGTTTGTTTTTGAAACT------GAGAACGTTCAGCTCAATGGAAAAGATATTGACTGGAAAGACTACAACAAGAAAA
 TAGACAACGAGGAACTGACTTCACTGTTGCGAGGCACTGAAACTGCGAGGGATCAAGCCGAAGACATGGAATGGGGAGAT
@@ -57,7 +57,7 @@ GCACCAAACCTTACTGACCAATATGATCCCAACACACTGCAGACTCCTCGAATCGTTACCTACTCTGATTTTTGGTGGAA
 AGGCAAGCTAGTATTCACAGCCAAACTCAGGGCTCCACATACATGGAACCCCATTAACCAACTTACTACTACCCAAGACA
 ACATCAAA------------------AACTACATGCCTACAAACATTGGGGGAATGGTTCTTCATCCAGAGTATTCTCAG
 TTAGCCCCAAGAAAACTTTACTAA
->epv-proto.3-Apodemus| 
+>proto.3-Apodemus| 
 ATGGCG---CAAAACCGATACACTGAGGAAGTCCTGGACACAGTCAACTGGCTAAAAGACCACCAGGAAAAAGAAGCATT
 CTCGTTTGTTTTTAAAACT------GAGAATGTACAACTAAACCACAAATGTGTGACTTCGAAAAACTACGGCAAATATC
 CGCAGGACGAAGAGATGAGAAACCTGGTAAGAGGAACCGAAACGGCACTGGATGCAGCTGAAGATATGGAATGGGAATCA
@@ -116,7 +116,7 @@ GATCCTAACCTTACTGATGACTTCAATGCTGACTCTCCACAACAATCTAGAATAGTGACCTACTCTAACTTTTGGTGGAA
 AGGAAAGCTCAAATTTAGAGCTAAAATGAGAAGCGTCCACATGTGGAACCCAGTACACCAACATTCTGCCACATCAGACA
 ACATTGGT------------------AACTACATACCAACCAACATTGGAGGTATGAGACTGTATCCAGAAATTTCTCAA
 CTTGTGCCAAGAAAGATGTACTAA
->epv-proto.2-Mus_spretus| 
+>proto.2-Mus_spretus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -352,7 +352,7 @@ GGACCTAACCTAACAGACCAATTTGATCCAAACGGCACAACTCTCTCTAGAATTGTTACATACAGCACCTTCTACTGGAA
 AGGTGAACTGAAATTCAGAGCCAAACTCAGACCAAACTCTACATGGAACCCAGTGTACCAAATGACATCTGCAGACACAA
 CCATTGCAAAA------------------TGGCTACCAACTGCAACAGGTAACATGCAGAATGTGCCACTTATGGCCAGA
 CCTGTACCTCGCAACACATACTAA
->epv-proto.4-Mus_spicelagus| 
+>proto.4-Mus_spicelagus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -647,7 +647,7 @@ GGACCAAACCTAACTGACCAATATGATCCAAACGGAGCCACACTTTCTAGAATTGTTACATACGGTACATTTTTCTGGAA
 AGGAAAACTAACCATGAGAGCAAAACTTAGAGCTAACACCACTTGGAACCCAGTGTACCAAGTAAGTGCTGAAGACAAT-
 --GGCAACTCATACATGAGTGTAACTAAATGGTTACCAACTGCTACTGGAAACATGCAGTCTGTGCCGCTTATAACAAGA
 CCTGTTGCTAGAAATACTTACTAA
->epv-proto.101-Monodelphis 
+>proto.101-Monodelphis 
 ATGACA------GCACAAAACGCAGAAGGATTCTGGAAAGTTGTAAACTGGCTAAAAAAAGAAGCAAACAAAGAAGGAAT
 AGGATTAGTCTTTAAAACT---------------AAAGACAATGGATATACAATAACATGGAAAGACTACAAC-------
 --------------------------------------------------------------------------------
@@ -706,7 +706,7 @@ ACTCCACAATTTACAAACCAATTCAAAGAAAATAAACTAAAAAACACAAAAATACAAACATTTGCAAGATTCTACTGGAG
 AGGAAAACTAACAATAAAAGGAAGACTAAGAACACCACACAGCTTCAACCCAATAACACCAACATATGAATTAATCAACA
 CAAAAAAC---------------------TGGATACCAGACCACAAAGG-------------------------------
 ------------------------
->epv-proto.107-Hydrochoerus| 
+>proto.107-Hydrochoerus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -765,7 +765,7 @@ AGTCCACAGTTCACTAACTCATTCAAGCAGAATTTTATAAAAAATGCAAAGATCCAAACATTTGCTTCCTTTTACTGGAG
 AGGCAAGCTAACATTTAAAGCAAGAATCAGATCTCCACAAACATTTAACCCAATACAACCATTAGGGGTTTGGGAGAAGG
 AAAATGTT---------------------TTTCTTCCAGATCACAAA---------------------------------
 ------------------------
->epv-proto.121-Cavia| 
+>proto.121-Cavia| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -883,7 +883,7 @@ GCTCCAAATCTCACAGACACATTTAACGCCACA---CCAACCTTCTCTGAAATCATCACATATGCAGACTTTTGGTGGAA
 AGGGACACTGAAAATGAAAATTAAGCTTAGACCTCCTCACCAATGGAATATAGCCACTGTATTAGGAGCCGCTGTTAACA
 TAGGAGACGCTGCCCGC------------TTTGTTCCCAATAGACTTGGTCAGTTAGAATTCCCTGTAATCAATGGAAGA
 ATTGTACCCTCTACTGTTTACTAA
->epv-proto.102-Tamandua 
+>proto.102-Tamandua 
 --------------------------------------------------------------------------------
 -------------------------------------------GAAGAAAACACAACATGGTCGGACTTCCAC-------
 --------------------------------------------------------------------------------
@@ -942,7 +942,7 @@ GCTCCAAACTTCACAGATGATTTTGATCCAACAAAAGCTACACACAGTCGAATCATCACATATGGAACATTCTGGTGGAG
 AGGTACGTTAAAATTTAAAGCGAAATTAAGATCACCAAACCAATGGAACATGGTAAATATGAAATCTATAACAAGTCAGG
 ATACTGCCAAACTT---------------TACATTCCTGACACTGTTGGTACAATGCAAATGCCATTTATAAACGGAAGA
 CATGTCACAGCTGTGTTGTAT---
->epv-proto.108-Dinomys| 
+>proto.108-Dinomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1001,7 +1001,7 @@ ACACCACAATATACAAACCAATTCAAACAAAACACAATACAAAACACAAAAATACAAACATTCGCAACATTCTACTGAAA
 GGAAAAAACAACATTAAAACAAAAACTAAGAGCACCACAAACTTTCAATCCATTAATTCCTCTTTTCACACTGCCTACAA
 CAGATGCA---------------------TACTTACCAAACCACAAAGGAGAAATTAAAATGCTTACCATGCCTGGAAAA
 CAAGTACCACTCTATGCTTAT---
->epv-proto.126-Octodon| 
+>proto.126-Octodon| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1060,7 +1060,7 @@ CAATTAACCTTAGAAGAAG-GTTCAGGACACTAGAATGC-----------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.111-Afrotheria| 
+>proto.111-Afrotheria| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1119,7 +1119,7 @@ GCAACCAAGGATGCAAAAGACTGGGATGGTAAGACTGCACACTATGTTTTTCGAGCAAAGAGAAGCTTGATACCC-----
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.120-Cavia| 
+>proto.120-Cavia| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1178,7 +1178,7 @@ AGTCCACAATTCACCAACCAATTTAAACAGAAT---GTCTAAAAA-ATGCAAATCAAATATTTTCCAGACTTAATTGGAG
 AGGGAAACTCACATTTAAAGCCAGATTAAGAACTTCTCATATATTTAGCTCAACGGTGCAAGCAGGCAGTCGTGAGTTCG
 ATCTCTGG---------------------TACCAATAA------------------------------------------
 ------------------------
->epv-proto.125-Hydrochoerus| 
+>proto.125-Hydrochoerus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1237,7 +1237,7 @@ TCACCACAATTCACAAATTCCTTTAAACAGAATATGATGAAGAATGCTAAGATTCAAACCTTTGTAAGCTTTTATTGGAG
 GGGGAAAATGACTTTCACTGCTCGGCTTAGAACTCCACATACATTTAATCCGGTACAGTCTATGTTTGCTGTTACTAGCT
 CAGTT------------------------TACTTGCCTGATCATAAGGGTGATATGTCTATTGTACCAATTACTGGAAAA
 CAAATACCTTTCTATGCCTATTAG
->epv-proto.127-Myocastor| 
+>proto.127-Myocastor| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1296,7 +1296,7 @@ AGTCCACAATTTACCAACCAATACAAACAAAACCTCACGCAAAATGCAAAGGTACAAACATTTCCAAGCTTTTACTGGAG
 AGGTAAAACAACATTCCGAGCAAGACCAAGAGCGCCTCACACATTCAGTCCAATA-------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.128-Capromys| 
+>proto.128-Capromys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1355,7 +1355,7 @@ AGCCCACTGTTTATCAACTGATTTAAGCAGAATATTATGAAAACTGCTAAGATATCAACATTTGTGAGCTTCTATTGGAG
 AGGTAAGATGGTTTTCAAAGCCAGGTCAAGAGCACCACATACACTGAATCCACTG-------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.129-Dinomys| 
+>proto.129-Dinomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1414,7 +1414,7 @@ CTCAGAAGCTACTAGAAAAAGACAACACCAAGTAGGTCACCTCACACCACAATATATTTTTGAAATAGGTAAAGGTGGA-
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.130-Dinomys| 
+>proto.130-Dinomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1473,7 +1473,7 @@ CAATTCACCTTAGGAAAAATATACAAGACACAAGAATGTTAGGAAGAGCACCAAGAATAACTCCGGACTTTAA-------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.133-Dolichotis| 
+>proto.133-Dolichotis| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1532,7 +1532,7 @@ CAGCCATAGCAGCTGGTCCT------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.131-Ctenomys| 
+>proto.131-Ctenomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1591,7 +1591,7 @@ AGCCCACAATACACAAACTCATTCAATCAAAACAAGCTTAAAAACTCCAAAATTCAGACCTATGCTTCATTTTATTGGAG
 AGGTAAATTGACAATGAAAGCCAGGCTTAATGCTGCTCACTCATTCAATCCGATACAACCAACTCATATATGGGGAAACT
 TAGGT------------------------GCTTTCTTATCAAAC------------------------------------
 ------------------------
->epv-proto.132-Ctenomys| 
+>proto.132-Ctenomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1650,7 +1650,7 @@ GGAAAAGTAAAGATGGTGGAAGATAAACAT------------AATATTGGAGTGAGATCGGGCAGACCACAC--------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.134-Dolichotis| 
+>proto.134-Dolichotis| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1709,7 +1709,7 @@ CGTATATGATTATGCTCATGGC----------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.135-Octomys| 
+>proto.135-Octomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1768,7 +1768,7 @@ CAATGAACTTA---------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.136-Octomys| 
+>proto.136-Octomys| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1827,7 +1827,7 @@ CAGCACTAGCAAGGGGACCC------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.137-Hydrochoerus| 
+>proto.137-Hydrochoerus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1886,7 +1886,7 @@ CAATTAATCTA---------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.138-Hydrochoerus| 
+>proto.138-Hydrochoerus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1945,7 +1945,7 @@ CAATCAACCTAAGTAAAAATGTGCAGGATACCAGAATGCTAGGCAGAGCACCTACAATCAAGCCAGACTACGA-------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.139-Myocastor| 
+>proto.139-Myocastor| 
 ATGTCG------GCGCAGAACGACAGAGCGATCCTAAATGCAATTTCATGGCTGAAAGATGAAGCAGACGTGGATGGTAT
 TGGTCTCGTTTTCAAG------ACCAAAGACATCACCATCGACAATGTGGACATTACATGGACTGACTACTCCAGAAAAT
 CCAGACTGAAAGACATCGCTGAAATTGCAGACTTTCACATTAAAGCTATATCCTGA------------ATAGATGAAAAC
@@ -2004,7 +2004,7 @@ GCCACAACCGAATC------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.122-Cavia| 
+>proto.122-Cavia| 
 ------------TCTCAAGATGACAGAGGCATACTAGCAGCTGTGTCCTGGCTAAAAGATGAAGCAGATGTGGAAGGCAT
 CGGACTGGTCTTCAAA------ATGAAAGACATAAACATAGATGGAATAGAAATCACATGGACTGACTTCTCAAGAAAAA
 GCAAGCAGAAAGACATCGCAGATATTGCTGAAGCTCACATCAGAGCAGTTCCTTGC------------ATCTACGAAAAC
@@ -2063,7 +2063,7 @@ AATCCACAATTCACCAACCAATTCAAAGAAAAT---GTCTAAAAA-ATCTAAGATACAGACTTTGCATCTTTCATTGGAG
 AGGTAAGATGGTCTTCAAAGGAAGACTCAGAGCTCCACACACATTTAATCCAATTATGCCAGTTGGTGTTTGGGACTATG
 CTGCAGCA---------------------TTCTAACCAAATGAAAAAGGGGAGATTGTCTTTCAACCATTTCCTGGAAAG
 CAAATGCCTTTTTATGCATACTAA
->epv-proto.142-Cuniculus| 
+>proto.142-Cuniculus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2122,7 +2122,7 @@ AGCCCACAATTTACCAACCATTTC--------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.153.Macropus| 
+>proto.153-Macropus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------ACCATT
@@ -2181,7 +2181,7 @@ ATTCCACAATACACTAACACATTTAATCAAAATGCTGACAACAATGCCAAGATAAATACATTCACATCATTCTACTGGAG
 AGGGAAACTGAGGATCAAGGGAAAACTAAGAACTCCTCACACATTCAATCCAGGAACTCCAGTAATGGAATACATCAAA-
 -----------------------------TACAAGGACTGGATACCAGACTATGCAGGAAGGATGTCCTTCCCATTGGTA
 CCAGGAAAA---------------
->epv-proto.140-Myocastor| 
+>proto.140-Myocastor| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2240,7 +2240,7 @@ AGCCCACAATTCACCAACCAATTCAAGCAAAATAACATATAAAACTCTAAAAGACAAACATTTGCTAGTTTCTATTGGAG
 AGAAAAAATGACTTTCAAAGGAAGAATGAGAGCACCACACACATTCAATCCCATAAAACCTCTAGGTATCTCTGATCCAT
 CAGATTCA---------------------ATATACCTACCAAACCACAAAGGTGAAATAAAAATA---------------
 ------------------------
->epv-proto.141-Erethizon| 
+>proto.141-Erethizon| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2299,7 +2299,7 @@ AG-CCACTATTCACTAACCAATTTAAGCAAAACACTT-------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.143-Cuniculus| 
+>proto.143-Cuniculus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2358,7 +2358,7 @@ TCTCCACAATTTACCAACCAATTTAAACAAAACGTCATGAAAAACGCTAAAATCTCTACATTTGCTTCTTTCTATTGGAG
 AGGGAAAATTGTATTCAAGGGTAGACTGAGAGTGCCTCACACATTCAACCCACTACAACCTCTATTTACTTTTGCCGATT
 CAAGTGCA---------------------TTCTTGCCCAATTACAAAGGAGACATTAAAATGATACCCATTGCAGGGAAA
 CAGGTGCCTTTCTATGCATATTAA
->epv-proto.150.Gymnobelideus| 
+>proto.150-Gymnobelideus| 
 ATGGCA------AGACAAGATACTGATCAAATCTATCAAGCCATAAACTGGCTAGAGCAAGGAGCAGACATAGGAGTGTT
 CTCCTTTGTCTTTGAA------TTCAAAGACCTAGAGAACAATAACAAAATGATTACATGGAAGCATCGCAACA------
 -----AACCAAGACAGAAAAGATGTCTGCACAAATCATCTCCAGACATTAGAATGC------------ATGGAAACCAAC
@@ -2417,7 +2417,7 @@ ACATCCAGTTGGACAGATATATGTGATAAAACAGGTTCACAGCAAAGCAGAATCATTACTTACACAACTTTCTTTTAGAA
 AGGACAGTTATAA---GAGGAAAACTTAAGAGCACCACAAGGATTTAACATGTATGGAGTCTCTGCACCAGAT-------
 ------------------------------CCAAGTTTAATGAGCAATTTCCAACTGCAACCGGA---------------
 ------------------------
->epv-proto.151.Phascolarctos| 
+>proto.151-Phascolarctos| 
 ------------------------GACGCAATATGGAAAGCTAGAGAATGGCTAAAAAAGACTGCAGACCAACCAGCTAT
 TGGACTTGTGTTCAAA------ACCAAAGACTGAACTTTAAACAACATCAAGCTAGAAAGGAGAAACTACAACAAGAAAA
 GCAAACACAAGGACATTGCTGAAATTGCACATGGTCACATCAGAGCAATTGAATGC------------ATTGACAACCAA
@@ -2476,7 +2476,7 @@ GGTTTATGACTATGCTCATGGGGGAG------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.151.Macropus| 
+>proto.151-Macropus| 
 -----------------------------------------------------------AGACACAGACAAACC-TGTAT
 CAGCCTTGTCTTCAAA------ACCAAGGACTGCAAAATAAATGGAACAGATATAACACGGAGAGACTGAAAGAAAAAAT
 CCAAACAAAAAGGCATCACTGAAATAGCAGAAACTCACATCAGAGCAGGAGAATGC------------ATCAATTCAATG
@@ -2535,7 +2535,7 @@ CATGTAACCTTAGAAAAAACATCCAAGACACAAGAATGCTTGGTAGAGCACCAAGAATCAAACCA---------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.152.Sarcophilus| 
+>proto.152-Sarcophilus| 
 AAACTAGCAATGGCACAAGACACAGAAGGGATGCTAAAAGCAATCAACTAGCTGAAAAAAGATGCAGACACAACTTGTAT
 CGGACTGGTCTTCAAA------ACTAAAGACTGCAAAATCAACAACACAGAAATAACATGGAAGAGCTACAACAAAAAAT
 CAAAGCAGAAAGACATCGCAGAAATTGCAGAATAACATGTGAGAGCAACAGAATGT------------GTGGACAGCAAC
@@ -2594,7 +2594,7 @@ AGTTTATGACTACGCACATGGAGCT-------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.154.Phascolarctos| 
+>proto.154-Phascolarctos| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2653,7 +2653,7 @@ ACTCCAAACTGGAATGATGAATTTAATGAAACAGGAATAATACAAAGTAGAATAATAACATATGCAACATTTTTCTGGAC
 AGGTAAATTAGTAACAAAAGGAAAGCTCAGAATACCACAACAATGGAACATGTACACATTCCATCAAGCAGACATAAGC-
 -----------------------------CAACCAAAATTCTGGGATTGCATCCCTAGTCAAAATGGTGTAATGAGGATA
 CCTTTCATGGAAGGAAGAAAAGTA
->epv-proto.155.Gymnobelideus| 
+>proto.155-Gymnobelideus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------CAGCCTAAATTGCAGGACACATCAGATCCACAGAATGT------------ATTGACTCACTA
@@ -2712,7 +2712,7 @@ ATGACACAGGACCTGAACTTAAAACAACTGC-------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.156.Phascolarctos| 
+>proto.156-Phascolarctos| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2771,7 +2771,7 @@ AATTTATGACTATGCACAT-------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.157.Gymnobelideus| 
+>proto.157-Gymnobelideus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2830,7 +2830,7 @@ ACTCTATAATACACAAACACATTCAATCAAGACTTGGAAAACAATGCCAAAATAAACACTTTTGCATCTTTCTACTGGAG
 AGGAAAACTAACAATTAAAGGAAGGTTAAGAGCACCATCTACATTCAACCCAGGAACCCCAGACATGGATGCTATTAAC-
 -----------------------------TACAAAAGATGGATACCAGACTTCAAAGGAAGTTTTCAAAGGAAGCTTTCC
 CAACAATACCAGGAAAGCAAATAC
->epv-proto.158.Macropus| 
+>proto.158-Macropus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2889,7 +2889,7 @@ AGTCCACAATACACAAATCAACATGAAGATTACAGACAAAACAACCCAAGAATCACTATGTTTGCATCTTTCTACTGGAG
 AGGAAAACTAATAATAAAAGGAAAACTGAGAGGACTACAAAGCTTCAACCCAACA-------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.158.Phascolarctos| 
+>proto.158-Phascolarctos| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2948,7 +2948,7 @@ CAACCACAATACACTGACCAATATGATCCACAAAAACCTGATAATGCAACCAAAAAAACATTTGCATCATTGTTTTGGAG
 AGGTAAATTAGTGACAAGAGGAAAACTG----------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.159.Vombatus| 
+>proto.159-Vombatus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3007,7 +3007,7 @@ ATTTGAAAACTCAATACCAATAGAAATACTAAGAACTGGAGATAGCTGGTATACTGGAACATACAACTTC----------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.160.Macropus| 
+>proto.160-Macropus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3066,7 +3066,7 @@ ACTCCACAATACACTGACCAAGTTGATGAAAATCAAATAAAAAATGCTAAAATAAACACCGTTGCATCATTCTACTAGAG
 AGGCAAACTAACCATCAAAGGAAAACTAAGGGTTCCTCACACCCTCAATCCATCAACACCAGTATTTGAATTC---CTT-
 -----------------------------AACTACAAACACTGGGTTCCAGATCAGGCAGGAAAGATTGCATTCCCAATT
 ATGCCTGGAAAA------------
->epv-proto.161.Macropus| 
+>proto.161-Macropus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3125,7 +3125,7 @@ CAGTTATTACATCTGG----------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.162.Gymnobelideus| 
+>proto.162-Gymnobelideus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3184,7 +3184,7 @@ ACACCACAATACACAAACACATTTGATCAAAATGCTAAGCAAAACACAAAGATTAATACTTTTGCATCATTCTACTGGAG
 AGGGAAACTAACCATAAAGGGGAGACGGAGC-------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.163.Phascolarctos| 
+>proto.163-Phascolarctos| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3243,7 +3243,7 @@ ACAACAAACTGGACTGAAGACTATGAGGATACTGGGAATACACAAAGCAGAATAATAACATATGCAACATTCTTTTAGAA
 AGGAAAACTAACATTCAAAGGAAAACTAAGAACCCCACAAGCCTTCAACATATATGGGGTTTCAGCACCTGATTCATTT-
 -----------------------------CAGTTTAATAACCAATTTCCAGATGCAACAGGAAGATTTGCAATT------
 ------------------------
->epv-proto.164.Macropus| 
+>proto.164-Macropus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3302,7 +3302,7 @@ AGTCCACAATACACAAACACAATC--------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.165.Phascolarctos| 
+>proto.165-Phascolarctos| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -3361,7 +3361,7 @@ ACACCGCAATATGCAAACACATTTGACCAAAATGCAGAAACAAAGACAAAAATAAATACATTCACATCTTTTTATTGGAG
 AGGTAAGCTTAGACTT----------------------------------------------------------------
 --------------------------------------------------------------------------------
 ------------------------
->epv-proto.166.Gymnobelideus| 
+>proto.166-Gymnobelideus| 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
