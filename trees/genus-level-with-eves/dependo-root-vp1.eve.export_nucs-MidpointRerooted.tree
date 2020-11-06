@@ -1,1 +1,145 @@
-((((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.165-passeriformes-con:0.64138505901651765573,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.16-canid-con:0.47598754699710038585)63:0.43084843733818950495,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.28-daubentonia-con:0.38474863444328688544,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.4-rhinocerotidae-con:0.28795726025429901895,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.30-desmodus:0.61438908020016469447)34:0.00219605348995218809)33:0.03668141335454316865,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.1-whippomorpha-con:0.29032650939641141408,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.5-rhinocerotidae-con:0.89488950614787377003,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.23-camelidae-con:0.92056773194278407324)79:0.52844401909171334619,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.26-lemuridae-con:0.21407515805750720883)22:0.14792069880323790998)10:0.02284560218718918040)63:0.45025130184868450423)28:0.23519059462166730379,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_027429:0.36186669633812007518,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006147:0.90917884740886301120)90:0.45620316626753898426,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006148:0.38999829618096543138,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.201.2-thamnophis:0.38385236407683831494,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.201.1-thamnophis:0.03242464918399582535)100:0.33183091942903047977)85:0.10447109883682159648)72:0.26651031679032766153)33:0.026898706039041887865,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.0-macropus-con:0.46877475645892840994,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.166-passeriformes-con:1.50038674217714196324,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.220-pelusios:0.15015671155437301798,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.221-pelusios:0.19962003335363098788)100:1.23166587300317464937)20:0.16757898116314892678)20:0.15857765185185984658,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/MF416383:0.59776203392690296923,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.2-vespertilionidae-con:0.81969074452784262963,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.12-orycteropus:1.60182499007138523517,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.8-dasypus:0.65719456317326951922,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.37-rhinolophus:1.24533512959059788905,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.46-gliridae-con:0.61583741693712179543,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_014468:0.40238494726390794387)26:0.10509410911067207373,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.3-lagomorpha-con:1.16897462247721772854,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006152:0.09854455183549622188,(alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.81-muscardinus:1.51904381502622554123,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/FJ688147:0.04866238790064752323)40:0.05441281516286233799)71:0.21970704871612536935)21:0.15742612256063873155)0:0.03457102109610862145)3:0.00124579342264732277)3:0.02710461092430814858,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_038539:0.74889128193795972965,(((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.13-cercopithecidae-con:0.08444579715270464360,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/DQ813647:0.11651800200712056355)48:0.04376875872751035540,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AY631966:0.12547479805089759020)38:0.04108458030615638051,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001829:0.14496221687593449645)70:0.11770660887299483344)41:0.15977349949628941173,(((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001729:0.00330971751111012362,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028705:0.00042542925719145548)99:0.12390115480580116136,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs/NC_001401:0.17488635169552993465)68:0.04700393521720465373,((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028704:0.01760629931584401994,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_002077:0.01420215476240256278)100:0.09563725550396671993,(((alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006261:0.07426113238419858320,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AX753250:0.09479544018028576713)81:0.02696617190162146557,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/LY408697:0.05896003618043260674)96:0.02815941007509486713,alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006260:0.07864973018011033046)96:0.04581619676722744477)85:0.02727384740536346885)65:0.13302661496861376000)45:0.12462274525124140967)1:0.04744766728063228023)3:0.05501826043834807251)4:0.05671959693918906392)3:0.06802986857555387568)33:0.091392034391678840435);
+#NEXUS
+begin taxa;
+	dimensions ntax=43;
+	taxlabels
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.0-macropus-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.0-macropus",scaffold="-",sequenceID="dependo.0-macropus-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.1-whippomorpha-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.1-whippomorpha",scaffold="-",sequenceID="dependo.1-whippomorpha-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.12-orycteropus'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.12-orycteropus",scaffold="-",sequenceID="dependo.12-orycteropus",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.13-cercopithecidae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.13-cercopithecidae",scaffold="-",sequenceID="dependo.13-cercopithecidae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.16-canid-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.16-canid",scaffold="-",sequenceID="dependo.16-canid-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.165-passeriformes'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.165-passeriformes",scaffold="-",sequenceID="dependo.165-passeriformes",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.166-passeriformes'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.166-passeriformes",scaffold="-",sequenceID="dependo.166-passeriformes",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.2-vespertilionidae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.2-rhinovesper",scaffold="-",sequenceID="dependo.2-vespertilionidae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.201.1-thamnophis'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.201.1-thamnophis",scaffold="-",sequenceID="dependo.201.1-thamnophis",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.201.2-thamnophis'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.201.2-thamnophis",scaffold="-",sequenceID="dependo.201.2-thamnophis",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.220-pelusios'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.220-pelusios",scaffold="-",sequenceID="dependo.220-pelusios",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.221-pelusios'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.221-pelusios",scaffold="-",sequenceID="dependo.221-pelusios",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.23-camelidae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.23-camelidae-con",scaffold="-",sequenceID="dependo.23-camelidae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.26-lemuridae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.26-lemuridae",scaffold="-",sequenceID="dependo.26-lemuridae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.28-daubentonia-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.28-daubentonia",scaffold="-",sequenceID="dependo.28-daubentonia-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.3-lagomorpha-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.3-lagomorpha",scaffold="-",sequenceID="dependo.3-lagomorpha-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.30-desmodus'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="-",scaffold="-",sequenceID="dependo.30-desmodus",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.37-rhinolophus'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="-",scaffold="-",sequenceID="dependo.37-rhinolophus",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.4-rhinocerotidae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.4-rhinocerotidae",scaffold="-",sequenceID="dependo.4-rhinocerotidae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.46-gliridae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.46-glires",scaffold="-",sequenceID="dependo.46-gliridae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.5-rhinocerotidae-con'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.5-rhinocerotidae",scaffold="-",sequenceID="dependo.5-rhinocerotidae-con",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.63-gymnobelideus'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.63-gymnobelideus",scaffold="-",sequenceID="dependo.63-gymnobelideus",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.8-dasypus'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="dependo.8-dasypus",scaffold="-",sequenceID="dependo.8-dasypus",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028704'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV6",scaffold="-",sequenceID="AF028704",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028705'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV3B",scaffold="-",sequenceID="AF028705",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AX753250'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV9",scaffold="-",sequenceID="AX753250",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AY631966'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV11",scaffold="-",sequenceID="AY631966",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/DQ813647'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV12",scaffold="-",sequenceID="DQ813647",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/FJ688147'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAVpo1",scaffold="-",sequenceID="FJ688147",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/LY408697'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV10",scaffold="-",sequenceID="LY408697",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/MF416383'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="Mouse-AAV1",scaffold="-",sequenceID="MF416383",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001729'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV3",scaffold="-",sequenceID="NC_001729",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001829'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV4",scaffold="-",sequenceID="NC_001829",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_002077'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV1",scaffold="-",sequenceID="NC_002077",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006147'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="MDPV",scaffold="-",sequenceID="NC_006147",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006148'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="SnakePV",scaffold="-",sequenceID="NC_006148",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006152'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV5",scaffold="-",sequenceID="NC_006152",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006260'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV7",scaffold="-",sequenceID="NC_006260",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006261'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV8",scaffold="-",sequenceID="NC_006261",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_014468'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV-bat",scaffold="-",sequenceID="NC_014468",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_027429'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="BdrPV",scaffold="-",sequenceID="NC_027429",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_038539'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV-sealion",scaffold="-",sequenceID="NC_038539",start_position="-"]
+	'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs/NC_001401'[&end_position="-",host_class="-",host_family="-",host_genus="-",host_order="-",host_sci_name="-",host_superorder="-",locus_name="-",locus_numeric_id="-",name="AAV2",scaffold="-",sequenceID="NC_001401",start_position="-"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.166-passeriformes':1.274253,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.221-pelusios':0.165548,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.220-pelusios':0.186143)[&label=100]:1.03746)[&label=60]:0.068728,((('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.30-desmodus':0.601515,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.28-daubentonia-con':0.398555,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.4-rhinocerotidae-con':0.272046)[&label=47]:0.017465)[&label=29]:0.036247,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.26-lemuridae-con':0.271811,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.1-whippomorpha-con':0.287444)[&label=18]:0.015008)[&label=66]:0.254233,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.23-camelidae-con':0.952125,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.5-rhinocerotidae-con':0.82037)[&label=90]:0.472388)[&label=69]:0.363523)[&label=6]:0.080587,((('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006147':0.912144,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_027429':0.333978)[&label=83]:0.438919,(('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.201.1-thamnophis':0.0342,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.201.2-thamnophis':0.363605)[&label=100]:0.309385,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006148':0.384055)[&label=88]:0.100322)[&label=74]:0.301583,(('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.63-gymnobelideus':0.757088,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.0-macropus-con':0.28002)[&label=97]:0.231976,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/MF416383':0.617551,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.2-vespertilionidae-con':0.832954,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.37-rhinolophus':0.838408,(((('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.46-gliridae-con':0.593859,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_014468':0.393178)[&label=42]:0.105122,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.3-lagomorpha-con':1.195096,(('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006152':0.132903,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/FJ688147':0.103764)[&label=99]:0.151461,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.165-passeriformes':0.62519,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.16-canid-con':0.385805)[&label=74]:0.644181)[&label=9]:0.035212)[&label=7]:0.165783)[&label=1]:0.038685,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.12-orycteropus':1.337822)[&label=1]:0.030894,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.8-dasypus':0.624393,(('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_038539':0.698143,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001829':0.13728,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AY631966':0.122422,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv-con/dependo.13-cercopithecidae-con':0.084449,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/DQ813647':0.115427)[&label=41]:0.044012)[&label=23]:0.046576)[&label=64]:0.114641)[&label=12]:0.158814,((('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028705':3.97E-4,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001729':0.003291)[&label=98]:0.12154,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs/NC_001401':0.173106)[&label=62]:0.047795,(('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006260':0.077616,(('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AX753250':0.093208,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006261':0.07345)[&label=85]:0.026563,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/LY408697':0.058602)[&label=97]:0.027315)[&label=93]:0.04558,('alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028704':0.017491,'alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_002077':0.013913)[&label=100]:0.09433)[&label=57]:0.025658)[&label=56]:0.134516)[&label=17]:0.088218)[&label=16]:0.03912)[&label=1]:0.041958)[&label=1]:0.055432)[&label=1]:0.038398)[&label=3]:0.065289)[&label=4]:0.104339)[&label=6]:0.023263);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

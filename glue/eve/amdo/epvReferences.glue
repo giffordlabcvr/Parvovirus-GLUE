@@ -1,0 +1,12 @@
+  # Declare amdoparvovirus EVE reference sequences
+  
+  # Mammal
+  create reference REF_EPV_amdo.1-indri           fasta-refseqs-amdo-epv-con  amdo.1-ellobius
+  create reference REF_EPV_amdo.2-dolichotis      fasta-refseqs-amdo-epv-con  amdo.2-ellobius
+
+  # Amdo / Proto
+  create reference REF_EPV_amdo.101-protobothrops fasta-refseqs-amdo-epv-con  amdo.101-protobothrops
+  create reference REF_EPV_amdo.102-procavia      fasta-refseqs-amdo-epv-con  amdo.102-procavia
+  create reference REF_EPV_amdo.103-orycteropus   fasta-refseqs-amdo-epv-con  amdo.103-orycteropus
+  create reference REF_EPV_amdo.104-sarcophilus   fasta-refseqs-amdo-epv-con  amdo.104-sarcophilus
+  

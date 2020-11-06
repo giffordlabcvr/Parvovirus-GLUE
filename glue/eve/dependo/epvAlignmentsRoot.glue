@@ -27,13 +27,13 @@
 
   # Export the recursively populated root gene alignments 
   module epvFastaAlignmentExporter
- 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f Rep78 --recursive -a  -e -o alignments/tree/aav-root-rep78.eve.aln.fna
- 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f VP1 --recursive -a  -e -o alignments/tree/aav-root-vp1.eve.aln.fna
+ 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f Rep78 --recursive -a  -e -o alignments/tree/dependo-root-rep78.eve.aln.fna
+ 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f VP1 --recursive -a  -e -o alignments/tree/dependo-root-vp1.eve.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/aav-root-rep78.eve.aln.fna
-  module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/aav-root-vp1.eve.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/dependo-root-rep78.eve.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/dependo-root-vp1.eve.aln.fna
 
   create alignment AL_TREE_ROOT_EPV_DEPENDO_Rep -r REF_Dependo_MASTER_AAV2
   alignment AL_TREE_ROOT_EPV_DEPENDO_Rep
