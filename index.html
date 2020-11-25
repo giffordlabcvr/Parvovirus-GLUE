@@ -26,9 +26,10 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Parvoviridae-GLUE</h1>
-      <h2 class="project-tagline">A GLUE project for parvoviruses.</h2>
+      <h2 class="project-tagline">A sequence data resource for parvoviruses.</h2>
+      <a href="./website/project.html" class="btn">Viruses</a>
+      <a href="./website/paleovirology.html" class="btn">Paleoviruses</a>
       <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tarball/master" class="btn">Download .tar.gz</a>
       <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
@@ -40,79 +41,12 @@
 
 	   <p>
 		 This is <b>Parvoviridae-GLUE</b>, a <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> project
-		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/103">parvoviruses</a>.
+		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/9">parvoviruses</a>
+		 (family <i>Parvoviridae</i>).
 		 <b>Parvoviridae-GLUE</b> contains aligned, annotated genome sequence data for:
 		 <ol>
-		   <li><a target="_blank" href="https://viralzone.expasy.org/103">Parvoviruses</a> (family <i>Parvoviridae</i>)</li> 
+		   <li><a target="_blank" href="https://viralzone.expasy.org/9">Parvoviruses</a></li> 
 		   <li>Endogenous viral elements (EVEs) derived from parvoviruses</li>
-		 </ol>
-	   </p>
-
-	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
-	   </h3>
-	   
-	   <p>
-		 The sequence data in this project have been organised into the following
-		 <b>sources</b>:<br>
-	   </p>
-	   
-	   	   
-	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/sources/ncbi-refseqs">representative parvovirus species</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
-		 (see <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/ncbiImporters/parvoviridaeNcbiImporterReferences.xml">here</a>)
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
-	   
-	   <p>
-		 <b>fasta-curated</b>: A non-redundant set of 
-		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/tabular/eve/epv-side-data.tsv">parvovirus-derived EVE loci</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/sources/fasta-epv-digs">FASTA sequences</a>
-		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
-		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
-		 Sequences in this source have unique IDs based on arbitrary numbering. 
-	   </p>
-	      	   
-	   <p>
-		 <b>fasta-refseqs</b>: EVE reference sequences - i.e. best-guess estimates of the ancestral parvovirus sequences that gave rise to EVEs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/tips/eve">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
- 
-	   <h3>
-	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
-	   </h3>
-	   
-	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
-		 
-		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/tabular/references/parvo-ncbi-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/tabular/eve/epv-side-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
-		   <!-- <li><a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/tabular/locus-side-data.tsv">Evolutionary history</a> of the EVE loci represented in <b>fasta-refseqs</b>.</li> -->
-		 </ol>
-		 
-	   </p>
-		 
-	   <h3>
-		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
-	   </h3>
-	   
-	   <p>
-		 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
-		
-		 <ol>
-		   <li><b>Tip (i)</b>: <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/tip/virus">Virus species</a> (genome-length)</li> 
-		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/tips/virus">EVE lineages</a> (single gene).
-		   These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)</li> 
-		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/internal">Virus genera</a> (genome-length)</li> 
-		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/root">Viruses and EVE reference sequences</a> (single gene)</li> 
 		 </ol>
 	   </p>
 
@@ -137,15 +71,69 @@
 
 
 	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+
+  
+	   <p>
+          GLUE is a flexible bioinformatics environment that enables the rapid development of diverse sequence data resources for different viruses.
+          The GLUE “engine” is an open, integrated software toolkit that provides functionality for storage and interpretation of sequence data. GLUE supports
+          the development of “projects” comprised of data (nucleic acid sequences plus any other kind of associated data) and program logic.
+          Projects are loaded into the GLUE engine so that the complex relationships between project data items are captured in a relational database. 
+	   </p>
+
+    	   
+   
+	   <p>
+          The GLUE software “engine” provides a set of tools for manipulating and interrogating project data.
+          The core database schema can be extended to accommodate the idiosyncrasies of different projects.
+          GLUE also provides a scripting layer for developing custom analysis tools. 
+
+	   </p>
+
+
+	   <p>
+          Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
+          a mechanism for their stable, collaborative development.
+	   </p>
+
+
+	   <h3>
+		 <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the Parvoviridae-GLUE project offer?</strong>
+	   </h3>
+
+      	   
+   
+	   <p>
+		  
+		 The Parvoviridae-GLUE project not only contains data items required for comparative genomic analysis of these 
+		 viruses (i.e. virus genome sequences, multiple sequence alignments, genome feature annotations, and other
+		 sequence-associated data), it also uses a relational database to represent the semantic relationships between
+		 these data items.
+
+	   </p>
+
+    	   
+   
+	   <p>
+
+		 Furthermore, via the GLUE engine (a platform-independent software environment) provides
+		 the means to recapitulate all of the analyses performed in our study.   
+
+
+	   </p>
+
+    	   
+
+
+	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
 	   
 	   <p>
 
-		 Access to this GitHub repository is currently restricted. To request access please contact:
 
 		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
 
 		 
 	   </p>
