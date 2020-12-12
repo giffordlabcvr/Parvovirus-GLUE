@@ -35,7 +35,8 @@
 	   <p>
          
          This tutorial focuses on <b>carnivore amdoparvovirus 1</b> - also known as
-         <b>Aleutian mink disease virus (AMDV)</b>.
+         
+         <a target="_blank" href="https://en.wikipedia.org/wiki/Aleutian_disease"><b>Aleutian mink disease virus (AMDV)</b></a>.
          
          It comprises the following steps:
 		 <ol>
@@ -68,7 +69,7 @@
 
 
 	   <h3>
-		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background - carnivores, parvoviruses and the fur industry</strong>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background 1: Carnivores, parvoviruses and the fur industry</strong>
 	   </h3>
 
         <p><img src="./images/fur-trade-parvoviruses-header.png" alt="Parvoviruses and the fur industry" /></p>
@@ -77,22 +78,19 @@
 	   <p>
         Humans have established relatively close relationships with several carnivore species.
         But whereas some are kept as companion animals, others are hunted or farmed for meat or fur.
-        A variety of carnivore species in the family Mustelidae have traditionally been
-        hunted for their fur. In Europe these included European mink (<i>Mustela lutreola</i>),
-		 <a target="_blank" href="https://en.wikipedia.org/wiki/Lady_with_an_Ermine">ermine</a>
-        
-        (<i>Mustela ermina</i>) and European polecat (<i>Mustela putorius</i>). However, the
-        fur of the North American mink (<i>Neovison vison</i>) is considered superior in quality
-        to all of these.
+        In Europe, several species have historically been hunted for fur, these included
+        European mink (<i>Mustela lutreola</i>),
+		 <a target="_blank" href="https://en.wikipedia.org/wiki/Lady_with_an_Ermine">ermine</a>      
+        (<i>Mustela ermina</i>)
+        and European polecat (<i>Mustela putorius</i>).
+        However, the fur of the North American mink (<i>Neovison vison</i>) is considered
+        superior in quality to all of these.
  	   </p>
 
 	   <p>
          Furthermore, while records of efforts to breed ermine (stoats) in captivity exist,
          these ventures have apparently been short-lived. By contrast, North American mink
          are extensively farmed. 
- 	   </p>
-
-	   <p>
          The first mink farms were founded in the 1860s, in Upstate New York, and farming
          of American mink was introduced into Europe in the early 1930s. The breeding of
          various fur colour mutants led to a boom in the mink industry in the two decades
@@ -106,6 +104,10 @@
          originally identified in the Aleutian mink breed and was consequently named
          Aleutian disease (AD). However, it was soon discovered to afflict American mink
          in general.
+ 	   </p>
+
+	   
+	   <p>
          AD is caused by an parvovirus in genus (<i>Amdoparvovirus</i>)
          called Aleutian mink disease virus (AMDV). This virus was originally considered
          a species in its own right, but has recently been reclassified as a sublineage of
@@ -120,7 +122,7 @@
 
 
 	   <h3>
-		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background - AMDV-related parvoviruses in wild carnovores</strong>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background 2: AMDV-related parvoviruses in wild versus farmed carnivores</strong>
 	   </h3>
 
         <p><img src="./images/fur-trade-parvoviruses-midlevel.png" alt="Carnivores, parvoviruses and the fur trade" /></p>
@@ -135,10 +137,9 @@
 
 
 	   <p>
-         
          AMDV infection is now known to be widespread in wild mink as well as in farmed
-         animals.Amdoparvoviruses have also been identified in several other carnivore
-         species, including raccoon dogs, gray foxes, skunks and red pandas. However,
+         animals. Carnivore amdoparvovirus has also been identified in several other carnivore
+         species, including gray foxes, skunks, raccoon dogs and red pandas. However,
          relatively little is known about the biology of amdoparvovirus infection in the
          natural environment, or the broader distribution of amdoparvovirus infections
          in wild species.
@@ -146,7 +147,7 @@
 
 	   <p>
 
-         For example, it is not clear whether the pathology of AD in captive mink is
+         <u>Most importantly</u>, it is not clear whether the pathology of AD in captive mink is
          typical of disease that occurs in the wild, or if factors associated with fur
          farming somehow enabled the emergence of the disease. Advances in availability
          of molecular sequence data mean it might now be feasible to gain some insight
@@ -156,7 +157,6 @@
 
 
 	   <p>
-         Genomic approaches have great potential to help control the spread of AMDV.
          In this tutorial we will use the <b>Parvoviridae-GLUE</b> project to <b>(i)</b>
          investigate AMDV distribution diversity and evolution, and <b>(ii)</b> establish
          a sequence-based resource for AMDV.
@@ -173,7 +173,7 @@
          will use a customised version of GLUE's  module
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvoviridaeNcbiImporterBfdv.xml"><b>here</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvoviridaeNcbiImporterAmdv.xml"><b>here</b></a>.
          Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
 
@@ -226,12 +226,12 @@
  
 	   <p>
          Now create the module using it's
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvoviridaeNcbiImporterBfdv.xml"><b> configuration file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvoviridaeNcbiImporterAmdv.xml"><b> configuration file</b></a>,
          which is contained in the Parvoviridae-GLUE project, as shown here:
 
   <pre>
   <code>Mode path: /project/parvoviridae/
-  GLUE> create module -f modules/genus/parvo/parvoviridaeNcbiImporterBfdv.xml
+  GLUE> create module -f modules/genus/parvo/parvoviridaeNcbiImporterAmdv.xml
   OK
   (1 Module created) </code></pre>
 
@@ -242,7 +242,7 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae/
-  GLUE> module parvoviridaeNcbiImporterBfdv import</code></pre>
+  GLUE> module parvoviridaeNcbiImporterAmdv import</code></pre>
 
  	   </p>
  	   <p>
@@ -801,7 +801,7 @@
 	   
 		 <p>
 		   That's it! The process is captured in 
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleRecordFeaturePresenceBfdv.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
 		 </p>
 
 	   <h3>
@@ -819,11 +819,11 @@
          
          
          The entire sequence of commands for creating both trees can be found in
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleCreateBfdvPhylogenies.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
 		 which is in the Parvoviridae-GLUE repo, as follows:
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/genus/parvo/exampleCreateBfdvPhylogenies.glue</code></pre>
+  GLUE> run file glue/genus/parvo/exampleCreateAmdvPhylogenies.glue</code></pre>
 
 		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
 		 maximum likelihood tree for thousands of sequences. On my computer it took 
