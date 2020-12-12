@@ -28,7 +28,7 @@
 
 
 	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Parvoviridae-GLUE - parvoviruses and the mink fur trade</strong>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Parvoviridae-GLUE - an example-driven tutorial based on AMDV</strong>
 	   </h3>
 
 
@@ -59,7 +59,7 @@
 
 	   <p>
          If you've already committed to using GLUE, you 
-         may find it useful to also investigate the 
+         may find it useful to also investigate the parvo
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/exampleProject"><b>GLUE example project</b></a>
          when attempting this tutorial.
  	   </p>
@@ -73,37 +73,68 @@
 
 
 	   <p>
-         <b><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot">Psittacine birds</b></a> (parrots and cockatoos) are among the most beautiful and remarkable
-         creatures on the planet. Unfortunately, many of these wonderful species are 
-         presently endangered, and conservation efforts have been hampered by the emergence of
-         <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/psittacine-beak-and-feather-disease"><b>psittacine beak and feather disease (PBFD)</b></a>.
-  	   </p>
+        Humans have established relatively close relationships with several carnivore species.
+        But whereas some are kept as companion animals, others are hunted or farmed for meat or fur.
 
-	   <p>
-         PBFD is caused by a parvovirus called <b><u>beak and feather disease virus (BFDV)</u></b>.
-         BFDV is a member of genus <i>Parvovirus</i>, in the  family <i>Parvoviridae</i>. 
-         The parvoviruses form part of a broader assemblage of evolutionarily-related
-         <b>Parvoviridae DNA viruses</b>. Infection is fatal for many birds, and even those that
-         survive may 
-         <a target="_blank" href="https://www.youtube.com/watch?v=ZQEYullGf0o"><b>lose all of their feathers</b></a>.
-             
-  	   </p>
-
-	   <p>
-         Genomic approaches have great potential to help control the spread of BFDV.
-         In this tutorial we will use the <b>Parvoviridae-GLUE</b> project to <b>(i)</b>
-         investigate BFDV distribution diversity and evolution, and <b>(ii)</b> establish
-         a sequence-based resource for BFDV.
+        A variety of carnivore species in the family Mustelidae have traditionally been
+        hunted for their fur. In Europe these included European mink (<i>Mustela lutreola</i>),
+        ermine (<i>Mustela ermina</i>) and European polecat (<i>Mustela putorius</i>). However, the
+        fur of the North American mink (<i>Neovison vison</i>) is considered superior in quality
+        to all of these.
  	   </p>
+
+	   <p>
+         Furthermore, while records of efforts to breed ermine (stoats) in captivity exist,
+         these ventures have apparently been short-lived. By contrast, North American mink
+         are extensively farmed. 
+ 	   </p>
+
+	   <p>
+         The first mink farms were founded in the 1860s, in Upstate New York, and farming
+         of American mink was introduced into Europe in the early 1930s. The breeding of
+         various fur colour mutants led to a boom in the mink industry in the two decades
+         that followed.  
+ 	   </p>
+
+	   <p>
+         One unintended consequence of the post-war boom in mink farming was the
+         introduction of American mink into Europe (as escaped animals took up residence
+         in local habitats). American mink (hereafter referred to simply as ‘mink’)
+         are now a relatively widespread invasive species in Europe.
+  	   </p>
+
+	   <p>
+         Genomic approaches have great potential to help control the spread of AMDV.
+         In this tutorial we will use the <b>Parvoviridae-GLUE</b> project to <b>(i)</b>
+         investigate AMDV distribution diversity and evolution, and <b>(ii)</b> establish
+         a sequence-based resource for AMDV.
+ 	   </p>
+
+	   <p>
+
+         In the early 1930s a severe disease emerged in farmed mink. This disease was
+         originally identified in the Aleutian mink breed and was consequently named
+         Aleutian disease (AD). However, it was soon discovered to afflict American mink
+         in general. AD is presently considered the most important infectious disease
+         affecting farm-raised mink.
+  	   </p>
+
+	   <p>
+         AD is caused by an amdoparvovirus (family Parvoviridae; genus Amdoparvovirus)
+         called Aleutian mink disease virus (AMDV). This virus was originally considered
+         a species in its own right, but has recently been reclassified as a sublineage of
+         carnivore amdoparvovirus 1.
+  	   </p>
+
 
 
 	   <h3>
-		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>1. Downloading all available BFDV sequences from GenBank</strong>
+		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>1. Downloading all available AMDV sequences from GenBank</strong>
 	   </h3>
 
 
 	   <p>
-         To download all BFDV entries in NCBI GenBank, we 
+         To download all AMDV entries in NCBI GenBank, we 
          will use a customised version of GLUE's  module
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
@@ -112,7 +143,7 @@
          based on a query phrase:
 
 	   <p>
-        <i>"Beak and feather disease virus"[Organism] AND 200:2000[SLEN]</i>
+        <i>"Carnivore amdoparvovirus 1"[Organism] AND 200:2000[SLEN]</i>
  	   </p>
 
 
@@ -282,12 +313,12 @@
 
   
  	   <h3>
-		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2. Importing BFDV sequences and metadata from GenBank files</strong>.
+		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2. Importing AMDV sequences and metadata from GenBank files</strong>.
 	   </h3>
 
 
 	   <p>
-         Now that we've downloaded a set of BFDV sequences, we can incorporate them into 
+         Now that we've downloaded a set of AMDV sequences, we can incorporate them into 
          the Parvoviridae-GLUE project.
          Load the sequences as follows:
 
@@ -297,7 +328,7 @@
  	   </p>
  	   
 	   <p>
-          All BFDV sequences obviously have the same taxonomic information.
+          All AMDV sequences obviously have the same taxonomic information.
           To input the taxonomic data for each sequence in the main 'sequence' table,
           we can use
 		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
@@ -313,7 +344,7 @@
   GLUE> run script glue/genus/parvo/exampleLoadSequenceDataBdfv.js</code></pre>
  	   
 	   <p>
-          Link each new BFDV sequence to the isolate table using
+          Link each new AMDV sequence to the isolate table using
           <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/cress
@@ -353,11 +384,11 @@
   +============+===============+================+==================+==============+
   | sequenceID |     name      |     family     |      genus       |    clade     |
   +============+===============+================+==================+==============+
-  | AB182568   | BFDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182569   | BFDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182570   | BFDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182571   | BFDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182572   | BFDV          | Parvoviridae   | Parvovirus       | Avian-1      |</code></pre>
+  | AB182568   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
+  | AB182569   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
+  | AB182570   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
+  | AB182571   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
+  | AB182572   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |</code></pre>
 
   		 </p>
 
@@ -389,6 +420,8 @@
            lack this information.
   		 </p>
 
+        <p><img src="./images/fur-trade-parvoviruses-midlevel.png.png" alt="Parrots" /></p>
+
 
 
 	   <h3>
@@ -400,7 +433,7 @@
 
 		 <p>
            Investigating the data in the sequence table reveals that some of the 
-           BFDV sequences are not associated with isolate data. This means that our
+           AMDV sequences are not associated with isolate data. This means that our
            genbankPopulator module didn't find the information in the XML file for that 
            sequence. Such inconsistent annotation of virus entries in GenBank is 
            fairly commonplace, due to a lack of standards.
@@ -453,27 +486,27 @@
 
 
 	   <h3>
-		 <a id="RefineReference" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>4. Refining the BFDV reference sequence</strong>.
+		 <a id="RefineReference" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>4. Refining the AMDV reference sequence</strong>.
 	   </h3>
 
 
 		 <p>
 		   The 'Parvovirus' extension of Parvoviridae-GLUE includes reference sequences for 
-		   most (if not all) species, including BFDV.
+		   most (if not all) species, including AMDV.
 		   The reference sequence declarations can be found
 		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/parvoReferences.glue"><b>in this file</b></a>.
 		 </p>
 	   
 	   
 		 <p>
-		   However, in a project focussed specifically on BFDV, we may want to annotate this 
+		   However, in a project focussed specifically on AMDV, we may want to annotate this 
 		   specific reference more richly - incorporating everything that is known about
 		   the virus genome.
 		 </p>
 
 	   
 		 <p>
-           Let's examine how we can modify the existing BFDV reference sequence.
+           Let's examine how we can modify the existing AMDV reference sequence.
            First, let's have a look at the reference sequences in the cress project.
            On way to do this is to use the
 		   <a href="https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/"><b>tab complete</b></a>           
@@ -485,7 +518,7 @@
  <code>Mode path: /project/cress
  GLUE> reference REF_
  REF_Begomo_EACMKV              REF_Parvoviridae1_MASTER_AHEaCV-13    REF_Parvoviridae2_MASTER_Po-41        
- REF_Parvo_BFDV                 REF_Parvo_BarbCV               REF_Parvo_CaCV                 
+ REF_Parvo_AMDV                 REF_Parvo_BarbCV               REF_Parvo_CaCV                 
  REF_Parvo_CfCV                 REF_Parvo_CoCV                 REF_Parvo_DuCV                 
  REF_Parvo_FiCV                 REF_Parvo_GuCV                 REF_Parvo_MASTER_PCV-1         
  REF_Parvo_MiCV                 REF_Parvo_PCV-2                REF_Parvo_PCV-3                
@@ -500,21 +533,21 @@
 		 <p>
            As expected, we see the master references of the core project,
            plus the references associated with the Parvovirus extension.
-           Navigate to the BFDV reference sequence and list all the features that 
+           Navigate to the AMDV reference sequence and list all the features that 
            have been associated with this reference, as follows:
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> reference REF_Parvo_BFDV 
+  GLUE> reference REF_Parvo_AMDV 
   OK
-  Mode path: /project/cress/reference/REF_Parvo_BFDV
+  Mode path: /project/cress/reference/REF_Parvo_AMDV
   GLUE> list feature-location 
   +========================+==============+
   | referenceSequence.name | feature.name |
   +========================+==============+
-  | REF_Parvo_BFDV         | whole_genome |
-  | REF_Parvo_BFDV         | Rep          |
-  | REF_Parvo_BFDV         | Cap          |
+  | REF_Parvo_AMDV         | whole_genome |
+  | REF_Parvo_AMDV         | Rep          |
+  | REF_Parvo_AMDV         | Cap          |
   +========================+==============+
   FeatureLocations found: 4</code></pre>	        
 
@@ -524,13 +557,13 @@
 		 <p>
  		   The reference has the locations of major genome features mapped - specifically the 
 		   <i>rep</i> and <i>cap</i> genes.	   
-		   Inspecting the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>BFDV GenBank entry</b></a>
+		   Inspecting the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>AMDV GenBank entry</b></a>
 		   shows that includes annotation for an additional, hypothetical open reading frame (ORF) called "V2".
   		 </p>
   		 
   		 
 		 <p>
-           Let's modify the existing BFDV reference ssequence to include V2. 
+           Let's modify the existing AMDV reference ssequence to include V2. 
            First, lets examine all of the features defined in the entire Parvoviridae-GLUE 
            project.
 
@@ -584,13 +617,13 @@
   		 
 		 <p>
 
-           Now lets associate this feature with a location in the BFDV genome:
+           Now lets associate this feature with a location in the AMDV genome:
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> reference REF_Parvo_BFDV 
+  GLUE> reference REF_Parvo_AMDV 
   OK
-  Mode path: /project/cress/reference/REF_Parvo_BFDV</code></pre>	
+  Mode path: /project/cress/reference/REF_Parvo_AMDV</code></pre>	
   		 </p>
 
 		 <p>
@@ -607,7 +640,7 @@
 
 
 	   <h3>
-		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all BFDV sequences</strong>.
+		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all AMDV sequences</strong>.
 	   </h3>
 
 	   
@@ -620,8 +653,8 @@
 
 		 <p>
 
-		   At this point, I should mention that some BFDV sequences are in the opposite
-		   orientation to our chosen BFDV reference. To address this, run
+		   At this point, I should mention that some AMDV sequences are in the opposite
+		   orientation to our chosen AMDV reference. To address this, run
 		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
 		   This will allow us to proceed with directly to the alignment step with all 
 		   sequences in the same orientation. Later in this section,
@@ -641,7 +674,7 @@
 		 </p>
 
    <pre>
-   <code>Mode path: /project/cress/reference/REF_Parvo_BFDV
+   <code>Mode path: /project/cress/reference/REF_Parvo_AMDV
    GLUE> project-mode 
    OK
    Mode path: /project/cress
@@ -653,10 +686,10 @@
 
   <pre>
   <code>Mode path: /project/cress
-  GLUE> create alignment AL_BFDV -r REF_Parvo_BFDV
+  GLUE> create alignment AL_AMDV -r REF_Parvo_AMDV
   OK
   Mode path: /project/cress
-  GLUE> alignment AL_BFDV add member --whereClause "source.name = 'ncbi-curated-parvo-bfdv'"
+  GLUE> alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-parvo-bfdv'"
   OK</code></pre>
   
 		 </p>
@@ -668,7 +701,7 @@
 		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvovirusCompoundAligner.xml"><b>parvovirus-specific configuration file</b></a>
 		   for GLUE's  'compoundAligner' module.
   <pre>
-  <code>compute alignment AL_BFDV parvovirusCompoundAligner</code></pre>
+  <code>compute alignment AL_AMDV parvovirusCompoundAligner</code></pre>
 		 </p>
 
   
@@ -676,7 +709,7 @@
 		 <p>
 		   Now let's inspect the resulting alignment:
   <pre>
-  <code>GLUE> alignment AL_BFDV show statistics</code></pre>
+  <code>GLUE> alignment AL_AMDV show statistics</code></pre>
 
 		 </p>
 
@@ -684,18 +717,18 @@
 		   Or alternatively, list alignment members, along with their associated data, like this:
 
   <pre>
-  <code>GLUE> alignment AL_BFDV 
+  <code>GLUE> alignment AL_AMDV 
   OK
-  Mode path: /project/cress/alignment/AL_BFDV
+  Mode path: /project/cress/alignment/AL_AMDV
   GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate
   +=====================+===============+====================================+
   | sequence.sequenceID | sequence.name |      sequence.isolate.isolate      |
   +=====================+===============+====================================+
-  | AB182568            | BFDV          | YCC-IN1P                           |
-  | AB182569            | BFDV          | YCC-IN2P                           |
-  | AB182570            | BFDV          | RRP-JP11P                          |
-  | AB182571            | BFDV          | RRP-JP12P                          |
-  | AB182572            | BFDV          | BTP-SA11P                          |</code></pre>
+  | AB182568            | AMDV          | YCC-IN1P                           |
+  | AB182569            | AMDV          | YCC-IN2P                           |
+  | AB182570            | AMDV          | RRP-JP11P                          |
+  | AB182571            | AMDV          | RRP-JP12P                          |
+  | AB182572            | AMDV          | BTP-SA11P                          |</code></pre>
   
  		 </p>
 
@@ -712,9 +745,9 @@
 
 	   
 		 <p>
-		   I naively aligned all BFDV sequences then inspected the alignment
+		   I naively aligned all AMDV sequences then inspected the alignment
 		   in the console. Since we had excluded sequences shorter than 200bp when we
-		   downloaded from BFDV sequences GenBank (see above), it was a reasonable guess that any
+		   downloaded from AMDV sequences GenBank (see above), it was a reasonable guess that any
 		   sequences for which the only aligned segments were drastically shorter than
 		   this length were in reverse orientation relative to the reference.
 		 </p>
@@ -732,7 +765,7 @@
 		 <p>
 		   Refining the alignment - may want to manually adjust and re-import.
 		   Note, the structure of the alignments directory - refer to alignment tree.
-		   BFDV is a 'tip' alignment'.
+		   AMDV is a 'tip' alignment'.
 		 </p>
 
    <pre>
@@ -741,15 +774,15 @@
 	   
 
 		 <h3>
-		   <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in BFDV sequences</strong>.
+		   <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in AMDV sequences</strong>.
 		 </h3>
 
 	   
 		 <p>
-		   Now that we have created an alignment of BFDV sequences that is constrained to 
-		   the BFDV reference sequence, we can use this alignment in combination with GLUE's
+		   Now that we have created an alignment of AMDV sequences that is constrained to 
+		   the AMDV reference sequence, we can use this alignment in combination with GLUE's
           <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/featurePresenceRecorder">'<b>featurePresenceRecorder</b>'</a>       
-		   module to examine feature coverage within individual BFDV sequences.
+		   module to examine feature coverage within individual AMDV sequences.
 		 </p>
 
   <pre>
@@ -761,7 +794,7 @@
   GLUE> module parvoFeaturePresenceRecorder
   OK
   Mode path: /project/cress/module/parvoFeaturePresenceRecorder
-  GLUE> record feature-presence AL_BFDV -r -f whole_genome -d</code></pre>
+  GLUE> record feature-presence AL_AMDV -r -f whole_genome -d</code></pre>
 
 	   
 		 <p>
@@ -775,7 +808,7 @@
 	   
 	   <p>
          In the final step in this tutorial, we will create a set of midpoint-rooted
-         tree for each of the two main genes in the BFDV genome.
+         tree for each of the two main genes in the AMDV genome.
 	   </p>
 
 	   <p>
@@ -893,7 +926,7 @@
 
 
 		 <ul>
-		   <li> <b>Parrots and parrot conservation</b>:
+		   <li> <b>The history of fur farming</b>:
 		   <a target="_blank" href="https://www.nationalgeographic.com/animals/birds/group/parrots/">Parrots @ National Geographic</a>;
 		   <a target="_blank" href="https://www.parrots.org/">World Parrot Trust</a>;
 		   <a target="_blank" href="https://theparrotsocietyuk.org/site/index.php/conservation/parrot-related-articles-on-conservation/">The Parrot Society UK</a>;
@@ -906,8 +939,6 @@
 
 
         
-        <p><img src="./images/parrots-footer.png" alt="Parrots" /></p>
-
 
 
 	  <footer class="site-footer">
