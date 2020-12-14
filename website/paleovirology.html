@@ -49,6 +49,37 @@
 
 
 	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions</strong>
+	   </h3>
+
+
+		 <p>
+		   The paleovirus component of CRESS-GLU extends GLUE's
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   to allow the capture of EVE-specific data.
+		   These schema extensions are defined in 
+           <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/core/cressSchemaExtensionsPaleovirus.glue"><b>this file</b></a>
+		   and comprise two additional table: 'locus_data' and 'refcon_data'.
+		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
+  		</p>
+
+
+ 		<p>
+		   The '<b>locus_data</b>' table contains EVE locus information: e.g. species, assembly, scaffold, location coordinates.
+		</p>
+
+ 		<p>
+		   The '<b>refcon_data</b>' table contains summary information for individual
+		   EVE insertions. It refers to the reference sequences constructed to represent
+		   each insertion, which reflect our best efforts to reconstruct progenitor virus
+		   sequences as they might have looked when they initially integrated into 
+		   the germline of ancestral species. 
+		</p>
+
+
+
+
+	   <h3>
 		 <a id="EPV reference sequences and data" class="anchor" href="#Ref_ecv_data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>EPV reference sequences and data</strong>
 	   </h3>
 
