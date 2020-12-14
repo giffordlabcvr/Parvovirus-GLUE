@@ -101,7 +101,13 @@
          that followed.  
  	   </p>
 
-	   
+	   <p>
+         One unintended consequence of the post-war boom in mink farming was the
+         introduction of American mink into Europe (as escaped animals took up residence
+         in local habitats). American mink (hereafter referred to simply as ‘mink’)
+         are now a relatively widespread invasive species in Europe.         
+ 	   </p>
+
 	   <p>
 
          In the 1930s a severe disease emerged in farmed mink. This disease was
@@ -128,15 +134,6 @@
         <p><img src="./images/fur-trade-parvoviruses-midlevel.png" alt="Carnivores, parvoviruses and the fur trade" /></p>
 
 	   <p>
-         
-         One unintended consequence of the post-war boom in mink farming was the
-         introduction of American mink into Europe (as escaped animals took up residence
-         in local habitats). American mink (hereafter referred to simply as ‘mink’)
-         are now a relatively widespread invasive species in Europe.         
- 	   </p>
-
-
-	   <p>
          Infection with AMDV - or related amdoparvoviruses -
          is apparently widespread in wild mink as well as in farmed
          animals. In addition, related viruses have been identified in several other carnivore
@@ -150,7 +147,12 @@
 
          <u>Most importantly</u>, it is not clear whether the pathology of AD in captive mink is
          typical of disease that occurs in the wild, or if factors associated with fur
-         farming somehow enabled the emergence of the disease. Advances in availability
+         farming somehow enabled the emergence of the disease. 
+ 	   </p>
+
+
+	   <p>
+         Increased availability
          of molecular sequence data mean it might now be feasible to gain some insight
          into the natural history and evolution of amdoparvoviruses, and this in turn
          may shed light on the emergence of AD.
@@ -787,6 +789,7 @@
 		   the AMDV reference sequence, we can use this alignment in combination with GLUE's
           <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/featurePresenceRecorder">'<b>featurePresenceRecorder</b>'</a>       
 		   module to examine feature coverage within individual AMDV sequences.
+		   Run the module as follows:
 		 </p>
 
   <pre>
@@ -798,12 +801,15 @@
   GLUE> module parvoFeaturePresenceRecorder
   OK
   Mode path: /project/parvoviridae/module/parvoFeaturePresenceRecorder
-  GLUE> record feature-presence AL_AMDV -r -f whole_genome -d</code></pre>
+  GLUE> record feature-presence AL_AMDV -r -f whole_genome -d
+  OK
+</code></pre>
 
 	   
 		 <p>
-		   That's it! The process is captured in 
+		   This can also be accomplished by by running
 		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
+		 as follows:
 		 </p>
 
 	   <h3>
