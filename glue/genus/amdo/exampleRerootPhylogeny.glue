@@ -1,0 +1,19 @@
+
+  delete module parvoPhyloUtility
+  create module -f modules/core/parvoPhyloUtility.xml
+
+  # Re-root phylogeny 
+  module parvoPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/virus-level/Parvo-Ns1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/virus-level/Parvo-Ns1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/virus-level/Parvo-Ns2.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/virus-level/Parvo-Ns2.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+

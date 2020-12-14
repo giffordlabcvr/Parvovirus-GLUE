@@ -1,0 +1,6 @@
+
+  # Download BFDV sequences from NCBI GenBank  
+  create module -f modules/parvoNcbiImporterBfdv.xml
+  module parvoNcbiImporterBfdv import
+
+  export source sources/ncbi-curated-parvo-bfdv/

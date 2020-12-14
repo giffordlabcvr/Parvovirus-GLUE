@@ -1,0 +1,12 @@
+  delete module raxmlPhylogenyGenerator
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_AMDV -r REF_Parvo_AMDV -f Rep -w "fLocNotes.featureLoc.feature.name = 'NS1' and fLocNotes.ref_nt_coverage_pct >= 70" -o trees/virus-level/Parvo-Rep.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_AMDV -r REF_Parvo_AMDV -f Cap -w "fLocNotes.featureLoc.feature.name = 'NS2' and fLocNotes.ref_nt_coverage_pct >= 70" -o trees/virus-level/Parvo-Cap.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    exit
