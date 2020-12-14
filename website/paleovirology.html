@@ -26,7 +26,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Parvoviridae-GLUE</h1>
-      <h2 class="project-tagline">A sequence data resource for parvoviruses.</h2>
+      <h2 class="project-tagline">A sequence data resource for parvoviruses (family <i>Parvoviridae</i>).</h2>
       <a href="../index.html" class="btn">Home</a>
       <a href="./project.html" class="btn">Viruses</a>
       <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/zipball/master" class="btn">Download .zip</a>
@@ -46,6 +46,41 @@
           This website provides quick links to specific data items. 
 
 		</p>
+
+
+        <p><img src="./images/parvo-paleovirus-header.png" alt="Parvovirus EVEs" /></p>
+
+
+	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions</strong>
+	   </h3>
+
+
+		 <p>
+		   The paleovirus component of Parvoviridae-GLUE extends GLUE's
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   to allow the capture of EVE-specific data.
+		   These schema extensions are defined in 
+           <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/core/cressSchemaExtensionsPaleovirus.glue"><b>this file</b></a>
+		   and comprise two additional table: 'locus_data' and 'refcon_data'.
+		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
+  		</p>
+
+
+ 		<p>
+		   The '<b>locus_data</b>' table contains information pertaining to individual
+		   EVE sequences: e.g. species in which they occur, genome assembly version, 
+		   genomic location(i.e. scaffold, location coordinates, and orientation).
+		</p>
+
+ 		<p>
+		   The '<b>refcon_data</b>' table contains information pertaining to our
+		   ECV reference sequences, which we have constructed in an effort to
+		   reconstruct, as closely as possible, the sequences of the progenitor viruses
+		   that gave rise to EVEs. 
+		</p>
+
+
 
 
 	   <h3>
