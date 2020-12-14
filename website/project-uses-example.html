@@ -514,24 +514,6 @@
 		 <p>
            Let's examine how we can modify the existing AMDV reference sequence.
            First, let's have a look at the reference sequences in the parvoviridae project.
-           On way to do this is to use the
-		   <a href="https://www.howtogeek.com/195207/use-tab-completion-to-type-commands-faster-on-any-operating-system/"><b>tab complete</b></a>           
-           function of the console to reveal the full list 
-           of reference sequences, by first typing 'reference (or just the first few 
-           letters of this word), and then pressing the 'tab' key, as shown here:
-
- <pre>
- <code>Mode path: /project/parvoviridae
- GLUE> reference REF_
- REF_Begomo_EACMKV              REF_Parvoviridae1_MASTER_AHEaCV-13    REF_Parvoviridae2_MASTER_Po-41        
- REF_Parvo_AMDV                 REF_Parvo_BarbCV               REF_Parvo_CaCV                 
- REF_Parvo_CfCV                 REF_Parvo_CoCV                 REF_Parvo_DuCV                 
- REF_Parvo_FiCV                 REF_Parvo_GuCV                 REF_Parvo_MASTER_PCV-1         
- REF_Parvo_MiCV                 REF_Parvo_PCV-2                REF_Parvo_PCV-3                
- REF_Parvo_RaCV                 REF_Parvo_SgCV                 REF_Parvo_StCV                 
- REF_Parvo_SvCV                 REF_Parvo_SwCV                 REF_Parvo_TbCV                 
- REF_Parvo_ZfCV                 REF_Cyclo_MASTER_HuACyV-1      REF_Porprismaco_MASTER_CBSV    
- REF_Redondo_MASTER_HLVV</code></pre>	        
   	   
   		 </p>
   		 
@@ -552,8 +534,8 @@
   | referenceSequence.name | feature.name |
   +========================+==============+
   | REF_Parvo_AMDV         | whole_genome |
-  | REF_Parvo_AMDV         | Rep          |
-  | REF_Parvo_AMDV         | Cap          |
+  | REF_Parvo_AMDV         | Rep68          |
+  | REF_Parvo_AMDV         | VP1          |
   +========================+==============+
   FeatureLocations found: 4</code></pre>	        
 
@@ -584,7 +566,7 @@
   | whole_genome | -            | Whole genome                      |
   | 5flank       | -            | 5 prime genomic flanking sequence |
   | 3flank       | -            | 3 prime genomic flanking sequence |
-  | Rep          | whole_genome | Replicase protein                 |
+  | Rep68          | whole_genome | Rep68licase protein                 |
   | ORFV2        | whole_genome | Hypothetical protein ORFV2        |
   | ORFC2        | whole_genome | Hypothetical protein ORFC2        |
   | ORF4         | whole_genome | Hypothetical protein ORF4         |
@@ -593,7 +575,7 @@
   | intergenic   | whole_genome | intergenic region                 |
   | gp3          | whole_genome | gp3 protein                       |
   | gp2          | whole_genome | gp2 protein                       |
-  | Cap          | whole_genome | Capsid protein                    |
+  | VP1          | whole_genome | VP1sid protein                    |
   | 5UTR         | whole_genome | 5' UTR                            |
   | 3UTR         | whole_genome | 5' 3TR                            |
   +==============+==============+===================================+
@@ -822,7 +804,7 @@
 	   </p>
 
 	   <p>
-         First, lets build trees for both Cap and Rep. We are going to use GLUE's
+         First, lets build trees for both VP1 and Rep68. We are going to use GLUE's
           <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/raxmlPhylogenyGenerator">'<b>raxmlPhylogenyGenerator</b>'</a>       
          
          
