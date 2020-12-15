@@ -1,0 +1,25 @@
+<ncbiImporter>
+
+  <!-- The eSearchTerm is a standard NCBI entrez text query. 
+       An alternative to eSearchTerm is to specify specific GI numbers or Primary Accessions 
+       to retrieve. See ncbiImporterGiNumbers.xml and ncbiImporterPrimaryAccessions.xml 
+       in the GLUE example project for syntax examples -->
+
+  <!-- GLUE example project is available here: http://glue-tools.cvr.gla.ac.uk/#/exampleProject  -->
+       
+  <eSearchTerm>
+     "Carnivore amdoparvovirus 1"[Organism] AND 200:5000[SLEN]
+  </eSearchTerm>
+    
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-curated-bfdv</sourceName>
+  <!-- This specifies the field of the GenBank document which will be used as the GLUE sequence ID. The options are:
+       GI_NUMBER (default if omitted)
+       PRIMARY_ACCESSION -->
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <!-- Maximum number of NCBI records to return. If omitted, defaults to 4000 -->
+  <eSearchRetMax>10000</eSearchRetMax>
+  <!-- Retrieval operates in batches to avoid overloading NCBI. 
+       This is the number of sequences to retrieve per batch -->
+  <eFetchBatchSize>500</eFetchBatchSize>
+</ncbiImporter>
