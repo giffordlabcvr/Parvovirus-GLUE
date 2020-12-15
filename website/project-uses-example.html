@@ -177,7 +177,7 @@
          will use a customised version of GLUE's  module
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvoviridaeNcbiImporterAmdv.xml"><b>here</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/parvoviridaeNcbiImporterAmdv.xml"><b>here</b></a>.
          Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
 
@@ -230,12 +230,12 @@
  
 	   <p>
          Now create the module using it's
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvoviridaeNcbiImporterAmdv.xml"><b> configuration file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/parvoviridaeNcbiImporterAmdv.xml"><b> configuration file</b></a>,
          which is contained in the Parvoviridae-GLUE project, as shown here:
 
   <pre>
   <code>Mode path: /project/parvoviridae/
-  GLUE> create module -f modules/genus/parvo/parvoviridaeNcbiImporterAmdv.xml
+  GLUE> create module -f modules/genus/amdo/parvoviridaeNcbiImporterAmdv.xml
   OK
   (1 Module created) </code></pre>
 
@@ -340,7 +340,7 @@
           All AMDV sequences obviously have the same taxonomic information.
           To input the taxonomic data for each sequence in the main 'sequence' table,
           we can use
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
 	      which utilise two GLUE commands: (1) listing all sequences in a particular source;
 	      (ii) 
 	   </p>
@@ -350,14 +350,14 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/genus/parvo/exampleLoadSequenceDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/amdo/exampleLoadSequenceDataBdfv.js</code></pre>
  	   
 	   <p>
           Link each new AMDV sequence to the isolate table using
-          <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+          <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/genus/parvo/exampleLoadIsolateDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/amdo/exampleLoadIsolateDataBdfv.js</code></pre>
 
  	   </p>
 
@@ -378,7 +378,7 @@
   
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/genus/parvo/exampleLoadIsolateDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/amdo/exampleLoadIsolateDataBdfv.js</code></pre>
 
  	   </p>
 
@@ -477,7 +477,7 @@
 
 		 <p>
            Use       
-		   <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleImportCuratedSideData.js"><strong>this script</strong></a>
+		   <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleImportCuratedSideData.js"><strong>this script</strong></a>
 		   to upload the refined data.
 		 </p>
 
@@ -500,7 +500,7 @@
 		   The 'Parvovirus' extension of Parvoviridae-GLUE includes reference sequences for 
 		   most (if not all) species, including AMDV.
 		   The reference sequence declarations can be found
-		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/parvoReferences.glue"><b>in this file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/parvoReferences.glue"><b>in this file</b></a>.
 		 </p>
 	   
 	   
@@ -526,32 +526,23 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> reference REF_Parvo_AMDV 
+  GLUE> reference REF_Amdo_MASTER_AMDV 
   OK
-  Mode path: /project/parvoviridae/reference/REF_Parvo_AMDV
+  Mode path: /project/parvoviridae/reference/REF_Amdo_MASTER_AMDV
   GLUE> list feature-location 
   +========================+==============+
   | referenceSequence.name | feature.name |
   +========================+==============+
-  | REF_Parvo_AMDV         | whole_genome |
-  | REF_Parvo_AMDV         | Rep68          |
-  | REF_Parvo_AMDV         | VP1          |
+  | REF_Amdo_MASTER_AMDV   | whole_genome |
+  | REF_Amdo_MASTER_AMDV   | VP1          |
+  | REF_Amdo_MASTER_AMDV   | Rep78        |
+  | REF_Amdo_MASTER_AMDV   | M            |
   +========================+==============+
   FeatureLocations found: 4</code></pre>	        
 
-  		 </p>
-  		 
-  		 
+		 
+		 
 		 <p>
- 		   The reference has the locations of major genome features mapped - specifically the 
-		   <i>rep</i> and <i>cap</i> genes.	   
-		   Inspecting the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001944"><b>AMDV GenBank entry</b></a>
-		   shows that includes annotation for an additional, hypothetical open reading frame (ORF) called "V2".
-  		 </p>
-  		 
-  		 
-		 <p>
-           Let's modify the existing AMDV reference ssequence to include V2. 
            First, lets examine all of the features defined in the entire Parvoviridae-GLUE 
            project.
 
@@ -565,66 +556,43 @@
   +==============+==============+===================================+
   | whole_genome | -            | Whole genome                      |
   | 5flank       | -            | 5 prime genomic flanking sequence |
+  | 3UTR         | -            | 3' UTR                            |
   | 3flank       | -            | 3 prime genomic flanking sequence |
-  | Rep68          | whole_genome | Rep68licase protein                 |
-  | ORFV2        | whole_genome | Hypothetical protein ORFV2        |
-  | ORFC2        | whole_genome | Hypothetical protein ORFC2        |
-  | ORF4         | whole_genome | Hypothetical protein ORF4         |
-  | ORF3         | whole_genome | Hypothetical protein ORF3         |
-  | nonanuc      | whole_genome | nonanucleotide motif              |
-  | intergenic   | whole_genome | intergenic region                 |
-  | gp3          | whole_genome | gp3 protein                       |
-  | gp2          | whole_genome | gp2 protein                       |
-  | VP1          | whole_genome | VP1sid protein                    |
+  | X            | whole_genome | X protein                         |
+  | VP3          | whole_genome | Capsid protein  VP3               |
+  | VP2          | whole_genome | Capsid protein  VP2               |
+  | VP1          | whole_genome | Capsid protein VP1                |
+  | VP           | whole_genome | Capsid protein                    |
+  | Rep78        | whole_genome | Rep 78 protein                    |
+  | Rep68        | whole_genome | Rep 68 protein                    |
+  | Rep52        | whole_genome | Rep 78 protein                    |
+  | Rep40        | whole_genome | Rep 78 protein                    |
+  | ORF7         | whole_genome | ORF7 protein                      |
+  | ORF6         | whole_genome | ORF6 protein                      |
+  | ORF5         | whole_genome | ORF5 protein                      |
+  | ORF4         | whole_genome | ORF4 protein                      |
+  | ORF3         | whole_genome | ORF3 protein                      |
+  | ORF2         | whole_genome | ORF2 protein                      |
+  | ORF1         | whole_genome | ORF1 protein                      |
+  | NS2-P        | whole_genome | Nonstructural protein NS2-P       |
+  | NS2-L        | whole_genome | Nonstructural protein NS2-L       |
+  | NS2          | whole_genome | Replicase protein NS2             |
+  | NS1          | whole_genome | Replicase protein NS1             |
+  | NS           | whole_genome | Replicase protein                 |
+  | NP           | whole_genome | NP protein                        |
+  | M            | whole_genome | Mid-ORF                           |
+  | CP           | whole_genome | Capsid protein (Denso)            |
+  | AAP          | whole_genome | Assembly activating protein       |
   | 5UTR         | whole_genome | 5' UTR                            |
-  | 3UTR         | whole_genome | 5' 3TR                            |
   +==============+==============+===================================+
-  Features found: 15</code></pre>
+  Features found: 30</code></pre>
 
 
   		 </p>
 
   		 
-		 <p>
-           First let's create the feature, as follows:
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> create feature v2 "v2 gene"
-  OK
-  (1 Feature created)
-  
-  GLUE> feature v2 set metatag CODES_AMINO_ACIDS true
-  OK
-  
-  Mode path: /project/parvoviridae/
-  GLUE> feature v2 set metatag OWN_CODON_NUMBERING true
-  OK</code></pre>
 
- 		 </p>
-
-  		 
-		 <p>
-
-           Now lets associate this feature with a location in the AMDV genome:
-
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> reference REF_Parvo_AMDV 
-  OK
-  Mode path: /project/parvoviridae/reference/REF_Parvo_AMDV</code></pre>	
-  		 </p>
-
-		 <p>
-
-           Now we can really get to work! In the next few steps we will use everything
-           we've created so far to start doing some proper comparative analysis.
-           [Advantages of the work done - ability to preserve it so it doesn't need to
-           be repeated].
-  		 </p>
-
-
-
-        <p><img src="./images/parrots-midlevel.png" alt="Parrots" /></p>
+        <p><img src="./images/amdo-midlevel.png" alt="Amdoparvovirus-related images" /></p>
 
 
 	   <h3>
@@ -643,14 +611,14 @@
 
 		   At this point, I should mention that some AMDV sequences are in the opposite
 		   orientation to our chosen AMDV reference. To address this, run
-		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
 		   This will allow us to proceed with directly to the alignment step with all 
 		   sequences in the same orientation. Later in this section,
 		   I'll explain how I created the file.
 
 
   <pre>
-  <code>run file glue/genus/parvo/exampleApplyReverseComplement.glue</code></pre>
+  <code>run file glue/genus/amdo/exampleApplyReverseComplement.glue</code></pre>
 
 
 		 </p>
@@ -662,7 +630,7 @@
 		 </p>
 
    <pre>
-   <code>Mode path: /project/parvoviridae/reference/REF_Parvo_AMDV
+   <code>Mode path: /project/parvoviridae/reference/REF_Amdo_MASTER_AMDV
    GLUE> project-mode 
    OK
    Mode path: /project/parvoviridae
@@ -674,7 +642,7 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> create alignment AL_AMDV -r REF_Parvo_AMDV
+  GLUE> create alignment AL_AMDV -r REF_Amdo_MASTER_AMDV
   OK
   Mode path: /project/parvoviridae
   GLUE> alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-parvo-amdv'"
@@ -686,7 +654,7 @@
 		 <p>
 		   Now we can construct the alignment.
 		   The Parvoviridae-GLUE project contains a 
-		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/parvo/parvovirusCompoundAligner.xml"><b>parvovirus-specific configuration file</b></a>
+		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/parvovirusCompoundAligner.xml"><b>parvovirus-specific configuration file</b></a>
 		   for GLUE's  'compoundAligner' module.
   <pre>
   <code>compute alignment AL_AMDV parvovirusCompoundAligner</code></pre>
@@ -776,7 +744,7 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> create module -f modules/genus/parvo/parvoFeaturePresenceRecorder.xml 
+  GLUE> create module -f modules/genus/amdo/parvoFeaturePresenceRecorder.xml 
   OK
   (1 Module created)
   Mode path: /project/parvoviridae
@@ -790,7 +758,7 @@
 	   
 		 <p>
 		   This can also be accomplished by by running
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
 		 as follows:
 		 </p>
 
@@ -814,11 +782,11 @@
          
          
          The entire sequence of commands for creating both trees can be found in
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
 		 which is in the Parvoviridae-GLUE repo, as follows:
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/genus/parvo/exampleCreateAmdvPhylogenies.glue</code></pre>
+  GLUE> run file glue/genus/amdo/exampleCreateAmdvPhylogenies.glue</code></pre>
 
 		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
 		 maximum likelihood tree for thousands of sequences. On my computer it took 
@@ -830,13 +798,13 @@
 		<p>
 		  To midpoint-root the trees, we will use GLUE's
 		  module. To apply the module to the two trees we've constructed, run
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleRerootPhylogeny.glue"><b>this file</b></a>
+		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleRerootPhylogeny.glue"><b>this file</b></a>
 		  as follows:
 
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/genus/parvo/exampleRerootPhylogeny.glue</code></pre>
+  GLUE> run file glue/genus/amdo/exampleRerootPhylogeny.glue</code></pre>
 
          Note that trees could also be midpoint rooted by importing them into another application
          that offers this functionality. However, it is often convenient to be able to 
@@ -847,13 +815,13 @@
  	   
 		<p>
 		  Export annotations for the trees by running
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/parvo/exampleExportAnnotations.glue"><b>this file</b></a>,
+		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleExportAnnotations.glue"><b>this file</b></a>,
 		  as follows:
 
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/genus/parvo/exampleRerootPhylogeny.glue</code></pre>
+  GLUE> run file glue/genus/amdo/exampleRerootPhylogeny.glue</code></pre>
 
 
 		</p>	 
