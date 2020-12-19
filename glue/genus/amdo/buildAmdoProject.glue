@@ -1,4 +1,7 @@
 
+  # delete previous extension build
+  run file glue/genus/amdo/deleteAmdoExtension.glue
+
   # create modules
   run file glue/genus/amdo/amdoModules.glue
 
@@ -10,9 +13,6 @@
 
   # Declare reference sequences
   run file glue/genus/amdo/amdoReferences.glue
-
-  # Add feature locations to reference sequences
-  #module featureLocationTextToGlue transform tabular/genus/amdo-refseq-feature-locations.tsv -r
 
   # Import alignments 
   run file glue/genus/amdo/amdoAlignments.glue

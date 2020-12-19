@@ -1,7 +1,4 @@
 
-  # load project settings
-  run file glue/core/projectSettings.glue
-
   # create modules
   run file glue/core/parvoModules.glue
 
@@ -16,6 +13,9 @@
 
   # Declare reference sequences
   run file glue/core/parvoMasterReferences.glue
+
+  # Import alignments and build constrained alignment tree
+  run file glue/core/parvoAlignments.glue
 
   # Import alignments and build constrained alignment tree
   run file glue/core/parvoAlignmentTree.glue
