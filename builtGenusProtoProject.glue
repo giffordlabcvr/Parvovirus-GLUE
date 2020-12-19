@@ -1,0 +1,9 @@
+# Build genus-level extension
+project parvoviridae
+
+  run file glue/genus/proto/buildProtoProject.glue
+  #run file glue/eve/proto/buildProtoEveExtension.glue
+
+exit
+
+

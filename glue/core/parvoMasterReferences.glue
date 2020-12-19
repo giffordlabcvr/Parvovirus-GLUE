@@ -2,28 +2,28 @@
 
   ## Parvovirinae 
  
-  create reference REF_Amdo_MASTER_AMDV           ncbi-refseqs NC_001662
-  create reference REF_Dependo_MASTER_AAV2        ncbi-refseqs NC_001401
-  create reference REF_Proto_MASTER_CPV           ncbi-refseqs NC_001539
-  create reference REF_Erythro_MASTER_B19         ncbi-refseqs NC_000883
-  create reference REF_Boca_MASTER_BPV            ncbi-refseqs NC_001540
-  create reference REF_Copi_MASTER_BPV2           ncbi-refseqs NC_006259
-  create reference REF_Tetra_MASTER_EhBtPV1       ncbi-refseqs NC_016744
-  create reference REF_Ave_MASTER_ChPV            ncbi-refseqs NC_024452
+  create reference REF_MASTER_Amdo_AMDV           ncbi-refseqs NC_001662
+  create reference REF_MASTER_Dependo_AAV2        ncbi-refseqs NC_001401
+  create reference REF_MASTER_Proto_CPV           ncbi-refseqs NC_001539
+  create reference REF_MASTER_Erythro_B19         ncbi-refseqs NC_000883
+  create reference REF_MASTER_Boca_BPV            ncbi-refseqs NC_001540
+  create reference REF_MASTER_Copi_BPV2           ncbi-refseqs NC_006259
+  create reference REF_MASTER_Tetra_EhBtPV1       ncbi-refseqs NC_016744
+  create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
  
-  create reference REF_Ambidenso_MASTER_JcDNV     ncbi-refseqs NC_004284
-  create reference REF_Ambidenso_PfDNV            ncbi-refseqs NC_000936
-  create reference REF_Iteradenso_MASTER_BmDNV-5  ncbi-refseqs NC_004287
-  create reference REF_Hepandenso_MASTER_FCDNV    ncbi-refseqs NC_014357
+  create reference REF_MASTER_Ambidenso_JcDNV     ncbi-refseqs NC_004284
+  create reference REF_MASTER_Ambidenso_PfDNV     ncbi-refseqs NC_000936
+  create reference REF_MASTER_Iteradenso_BmDNV-5  ncbi-refseqs NC_004287
+  create reference REF_MASTER_Hepandenso_FCDNV    ncbi-refseqs NC_014357
   
-  create reference REF_Brevidenso_MASTER_AalDNV-2 ncbi-refseqs NC_004285
-  create reference REF_Penstyldenso_MASTER_IHHN   ncbi-refseqs NC_002190
-  create reference REF_Chappa_MASTER_PPV7         ncbi-refseqs NC_040562
+  create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
+  create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
+  create reference REF_MASTER_Chappa_PPV7         ncbi-refseqs NC_040562
 
 
   # Add feature locations to genus master reference sequences
 
-  reference REF_Amdo_MASTER_AMDV
+  reference REF_MASTER_Amdo_AMDV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -48,7 +48,7 @@
     exit
 
 
-  reference REF_Dependo_MASTER_AAV2
+  reference REF_MASTER_Dependo_AAV2
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -106,7 +106,7 @@
 
 
 
-  reference REF_Erythro_MASTER_B19
+  reference REF_MASTER_Erythro_B19
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -129,7 +129,7 @@
 
 
 
-  reference REF_Ave_MASTER_ChPV
+  reference REF_MASTER_Ave_ChPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -149,7 +149,7 @@
     exit
 
 
-  reference REF_Boca_MASTER_BPV
+  reference REF_MASTER_Boca_BPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -174,7 +174,7 @@
     exit
 
 
-  reference REF_Proto_MASTER_CPV
+  reference REF_MASTER_Proto_CPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -199,7 +199,7 @@
     exit
 
 
-  reference REF_Tetra_MASTER_EhBtPV1
+  reference REF_MASTER_Tetra_EhBtPV1
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -219,7 +219,7 @@
     exit
 
 
-  reference REF_Hepandenso_MASTER_FCDNV
+  reference REF_MASTER_Hepandenso_FCDNV
  
  	add feature-location whole_genome
 	feature-location whole_genome

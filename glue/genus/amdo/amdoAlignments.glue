@@ -2,13 +2,9 @@
 
   module unconstrainedAlignmentImporter 
 
-    #~# Root-level alignments
+    #~# Genus-level alignment
     import AL_UNC_AMDO_ROOT     -f alignments/internal/genus/amdo-genome.aln.fna
     
-    #~# Internal node deep splits 
-    
-    #~# Internal node mammalian subclades     
-
     
     exit
 

@@ -6,3 +6,95 @@
   create reference REF_Amdo_SKAV           ncbi-refseqs-amdo NC_034445
   create reference REF_Amdo_RpAPV          ncbi-refseqs-amdo NC_031751
 
+
+  reference REF_Amdo_GFAV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4441
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 110 1844 --spliceIndex 1
+	  add segment 1983 1983  --spliceIndex 2
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2148 2157  --spliceIndex 1
+	  add segment 2236 4250  --spliceIndex 2
+	  exit
+    
+    exit
+
+
+
+
+  reference REF_Amdo_RFAV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4928
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 237 1992  --spliceIndex 1
+	  add segment 2082 2251  --spliceIndex 2
+	  exit
+
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2244 2253  --spliceIndex 1
+	  add segment 2326 4355	   --spliceIndex 2 
+	  exit
+    
+    exit
+
+
+
+  reference REF_Amdo_SKAV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4242
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 69  1824  --spliceIndex 1
+	  add segment 1907 2076  --spliceIndex 2
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2069 2078  --spliceIndex 1
+	  add segment 2152 4175  --spliceIndex 2
+
+	  exit
+    
+    exit
+
+
+
+  reference REF_Amdo_RpAPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4662
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 107 1894
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2309 4252
+	  exit
+    
+    exit

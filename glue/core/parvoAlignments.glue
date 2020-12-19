@@ -1,0 +1,10 @@
+  # Import unconstrained pre-built alignments
+  module unconstrainedAlignmentImporter 
+
+    #~# Root-level alignments
+    import AL_UNC_ROOT  -f alignments/root/parvo-ns-root.aln.fna
+
+    #~# Internal node alignments (subfamily)
+    import AL_UNC_PARVOVIRINAE     -f alignments/internal/subfamily/parvovirinae.aln.fna
+
+    exit

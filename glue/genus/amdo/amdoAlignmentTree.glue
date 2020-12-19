@@ -5,10 +5,9 @@
 
 
   #~# Internal nodes (Amdoparvovirus sub-lineages) 
-
-  alignment AL_MASTER_Amdo
+  alignment AL_GENUS_Amdo
   
-    #extract child AL_Amdo1     --refName REF_Amdo_MASTER_AMDV
+    #extract child AL_Amdo1     --refName REF_Amdo_AMDV
     #demote member AL_Amdo1     --whereClause "sequence.clade_ns = 'Amdo1'"
     
 
