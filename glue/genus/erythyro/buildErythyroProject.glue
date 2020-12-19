@@ -1,4 +1,7 @@
 
+  # delete previous extension build
+  run file glue/genus/erythyro/deleteErythyroExtension.glue
+
   # create modules
   run file glue/genus/erythyro/erythyroModules.glue
 

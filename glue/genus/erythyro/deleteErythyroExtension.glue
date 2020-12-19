@@ -1,0 +1,7 @@
+
+  # Delete extension specific components
+  delete alignment AL_UNC_ERYTHYRO_ROOT
+  delete alignment AL_Erythyro
+  multi-delete reference -w "name like '%REF_Erythyro%'"
+  delete source ncbi-refseqs-erythyro
+  delete source fasta-refseqs-erythyro

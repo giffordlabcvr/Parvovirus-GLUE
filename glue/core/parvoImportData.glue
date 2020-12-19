@@ -5,5 +5,8 @@
     exit
 
   # Link to isolate table
-  run script glue/core/parvoLoadIsolateData1.js
+  run script glue/core/loadIsolateData.js
   
+  # Populate fields from GenBank data
+  module parvoGenbankXmlPopulator populate 
+

@@ -1,5 +1,5 @@
   create module -f modules/core/parvoSideDataImporter.xml 
-  create module -f modules/core/parvoGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/core/parvoGenbankXmlPopulator.xml
   create module -f modules/core/parvoTabularUtility.xml tabularUtility
   create module -f modules/core/parvoCompoundAligner.xml
   create module -f modules/core/parvoFeatureLocationTextToGlue.xml featureLocationTextToGlue

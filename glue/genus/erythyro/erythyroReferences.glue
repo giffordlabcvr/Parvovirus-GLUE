@@ -1,10 +1,101 @@
   # Declare Erythyroparvovirus reference sequences
 
-  create reference REF_Erythyro_SePV           ncbi-refseqs-erythyro KF373759
-  create reference REF_Erythyro_SPV            ncbi-refseqs-erythyro NC_038540
-  create reference REF_Erythyro_RmPV           ncbi-refseqs-erythyro NC_038541
+  create reference REF_Erythyro_SePV           ncbi-refseqs-erythyro KF373759    # Seal parvovirus
+  create reference REF_Erythyro_SPV            ncbi-refseqs-erythyro NC_038540   # Simian parvovirus
+  create reference REF_Erythyro_RmPV           ncbi-refseqs-erythyro NC_038541   # Rhesus macaque parvovirus
 
   create reference REF_Erythyro_PmPV           ncbi-refseqs-erythyro NC_038542
   create reference REF_Erythyro_ChpPV          ncbi-refseqs-erythyro NC_038543
   create reference REF_Erythyro_BPV3           ncbi-refseqs-erythyro AF406967
+
+
+  reference REF_Erythyro_SePV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4913
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 319 2325
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2347 4878
+	  exit
+    
+    exit
+
+
+  reference REF_Erythyro_SPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4986
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 307 2370
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2363 4819
+	  exit
+    
+    exit
+
+
+
+  reference REF_Erythyro_RmPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5342
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 439 2490
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2480 4942
+	  exit
+    
+    exit
+
+
+
+  reference REF_Erythyro_PmPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5049
+	  exit
+    exit
+
+
+  reference REF_Erythyro_ChpPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5205
+	  exit
+    exit
+
+
+  reference REF_Erythyro_BPV3
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5276
+	  exit
+    exit
 

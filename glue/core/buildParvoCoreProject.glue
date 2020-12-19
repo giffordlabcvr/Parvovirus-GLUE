@@ -6,7 +6,7 @@
   import source sources/ncbi-refseqs
 
   # Import data 
-  run file glue/core/parvoLoadData.glue
+  run file glue/core/parvoImportData.glue
 
   # Define genome features
   run file glue/core/parvoFeatures.glue

@@ -1,11 +1,11 @@
   ### Constrained alignment tree for the Erythyroparvovirus genus
 
   #~# Root level (Genus)
-  alignment AL_MASTER_Erythyro add member  --whereClause "genus = 'Erythyroparvovirus'"
+  alignment AL_GENUS_Erythyro add member  --whereClause "genus = 'Erythyroparvovirus'"
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_MASTER_Erythyro
+  alignment AL_GENUS_Erythyro
     derive segments AL_UNC_ERYTHYRO_ROOT -a --mergeStrategy OVERWRITE
     exit
 
