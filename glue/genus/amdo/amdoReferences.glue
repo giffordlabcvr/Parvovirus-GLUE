@@ -17,7 +17,7 @@
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 110 1844 --spliceIndex 1
-	  add segment 1983 1983  --spliceIndex 2
+	  add segment 1983 2155  --spliceIndex 2
 	  exit
 	  
 

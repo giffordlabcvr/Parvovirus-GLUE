@@ -1,21 +1,19 @@
   ### Constrained alignment tree for the Amdoparvovirus genus
 
-  #~# Root level (Genus)
-  alignment AL_MASTER_Amdo add member  --whereClause "genus = 'Amdoparvovirus'"
-
-
-  #~# Internal nodes (Amdoparvovirus sub-lineages) 
-  alignment AL_GENUS_Amdo
-  
-    #extract child AL_Amdo1     --refName REF_Amdo_AMDV
-    #demote member AL_Amdo1     --whereClause "sequence.clade_ns = 'Amdo1'"
+  #~# Root level (Family)
+  alignment AL_Parvoviridae_MASTER
+    add member  --whereClause "source.name = 'ncbi-refseqs-amdo'"
+    demote member AL_Parvovirinae  -w "sequence.genus = 'ncbi-refseqs-amdo'"
+    exit
+    
+  #~# Root level (Subfamily)
+  alignment AL_Parvovirinae
+    demote member AL_GENUS_Amdo  -w "sequence.genus = 'ncbi-refseqs-amdo'"
+    exit
     
 
-    exit
-
-
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_MASTER_Amdo
+  alignment AL_GENUS_Amdo
     derive segments AL_UNC_AMDO_ROOT -a --mergeStrategy OVERWRITE
     exit
 

@@ -4,7 +4,7 @@
   module parvoFeaturePresenceRecorder 
 
     #~# Genus-level alignment
-     record feature-presence AL_MASTER_Amdo --recursive --featureName whole_genome --descendentFeatures
+     record feature-presence AL_GENUS_Amdo --recursive --featureName whole_genome --descendentFeatures
     
     exit
 
