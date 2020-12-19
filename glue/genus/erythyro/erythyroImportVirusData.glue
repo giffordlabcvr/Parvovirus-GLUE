@@ -6,3 +6,6 @@
   # Link reference sequences to isolate table
   run script glue/genus/erythyro/erythyroLoadIsolateData1.js
 
+  # Populate fields from GenBank data
+  module parvoGenbankXmlPopulator populate 
+

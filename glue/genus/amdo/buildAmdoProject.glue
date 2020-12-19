@@ -9,7 +9,7 @@
   import source sources/ncbi-refseqs-amdo
 
   # Import data 
-  run file glue/genus/amdo/amdoLoadVirusData.glue
+  run file glue/genus/amdo/amdoImportVirusData.glue
 
   # Declare reference sequences
   run file glue/genus/amdo/amdoReferences.glue

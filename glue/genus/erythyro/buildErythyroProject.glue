@@ -10,7 +10,7 @@
   import source sources/fasta-refseqs-erythyro
 
   # Import data 
-  run file glue/genus/erythyro/erythyroLoadVirusData.glue
+  run file glue/genus/erythyro/erythyroImportVirusData.glue
 
   # Declare reference sequences
   run file glue/genus/erythyro/erythyroReferences.glue
