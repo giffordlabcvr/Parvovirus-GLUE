@@ -15,9 +15,6 @@
   # Declare reference sequences
   run file glue/genus/erythyro/erythyroReferences.glue
 
-  # Add feature locations to reference sequences
-  #module featureLocationTextToGlue transform tabular/genus/erythyro-refseq-feature-locations.tsv -r
-
   # Import alignments 
   run file glue/genus/erythyro/erythyroAlignments.glue
 

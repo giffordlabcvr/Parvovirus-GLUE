@@ -1,0 +1,7 @@
+
+  # Delete extension specific components
+  delete alignment AL_UNC_ERYTHYRO_ROOT
+  delete alignment AL_Proto
+  multi-delete reference -w "name like '%REF_Proto%'"
+  delete source ncbi-refseqs-proto
+  delete source fasta-refseqs-proto

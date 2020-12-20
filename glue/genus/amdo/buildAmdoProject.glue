@@ -24,7 +24,7 @@
   run file glue/genus/amdo/amdoRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/genus/amdo/amdoCreateRootPhylogenies.glue
+  run file glue/genus/amdo/amdoCreateRootPhylogenies.glue
 
   # Validate
   validate

@@ -2,14 +2,14 @@
 
   #~# Root level (Genus)
 
-  alignment AL_MASTER_Proto add member  --whereClause "genus = 'Protoparvovirus'"
+  alignment AL_GENUS_Proto add member  --whereClause "genus = 'Protoparvovirus'"
 
 
   #~# Internal nodes (Protoparvovirus sub-lineages) 
 
-  alignment AL_MASTER_Proto
+  alignment AL_GENUS_Proto
   
-    extract child AL_Proto1     --refName REF_Proto_MASTER_CPV
+    extract child AL_Proto1     --refName REF_MASTER_Proto_CPV
     demote member AL_Proto1     --whereClause "sequence.clade_ns = 'Proto1'"
     
     extract child AL_Proto2     --refName REF_Proto_MpBuV
@@ -19,7 +19,7 @@
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_MASTER_Proto
+  alignment AL_GENUS_Proto
     derive segments AL_UNC_PROTO_ROOT -a --mergeStrategy OVERWRITE
     exit
 

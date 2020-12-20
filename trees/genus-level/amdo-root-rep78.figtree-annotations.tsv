@@ -1,0 +1,7 @@
+taxon	sequenceID	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
+alignment/AL_UNC_AMDO_ROOT_NS/member/ncbi-refseqs-amdo/MT770848	MT770848	-	NK	NK	NK	NK	NK	-	Martes americana	-	Canada: Labrador
+alignment/AL_UNC_AMDO_ROOT_NS/member/ncbi-refseqs/NC_001662	NC_001662	Parvovirinae	Amdoparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
+alignment/AL_UNC_AMDO_ROOT_NS/member/ncbi-refseqs-amdo/NC_025825	NC_025825	-	NK	NK	NK	NK	NK	HS-R	Nyctereutes procyonoides	-	China
+alignment/AL_UNC_AMDO_ROOT_NS/member/ncbi-refseqs-amdo/NC_031751	NC_031751	-	NK	NK	NK	NK	NK	amdo-CA1	Ailurus fulgens	-	USA
+alignment/AL_UNC_AMDO_ROOT_NS/member/ncbi-refseqs-amdo/NC_034445	NC_034445	-	NK	NK	NK	NK	NK	-	Mephitis mephitis	-	Canada: British Columbia
+alignment/AL_UNC_AMDO_ROOT_NS/member/ncbi-refseqs-amdo/NC_038533	NC_038533	-	NK	NK	NK	NK	NK	-	Urocyon cinereoargenteus	-	USA
