@@ -1,8 +1,0 @@
-taxon	sequenceID	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs-proto/AF321230	AF321230	-	-	-	-	-	-	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs-proto/D00623	D00623	-	-	-	-	-	-	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs-proto/JX505432	JX505432	-	-	-	-	-	-	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs-proto/KJ641666	KJ641666	-	-	-	-	-	-	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs-proto/NC_001510	NC_001510	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs/NC_001539	NC_001539	Parvovirinae	Protoparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_NS/member/ncbi-refseqs-proto/U34255	U34255	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
