@@ -1,0 +1,10 @@
+
+  # Delete extension specific components
+  delete source ncbi-refseqs-dependo
+  delete source fasta-refseqs-dependo
+
+  #run script glue/genus/dependo/deleteDependoIsolateTableRows.js
+
+  delete alignment AL_UNC_DEPENDO_ROOT
+  delete alignment AL_Dependo
+  multi-delete reference -w "name like '%REF_Dependo%'"

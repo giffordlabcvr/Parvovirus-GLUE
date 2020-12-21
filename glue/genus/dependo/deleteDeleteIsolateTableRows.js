@@ -1,6 +1,6 @@
 
-// Delete custom-table table rows for erythyro genus extension sequences
- var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'ncbi-refseqs-erythyro'"]));	
+// Delete custom-table table rows for dependo genus extension sequences
+ var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'ncbi-refseqs-dependo'"]));	
  	 
  _.each(resultList,function(resultObj) {
 
