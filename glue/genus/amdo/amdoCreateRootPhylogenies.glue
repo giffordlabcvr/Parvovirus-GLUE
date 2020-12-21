@@ -4,12 +4,10 @@
   
   delete module fastaAlignmentExporter
   delete module parvoTreeAlignmentImporterNucs
-  delete module parvoFigTreeAnnotationExporter
   
   # Create all the modules we need
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
 
   # Export the gene alignments 
   module fastaAlignmentExporter
@@ -27,6 +25,8 @@
     generate nucleotide phylogeny AL_UNC_AMDO_ROOT_VP -a -o trees/genus-level/amdo-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
+
+
   # Re-root phylogeny 
   module phyloUtility
 
@@ -42,7 +42,13 @@
 
     exit
 
+
+
+
   # Export annotations
+  delete module parvoFigTreeAnnotationExporter
+  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+
   module parvoFigTreeAnnotationExporter 
     export figtree-annotation AL_UNC_AMDO_ROOT_NS -f trees/genus-level/amdo-root-rep78.figtree-annotations.tsv
     export figtree-annotation AL_UNC_AMDO_ROOT_VP -f trees/genus-level/amdo-root-vp1.figtree-annotations.tsv

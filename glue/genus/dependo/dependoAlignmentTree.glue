@@ -12,7 +12,7 @@
     
     #~# Internal node mammalian subclades     
     import AL_UNC_DEPENDO_A        -f alignments/internal/subclade/dependo-a.aln.fna   
-    import AL_UNC_DEPENDO_B        -f alignments/internal/subclade/dependo-b.aln.fna
+    #import AL_UNC_DEPENDO_B        -f alignments/internal/subclade/dependo-b.aln.fna
     
     exit
 
@@ -21,12 +21,12 @@
   ### Constrained alignment tree for the Dependoparvovirus genus
 
   #~# Root level (Genus)
-  alignment AL_MASTER_Dependo add member  --whereClause "genus = 'Dependoparvovirus'"
+  alignment AL_GENUS_Dependo add member  --whereClause "genus = 'Dependoparvovirus'"
 
 
   #~# Internal nodes (Dependoparvovirus sub-lineages) 
 
-  alignment AL_MASTER_Dependo
+  alignment AL_GENUS_Dependo
   
     extract child AL_Dependo1     --refName REF_SnakePV
     demote member AL_Dependo1     --whereClause "sequence.clade_ns = 'Dependo1'"
@@ -34,7 +34,7 @@
     extract child AL_Dependo2     --refName REF_MDPV
     demote member AL_Dependo2     --whereClause "sequence.clade_ns = 'Dependo2'"     
 
-    extract child AL_Dependo3     --refName REF_Dependo_MASTER_AAV2
+    extract child AL_Dependo3     --refName REF_MASTER_Dependo_AAV2
     demote member AL_Dependo3     --whereClause "sequence.clade_ns = 'Dependo3'"
     exit
 
@@ -55,7 +55,7 @@
 
   alignment AL_Dependo3
 
-    extract child AL_Dependo_A   --refName REF_Dependo_MASTER_AAV2
+    extract child AL_Dependo_A   --refName REF_MASTER_Dependo_AAV2
     demote member AL_Dependo_A   --whereClause "sequence.subclade_ns = 'Dependoparvovirus-A'"
       
     extract child AL_Dependo_B   --refName REF_AAV5
@@ -74,7 +74,7 @@
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_MASTER_Dependo
+  alignment AL_GENUS_Dependo
     derive segments AL_UNC_DEPENDO_ROOT -a --mergeStrategy OVERWRITE
     exit
 
@@ -82,8 +82,8 @@
     derive segments AL_UNC_DEPENDO_A -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_Dependo_B
-    derive segments AL_UNC_DEPENDO_B -a --mergeStrategy OVERWRITE
-    exit
+  #alignment AL_Dependo_B
+  #  derive segments AL_UNC_DEPENDO_B -a --mergeStrategy OVERWRITE
+  #  exit
 
 

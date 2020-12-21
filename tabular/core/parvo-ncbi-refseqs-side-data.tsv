@@ -1,10 +1,10 @@
 sequenceID	virus_name	virus_full_name	virus_subfamily	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	host_species
-NC_004284	JcDNV	JcDNV	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_000936	PfDNV	PfDNV	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_000936	PfDNV	Periplaneta fuliginosa densovirus	Densovirinae	Pefuambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_038532	AaDV	Asteroid aquambidensovirus 1	Densovirinae	Aquiambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_005041	BgDV	Blattella germanica densovirus 1	Densovirinae	Blattambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_004287	BmDNV-5	BmDNV-5	Densovirinae	Iteradensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004287	BmDNV-5	Bombyx mori densovirus 5	Densovirinae	Iteradensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004289	PcDV	Planococcus citri densovirus	Densovirinae	Scindoambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_022564	AdMADV	Acheta domesticus mini ambidensovirus	Densovirinae	Miniambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_004286	GmDV	Galleria mellonella densovirus	Densovirinae	Protoambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 MN162688	IcthPV	Ichthyic parvovirus	Hamaparvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set

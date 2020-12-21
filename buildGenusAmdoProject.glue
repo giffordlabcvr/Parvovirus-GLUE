@@ -1,8 +1,0 @@
-# Build genus-level extension
-project parvoviridae
-
-  run file glue/genus/amdo/buildAmdoProject.glue
-  #run file glue/eve/amdo/buildAmdoEveExtension.glue
-
-exit
-
