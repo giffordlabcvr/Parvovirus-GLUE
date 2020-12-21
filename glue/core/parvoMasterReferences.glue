@@ -1,7 +1,6 @@
   ### Exogenous viruses
 
-  ## Parvovirinae 
- 
+  ## Parvovirinae  
   create reference REF_MASTER_Amdo_AMDV           ncbi-refseqs NC_001662
   create reference REF_MASTER_Dependo_AAV2        ncbi-refseqs NC_001401
   create reference REF_MASTER_Proto_CPV           ncbi-refseqs NC_001539
@@ -11,18 +10,21 @@
   create reference REF_MASTER_Tetra_EhBtPV1       ncbi-refseqs NC_016744
   create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
  
+  ## Densovirinae    
   create reference REF_MASTER_Ambidenso_JcDNV     ncbi-refseqs NC_004284
   create reference REF_MASTER_Ambidenso_PfDNV     ncbi-refseqs NC_000936
   create reference REF_MASTER_Iteradenso_BmDNV-5  ncbi-refseqs NC_004287
   create reference REF_MASTER_Hepandenso_FCDNV    ncbi-refseqs NC_014357
-  
+
+  ## Epiparvovirinae    
   create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
   create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
   create reference REF_MASTER_Chappa_PPV7         ncbi-refseqs NC_040562
 
 
-  # Add feature locations to genus master reference sequences
 
+
+  # Add feature locations to genus master reference sequences
   reference REF_MASTER_Amdo_AMDV
  
  	add feature-location whole_genome
@@ -46,6 +48,7 @@
 	  exit
     
     exit
+
 
 
   reference REF_MASTER_Dependo_AAV2
@@ -102,6 +105,7 @@
 	  exit
         
   exit 
+
 
 
 
@@ -226,15 +230,11 @@
 	  add segment 1 6085
 	  exit
 
- 	add feature-location NS1
-	feature-location NS1
+ 	add feature-location Rep78
+	feature-location Rep78
 	  add segment 62 1345
 	  exit
 
- 	add feature-location NS2
-	feature-location NS2
-	  add segment 1330 1344
-	  exit
 
  	add feature-location CP
 	feature-location CP

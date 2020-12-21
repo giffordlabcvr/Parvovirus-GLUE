@@ -1,0 +1,36 @@
+
+  # Clean up from any previous run of this file
+  delete module raxmlPhylogenyGenerator
+  delete module parvoPhyloUtility
+  delete module parvoFigTreeAnnotationExporter
+  
+  # Create all the modules we need
+  create module -f modules/core/parvoPhyloUtility.xml
+  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  create module -t raxmlPhylogenyGenerator
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_Parvoviridae_MASTER -r REF_MASTER_Proto_CPV -f Rep78 -w "sequence.source.name = 'ncbi-refseqs'" -o trees/main-root/parvoviridae-root-Rep78.tre  NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Re-root phylogeny 
+  module parvoviridaePhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/main-root/parvoviridae-root-Rep78.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-root/parvoviridae-root-Rep78-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+  # Export annotations
+  module parvoviridaeFigTreeAnnotationExporter 
+    export figtree-annotation AL_Parvoviridae_MASTER -f trees/main-root/parvoviridae-root-Rep78.figtree-annotations.tsv
+  exit
+
+
