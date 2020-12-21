@@ -1,6 +1,6 @@
 delete module ncbiImporter
 
-create module -f modules/core/parvoviridaeNcbiImporterReferences.xml ncbiImporter
+create module -f modules/core/parvoNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import

@@ -1,5 +1,6 @@
   ### Exogenous viruses
 
+
   ## Parvovirinae  
   create reference REF_MASTER_Amdo_AMDV           ncbi-refseqs NC_001662
   create reference REF_MASTER_Dependo_AAV2        ncbi-refseqs NC_001401
@@ -9,6 +10,9 @@
   create reference REF_MASTER_Copi_BPV2           ncbi-refseqs NC_006259
   create reference REF_MASTER_Tetra_EhBtPV1       ncbi-refseqs NC_016744
   create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
+  create reference REF_MASTER_Lori_SlPV           ncbi-refseqs KP120516
+  create reference REF_MASTER_Arti_IcthPV         ncbi-refseqs MN162688
+
  
   ## Densovirinae    
   create reference REF_MASTER_Ambidenso_JcDNV     ncbi-refseqs NC_004284
@@ -16,10 +20,12 @@
   create reference REF_MASTER_Iteradenso_BmDNV-5  ncbi-refseqs NC_004287
   create reference REF_MASTER_Hepandenso_FCDNV    ncbi-refseqs NC_014357
 
+
   ## Epiparvovirinae    
   create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
   create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
-  create reference REF_MASTER_Chappa_PPV7         ncbi-refseqs NC_040562
+  create reference REF_MASTER_Chaphama_PPV7       ncbi-refseqs NC_040562
+  create reference REF_MASTER_Icthama_SynChPV     ncbi-refseqs MN049932
 
 
 

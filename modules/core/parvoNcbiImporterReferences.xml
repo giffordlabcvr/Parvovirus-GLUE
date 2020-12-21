@@ -22,7 +22,10 @@
 	  <primaryAccession>NC_014357</primaryAccession>  <!-- REF_Hepandenso_MASTER_FCDNV -->
 	  <primaryAccession>NC_004285</primaryAccession>  <!-- REF_Brevidenso_MASTER_AalDNV-2 -->
 	  <primaryAccession>NC_002190</primaryAccession>  <!-- REF_Penstyldenso_MASTER_IHHN -->
-	  <primaryAccession>NC_040562</primaryAccession>  <!-- REF_Chappa_MASTER_PPV7 -->
+	  <primaryAccession>NC_040562</primaryAccession>  <!-- REF_Chaphama_MASTER_PPV7 -->
+	  <primaryAccession>KP120516</primaryAccession>   <!-- Slow loris -->
+	  <primaryAccession>MN162688</primaryAccession>   <!-- Artiparvovirus -->
+	  <primaryAccession>MN049932</primaryAccession>   <!-- Icthamaparvorvirus -->
  
 
   </specificPrimaryAccessions>  
