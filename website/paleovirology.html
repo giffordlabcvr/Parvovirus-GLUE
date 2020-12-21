@@ -61,38 +61,54 @@
 </blockquote>
 		 
 
-       <br>
+
 	   <h3>
-		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions</strong>
+		 <a id="Metagenomics" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Relevance to viral metagenomics</strong>
+	   </h3>
+
+	   <p>
+          The EVE sequences in Parvoviridae-GLUE can provide a useful resource for those
+          interested in identifying and characterising circoviruses in metagenomic
+          datasets.
+	   </p>
+
+
+	   <p>
+          Firstly, these sequences be used to exclude any potential 'false positive'
+          hits (i.e. sequences that seem to represent new parvoviruses but in fact derive
+          from genomic DNA).
+	   </p>
+
+
+	   <p>
+          In addition, when new parvovirus species are identified, inclusion of EVEs
+          in phylogenetic analyses can often provide useful information
+          about their broader ecology and evolution, including (uniquely) their long-term
+          evolution. 
+	   </p>
+        
+		<br>
+
+	   <h3>
+		 <a id="dataProvenance" class="anchor" href="#dataProvenance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Where do the EPV data come from?</strong>
 	   </h3>
        <hr>
+ 
 
-		 <p>
-		   The paleovirus component of Parvoviridae-GLUE extends GLUE's
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
-		   to allow the capture of EVE-specific data.
-		   These schema extensions are defined in 
-           <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/core/cressSchemaExtensionsPaleovirus.glue"><b>this file</b></a>
-		   and comprise two additional table: 'locus_data' and 'refcon_data'.
-		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
-  		</p>
+	   <p>
 
+		 EVE sequences were recovered from whole genome sequence (WGS) assemblies 
+		 via <b>database-integrated genome screening (DIGS)</b> using the 
+		  <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/"><b>DIGS tool</b></a>.
+	   </p>
+	   
 
- 		<p>
-		   The '<b>locus_data</b>' table contains information pertaining to individual
-		   EVE sequences: e.g. species in which they occur, genome assembly version, 
-		   genomic location(i.e. scaffold, location coordinates, and orientation).
-		</p>
+	   <p>
+		 All data pertaining to this screen are included in this repository, or in the 
+		 associated "DIGS-for-EVEs" project.
+	   </p>
 
- 		<p>
-		   The '<b>refcon_data</b>' table contains information pertaining to our
-		   ECV reference sequences, which we have constructed in an effort to
-		   reconstruct, as closely as possible, the sequences of the progenitor viruses
-		   that gave rise to EVEs. 
-		</p>
-
-
-
+  
 
 
        <br>
