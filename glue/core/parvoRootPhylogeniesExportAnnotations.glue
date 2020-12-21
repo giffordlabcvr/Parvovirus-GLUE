@@ -1,0 +1,12 @@
+  # Export annotations
+  delete module parvoFigTreeAnnotationExporter
+  
+  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  
+  module parvoFigTreeAnnotationExporter 
+  
+    export figtree-annotation AL_Parvoviridae_MASTER -f trees/family-root/parvoviridae-root-Rep78_nucs.figtree-annotations.tsv
+    
+  exit
+
+

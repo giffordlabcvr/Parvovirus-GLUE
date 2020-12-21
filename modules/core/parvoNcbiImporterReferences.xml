@@ -5,7 +5,7 @@
   <specificPrimaryAccessions>
 
 
-	  <!-- DENSOVIRINAE -->
+	  <!-- PARVOVIRINAE -->
 
 	  <primaryAccession>NC_024452</primaryAccession>  <!-- Ave ChPV -->
 	  <primaryAccession>NC_001540</primaryAccession>  <!-- Boca BPV-->
@@ -13,20 +13,32 @@
 	  <primaryAccession>NC_001539</primaryAccession>  <!-- Proto CPV -->
 	  <primaryAccession>NC_001662</primaryAccession>  <!-- Dependo ChPV --> 
 	  <primaryAccession>NC_004284</primaryAccession>  <!-- Amdo AMDV --> 
-	  <primaryAccession>NC_000883</primaryAccession>  <!-- REF_Erythro_MASTER_B19 -->
-	  <primaryAccession>NC_006259</primaryAccession>  <!-- REF_Copi_MASTER_BPV2 -->
-	  <primaryAccession>NC_016744</primaryAccession>  <!-- REF_Tetra_MASTER_EhBtPV1 -->
+	  <primaryAccession>NC_000883</primaryAccession>  <!-- RErythro B19 -->
+	  <primaryAccession>NC_006259</primaryAccession>  <!-- Copi BPV2 -->
+	  <primaryAccession>NC_016744</primaryAccession>  <!-- Tetra EhBtPV1 -->
+	  <primaryAccession>KP120516</primaryAccession>   <!-- Slow loris -->
+
+	  <!-- EPIPARVOVIRINAE -->
+
+	  <primaryAccession>NC_040562</primaryAccession>  <!-- REF_Chaphama_MASTER_PPV7 -->
+	  <primaryAccession>MN049932</primaryAccession>   <!-- Icthamaparvorvirus -->
+	  <primaryAccession>MN162688</primaryAccession>   <!-- Artiparvovirus -->
 	  <primaryAccession>NC_004284</primaryAccession>  <!-- REF_Ambidenso_MASTER_JcDNV -->
 	  <primaryAccession>NC_000936</primaryAccession>  <!-- REF_Ambidenso_PfDNV -->
+	  
 	  <primaryAccession>NC_004287</primaryAccession>  <!-- REF_Iteradenso_MASTER_BmDNV-5 -->
 	  <primaryAccession>NC_014357</primaryAccession>  <!-- REF_Hepandenso_MASTER_FCDNV -->
 	  <primaryAccession>NC_004285</primaryAccession>  <!-- REF_Brevidenso_MASTER_AalDNV-2 -->
 	  <primaryAccession>NC_002190</primaryAccession>  <!-- REF_Penstyldenso_MASTER_IHHN -->
-	  <primaryAccession>NC_040562</primaryAccession>  <!-- REF_Chaphama_MASTER_PPV7 -->
-	  <primaryAccession>KP120516</primaryAccession>   <!-- Slow loris -->
-	  <primaryAccession>MN162688</primaryAccession>   <!-- Artiparvovirus -->
-	  <primaryAccession>MN049932</primaryAccession>   <!-- Icthamaparvorvirus -->
- 
+
+	  <!-- DENSOVIRINAE -->
+
+	  <primaryAccession>NC_004289</primaryAccession>  <!-- Scindoambidensovirus -->
+	  <primaryAccession>NC_022564</primaryAccession>  <!-- Mini ambidensovirus -->
+	  <primaryAccession>NC_005041</primaryAccession>  <!-- Blattambidensovirus -->
+	  <primaryAccession>NC_004286</primaryAccession>  <!-- Protoambidensovirus -->
+	  <primaryAccession>NC_038532</primaryAccession>  <!-- Aquiambidensovirus -->
+	
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

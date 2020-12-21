@@ -2,10 +2,16 @@ sequenceID	virus_name	virus_full_name	virus_subfamily	virus_genus	assign_clade	a
 NC_004284	JcDNV	JcDNV	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_000936	PfDNV	PfDNV	Densovirinae	Ambidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_004284	JcDNV	Junonia coenia densovirus	Densovirinae	Ambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_038532	AaDV	Asteroid aquambidensovirus 1	Densovirinae	Aquiambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_005041	BgDV	Blattella germanica densovirus 1	Densovirinae	Blattambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_004287	BmDNV-5	BmDNV-5	Densovirinae	Iteradensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_022564	AdMADV	Acheta domesticus mini ambidensovirus	Densovirinae	Miniambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_004286	GmDV	Galleria mellonella densovirus	Densovirinae	Protoambidensovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+MN162688	IcthPV	Ichthyic parvovirus	Hamaparvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_004285	AalDNV-2	AalDNV-2	Hamaparvovirinae	Brevidensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-NC_040562	PPV7	PPV7	Hamaparvovirinae	Chappaparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+NC_040562	PPV7	PPV7	Hamaparvovirinae	Chaphamaparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_014357	FCDNV	FCDNV	Hamaparvovirinae	Hepandensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+MN049932	SyngChPV	Syngnathus scovelli chapparvovirus	Hamaparvovirinae	Ichthamaparvovirusarvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_002190	IHHN	IHHN	Hamaparvovirinae	Penstyldensoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Neovison vison
 NC_024452	ChPV	ChPV	Parvovirinae	Aveparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	Gallus_gallus
@@ -13,7 +19,6 @@ NC_001540	BPV	BPV	Parvovirinae	Bocaparvovirus	not-set	not-set	not-set	not-set	no
 NC_006259	BPV2	BPV2	Parvovirinae	Copiparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	Dependo3	Dependo-A	Homo sapiens
 NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
+KP120516	SlPV	Slow loris parvovirus 1	Parvovirinae	Loriparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_001539	CPV	CPV	Parvovirinae	Protoparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
 NC_016744	EhBtPV1	EhBtPV1	Parvovirinae	Tetraparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-KP120516	SlPV	Slow loris parvovirus 1	Parvovirinae	Loriparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set
-MN162688	IcthPV	Ichthyic parvovirus	Parvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	not-set	not-set	not-set

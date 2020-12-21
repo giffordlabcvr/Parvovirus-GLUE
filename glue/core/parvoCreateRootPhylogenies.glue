@@ -17,30 +17,3 @@
     exit
 
 
-
-
-
-  # Re-root phylogeny 
-  delete module parvoPhyloUtility
-  create module -f modules/core/parvoPhyloUtility.xml
-  module parvoPhyloUtility 
-
-	reroot-phylogeny \
-      --inputFile trees/family-root/parvoviridae-root-Rep78_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/family-root/parvoviridae-root-Rep78_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-    exit
-
-
-
-
-
-  # Export annotations
-  delete module parvoFigTreeAnnotationExporter
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
-  module parvoviridaeFigTreeAnnotationExporter 
-    export figtree-annotation AL_Parvoviridae_MASTER -f trees/family-root/parvoviridae-root-Rep78_nucs.figtree-annotations.tsv
-  exit
-
-
