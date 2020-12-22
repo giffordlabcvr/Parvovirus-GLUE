@@ -1,7 +1,7 @@
 taxon	sequenceID	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/KP120516	KP120516	Parvovirinae	Loriparvovirus	not-set	not-set	not-set	not-set	-	Nycticebus coucang	-	USA: North Carolina
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN049932	MN049932	Hamaparvovirinae	Ichthamaparvovirusarvovirus	not-set	not-set	not-set	not-set	-	Syngnathus scovelli	-	USA
-alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN162688	MN162688	Hamaparvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	HMU-HKU 1	Tilapia	-	China
+alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN162688	MN162688	Hamaparvovirinae	Ichthamaparvovirusarvovirus	not-set	not-set	not-set	not-set	HMU-HKU 1	Tilapia	-	China
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000883	NC_000883	Parvovirinae	Erythroparvovirus	not-set	not-set	not-set	not-set	J35	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000936	NC_000936	Densovirinae	Pefuambidensovirus	not-set	not-set	not-set	not-set	-	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001401	NC_001401	Parvovirinae	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	-	-	-	-
@@ -15,8 +15,9 @@ alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004286	NC_004286	Densovi
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004287	NC_004287	Densovirinae	Iteradensoparvovirus	not-set	not-set	not-set	not-set	Shinshu	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004289	NC_004289	Densovirinae	Scindoambidensovirus	not-set	not-set	not-set	not-set	-	Planococcus citri	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_005041	NC_005041	Densovirinae	Blattambidensovirus	not-set	not-set	not-set	not-set	-	-	-	-
+alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_007018	NC_007018	Parvovirinae	Tetraparvovirus	not-set	not-set	not-set	not-set	-	Homo sapiens	-	USA
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_014357	NC_014357	Hamaparvovirinae	Hepandensoparvovirus	not-set	not-set	not-set	not-set	-	Fenneropenaeus chinensis	-	China
-alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016744	NC_016744	Parvovirinae	Tetraparvovirus	not-set	not-set	not-set	not-set	-	Eidolon helvum	-	Ghana
+alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016744	NC_016744	Parvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	-	Eidolon helvum	-	Ghana
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_022564	NC_022564	Densovirinae	Miniambidensovirus	not-set	not-set	not-set	not-set	Kalamazoo	cricket	-	USA
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_024452	NC_024452	Parvovirinae	Aveparvovirus	not-set	not-set	not-set	not-set	-	-	-	Hungary
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_038532	NC_038532	Densovirinae	Aquiambidensovirus	not-set	not-set	not-set	not-set	-	Asteroidea	-	USA
