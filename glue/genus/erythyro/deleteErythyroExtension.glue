@@ -1,10 +1,11 @@
 
   # Delete extension specific components
-  delete source ncbi-refseqs-erythyro
-  delete source fasta-refseqs-erythyro
-
-  #run script glue/genus/erythyro/deleteErythyroIsolateTableRows.js
-
+  
   delete alignment AL_UNC_ERYTHYRO_ROOT
   delete alignment AL_Erythyro
   multi-delete reference -w "name like '%REF_Erythyro%'"
+
+  run script glue/genus/erythyro/deleteErythyroIsolateTableRows.js
+  delete source ncbi-refseqs-erythyro
+  delete source fasta-refseqs-erythyro
+
