@@ -1,9 +1,0 @@
-# Build genus-level extension
-project parvoviridae
-
-  run file glue/genus/erythyro/buildErythyroProject.glue
-  #run file glue/eve/erythyro/buildErythyroEveExtension.glue
-
-exit
-
-
