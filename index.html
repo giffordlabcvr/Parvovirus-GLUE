@@ -45,11 +45,26 @@
          
 		 <br>
 
+<blockquote>
+		 <p>
+		   The figure above, taken from a report by
+		   <a target="_blank" href="https://dx.doi.org/10.1007/s00705-020-04632-4"><b>Pénzes <i>et al.</i> (2020)</b></a>,	    
+		   shows an 
+		   <a target="_blank" href="https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-010-0273-6"><b>unrooted phylogenetic tree</b></a>
+		   of the <b><i>Parvoviridae</i></b>,
+		   based on alignment of the tripartite helicase domain (167 aa) of the 
+		   <a target="_blank" href="https://www.uniprot.org/uniprot/Q6TV13"><b>non-structural (NS)</b></a>
+		   protein.
+		 </p>
+         
+</blockquote>
+		 
+
 
 		 <p>
 		 
 		   <b>Parvoviridae-GLUE</b> contains aligned, annotated genome sequence data for
-		   <a href="./website/project.html"><b>Parvoviridae DNA viruses</b></a>
+		   <a href="./website/project.html"><b>parvoviruses</b></a>
 		   and
 		   <a href="./website/paleovirology.html"><b>endogenous viral elements (EVEs)</b></a>
 		   derived from these viruses.
@@ -153,6 +168,97 @@
   GLUE> run file parvoviridaeProject.glue</code></pre>
 		 
 	   </p>
+
+
+
+
+
+	   <h3>
+	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Building this GLUE project</strong>
+	   </h3>
+         <hr>
+
+
+      	   
+	   <p>
+	
+         On computers with the GLUE software framework
+         <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/installation"><b>installed</b></a>,
+         the <b>Parvoviridae-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file buildCoreProject.glue</code></pre>
+
+         This will build the Parvoviridae-GLUE core project by executing the commands in
+		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/buildCoreProject.glue"><b>this file</b></a>.
+		 
+	   </p>
+
+	   <p>
+		 The core project comprises a  
+		 dataset designed to represent the phylum in a minimal way (i.e. by including 
+		 only one or a handful of annotated reference sequences for each major lineage). 
+	   </p>
+
+
+	   <p>
+		 We have also created genus-level, extension projects individual genera within the
+		 subfamily <i>Parvovirinae</i>.
+		 These extensions incorporate a more extensive set of species for this virus family.
+		 Once the core project has been built, the parvoviridae extension project can be
+		 constructed, by executing the commands in
+		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/buildGenusLevelProjects.glue"><b>this file</b></a>,
+		 as follows.
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file buildGenusLevelProjects.glue</code></pre>
+		 		  
+	   </p>
+
+
+	   <p>
+		 The <i>Parvoviridae</i> extension projects can be further extended to incorporate
+		 EVE sequences by executing the commands in
+		 <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/cressPaleoExtensionParvoviridae.glue"><b>this file</b></a>,
+		 as follows.
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file cressPaleoExtensionParvoviridae.glue</code></pre>
+		 		  
+	   </p>
+
+	   <p>
+		 The <i>Parvoviridae</i> paleovirus extension incorporates a set of endogenous
+		 viral elements (EVEs) recovered from the genomes of metazoan species. Building
+		 the paleovirus extension allows automated alignment and phylogeny reconstruction
+		 for individual ECV lineages in the project, based on the classifications
+		 in
+		 <a target="blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/tabular/eve/ecv-parvo-side-data.tsv"><b>this file</b></a>.
+		 Individual ECV sequences have been classified into sets considered likely to 
+		 have arisen from the same germline colonisation event. Loci have been named using
+		 a systematic approach. 
+		 
+	   </p>
+       <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
