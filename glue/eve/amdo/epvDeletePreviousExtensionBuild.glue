@@ -1,41 +1,18 @@
-  # Delete extension modules
-  delete module --whereClause "name like 'epv%'"
 
   # Delete EVEs from genus alignments
-  alignment AL_MASTER_Amdo
+  alignment AL_GENUS_Amdo
   
-    remove member -w "sequence.source.name = 'fasta-refseqs-epv-con'"
+    remove member -w "sequence.source.name = 'fasta-refseqs-amdo-epv'"
     remove member -w "sequence.source.name = 'fasta-digs-epv'"
-    exit
-
-  alignment AL_Amdo1
-  
-    remove member -w "sequence.source.name = 'fasta-refseqs-epv-con'"
-    remove member -w "sequence.source.name = 'fasta-digs-epv'"
-    exit
-    
-  alignment AL_Amdo2
-  
-    remove member -w "sequence.source.name = 'fasta-refseqs-epv-con'"Amdo
-    remove member -w "sequence.source.name = 'fasta-digs-epv'"
-    exit
-    
-  alignment AL_Amdo3
-  
-    remove member -w "sequence.source.name = 'fasta-refseqs-epv-con'"
-    remove member -w "sequence.source.name = 'fasta-digs-epv'"
-    exit
-
-
-  # Delete extension alignments
-  multi-delete alignment -w "name like '%-AL_EPV-Amdo%'"
-  multi-delete alignment -w "name like 'AL_UNC_EPV-Amdo%'"
-  
+    exit  
 
   # Delete extension reference sequences
   multi-delete reference -w "name like 'REF_EPV_amdo%'"
 
   # Delete sources
-  delete source fasta-refseqs-epv-con
-  delete source fasta-digs-epv
-  delete source ncbi-refseqs-epv
+  delete source fasta-refseqs-amdo-epv
+  delete source fasta-digs-amdo-epv
+
+  # Delete links to 
+  run script glue/genus/amdo/deleteAmdoRefConTableRows.js
+  run script glue/genus/amdo/deleteAmdoLocusTableRows.js
