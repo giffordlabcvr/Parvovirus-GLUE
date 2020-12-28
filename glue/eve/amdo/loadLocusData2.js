@@ -16,7 +16,7 @@ glue.inMode("module/tabularUtility", function() {
 _.each(loadResult, function(eveObj) {
 
     var locus_numeric_id = eveObj.locus_numeric_id;
-	glue.log("INFO", "LOADED EPV INFO ", eveObj);
+	//glue.log("INFO", "LOADED EPV INFO ", eveObj);
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
 		glue.log("INFO", "Entering locus data for sequence:", eveObj.sequenceID);
@@ -28,11 +28,11 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "end_position", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
 		glue.command(["set", "field", "host_sci_name", eveObj.organism]);
-		glue.command(["set", "field", "host_class", eveObj.host_class]);
-		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
-		glue.command(["set", "field", "host_order", eveObj.host_order]);
-		glue.command(["set", "field", "host_family", eveObj.host_family]);
-		glue.command(["set", "field", "host_genus", eveObj.host_genus]);
+		//glue.command(["set", "field", "host_class", eveObj.host_class]);
+		//glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
+		//glue.command(["set", "field", "host_order", eveObj.host_order]);
+		//glue.command(["set", "field", "host_family", eveObj.host_family]);
+		//glue.command(["set", "field", "host_genus", eveObj.host_genus]);
 
 	});
 
@@ -57,12 +57,12 @@ _.each(loadResult, function(eveObj) {
 
 		glue.inMode("sequence/"+source_name+"/"+eveObj.sequenceID, function() {
 
-			glue.command(["set", "field", "clade_ns", clade_ns]);
-			glue.command(["set", "field", "subclade_ns", subclade_ns]);
-			glue.command(["set", "field", "clade_vp", clade_vp]);
-			glue.command(["set", "field", "subclade_vp", subclade_vp]);
-			glue.command(["set", "field", "assign_clade", assign_clade]);
-			glue.command(["set", "field", "assign_subclade", assign_subclade]);
+			//glue.command(["set", "field", "clade_ns", clade_ns]);
+			//glue.command(["set", "field", "subclade_ns", subclade_ns]);
+			//glue.command(["set", "field", "clade_vp", clade_vp]);
+			//glue.command(["set", "field", "subclade_vp", subclade_vp]);
+			//glue.command(["set", "field", "assign_clade", assign_clade]);
+			//glue.command(["set", "field", "assign_subclade", assign_subclade]);
 
 			glue.command(["set", "field", "name", eveObj.sequenceID]);
 			glue.command(["set", "field", "full_name", eveObj.sequenceID]);

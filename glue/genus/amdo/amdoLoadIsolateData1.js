@@ -1,4 +1,4 @@
-// list the sequences in source ncbi-refseqs-circo
+// list the sequences in source ncbi-refseqs-amdo
 var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-amdo'"]);
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");

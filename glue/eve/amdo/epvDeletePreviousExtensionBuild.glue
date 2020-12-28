@@ -10,8 +10,8 @@
   multi-delete reference -w "name like 'REF_EPV_amdo%'"
 
   # Delete links to 
-  run script glue/eve/amdo/deleteAmdoRefConTableRows.js
-  run script glue/eve/amdo/deleteAmdoLocusTableRows.js
+  #run script glue/eve/amdo/deleteAmdoRefConTableRows.js
+  #run script glue/eve/amdo/deleteAmdoLocusTableRows.js
 
   # Delete sources
   delete source fasta-refseqs-amdo-epv

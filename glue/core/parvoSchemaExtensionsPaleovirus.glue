@@ -1,5 +1,5 @@
-  # Clean-up any previous schema extension build
-  
+
+  # Clean-up any previous schema extension build 
   delete custom-table eve_refcon_data
   delete link sequence eve_refcon_data
   delete custom-table locus_data
