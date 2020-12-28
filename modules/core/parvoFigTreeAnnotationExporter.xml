@@ -4,7 +4,17 @@
 		<annotationName>sequenceID</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
-	
+
+	<figTreeAnnotation>
+		<annotationName>name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>full_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.full_name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+		
 	<figTreeAnnotation>
 		<annotationName>subfamily</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subfamily')}</valueFreemarkerTemplate>
