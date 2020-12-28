@@ -23,20 +23,20 @@
 
   # Export the recursively populated root gene alignments 
   module epvFastaAlignmentExporter
- 	export AL_GENUS_Amdo -r  REF_Amdo_MASTER_AMDV -f Rep78 --recursive -a  -e -o alignments/tree/amdo-root-rep78.eve.aln.fna
- 	export AL_GENUS_Amdo -r  REF_Amdo_MASTER_AMDV -f VP1 --recursive -a  -e -o alignments/tree/amdo-root-vp1.eve.aln.fna
+ 	export AL_GENUS_Amdo -r  REF_MASTER_Amdo_AMDV -f Rep78 --recursive -a  -e -o alignments/tree/amdo-root-rep78.eve.aln.fna
+ 	export AL_GENUS_Amdo -r  REF_MASTER_Amdo_AMDV -f VP1 --recursive -a  -e -o alignments/tree/amdo-root-vp1.eve.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/amdo-root-rep78.eve.aln.fna
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/amdo-root-vp1.eve.aln.fna
 
-  create alignment AL_TREE_ROOT_EPV_amdo_Rep -r REF_Amdo_MASTER_AMDV
+  create alignment AL_TREE_ROOT_EPV_amdo_Rep -r REF_MASTER_Amdo_AMDV
   alignment AL_TREE_ROOT_EPV_amdo_Rep
 	derive segments AL_UNC_TREE_ROOT_EVE_Rep -a --mergeStrategy OVERWRITE
 	exit
 	
-  create alignment AL_TREE_ROOT_EPV_amdo_VP -r REF_Amdo_MASTER_AMDV
+  create alignment AL_TREE_ROOT_EPV_amdo_VP -r REF_MASTER_Amdo_AMDV
   alignment AL_TREE_ROOT_EPV_amdo_VP
 	derive segments AL_UNC_TREE_ROOT_EVE_VP -a --mergeStrategy OVERWRITE
 	exit

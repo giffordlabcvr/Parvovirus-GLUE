@@ -22,49 +22,10 @@
 
   alignment AL_Parvovirinae
   
-	demote member AL_MASTER_amdo   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.genus = 'Amdoparvovirus'"
+	demote member AL_GENUS_amdo   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.genus = 'Amdoparvovirus'"
 	
     exit
 
   
   #~# Internal nodes (amdoparvovirus sub-lineages) 
 
-  alignment AL_MASTER_amdo
-  
-    demote member AL_amdo1    --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_clade = 'amdo1'"
-    demote member AL_amdo2    --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_clade = 'amdo2'"  
-    demote member AL_amdo3    --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_clade = 'amdo3'"
-
-    extract child AL_Herpesvirus --refName REF_EPV_amdo.500-HHV6
-    demote member AL_Herpesvirus --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_clade = 'Herpesvirus'"
-    demote member AL_Herpesvirus --whereClause "sequence.source.name = 'ncbi-refseqs-amdo-epv' and sequence.assign_clade = 'Herpesvirus'"
-
-    exit
-
-  alignment AL_amdo1
-
-    extract child AL_Sauria      --refName REF_EPV_amdo.20-laurasiatheria
-    demote member AL_Sauria      --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Sauria'"
-    exit
-
-  alignment AL_amdo2
-
-    extract child AL_Lemuria     --refName REF_EPV_amdo.1-whippomorpha
-    demote member AL_Lemuria     --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Lemuria'"
-    exit
-
-  alignment AL_amdo3
-
-    demote member AL_amdo_A   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'amdo_A'"
-    demote member AL_amdo_B   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'amdo_B'"
-    demote member AL_Rodent      --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Rodent'"
-    demote member AL_Chiroptera  --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Chiroptera'"
-    demote member AL_Carnivore   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Carnivore'"   
-
-    extract child AL_Glires      --refName REF_EPV_amdo.3-lagomorpha
-    demote member AL_Glires      --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Glires'"
-
-    extract child AL_Marsupial   --refName REF_EPV_amdo.0-macropus
-    demote member AL_Marsupial   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.assign_subclade = 'Marsupial'"
-
-    exit

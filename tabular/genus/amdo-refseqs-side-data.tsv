@@ -1,7 +1,7 @@
 accession-ID	virus_name	virus_full_name	virus_other_name	host_species	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	accession-other
 NC_001662	ADV	 Carnivore amdoparvovirus 1	Aleutian mink disease parvovirus	NK	NK	NK	NK	NK	NK	NK	NK	NK	M20036
-NC_038533	GFAV	 Carnivore amdoparvovirus 1	gray fox amdovirus	NK	NK	NK	NK	NK	NK	NK	NK	NK	JN202450
-NC_025825	RFAV	 Carnivore amdoparvovirus 1	racoon dog and fox amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NK	NK	KJ396347
-NC_034445	SKAV	 Carnivore amdoparvovirus 1	skunk amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NK	NK	KX981923
-NC_031751	RpAPV	 Carnivore amdoparvovirus 1	red panda amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NK	NK	KT878839
+NC_038533	GFAV	 Carnivore amdoparvovirus 1	gray fox amdovirus	Urocyon cinereoargenteus	NK	NK	NK	NK	NK	NK	NK	NK	JN202450
+NC_025825	RFAV	 Carnivore amdoparvovirus 1	racoon dog and fox amdoparvovirus	Nyctereutes procyonoides	NK	NK	NK	NK	NK	NK	NK	NK	KJ396347
+NC_034445	SKAV	 Carnivore amdoparvovirus 1	skunk amdoparvovirus	Mephitis mephitis	NK	NK	NK	NK	NK	NK	NK	NK	KX981923
+NC_031751	RpAPV	 Carnivore amdoparvovirus 1	red panda amdoparvovirus	Ailurus fulgens	NK	NK	NK	NK	NK	NK	NK	NK	KT878839
 MT770848	LAPV	 Carnivore amdoparvovirus 1	Labrador-amdoparvovirus-1	NK	NK	NK	NK	NK	NK	NK	NK	NK	MULL
