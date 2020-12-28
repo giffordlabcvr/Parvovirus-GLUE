@@ -22,7 +22,7 @@
 
   alignment AL_Parvovirinae
   
-	demote member AL_GENUS_amdo   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.genus = 'Amdoparvovirus'"
+	demote member AL_GENUS_Amdo   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.genus = 'Amdoparvovirus'"
 	
     exit
 

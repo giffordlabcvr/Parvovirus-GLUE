@@ -24,16 +24,16 @@
   run file glue/eve/amdo/epvRecordFeaturePresence.glue
 
   # Create root-level phylogenies for major genes
-  run file glue/eve/amdo/epvCreateRootPhylogenies.glue
+  #run file glue/eve/amdo/epvCreateRootPhylogenies.glue
 
   # Export annotations
-  run file glue/eve/amdo/epvExportRootPhylogenyAnnotations.glue
+  #run file glue/eve/amdo/epvExportRootPhylogenyAnnotations.glue
 
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/amdo/epvDemoteOrthologsToTipAlignments.js
+  #run script glue/eve/amdo/epvDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  run script glue/eve/amdo/epvCreateTipPhylogenies.js
+  #run script glue/eve/amdo/epvCreateTipPhylogenies.js
 
   # Validate
   validate
