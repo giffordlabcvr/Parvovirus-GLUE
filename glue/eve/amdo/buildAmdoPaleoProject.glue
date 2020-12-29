@@ -1,6 +1,6 @@
   
   # delete previous extension
-  run file glue/eve/amdo/epvDeletePreviousExtensionBuild.glue
+  run file glue/eve/amdo/deletePreviousExtensionBuild.glue
 
   # create modules
   run file glue/eve/amdo/epvModules.glue
@@ -24,7 +24,7 @@
   run file glue/eve/amdo/epvRecordFeaturePresence.glue
 
   # Create root-level phylogenies for major genes
-  #run file glue/eve/amdo/epvCreateRootPhylogenies.glue
+  run file glue/eve/amdo/epvCreateRootPhylogenies.glue
 
   # Export annotations
   #run file glue/eve/amdo/epvExportRootPhylogenyAnnotations.glue

@@ -8,11 +8,11 @@
   <!-- GLUE example project is available here: http://glue-tools.cvr.gla.ac.uk/#/exampleProject  -->
        
   <eSearchTerm>
-     "Carnivore amdoparvovirus 1"[Organism] AND 200:5000[SLEN]
+     "Carnivore amdoparvovirus 1"[Organism] AND 200:5000[SLEN] OR 
   </eSearchTerm>
     
   <sequenceFormat>GENBANK_XML</sequenceFormat>
-  <sourceName>ncbi-curated-bfdv</sourceName>
+  <sourceName>ncbi-curated-amdv</sourceName>
   <!-- This specifies the field of the GenBank document which will be used as the GLUE sequence ID. The options are:
        GI_NUMBER (default if omitted)
        PRIMARY_ACCESSION -->
