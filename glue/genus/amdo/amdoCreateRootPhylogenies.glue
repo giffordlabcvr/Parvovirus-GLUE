@@ -26,7 +26,6 @@
     exit
 
 
-
   # Re-root phylogeny 
   module phyloUtility
 
@@ -41,8 +40,6 @@
       --outputFile trees/genus-level/amdo-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
-
-
 
 
   # Export annotations

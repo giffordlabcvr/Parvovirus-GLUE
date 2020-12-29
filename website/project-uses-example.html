@@ -30,6 +30,7 @@
 	   <h3>
 		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Parvoviridae-GLUE - an example-driven tutorial</strong>
 	   </h3>
+       <hr>
 
 
 	   <p>
@@ -68,9 +69,11 @@
  	   </p>
 
 
+       <br>
 	   <h3>
 		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background 1: Carnivores, parvoviruses and the fur industry</strong>
 	   </h3>
+       <hr>
 
         <p><img src="./images/fur-trade-parvoviruses-header.png" alt="Parvoviruses and the fur industry" /></p>
 
@@ -79,7 +82,7 @@
 		 <p>
 		   <b>Left to right</b>:
 		   stoat/ermine (<i>Mustela ermina</i>);
-		   Leonardo da Vinci's 'Lady with an Ermine' (1489–1491);
+		   Leonardo da Vinci's '<a target="blank" href="https://en.wikipedia.org/wiki/Lady_with_an_Ermine">Lady with an Ermine</a>' (1489–1491);
 		   North American mink (<i>Neovison vison</i>);
 		   Women posing with mink furs in the 1930s;
 		 </p>
@@ -139,9 +142,24 @@
  	   </p>
 
 
+       <br>
 	   <h3>
 		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background 2: AMDV-related parvoviruses in wild versus farmed carnivores</strong>
 	   </h3>
+       <hr>
+		 
+	   <p>
+         Infection with AMDV - or related amdoparvoviruses -
+         is apparently widespread in wild mink as well as in farmed
+         animals. In addition, related viruses have been identified in several other carnivore
+         species, including gray foxes, skunks, raccoon dogs and red pandas. However,
+         relatively little is known about the biology of amdoparvovirus infection in the
+         natural environment, or the broader distribution of amdoparvovirus infections
+         in wild species.
+ 	   </p>
+
+	   <p>
+
 
         <p><img src="./images/fur-trade-parvoviruses-midlevel.png" alt="Carnivores, parvoviruses and the fur trade" /></p>
 
@@ -156,18 +174,6 @@
 		 </p>
 </blockquote>
 		 
-		 
-	   <p>
-         Infection with AMDV - or related amdoparvoviruses -
-         is apparently widespread in wild mink as well as in farmed
-         animals. In addition, related viruses have been identified in several other carnivore
-         species, including gray foxes, skunks, raccoon dogs and red pandas. However,
-         relatively little is known about the biology of amdoparvovirus infection in the
-         natural environment, or the broader distribution of amdoparvovirus infections
-         in wild species.
- 	   </p>
-
-	   <p>
 
          <u>Most importantly</u>, it is not clear whether the pathology of AD in captive mink is
          typical of disease that occurs in the wild, or if factors associated with fur
@@ -191,9 +197,12 @@
  	   </p>
 
 
+       <br>
 	   <h3>
 		 <a id="DownloadFromNcbi" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>1. Downloading all available AMDV sequences from GenBank</strong>
 	   </h3>
+       <hr>
+
 
 
 	   <p>
@@ -201,7 +210,7 @@
          will use a customised version of GLUE's  module
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/parvoviridaeNcbiImporterAmdv.xml"><b>here</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/amdoNcbiImporterExampleAmdv.xml"><b>here</b></a>.
          Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
 
@@ -345,9 +354,11 @@
     	   </p>
 
   
+       <br>
  	   <h3>
 		 <a id="ParseGenBankXML" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2. Importing AMDV sequences and metadata from GenBank files</strong>.
 	   </h3>
+       <hr>
 
 
 	   <p>
@@ -364,7 +375,7 @@
           All AMDV sequences obviously have the same taxonomic information.
           To input the taxonomic data for each sequence in the main 'sequence' table,
           we can use
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataAmdv.js"><b>this script</b></a>.
 	      which utilise two GLUE commands: (1) listing all sequences in a particular source;
 	      (ii) 
 	   </p>
@@ -374,14 +385,14 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/genus/amdo/exampleLoadSequenceDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/amdo/exampleLoadSequenceDataAmdv.js</code></pre>
  	   
 	   <p>
           Link each new AMDV sequence to the isolate table using
-          <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataBdfv.js"><b>this script</b></a>.
+          <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadIsolateDataAmdv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/genus/amdo/exampleLoadIsolateDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/amdo/exampleLoadSequenceDataAmdv.js</code></pre>
 
  	   </p>
 
@@ -402,7 +413,7 @@
   
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/genus/amdo/exampleLoadIsolateDataBdfv.js</code></pre>
+  GLUE> run script glue/genus/amdo/exampleLoadIsolateDataAmdv.js</code></pre>
 
  	   </p>
 
@@ -413,15 +424,34 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> list sequence sequenceID name full_name family genus clade
-  +============+===============+================+==================+==============+
-  | sequenceID |     name      |     family     |      genus       |    clade     |
-  +============+===============+================+==================+==============+
-  | AB182568   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182569   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182570   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182571   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |
-  | AB182572   | AMDV          | Parvoviridae   | Parvovirus       | Avian-1      |</code></pre>
+  GLUE> list sequence sequenceID name genus
+  +===========================+===========================+=============================+
+  |        sequenceID         |           name            |            genus            |
+  +===========================+===========================+=============================+
+  | KP120516                  | SlPV                      | Loriparvovirus              |
+  | MN049932                  | SyngChPV                  | Ichthamaparvovirusarvovirus |
+  | MN162688                  | IcthPV                    | Ichthamaparvovirusarvovirus |
+  | NC_000883                 | B19                       | Erythroparvovirus           |
+  | NC_000936                 | PfDNV                     | Pefuambidensovirus          |
+  | NC_001401                 | AAV2                      | Dependoparvovirus           |
+  | NC_001539                 | CPV                       | Protoparvovirus             |
+  | NC_001540                 | BPV                       | Bocaparvovirus              |
+  | NC_001662                 | AMDV                      | Amdoparvovirus              |
+  | NC_002190                 | IHHN                      | Penstyldensoparvovirus      |
+  | NC_004284                 | JcDNV                     | Ambidensoparvovirus         |
+  | NC_004285                 | AalDNV-2                  | Brevidensoparvovirus        |
+  | NC_004286                 | GmDV                      | Protoambidensovirus         |
+  | NC_004287                 | BmDNV-5                   | Iteradensoparvovirus        |
+  | NC_004289                 | PcDV                      | Scindoambidensovirus        |
+  | NC_005041                 | BgDV                      | Blattambidensovirus         |
+  | NC_006259                 | BPV2                      | Copiparvovirus              |
+  | NC_007018                 | PARV4                     | Tetraparvovirus             |
+  | NC_014357                 | FCDNV                     | Hepandensoparvovirus        |
+  | NC_016744                 | EhBtPV1                   | Artiparvovirus              |
+  | NC_022564                 | AdMADV                    | Miniambidensovirus          |
+  | NC_024452                 | ChPV                      | Aveparvovirus               |
+  | NC_038532                 | AaDV                      | Aquiambidensovirus          |
+  | NC_040562                 | PPV7                      | Chaphamaparvovirus          |</code></pre>
 
   		 </p>
 
@@ -433,15 +463,18 @@
 
   <pre>
   <code>Mode path: /project/parvoviridae
-  GLUE> list custom-table-row isolate id isolate country -w "country = 'Japan'"
-  +==========+============+=========+
-  |    id    |  isolate   | country |
-  +==========+============+=========+
-  | AB277726 | AGP-SA1P-1 | Japan   |
-  | AB277727 | AGP-SA1P-2 | Japan   |
-  | AB277728 | AGP-SA1P-3 | Japan   |
-  | AB277729 | AGP-SA1P-4 | Japan   |
-  | AB277730 | AGP-SA1P-5 | Japan   |</code></pre>		   
+  Mode path: /project/parvoviridae
+  GLUE> list sequence sequenceID isolate_data.isolate isolate_data.country -w "genus = 'Amdoparvovirus'"
+  +========================+======================+==========================+
+  |       sequenceID       | isolate_data.isolate |   isolate_data.country   |
+  +========================+======================+==========================+
+  | NC_001662              | -                    | -                        |
+  | MT770848               | -                    | Canada: Labrador         |
+  | NC_025825              | HS-R                 | China                    |
+  | NC_031751              | amdo-CA1             | USA                      |
+  | NC_034445              | -                    | Canada: British Columbia |
+  | NC_038533              | -                    | USA                      |
+  +========================+======================+==========================+</code></pre>		   
 
 
   		 </p>
@@ -454,10 +487,11 @@
   		 </p>
 
 
+       <br>
 	   <h3>
 		 <a id="FilterDataSet" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>3. Filtering data to obtain a valid analysis data set</strong>.
 	   </h3>
-
+       <hr>
 
 
 
@@ -515,9 +549,11 @@
 
 
 
+       <br>
 	   <h3>
 		 <a id="RefineReference" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>4. Refining the AMDV reference sequence</strong>.
 	   </h3>
+       <hr>
 
 
 		 <p>
@@ -619,9 +655,11 @@
         <p><img src="./images/amdo-midlevel.png" alt="Amdoparvovirus-related images" /></p>
 
 
+       <br>
 	   <h3>
 		 <a id="CreateAlignment" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>5. Creating an alignment of all AMDV sequences</strong>.
 	   </h3>
+       <hr>
 
 	   
 		 <p>
@@ -753,9 +791,11 @@
    GLUE> import alignment -f alignments/tip/</code></pre>
 	   
 
-		 <h3>
-		   <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in AMDV sequences</strong>.
-		 </h3>
+       <br>
+	   <h3>
+		 <a id="MapCoverage" class="anchor" href="#MapCoverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>6. Mapping feature coverage in AMDV sequences</strong>.
+	   </h3>
+       <hr>
 
 	   
 		 <p>
@@ -791,9 +831,12 @@
   OK
 </code></pre>
 
+       <br>
+       <br>
 	   <h3>
 		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
 	   </h3>
+       <hr>
 	   
 	   <p>
          In the final step in this tutorial, we will create a set of midpoint-rooted
@@ -862,23 +905,23 @@
 
 
 
-		<h3>
-		  <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing Parvoviridae-GLUE resources</strong>.
-		</h3>
 
-		<p>
-		  Comparative analysis hampered by laborious data preparation.
-		  GLUE is open source software for dealing with the
-		  nuts and bolts of comparative sequence analysis.
-		  It has been designed to <b>facilitate</b>.
-		 
-		</p>
-
+       <br>
+	   <h3>
+		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing Parvoviridae-GLUE resources</strong>.
+	   </h3>
        <hr>
 
+
+
+
+       <br>
 	   <h3>
 		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
 	   </h3>
+       <hr>
+ 	   
+		<p>
 
         Canuti M, McDonald E, Graham SM,  Rodrigues B,  Bouchard E,  Neville R, Pitcher M,  Whitney HG, and HD Marshall
   		<b>(2020)</b>
@@ -901,33 +944,29 @@
 		<br>
 		<br>
 
+		</p>
 
 
 
-
-
-
-
-       <hr>
-
-
+       <br>
 	   <h3>
 		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
 	   </h3>
- 
+       <hr>
 
 
-		 <ul>
-		   <li> <b>The history of fur farming</b>:
-		   </li>
-		   <li> <b>Comparative phylogenetic analysis of viruses</b>:
-		   </li>
-		   <li> <b>Introduction to the console</b>:
-		   </li>
-		 </ul>
+
+	   <ul>
+		 <li> <b>The history of fur farming</b>:
+		 </li>
+		 <li> <b>Comparative phylogenetic analysis of viruses</b>:
+		 </li>
+		 <li> <b>Introduction to the console</b>:
+		 </li>
+	   </ul>
 
 
-        
+	  
 
 
 	  <footer class="site-footer">
