@@ -12,12 +12,9 @@ project parvoviridae
   run file glue/core/parvoProjectSettings.glue
   exit
 
-
 # Build the core project for family Parvoviridae
 project parvoviridae
-
   run file glue/core/buildParvoCoreProject.glue
-  
-exit
+  exit
 
 
