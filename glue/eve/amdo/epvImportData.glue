@@ -1,8 +1,0 @@
-
-  # Import EVE references/consensus data
-  run script glue/eve/amdo/loadRefConData1.js
-  run script glue/eve/amdo/loadRefConData2.js
-
-  # Import EVE locus data from DIGS
-  run script glue/eve/amdo/loadLocusData1.js
-  run script glue/eve/amdo/loadLocusData2.js

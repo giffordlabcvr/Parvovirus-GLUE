@@ -3,7 +3,7 @@ var outputPath = "trees/eve-orthologs/";
 var alignOutputPath = "alignments/export/eve-orthologs/";
 
 // Get list of alignments
-alignmentResult = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name like '%AL_EPV%'"]));
+alignmentResult = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name like '%AL_epv-Amdo%'"]));
 
 // Iterate on DIGS data, adding sequences to alignments as appropriate
 _.each(alignmentResult, function(alnObj) {

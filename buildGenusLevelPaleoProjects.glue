@@ -2,7 +2,7 @@
 project parvoviridae
 
   run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  #run file glue/eve/erythyro/buildErythyroPaleoProject.glue
+  run file glue/eve/erythyro/buildErythyroPaleoProject.glue
   #run file glue/eve/proto/buildProtoPaleoProject.glue
   #run file glue/eve/dependo/buildDependoPaleoProject.glue
 

@@ -2,7 +2,7 @@
 project parvoviridae
 
   run file glue/genus/amdo/buildAmdoProject.glue
-  #run file glue/genus/erythyro/buildErythyroProject.glue
+  run file glue/genus/erythyro/buildErythyroProject.glue
   #run file glue/genus/proto/buildProtoProject.glue
   #run file glue/genus/dependo/buildDependoProject.glue
 

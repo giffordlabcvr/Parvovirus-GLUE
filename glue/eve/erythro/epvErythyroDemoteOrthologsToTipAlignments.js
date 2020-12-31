@@ -4,8 +4,8 @@
 // EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/epv-proto-refseqs-side-data.tsv";
-var rootAlignment = 'AL_MASTER_Proto';
+var refconDataPath = "tabular/eve/epv-dependo-refseqs-side-data.tsv";
+var rootAlignment = 'AL_MASTER_Dependo';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
 var epvRefseqResultMap = {};
@@ -16,13 +16,22 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load DIGS hit data from tabular file 
 var loadResult1;
 glue.inMode("module/tabularUtility", function() {
-	loadResult1 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-proto-side-data.tsv"]));
+	loadResult1 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult1);
+});
+
+// Load NCBI curated EPV source
+var loadResult2;
+glue.inMode("module/tabularUtility", function() {
+	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-ncbi-curated.tsv"]));
+	// glue.log("INFO", "load result was:", loadResult2);
 });
 
 
 // Process source
 process_source(loadResult1);
+process_source(loadResult2);
+
 
 
 
@@ -47,7 +56,7 @@ function process_source(loadResult) {
 		if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
 			// Does an alignment exist for this locus ID
-			var alignmentName = locus_name.replace("proto.", "AL_EPV-");
+			var alignmentName = locus_name.replace("dependo.", "AL_EPV-DEPENDO-");
 
 			// Get the taxonomy 
 			var locusObj    = epvRefseqResultMap[locus_numeric_id];

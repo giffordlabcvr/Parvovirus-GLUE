@@ -1,14 +1,15 @@
-var refconDataPath = "tabular/eve/epv-proto-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/epv-amdo-refseqs-side-data.tsv";
+var source_name = 'fasta-digs-amdo-epv';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
 var epvRefseqResultMap = {};
 get_refcon_data(epvRefseqResultMap, refconDataPath);
-glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
+//glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
 
 // Load EVE side data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-proto-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-amdo-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -27,11 +28,11 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "end_position", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
 		glue.command(["set", "field", "host_sci_name", eveObj.organism]);
-		glue.command(["set", "field", "host_class", eveObj.host_class]);
-		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
-		glue.command(["set", "field", "host_order", eveObj.host_order]);
-		glue.command(["set", "field", "host_family", eveObj.host_family]);
-		glue.command(["set", "field", "host_genus", eveObj.host_genus]);
+		//glue.command(["set", "field", "host_class", eveObj.host_class]);
+		//glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
+		//glue.command(["set", "field", "host_order", eveObj.host_order]);
+		//glue.command(["set", "field", "host_family", eveObj.host_family]);
+		//glue.command(["set", "field", "host_genus", eveObj.host_genus]);
 
 	});
 
@@ -56,12 +57,12 @@ _.each(loadResult, function(eveObj) {
 
 		glue.inMode("sequence/"+source_name+"/"+eveObj.sequenceID, function() {
 
-			glue.command(["set", "field", "clade_ns", clade_ns]);
-			glue.command(["set", "field", "subclade_ns", subclade_ns]);
-			glue.command(["set", "field", "clade_vp", clade_vp]);
-			glue.command(["set", "field", "subclade_vp", subclade_vp]);
-			glue.command(["set", "field", "assign_clade", assign_clade]);
-			glue.command(["set", "field", "assign_subclade", assign_subclade]);
+			//glue.command(["set", "field", "clade_ns", clade_ns]);
+			//glue.command(["set", "field", "subclade_ns", subclade_ns]);
+			//glue.command(["set", "field", "clade_vp", clade_vp]);
+			//glue.command(["set", "field", "subclade_vp", subclade_vp]);
+			//glue.command(["set", "field", "assign_clade", assign_clade]);
+			//glue.command(["set", "field", "assign_subclade", assign_subclade]);
 
 			glue.command(["set", "field", "name", eveObj.sequenceID]);
 			glue.command(["set", "field", "full_name", eveObj.sequenceID]);
