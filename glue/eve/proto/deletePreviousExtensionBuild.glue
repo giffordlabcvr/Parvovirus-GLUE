@@ -1,0 +1,20 @@
+  delete alignment AL_UNC_EPV_proto
+
+  # Delete EVEs from genus alignments
+  alignment AL_GENUS_Proto
+  
+    remove member -w "sequence.source.name = 'fasta-refseqs-proto-epv'"
+    remove member -w "sequence.source.name = 'fasta-digs-epv'"
+    exit  
+
+  # Delete extension reference sequences
+  multi-delete reference -w "name like 'REF_EPV_proto%'"
+
+  # Delete links to 
+  run script glue/eve/proto/deleteProtoRefConTableRows.js
+  run script glue/eve/proto/deleteProtoLocusTableRows.js
+
+  # Delete sources
+  delete source fasta-refseqs-proto-epv
+  delete source fasta-digs-proto-epv
+

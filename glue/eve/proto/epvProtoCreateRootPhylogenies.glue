@@ -1,0 +1,47 @@
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_PROTO_ROOT_EVE_NS
+  delete alignment AL_UNC_PROTO_ROOT_EVE_VP
+  delete module epvFastaAlignmentExporter
+  delete module epvAlignmentImporterNucs
+ 
+  
+  # Create all the modules we need
+  create module -f modules/core/epvFastaAlignmentExporter.xml
+  create module -f modules/core/epvAlignmentImporterNucs.xml
+
+
+  # Export the gene alignments 
+  module epvFastaAlignmentExporter
+    export AL_GENUS_Proto -r REF_MASTER_Proto_CPV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/proto-epv-root-rep78.aln.fna
+ 	export AL_GENUS_Proto -r REF_MASTER_Proto_CPV -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/proto-epv-root-vp1.aln.fna
+ 	exit
+
+
+
+  # Import the alignments to GLUE
+  module epvAlignmentImporterNucs import AL_UNC_PROTO_ROOT_EVE_NS -f alignments/tree/proto-epv-root-rep78.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_PROTO_ROOT_EVE_VP -f alignments/tree/proto-epv-root-vp1.aln.fna
+
+
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_UNC_PROTO_ROOT_EVE_NS -a -o trees/genus-level-with-eves/proto-epv-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_PROTO_ROOT_EVE_VP -a -o trees/genus-level-with-eves/proto-epv-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
+    exit
+
+
+  # Re-root phylogeny 
+  module phyloUtility
+
+	reroot-phylogeny \
+      --inputFile trees/genus-level-with-eves/proto-epv-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus-level-with-eves/proto-epv-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/genus-level-with-eves/proto-epv-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus-level-with-eves/proto-epv-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      exit
+

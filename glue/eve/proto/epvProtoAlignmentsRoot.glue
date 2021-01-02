@@ -1,0 +1,23 @@
+  delete module epvFastaAlignmentExporter
+  delete module epvAlignmentImporterNucs
+  
+  create module -f modules/core/epvAlignmentImporterNucs.xml
+  create module -f modules/core/epvFastaAlignmentExporter.xml
+
+  #~# Import pre-built alignments of EVE sequences
+
+  module unconstrainedAlignmentImporter
+
+	#~# Root aligns
+
+	import AL_UNC_EPV_proto-root   -f alignments/internal/genus/proto-genome+eves.aln.fna
+	exit
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_GENUS_Proto
+	add member -w "source.name = 'fasta-refseqs-proto-epv-con'"
+	derive segments AL_UNC_EPV_proto-root  -a --mergeStrategy OVERWRITE
+	exit
+
+
+
