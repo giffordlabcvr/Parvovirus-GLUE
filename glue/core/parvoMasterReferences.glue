@@ -5,7 +5,7 @@
   create reference REF_MASTER_Amdo_AMDV           ncbi-refseqs NC_001662
   create reference REF_MASTER_Dependo_AAV2        ncbi-refseqs NC_001401
   create reference REF_MASTER_Proto_CPV           ncbi-refseqs NC_001539
-  create reference REF_MASTER_Erythro_B19         ncbi-refseqs NC_000883
+  create reference REF_MASTER_Erythyro_B19        ncbi-refseqs NC_000883
   create reference REF_MASTER_Boca_BPV            ncbi-refseqs NC_001540
   create reference REF_MASTER_Copi_BPV2           ncbi-refseqs NC_006259
   create reference REF_MASTER_Tetra_EhBtPV1       ncbi-refseqs NC_016744
@@ -116,7 +116,7 @@
 
 
 
-  reference REF_MASTER_Erythro_B19
+  reference REF_MASTER_Erythyro_B19
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -134,8 +134,6 @@
 	  exit
    
     exit
-
-
 
 
 

@@ -18,7 +18,7 @@
   # Set up constrained alignment tree for the EPV subclades
   run file glue/eve/amdo/epvAmdoAlignmentTree.glue
 
-  # Import genus level alignments and define constrained alignment tree
+  # Import genus level alignments
   run file glue/eve/amdo/epvAmdoAlignmentsRoot.glue
 
 

@@ -1,29 +1,23 @@
-  ### Set up constrained alignment tree for EPV subclades
-
-
-  #~# Root (Family)  
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-erythyro-epv'"
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-erythyro-epv'"
-  #alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-erythyro-epv'"
- 
-
-  alignment AL_Parvoviridae_MASTER
+  delete module epvFastaAlignmentExporter
+  delete module epvAlignmentImporterNucs
   
-	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"
-	demote member AL_Parvovirinae   --whereClause "sequence.source.name = 'fasta-digs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"
-	#demote member AL_Parvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"	
-    exit
+  create module -f modules/core/epvAlignmentImporterNucs.xml
+  create module -f modules/core/epvFastaAlignmentExporter.xml
+
+  #~# Import pre-built alignments of EVE sequences
+
+  module unconstrainedAlignmentImporter
+
+	#~# Root aligns
+
+	import AL_UNC_EPV_erythyro-root   -f alignments/internal/genus/erythyro-genome+eves.aln.fna
+	exit
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_GENUS_Erythyro
+	add member -w "source.name = 'fasta-refseqs-erythyro-epv-con'"
+	derive segments AL_UNC_EPV_erythyro-root  -a --mergeStrategy OVERWRITE
+	exit
 
 
-  #~# Subfamily
-
-  alignment AL_Parvovirinae
-  
-	demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
-	demote member AL_GENUS_Erythyro  --whereClause "sequence.source.name = 'fasta-digs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"
-	#demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'ncbi-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
-    exit
-
-  
-  #~# Internal nodes (Erythyroparvovirus sub-lineages) 
 

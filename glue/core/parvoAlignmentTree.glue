@@ -35,7 +35,7 @@
 	extract child AL_GENUS_Dependo --r REF_MASTER_Dependo_AAV2
 	demote member AL_GENUS_Dependo --whereClause "sequence.genus = 'Dependoparvovirus'"
 
-	extract child AL_GENUS_Erythyro --r REF_MASTER_Erythro_B19
+	extract child AL_GENUS_Erythyro --r REF_MASTER_Erythyro_B19
 	demote member AL_GENUS_Erythyro --whereClause "sequence.genus = 'Erythyroparvovirus'"
 
 	extract child AL_GENUS_Boca --r REF_MASTER_Boca_BPV  # NC_001540
