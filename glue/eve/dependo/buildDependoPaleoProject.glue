@@ -1,39 +1,39 @@
   
   # delete previous extension
-  #run file glue/eve/dependo/epvDeletePreviousExtensionBuild.glue
+  #run file glue/eve/dependo/epvDependoDeletePreviousExtensionBuild.glue
 
   # create modules
-  run file glue/eve/dependo/epvModules.glue
+  run file glue/eve/dependo/epvDependoModules.glue
   
   # Import endogenous parvoviral element (EPV) sequences
-  run file glue/eve/dependo/epvImportSources.glue
+  run file glue/eve/dependo/epvDependoImportSources.glue
   
   # Import data for EVE sequences
-  run file glue/eve/dependo/epvImportData.glue
+  run file glue/eve/dependo/epvDependoImportData.glue
   
   # Declare references 
-  run file glue/eve/dependo/epvReferences.glue
+  run file glue/eve/dependo/epvDependoReferences.glue
 
   # Import genus level alignments and define constrained alignment tree
-  run file glue/eve/dependo/epvAlignmentsRoot.glue
+  run file glue/eve/dependo/epvDependoAlignmentsRoot.glue
   
   # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
-  run file glue/eve/dependo/epvAlignmentTree.glue
+  run file glue/eve/dependo/epvDependoAlignmentTree.glue
 
   # Record feature coverage in root and clade-level alignments
-  run file glue/eve/dependo/epvRecordFeaturePresence.glue
+  run file glue/eve/dependo/epvDependoRecordFeaturePresence.glue
 
   # Create root-level phylogenies for major genes
-  run file glue/eve/dependo/epvCreateRootPhylogenies.glue
+  run file glue/eve/dependo/epvDependoCreateRootPhylogenies.glue
 
   # Export annotations
-  run file glue/eve/dependo/epvExportRootPhylogenyAnnotations.glue
+  run file glue/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
 
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/dependo/epvDemoteOrthologsToTipAlignments.js
+  run script glue/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  run script glue/eve/dependo/epvCreateTipPhylogenies.js
+  run script glue/eve/dependo/epvDependoCreateTipPhylogenies.js
 
   # Validate
   validate
