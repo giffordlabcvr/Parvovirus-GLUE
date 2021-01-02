@@ -4,8 +4,8 @@
 // EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/epv-dependo-refseqs-side-data.tsv";
-var rootAlignment = 'AL_MASTER_Dependo';
+var refconDataPath = "tabular/eve/epv-erythyro-refseqs-side-data.tsv";
+var rootAlignment = 'AL_Parvoviridae_MASTER';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
 var epvRefseqResultMap = {};
@@ -14,25 +14,15 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 
 
 // Load DIGS hit data from tabular file 
-var loadResult1;
+var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult1 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-erythyro-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult1);
-});
-
-// Load NCBI curated EPV source
-var loadResult2;
-glue.inMode("module/tabularUtility", function() {
-	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-ncbi-curated.tsv"]));
-	// glue.log("INFO", "load result was:", loadResult2);
 });
 
 
 // Process source
-process_source(loadResult1);
-process_source(loadResult2);
-
-
+process_source(loadResult);
 
 
 //-~-~ SUBROUTINES
@@ -56,7 +46,7 @@ function process_source(loadResult) {
 		if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
 			// Does an alignment exist for this locus ID
-			var alignmentName = locus_name.replace("dependo.", "AL_EPV-DEPENDO-");
+			var alignmentName = locus_name.replace("erythyro.", "AL_EPV-ERYTHYRO-");
 
 			// Get the taxonomy 
 			var locusObj    = epvRefseqResultMap[locus_numeric_id];
@@ -76,7 +66,13 @@ function process_source(loadResult) {
 			}
 			else {
 				
-				parentAlignmentName = "AL_" + assign_subclade;
+				if (assign_subclade == 'Erythyroparvovirus') {				
+					parentAlignmentName = "AL_GENUS_Erythyro";				
+				}
+				else {
+					parentAlignmentName = "AL_" + assign_subclade;
+				}
+
 
 				glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
 
@@ -97,7 +93,10 @@ function process_source(loadResult) {
 				// Add the sequence to the alignment
 				glue.inMode("/alignment/"+parentAlignmentName, function() {
 			
+					glue.log("INFO", "Adding sequences to tip alignment: ", alignmentName);
+					glue.log("INFO", "Selecting sequences based on sequence ID: ", sequenceID);
 					glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
+					
 				});
 			
 			}
@@ -116,7 +115,7 @@ function get_refcon_data(resultMap, refconDataPath) {
   var loadResult;
   glue.inMode("module/tabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
-	  // glue.log("INFO", "load result was:", loadResult);
+	  glue.log("INFO", "load result was:", loadResult);
   });
 
   _.each(loadResult, function(eveObj) {
@@ -124,7 +123,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 	  var source_name = eveObj.source_name
 	  var sequenceID = eveObj.sequenceID
 	  var locus_numeric_id = eveObj.locus_numeric_id;
-	  // glue.log("INFO", "Setting locus data for EVE reference:", eveObj.sequenceID);
+	  glue.log("INFO", "Setting locus data for EVE reference:", eveObj.sequenceID);
 	  resultMap[locus_numeric_id] = eveObj;
 	
   });

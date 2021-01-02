@@ -1,6 +1,6 @@
 
-// Delete custom-table table rows for amdo genus extension sequences
- var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'fasta-refseqs-amdo-epv'"]));	
+// Delete custom-table table rows for erythyro genus extension sequences
+ var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'fasta-refseqs-erythyro-epv'"]));	
  	 
  _.each(resultList,function(resultObj) {
 

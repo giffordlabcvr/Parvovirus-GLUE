@@ -45,14 +45,3 @@
       --outputFile trees/genus-level-with-eves/amdo-epv-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
       exit
 
-
-  # Export annotations
-  delete module parvoFigTreeAnnotationExporter
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
-
-  module parvoFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_AMDO_ROOT_EVE_NS -f trees/genus-level-with-eves/amdo-epv-root-rep78.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_AMDO_ROOT_EVE_VP -f trees/genus-level-with-eves/amdo-epv-root-vp1.figtree-annotations.tsv
-    exit
-
-

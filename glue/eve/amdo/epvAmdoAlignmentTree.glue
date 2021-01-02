@@ -2,19 +2,16 @@
 
 
   #~# Root (Family)  
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-amdo-epv-con'"
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-amdo-epv'"
- 
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-amdo-epv'"
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-amdo-epv'"
+  #alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-amdo-epv'"
  
 
   alignment AL_Parvoviridae_MASTER
   
-	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.subfamily = 'Parvovirinae'"
-	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'ncbi-refseqs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"
-	
-	demote member AL_Densovirinae      --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.subfamily = 'Densovirinae'"
-	demote member AL_Epiparvovirinae   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.subfamily = 'Epiparvovirinae'"
-	
+	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"
+	demote member AL_Parvovirinae   --whereClause "sequence.source.name = 'fasta-digs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"
+	#demote member AL_Parvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"	
     exit
 
 
@@ -22,8 +19,9 @@
 
   alignment AL_Parvovirinae
   
-	demote member AL_GENUS_Amdo   --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv-con' and sequence.genus = 'Amdoparvovirus'"
-	
+	demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"	
+	demote member AL_GENUS_Amdo  --whereClause "sequence.source.name = 'fasta-digs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"
+	#demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'ncbi-refseqs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"	
     exit
 
   

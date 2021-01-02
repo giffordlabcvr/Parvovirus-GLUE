@@ -1,0 +1,29 @@
+  ### Set up constrained alignment tree for EPV subclades
+
+
+  #~# Root (Family)  
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-erythyro-epv'"
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-erythyro-epv'"
+  #alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-erythyro-epv'"
+ 
+
+  alignment AL_Parvoviridae_MASTER
+  
+	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"
+	demote member AL_Parvovirinae   --whereClause "sequence.source.name = 'fasta-digs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"
+	#demote member AL_Parvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"	
+    exit
+
+
+  #~# Subfamily
+
+  alignment AL_Parvovirinae
+  
+	demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
+	demote member AL_GENUS_Erythyro  --whereClause "sequence.source.name = 'fasta-digs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"
+	#demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'ncbi-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
+    exit
+
+  
+  #~# Internal nodes (Erythyroparvovirus sub-lineages) 
+
