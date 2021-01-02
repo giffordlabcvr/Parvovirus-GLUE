@@ -17,7 +17,7 @@
 
   #~# Derive constrained alignment segments from unconstrained alignments
 
-  alignment AL_MASTER_Dependo
+  alignment AL_GENUS_Dependo
 
 	add member -w "source.name = 'fasta-refseqs-dependo-epv-con'"
 	add member -w "source.name = 'ncbi-refseqs-dependo-epv'"
@@ -27,20 +27,20 @@
 
   # Export the recursively populated root gene alignments 
   module epvFastaAlignmentExporter
- 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f Rep78 --recursive -a  -e -o alignments/tree/dependo-root-rep78.eve.aln.fna
- 	export AL_MASTER_Dependo -r  REF_Dependo_MASTER_AAV2 -f VP1 --recursive -a  -e -o alignments/tree/dependo-root-vp1.eve.aln.fna
+ 	export AL_GENUS_Dependo -r  REF_MASTER_Dependo_AAV2 -f Rep78 --recursive -a  -e -o alignments/tree/dependo-root-rep78.eve.aln.fna
+ 	export AL_GENUS_Dependo -r  REF_MASTER_Dependo_AAV2 -f VP1 --recursive -a  -e -o alignments/tree/dependo-root-vp1.eve.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_Rep -f alignments/tree/dependo-root-rep78.eve.aln.fna
   module epvAlignmentImporterNucs import AL_UNC_TREE_ROOT_EVE_VP -f alignments/tree/dependo-root-vp1.eve.aln.fna
 
-  create alignment AL_TREE_ROOT_EPV_DEPENDO_Rep -r REF_Dependo_MASTER_AAV2
+  create alignment AL_TREE_ROOT_EPV_DEPENDO_Rep -r REF_MASTER_Dependo_AAV2
   alignment AL_TREE_ROOT_EPV_DEPENDO_Rep
 	derive segments AL_UNC_TREE_ROOT_EVE_Rep -a --mergeStrategy OVERWRITE
 	exit
 	
-  create alignment AL_TREE_ROOT_EPV_DEPENDO_VP -r REF_Dependo_MASTER_AAV2
+  create alignment AL_TREE_ROOT_EPV_DEPENDO_VP -r REF_MASTER_Dependo_AAV2
   alignment AL_TREE_ROOT_EPV_DEPENDO_VP
 	derive segments AL_UNC_TREE_ROOT_EVE_VP -a --mergeStrategy OVERWRITE
 	exit
