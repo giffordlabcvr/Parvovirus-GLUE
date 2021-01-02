@@ -64,7 +64,7 @@ _.each(loadResult, function(eveObj) {
 			
 			glue.command(["set", "field", "assign_clade", assign_clade]);
 			glue.command(["set", "field", "assign_subclade", assign_subclade]);
-			glue.command(["set", "field", "genus", "Erthyroparvovirus"]);
+			glue.command(["set", "field", "genus", "Erythyroparvovirus"]);
 			glue.command(["set", "field", "subfamily", "Parvovirinae"]);
 
 			glue.command(["set", "field", "name", eveObj.sequenceID]);
