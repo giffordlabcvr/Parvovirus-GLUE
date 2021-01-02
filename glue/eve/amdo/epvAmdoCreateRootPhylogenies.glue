@@ -1,17 +1,17 @@
   # Clean up from any previous run of this file
   delete alignment AL_UNC_AMDO_ROOT_EVE_NS
   delete alignment AL_UNC_AMDO_ROOT_EVE_VP
-  delete module fastaAlignmentExporter
-  delete module parvoTreeAlignmentImporterNucs
+  delete module epvFastaAlignmentExporter
+  delete module epvAlignmentImporterNucs
  
   
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/core/epvFastaAlignmentExporter.xml
+  create module -f modules/core/epvAlignmentImporterNucs.xml
 
 
   # Export the gene alignments 
-  module fastaAlignmentExporter
+  module epvFastaAlignmentExporter
     export AL_GENUS_Amdo -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/amdo-epv-root-rep78.aln.fna
  	export AL_GENUS_Amdo -r REF_MASTER_Amdo_AMDV -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/amdo-epv-root-vp1.aln.fna
  	exit
@@ -19,8 +19,8 @@
 
 
   # Import the alignments to GLUE
-  module parvoTreeAlignmentImporterNucs import AL_UNC_AMDO_ROOT_EVE_NS -f alignments/tree/amdo-epv-root-rep78.aln.fna
-  module parvoTreeAlignmentImporterNucs import AL_UNC_AMDO_ROOT_EVE_VP -f alignments/tree/amdo-epv-root-vp1.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_AMDO_ROOT_EVE_NS -f alignments/tree/amdo-epv-root-rep78.aln.fna
+  module epvAlignmentImporterNucs import AL_UNC_AMDO_ROOT_EVE_VP -f alignments/tree/amdo-epv-root-vp1.aln.fna
 
 
 
