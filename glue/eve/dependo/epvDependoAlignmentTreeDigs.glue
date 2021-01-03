@@ -2,7 +2,7 @@
   
   #~# Internal nodes (Dependoparvovirus sub-lineages) 
 
-  alignment AL_MASTER_Dependo
+  alignment AL_GENUS_Dependo
   
     add member -w "source.name = 'fasta-digs-dependo-epv'"
     add member -w "source.name = 'ncbi-curated-dependo-epv'"
