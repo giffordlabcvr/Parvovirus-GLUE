@@ -2,6 +2,7 @@
   # delete previous extension
   #run file glue/eve/dependo/epvDependoDeletePreviousExtensionBuild.glue
 
+
   # create modules
   run file glue/eve/dependo/epvDependoModules.glue
   
@@ -14,14 +15,26 @@
   # Declare references 
   run file glue/eve/dependo/epvDependoReferences.glue
 
+
+  # Set up constrained alignment tree for the Dependoparvoviruses
+  run file glue/eve/dependo/epvDependoAlignmentTree.glue
+
   # Import genus level alignments and define constrained alignment tree
   run file glue/eve/dependo/epvDependoAlignmentsRoot.glue
   
-  # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
-  run file glue/eve/dependo/epvDependoAlignmentTree.glue
-
   # Record feature coverage in root and clade-level alignments
   run file glue/eve/dependo/epvDependoRecordFeaturePresence.glue
+
+
+  # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
+  run file glue/eve/dependo/epvDependoAlignmentTreeDigs.glue
+
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/eve/dependo/epvDependoCreateTipPhylogenies.js
+
 
   # Create root-level phylogenies for major genes
   #run file glue/eve/dependo/epvDependoCreateRootPhylogenies.glue
@@ -29,11 +42,6 @@
   # Export annotations
   run file glue/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
 
-  # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
-
-  # Create tip-level phylogenies
-  run script glue/eve/dependo/epvDependoCreateTipPhylogenies.js
 
   # Validate
   validate

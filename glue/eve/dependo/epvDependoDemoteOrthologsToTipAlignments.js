@@ -60,9 +60,9 @@ function process_source(loadResult) {
 
 			// Get the taxonomy 
 			var locusObj    = epvRefseqResultMap[locus_numeric_id];
-			//glue.log("INFO", "LOADED EPV INFO ", locusObj);
+			glue.log("INFO", "LOADED EPV INFO ", locusObj);
 
-			glue.log("INFO", "Adding sequence:", eveObj.id);
+			glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
 			glue.log("INFO", "to alignment", alignmentName);
 			glue.log("INFO", "Assign_clade:", locusObj.assign_clade);
 			glue.log("INFO", "Assign_subclade", locusObj.assign_subclade);

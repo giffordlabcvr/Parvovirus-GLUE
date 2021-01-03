@@ -16,7 +16,7 @@ glue.inMode("module/tabularUtility", function() {
 _.each(loadResult, function(eveObj) {
 
     var locus_numeric_id = eveObj.locus_numeric_id;
-	glue.log("INFO", "LOADED EPV INFO ", eveObj);
+	//glue.log("INFO", "LOADED EPV INFO ", eveObj);
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
 		glue.log("INFO", "Entering locus data for sequence:", eveObj.sequenceID);
@@ -57,15 +57,20 @@ _.each(loadResult, function(eveObj) {
 
 		glue.inMode("sequence/"+source_name+"/"+eveObj.sequenceID, function() {
 
+
+			glue.command(["set", "field", "name", eveObj.sequenceID]);
+			glue.command(["set", "field", "full_name", eveObj.sequenceID]);
+
+    		glue.command(["set", "field", "genus", "Dependoparvovirus"]);
+			glue.command(["set", "field", "subfamily", "Parvovirinae"]);
+
 			glue.command(["set", "field", "clade_ns", clade_ns]);
 			glue.command(["set", "field", "subclade_ns", subclade_ns]);
 			glue.command(["set", "field", "clade_vp", clade_vp]);
 			glue.command(["set", "field", "subclade_vp", subclade_vp]);
 			glue.command(["set", "field", "assign_clade", assign_clade]);
 			glue.command(["set", "field", "assign_subclade", assign_subclade]);
-
-			glue.command(["set", "field", "name", eveObj.sequenceID]);
-			glue.command(["set", "field", "full_name", eveObj.sequenceID]);
+			
 
 		});
 				

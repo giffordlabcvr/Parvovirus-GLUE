@@ -1,33 +1,12 @@
   ### Set up constrained alignment tree for EPV subclades
-
-
-  #~# Root (Family)  
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-dependo-epv'"
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-curated-dependo-epv'"
-
-  alignment AL_Parvoviridae_MASTER
   
-	demote member AL_Parvovirinae   --whereClause "source.name = 'fasta-digs-dependo-epv' and sequence.subfamily = 'Parvovirinae'"
-	demote member AL_Parvovirinae   --whereClause "source.name = 'ncbi-curated-dependo-epv' and sequence.subfamily = 'Parvovirinae'"
-		
-    exit
-
-
-  #~# Subfamily
-
-  alignment AL_Parvovirinae
-  
-	demote member AL_MASTER_Dependo   --whereClause "source.name = 'fasta-digs-dependo-epv' and sequence.genus = 'Dependoparvovirus'"
-	
-    exit
-
-
-
-
   #~# Internal nodes (Dependoparvovirus sub-lineages) 
 
   alignment AL_MASTER_Dependo
   
+    add member -w "source.name = 'fasta-digs-dependo-epv'"
+    add member -w "source.name = 'ncbi-curated-dependo-epv'"
+
     demote member AL_Dependo1    --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Dependo1'"
     demote member AL_Dependo1    --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_clade = 'Dependo1'"
 
@@ -74,5 +53,3 @@
     demote member AL_Marsupial   --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Marsupial'"
 
     exit
-
-
