@@ -17,7 +17,6 @@
     demote member AL_Dependo2    --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_clade = 'Dependo3'"
 
     demote member AL_Herpesvirus --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Herpesvirus'"
-    
     exit
 
 
@@ -31,7 +30,7 @@
 
     demote member AL_Lemuria     --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Lemuria'"
     demote member AL_Lemuria     --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Lemuria'"
-     exit
+    exit
 
   alignment AL_Dependo3
 
@@ -51,5 +50,4 @@
 
     demote member AL_Marsupial   --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_subclade = 'Marsupial'"
     demote member AL_Marsupial   --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_subclade = 'Marsupial'"
-
     exit

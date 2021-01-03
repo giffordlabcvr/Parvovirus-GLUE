@@ -20,6 +20,7 @@
   alignment AL_Parvovirinae
   
 	demote member AL_GENUS_Dependo   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.genus = 'Dependoparvovirus'"
+	demote member AL_GENUS_Dependo   --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv' and sequence.genus = 'Dependoparvovirus'"
 	
     exit
 
