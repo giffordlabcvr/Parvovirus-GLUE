@@ -19,7 +19,7 @@
 
   alignment AL_GENUS_Dependo
 
-	add member -w "source.name = 'fasta-refseqs-dependo-epv-con'"
+	add member -w "source.name = 'fasta-refseqs-dependo-epv'"
 	add member -w "source.name = 'ncbi-refseqs-dependo-epv'"
 	derive segments AL_UNC_EPV_DEPENDO-root  -a --mergeStrategy OVERWRITE
 	exit
