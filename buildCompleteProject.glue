@@ -1,0 +1,39 @@
+delete project parvoviridae
+create project parvoviridae "A GLUE project for the Parvoviridae" --minVersion 0.1.66
+
+# Create the database schema
+schema-project parvoviridae
+  run file glue/core/parvoSchemaExtensions.glue
+  run file glue/core/parvoSchemaExtensionsPaleovirus.glue
+  exit
+
+# Load project settings
+project parvoviridae
+  run file glue/core/parvoProjectSettings.glue
+  exit
+
+# Build the core project for family Parvoviridae
+project parvoviridae
+  run file glue/core/buildParvoCoreProject.glue
+  exit
+
+# Build genus-level extensions
+project parvoviridae
+
+  run file glue/genus/amdo/buildAmdoProject.glue
+  run file glue/genus/erythyro/buildErythyroProject.glue
+  run file glue/genus/proto/buildProtoProject.glue
+  run file glue/genus/dependo/buildDependoProject.glue
+
+exit
+
+# Build genus-level extensions
+project parvoviridae
+
+  run file glue/eve/amdo/buildAmdoPaleoProject.glue
+  run file glue/eve/erythyro/buildErythyroPaleoProject.glue
+  #run file glue/eve/proto/buildProtoPaleoProject.glue
+  run file glue/eve/dependo/buildDependoPaleoProject.glue
+
+exit
+
