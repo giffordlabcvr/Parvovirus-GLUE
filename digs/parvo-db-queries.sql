@@ -16,13 +16,19 @@ FROM searches_performed
 select  *
 FROM digs_results, eve_data
 WHERE assigned_name = eve_data.virus_species
-AND virus_family = 'Parvoviridae'
+AND virus_genus = 'Protoparvovirus'
+
+# COUNT Parvoviridae hits  by genus
+select  genus, count(*) as number 
+FROM digs_results, eve_data
+WHERE assigned_name = eve_data.virus_species
+GROUP BY genus
 
 # Get Flaviviridae hits by specific genus
-SELECT virus_family, organism, assigned_name, assigned_gene, bitscore, identity, target_version,target_name,scaffold,extract_start,extract_end,sequence_length,orientation,sequence
+SELECT virus_genus, organism, assigned_name, assigned_gene, bitscore, identity, target_version,target_name,scaffold,extract_start,extract_end,sequence_length,orientation,sequence
 FROM eve_data, digs_results
 WHERE assigned_name = eve_data.virus_species
-AND virus_family = 'Flaviviridae'
+AND virus_genus = 'Flaviviridae'
 AND bitscore > 40
 ORDER BY organism
 
