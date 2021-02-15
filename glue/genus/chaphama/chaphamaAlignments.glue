@@ -1,0 +1,15 @@
+# Import unconstrained pre-built alignments
+
+  module unconstrainedAlignmentImporter 
+
+    #~# Root-level alignments
+    import AL_UNC_CHAPHAMA_ROOT  -f alignments/internal/genus/chaphama-genome.aln.fna
+    
+    #~# Internal node deep splits 
+    
+    #~# Internal node mammalian subclades     
+
+    
+    exit
+
+
