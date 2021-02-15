@@ -1,25 +1,25 @@
-  ### Constrained alignment tree for the Protoparvovirus genus
+  ### Constrained alignment tree for the Chaphamaparvovirus genus
 
   #~# Root level (Genus)
 
-  alignment AL_GENUS_Proto add member  --whereClause "genus = 'Protoparvovirus'"
+  alignment AL_GENUS_Chaphama add member  --whereClause "genus = 'Chaphamaparvovirus'"
 
 
-  #~# Internal nodes (Protoparvovirus sub-lineages) 
+  #~# Internal nodes (Chaphamaparvovirus sub-lineages) 
 
-  alignment AL_GENUS_Proto
+  alignment AL_GENUS_Chaphama
   
-    extract child AL_Proto1     --refName REF_MASTER_Proto_CPV
-    demote member AL_Proto1     --whereClause "sequence.clade_ns = 'Proto1'"
+    extract child AL_Chaphama1     --refName REF_MASTER_Chaphama_CPV
+    demote member AL_Chaphama1     --whereClause "sequence.clade_ns = 'Chaphama1'"
     
-    extract child AL_Proto2     --refName REF_Proto_MpBuV
-    demote member AL_Proto2     --whereClause "sequence.clade_ns = 'Proto2'"     
+    extract child AL_Chaphama2     --refName REF_Chaphama_MpBuV
+    demote member AL_Chaphama2     --whereClause "sequence.clade_ns = 'Chaphama2'"     
 
     exit
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_GENUS_Proto
+  alignment AL_GENUS_Chaphama
     derive segments AL_UNC_PROTO_ROOT -a --mergeStrategy OVERWRITE
     exit
 
