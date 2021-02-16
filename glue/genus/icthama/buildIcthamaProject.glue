@@ -1,0 +1,32 @@
+
+  # delete previous extension build
+  run file glue/genus/icthama/deleteChaphamaExtension.glue
+
+  # create modules
+  run file glue/genus/icthama/icthamaModules.glue
+
+  # Import sources 
+  import source sources/ncbi-refseqs-icthama
+  import source sources/fasta-refseqs-icthama
+  
+  # Import data 
+  run file glue/genus/icthama/icthamaLoadVirusData.glue
+
+  # Declare reference sequences
+  run file glue/genus/icthama/icthamaReferences.glue
+
+  # Import alignments 
+  run file glue/genus/icthama/icthamaAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/genus/icthama/icthamaAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/genus/icthama/icthamaRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/genus/icthama/icthamaCreateRootPhylogenies.glue
+
+  # Validate
+  validate
+

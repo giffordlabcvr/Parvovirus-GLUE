@@ -1,0 +1,114 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=12;
+	taxlabels
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Mesitornis_ChPV'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Mesitornis_ChPV",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="Mesitornis_ChPV",sample_date="-",sequenceID="Mesitornis_ChPV",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Myotis_ChPV'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Myotis_ChPV",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="Myotis_ChPV",sample_date="-",sequenceID="Myotis_ChPV",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Serinus_ChPV'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Serinus_ChPV",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="Serinus_ChPV",sample_date="-",sequenceID="Serinus_ChPV",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Snake_ChPV'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Snake_ChPV",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="Snake_ChPV",sample_date="-",sequenceID="Snake_ChPV",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/KX272741'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Rat parvovirus 2",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="RChPV",sample_date="-",sequenceID="KX272741",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MG846443'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Chicken-chapparvovirus-2",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="CChPV",sample_date="-",sequenceID="MG846443",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MH670587'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Mouse kidney parvoviruses",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="MkPV",sample_date="-",sequenceID="MH670587",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MK448316'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Cachavirus-1B",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="Cachavirus",sample_date="-",sequenceID="MK448316",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MN166196'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Ursus americanus chapparvovirus",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="UrChPV",sample_date="-",sequenceID="MN166196",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MN265364'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Capuchin kidney parvovirus",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="CKPV",sample_date="-",sequenceID="MN265364",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/NC_032097'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Desmodus rotundus parvovirus",genus="Chaphamaparvovirus",host_sci_name="-",isolate="-",name="DrChPv",sample_date="-",sequenceID="NC_032097",subclade_ns="NK",subclade_vp="NK",subfamily="-"]
+	'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs/NC_040562'[&clade_ns="not-set",clade_vp="not-set",country="China",full_name="Porcine parvovirus 7",genus="Chaphamaparvovirus",host_sci_name="Sus scrofa",isolate="GX49",name="PPV7",sample_date="-",sequenceID="NC_040562",subclade_ns="not-set",subclade_vp="not-set",subfamily="Hamaparvovirinae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs/NC_040562':1.525015,(('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Serinus_ChPV':0.470041,'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Mesitornis_ChPV':0.709663)[&label=100]:0.233654,('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Snake_ChPV':0.817916,('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MG846443':1.188715,('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/KX272741':0.490182,(((('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MH670587':0.143305,('alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MN265364':0.130388,'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MN166196':0.152521)[&label=99]:0.032199)[&label=100]:0.150569,'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/fasta-refseqs-chaphama/Myotis_ChPV':0.264892)[&label=85]:0.04848,'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/NC_032097':0.19665)[&label=100]:0.218898,'alignment/AL_UNC_CHAPHAMA_ROOT_NS/member/ncbi-refseqs-chaphama/MK448316':0.470223)[&label=99]:0.094027)[&label=100]:0.308792)[&label=94]:0.104988)[&label=100]:0.217841):0.013471);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

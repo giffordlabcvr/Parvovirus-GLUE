@@ -1,0 +1,8 @@
+  # Import metadata for exogenous reference sequences from tabular
+  module chaphamaSideDataImporter 
+    populate -f tabular/genus/chaphama-refseqs-side-data.tsv
+    exit
+
+  # Link reference sequences to isolate table
+  run script glue/genus/chaphama/chaphamaLoadIsolateData1.js
+
