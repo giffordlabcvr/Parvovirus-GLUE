@@ -1,4 +1,4 @@
-var masterRef = 'NC_001539';
+var masterRef = 'NC_040562';
 
 // list the sequences in source ncbi-refseqs-chaphama
 var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-chaphama' and genus = 'Chaphamaparvovirus'"]);

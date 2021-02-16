@@ -1,0 +1,19 @@
+<!-- Chaphamaparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-chaphama</sourceName>
+  <specificPrimaryAccessions>
+
+	<!-- <primaryAccession>NC_040562</primaryAccession> Master refererence PPV7 is in core project -->
+	<primaryAccession>MG846443</primaryAccession>
+	<primaryAccession>MK448316</primaryAccession>
+	<primaryAccession>KX272741</primaryAccession>
+	<primaryAccession>MN265364</primaryAccession>
+	<primaryAccession>MN166196</primaryAccession>
+	<primaryAccession>NC_032097</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

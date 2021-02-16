@@ -1,0 +1,12 @@
+accession-ID	virus_subfamily	virus_genus	virus_name	virus_full_name	virus_other_name	host_species	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	accession-other
+MG846443	Hamaparvovirinae	Chaphamaparvovirus	CChPV	Chicken-chapparvovirus-2	n/a	Gallus gallus	NK	NK	NK	NK	NK	NK	NK	
+MK448316	Hamaparvovirinae	Chaphamaparvovirus	Cachavirus	Cachavirus-1B	n/a	Canis familiaris	NK	NK	NK	NK	NK	NK	NK	
+KX272741	Hamaparvovirinae	Chaphamaparvovirus	RChPV	Rat parvovirus 2	n/a	Rattus norvegicus	NK	NK	NK	NK	NK	NK	NK	
+MN265364	Hamaparvovirinae	Chaphamaparvovirus	CKPV	Capuchin kidney parvovirus	n/a	Cebus capucinus imitator	NK	NK	NK	NK	NK	NK	NK	
+MN166196	Hamaparvovirinae	Chaphamaparvovirus	UrChPV	Ursus americanus chapparvovirus	n/a	Ursus americanus	NK	NK	NK	NK	NK	NK	NK	
+NC_032097	Hamaparvovirinae	Chaphamaparvovirus	DrChPv	Desmodus rotundus parvovirus	n/a	Desmodus rotundus	NK	NK	NK	NK	NK	NK	NK	
+Cebus_ChPV	Hamaparvovirinae	Chaphamaparvovirus	Cebus_ChPV	Cebus_ChPV	n/a	Cebus capucinus imitator	NK	NK	NK	NK	NK	NK	NK	
+Serinus_ChPV	Hamaparvovirinae	Chaphamaparvovirus	Serinus_ChPV	Serinus_ChPV	n/a	Serinus	NK	NK	NK	NK	NK	NK	NK	
+Mesitornis_ChPV	Hamaparvovirinae	Chaphamaparvovirus	Mesitornis_ChPV	Mesitornis_ChPV	n/a	Mesitornis	NK	NK	NK	NK	NK	NK	NK	
+Myotis_ChPV	Hamaparvovirinae	Chaphamaparvovirus	Myotis_ChPV	Myotis_ChPV	n/a	Myotis	NK	NK	NK	NK	NK	NK	NK	
+Protobothrops_ChPV	Hamaparvovirinae	Chaphamaparvovirus	Protobothrops_ChPV	Protobothrops_ChPV	n/a	Protobothrops	NK	NK	NK	NK	NK	NK	NK	

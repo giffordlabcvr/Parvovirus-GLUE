@@ -1,6 +1,6 @@
-create module -f modules/genus/proto/protoNcbiImporterReferences.xml ncbiImporter
+create module -f modules/genus/chaphama/chaphamaNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import
 
-export source ncbi-refseqs-proto
+export source ncbi-refseqs-chaphama
