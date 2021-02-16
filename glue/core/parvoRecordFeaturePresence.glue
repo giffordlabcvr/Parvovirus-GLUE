@@ -9,6 +9,6 @@
     #~# Subfamily
     record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Densovirinae --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Epiparvovirinae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Hamaparvovirinae --recursive --featureName whole_genome --descendentFeatures
     exit
 

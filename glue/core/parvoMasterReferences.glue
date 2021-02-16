@@ -29,7 +29,6 @@
 
 
 
-
   # Add feature locations to genus master reference sequences
   reference REF_MASTER_Amdo_AMDV
  
@@ -246,4 +245,37 @@
 	  exit
    
     exit
+
+
+
+  # Add feature locations to genus master reference sequences
+  reference REF_MASTER_Chaphama_PPV7
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3999
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 195
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 510 2528
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2546 3970
+	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 3971 3999
+	  exit
+    
+    exit
+
 

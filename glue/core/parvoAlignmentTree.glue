@@ -16,8 +16,8 @@
     extract child AL_Densovirinae      --refName REF_MASTER_Ambidenso_JcDNV  # NC_004284
 	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
 	
-    extract child AL_Epiparvovirinae   --refName REF_MASTER_Hepandenso_FCDNV # NC_014357
-	demote member AL_Epiparvovirinae   --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 
+    extract child AL_Hamaparvovirinae  --refName REF_MASTER_Hepandenso_FCDNV # NC_014357
+	demote member AL_Hamaparvovirinae  --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 
 	
     exit
 
@@ -51,6 +51,19 @@
 	demote member AL_GENUS_Ave --whereClause "sequence.genus = 'Aveparvovirus'"
 		
     exit
+
+
+  alignment AL_Hamaparvovirinae
+  
+	extract child AL_GENUS_Chaphama --r REF_MASTER_Chaphama_PPV7
+	demote member AL_GENUS_Chaphama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
+  
+	extract child AL_GENUS_Icthama --r REF_MASTER_Icthama_SynChPV
+	demote member AL_GENUS_Icthama --whereClause "sequence.genus = 'Icthamaparvovirus'"
+	
+    exit
+
+
 
 
   #~# Derive constrained alignment segments from unconstrained alignments

@@ -1,12 +1,14 @@
   # Declare Chaphamavirus parvovirus reference sequences
 
-  create reference REF_Chaphama_CChPV            ncbi-refseqs-chaphama MG846443
+  create reference REF_Chaphama_CChPV            ncbi-refseqs-chaphama MH670587
+  create reference REF_Chaphama_MkPV             ncbi-refseqs-chaphama MG846443
   create reference REF_Chaphama_Cachavirus       ncbi-refseqs-chaphama MK448316
   create reference REF_Chaphama_RChPV            ncbi-refseqs-chaphama KX272741
   create reference REF_Chaphama_CKPV             ncbi-refseqs-chaphama MN265364
   create reference REF_Chaphama_UrChPV           ncbi-refseqs-chaphama MN166196
   create reference REF_Chaphama_DrChPv           ncbi-refseqs-chaphama NC_032097
   
+   
   # Virus sequences found in WGS
   create reference REF_Chaphama_Serinus_ChPV     fasta-refseqs-chaphama Serinus_ChPV
   create reference REF_Chaphama_Mesitornis_ChPV  fasta-refseqs-chaphama Mesitornis_ChPV

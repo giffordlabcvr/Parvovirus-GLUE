@@ -1,21 +1,19 @@
 
   # delete previous extension build
-  run file glue/genus/chaphama/deleteProtoExtension.glue
+  run file glue/genus/chaphama/deleteChaphamaExtension.glue
 
   # create modules
   run file glue/genus/chaphama/chaphamaModules.glue
 
   # Import sources 
   import source sources/ncbi-refseqs-chaphama
-
+  import source sources/fasta-refseqs-chaphama
+  
   # Import data 
   run file glue/genus/chaphama/chaphamaLoadVirusData.glue
 
   # Declare reference sequences
   run file glue/genus/chaphama/chaphamaReferences.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/genus/chaphama-refseq-feature-locations.tsv -r
 
   # Import alignments 
   run file glue/genus/chaphama/chaphamaAlignments.glue
