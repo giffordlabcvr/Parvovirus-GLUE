@@ -1,6 +1,6 @@
 
-// Delete custom-table table rows for chaphama genus extension sequences
- var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'ncbi-refseqs-chaphama'"]));	
+// Delete custom-table table rows for icthama genus extension sequences
+ var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'ncbi-refseqs-icthama'"]));	
  	 
  _.each(resultList,function(resultObj) {
 

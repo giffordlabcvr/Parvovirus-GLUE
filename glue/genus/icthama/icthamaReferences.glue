@@ -1,5 +1,4 @@
   # Declare Icthamavirus parvovirus reference sequences
-  create reference REF_Icthama_CChPV            ncbi-refseqs-chaphama MH670587
-  create reference REF_Icthama_MkPV             ncbi-refseqs-chaphama MG846443
-  
+  create reference REF_Icthama_IcthPV  ncbi-refseqs MN162688
+ 
    

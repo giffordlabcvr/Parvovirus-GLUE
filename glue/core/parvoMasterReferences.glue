@@ -11,7 +11,6 @@
   create reference REF_MASTER_Tetra_EhBtPV1       ncbi-refseqs NC_016744
   create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
   create reference REF_MASTER_Lori_SlPV           ncbi-refseqs KP120516
-  create reference REF_MASTER_Arti_IcthPV         ncbi-refseqs MN162688
 
  
   ## Densovirinae    
