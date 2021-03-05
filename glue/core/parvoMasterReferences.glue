@@ -24,7 +24,7 @@
   create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
   create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
   create reference REF_MASTER_Chaphama_PPV7       ncbi-refseqs NC_040562
-  create reference REF_MASTER_Icthama_SynChPV     ncbi-refseqs MN049932
+  create reference REF_MASTER_Ichthama_SynChPV     ncbi-refseqs MN049932
 
 
 
@@ -180,6 +180,7 @@
     exit
 
 
+  # Proto
   reference REF_MASTER_Proto_CPV
  
  	add feature-location whole_genome
@@ -205,6 +206,7 @@
     exit
 
 
+  # Tetra
   reference REF_MASTER_Tetra_EhBtPV1
  
  	add feature-location whole_genome
@@ -225,6 +227,8 @@
     exit
 
 
+
+  # Hepandenso
   reference REF_MASTER_Hepandenso_FCDNV
  
  	add feature-location whole_genome
@@ -247,7 +251,7 @@
 
 
 
-  # Add feature locations to genus master reference sequences
+  # Chaphama
   reference REF_MASTER_Chaphama_PPV7
  
  	add feature-location whole_genome
@@ -276,5 +280,55 @@
 	  exit
     
     exit
+
+
+
+  # Ichthama
+  reference REF_MASTER_Ichthama_SynChPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4001
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 215
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 216 2639
+	  exit
+
+ 	add feature-location ORF1
+	feature-location ORF1
+	  add segment 352 810
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2626 3720
+	  exit
+
+ 	add feature-location NP
+	feature-location NP
+	  add segment 1852 2562
+	  exit
+
+ 	add feature-location ORF6
+	feature-location ORF6
+	  add segment 3177 3884
+	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 3885 4001
+	  exit
+    
+    exit
+
+
+
 
 

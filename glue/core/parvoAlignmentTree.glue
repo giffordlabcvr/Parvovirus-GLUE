@@ -58,8 +58,8 @@
 	extract child AL_GENUS_Chaphama --r REF_MASTER_Chaphama_PPV7
 	demote member AL_GENUS_Chaphama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
   
-	extract child AL_GENUS_Icthama --r REF_MASTER_Icthama_SynChPV
-	demote member AL_GENUS_Icthama --whereClause "sequence.genus = 'Icthamaparvovirus'"
+	extract child AL_GENUS_Ichthama --r REF_MASTER_Ichthama_SynChPV
+	demote member AL_GENUS_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
 	
     exit
 
