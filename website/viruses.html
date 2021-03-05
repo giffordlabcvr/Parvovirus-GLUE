@@ -31,18 +31,31 @@
 
 
 	   <h3>
-		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background</strong>
-	   </h3>	 
-       <hr>
+		 <a id="GlueProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of parvoviruses using Parvoviridae-GLUE</strong>
+	   </h3>
+	   <hr>
+	   
+	   
+	   <p>
+         Parvoviridae-GLUE is a data resource designed to facilitate comparative analysis of
+         parvovirus genomes. It was created using the <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
+         software environment. 
+	   </p>
 
-		 <p>
-		 Three subfamilies are currently recognised within the family:
-		 
-		 <ol>
-		   <li><a href="">Parvovirinae</li> 
-		   <li><a href="">Epiparvovirinae</li> 
-		   <li><a href="">Densovirinae</li> 
-		 </ol>
+
+	   <p>
+
+         The Parvoviridae-GLUE project not only contains data items required for
+         comparative genomic analysis
+         - i.e. virus genome sequences, multiple sequence alignments, genome feature annotations, and other
+         sequence-associated data -
+         but also, loading the project into the GLUE software framework
+         creates a relational database that represents the semantic relationships
+         between these data items. This creates powerful framework for performing
+         <i>standardised</i> comparative analysis, via GLUE's command layer.
+	   </p>
+
+
 
 
 
@@ -121,6 +134,110 @@
 		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/virus/root">Viruses and EVE reference sequences</a></li> 
 		 </ol>
 	   </p>
+
+
+
+
+
+	   <br>
+	   <h3>
+		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Parvovirus reference sequences</strong>
+	   </h3>
+	   <hr>
+
+
+
+		 <p>
+		 Three subfamilies are currently recognised within the family:
+		 
+		 <ol>
+		   <li><a href="">Parvovirinae</a> </li>
+		   <li><a href="">Epiparvovirinae</a> </li> 
+		   <li><a href="">Densovirinae</a> </li> 
+		 </ol>
+
+
+
+		  We used GLUE to derive annotated reference sequences for all known parvovirus species.
+		  Reference sequences are linked to auxiliary data in		 
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/tabular/core/parvo-ncbi-refseqs-side-data.tsv"><b>tabular format</b></a>.
+		</p>
+		
+		<p>
+
+ 		  For each parvoviral genus, we defined a 'master' reference sequence, as follows:
+		  <ul>
+		    <li><b><i>Protoparvovirus</i></b>: Hepatitis B virus, strain ayw (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_003977"><b>NC_003977</b></a>)</li>
+		    <li><b><i>Aviparvovirus</i></b>: Duck hepatitis B virus, isolate DHBVQCA34 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001344"><b>NC_001344</b></a>)</li>
+		    <li><b><i>Herpetoparvovirus</i></b>: Tibetan frog hepatitis B virus, isolate 243398 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030446"><b>NC_030446</b></a>)</li>
+		    <li><b><i>Metaparvovirus</i></b>: Bluegill hepatitis B virus (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030445"><b>NC_030445</b></a>)</li>
+		    <li><b><i>Paraparvovirus</i></b>: White sucker parvovirus, isolate RR173 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_027922"><b>NC_027922</b></a>)</li>
+		  </ul>
+
+		</p>
+		
+		<p>
+
+          We explicitly defined the locations of genome features
+          on master reference sequences
+          (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/core/parvoviridaeExplicitFeatureLocations.glue">here</b></a>).
+		  
+ 		</p>
+        
+
+
+	   <br>
+	   <h3>
+		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments</strong>
+	   </h3>
+	   <hr>
+
+
+		<p>
+          Multiple sequence alignment constructed in this study are linked together using
+          GLUE's 
+          ‘<a href="./alignmentTree.html">alignment tree</a>’
+          data structure. Alignments in the project include:
+         
+		  
+		  <ol>
+			<li> A ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/alignments/root/parvoviridae.aln.fna"><strong>root</strong></a>’
+			alignment constructed to represent proposed
+			homologies between representative members of major parvovirus lineages</li>
+			<li> ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/alignments/internal/"><strong>genus-level</strong></a>’
+			alignments constructed to represent proposed homologies between the genomes of
+			representative members of specific parvovirus genera.</li>
+		  </ol>
+         
+ 		</p>
+
+
+
+	   <br>
+	   <h3>
+		 <a id="Phylogenetic trees" class="anchor" href="#PhylogeneticTrees" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Phylogenetic trees</strong>
+	   </h3>
+	   <hr>
+
+
+		<p>
+
+          We used GLUE to implement an automated process for deriving midpoint rooted,
+          annotated trees from the alignments included in our project.
+ 		</p>
+
+
+		<p>
+          Trees were constructed at distinct taxonomic levels:
+        
+		  <ol>
+			<li> Recursively populated <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/trees/main-root"><strong>root</strong></a> phylogeny (Rep)</li>
+			<li> <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/trees/main-genus"><strong>Genus-level</strong></a> phylogenies</li>
+		  </ol>
+
+ 		</p>
+
+
 
 
 
