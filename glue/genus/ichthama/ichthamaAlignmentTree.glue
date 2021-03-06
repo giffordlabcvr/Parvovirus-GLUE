@@ -1,12 +1,12 @@
-  ### Constrained alignment tree for the Icthamaparvovirus genus
+  ### Constrained alignment tree for the Ichthamaparvovirus genus
 
   #~# Root level (Genus)
 
-  alignment AL_GENUS_Icthama add member  --whereClause "genus = 'Icthamaparvovirus'"
+  alignment AL_GENUS_Ichthama add member  --whereClause "genus = 'Ichthamaparvovirus'"
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_GENUS_Icthama
-    derive segments AL_UNC_ICTHAMA_ROOT -a --mergeStrategy OVERWRITE
+  alignment AL_GENUS_Ichthama
+    derive segments AL_UNC_ICHTHAMA_ROOT -a --mergeStrategy OVERWRITE
     exit
 

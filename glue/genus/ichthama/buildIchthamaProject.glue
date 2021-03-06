@@ -25,7 +25,7 @@
   run file glue/genus/ichthama/ichthamaRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/genus/ichthama/ichthamaCreateRootPhylogenies.glue
+  #run file glue/genus/ichthama/ichthamaCreateRootPhylogenies.glue
 
   # Validate
   validate

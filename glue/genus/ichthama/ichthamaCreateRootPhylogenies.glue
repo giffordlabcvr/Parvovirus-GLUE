@@ -1,6 +1,6 @@
   # Clean up from any previous run of this file
-  delete alignment AL_UNC_ICTHAMA_ROOT_NS
-  delete alignment AL_UNC_ICTHAMA_ROOT_VP
+  delete alignment AL_UNC_ICHTHAMA_ROOT_NS
+  delete alignment AL_UNC_ICHTHAMA_ROOT_VP
   
   delete module fastaAlignmentExporter
   delete module parvoTreeAlignmentImporterNucs
@@ -13,39 +13,39 @@
 
   # Export the gene alignments 
   module fastaAlignmentExporter
-    export AL_GENUS_Icthama -r REF_MASTER_Icthama_PPV7 -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/icthama-root-rep78.aln.fna
- 	export AL_GENUS_Icthama -r REF_MASTER_Icthama_PPV7 -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/icthama-root-vp1.aln.fna
+    export AL_GENUS_Ichthama -r REF_MASTER_Ichthama_SynChPV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/ichthama-root-rep78.aln.fna
+ 	export AL_GENUS_Ichthama -r REF_MASTER_Ichthama_SynChPV -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/ichthama-root-vp1.aln.fna
  	exit
 
   # Import the alignments to GLUE
-  module parvoTreeAlignmentImporterNucs import AL_UNC_ICTHAMA_ROOT_NS -f alignments/tree/icthama-root-rep78.aln.fna
-  module parvoTreeAlignmentImporterNucs import AL_UNC_ICTHAMA_ROOT_VP -f alignments/tree/icthama-root-vp1.aln.fna
+  module parvoTreeAlignmentImporterNucs import AL_UNC_ICHTHAMA_ROOT_NS -f alignments/tree/ichthama-root-rep78.aln.fna
+  module parvoTreeAlignmentImporterNucs import AL_UNC_ICHTHAMA_ROOT_VP -f alignments/tree/ichthama-root-vp1.aln.fna
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_ICTHAMA_ROOT_NS -a -o trees/genus-level/icthama-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_ICTHAMA_ROOT_VP -a -o trees/genus-level/icthama-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_ICHTHAMA_ROOT_NS -a -o trees/genus-level/ichthama-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_ICHTHAMA_ROOT_VP -a -o trees/genus-level/ichthama-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
   module phyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/genus-level/icthama-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus-level/ichthama-root-rep78.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus-level/icthama-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/genus-level/ichthama-root-rep78.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus-level/icthama-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus-level/ichthama-root-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus-level/icthama-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/genus-level/ichthama-root-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
   module parvoFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_ICTHAMA_ROOT_NS -f trees/genus-level/icthama-root-rep78.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_ICTHAMA_ROOT_VP -f trees/genus-level/icthama-root-vp1.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_ICHTHAMA_ROOT_NS -f trees/genus-level/ichthama-root-rep78.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_ICHTHAMA_ROOT_VP -f trees/genus-level/ichthama-root-vp1.figtree-annotations.tsv
 
   exit
 
