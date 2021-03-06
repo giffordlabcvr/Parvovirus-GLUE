@@ -17,7 +17,10 @@
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/genus/dependo-refseq-feature-locations.tsv -r
 
-  # Import alignments and define constrained alignment tree 
+  # Import alignments
+  run file glue/genus/dependo/dependoAlignments.glue
+
+  # Define constrained alignment tree 
   run file glue/genus/dependo/dependoAlignmentTree.glue
 
   # Record feature coverage in alignments

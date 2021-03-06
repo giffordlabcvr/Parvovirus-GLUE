@@ -36,7 +36,7 @@ project parvoviridae
   run file glue/eve/erythyro/buildErythyroPaleoProject.glue
   run file glue/eve/proto/buildProtoPaleoProject.glue
   #run file glue/eve/dependo/buildDependoPaleoProject.glue
-  run file glue/eve/ichthama/buildIchthamaProject.glue
+  run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
   
 exit
 

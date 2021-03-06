@@ -3,7 +3,7 @@
   module unconstrainedAlignmentImporter 
 
     #~# Genus-level alignment
-    import AL_UNC_AMDO_ROOT     -f alignments/internal/genus/amdo-genome.aln.fna
+    import AL_UNC_AMDO_ROOT     -f alignments/internal/genus/parvovirinae/amdo/amdo-genome.aln.fna
     
     
     exit
