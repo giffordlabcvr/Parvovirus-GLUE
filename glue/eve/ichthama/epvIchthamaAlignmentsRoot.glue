@@ -10,12 +10,12 @@
 
 	#~# Root aligns
 
-	import AL_UNC_EPV_ichthama-root   -f alignments/internal/genus/ichthama-genome+eves.aln.fna
+	import AL_UNC_EPV_ichthama-root   -f alignments/internal/genus/epiparvovirinae/ichthama/ichthama-genome+eves.aln.fna
 	exit
 
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_GENUS_Amdo
-	add member -w "source.name = 'fasta-refseqs-ichthama-epv-con'"
+	add member -w "source.name = 'fasta-refseqs-ichthama-epv'"
 	derive segments AL_UNC_EPV_ichthama-root  -a --mergeStrategy OVERWRITE
 	exit
 

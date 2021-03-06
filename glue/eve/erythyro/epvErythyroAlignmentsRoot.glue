@@ -15,7 +15,7 @@
 
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_GENUS_Erythyro
-	add member -w "source.name = 'fasta-refseqs-erythyro-epv-con'"
+	add member -w "source.name = 'fasta-refseqs-erythyro-epv'"
 	derive segments AL_UNC_EPV_erythyro-root  -a --mergeStrategy OVERWRITE
 	exit
 

@@ -10,14 +10,12 @@
 
 	#~# Root aligns
 
-	import AL_UNC_EPV_amdo-root   -f alignments/internal/genus/amdo-genome+eves.aln.fna
+	import AL_UNC_EPV_amdo-root -f alignments/internal/genus/parvovirinae/amdo/amdo-genome+eves.aln.fna
 	exit
 
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_GENUS_Amdo
-	add member -w "source.name = 'fasta-refseqs-amdo-epv-con'"
+	add member -w "source.name = 'fasta-refseqs-amdo-epv'"
 	derive segments AL_UNC_EPV_amdo-root  -a --mergeStrategy OVERWRITE
 	exit
-
-
 
