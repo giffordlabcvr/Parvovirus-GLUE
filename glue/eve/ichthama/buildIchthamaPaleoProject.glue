@@ -1,0 +1,47 @@
+  
+  # delete previous extension
+  run file glue/eve/ichthama/deletePreviousExtensionBuild.glue
+ 
+
+  
+  # Import endogenous parvoviral element (EPV) sequences
+  run file glue/eve/ichthama/epvIchthamaImportSources.glue
+  
+  # Import data for EVE sequences
+  run file glue/eve/ichthama/epvIchthamaImportData.glue
+  
+  # Declare references 
+  run file glue/eve/ichthama/epvIchthamaReferences.glue
+
+
+
+  # Set up constrained alignment tree for the EPV subclades
+  run file glue/eve/ichthama/epvIchthamaAlignmentTree.glue
+
+  # Import genus level alignments
+  run file glue/eve/ichthama/epvIchthamaAlignmentsRoot.glue
+
+
+  # Record feature coverage in root and clade-level alignments
+  run file glue/eve/ichthama/epvIchthamaRecordFeaturePresence.glue
+
+
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/eve/ichthama/epvIchthamaDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/eve/ichthama/epvIchthamaCreateTipPhylogenies.js
+
+
+
+  # Create root-level phylogenies for major genes
+  run file glue/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
+
+  # Export annotations
+  run file glue/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
+
+
+
+  # Validate
+  validate

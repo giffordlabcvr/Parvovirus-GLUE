@@ -1,4 +1,4 @@
-// list the PVe sequences
+// list the EPV sequences
 var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-digs-proto-epv'"]);
 
 // extract from the result a list of sequence IDs.
