@@ -20,8 +20,8 @@ project parvoviridae
 # Build genus-level extensions
 project parvoviridae
 
-  run file glue/genus/amdo/buildAmdoProject.glue
-  #run file glue/genus/erythyro/buildErythyroProject.glue
+  #run file glue/genus/amdo/buildAmdoProject.glue
+  run file glue/genus/erythyro/buildErythyroProject.glue
   #run file glue/genus/proto/buildProtoProject.glue
   #run file glue/genus/dependo/buildDependoProject.glue
   #run file glue/genus/chaphama/buildChaphamaProject.glue
@@ -32,8 +32,8 @@ exit
 # Build genus-level extensions
 project parvoviridae
 
-  run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  #run file glue/eve/erythyro/buildErythyroPaleoProject.glue
+  #run file glue/eve/amdo/buildAmdoPaleoProject.glue
+  run file glue/eve/erythyro/buildErythyroPaleoProject.glue
   #run file glue/eve/proto/buildProtoPaleoProject.glue
   #run file glue/eve/dependo/buildDependoPaleoProject.glue
   #run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
