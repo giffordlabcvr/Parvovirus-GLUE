@@ -3,7 +3,7 @@
   module unconstrainedAlignmentImporter 
 
     #~# Root-level alignments
-    import AL_UNC_CHAPHAMA_ROOT  -f alignments/internal/genus/epiparvovirinae/chaphama/chaphama-genome.aln.fna
+    import AL_UNC_CHAPHAMA_ROOT  -f alignments/internal/genus/hamaparvovirinae/chaphama/chaphama-genome.aln.fna
     
     #~# Internal node deep splits 
     

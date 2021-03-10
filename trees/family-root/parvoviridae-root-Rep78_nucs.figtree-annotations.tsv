@@ -1,7 +1,6 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/KP120516	KP120516	SlPV	Slow loris parvovirus 1	Parvovirinae	Loriparvovirus	not-set	not-set	not-set	not-set	-	Nycticebus coucang	-	USA: North Carolina
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN049932	MN049932	SyngChPV	Syngnathus scovelli chapparvovirus	Hamaparvovirinae	Ichthamaparvovirus	not-set	not-set	not-set	not-set	-	Syngnathus scovelli	-	USA
-alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN162688	MN162688	IcthPV	Ichthyic parvovirus	Hamaparvovirinae	Ichthamaparvovirus	not-set	not-set	not-set	not-set	HMU-HKU 1	Tilapia	-	China
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000883	NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	not-set	not-set	not-set	not-set	J35	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000936	NC_000936	PfDNV	Periplaneta fuliginosa densovirus	Densovirinae	Pefuambidensovirus	not-set	not-set	not-set	not-set	-	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001401	NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	-	-	-	-

@@ -3,7 +3,7 @@
   module unconstrainedAlignmentImporter 
 
     #~# Root-level alignments
-    import AL_UNC_ICHTHAMA_ROOT  -f alignments/internal/genus/epiparvovirinae/ichthama/ichthama-genome.aln.fna
+    import AL_UNC_ICHTHAMA_ROOT  -f alignments/internal/genus/hamaparvovirinae/ichthama/ichthama-genome.aln.fna
     
     #~# Internal node deep splits 
     

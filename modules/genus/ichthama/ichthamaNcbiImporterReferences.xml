@@ -6,6 +6,7 @@
   <specificPrimaryAccessions>
 
 	<!-- <primaryAccession>MN049932</primaryAccession> Master refererence Pipefish Ichthamaparvovirus is in the core project -->
+	<primaryAccession>MN162688</primaryAccession>   <!-- Ichthyic parvovirus isolate HMU-HKU -->
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

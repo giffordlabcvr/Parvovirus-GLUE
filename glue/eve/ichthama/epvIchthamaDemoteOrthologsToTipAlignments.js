@@ -4,7 +4,7 @@
 // EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/epv-amdo-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/epv-ichthama-refseqs-side-data.tsv";
 var rootAlignment = 'AL_Parvoviridae_MASTER';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -16,7 +16,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load DIGS hit data from tabular file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-amdo-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-ichthama-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult1);
 });
 
@@ -46,7 +46,7 @@ function process_source(loadResult) {
 		if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
 			// Does an alignment exist for this locus ID
-			var alignmentName = locus_name.replace("amdo.", "AL_EPV-AMDO-");
+			var alignmentName = locus_name.replace("ichthama.", "AL_EPV-ICHTHAMA-");
 
 			// Get the taxonomy 
 			var locusObj    = epvRefseqResultMap[locus_numeric_id];
@@ -66,8 +66,8 @@ function process_source(loadResult) {
 			}
 			else {
 				
-				if (assign_subclade == 'Amdoparvovirus') {				
-					parentAlignmentName = "AL_GENUS_Amdo";				
+				if (assign_subclade == 'Ichthamaparvovirus') {				
+					parentAlignmentName = "AL_GENUS_Ichthama";				
 				}
 				else {
 					parentAlignmentName = "AL_" + assign_subclade;

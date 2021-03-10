@@ -9,19 +9,17 @@
 
   alignment AL_Parvoviridae_MASTER
   
-	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.subfamily = 'Parvovirinae'"
-	demote member AL_Parvovirinae   --whereClause "sequence.source.name = 'fasta-digs-ichthama-epv' and sequence.subfamily = 'Parvovirinae'"
-	#demote member AL_Parvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-ichthama-epv' and sequence.subfamily = 'Parvovirinae'"	
+	demote member AL_Hamaparvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"
+	demote member AL_Hamaparvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"	
     exit
 
 
   #~# Subfamily
 
-  alignment AL_Parvovirinae
+  alignment AL_Hamaparvovirinae
   
-	demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.genus = 'Amdoparvovirus'"	
-	demote member AL_GENUS_Amdo  --whereClause "sequence.source.name = 'fasta-digs-ichthama-epv' and sequence.genus = 'Amdoparvovirus'"
-	#demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'ncbi-refseqs-ichthama-epv' and sequence.genus = 'Amdoparvovirus'"	
+	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
+	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'ncbi-refseqs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
     exit
 
   

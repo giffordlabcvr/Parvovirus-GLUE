@@ -7,7 +7,6 @@
 
   # Import sources 
   import source sources/ncbi-refseqs-ichthama
-  import source sources/fasta-refseqs-ichthama
   
   # Import data 
   run file glue/genus/ichthama/ichthamaLoadVirusData.glue

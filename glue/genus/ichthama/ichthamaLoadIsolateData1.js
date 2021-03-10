@@ -1,7 +1,7 @@
 var masterRef = 'MN049932';
 
-// list the sequences in source ncbi-refseqs-icthama
-var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-icthama' and genus = 'Ichthamaparvovirus'"]);
+// list the sequences in source ncbi-refseqs-ichthama
+var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-ichthama' and genus = 'Ichthamaparvovirus'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
