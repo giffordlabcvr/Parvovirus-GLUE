@@ -4,13 +4,12 @@
   #~# Root (Family)  
   alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-ichthama-epv'"
   alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-ichthama-epv'"
-  #alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-ichthama-epv'"
- 
+
 
   alignment AL_Parvoviridae_MASTER
   
 	demote member AL_Hamaparvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"
-	demote member AL_Hamaparvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"	
+	demote member AL_Hamaparvovirinae  --whereClause "sequence.source.name = 'fasta-digs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"
     exit
 
 
@@ -19,7 +18,7 @@
   alignment AL_Hamaparvovirinae
   
 	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
-	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'ncbi-refseqs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
+	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'fasta-digs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
     exit
 
   
