@@ -16,7 +16,7 @@ glue.inMode("module/tabularUtility", function() {
 _.each(loadResult, function(eveObj) {
 
     var locus_numeric_id = eveObj.locus_numeric_id;
-	//glue.log("INFO", "LOADED EPV INFO ", eveObj);
+	glue.log("INFO", "LOADED EPV INFO ", eveObj);
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
 		glue.log("INFO", "Entering locus data for sequence:", eveObj.sequenceID);

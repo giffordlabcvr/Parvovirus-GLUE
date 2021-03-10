@@ -2,22 +2,23 @@
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-refseqs-side-data.tsv"]));
-    //glue.log("INFO", "load result was:", loadResult);
+    glue.log("INFO", "load result was:", loadResult);
 });
 
 _.each(loadResult, function(eveObj) {
 
+	glue.log("INFO", "LOADED reference EPV INFO ", eveObj);
     var source_name = eveObj.source_name
 	glue.inMode("custom-table-row/refcon_data/"+eveObj.sequenceID, function() {
 	
 		glue.log("INFO", "Entering locus data for EVE reference:", eveObj.sequenceID);
 
 		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
-		glue.command(["set", "field", "host_group_taxlevel", eveObj.host_group_taxlevel]);
-		glue.command(["set", "field", "host_group_name", eveObj.host_group_name]);
-		glue.command(["set", "field", "nearest_upstream_orf", eveObj.nearest_upstream_orf]);
-		glue.command(["set", "field", "nearest_downstream_orf", eveObj.nearest_downstream_orf]);
-		glue.command(["set", "field", "human_chr", eveObj.human_chr]);
+		glue.command(["set", "field", "host_group_taxlevel", eveObj.host_group_tax_rank]);
+		//glue.command(["set", "field", "host_group_name", eveObj.host_group_name]);
+		//glue.command(["set", "field", "nearest_upstream_orf", eveObj.nearest_upstream_orf]);
+		//glue.command(["set", "field", "nearest_downstream_orf", eveObj.nearest_downstream_orf]);
+		//glue.command(["set", "field", "human_chr", eveObj.human_chr]);
 
 	});
 
