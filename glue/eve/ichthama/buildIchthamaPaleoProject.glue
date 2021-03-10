@@ -2,6 +2,9 @@
   # delete previous extension
   run file glue/eve/ichthama/deletePreviousExtensionBuild.glue
  
+  # Create modules
+  run file glue/eve/ichthama/epvIchthamaModules.glue
+ 
 
   
   # Import endogenous parvoviral element (EPV) sequences
@@ -35,7 +38,7 @@
 
 
   # Create root-level phylogenies for major genes
-  #run file glue/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
+  run file glue/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
 
   # Export annotations
   #run file glue/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
