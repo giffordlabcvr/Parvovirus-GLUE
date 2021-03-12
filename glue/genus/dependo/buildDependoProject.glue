@@ -6,7 +6,7 @@
   run file glue/genus/dependo/dependoModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs-dependo
+  import source sources/genus/dependo/ncbi-refseqs-dependo
 
   # Import data 
   run file glue/genus/dependo/dependoLoadVirusData.glue

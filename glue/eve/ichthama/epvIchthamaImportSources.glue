@@ -1,2 +1,2 @@
-  import source sources/fasta-refseqs-ichthama-epv/
-  import source sources/fasta-digs-ichthama-epv/
+  import source sources/genus/ichthama/fasta-refseqs-ichthama-epv/
+  import source sources/genus/ichthama/fasta-digs-ichthama-epv/

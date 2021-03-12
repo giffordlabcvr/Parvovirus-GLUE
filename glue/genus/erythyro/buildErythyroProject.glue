@@ -6,8 +6,8 @@
   run file glue/genus/erythyro/erythyroModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs-erythyro
-  import source sources/fasta-refseqs-erythyro
+  import source sources/genus/erythyro/ncbi-refseqs-erythyro
+  import source sources/genus/erythyro/fasta-refseqs-erythyro
 
   # Import data 
   run file glue/genus/erythyro/erythyroImportVirusData.glue

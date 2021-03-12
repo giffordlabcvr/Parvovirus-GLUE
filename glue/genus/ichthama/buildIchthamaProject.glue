@@ -6,7 +6,7 @@
   run file glue/genus/ichthama/ichthamaModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs-ichthama
+  import source sources/genus/ichthama/ncbi-refseqs-ichthama
   
   # Import data 
   run file glue/genus/ichthama/ichthamaLoadVirusData.glue

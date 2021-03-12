@@ -3,7 +3,7 @@
   run file glue/core/parvoModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs
+  import source sources/core/ncbi-refseqs
 
   # Import data 
   run file glue/core/parvoImportData.glue

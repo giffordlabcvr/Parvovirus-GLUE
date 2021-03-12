@@ -6,8 +6,8 @@
   run file glue/genus/chaphama/chaphamaModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs-chaphama
-  import source sources/fasta-refseqs-chaphama
+  import source sources/genus/chaphama/ncbi-refseqs-chaphama
+  import source sources/genus/chaphama/fasta-refseqs-chaphama
   
   # Import data 
   run file glue/genus/chaphama/chaphamaLoadVirusData.glue

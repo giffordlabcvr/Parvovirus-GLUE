@@ -6,7 +6,7 @@
   run file glue/genus/proto/protoModules.glue
 
   # Import sources 
-  import source sources/ncbi-refseqs-proto
+  import source sources/genus/proto/ncbi-refseqs-proto
 
   # Import data 
   run file glue/genus/proto/protoLoadVirusData.glue
