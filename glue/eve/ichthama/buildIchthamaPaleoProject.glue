@@ -38,7 +38,7 @@
 
 
   # Create root-level phylogenies for major genes
-  run file glue/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
+  #run file glue/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
 
   # Export annotations
   #run file glue/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
