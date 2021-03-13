@@ -1,4 +1,4 @@
-var refconDataPath = "tabular/eve/epv-dependo-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/parvovirinae/epv-dependo-refseqs-side-data.tsv";
 var source_name = 'ncbi-curated-dependo-epv';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -10,7 +10,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-dependo-ncbi-curated.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-dependo-ncbi-curated.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 

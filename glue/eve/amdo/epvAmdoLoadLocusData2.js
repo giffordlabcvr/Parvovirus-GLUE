@@ -9,7 +9,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load EVE side data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-amdo-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-amdo-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 

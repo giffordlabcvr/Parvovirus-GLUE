@@ -1,4 +1,4 @@
-var refconDataPath = "tabular/eve/epv-ichthama-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/hamaparvovirinae/epv-ichthama-refseqs-side-data.tsv";
 var source_name = 'fasta-digs-ichthama-epv';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -9,7 +9,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load EVE side data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-ichthama-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/hamaparvovirinae/epv-ichthama-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 
