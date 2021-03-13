@@ -11,7 +11,7 @@ _.each(loadResult, function(eveObj) {
     var source_name = eveObj.source_name
 	glue.inMode("custom-table-row/refcon_data/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus data for EVE reference:", eveObj.sequenceID);
+		//glue.log("INFO", "Entering locus data for EVE reference:", eveObj.sequenceID);
 
 		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
 		glue.command(["set", "field", "host_group_taxlevel", eveObj.host_group_tax_rank]);
