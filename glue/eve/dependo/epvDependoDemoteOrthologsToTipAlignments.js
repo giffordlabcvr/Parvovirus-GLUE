@@ -71,7 +71,7 @@ function process_source(loadResult) {
 			var assign_subclade = locusObj.assign_subclade;
 		
 			var parentAlignmentName;
-			if (assign_clade == 'NK') {	// Skip references that havent been assigned to a clade			
+			if (assign_clade == 'NK' || assign_subclade == 'NK') {	// Skip references that havent been assigned to a clade			
 
 			}
 			else {
