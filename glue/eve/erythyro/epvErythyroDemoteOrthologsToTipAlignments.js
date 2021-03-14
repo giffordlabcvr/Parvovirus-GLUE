@@ -4,7 +4,7 @@
 // EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/epv-erythyro-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/parvovirinae/epv-erythyro-refseqs-side-data.tsv";
 var rootAlignment = 'AL_Parvoviridae_MASTER';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -16,7 +16,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load DIGS hit data from tabular file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-erythyro-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-erythyro-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult1);
 });
 

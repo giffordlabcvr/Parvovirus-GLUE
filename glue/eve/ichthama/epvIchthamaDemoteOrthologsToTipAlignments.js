@@ -4,7 +4,7 @@
 // EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/epv-ichthama-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/parvovirinae/epv-ichthama-refseqs-side-data.tsv";
 var rootAlignment = 'AL_Parvoviridae_MASTER';
 
 // Load the refcon data and store relationships between locus and viral taxonomy

@@ -11,7 +11,7 @@
 	import AL_UNC_EPV_DEPENDO-root   -f alignments/internal/genus/parvovirinae/dependo/dependo-genome+eves.aln.fna
 
 	#~# Internal aligns
-	import AL_UNC_EPV_DEPENDO-A   -f alignments/internal/genus/parvovirinae/dependo-a-eve.aln.fna
+	import AL_UNC_EPV_DEPENDO-A   -f alignments/internal/genus/parvovirinae/dependo/dependo-a-eve.aln.fna
 
 	exit
 
