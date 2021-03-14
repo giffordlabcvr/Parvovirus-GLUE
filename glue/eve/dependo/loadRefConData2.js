@@ -7,7 +7,7 @@ glue.inMode("module/tabularUtility", function() {
 
 _.each(loadResult, function(eveObj) {
 
-	glue.log("INFO", "LOADED reference EPV INFO ", eveObj);
+	//glue.log("INFO", "LOADED reference EPV INFO ", eveObj);
     var source_name = eveObj.source_name
 	glue.inMode("custom-table-row/refcon_data/"+eveObj.sequenceID, function() {
 	

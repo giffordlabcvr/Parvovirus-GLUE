@@ -43,7 +43,7 @@ _.each(loadResult, function(eveObj) {
 
 		// Get the taxonomy 
 		var epvRefConObj = epvRefseqResultMap[locus_numeric_id];
-		glue.log("INFO", "LOADED REFCON INFO ", epvRefConObj);
+		//glue.log("INFO", "LOADED REFCON INFO ", epvRefConObj);
 
 
 	
