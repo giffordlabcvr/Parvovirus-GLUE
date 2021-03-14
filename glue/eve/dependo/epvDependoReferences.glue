@@ -25,6 +25,7 @@
   create reference REF_EPV_dependo.27-eulemur            fasta-refseqs-dependo-epv  dependo.27-eulemur
   create reference REF_EPV_dependo.28-daubentonia        fasta-refseqs-dependo-epv  dependo.28-daubentonia
 
+  create reference REF_EPV_dependo.36-pteronotus         fasta-refseqs-dependo-epv  dependo.36-pteronotus
   create reference REF_EPV_dependo.40-phyllostomidae     fasta-refseqs-dependo-epv  dependo.40-phyllostomidae
 
   create reference REF_EPV_dependo.42-chinchilla         fasta-refseqs-dependo-epv  dependo.42-chinchilla
