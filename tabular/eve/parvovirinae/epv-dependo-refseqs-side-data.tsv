@@ -35,7 +35,6 @@ dependo.48-mus	yes	48	species	Mus	rep	nk	nk	no	Dependo3	Dependo_B	Dependo3	Depen
 dependo.49-apodemus	yes	49	species	Apodemus	nk	1	1	no	NK	NK	NK	NK	NK	NK	no	nk	NK	NK	NK		NA	dependo.49-apodemus	dependo.49-apodemus	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.50-muridae	yes	50	family	Muridae	nk	nk	nk	no	NK	NK	NK	NK	NK	NK	no	nk	Pdzrn4	Pdzrn4	NK		NA	dependo.50-muridae	dependo.50-muridae	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.51-muridae	yes	51	family	Muridae	rep	4	4	no	NK	NK	NK	NK	NULL	NULL	no	nk	Eif4b	ENSMSIG00000016524	NK		NA	dependo.51-muridae	dependo.51-muridae	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
-dependo.53-fukomys	yes	53	species	Fukomys	rep	1	1	no	Dependo3	Glires	Dependo3	Glires	NULL	NULL	no	nk	NK	NK	NK		NA	dependo.53-fukomys	dependo.53-fukomys	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.54-cavia	yes	54	genus	Cavia	rep	3	3	no	Dependo3	Glires	Dependo3	Glires	NK	NK	no	nk	RBFOX2	Myo9-copy	NK		NA	dependo.54-cavia	dependo.54-cavia	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.55-rodent	yes	55	order	Rodents	rep	nk	nk	no	NK	NK	NK	NK	NULL	NULL	no	nk	ADNP	PARD6B	NK		NA	dependo.55-rodent	dependo.55-rodent	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.56-cavia	yes	56	family	Cavidae	rep	3	3	yes	Dependo3	Glires	Dependo3	Glires	NULL	NULL	no	nk	TRAT1	MORC1	NK		NA	dependo.56-cavia	dependo.56-cavia	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus

@@ -24,10 +24,8 @@
   create reference REF_EPV_dependo.26-strepsirrhini      fasta-refseqs-dependo-epv  dependo.26-strepsirrhini
   create reference REF_EPV_dependo.27-eulemur            fasta-refseqs-dependo-epv  dependo.27-eulemur
   create reference REF_EPV_dependo.28-daubentonia        fasta-refseqs-dependo-epv  dependo.28-daubentonia
-
   create reference REF_EPV_dependo.36-phyllostomidae     fasta-refseqs-dependo-epv  dependo.36-phyllostomidae
   create reference REF_EPV_dependo.37-rhinolophus        fasta-refseqs-dependo-epv  dependo.37-rhinolophus
-
   create reference REF_EPV_dependo.40-phyllostomidae     fasta-refseqs-dependo-epv  dependo.40-phyllostomidae
 
   create reference REF_EPV_dependo.42-chinchilla         fasta-refseqs-dependo-epv  dependo.42-chinchilla
@@ -38,12 +36,12 @@
   create reference REF_EPV_dependo.48-mus                fasta-refseqs-dependo-epv  dependo.48-mus
   create reference REF_EPV_dependo.51-muridae            fasta-refseqs-dependo-epv  dependo.51-muridae
   create reference REF_EPV_dependo.53-cavia              fasta-refseqs-dependo-epv  dependo.53-cavia
-  #create reference REF_EPV_dependo.54-cavia             fasta-refseqs-dependo-epv  dependo.54-cavia # enRep
-  #create reference REF_EPV_dependo.56-cavia             fasta-refseqs-dependo-epv  dependo.56-cavia
-  
+  create reference REF_EPV_dependo.54-cavia              fasta-refseqs-dependo-epv  dependo.54-cavia # enRep
+  create reference REF_EPV_dependo.56-cavia              fasta-refseqs-dependo-epv  dependo.56-cavia
+  create reference REF_EPV_dependo.86-phyllostomidae     fasta-refseqs-dependo-epv  dependo.86-phyllostomidae
+  create reference REF_EPV_dependo.180-rhinolophus       fasta-refseqs-dependo-epv  dependo.180-rhinolophus  
   create reference REF_EPV_dependo.160-gymnobelideus     fasta-refseqs-dependo-epv  dependo.160-gymnobelideus
-
-
+  create reference REF_EPV_dependo.162-macropus          fasta-refseqs-dependo-epv  dependo.162-macropus
 
   #create reference REF_EPV_dependo.191-ornithorhynchus   fasta-refseqs-dependo-epv  dependo.191-ornithorhynchus
 
