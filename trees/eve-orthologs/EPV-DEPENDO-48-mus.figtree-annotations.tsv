@@ -1,0 +1,6 @@
+taxon	sequenceID	name	locus_name	locus_numeric_id	scaffold	start_position	end_position	host_sci_name	host_class	host_superorder	host_order	host_family	host_genus
+alignment/AL_EPV-DEPENDO-48-mus/member/fasta-digs-dependo-epv/dependo.48-Mus_caroli	dependo.48-Mus_caroli	dependo.48-Mus_caroli	dependo.48-mus	48	chr8	84680344	84680580	Mus_caroli	Mammalia	Euarchontoglires	Rodentia	Muridae	Mus
+alignment/AL_EPV-DEPENDO-48-mus/member/fasta-digs-dependo-epv/dependo.48-Mus_castaneus	dependo.48-Mus_castaneus	dependo.48-Mus_castaneus	dependo.48-mus	48	chr8	93601101	93601397	Mus_castaneus	Mammalia	Euarchontoglires	Rodentia	Muridae	Mus
+alignment/AL_EPV-DEPENDO-48-mus/member/fasta-digs-dependo-epv/dependo.48-Mus_musculus	dependo.48-Mus_musculus	dependo.48-Mus_musculus	dependo.48-mus	48	chr8	95687607	95687903	Mus_musculus	Mammalia	Euarchontoglires	Rodentia	Muridae	Mus
+alignment/AL_EPV-DEPENDO-48-mus/member/fasta-digs-dependo-epv/dependo.48-Mus_spicilegus	dependo.48-Mus_spicilegus	dependo.48-Mus_spicilegus	dependo.48-mus	48	QGOO01033878.1	103128	103427	Mus_spicilegus	Mammalia	Euarchontoglires	Rodentia	Muridae	Mus
+alignment/AL_EPV-DEPENDO-48-mus/member/fasta-digs-dependo-epv/dependo.48-Mus_spretus	dependo.48-Mus_spretus	dependo.48-Mus_spretus	dependo.48-mus	48	CM004101.1	92315592	92315885	Mus_spretus	Mammalia	Euarchontoglires	Rodentia	Muridae	Mus

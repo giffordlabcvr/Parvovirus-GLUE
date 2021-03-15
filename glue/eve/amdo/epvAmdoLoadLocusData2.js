@@ -1,4 +1,4 @@
-var refconDataPath = "tabular/eve/epv-amdo-refseqs-side-data.tsv";
+var refconDataPath = "tabular/eve/parvovirinae/epv-amdo-refseqs-side-data.tsv";
 var source_name = 'fasta-digs-amdo-epv';
 
 // Load the refcon data and store relationships between locus and viral taxonomy

@@ -33,9 +33,9 @@
     demote member AL_Dependo2    --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Dependo2'"  
     demote member AL_Dependo3    --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Dependo3'"
 
-    extract child AL_Herpesvirus --refName REF_EPV_dependo.500-HHV6
-    demote member AL_Herpesvirus --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Herpesvirus'"
-    demote member AL_Herpesvirus --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv' and sequence.assign_clade = 'Herpesvirus'"
+    extract child AL_Betaherpes --refName REF_EPV_dependo.500-HHV6
+    demote member AL_Betaherpes --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Betaherpes'"
+    demote member AL_Betaherpes --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv' and sequence.assign_clade = 'Betaherpes'"
 
     exit
 
