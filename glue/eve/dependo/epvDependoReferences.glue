@@ -42,6 +42,8 @@
   create reference REF_EPV_dependo.180-rhinolophus       fasta-refseqs-dependo-epv  dependo.180-rhinolophus  
   create reference REF_EPV_dependo.160-gymnobelideus     fasta-refseqs-dependo-epv  dependo.160-gymnobelideus
   create reference REF_EPV_dependo.162-macropus          fasta-refseqs-dependo-epv  dependo.162-macropus
+  create reference REF_EPV_dependo.163-macropus          fasta-refseqs-dependo-epv  dependo.163-macropus
+  create reference REF_EPV_dependo.164-macropus          fasta-refseqs-dependo-epv  dependo.164-macropus
 
   #create reference REF_EPV_dependo.191-ornithorhynchus   fasta-refseqs-dependo-epv  dependo.191-ornithorhynchus
 
@@ -49,6 +51,9 @@
   # Avian
   create reference REF_EPV_dependo.365-passeriformes      fasta-refseqs-dependo-epv  dependo.365-passeriformes
   create reference REF_EPV_dependo.366-passeriformes      fasta-refseqs-dependo-epv  dependo.366-passeriformes
+  create reference REF_EPV_dependo.367-passeriformes      fasta-refseqs-dependo-epv  dependo.367-otididae
+  create reference REF_EPV_dependo.368-passeriformes      fasta-refseqs-dependo-epv  dependo.368-otididae
+  create reference REF_EPV_dependo.370-pelecanus      fasta-refseqs-dependo-epv  dependo.370-pelecanus
 
 
   # Herpes-integrated
