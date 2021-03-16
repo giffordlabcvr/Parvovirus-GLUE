@@ -27,7 +27,7 @@
   run file glue/genus/dependo/dependoRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/genus/dependo/dependoCreateRootPhylogenies.glue
+  run file glue/genus/dependo/dependoCreateRootPhylogenies.glue
 
   # Validate
   validate
