@@ -1,7 +1,7 @@
   # Declare protoparvovirus EVE reference sequences
   
   # Mammal
-  create reference REF_EPV_proto.1-rattus              fasta-refseqs-proto-epv  proto.1-rattus
-  create reference REF_EPV_proto.3-apodemus            fasta-refseqs-proto-epv  proto.3-apodemus
-  create reference REF_EPV_proto.2-mus_spretus         fasta-refseqs-proto-epv  proto.2-mus_spretus
-  create reference REF_EPV_proto.4-mus_spicilegus      fasta-refseqs-proto-epv  proto.4-mus_spicilegus
+  create reference REF_EPV_proto.1-RatNor      fasta-refseqs-proto-epv  proto.1-RatNor
+  create reference REF_EPV_proto.3-apodemus    fasta-refseqs-proto-epv  proto.3-apodemus
+  create reference REF_EPV_proto.2-MusSpr      fasta-refseqs-proto-epv  proto.2-MusSpr
+  create reference REF_EPV_proto.4-MusSpi      fasta-refseqs-proto-epv  proto.4-MusSpi
