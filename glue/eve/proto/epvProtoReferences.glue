@@ -8,37 +8,37 @@
   create reference REF_EPV_proto.5-GraMur      fasta-refseqs-proto-epv  proto.5-GraMur
   create reference REF_EPV_proto.101-MonDom    fasta-refseqs-proto-epv  proto.101-MonDom
 
-  create reference REF_EPV_Proto.102-Tamandua	  fasta-refseqs-proto-epv  proto.102-Tamandua
-  create reference REF_EPV_Proto.103-MonDom	      fasta-refseqs-proto-epv  proto.103-MonDom
-  create reference REF_EPV_Proto.104-MonDom	      fasta-refseqs-proto-epv  proto.104-MonDom
-  create reference REF_EPV_Proto.106-MyoCoy	      fasta-refseqs-proto-epv  proto.106-MyoCoy
-  create reference REF_EPV_Proto.107-MyoCoy	      fasta-refseqs-proto-epv  proto.107-MyoCoy
-  create reference REF_EPV_Proto.108-rodentia	  fasta-refseqs-proto-epv  proto.108-rodentia
-  create reference REF_EPV_Proto.111-Afrotheria	  fasta-refseqs-proto-epv  proto.111-Afrotheria
-  create reference REF_EPV_Proto.120-Cavia	      fasta-refseqs-proto-epv  proto.120-Cavia
-  create reference REF_EPV_Proto.121-Cavia	      fasta-refseqs-proto-epv  proto.121-Cavia
-  create reference REF_EPV_Proto.122-Cavia	      fasta-refseqs-proto-epv  proto.122-Cavia
-  create reference REF_EPV_Proto.125-HydHyd       fasta-refseqs-proto-epv  proto.125-HydHyd
-  create reference REF_EPV_Proto.126-Octodon	  fasta-refseqs-proto-epv  proto.126-Octodon
-  create reference REF_EPV_Proto.127-Capromys	  fasta-refseqs-proto-epv  proto.127-Capromys
-  create reference REF_EPV_Proto.128-Capromys	  fasta-refseqs-proto-epv  proto.128-Capromys
-  create reference REF_EPV_Proto.129-Dinomys	  fasta-refseqs-proto-epv  proto.129-Dinomys
-  create reference REF_EPV_Proto.130-Dinomys	  fasta-refseqs-proto-epv  proto.130-Dinomys
-  create reference REF_EPV_Proto.131-Ctenomys	  fasta-refseqs-proto-epv  proto.131-Ctenomys
-  create reference REF_EPV_Proto.132-Ctenomys	  fasta-refseqs-proto-epv  proto.132-Ctenomys
-  create reference REF_EPV_Proto.133-Dolichotis	  fasta-refseqs-proto-epv  proto.133-Dolichotis
-  create reference REF_EPV_Proto.134-Dolichotis	  fasta-refseqs-proto-epv  proto.134-Dolichotis
-  create reference REF_EPV_Proto.135-Octomys	  fasta-refseqs-proto-epv  proto.135-Octomys
-  create reference REF_EPV_Proto.136-Octomys	  fasta-refseqs-proto-epv  proto.136-Octomys
-  create reference REF_EPV_Proto.137-Hydrochoerus fasta-refseqs-proto-epv  proto.137-Hydrochoerus
-  create reference REF_EPV_Proto.138-Hydrochoerus fasta-refseqs-proto-epv  proto.138-Hydrochoerus
-  create reference REF_EPV_Proto.139-MyoCoy	      fasta-refseqs-proto-epv  proto.139-MyoCoy
-  create reference REF_EPV_Proto.140-MyoCoy	      fasta-refseqs-proto-epv  proto.140-MyoCoy
-  create reference REF_EPV_Proto.141-Erethizon	  fasta-refseqs-proto-epv  proto.141-Erethizon
-  create reference REF_EPV_Proto.142-Cuniculus	  fasta-refseqs-proto-epv  proto.142-Cuniculus
-  create reference REF_EPV_Proto.143-Cuniculus	  fasta-refseqs-proto-epv  proto.143-Cuniculus
-  create reference REF_EPV_Proto.144-MyoCoy	      fasta-refseqs-proto-epv  proto.144-MyoCoy
-  create reference REF_EPV_Proto.145-CteSoc	      fasta-refseqs-proto-epv  proto.145-CteSoc
+  create reference REF_EPV_Proto.102-Tamandua	  	 fasta-refseqs-proto-epv  proto.102-Tamandua
+  create reference REF_EPV_Proto.103-MonDom	      	 fasta-refseqs-proto-epv  proto.103-MonDom
+  create reference REF_EPV_Proto.104-MonDom	      	 fasta-refseqs-proto-epv  proto.104-MonDom
+  create reference REF_EPV_Proto.106-MyoCoy	      	 fasta-refseqs-proto-epv  proto.106-MyoCoy
+  create reference REF_EPV_Proto.107-MyoCoy	     	 fasta-refseqs-proto-epv  proto.107-MyoCoy
+  create reference REF_EPV_Proto.108-rodentia	  	 fasta-refseqs-proto-epv  proto.108-rodentia
+  create reference REF_EPV_Proto.111-Afrotheria	 	 fasta-refseqs-proto-epv  proto.111-Afrotheria
+  create reference REF_EPV_Proto.120-Cavia	      	 fasta-refseqs-proto-epv  proto.120-Cavia
+  create reference REF_EPV_Proto.121-Cavia	    	 fasta-refseqs-proto-epv  proto.121-Cavia
+  create reference REF_EPV_Proto.122-Cavia	      	 fasta-refseqs-proto-epv  proto.122-Cavia
+  create reference REF_EPV_Proto.125-HydHyd       	 fasta-refseqs-proto-epv  proto.125-HydHyd
+  create reference REF_EPV_Proto.126-Octodontidae 	 fasta-refseqs-proto-epv  proto.126-Octodontidae
+  create reference REF_EPV_Proto.127-Capromys	  	 fasta-refseqs-proto-epv  proto.127-Capromys
+  create reference REF_EPV_Proto.128-Capromys	  	 fasta-refseqs-proto-epv  proto.128-Capromys
+  create reference REF_EPV_Proto.129-Dinomys	  	 fasta-refseqs-proto-epv  proto.129-Dinomys
+  create reference REF_EPV_Proto.130-Dinomys	 	 fasta-refseqs-proto-epv  proto.130-Dinomys
+  create reference REF_EPV_Proto.131-Ctenomyidae	 fasta-refseqs-proto-epv  proto.131-Ctenomyidae
+  create reference REF_EPV_Proto.132-Ctenomys	  	 fasta-refseqs-proto-epv  proto.132-Ctenomys
+  create reference REF_EPV_Proto.133-Dolichotis	  	 fasta-refseqs-proto-epv  proto.133-Dolichotis
+  create reference REF_EPV_Proto.134-Dolichotis	  	 fasta-refseqs-proto-epv  proto.134-Dolichotis
+  create reference REF_EPV_Proto.135-Octodontidae	 fasta-refseqs-proto-epv  proto.135-Octodontidae
+  create reference REF_EPV_Proto.136-Octomys	  	 fasta-refseqs-proto-epv  proto.136-Octomys
+  create reference REF_EPV_Proto.137-Hydrochoerus 	 fasta-refseqs-proto-epv  proto.137-Hydrochoerus
+  create reference REF_EPV_Proto.138-Hydrochoerus 	 fasta-refseqs-proto-epv  proto.138-Hydrochoerus
+  create reference REF_EPV_Proto.139-MyoCoy	      	 fasta-refseqs-proto-epv  proto.139-MyoCoy
+  create reference REF_EPV_Proto.140-MyoCoy   	     fasta-refseqs-proto-epv  proto.140-MyoCoy
+  create reference REF_EPV_Proto.141-Erethizon	  	 fasta-refseqs-proto-epv  proto.141-Erethizon
+  create reference REF_EPV_Proto.142-Cuniculus	  	 fasta-refseqs-proto-epv  proto.142-Cuniculus
+  create reference REF_EPV_Proto.143-Cuniculus	  	 fasta-refseqs-proto-epv  proto.143-Cuniculus
+  create reference REF_EPV_Proto.144-MyoCoy	      	 fasta-refseqs-proto-epv  proto.144-MyoCoy
+  create reference REF_EPV_Proto.145-CteSoc	      	 fasta-refseqs-proto-epv  proto.145-CteSoc
   create reference REF_EPV_Proto.150-Gymnobelideus	 fasta-refseqs-proto-epv  proto.150-Gymnobelideus
   create reference REF_EPV_Proto.151-diprodontia	 fasta-refseqs-proto-epv  proto.151-diprodontia
   create reference REF_EPV_Proto.152-Sarcophilus	 fasta-refseqs-proto-epv  proto.152-Sarcophilus
@@ -70,13 +70,13 @@
   create reference REF_EPV_Proto.179-MicTal	         fasta-refseqs-proto-epv  proto.179-MicTal
   create reference REF_EPV_Proto.180-PhaCin	         fasta-refseqs-proto-epv  proto.181-PhaCin
   create reference REF_EPV_Proto.182-PhaCin	         fasta-refseqs-proto-epv  proto.182-PhaCin
-  create reference REF_EPV_Proto.183-PhaCin	 fasta-refseqs-proto-epv  proto.183-PhaCin
-  create reference REF_EPV_Proto.184-PhaCin	 fasta-refseqs-proto-epv  proto.184-PhaCin
-  create reference REF_EPV_Proto.185-PhaCin	 fasta-refseqs-proto-epv  proto.185-PhaCin
-  create reference REF_EPV_Proto.186-PhaCin	     fasta-refseqs-proto-epv  proto.186-PhaCin
-  create reference REF_EPV_Proto.187-PhaCin	     fasta-refseqs-proto-epv  proto.187-PhaCin
-  create reference REF_EPV_Proto.188-PhaCin	     fasta-refseqs-proto-epv  proto.188-PhaCin
-  create reference REF_EPV_Proto.189-rodentia	 fasta-refseqs-proto-epv  proto.189-rodentia
+  create reference REF_EPV_Proto.183-PhaCin	 	 	 fasta-refseqs-proto-epv  proto.183-PhaCin
+  create reference REF_EPV_Proto.184-PhaCin	 	 	 fasta-refseqs-proto-epv  proto.184-PhaCin
+  create reference REF_EPV_Proto.185-PhaCin	 	 	 fasta-refseqs-proto-epv  proto.185-PhaCin
+  create reference REF_EPV_Proto.186-PhaCin	     	 fasta-refseqs-proto-epv  proto.186-PhaCin
+  create reference REF_EPV_Proto.187-PhaCin	     	 fasta-refseqs-proto-epv  proto.187-PhaCin
+  create reference REF_EPV_Proto.188-PhaCin	     	 fasta-refseqs-proto-epv  proto.188-PhaCin
+  create reference REF_EPV_Proto.189-rodentia	 	 fasta-refseqs-proto-epv  proto.189-rodentia
   create reference REF_EPV_Proto.190-EchTel	 fasta-refseqs-proto-epv  proto.190-EchTel
   create reference REF_EPV_Proto.191-MyoCoy	 fasta-refseqs-proto-epv  proto.191-MyoCoy
   create reference REF_EPV_Proto.192-CteSoc	 fasta-refseqs-proto-epv  proto.192-CteSoc
