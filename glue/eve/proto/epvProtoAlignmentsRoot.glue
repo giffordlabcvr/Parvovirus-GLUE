@@ -10,7 +10,7 @@
 
 	#~# Root aligns
 
-	import AL_UNC_EPV_proto-root   -f alignments/internal/genus/proto-genome+eves.aln.fna
+	import AL_UNC_EPV_proto-root   -f alignments/internal/genus/parvovirinae/proto/proto-genome+eves.aln.fna
 	exit
 
   #~# Derive constrained alignment segments from unconstrained alignments
