@@ -26,4 +26,10 @@
 
   
   #~# Internal nodes (protoparvovirus sub-lineages) 
+  alignment AL_GENUS_Proto
+  
+    demote member AL_Proto1     --whereClause "sequence.assign_clade = 'Proto1'"
+    demote member AL_Proto2     --whereClause "sequence.assign_clade = 'Proto2'"     
+
+    exit
 

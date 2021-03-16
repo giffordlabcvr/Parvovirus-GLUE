@@ -3,12 +3,12 @@
   #~# Root level (Family)
   alignment AL_Parvoviridae_MASTER
     add member  --whereClause "source.name = 'ncbi-refseqs-amdo'"
-    demote member AL_Parvovirinae  -w "sequence.genus = 'ncbi-refseqs-amdo'"
+    demote member AL_Parvovirinae  -w  "sequence.genus = 'Amdoparvovirus'"
     exit
     
   #~# Root level (Subfamily)
   alignment AL_Parvovirinae
-    demote member AL_GENUS_Amdo  -w "sequence.genus = 'ncbi-refseqs-amdo'"
+    demote member AL_GENUS_Amdo  -w "sequence.genus = 'Amdoparvovirus'"
     exit
     
 
@@ -17,3 +17,4 @@
     derive segments AL_UNC_AMDO_ROOT -a --mergeStrategy OVERWRITE
     exit
 
+s

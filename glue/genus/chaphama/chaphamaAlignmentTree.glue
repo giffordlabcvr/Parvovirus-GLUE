@@ -1,8 +1,19 @@
   ### Constrained alignment tree for the Chaphamaparvovirus genus
 
-  #~# Root level (Genus)
+  #~# Root level (Family)
+  alignment AL_Parvoviridae_MASTER
+    add member  --whereClause "source.name = 'ncbi-refseqs-chaphama'"
+    demote member AL_Hamaparvovirinae  -w  "sequence.genus = 'Chaphamaparvovirus'"
+    exit
+    
+  #~# Subfamily level
+  alignment AL_Hamaparvovirinae
+    demote member AL_GENUS_Chaphama  -w "sequence.genus = 'Chaphamaparvovirus'"
+    exit
+    
+  #~# Genus level
+  # No sublevels yet
 
-  alignment AL_GENUS_Chaphama add member  --whereClause "genus = 'Chaphamaparvovirus'"
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
