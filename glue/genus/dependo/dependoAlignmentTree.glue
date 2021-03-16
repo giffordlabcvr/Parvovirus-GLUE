@@ -4,12 +4,12 @@
   #~# Root level (Family)
   alignment AL_Parvoviridae_MASTER
     add member  --whereClause "source.name = 'ncbi-refseqs-dependo'"
-    demote member AL_Parvovirinae  -w  "ncbi-refseqs-dependo'"
+    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
     
   #~# Subfamily level
   alignment AL_Parvovirinae
-    demote member AL_GENUS_Dependo  -w "sequence.genus = 'Dependoparvovirus'"
+    demote member AL_GENUS_Dependo  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
     
   #~# Internal nodes (Dependoparvovirus sub-lineages) 

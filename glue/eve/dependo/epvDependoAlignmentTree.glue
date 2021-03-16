@@ -9,8 +9,8 @@
 
   alignment AL_Parvoviridae_MASTER
   
-	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.subfamily = 'Parvovirinae'"
-	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv' and sequence.subfamily = 'Parvovirinae'"
+	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv'"
+	demote member AL_Parvovirinae      --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv'"
 	
     exit
 

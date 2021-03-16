@@ -3,12 +3,12 @@
   #~# Root level (Family)
   alignment AL_Parvoviridae_MASTER
     add member  --whereClause "source.name = 'ncbi-refseqs-chaphama'"
-    demote member AL_Hamaparvovirinae  -w  "sequence.genus = 'Chaphamaparvovirus'"
+    demote member AL_Hamaparvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
     
   #~# Subfamily level
   alignment AL_Hamaparvovirinae
-    demote member AL_GENUS_Chaphama  -w "sequence.genus = 'Chaphamaparvovirus'"
+    demote member AL_GENUS_Chaphama  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
     
   #~# Genus level

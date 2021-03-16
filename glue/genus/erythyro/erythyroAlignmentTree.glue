@@ -2,8 +2,8 @@
 
   #~# Root level (Family)
   alignment AL_Parvoviridae_MASTER
-    add member  --whereClause "source.name = 'ncbi-refseqs-Erythyro'"
-    demote member AL_Parvovirinae  -w  "sequence.genus = 'Erythyroparvovirus'"
+    add member  --whereClause "source.name = 'ncbi-refseqs-erythyro'"
+    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-erythyro'"
     exit
     
   #~# Root level (Subfamily)
