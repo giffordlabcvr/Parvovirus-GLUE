@@ -27,7 +27,7 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "start_position", eveObj.extract_start]);
 		glue.command(["set", "field", "end_position", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
-		glue.command(["set", "field", "host_sci_name", eveObj.organism]);
+		glue.command(["set", "field", "host_sci_name", eveObj.host_species]);
 		glue.command(["set", "field", "host_class", eveObj.host_class]);
 		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
 		glue.command(["set", "field", "host_order", eveObj.host_order]);

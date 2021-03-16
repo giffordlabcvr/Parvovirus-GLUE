@@ -12,12 +12,12 @@ project parvoviridae
   run file glue/core/parvoProjectSettings.glue
   exit
 
-# Build the core project for family Parvoviridae
+# Build the core project for family Parvoviridae (Genus master references only)
 project parvoviridae
   run file glue/core/buildParvoCoreProject.glue
   exit
 
-# Build genus-level extensions
+# Build genus-level extensions (Each includes representatives of all species within the genus)
 project parvoviridae
 
   run file glue/genus/amdo/buildAmdoProject.glue
@@ -29,7 +29,7 @@ project parvoviridae
 
 exit
 
-# Build genus-level extensions
+# Build paleovirus extensions for each genus
 project parvoviridae
 
   run file glue/eve/amdo/buildAmdoPaleoProject.glue
