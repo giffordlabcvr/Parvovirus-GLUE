@@ -48,8 +48,8 @@
   create reference REF_EPV_Proto.156-Phascolarctos	 fasta-refseqs-proto-epv  proto.156-Phascolarctos
   create reference REF_EPV_Proto.157-Gymnobelideus	 fasta-refseqs-proto-epv  proto.157-Gymnobelideus
   create reference REF_EPV_Proto.158-Macropus	     fasta-refseqs-proto-epv  proto.158-Macropus
-  create reference REF_EPV_Proto.160-Macropus	     fasta-refseqs-proto-epv  proto.160-Macropus
-  create reference REF_EPV_Proto.161-Macropus	     fasta-refseqs-proto-epv  proto.161-Macropus
+  create reference REF_EPV_Proto.160-MacEug          fasta-refseqs-proto-epv  proto.160-MacEug
+  create reference REF_EPV_Proto.161-MacEug          fasta-refseqs-proto-epv  proto.161-MacEug
   create reference REF_EPV_Proto.162-Gymnobelideus	 fasta-refseqs-proto-epv  proto.162-Gymnobelideus
   create reference REF_EPV_Proto.163-Phascolarctos	 fasta-refseqs-proto-epv  proto.163-Phascolarctos
   create reference REF_EPV_Proto.164-Macropus	     fasta-refseqs-proto-epv  proto.164-Macropus
@@ -67,7 +67,8 @@
   create reference REF_EPV_Proto.177-EreDor	         fasta-refseqs-proto-epv  proto.177-EreDor
   create reference REF_EPV_Proto.178-EreDor	         fasta-refseqs-proto-epv  proto.178-EreDor
   create reference REF_EPV_Proto.179-MicTal	         fasta-refseqs-proto-epv  proto.179-MicTal
-  create reference REF_EPV_Proto.180-PhaCin	         fasta-refseqs-proto-epv  proto.181-PhaCin
+  create reference REF_EPV_Proto.180-PhaCin	         fasta-refseqs-proto-epv  proto.180-PhaCin
+  create reference REF_EPV_Proto.181-PhaCin	         fasta-refseqs-proto-epv  proto.181-PhaCin
   create reference REF_EPV_Proto.182-PhaCin	         fasta-refseqs-proto-epv  proto.182-PhaCin
   create reference REF_EPV_Proto.183-PhaCin	 	 	 fasta-refseqs-proto-epv  proto.183-PhaCin
   create reference REF_EPV_Proto.184-PhaCin	 	 	 fasta-refseqs-proto-epv  proto.184-PhaCin
