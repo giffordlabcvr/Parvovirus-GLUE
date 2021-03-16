@@ -3,11 +3,13 @@ proto.1-rattus	1	Species	Rattus	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	
 proto.2-mus_spretus	2	Species	Mus spretus	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.3-apodemus	3	Species	Apodemus	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.4-mus_spicilegus	4	Species	Mus spicilegus	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
-proto.5-graphiurus	4	Species	Graphiurus	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
+proto.5-graphiurus	5	Species	Graphiurus	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.101-monodelphis	101	Species	Monodelphis	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.102-tamandua	102	Species	Mammal/fish	Protoparvovirus	Protoparvovirus	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	Proto-A	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.103-graphiurus	103	Species	Myocastor	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
-proto.107-Hydrochoerus	107	Species	Hydrochoerus	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
+proto.104-monodelphis	104	Species	Monodelphis	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
+proto.106-Myocastor	106	Species	Myocastor	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
+proto.107-Myocastor	107	Species	Myocastor	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.108-rodentia	108	Order	Rodentia	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.111-Afrotheria	111	Species	Afrotheria	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.120-cavia	120	Genus	Cavia	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
@@ -32,6 +34,7 @@ proto.140-Myocastor	140	Species	Myocastor	Protoparvovirus	Protoparvovirus	Proto-
 proto.141-Erethizon	141	Species	Erethizon	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.142-Cuniculus	142	Species	Cuniculus	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.143-Cuniculus	143	Species	Cuniculus	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
+proto.144-Myocastor_coypus	144	Species	Myocastor	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.150-Gymnobelideus	150	Species	Gymnobellideus	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.151-diprodontia	151	Clade	Diprodontia	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.152-Sarcophilus	152	Species	Sarcophilus	Protoparvovirus	Protoparvovirus	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	Proto-B	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
