@@ -11,7 +11,8 @@
   
   create module -f modules/core/unconstrainedAlignmentImporter.xml 
   create module -f modules/core/unconstrainedAlignmentImporterSimple.xml
-  
+  create module -f modules/core/unconstrainedAlignmentImporterSimple.xml
+    
 
   create module -t raxmlPhylogenyGenerator
   create module -t phyloUtility
