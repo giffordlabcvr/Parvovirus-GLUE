@@ -1,9 +1,17 @@
   ### Constrained alignment tree for the Dependoparvovirus genus
 
-  #~# Root level (Genus)
-  alignment AL_GENUS_Dependo add member  --whereClause "genus = 'Dependoparvovirus'"
 
-
+  #~# Root level (Family)
+  alignment AL_Parvoviridae_MASTER
+    add member  --whereClause "source.name = 'ncbi-refseqs-dependo'"
+    demote member AL_Parvovirinae  -w  "ncbi-refseqs-dependo'"
+    exit
+    
+  #~# Subfamily level
+  alignment AL_Parvovirinae
+    demote member AL_GENUS_Dependo  -w "sequence.genus = 'Dependoparvovirus'"
+    exit
+    
   #~# Internal nodes (Dependoparvovirus sub-lineages) 
 
   alignment AL_GENUS_Dependo
