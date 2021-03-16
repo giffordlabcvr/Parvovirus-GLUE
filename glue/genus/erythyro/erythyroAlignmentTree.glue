@@ -1,6 +1,18 @@
   ### Constrained alignment tree for the Erythyroparvovirus genus
 
-  #~# Root level (Genus)
+  #~# Root level (Family)
+  alignment AL_Parvoviridae_MASTER
+    add member  --whereClause "source.name = 'ncbi-refseqs-Erythyro'"
+    demote member AL_Parvovirinae  -w  "sequence.genus = 'Erythyroparvovirus'"
+    exit
+    
+  #~# Root level (Subfamily)
+  alignment AL_Parvovirinae
+    demote member AL_GENUS_Erythyro  -w "sequence.genus = 'Erythyroparvovirus'"
+    exit
+
+
+  #~# Genus level 
   alignment AL_GENUS_Erythyro add member  --whereClause "genus = 'Erythyroparvovirus'"
 
 

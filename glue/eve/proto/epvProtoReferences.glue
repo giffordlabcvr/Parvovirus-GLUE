@@ -48,7 +48,6 @@
   create reference REF_EPV_Proto.156-Phascolarctos	 fasta-refseqs-proto-epv  proto.156-Phascolarctos
   create reference REF_EPV_Proto.157-Gymnobelideus	 fasta-refseqs-proto-epv  proto.157-Gymnobelideus
   create reference REF_EPV_Proto.158-Macropus	     fasta-refseqs-proto-epv  proto.158-Macropus
-  create reference REF_EPV_Proto.159-Vombatus	     fasta-refseqs-proto-epv  proto.159-Vombatus
   create reference REF_EPV_Proto.160-Macropus	     fasta-refseqs-proto-epv  proto.160-Macropus
   create reference REF_EPV_Proto.161-Macropus	     fasta-refseqs-proto-epv  proto.161-Macropus
   create reference REF_EPV_Proto.162-Gymnobelideus	 fasta-refseqs-proto-epv  proto.162-Gymnobelideus
