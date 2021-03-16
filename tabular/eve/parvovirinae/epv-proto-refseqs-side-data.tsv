@@ -3,7 +3,7 @@ proto.1-RatNor	1	Species	Rattus	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	no	NK	
 proto.2-MusSpr	2	Species	Mus spretus	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.3-apodemus	3	Species	Apodemus	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.4-MusSpi	4	Species	Mus spicilegus	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
-proto.5-graphiurus	5	Species	Graphiurus	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
+proto.5-GraMur	5	Species	Graphiurus	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.101-MonDom	101	Species	Monodelphis	Proto2	Proto2	Proto2	Proto2	Proto2	Proto2	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.102-tamandua	102	Species	Mammal/fish	Proto1	Proto1	Proto1	Proto1	Proto1	Proto1	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
 proto.103-graphiurus	103	Species	Myocastor coypus	Proto2	Proto2	Proto2	Proto2	Proto2	Proto2	NK	NK	NK	NK	NK	fasta-refseqs-proto-epv	Parvovirinae	Protoparvovirus
