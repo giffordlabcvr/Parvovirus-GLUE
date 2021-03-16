@@ -21,7 +21,6 @@
   # Import genus level alignments
   run file glue/eve/proto/epvProtoAlignmentsRoot.glue
 
-
   # Record feature coverage in root and clade-level alignments
   run file glue/eve/proto/epvProtoRecordFeaturePresence.glue
 
