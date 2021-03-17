@@ -7,7 +7,7 @@
   create reference REF_EPV_dependo.3-lagomorpha          fasta-refseqs-dependo-epv  dependo.3-lagomorpha
   create reference REF_EPV_dependo.4-rhinocerotidae      fasta-refseqs-dependo-epv  dependo.4-rhinocerotidae 
   create reference REF_EPV_dependo.5-rhinocerotidae      fasta-refseqs-dependo-epv  dependo.5-rhinocerotidae 
-  create reference REF_EPV_dependo.6-elephantidae        fasta-refseqs-dependo-epv  dependo.6-elephantidae
+  create reference REF_EPV_dependo.6-elephas             fasta-refseqs-dependo-epv  dependo.6-elephas
   create reference REF_EPV_dependo.7-bradypus            fasta-refseqs-dependo-epv  dependo.7-bradypus
   create reference REF_EPV_dependo.8-dasypus             fasta-refseqs-dependo-epv  dependo.8-dasypus
   create reference REF_EPV_dependo.9-hyracoidea          fasta-refseqs-dependo-epv  dependo.9-hyracoidea
@@ -44,6 +44,7 @@
   create reference REF_EPV_dependo.162-macropus          fasta-refseqs-dependo-epv  dependo.162-macropus
   create reference REF_EPV_dependo.163-macropus          fasta-refseqs-dependo-epv  dependo.163-macropus
   create reference REF_EPV_dependo.164-macropus          fasta-refseqs-dependo-epv  dependo.164-macropus
+  create reference REF_EPV_dependo.174-PipPip            fasta-refseqs-dependo-epv  dependo.174-PipPip
 
   #create reference REF_EPV_dependo.191-ornithorhynchus   fasta-refseqs-dependo-epv  dependo.191-ornithorhynchus
 
