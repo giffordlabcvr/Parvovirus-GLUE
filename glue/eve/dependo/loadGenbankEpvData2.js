@@ -10,7 +10,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-dependo-ncbi-curated.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-dependo-side-data-ncbi.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -23,11 +23,11 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "locus_name", eveObj.locus_name]);
 		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
 		glue.command(["set", "field", "host_sci_name", eveObj.host_species]);
-		glue.command(["set", "field", "host_class", eveObj.host_class]);
-		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
-		glue.command(["set", "field", "host_order", eveObj.host_order]);
-		glue.command(["set", "field", "host_family", eveObj.host_family]);
-		glue.command(["set", "field", "host_genus", eveObj.host_genus]);
+		//glue.command(["set", "field", "host_class", eveObj.host_class]);
+		//glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
+		//glue.command(["set", "field", "host_order", eveObj.host_order]);
+		//glue.command(["set", "field", "host_family", eveObj.host_family]);
+		//glue.command(["set", "field", "host_genus", eveObj.host_genus]);
 
 	});
 

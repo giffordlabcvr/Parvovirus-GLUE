@@ -13,12 +13,3 @@ _.each(seqIds, function(seqId) {
     });
 });
 
-// Link the NCBI-formatted EVEs
-glue.command(["create", "custom-table-row", "refcon_data", "X59532"]);
-
-// associate the corresponding sequence with this object.
-glue.inMode("sequence/ncbi-refseqs-dependo-epv/X59532", function() {
-    
-	glue.command(["set", "link-target", "refcon_data", "custom-table-row/refcon_data/X59532"]);
-
-});
