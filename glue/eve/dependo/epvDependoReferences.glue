@@ -56,8 +56,3 @@
   create reference REF_EPV_dependo.368-passeriformes      fasta-refseqs-dependo-epv  dependo.368-otididae
   create reference REF_EPV_dependo.370-pelecanus          fasta-refseqs-dependo-epv  dependo.370-pelecanus
 
-
-  # Betaherpes Rep sequences in endogenous herpesviruses
-  create reference REF_EPV_dependo.500-eHV.carlito        fasta-refseqs-dependo-epv    dependo.500-eHV.carlito
-  create reference REF_EPV_dependo.500-eHV.mustela        fasta-refseqs-dependo-epv    dependo.500-eHV.mustela
-  
