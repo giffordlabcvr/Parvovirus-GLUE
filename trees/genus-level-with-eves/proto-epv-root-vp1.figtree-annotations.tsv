@@ -5,7 +5,7 @@ alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/JX505432	JX505432	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/KJ495710	KJ495710	TuV	Primate protoparvovirus 4	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/KJ641666	KJ641666	-	-	-	-	-	-	-	-	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/NC_001510	NC_001510	MVM	Rodent protoparvovirus 1	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs/NC_001539	NC_001539	CPV	Carnivore protoparvovirus	Parvovirinae	Protoparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs/NC_001539	NC_001539	CPV	Carnivore protoparvovirus	Parvovirinae	Protoparvovirus	Proto1	not-set	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.101-MonDom	proto.101-MonDom	proto.101-MonDom	proto.101-MonDom	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.102-Tamandua	proto.102-Tamandua	proto.102-tamandua	proto.102-tamandua	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
