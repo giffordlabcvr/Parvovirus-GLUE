@@ -16,7 +16,6 @@
     demote member AL_Dependo3    --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Dependo3'"
     demote member AL_Dependo2    --whereClause "sequence.source.name = 'ncbi-curated-dependo-epv'and sequence.assign_clade = 'Dependo3'"
 
-    demote member AL_Betaherpes --whereClause "sequence.source.name = 'fasta-digs-dependo-epv' and sequence.assign_clade = 'Betaherpes'"
     exit
 
 
