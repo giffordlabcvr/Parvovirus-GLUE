@@ -79,5 +79,3 @@ dependo.369-guarouba	yes	369	species	Guarouba	nk	nk	nk		NK	NK	NK	NK	NK	NK	no	nk	
 dependo.370-pelecanus	yes	370	species	Pelecanus	rep	1	1	yes	Dependo3	Dependo_B	NK	NK	NULL	NULL	no	nk	NK	NK	NK		NA	dependo.370-pelecanus	dependo.370-pelecanus	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.371-egretta	yes	371	species	Egretta	rep	nk	nk		NK	NK	NK	NK	NK	NK	no	nk	NK	NK	NK		NA	dependo.367-otididae	dependo.367-otididae	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
 dependo.372-opisthocomus	yes	372	species	Opisthocomus	nk	nk	nk	no	NK	NK	NK	NK	NK	NK	no	nk	CEP85L	SLC35F1	NK		NA	dependo.372-opisthocomus	dependo.372-opisthocomus	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
-dependo.500-eHV.carlito	yes	500	genus	Betaherpes	rep	1	1	yes	Betaherpes	NK	Betaherpes	NK	NULL	NULL	no	nk	NA	NA	NK	NK	NA	dependo.500-eHV.carlito	dependo.500-eHV.carlito	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus
-dependo.500-eHV.mustela	yes	500	genus	Betaherpes	rep	1	1	yes	Betaherpes	NK	Betaherpes	NK	NULL	NULL	no	nk	NA	NA	NK	NK	NA	dependo.500-eHV.mustela	dependo.500-eHV.mustela	Parvovirinae	fasta-refseqs-dependo-epv	Dependoparvovirus

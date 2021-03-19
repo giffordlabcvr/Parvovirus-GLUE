@@ -24,8 +24,11 @@
   create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
   create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
   create reference REF_MASTER_Chaphama_PPV7       ncbi-refseqs NC_040562
-  create reference REF_MASTER_Ichthama_SynChPV     ncbi-refseqs MN049932
+  create reference REF_MASTER_Ichthama_SynChPV    ncbi-refseqs MN049932
 
+
+  ## Betaherpesvirus (integrated parvo Rep gene)   
+  create reference REF_EPV_dependo.500-HHV6       ncbi-refseqs X59532
 
 
   # Add feature locations to genus master reference sequences
