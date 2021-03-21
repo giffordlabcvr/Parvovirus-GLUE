@@ -1,6 +1,5 @@
   # Declare ichthamaparvovirus EVE reference sequences
   
-  # Reptile
+  create reference REF_EPV_hippocampus              fasta-refseqs-ichthama-epv  ichthama.1-hippocampus
   create reference REF_EPV_ichthama.2-serpentes-UR  fasta-refseqs-ichthama-epv  ichthama.2-serpentes-UR
-
 
