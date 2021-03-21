@@ -1,9 +1,9 @@
-taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/amdo.1-ellobius	amdo.1-ellobius	amdo.1-ellobius	amdo.1-ellobius	Parvovirinae	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/amdo.2-ellobius	amdo.2-ellobius	amdo.2-ellobius	amdo.2-ellobius	Parvovirinae	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/MT770848	MT770848	LAPV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	-	Martes americana	-	Canada: Labrador
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs/NC_001662	NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_025825	NC_025825	RFAV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	HS-R	Nyctereutes procyonoides	-	China
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_031751	NC_031751	RpAPV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	amdo-CA1	Ailurus fulgens	-	USA
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_034445	NC_034445	SKAV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	-	Mephitis mephitis	-	Canada: British Columbia
-alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_038533	NC_038533	GFAV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	-	Urocyon cinereoargenteus	-	USA
+taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/amdo.1-ellobius	amdo.1-ellobius	amdo.1-ellobius	1	Species	-	NK	NK
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/amdo.2-ellobius	amdo.2-ellobius	amdo.2-ellobius	2	Species	-	MAFG	MAFG
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/MT770848	MT770848	LAPV	-	-	-	-	-
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs/NC_001662	NC_001662	AMDV	-	-	-	-	-
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_025825	NC_025825	RFAV	-	-	-	-	-
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_031751	NC_031751	RpAPV	-	-	-	-	-
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_034445	NC_034445	SKAV	-	-	-	-	-
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_038533	NC_038533	GFAV	-	-	-	-	-

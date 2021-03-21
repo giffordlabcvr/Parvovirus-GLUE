@@ -1,44 +1,44 @@
-taxon	sequenceID	name	locus_name	locus_numeric_id	scaffold	start_position	end_position	host_sci_name	host_class	host_superorder	host_order	host_family	host_genus
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028704	AF028704	AAV6	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028705	AF028705	AAV3B	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AX753250	AX753250	AAV9	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AY631966	AY631966	AAV11	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.0-macropus	dependo.0-macropus	dependo.0-macropus	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.1-whippomorpha	dependo.1-whippomorpha	dependo.1-whippomorpha	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.12-orycteropus	dependo.12-orycteropus	dependo.12-orycteropus	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.13-cercopithecidae	dependo.13-cercopithecidae	dependo.13-cercopithecidae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.16-canid	dependo.16-canid	dependo.16-canid	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.160-gymnobelideus	dependo.160-gymnobelideus	dependo.160-gymnobelideus	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.174-PipPip	dependo.174-PipPip	dependo.174-Pipistrellus-pipistrellus	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.180-rhinolophus	dependo.180-rhinolophus	dependo.180-Rhinolophus-sinicus	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.2-vespertilionidae	dependo.2-vespertilionidae	dependo.2-vespertilionidae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.201-thamnophis	dependo.201-thamnophis	dependo.201-thamnophis	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.220-pelusios	dependo.220-pelusios	-	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.221-pelusios	dependo.221-pelusios	dependo.221-pelusios	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.23-camelidae	dependo.23-camelidae	dependo.23-camelidae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.26-strepsirrhini	dependo.26-strepsirrhini	dependo.26-strepsirrhini	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.28-daubentonia	dependo.28-daubentonia	dependo.28-daubentonia	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.3-lagomorpha	dependo.3-lagomorpha	dependo.3-lagomorpha	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.36-phyllostomidae	dependo.36-phyllostomidae	dependo.36-phyllostomidae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.365-passeriformes	dependo.365-passeriformes	dependo.365-passeriformes	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.366-passeriformes	dependo.366-passeriformes	dependo.366-passeriformes	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.4-rhinocerotidae	dependo.4-rhinocerotidae	dependo.4-rhinocerotidae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.46-gliridae	dependo.46-gliridae	dependo.46-gliridae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.5-rhinocerotidae	dependo.5-rhinocerotidae	dependo.5-rhinocerotidae	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.8-dasypus	dependo.8-dasypus	dependo.8-dasypus	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/DQ813647	DQ813647	AAV12	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/FJ688147	FJ688147	AAVpo1	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/LY408697	LY408697	AAV10	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/MF416383	MF416383	Mouse-AAV1	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs/NC_001401	NC_001401	AAV2	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001729	NC_001729	AAV3	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001829	NC_001829	AAV4	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_002077	NC_002077	AAV1	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006147	NC_006147	MDPV	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006148	NC_006148	SnakePV	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006152	NC_006152	AAV5	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006260	NC_006260	AAV7	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006261	NC_006261	AAV8	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_014468	NC_014468	AAV-bat	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_027429	NC_027429	BdrPV	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_038539	NC_038539	AAV-sealion	-	-	-	-	-	-	-	-	-	-	-
+taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028704	AF028704	AAV6	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AF028705	AF028705	AAV3B	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AX753250	AX753250	AAV9	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/AY631966	AY631966	AAV11	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.0-macropus	dependo.0-macropus	dependo.0-macropus	0	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.1-whippomorpha	dependo.1-whippomorpha	dependo.1-whippomorpha	1	clade	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.12-orycteropus	dependo.12-orycteropus	dependo.12-orycteropus	12	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.13-cercopithecidae	dependo.13-cercopithecidae	dependo.13-cercopithecidae	13	family	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.16-canid	dependo.16-canid	dependo.16-canid	16	family	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.160-gymnobelideus	dependo.160-gymnobelideus	dependo.160-gymnobelideus	160	order	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.174-PipPip	dependo.174-PipPip	dependo.174-Pipistrellus-pipistrellus	174	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.180-rhinolophus	dependo.180-rhinolophus	dependo.180-Rhinolophus-sinicus	180	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.2-vespertilionidae	dependo.2-vespertilionidae	dependo.2-vespertilionidae	2	clade	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.201-thamnophis	dependo.201-thamnophis	dependo.201-thamnophis	201	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.220-pelusios	dependo.220-pelusios	-	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.221-pelusios	dependo.221-pelusios	dependo.221-pelusios	221	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.23-camelidae	dependo.23-camelidae	dependo.23-camelidae	23	family	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.26-strepsirrhini	dependo.26-strepsirrhini	dependo.26-strepsirrhini	26	suborder	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.28-daubentonia	dependo.28-daubentonia	dependo.28-daubentonia	28	genus	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.3-lagomorpha	dependo.3-lagomorpha	dependo.3-lagomorpha	3	order	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.36-phyllostomidae	dependo.36-phyllostomidae	dependo.36-phyllostomidae	36	genus	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.365-passeriformes	dependo.365-passeriformes	dependo.365-passeriformes	365	order	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.366-passeriformes	dependo.366-passeriformes	dependo.366-passeriformes	366	order	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.4-rhinocerotidae	dependo.4-rhinocerotidae	dependo.4-rhinocerotidae	4	family	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.46-gliridae	dependo.46-gliridae	dependo.46-gliridae	46	family	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.5-rhinocerotidae	dependo.5-rhinocerotidae	dependo.5-rhinocerotidae	5	family	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/fasta-refseqs-dependo-epv/dependo.8-dasypus	dependo.8-dasypus	dependo.8-dasypus	8	species	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/DQ813647	DQ813647	AAV12	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/FJ688147	FJ688147	AAVpo1	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/LY408697	LY408697	AAV10	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/MF416383	MF416383	Mouse-AAV1	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs/NC_001401	NC_001401	AAV2	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001729	NC_001729	AAV3	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_001829	NC_001829	AAV4	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_002077	NC_002077	AAV1	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006147	NC_006147	MDPV	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006148	NC_006148	SnakePV	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006152	NC_006152	AAV5	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006260	NC_006260	AAV7	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_006261	NC_006261	AAV8	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_014468	NC_014468	AAV-bat	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_027429	NC_027429	BdrPV	-	-	-	-	-
+alignment/AL_TREE_ROOT_EPV_DEPENDO_VP/member/ncbi-refseqs-dependo/NC_038539	NC_038539	AAV-sealion	-	-	-	-	-
