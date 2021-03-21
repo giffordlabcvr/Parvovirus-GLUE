@@ -21,19 +21,19 @@ alignment/AL_EPV-DEPENDO-1-whippomorpha/member/fasta-digs-dependo-epv/dependo.1-
 alignment/AL_EPV-DEPENDO-1-whippomorpha/member/fasta-digs-dependo-epv/dependo.1-Tursiops_aduncus	dependo.1-Tursiops_aduncus	dependo.1-Tursiops_aduncus	dependo.1-whippomorpha	1	NCQN01000043.1	1187016	1191115	Tursiops_aduncus	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Tursiops
 alignment/AL_EPV-DEPENDO-1-whippomorpha/member/fasta-digs-dependo-epv/dependo.1-Tursiops_truncatus	dependo.1-Tursiops_truncatus	dependo.1-Tursiops_truncatus	dependo.1-whippomorpha	1	JH472581	124623	128768	Tursiops_truncatus	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Tursiops
 alignment/AL_EPV-DEPENDO-1-whippomorpha/member/fasta-digs-dependo-epv/dependo.1-Ziphius_cavirostris	dependo.1-Ziphius_cavirostris	dependo.1-Ziphius_cavirostris	dependo.1-whippomorpha	1	RJWS010040757.1	4474	8537	Ziphius_cavirostris	Mammalia	Laurasiatheria	Cetacea	Ziphiidae	Ziphius
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782247	MN782247	MN782247	dependo.1-whippomorpha	1	-	-	-	Balaena mysticetus	Mammalia	Laurasiatheria	Cetacea	Balaenidae	Balaena
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782248	MN782248	MN782248	dependo.1-whippomorpha	1	-	-	-	Balaenoptera acutorostrata	Mammalia	Laurasiatheria	Cetacea	Balaenopteridae	Balaenoptera
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782249	MN782249	MN782249	dependo.1-whippomorpha	1	-	-	-	Balaenoptera physalus	Mammalia	Laurasiatheria	Cetacea	Balaenopteridae	Balaenoptera
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782250	MN782250	MN782250	dependo.1-whippomorpha	1	-	-	-	Delphinapterus leucas	Mammalia	Laurasiatheria	Cetacea	Monodontidae	Delphinapterus
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782251	MN782251	MN782251	dependo.1-whippomorpha	1	-	-	-	Delphinus capensis	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Delphinus
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782252	MN782252	MN782252	dependo.1-whippomorpha	1	-	-	-	Delphinus delphis	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Delphinus
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782253	MN782253	MN782253	dependo.1-whippomorpha	1	-	-	-	Eschrichtius robustus	Mammalia	Laurasiatheria	Cetacea	Eschrichtiidae	Eschrichtius
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782254	MN782254	MN782254	dependo.1-whippomorpha	1	-	-	-	Lagenorhynchus obliquidens	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Lagenorhynchus
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782255	MN782255	MN782255	dependo.1-whippomorpha	1	-	-	-	Lissodelphis borealis	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Lissodelphis
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782256	MN782256	MN782256	dependo.1-whippomorpha	1	-	-	-	Megaptera novaeangliae	Mammalia	Laurasiatheria	Cetacea	Balaenopteridae	Megaptera
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782257	MN782257	MN782257	dependo.1-whippomorpha	1	-	-	-	Mesoplodon stejnegeri	Mammalia	Laurasiatheria	Cetacea	Ziphiidae	Mesoplodon
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782258	MN782258	MN782258	dependo.1-whippomorpha	1	-	-	-	Orcinus orca	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Orcinus
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782259	MN782259	MN782259	dependo.1-whippomorpha	1	-	-	-	Phocoena phocoena	Mammalia	Laurasiatheria	Cetacea	Phocoenidae	Phocoena
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782260	MN782260	MN782260	dependo.1-whippomorpha	1	-	-	-	Phocoenoides dalli	Mammalia	Laurasiatheria	Cetacea	Phocoenidae	Phocoenoides
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782261	MN782261	MN782261	dependo.1-whippomorpha	1	-	-	-	Stenella coeruleoalba	Mammalia	Laurasiatheria	Cetacea	Delphinidae	Stenella
-alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782262	MN782262	MN782262	dependo.1-whippomorpha	1	-	-	-	Ziphius cavirostris	Mammalia	Laurasiatheria	Cetacea	Ziphiidae	Ziphius
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782247	MN782247	MN782247	dependo.1-whippomorpha	1	-	-	-	Balaena mysticetus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782248	MN782248	MN782248	dependo.1-whippomorpha	1	-	-	-	Balaenoptera acutorostrata	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782249	MN782249	MN782249	dependo.1-whippomorpha	1	-	-	-	Balaenoptera physalus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782250	MN782250	MN782250	dependo.1-whippomorpha	1	-	-	-	Delphinapterus leucas	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782251	MN782251	MN782251	dependo.1-whippomorpha	1	-	-	-	Delphinus capensis	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782252	MN782252	MN782252	dependo.1-whippomorpha	1	-	-	-	Delphinus delphis	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782253	MN782253	MN782253	dependo.1-whippomorpha	1	-	-	-	Eschrichtius robustus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782254	MN782254	MN782254	dependo.1-whippomorpha	1	-	-	-	Lagenorhynchus obliquidens	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782255	MN782255	MN782255	dependo.1-whippomorpha	1	-	-	-	Lissodelphis borealis	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782256	MN782256	MN782256	dependo.1-whippomorpha	1	-	-	-	Megaptera novaeangliae	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782257	MN782257	MN782257	dependo.1-whippomorpha	1	-	-	-	Mesoplodon stejnegeri	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782258	MN782258	MN782258	dependo.1-whippomorpha	1	-	-	-	Orcinus orca	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782259	MN782259	MN782259	dependo.1-whippomorpha	1	-	-	-	Phocoena phocoena	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782260	MN782260	MN782260	dependo.1-whippomorpha	1	-	-	-	Phocoenoides dalli	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782261	MN782261	MN782261	dependo.1-whippomorpha	1	-	-	-	Stenella coeruleoalba	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-1-whippomorpha/member/ncbi-curated-dependo-epv/MN782262	MN782262	MN782262	dependo.1-whippomorpha	1	-	-	-	Ziphius cavirostris	-	-	-	-	-
