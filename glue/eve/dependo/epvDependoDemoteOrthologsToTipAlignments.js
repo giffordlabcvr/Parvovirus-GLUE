@@ -23,7 +23,7 @@ glue.inMode("module/tabularUtility", function() {
 // Load NCBI curated EPV source
 var loadResult2;
 glue.inMode("module/tabularUtility", function() {
-	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-dependo-ncbi-curated.tsv"]));
+	loadResult2 = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae/epv-dependo-side-data-ncbi.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult2);
 });
 

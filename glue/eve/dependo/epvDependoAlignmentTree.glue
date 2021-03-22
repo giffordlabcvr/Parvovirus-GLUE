@@ -37,7 +37,7 @@
 
   alignment AL_Dependo1
 
-    extract child AL_Sauria      --refName REF_EPV_dependo.20-laurasiatheria
+    extract child AL_Sauria      --refName REF_SnakePV
     demote member AL_Sauria      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Sauria'"
     exit
 
