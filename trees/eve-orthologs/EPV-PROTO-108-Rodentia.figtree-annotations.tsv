@@ -1,7 +1,7 @@
-taxon	sequenceID	name	locus_name	locus_numeric_id	scaffold	start_position	end_position	host_sci_name	host_class	host_superorder	host_order	host_family	host_genus
-alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Capromys_pilorides	proto.108-Capromys_pilorides	proto.108-Capromys_pilorides	proto.108-Rodentia	108	PVKN010461124.1	1105	1326	Capromys_pilorides	-	-	-	-	-
-alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Chinchilla_lanigera	proto.108-Chinchilla_lanigera	proto.108-Chinchilla_lanigera	proto.108-Rodentia	108	scaffold00132	459274	463092	Chinchilla_lanigera	-	-	-	-	-
-alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Cuniculus_paca	proto.108-Cuniculus_paca	proto.108-Cuniculus_paca	proto.108-Rodentia	108	RJWT010086281.1	5528	6708	Cuniculus_paca	-	-	-	-	-
-alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Dinomys_branickii	proto.108-Dinomys_branickii	proto.108-Dinomys_branickii	proto.108-Rodentia	108	PVLD010013231.1	21112	25267	Dinomys_branickii	-	-	-	-	-
-alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Dolichotis_patagonum	proto.108-Dolichotis_patagonum	proto.108-Dolichotis_patagonum	proto.108-Rodentia	108	PVJX010057708.1	6794	8119	Dolichotis_patagonum	-	-	-	-	-
-alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Hydrochoerus_hydrochaeris	proto.108-Hydrochoerus_hydrochaeris	proto.108-Hydrochoerus_hydrochaeris	proto.108-Rodentia	108	PVLA01035332.1	433	2148	Hydrochoerus_hydrochaeris	-	-	-	-	-
+taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Capromys_pilorides	proto.108-Capromys_pilorides	proto.108-Capromys_pilorides	-	-	-	-	-
+alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Chinchilla_lanigera	proto.108-Chinchilla_lanigera	proto.108-Chinchilla_lanigera	-	-	-	-	-
+alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Cuniculus_paca	proto.108-Cuniculus_paca	proto.108-Cuniculus_paca	-	-	-	-	-
+alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Dinomys_branickii	proto.108-Dinomys_branickii	proto.108-Dinomys_branickii	-	-	-	-	-
+alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Dolichotis_patagonum	proto.108-Dolichotis_patagonum	proto.108-Dolichotis_patagonum	-	-	-	-	-
+alignment/AL_EPV-PROTO-108-Rodentia/member/fasta-digs-proto-epv/proto.108-Hydrochoerus_hydrochaeris	proto.108-Hydrochoerus_hydrochaeris	proto.108-Hydrochoerus_hydrochaeris	-	-	-	-	-
