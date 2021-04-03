@@ -1,6 +1,7 @@
+  delete module amdoNcbiImporterExampleAmdv
+  create module -f modules/genus/amdo/amdoNcbiImporterExampleAmdv.xml
 
-  # Download BFDV sequences from NCBI GenBank  
-  create module -f modules/parvoNcbiImporterBfdv.xml
-  module parvoNcbiImporterBfdv import
+  # Download AMDV sequences from NCBI GenBank  
+  module amdoNcbiImporterExampleAmdv import
 
-  export source sources/ncbi-curated-parvo-bfdv/
+  export source ncbi-curated-amdv
