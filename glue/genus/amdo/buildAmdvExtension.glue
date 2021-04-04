@@ -1,0 +1,40 @@
+
+  #run file glue/example/exampleDelete.glue
+  delete module amdovirusCompoundAligner
+  delete source ncbi-curated-amdv
+  delete alignment AL_AMDV
+
+  create module -f modules/genus/amdo/circovirusCompoundAligner.xml
+
+  # Import AMDV sequences and side data Amdv
+  import source sources/genus/circoviridae/ncbi-curated-circo-amdv/
+  run script glue/genus/amdo/exampleLoadIsolateDataAmdv.js
+  run script glue/genus/amdo/exampleLoadSequenceDataAmdv.js
+
+  # Extract and import data from GenBank XML
+  module cressGenbankXmlPopulator populate 
+
+  # Reverse complement sequences
+  run file glue/genus/amdo/exampleApplyReverseComplement.glue
+
+  # Add the "V2" feature to AMDV
+  run file glue/genus/amdo/exampleDefineAmdvFeatures.glue
+  run file glue/genus/amdo/exampleSetFeatureLocationsAmdv.glue
+  
+  # Create alignments
+  create alignment AL_AMDV -r REF_Amdo_AMDV 
+  alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-circo-amdv'"
+  compute alignment AL_AMDV circovirusCompoundAligner
+
+  # Compute feature coverage for AMDV
+  run file glue/genus/amdo/exampleRecordFeaturePresenceAmdv.glue
+  
+  # Reconstruct trees, midpoint root, and export annotated, midpoint rooted phylogenies
+  # By default this line is commented out because tree-building is a time-consuming step
+  #run file glue/genus/amdo/exampleCreateAmdvPhylogenies.glue  
+  run file glue/genus/amdo/exampleExportAnnotations.glue  
+  run file glue/genus/amdo/exampleRerootPhylogeny.glue   
+ 
+  # Validate
+  validate
+
