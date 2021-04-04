@@ -4,10 +4,10 @@
   delete source ncbi-curated-amdv
   delete alignment AL_AMDV
 
-  create module -f modules/genus/amdo/circovirusCompoundAligner.xml
+  create module -f modules/genus/amdo/amdoCompoundAligner.xml
 
   # Import AMDV sequences and side data Amdv
-  import source sources/genus/circoviridae/ncbi-curated-circo-amdv/
+  import source sources/genus/amdo/ncbi-curated-amdv
   run script glue/genus/amdo/exampleLoadIsolateDataAmdv.js
   run script glue/genus/amdo/exampleLoadSequenceDataAmdv.js
 
@@ -24,7 +24,7 @@
   # Create alignments
   create alignment AL_AMDV -r REF_Amdo_AMDV 
   alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-circo-amdv'"
-  compute alignment AL_AMDV circovirusCompoundAligner
+  compute alignment AL_AMDV amdoCompoundAligner
 
   # Compute feature coverage for AMDV
   run file glue/genus/amdo/exampleRecordFeaturePresenceAmdv.glue
