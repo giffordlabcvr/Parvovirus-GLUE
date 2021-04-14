@@ -8,10 +8,10 @@ alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/NC_001510	NC_001510
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs/NC_001539	NC_001539	CPV	Carnivore protoparvovirus	Parvovirinae	Protoparvovirus	Proto1	not-set	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.101-MonDom	proto.101-MonDom	proto.101-MonDom	proto.101-MonDom	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.102-Tamandua	proto.102-Tamandua	proto.102-tamandua	proto.102-tamandua	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.102-tamandua	proto.102-tamandua	proto.102-tamandua	proto.102-tamandua	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.120-Cavia	proto.120-Cavia	proto.120-cavia	proto.120-cavia	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.121-Cavia	proto.121-Cavia	proto.121-cavia	proto.121-cavia	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.122-Cavia	proto.122-Cavia	proto.122-cavia	proto.122-cavia	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.121-cavia	proto.121-cavia	proto.121-cavia	proto.121-cavia	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.122-cavia	proto.122-cavia	proto.122-cavia	proto.122-cavia	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.125-HydHyd	proto.125-HydHyd	proto.125-HydHyd	proto.125-HydHyd	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.128-Capromys	proto.128-Capromys	proto.128-Capromys	proto.128-Capromys	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.129-Dinomys	proto.129-Dinomys	proto.129-Dinomys	proto.129-Dinomys	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
@@ -41,6 +41,6 @@ alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.163-Phas
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.164-Macropus	proto.164-Macropus	proto.164-Macropus	proto.164-Macropus	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.165-Phascolarctos	proto.165-Phascolarctos	proto.165-Phascolarctos	proto.165-Phascolarctos	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.2-MusSpr	proto.2-MusSpr	proto.2-MusSpr	proto.2-MusSpr	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.3-apodemus	proto.3-apodemus	proto.3-apodemus	proto.3-apodemus	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.3-Apodemus	proto.3-Apodemus	proto.3-apodemus	proto.3-apodemus	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.4-MusSpi	proto.4-MusSpi	proto.4-MusSpi	proto.4-MusSpi	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/U34255	U34255	HV	Hamster parvovirus	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
