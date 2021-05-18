@@ -143,7 +143,7 @@ begin figtree;
 	set tipLabels.significantDigits=4;
 	set trees.order=false;
 	set trees.orderType="increasing";
-	set trees.rooting=false;
+	set trees.rooting=true;
 	set trees.rootingType="User Selection";
 	set trees.transform=false;
 	set trees.transformType="cladogram";
