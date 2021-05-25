@@ -131,7 +131,7 @@ begin figtree;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="name";
 	set tipLabels.fontName="sansserif";
-	set tipLabels.fontSize=8;
+	set tipLabels.fontSize=15;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
