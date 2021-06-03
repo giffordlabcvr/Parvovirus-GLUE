@@ -44,7 +44,7 @@
 
     generate nucleotide phylogeny AL_TREE_Parvovirinae_EPV -s alignmentColumnsSelectorParvovirinaeRep78 \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
-      -o trees/family-level-with-eves/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/family-root/Parvo-Rep78.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 

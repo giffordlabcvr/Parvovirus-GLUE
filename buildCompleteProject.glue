@@ -38,5 +38,10 @@ project parvoviridae
   run file glue/eve/dependo/buildDependoPaleoProject.glue
   run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
   
+  # Create the root phylogeny with EVEs included
+  run file glue/core/epvCreateRootPhylogenies.glue
+  
+  
+  
 exit
 
