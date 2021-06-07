@@ -15,7 +15,7 @@
   create reference REF_Tetra_Didelphimorpha ncbi-refseqs-tetra MG745671  # Didelphimorpha tetraparvovirus
 
 
-  reference REF_Tetra_DeerTetra
+  reference REF_Tetra_Deer
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -85,18 +85,18 @@
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 4662
+	  add segment 1 5114
 	  exit
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 189 2159 
+	  add segment 176 2086 
 	  exit
 	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2266 5067
+	  add segment 2240 5017
 	  exit
     
     exit
@@ -106,19 +106,19 @@
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 4441
+	  add segment 1 4971
 	  exit
 
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 189 2159 
+	  add segment 20 2011 
 	  exit
 	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2266 5067
+	  add segment 2109 4853
 	  exit
     
     exit
@@ -128,19 +128,19 @@
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 4928
+	  add segment 1 5268
 	  exit
 
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 189 2159 
+	  add segment 283 2274 
 	  exit
 	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2266 5067
+	  add segment 2378 5122
 	  exit
     
     exit
@@ -150,19 +150,19 @@
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 4242
+	  add segment 1 5494
 	  exit
 
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 189 2159 
+	  add segment 308 2290 
 	  exit
 	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2266 5067
+	  add segment 2395 5145
 	  exit
     
     exit
