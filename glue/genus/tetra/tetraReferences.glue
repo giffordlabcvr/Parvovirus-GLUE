@@ -61,19 +61,20 @@
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 4242
+	  add segment 1 5105
 	  exit
+
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 69  1824  --spliceIndex 1
-	  add segment 1907 2076  --spliceIndex 2
+	  add segment 189 2159 
 	  exit
+	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2069 2078  --spliceIndex 1
-	  add segment 2152 4175  --spliceIndex 2
+	  add segment 2266 5067
+	  exit
 
 	  exit
     
@@ -89,12 +90,13 @@
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 107 1894
+	  add segment 189 2159 
 	  exit
+	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2309 4252
+	  add segment 2266 5067
 	  exit
     
     exit
@@ -107,17 +109,16 @@
 	  add segment 1 4441
 	  exit
 
+
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 110 1844 --spliceIndex 1
-	  add segment 1983 2155  --spliceIndex 2
+	  add segment 189 2159 
 	  exit
 	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2148 2157  --spliceIndex 1
-	  add segment 2236 4250  --spliceIndex 2
+	  add segment 2266 5067
 	  exit
     
     exit
@@ -130,17 +131,16 @@
 	  add segment 1 4928
 	  exit
 
+
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 237 1992  --spliceIndex 1
-	  add segment 2082 2251  --spliceIndex 2
+	  add segment 189 2159 
 	  exit
-
+	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2244 2253  --spliceIndex 1
-	  add segment 2326 4355	   --spliceIndex 2 
+	  add segment 2266 5067
 	  exit
     
     exit
@@ -153,17 +153,16 @@
 	  add segment 1 4242
 	  exit
 
+
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 69  1824  --spliceIndex 1
-	  add segment 1907 2076  --spliceIndex 2
+	  add segment 189 2159 
 	  exit
+	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2069 2078  --spliceIndex 1
-	  add segment 2152 4175  --spliceIndex 2
-
+	  add segment 2266 5067
 	  exit
     
     exit
