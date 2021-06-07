@@ -1,0 +1,190 @@
+  # Declare Tetraparvovirus reference sequences
+
+  # EhPV is current master reference
+  #create reference REF_Tetra_EhPV           ncbi-refseqs-tetra NC_016744 # Eidolon helvum parvovirus 
+
+
+  ## Canonical parvovirus 
+  create reference REF_Tetra_Deer           ncbi-refseqs-tetra NC_031670 # Deer tetraparvovirus
+  create reference REF_Tetra_OvineHoko      ncbi-refseqs-tetra JF504699  # Ovine hokovirus 1
+  create reference REF_Tetra_BovineHoko     ncbi-refseqs-tetra EU200669  # Bovine hokovirus 1
+  create reference REF_Tetra_PorcineHoko    ncbi-refseqs-tetra EU200677  # Porcine hokovirus
+  create reference REF_Tetra_ChimpanzeePV   ncbi-refseqs-tetra HQ113143  # Chimpanzee parvovirus 4
+  create reference REF_Tetra_HPV4           ncbi-refseqs-tetra AY622943  # Human parvovirus 4 G1
+  create reference REF_Tetra_Rodent         ncbi-refseqs-tetra MG745669  # Rodent tetraparvovirus
+  create reference REF_Tetra_Didelphimorpha ncbi-refseqs-tetra MG745671  # Didelphimorpha tetraparvovirus
+
+
+  reference REF_Tetra_DeerTetra
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5050
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 77 2029 
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2171 4972
+	  exit
+    
+    exit
+
+
+  reference REF_Tetra_OvineHoko
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5249
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 189 2159 
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2266 5067
+	  exit
+    
+    exit
+
+
+  reference REF_Tetra_BovineHoko
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4242
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 69  1824  --spliceIndex 1
+	  add segment 1907 2076  --spliceIndex 2
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2069 2078  --spliceIndex 1
+	  add segment 2152 4175  --spliceIndex 2
+
+	  exit
+    
+    exit
+
+
+  reference REF_Tetra_PorcineHoko
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4662
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 107 1894
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2309 4252
+	  exit
+    
+    exit
+    
+    
+  reference REF_Tetra_ChimpanzeePV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4441
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 110 1844 --spliceIndex 1
+	  add segment 1983 2155  --spliceIndex 2
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2148 2157  --spliceIndex 1
+	  add segment 2236 4250  --spliceIndex 2
+	  exit
+    
+    exit
+
+
+  reference REF_Tetra_HPV4
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4928
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 237 1992  --spliceIndex 1
+	  add segment 2082 2251  --spliceIndex 2
+	  exit
+
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2244 2253  --spliceIndex 1
+	  add segment 2326 4355	   --spliceIndex 2 
+	  exit
+    
+    exit
+
+
+  reference REF_Tetra_Rodent
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4242
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 69  1824  --spliceIndex 1
+	  add segment 1907 2076  --spliceIndex 2
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2069 2078  --spliceIndex 1
+	  add segment 2152 4175  --spliceIndex 2
+
+	  exit
+    
+    exit
+
+
+  reference REF_Tetra_Didelphimorpha
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4662
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 107 1894
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2309 4252
+	  exit
+    
+    exit
+

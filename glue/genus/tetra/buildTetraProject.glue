@@ -1,0 +1,30 @@
+
+  # delete previous extension build
+  run file glue/genus/tetra/deleteTetraExtension.glue
+
+  # create modules
+  run file glue/genus/tetra/tetraModules.glue
+
+  # Import sources 
+  import source sources/genus/tetra/ncbi-refseqs-tetra
+
+  # Import data 
+  run file glue/genus/tetra/tetraImportVirusData.glue
+
+  # Declare reference sequences
+  run file glue/genus/tetra/tetraReferences.glue
+
+  # Import alignments 
+  run file glue/genus/tetra/tetraAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/genus/tetra/tetraAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/genus/tetra/tetraRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/genus/tetra/tetraCreateRootPhylogenies.glue
+
+  # Validate
+  validate
