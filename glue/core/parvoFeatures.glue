@@ -66,6 +66,12 @@
   feature M set metatag INCLUDE_IN_SUMMARY true
   feature M set metatag CODES_AMINO_ACIDS true
 
+  create feature NP1 -p whole_genome "NP1 protein"
+  feature NP1 set field displayName "NP1 protein"
+  feature NP1 set metatag OWN_CODON_NUMBERING true
+  feature NP1 set metatag INCLUDE_IN_SUMMARY true
+  feature NP1 set metatag CODES_AMINO_ACIDS true
+
   create feature ORF1 -p whole_genome "ORF1 protein"
   feature ORF1 set field displayName "ORF1"
   feature ORF1 set metatag OWN_CODON_NUMBERING true
