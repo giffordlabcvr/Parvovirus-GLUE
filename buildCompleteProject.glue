@@ -7,15 +7,18 @@ schema-project parvoviridae
   run file glue/core/parvoSchemaExtensionsPaleovirus.glue
   exit
 
+
 # Load project settings
 project parvoviridae
   run file glue/core/parvoProjectSettings.glue
   exit
 
+
 # Build the core project for family Parvoviridae (Genus master references only)
 project parvoviridae
   run file glue/core/buildParvoCoreProject.glue
   exit
+
 
 # Build genus-level extensions (Each includes representatives of all species within the genus)
 project parvoviridae
@@ -34,13 +37,17 @@ project parvoviridae
 
 exit
 
-# Build paleovirus extensions for each genus
+
+# Build paleovirus extensions for each genus that has EVE representatives
 project parvoviridae
 
+  # Parvovirinae
   run file glue/eve/amdo/buildAmdoPaleoProject.glue
   run file glue/eve/erythyro/buildErythyroPaleoProject.glue
   run file glue/eve/proto/buildProtoPaleoProject.glue
   run file glue/eve/dependo/buildDependoPaleoProject.glue
+  
+  # Hamaparvovirinae
   run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
   
   # Create the root phylogeny with EVEs included
