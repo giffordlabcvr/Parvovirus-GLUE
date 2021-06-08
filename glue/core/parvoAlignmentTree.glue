@@ -26,11 +26,9 @@
   #~# Genus
   alignment AL_Parvovirinae
   
-	extract child AL_GENUS_Amdo --r REF_MASTER_Amdo_AMDV
-	demote member AL_GENUS_Amdo --whereClause "sequence.genus = 'Amdoparvovirus'"
-
-	extract child AL_GENUS_Proto  --refName REF_MASTER_Proto_CPV        # NC_001539
-	demote member AL_GENUS_Proto  --whereClause "sequence.genus = 'Protoparvovirus'" 
+	extract child AL_CROSS_GENUS_Amdo_Proto --r REF_MASTER_Proto_CPV
+	demote member AL_CROSS_GENUS_Amdo_Proto --whereClause "sequence.genus = 'Amdoparvovirus'"
+	demote member AL_CROSS_GENUS_Amdo_Proto --whereClause "sequence.genus = 'Protoparvovirus'"
 		
 	extract child AL_GENUS_Dependo --r REF_MASTER_Dependo_AAV2
 	demote member AL_GENUS_Dependo --whereClause "sequence.genus = 'Dependoparvovirus'"
@@ -38,19 +36,43 @@
 	extract child AL_GENUS_Erythyro --r REF_MASTER_Erythyro_B19
 	demote member AL_GENUS_Erythyro --whereClause "sequence.genus = 'Erythyroparvovirus'"
 
-	extract child AL_GENUS_Boca --r REF_MASTER_Boca_BPV  # NC_001540
-	demote member AL_GENUS_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
+	extract child AL_CROSS_GENUS_Ave_Boca --r REF_MASTER_Boca_BPV
+	demote member AL_CROSS_GENUS_Ave_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
+	demote member AL_CROSS_GENUS_Ave_Boca --whereClause "sequence.genus = 'Aveparvovirus'"
 	
 	extract child AL_GENUS_Copi --r REF_MASTER_Copi_BPV2  # NC_006259
 	demote member AL_GENUS_Copi --whereClause "sequence.genus = 'Copiparvovirus'"
 
 	extract child AL_GENUS_Tetra --r REF_MASTER_Tetra_EhBtPV1  # NC_016744
 	demote member AL_GENUS_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
-
-	extract child AL_GENUS_Ave --r REF_MASTER_Ave_ChPV  # NC_024452
-	demote member AL_GENUS_Ave --whereClause "sequence.genus = 'Aveparvovirus'"
 		
     exit
+
+
+  #~# Genus
+  alignment AL_CROSS_GENUS_Amdo_Proto
+  
+	extract child AL_GENUS_Amdo --r REF_MASTER_Amdo_AMDV
+	demote member AL_GENUS_Amdo --whereClause "sequence.genus = 'Amdoparvovirus'"
+
+	extract child AL_GENUS_Proto  --refName REF_MASTER_Proto_CPV        # NC_001539
+	demote member AL_GENUS_Proto  --whereClause "sequence.genus = 'Protoparvovirus'" 
+		
+    exit
+
+  alignment AL_CROSS_GENUS_Ave_Boca
+  
+	extract child AL_GENUS_Ave --r REF_MASTER_Ave_ChPV  # NC_024452
+	demote member AL_GENUS_Ave --whereClause "sequence.genus = 'Aveparvovirus'"
+
+	extract child AL_GENUS_Boca --r REF_MASTER_Boca_BPV  # NC_001540
+	demote member AL_GENUS_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
+		
+    exit
+
+
+
+
 
 
   alignment AL_Hamaparvovirinae

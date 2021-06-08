@@ -231,6 +231,29 @@
 
 
 
+  # Copi
+  reference REF_MASTER_Copi_BPV2
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5610
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 306 1919
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2268 5384
+	  exit
+   
+    exit
+
+
+
+
   # Hepandenso
   reference REF_MASTER_Hepandenso_FCDNV
  

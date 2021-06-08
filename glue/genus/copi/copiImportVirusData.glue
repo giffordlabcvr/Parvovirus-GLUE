@@ -1,0 +1,11 @@
+  # Import metadata for exogenous reference sequences from tabular
+  module copiSideDataImporter 
+    populate -f tabular/genus/copi-refseqs-side-data.tsv
+    exit
+
+  # Link reference sequences to isolate table
+  run script glue/genus/copi/copiLoadIsolateData1.js
+
+  # Populate fields from GenBank data
+  module parvoGenbankXmlPopulator populate 
+

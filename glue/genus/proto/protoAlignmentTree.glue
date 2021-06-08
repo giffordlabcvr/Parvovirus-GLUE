@@ -8,6 +8,11 @@
     
   #~# Subfamily level
   alignment AL_Parvovirinae
+    demote member AL_CROSS_GENUS_Amdo_Proto  -w "sequence.source.name = 'ncbi-refseqs-proto'"
+    exit
+    
+    #~# Cross-Genus level
+  alignment AL_CROSS_GENUS_Amdo_Proto
     demote member AL_GENUS_Proto  -w "sequence.source.name = 'ncbi-refseqs-proto'"
     exit
     

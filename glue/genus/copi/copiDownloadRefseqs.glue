@@ -1,0 +1,7 @@
+delete module ncbiImporter
+create module -f modules/genus/copi/copiNcbiImporterReferences.xml copiNcbiImporterReferences
+
+# Download NCBI sequences 
+module copiNcbiImporterReferences import
+
+export source ncbi-refseqs-copi

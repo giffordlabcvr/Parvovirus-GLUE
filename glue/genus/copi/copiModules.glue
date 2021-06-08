@@ -1,0 +1,3 @@
+
+  create module -f modules/genus/copi/copiSideDataImporter.xml 
+  create module -f modules/genus/copi/copiCompoundAligner.xml

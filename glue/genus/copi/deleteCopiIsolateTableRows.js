@@ -1,6 +1,6 @@
 
-// Delete custom-table table rows for boca genus extension sequences
- var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'ncbi-refseqs-boca'"]));	
+// Delete custom-table table rows for copi genus extension sequences
+ var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'ncbi-refseqs-copi'"]));	
  	 
  _.each(resultList,function(resultObj) {
 

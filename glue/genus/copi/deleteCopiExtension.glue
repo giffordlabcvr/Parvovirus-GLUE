@@ -1,0 +1,8 @@
+
+  # Delete extension specific components
+  delete alignment AL_UNC_COPI_ROOT
+  delete alignment AL_Copi
+  multi-delete reference -w "name like '%REF_Copi%'"
+  
+  run script glue/genus/copi/deleteCopiIsolateTableRows.js
+  delete source ncbi-refseqs-copi

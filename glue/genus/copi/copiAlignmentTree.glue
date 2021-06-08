@@ -1,0 +1,17 @@
+  ### Constrained alignment tree for the Copiparvovirus genus
+
+  #~# Root level (Family)
+  alignment AL_Parvoviridae_MASTER
+    add member  --whereClause "source.name = 'ncbi-refseqs-copi'"
+    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-copi'"
+    exit
+    
+  #~# Root level (Subfamily)
+  alignment AL_Parvovirinae
+    demote member AL_GENUS_Copi  -w "sequence.source.name = 'ncbi-refseqs-copi'"
+    exit
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_GENUS_Copi
+    derive segments AL_UNC_COPI_ROOT -a --mergeStrategy OVERWRITE
+    exit

@@ -1,0 +1,11 @@
+# Import unconstrained pre-built alignments
+
+  module unconstrainedAlignmentImporter 
+
+    #~# Genus-level alignment
+    import AL_UNC_COPI_ROOT     -f alignments/internal/genus/parvovirinae/copi/copi-genome.aln.fna
+    
+    
+    exit
+
+

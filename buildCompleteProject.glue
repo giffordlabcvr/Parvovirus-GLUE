@@ -24,16 +24,17 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae
-  run file glue/genus/erythyro/buildErythyroProject.glue
-  run file glue/genus/dependo/buildDependoProject.glue
-  run file glue/genus/amdo/buildAmdoProject.glue
-  run file glue/genus/proto/buildProtoProject.glue
-  run file glue/genus/tetra/buildTetraProject.glue
-  run file glue/genus/boca/buildBocaProject.glue
-  
+  #run file glue/genus/erythyro/buildErythyroProject.glue
+  #run file glue/genus/dependo/buildDependoProject.glue
+  #run file glue/genus/amdo/buildAmdoProject.glue
+  #run file glue/genus/proto/buildProtoProject.glue
+  #run file glue/genus/tetra/buildTetraProject.glue
+  #run file glue/genus/boca/buildBocaProject.glue
+  run file glue/genus/copi/buildCopiProject.glue
+    
   # Hamaparvovirinae
-  run file glue/genus/chaphama/buildChaphamaProject.glue
-  run file glue/genus/ichthama/buildIchthamaProject.glue
+  #run file glue/genus/chaphama/buildChaphamaProject.glue
+  #run file glue/genus/ichthama/buildIchthamaProject.glue
 
 exit
 
@@ -42,16 +43,16 @@ exit
 project parvoviridae
 
   # Parvovirinae
-  run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  run file glue/eve/erythyro/buildErythyroPaleoProject.glue
+  #run file glue/eve/amdo/buildAmdoPaleoProject.glue
+  #run file glue/eve/erythyro/buildErythyroPaleoProject.glue
   #run file glue/eve/proto/buildProtoPaleoProject.glue
   #run file glue/eve/dependo/buildDependoPaleoProject.glue
   
   # Hamaparvovirinae
-  run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
+  #run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
   
   # Create the root phylogeny with EVEs included
-  run file glue/core/epvCreateRootPhylogenies.glue
+  #run file glue/core/epvCreateRootPhylogenies.glue
   
 exit
 

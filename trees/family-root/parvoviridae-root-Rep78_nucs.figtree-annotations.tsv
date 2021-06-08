@@ -14,6 +14,7 @@ alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004286	NC_004286	GmDV	Ga
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004287	NC_004287	BmDNV-5	Bombyx mori densovirus 5	Densovirinae	Iteradensoparvovirus	not-set	not-set	not-set	not-set	Shinshu	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004289	NC_004289	PcDV	Planococcus citri densovirus	Densovirinae	Scindoambidensovirus	not-set	not-set	not-set	not-set	-	Planococcus citri	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_005041	NC_005041	BgDV	Blattella germanica densovirus 1	Densovirinae	Blattambidensovirus	not-set	not-set	not-set	not-set	-	-	-	-
+alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_006259	NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_007018	NC_007018	PARV4	Human parvovirus 4	Parvovirinae	Tetraparvovirus	not-set	not-set	not-set	not-set	-	Homo sapiens	-	USA
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_014357	NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Hamaparvovirinae	Hepandensoparvovirus	not-set	not-set	not-set	not-set	-	Fenneropenaeus chinensis	-	China
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016744	NC_016744	EhBtPV1	Eidolon helvum parvovirus 1	Parvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	-	Eidolon helvum	-	Ghana
@@ -21,4 +22,3 @@ alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_022564	NC_022564	AdMADV	
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_024452	NC_024452	ChPV	Chicken parvovirus	Parvovirinae	Aveparvovirus	not-set	not-set	not-set	not-set	-	-	-	Hungary
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_038532	NC_038532	AaDV	Asteroid aquambidensovirus 1	Densovirinae	Aquiambidensovirus	not-set	not-set	not-set	not-set	-	Asteroidea	-	USA
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_040562	NC_040562	PPV7	Porcine parvovirus 7	Hamaparvovirinae	Chaphamaparvovirus	not-set	not-set	not-set	not-set	GX49	Sus scrofa	-	China
-alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/X59532	X59532	HHV6-Rep	HHV6-Rep	Parvovirinae	Betherpesparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
