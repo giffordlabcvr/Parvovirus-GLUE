@@ -24,7 +24,7 @@
   run file glue/genus/copi/copiRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/genus/copi/copiCreateRootPhylogenies.glue
+  #run file glue/genus/copi/copiCreateRootPhylogenies.glue
 
   # Validate
   validate

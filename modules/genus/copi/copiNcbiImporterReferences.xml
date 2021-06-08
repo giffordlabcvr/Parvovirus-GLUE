@@ -1,12 +1,12 @@
-<!-- Bocaparvovirus reference sequences from NCBI -->
+<!-- Copiparvovirus reference sequences from NCBI -->
 <ncbiImporter>
 
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sourceName>ncbi-refseqs-copi</sourceName>
   <specificPrimaryAccessions>
 
-	<!-- <primaryAccession>NC_001540</primaryAccession> Master refererence Bovine parvovirus is in core project -->
-	<primaryAccession>NC_004442</primaryAccession>
+	<!-- <primaryAccession>NC_006259</primaryAccession> Master refererence Bovine parvovirus 2 is in core project -->
+	<primaryAccession>MG972981</primaryAccession>
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
