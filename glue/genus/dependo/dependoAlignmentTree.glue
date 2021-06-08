@@ -9,11 +9,17 @@
     
   #~# Subfamily level
   alignment AL_Parvovirinae
+    demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
+    exit
+
+
+  #~#  Cross-Genus level
+  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
     demote member AL_GENUS_Dependo  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
-    
-  #~# Internal nodes (Dependoparvovirus sub-lineages) 
 
+
+  #~#  Genus level
   alignment AL_GENUS_Dependo
   
     extract child AL_Dependo1     --refName REF_SnakePV
@@ -27,6 +33,8 @@
     exit
 
 
+    
+  #~# Internal nodes (Dependoparvovirus sub-lineages) 
   alignment AL_Dependo1
   
     extract child AL_Serpentes  --refName REF_SnakePV

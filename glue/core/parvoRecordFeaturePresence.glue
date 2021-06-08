@@ -6,9 +6,14 @@
     #~# Root (Family)
     record feature-presence AL_Parvoviridae_MASTER --recursive --featureName whole_genome --descendentFeatures
     
-    #~# Subfamily
+    #~# Cross-Genus
     record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Densovirinae --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Hamaparvovirinae --recursive --featureName whole_genome --descendentFeatures
+   
+    #~# Subfamily
+    record feature-presence AL_CROSS_GENUS_Amdo_Proto --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_CROSS_GENUS_Ave_Boca --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --recursive --featureName whole_genome --descendentFeatures
     exit
 

@@ -8,10 +8,16 @@
     
   #~# Root level (Subfamily)
   alignment AL_Parvovirinae
+    demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra  -w "sequence.source.name = 'ncbi-refseqs-tetra'"
+    exit
+
+    
+  #~# Cross-Genus level
+  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
     demote member AL_GENUS_Tetra  -w "sequence.source.name = 'ncbi-refseqs-tetra'"
     exit
     
-
+  #~# Genus level
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_GENUS_Tetra
     derive segments AL_UNC_TETRA_ROOT -a --mergeStrategy OVERWRITE

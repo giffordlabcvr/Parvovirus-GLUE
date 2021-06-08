@@ -8,8 +8,8 @@
     import AL_UNC_PARVOVIRINAE     -f alignments/internal/subfamily/parvovirinae.aln.fna
 
     #~# Cross-genus alignments
-    import AL_UNC_AVE_BOCA       -f alignments/internal/cross-genus/ave-boca-genome.aln.fna
-    import AL_UNC_TETRA_LORI     -f alignments/internal/cross-genus/tetra-lori-genome.aln.fna
-    import AL_UNC_AMDO_PROTO     -f alignments/internal/cross-genus/amdo-proto-genome.aln.fna
+    import AL_UNC_AVE_BOCA                     -f alignments/internal/cross-genus/ave-boca-genome.aln.fna
+    import AL_UNC_AMDO_PROTO                   -f alignments/internal/cross-genus/amdo-proto-genome.aln.fna
+    import AL_UNC_Erythyro_Dependo_Copi_Tetra  -f alignments/internal/cross-genus/erythyro-dependo-copi-tetra.aln.fna
 
     exit

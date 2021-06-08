@@ -7,5 +7,5 @@ alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs-tetra/HQ113143	HQ113143	CHhim
 alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs-tetra/JF504699	JF504699	OvineHoko1	Ovine_hokovirus_1	-	Tetraparvovirus	NK	NK	NK	NK	-	sheep	-	China
 alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs-tetra/MG745669	MG745669	RodentTetraPV	Rodent_tetraparvovirus	-	Tetraparvovirus	NK	NK	NK	NK	1135	Bolomys lasiurus	-	Brazil
 alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs-tetra/MG745671	MG745671	DdPV	Didelphimorphs_tetraparvovirus	-	Tetraparvovirus	NK	NK	NK	NK	4113	Didelphis albiventris	-	Brazil
-alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs/NC_016744	NC_016744	EhBtPV1	Eidolon helvum parvovirus 1	Parvovirinae	Artiparvovirus	not-set	not-set	not-set	not-set	-	Eidolon helvum	-	Ghana
+alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs/NC_016744	NC_016744	EhBtPV1	Eidolon helvum parvovirus 1	Parvovirinae	Tetraparvovirus	not-set	not-set	not-set	not-set	-	Eidolon helvum	-	Ghana
 alignment/AL_UNC_TETRA_ROOT_NS/member/ncbi-refseqs-tetra/NC_031670	NC_031670	DeerTetraPV	Deer_tetraparvovirus 	-	Tetraparvovirus	NK	NK	NK	NK	tetra-CA1	deer	-	USA

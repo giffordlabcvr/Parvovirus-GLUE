@@ -8,12 +8,13 @@
     
   #~# Root level (Subfamily)
   alignment AL_Parvovirinae
-    demote member AL_GENUS_Erythyro  -w "sequence.genus = 'Erythyroparvovirus'"
+    demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra -w "sequence.genus = 'Erythyroparvovirus' and sequence.source.name = 'ncbi-refseqs-erythyro'"
     exit
 
-
-  #~# Genus level 
-  alignment AL_GENUS_Erythyro add member  --whereClause "genus = 'Erythyroparvovirus'"
+  #~# Cross-genus level   
+  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
+    demote member AL_GENUS_Erythyro  -w "sequence.genus = 'Erythyroparvovirus' and sequence.source.name = 'ncbi-refseqs-erythyro'"
+    exit
 
 
   #~# Derive constrained alignment segments from unconstrained alignments

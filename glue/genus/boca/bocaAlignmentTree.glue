@@ -2,16 +2,23 @@
 
   #~# Root level (Family)
   alignment AL_Parvoviridae_MASTER
+
     add member  --whereClause "source.name = 'ncbi-refseqs-boca'"
     demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-boca'"
     exit
+
     
   #~# Root level (Subfamily)
   alignment AL_Parvovirinae
-    demote member AL_GENUS_Boca  -w "sequence.source.name = 'ncbi-refseqs-boca'"
+  
+    demote member AL_CROSS_GENUS_Ave_Boca  -w "sequence.source.name = 'ncbi-refseqs-boca'"
     exit
 
+
   #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_GENUS_Boca
+  alignment AL_CROSS_GENUS_Ave_Boca
+  
+    demote member AL_GENUS_Boca  -w "sequence.source.name = 'ncbi-refseqs-boca'" 
     derive segments AL_UNC_BOCA_ROOT -a --mergeStrategy OVERWRITE
+    
     exit

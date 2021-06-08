@@ -7,6 +7,7 @@
   #alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs-erythyro-epv'"
  
 
+  #~# Subfamily
   alignment AL_Parvoviridae_MASTER
   
 	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.subfamily = 'Parvovirinae'"
@@ -15,15 +16,34 @@
     exit
 
 
-  #~# Subfamily
-
+  #~# Subfamily level
   alignment AL_Parvovirinae
-  
-	demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
-	demote member AL_GENUS_Erythyro  --whereClause "sequence.source.name = 'fasta-digs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"
-	#demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'ncbi-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
+    demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
 
+
+  #~#  Cross-Genus level
+  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
+    demote member AL_GENUS_Dependo  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
+    exit
+
+
+
+
+  #~# Cross-Genus
+  alignment AL_Parvovirinae
+  
+	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv' and sequence.genus = 'Erythyroparvovirus'"	
+    exit
+
+
+  #~# Genus
+  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
+  
+	demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'fasta-refseqs-erythyro-epv'"	
+	demote member AL_GENUS_Erythyro  --whereClause "sequence.source.name = 'fasta-digs-erythyro-epv'"
+	#demote member AL_GENUS_Erythyro --whereClause "sequence.source.name = 'ncbi-refseqs-erythyro-epv'"	
+    exit
   
   #~# Internal nodes (erythyroparvovirus sub-lineages) 
 
