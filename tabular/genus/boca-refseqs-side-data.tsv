@@ -1,0 +1,6 @@
+accession-ID	virus_name	virus_full_name	host_species	assign_clade	virus_genus	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
+MF682925	Rol-BtBoV1	Rousettus leschenaultii bocaparvovirus 1	NK	NK	Bocaparvovirus	NK	NK	NK	NK	NK	FALSE
+JN420361	Zac-PnBov1	California sea lion bocavirus 1	NK	NK	Bocaparvovirus	NK	NK	NK	NK	NK	FALSE
+MF682923	Rp-BtBoV2	Rhinolophus pusillus bocaparvovirus 2	NK	NK	Bocaparvovirus	NK	NK	NK	NK	NK	FALSE
+JF429835	Sus-ArtBoV4-1	Porcine bocavirus 4-1	NK	NK	Bocaparvovirus	NK	NK	NK	NK	NK	FALSE
+MF682922	Rp-BtBoV1	Rhinolophus pusillus bocaparvovirus 1	NK	NK	Bocaparvovirus	NK	NK	NK	NK	NK	FALSE
