@@ -1,0 +1,30 @@
+
+  # delete previous extension build
+  run file glue/genus/boca/deleteBocaExtension.glue
+
+  # create modules
+  run file glue/genus/boca/bocaModules.glue
+
+  # Import sources 
+  import source sources/genus/boca/ncbi-refseqs-boca
+
+  # Import data 
+  run file glue/genus/boca/bocaImportVirusData.glue
+
+  # Declare reference sequences
+  run file glue/genus/boca/bocaReferences.glue
+
+  # Import alignments 
+  run file glue/genus/boca/bocaAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/genus/boca/bocaAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/genus/boca/bocaRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/genus/boca/bocaCreateRootPhylogenies.glue
+
+  # Validate
+  validate

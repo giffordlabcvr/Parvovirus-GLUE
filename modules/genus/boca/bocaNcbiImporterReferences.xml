@@ -1,0 +1,18 @@
+<!-- Bocaparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-boca</sourceName>
+  <specificPrimaryAccessions>
+
+	<!-- <primaryAccession>NC_001540</primaryAccession> Master refererence Bovine parvovirus is in core project -->
+	<primaryAccession>MF682925</primaryAccession>
+	<primaryAccession>JN420361</primaryAccession>
+	<primaryAccession>MF682923</primaryAccession>
+	<primaryAccession>JF429835</primaryAccession>
+	<primaryAccession>MF682922</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

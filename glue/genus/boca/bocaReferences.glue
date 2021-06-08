@@ -1,21 +1,21 @@
-  # Declare Tetraparvovirus reference sequences
+  # Declare Bocaparvovirus reference sequences
 
   # EhPV is current master reference
-  #create reference REF_Tetra_EhPV           ncbi-refseqs-tetra NC_016744 # Eidolon helvum parvovirus 
+  #create reference REF_Boca_EhPV           ncbi-refseqs-boca NC_016744 # Eidolon helvum parvovirus 
 
 
   ## Canonical parvovirus 
-  create reference REF_Tetra_Deer           ncbi-refseqs-tetra NC_031670 # Deer tetraparvovirus
-  create reference REF_Tetra_OvineHoko      ncbi-refseqs-tetra JF504699  # Ovine hokovirus 1
-  create reference REF_Tetra_BovineHoko     ncbi-refseqs-tetra EU200669  # Bovine hokovirus 1
-  create reference REF_Tetra_PorcineHoko    ncbi-refseqs-tetra EU200677  # Porcine hokovirus
-  create reference REF_Tetra_ChimpanzeePV   ncbi-refseqs-tetra HQ113143  # Chimpanzee parvovirus 4
-  create reference REF_Tetra_HPV4           ncbi-refseqs-tetra AY622943  # Human parvovirus 4 G1
-  create reference REF_Tetra_Rodent         ncbi-refseqs-tetra MG745669  # Rodent tetraparvovirus
-  create reference REF_Tetra_Didelphimorpha ncbi-refseqs-tetra MG745671  # Didelphimorpha tetraparvovirus
+  create reference REF_Boca_Deer           ncbi-refseqs-boca NC_031670 # Deer bocaparvovirus
+  create reference REF_Boca_OvineHoko      ncbi-refseqs-boca JF504699  # Ovine hokovirus 1
+  create reference REF_Boca_BovineHoko     ncbi-refseqs-boca EU200669  # Bovine hokovirus 1
+  create reference REF_Boca_PorcineHoko    ncbi-refseqs-boca EU200677  # Porcine hokovirus
+  create reference REF_Boca_ChimpanzeePV   ncbi-refseqs-boca HQ113143  # Chimpanzee parvovirus 4
+  create reference REF_Boca_HPV4           ncbi-refseqs-boca AY622943  # Human parvovirus 4 G1
+  create reference REF_Boca_Rodent         ncbi-refseqs-boca MG745669  # Rodent bocaparvovirus
+  create reference REF_Boca_Didelphimorpha ncbi-refseqs-boca MG745671  # Didelphimorpha bocaparvovirus
 
 
-  reference REF_Tetra_Deer
+  reference REF_Boca_Deer
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -36,7 +36,7 @@
     exit
 
 
-  reference REF_Tetra_OvineHoko
+  reference REF_Boca_OvineHoko
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -57,7 +57,7 @@
     exit
 
 
-  reference REF_Tetra_BovineHoko
+  reference REF_Boca_BovineHoko
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -79,7 +79,7 @@
     exit
 
 
-  reference REF_Tetra_PorcineHoko
+  reference REF_Boca_PorcineHoko
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -100,7 +100,7 @@
     exit
     
     
-  reference REF_Tetra_ChimpanzeePV
+  reference REF_Boca_ChimpanzeePV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -122,7 +122,7 @@
     exit
 
 
-  reference REF_Tetra_HPV4
+  reference REF_Boca_HPV4
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -144,7 +144,7 @@
     exit
 
 
-  reference REF_Tetra_Rodent
+  reference REF_Boca_Rodent
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -166,7 +166,7 @@
     exit
 
 
-  reference REF_Tetra_Didelphimorpha
+  reference REF_Boca_Didelphimorpha
  
  	add feature-location whole_genome
 	feature-location whole_genome

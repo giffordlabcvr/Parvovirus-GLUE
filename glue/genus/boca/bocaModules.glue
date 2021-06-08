@@ -1,0 +1,3 @@
+
+  create module -f modules/genus/boca/bocaSideDataImporter.xml 
+  create module -f modules/genus/boca/bocaCompoundAligner.xml
