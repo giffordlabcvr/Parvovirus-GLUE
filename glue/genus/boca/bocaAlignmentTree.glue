@@ -14,11 +14,16 @@
     demote member AL_CROSS_GENUS_Ave_Boca  -w "sequence.source.name = 'ncbi-refseqs-boca'"
     exit
 
-
-  #~# Derive constrained alignment segments from unconstrained alignments
+  #~# Cross-genus level (Subfamily)
   alignment AL_CROSS_GENUS_Ave_Boca
   
     demote member AL_GENUS_Boca  -w "sequence.source.name = 'ncbi-refseqs-boca'" 
+    exit
+
+
+  #~# Genus level (Subfamily)
+  alignment AL_GENUS_Boca
+  
     derive segments AL_UNC_BOCA_ROOT -a --mergeStrategy OVERWRITE
     
     exit
