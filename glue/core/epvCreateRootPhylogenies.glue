@@ -23,12 +23,12 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
- 	export AL_Parvovirinae -r REF_Proto_MASTER_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvovirinae-all.aln.eve.fna
+ 	export AL_Parvovirinae -r REF_MASTER_Proto_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Parvovirinae-all.aln.eve.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
   module parvoTreeAlignmentImporterNucs import AL_UNC_TREE_Parvovirinae_EPV -f alignments/tree/Parvovirinae-all.aln.eve.fna
-  create alignment AL_TREE_Parvovirinae_EPV -r REF_Proto_MASTER_CPV
+  create alignment AL_TREE_Parvovirinae_EPV -r REF_MASTER_Proto_CPV
   
   alignment AL_TREE_Parvovirinae_EPV
 	derive segments AL_UNC_TREE_Parvovirinae_EPV -a --mergeStrategy OVERWRITE
