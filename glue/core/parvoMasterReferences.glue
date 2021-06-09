@@ -150,6 +150,11 @@
 	  add segment 411 2495
 	  exit
 
+ 	add feature-location NP
+	feature-location NP
+	  add segment 2696 3001
+	  exit
+
  	add feature-location VP1
 	feature-location VP1
 	  add segment 2998 5025

@@ -1,13 +1,65 @@
   # Declare Aveparvovirus reference sequences
   
-  create reference REF_Ave_UngPV1      ncbi-refseqs-copi MG972981  # Ungulate copiparvovirus 1
+  create reference REF_TurkeyAvePV     ncbi-refseqs-ave NC_038534  # Turkey parvovirus 
+  create reference REF_CraneAvePV      ncbi-refseqs-ave NC_040672  # Red-crowned crane parvovirus	
+  create reference REF_MacawAvePV      ncbi-refseqs-ave MW046460   # Ara ararauna aveparvovirus
 
 
-  reference REF_Ave_UngPV1
+  reference REF_TurkeyAvePV
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 5759
+	  add segment 1 4615
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 1 2085 
+	  exit
+
+ 	add feature-location NP
+	feature-location NP
+	  add segment 2286 2591
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2588 4615
+	  exit
+    
+    exit
+
+
+  reference REF_CraneAvePV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5456
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 335 2377 
+	  exit
+
+ 	add feature-location NP
+	feature-location NP
+	  add segment 2950 3435 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 3386 5404
+	  exit
+    
+    exit
+
+
+  reference REF_MacawAvePV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 220 2118
 	  exit
 
  	add feature-location Rep78
@@ -15,9 +67,14 @@
 	  add segment 470 2083 
 	  exit
 
+ 	add feature-location NP
+	feature-location NP
+	  add segment 2151 3341 
+	  exit
+
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2437 5559
+	  add segment 3307 5457
 	  exit
     
     exit

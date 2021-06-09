@@ -24,7 +24,7 @@
   run file glue/genus/ave/aveRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/genus/ave/aveCreateRootPhylogenies.glue
+  run file glue/genus/ave/aveCreateRootPhylogenies.glue
 
   # Validate
   validate

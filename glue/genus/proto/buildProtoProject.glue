@@ -27,7 +27,7 @@
   run file glue/genus/proto/protoRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/genus/proto/protoCreateRootPhylogenies.glue
+  run file glue/genus/proto/protoCreateRootPhylogenies.glue
 
   # Validate
   validate

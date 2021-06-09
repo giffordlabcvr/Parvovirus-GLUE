@@ -11,19 +11,21 @@
   
 	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"
 	demote member AL_Parvovirinae   --whereClause "sequence.source.name = 'fasta-digs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"
-	#demote member AL_Parvovirinae --whereClause "sequence.source.name = 'ncbi-refseqs-amdo-epv' and sequence.subfamily = 'Parvovirinae'"	
     exit
 
 
   #~# Subfamily
-
   alignment AL_Parvovirinae
   
-	demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"	
-	demote member AL_GENUS_Amdo  --whereClause "sequence.source.name = 'fasta-digs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"
-	#demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'ncbi-refseqs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"	
+	demote member AL_CROSS_GENUS_Amdo_Proto --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"	
+	demote member AL_CROSS_GENUS_Amdo_Proto  --whereClause "sequence.source.name = 'fasta-digs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"
     exit
 
   
-  #~# Internal nodes (amdoparvovirus sub-lineages) 
+  #~# Cross-genus
+  alignment AL_CROSS_GENUS_Amdo_Proto
+  
+	demote member AL_GENUS_Amdo --whereClause "sequence.source.name = 'fasta-refseqs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"	
+	demote member AL_GENUS_Amdo  --whereClause "sequence.source.name = 'fasta-digs-amdo-epv' and sequence.genus = 'Amdoparvovirus'"
+    exit
 
