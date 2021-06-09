@@ -1,0 +1,10 @@
+  delete module parvoFeaturePresenceRecorder
+  create module -f modules/core/parvoFeaturePresenceRecorder.xml
+
+  module parvoFeaturePresenceRecorder 
+
+    #~# Genus-level alignment
+     record feature-presence AL_GENUS_Ave --recursive --featureName whole_genome --descendentFeatures
+    
+    exit
+

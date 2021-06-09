@@ -1,0 +1,7 @@
+delete module ncbiImporter
+create module -f modules/genus/ave/aveNcbiImporterReferences.xml aveNcbiImporterReferences
+
+# Download NCBI sequences 
+module aveNcbiImporterReferences import
+
+export source ncbi-refseqs-ave

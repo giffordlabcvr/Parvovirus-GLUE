@@ -1,0 +1,29 @@
+  ### Constrained alignment tree for the Bocaparvovirus genus
+
+  #~# Root level (Family)
+  alignment AL_Parvoviridae_MASTER
+
+    add member  --whereClause "source.name = 'ncbi-refseqs-ave'"
+    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-ave'"
+    exit
+
+    
+  #~# Root level (Subfamily)
+  alignment AL_Parvovirinae
+  
+    demote member AL_CROSS_GENUS_Ave_Boca  -w "sequence.source.name = 'ncbi-refseqs-ave'"
+    exit
+
+  #~# Cross-genus level (Subfamily)
+  alignment AL_CROSS_GENUS_Ave_Boca
+  
+    demote member AL_GENUS_Ave  -w "sequence.source.name = 'ncbi-refseqs-ave'" 
+    exit
+
+
+  #~# Genus level (Subfamily)
+  alignment AL_GENUS_Ave
+  
+    derive segments AL_UNC_AVE_ROOT -a --mergeStrategy OVERWRITE
+    
+    exit

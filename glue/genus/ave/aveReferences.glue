@@ -1,0 +1,23 @@
+  # Declare Copiparvovirus reference sequences
+  create reference REF_Copi_UngPV1      ncbi-refseqs-copi MG972981  # Ungulate copiparvovirus 1
+
+
+  reference REF_Copi_UngPV1
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5759
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 470 2083 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2437 5559
+	  exit
+    
+    exit
+

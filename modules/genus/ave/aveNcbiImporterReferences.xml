@@ -1,0 +1,16 @@
+<!-- Avwparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-ave</sourceName>
+  <specificPrimaryAccessions>
+
+	<!-- <primaryAccession>NC_024452</primaryAccession> Master refererence Chicken parvovirus is in core project -->
+	<primaryAccession>NC_038534</primaryAccession>
+	<primaryAccession>NC_040672</primaryAccession>
+	<primaryAccession>MW046460</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
