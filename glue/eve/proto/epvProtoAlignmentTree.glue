@@ -14,15 +14,23 @@
 
 
   #~# Subfamily
-
   alignment AL_Parvovirinae
+  
+	demote member AL_CROSS_GENUS_Amdo_Proto  --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv' and sequence.genus = 'Protoparvovirus'"	
+	demote member AL_CROSS_GENUS_Amdo_Proto  --whereClause "sequence.source.name = 'fasta-digs-proto-epv' and sequence.genus = 'Protoparvovirus'"
+    exit
+
+
+  #~# Cross-genus
+  alignment AL_CROSS_GENUS_Amdo_Proto
   
 	demote member AL_GENUS_Proto  --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv' and sequence.genus = 'Protoparvovirus'"	
 	demote member AL_GENUS_Proto  --whereClause "sequence.source.name = 'fasta-digs-proto-epv' and sequence.genus = 'Protoparvovirus'"
     exit
-
   
-  #~# Internal nodes (protoparvovirus sub-lineages) 
+  
+  
+  #~# Genus level 
   alignment AL_GENUS_Proto
   
     demote member AL_Proto1     --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv' and sequence.assign_clade = 'Proto1'"

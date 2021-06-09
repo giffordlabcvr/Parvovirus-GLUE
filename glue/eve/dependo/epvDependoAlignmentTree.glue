@@ -19,8 +19,9 @@
 
   alignment AL_Parvovirinae
   
+	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv'"
 	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra   --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv'"
-	
+    
     exit
 
 
@@ -38,9 +39,9 @@
 
   alignment AL_GENUS_Dependo
   
-    demote member AL_Dependo1    --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Dependo1'"
-    demote member AL_Dependo2    --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Dependo2'"  
-    demote member AL_Dependo3    --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_clade = 'Dependo3'"
+    demote member AL_Dependo1    --whereClause "sequence.assign_clade = 'Dependo1' and sequence.source.name like '%-dependo-epv'"
+    demote member AL_Dependo2    --whereClause "sequence.assign_clade = 'Dependo2' and sequence.source.name like '%-dependo-epv'"  
+    demote member AL_Dependo3    --whereClause "sequence.assign_clade = 'Dependo3' and sequence.source.name like '%-dependo-epv'"
 
     exit
 
