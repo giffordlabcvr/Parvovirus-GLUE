@@ -1,8 +1,9 @@
-  # Declare Copiparvovirus reference sequences
-  create reference REF_Copi_UngPV1      ncbi-refseqs-copi MG972981  # Ungulate copiparvovirus 1
+  # Declare Aveparvovirus reference sequences
+  
+  create reference REF_Ave_UngPV1      ncbi-refseqs-copi MG972981  # Ungulate copiparvovirus 1
 
 
-  reference REF_Copi_UngPV1
+  reference REF_Ave_UngPV1
  
  	add feature-location whole_genome
 	feature-location whole_genome
