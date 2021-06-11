@@ -1,1 +1,121 @@
-((alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000883:0.39655836529261495604,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/KP120516:0.29833359086698624241,(((alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_007018:0.29378700088176568084,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016744:0.17900632652536135891)81:0.14072765966544437122,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_006259:0.68724130234737790257,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001401:0.26310807639599859131,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_024452:0.42298537280386960813,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001540:0.33579303308244229376)76:0.20232728173884320655)72:0.17637650069327406865)22:0.03512389827207854087)21:0.03839790590437675011,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001662:0.84527443690656989261,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001539:0.41274586781869943009)85:0.35906038746385660065)45:0.16011221012530582608)53:0.19033470694513424104)95:0.40378031047008880461,((alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_014357:1.35932828059259125375,((alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN049932:0.36758541500576547012,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_040562:0.38929092682086979815)96:0.33957844601940245788,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004285:0.94305348274156819421,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_002190:0.52128211786877642897)84:0.28032490489323919070)81:0.31827069897625637207)63:0.27581018566903892086,(alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_022564:1.33996620483345996178,((alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004286:0.61310652392456022053,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_005041:0.39474145766888274478)83:0.28896215333700386863,alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004287:0.45867649721995495948)76:0.32457107686715019890)89:0.43337490843419135267)95:0.14110277963085268715);
+#NEXUS
+begin taxa;
+	dimensions ntax=19;
+	taxlabels
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/KP120516'[&clade_ns="not-set",clade_vp="not-set",country="USA: North Carolina",full_name="Slow loris parvovirus 1",genus="Loriparvovirus",host_sci_name="Nycticebus coucang",isolate="-",name="SlPV",sample_date="-",sequenceID="KP120516",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN049932'[&clade_ns="not-set",clade_vp="not-set",country="USA",full_name="Syngnathus scovelli chapparvovirus",genus="Ichthamaparvovirus",host_sci_name="Syngnathus scovelli",isolate="-",name="SyngChPV",sample_date="-",sequenceID="MN049932",subclade_ns="not-set",subclade_vp="not-set",subfamily="Hamaparvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000883'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Human parvovirus B19",genus="Erythyroparvovirus",host_sci_name="-",isolate="J35",name="B19",sample_date="-",sequenceID="NC_000883",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001401'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 2",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV2",sample_date="-",sequenceID="NC_001401",subclade_ns="Dependo-A",subclade_vp="Dependo-A",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001539'[&clade_ns="Proto1",clade_vp="Proto1",country="-",full_name="Carnivore protoparvovirus",genus="Protoparvovirus",host_sci_name="-",isolate="-",name="CPV",sample_date="-",sequenceID="NC_001539",subclade_ns="not-set",subclade_vp="Proto1",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001540'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Bovine parvovirus",genus="Bocaparvovirus",host_sci_name="-",isolate="-",name="BPV",sample_date="-",sequenceID="NC_001540",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001662'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Aleutian mink disease virus",genus="Amdoparvovirus",host_sci_name="-",isolate="-",name="AMDV",sample_date="-",sequenceID="NC_001662",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_002190'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Infectious hypodermal and hematopoietic necrosis virus",genus="Penstyldensoparvovirus",host_sci_name="-",isolate="-",name="IHHN",sample_date="-",sequenceID="NC_002190",subclade_ns="not-set",subclade_vp="not-set",subfamily="Hamaparvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004285'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Aedes albopictus densovirus 2",genus="Brevidensoparvovirus",host_sci_name="-",isolate="-",name="AalDNV-2",sample_date="-",sequenceID="NC_004285",subclade_ns="not-set",subclade_vp="not-set",subfamily="Hamaparvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004286'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Galleria mellonella densovirus",genus="Protoambidensovirus",host_sci_name="-",isolate="-",name="GmDV",sample_date="-",sequenceID="NC_004286",subclade_ns="not-set",subclade_vp="not-set",subfamily="Densovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004287'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Bombyx mori densovirus 5",genus="Iteradensoparvovirus",host_sci_name="-",isolate="Shinshu",name="BmDNV-5",sample_date="-",sequenceID="NC_004287",subclade_ns="not-set",subclade_vp="not-set",subfamily="Densovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_005041'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Blattella germanica densovirus 1",genus="Blattambidensovirus",host_sci_name="-",isolate="-",name="BgDV",sample_date="-",sequenceID="NC_005041",subclade_ns="not-set",subclade_vp="not-set",subfamily="Densovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_006259'[&clade_ns="not-set",clade_vp="not-set",country="-",full_name="Bovine parvovirus 2",genus="Copiparvovirus",host_sci_name="-",isolate="-",name="BPV2",sample_date="-",sequenceID="NC_006259",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_007018'[&clade_ns="not-set",clade_vp="not-set",country="USA",full_name="Human parvovirus 4",genus="Tetraparvovirus",host_sci_name="Homo sapiens",isolate="-",name="PARV4",sample_date="-",sequenceID="NC_007018",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_014357'[&clade_ns="not-set",clade_vp="not-set",country="China",full_name="Fenneropenaeus chinensis hepatopancreatic densovirus",genus="Hepandensoparvovirus",host_sci_name="Fenneropenaeus chinensis",isolate="-",name="FCDNV",sample_date="-",sequenceID="NC_014357",subclade_ns="not-set",subclade_vp="not-set",subfamily="Hamaparvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016744'[&clade_ns="not-set",clade_vp="not-set",country="Ghana",full_name="Eidolon helvum parvovirus 1",genus="Tetraparvovirus",host_sci_name="Eidolon helvum",isolate="-",name="EhBtPV1",sample_date="-",sequenceID="NC_016744",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_022564'[&clade_ns="not-set",clade_vp="not-set",country="USA",full_name="Acheta domesticus mini ambidensovirus",genus="Miniambidensovirus",host_sci_name="cricket",isolate="Kalamazoo",name="AdMADV",sample_date="-",sequenceID="NC_022564",subclade_ns="not-set",subclade_vp="not-set",subfamily="Densovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_024452'[&clade_ns="not-set",clade_vp="not-set",country="Hungary",full_name="Chicken parvovirus",genus="Aveparvovirus",host_sci_name="-",isolate="-",name="ChPV",sample_date="-",sequenceID="NC_024452",subclade_ns="not-set",subclade_vp="not-set",subfamily="Parvovirinae"]
+	'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_040562'[&clade_ns="not-set",clade_vp="not-set",country="China",full_name="Porcine parvovirus 7",genus="Chaphamaparvovirus",host_sci_name="Sus scrofa",isolate="GX49",name="PPV7",sample_date="-",sequenceID="NC_040562",subclade_ns="not-set",subclade_vp="not-set",subfamily="Hamaparvovirinae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_000883':0.396558,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/KP120516':0.298334,((('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_007018':0.293787,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016744':0.179006)[&label=81]:0.140728,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_006259':0.687241,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001401':0.263108,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_024452':0.422985,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001540':0.335793)[&label=76]:0.202327)[&label=72]:0.176377)[&label=22]:0.035124)[&label=21]:0.038398,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001662':0.845274,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_001539':0.412746)[&label=85]:0.35906)[&label=45]:0.160112)[&label=53]:0.190335)[&label=95]:0.40378,(('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_014357':1.359328,(('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/MN049932':0.367585,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_040562':0.389291)[&label=96]:0.339578,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004285':0.943053,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_002190':0.521282)[&label=84]:0.280325)[&label=81]:0.318271)[&label=63]:0.27581,('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_022564':1.339966,(('alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004286':0.613107,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_005041':0.394741)[&label=83]:0.288962,'alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_004287':0.458676)[&label=76]:0.324571)[&label=89]:0.433375)[&label=95]:0.141103);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="genus";
+	set tipLabels.displayAttribute="genus";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

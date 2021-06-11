@@ -1,9 +1,9 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/AF321230	AF321230	-	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/D00623	D00623	-	-	-	-	-	-	-	-	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/JX505432	JX505432	-	-	-	-	-	-	-	-	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/AF321230	AF321230	KilhamRat	Kilham rat virus	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/D00623	D00623	PPV	Porcine parvovirus	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/JX505432	JX505432	H1	H-1 parvovirus	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/KJ495710	KJ495710	TuV	Primate protoparvovirus 4	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/KJ641666	KJ641666	-	-	-	-	-	-	-	-	-	-	-	-
+alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/KJ641666	KJ641666	BtHp-PV	Bat parvovirus isolate BtHp-PV/GD2012	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs-proto/NC_001510	NC_001510	MVM	Rodent protoparvovirus 1	-	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/ncbi-refseqs/NC_001539	NC_001539	CPV	Carnivore protoparvovirus	Parvovirinae	Protoparvovirus	Proto1	not-set	Proto1	Proto1	-	-	-	-
 alignment/AL_UNC_PROTO_ROOT_EVE_VP/member/fasta-refseqs-proto-epv/proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-

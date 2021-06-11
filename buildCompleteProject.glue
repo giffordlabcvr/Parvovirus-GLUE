@@ -53,7 +53,9 @@ project parvoviridae
   run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
   
   # Create the root phylogeny with EVEs included
-  #run file glue/core/epvCreateRootPhylogenies.glue
+  run file glue/core/epvCreateRootPhylogenies.glue
+  run file glue/core/epvRerootPhylogenies.glue
+  run file glue/core/epvRootPhylogeniesExportAnnotations.glue
   
 exit
 

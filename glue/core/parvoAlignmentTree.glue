@@ -109,7 +109,7 @@
     exit
  
   alignment AL_CROSS_GENUS_Amdo_Proto
-    derive segments AL_UNC_AVE_BOCA -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_AMDO_PROTO -a --mergeStrategy OVERWRITE
     exit   
     
   alignment AL_CROSS_GENUS_Ave_Boca
