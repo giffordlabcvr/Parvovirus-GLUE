@@ -6,6 +6,8 @@
 
     #~# Internal node alignments (subfamily)
     import AL_UNC_PARVOVIRINAE     -f alignments/internal/subfamily/parvovirinae.aln.fna
+    import AL_UNC_HAMAPARVOVIRINAE     -f alignments/internal/subfamily/hamaparvovirinae.aln.fna
+    import AL_UNC_DENSOPARVOVIRINAE     -f alignments/internal/subfamily/densoparvovirinae.aln.fna
 
     #~# Cross-genus alignments
     import AL_UNC_AVE_BOCA                     -f alignments/internal/cross-genus/ave-boca-genome.aln.fna

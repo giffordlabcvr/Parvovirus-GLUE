@@ -23,6 +23,7 @@
 
 
 
+
   alignment AL_Hamaparvovirinae
   
 	extract child AL_GENUS_Chaphama --r REF_MASTER_Chaphama_PPV7
@@ -32,6 +33,7 @@
 	demote member AL_GENUS_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
 	
     exit
+
 
 
 
