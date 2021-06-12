@@ -2,25 +2,26 @@
 
 
   #~# Root (Family)  
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-ichthama-epv'"
-  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-ichthama-epv'"
+  alignment AL_Parvoviridae_MASTER add member --whereClause "sequence.source.name like '%ichthama-epv'"
 
 
   alignment AL_Parvoviridae_MASTER
   
-	demote member AL_Hamaparvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"
-	demote member AL_Hamaparvovirinae  --whereClause "sequence.source.name = 'fasta-digs-ichthama-epv' and sequence.subfamily = 'Hamaparvovirinae'"
+	demote member AL_Hamaparvovirinae  --whereClause "sequence.source.name like '%ichthama-epv'"
     exit
 
 
   #~# Subfamily
-
   alignment AL_Hamaparvovirinae
   
-	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'fasta-refseqs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
-	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name = 'fasta-digs-ichthama-epv' and sequence.genus = 'Ichthamaparvovirus'"	
+	demote member AL_GENUS_Ichthama --whereClause "sequence.source.name like '%ichthama-epv'"	
     exit
 
   
-  #~# Internal nodes (ichthamaparvovirus sub-lineages) 
+  #~# Genus level
+  alignment AL_GENUS_Ichthama
+  
+	# Derive constrained alignment segments from unconstrained alignments
+    alignment AL_GENUS_Ichthama derive segments AL_UNC_EPV_ichthama-root  -a --mergeStrategy OVERWRITE	
+    exit
 

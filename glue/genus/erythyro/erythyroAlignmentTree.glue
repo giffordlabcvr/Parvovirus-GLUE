@@ -16,9 +16,10 @@
     demote member AL_GENUS_Erythyro  -w "sequence.genus = 'Erythyroparvovirus' and sequence.source.name = 'ncbi-refseqs-erythyro'"
     exit
 
-
-  #~# Derive constrained alignment segments from unconstrained alignments
+  #~# Genus level 
   alignment AL_GENUS_Erythyro
+  
+    # Derive constrained alignment segments from unconstrained alignment
     derive segments AL_UNC_ERYTHYRO_ROOT -a --mergeStrategy OVERWRITE
     exit
 
