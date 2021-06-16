@@ -101,15 +101,29 @@
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
+  
 
+  #~# Family level
   alignment AL_Parvoviridae_MASTER
     derive segments AL_UNC_ROOT          -a --mergeStrategy OVERWRITE
     exit
- 
+
+
+  #~# Subfamily level
   alignment AL_Parvovirinae
     derive segments AL_UNC_PARVOVIRINAE  -a --mergeStrategy OVERWRITE
     exit
  
+  alignment AL_Hamaparvovirinae
+    derive segments AL_UNC_HAMAPARVOVIRINAE  -a --mergeStrategy OVERWRITE
+    exit
+ 
+  alignment AL_Densovirinae
+    derive segments AL_UNC_DENSOPARVOVIRINAE  -a --mergeStrategy OVERWRITE
+    exit
+
+ 
+  #~# Cross-genus level
   alignment AL_CROSS_GENUS_Amdo_Proto
     derive segments AL_UNC_AMDO_PROTO -a --mergeStrategy OVERWRITE
     exit   
@@ -121,3 +135,5 @@
   alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
     derive segments AL_UNC_Erythyro_Dependo_Copi_Tetra -a --mergeStrategy OVERWRITE
     exit
+
+

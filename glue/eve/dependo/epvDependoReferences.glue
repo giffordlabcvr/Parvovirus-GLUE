@@ -8,7 +8,7 @@
   create reference REF_EPV_dependo.4-rhinocerotidae      fasta-refseqs-dependo-epv  dependo.4-rhinocerotidae 
   create reference REF_EPV_dependo.5-rhinocerotidae      fasta-refseqs-dependo-epv  dependo.5-rhinocerotidae 
   create reference REF_EPV_dependo.6-elephas             fasta-refseqs-dependo-epv  dependo.6-elephas
-  create reference REF_EPV_dependo.7-bradypus            fasta-refseqs-dependo-epv  dependo.7-bradypus
+
   create reference REF_EPV_dependo.8-dasypus             fasta-refseqs-dependo-epv  dependo.8-dasypus
   create reference REF_EPV_dependo.9-hyracoidea          fasta-refseqs-dependo-epv  dependo.9-hyracoidea
   create reference REF_EPV_dependo.10-diprotodontia      fasta-refseqs-dependo-epv  dependo.10-diprotodontia
@@ -18,8 +18,7 @@
   create reference REF_EPV_dependo.14-cercopithecidae    fasta-refseqs-dependo-epv  dependo.14-cercopithecidae
   create reference REF_EPV_dependo.15-colobus            fasta-refseqs-dependo-epv  dependo.15-colobus
   create reference REF_EPV_dependo.16-canid              fasta-refseqs-dependo-epv  dependo.16-canid
-  create reference REF_EPV_dependo.20-laurasiatheria     fasta-refseqs-dependo-epv  dependo.20-laurasiatheria
-  create reference REF_EPV_dependo.22-laurasiatheria     fasta-refseqs-dependo-epv  dependo.22-laurasiatheria
+
   create reference REF_EPV_dependo.23-camelidae          fasta-refseqs-dependo-epv  dependo.23-camelidae
   create reference REF_EPV_dependo.26-strepsirrhini      fasta-refseqs-dependo-epv  dependo.26-strepsirrhini
   create reference REF_EPV_dependo.27-eulemur            fasta-refseqs-dependo-epv  dependo.27-eulemur
@@ -47,7 +46,6 @@
   create reference REF_EPV_dependo.174-PipPip            fasta-refseqs-dependo-epv  dependo.174-PipPip
 
   #create reference REF_EPV_dependo.191-ornithorhynchus   fasta-refseqs-dependo-epv  dependo.191-ornithorhynchus
-
 
   # Avian
   create reference REF_EPV_dependo.365-passeriformes      fasta-refseqs-dependo-epv  dependo.365-passeriformes

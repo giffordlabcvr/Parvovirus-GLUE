@@ -1,3 +1,2 @@
 
-  create module -f modules/genus/erythyro/erythyroSideDataImporter.xml 
   create module -f modules/genus/erythyro/erythyroCompoundAligner.xml

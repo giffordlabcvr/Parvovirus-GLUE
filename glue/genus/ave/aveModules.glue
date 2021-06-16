@@ -1,3 +1,2 @@
 
-  create module -f modules/genus/ave/aveSideDataImporter.xml 
   create module -f modules/genus/ave/aveCompoundAligner.xml

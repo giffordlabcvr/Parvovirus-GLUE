@@ -1,0 +1,15 @@
+<!-- Dependoparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-unc-parvo-epv</sourceName>
+  <specificPrimaryAccessions>
+
+	
+    <!-- HHV6 integration -->	
+	<primaryAccession>X59532</primaryAccession>
+	
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

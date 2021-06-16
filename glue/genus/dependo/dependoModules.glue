@@ -1,3 +1,2 @@
 
-  create module -f modules/genus/dependo/dependoSideDataImporter.xml 
   create module -f modules/genus/dependo/dependoCompoundAligner.xml

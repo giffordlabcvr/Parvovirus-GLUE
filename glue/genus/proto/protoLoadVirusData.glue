@@ -1,5 +1,5 @@
   # Import metadata for exogenous reference sequences from tabular
-  module protoSideDataImporter 
+  module parvoSideDataImporter 
     populate -f tabular/genus/proto-refseqs-side-data.tsv
     exit
 

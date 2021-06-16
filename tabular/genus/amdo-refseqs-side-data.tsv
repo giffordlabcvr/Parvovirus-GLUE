@@ -1,4 +1,4 @@
-accession-ID	virus_name	virus_subfamily	virus_full_name	virus_other_name	host_species	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	accession-other
+sequenceID	virus_name	virus_subfamily	virus_full_name	virus_other_name	host_species	virus_genus	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	accession-other
 NC_001662	ADV	Parvovirinae	 Carnivore amdoparvovirus 1	Aleutian mink disease parvovirus	Neovison vison	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	M20036
 NC_038533	GFAV	Parvovirinae	 Carnivore amdoparvovirus 1	gray fox amdovirus	Urocyon cinereoargenteus	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	JN202450
 NC_025825	RFAV	Parvovirinae	 Carnivore amdoparvovirus 1	racoon dog and fox amdoparvovirus	Nyctereutes procyonoides	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	KJ396347

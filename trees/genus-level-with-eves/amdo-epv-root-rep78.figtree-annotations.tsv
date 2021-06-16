@@ -1,6 +1,7 @@
 taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
 alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/amdo.1-ellobius	amdo.1-ellobius	amdo.1-ellobius	1	Species	-	NK	NK
 alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/amdo.2-ellobius	amdo.2-ellobius	amdo.2-ellobius	2	Species	-	MAFG	MAFG
+alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/fasta-refseqs-amdo-epv/ap.101-serpentes-UR	ap.101-serpentes-UR	ap.101-serpentes-UR	101	Species	-	R3HDM2	INHBC
 alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/MT770848	MT770848	LAPV	-	-	-	-	-
 alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs/NC_001662	NC_001662	AMDV	-	-	-	-	-
 alignment/AL_UNC_AMDO_ROOT_EVE_NS/member/ncbi-refseqs-amdo/NC_025825	NC_025825	RFAV	-	-	-	-	-

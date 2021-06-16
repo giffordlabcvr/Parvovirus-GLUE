@@ -1,3 +1,1 @@
-
-  create module -f modules/genus/ichthama/ichthamaSideDataImporter.xml 
   create module -f modules/genus/ichthama/ichthamaCompoundAligner.xml

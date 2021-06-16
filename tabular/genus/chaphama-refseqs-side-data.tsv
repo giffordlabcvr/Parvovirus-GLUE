@@ -1,4 +1,4 @@
-accession-ID	virus_subfamily	virus_genus	virus_name	virus_full_name	virus_other_name	host_species	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	accession-other
+sequenceID	virus_subfamily	virus_genus	virus_name	virus_full_name	virus_other_name	host_species	assign_clade	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct	accession-other
 MG846443	Hamaparvovirinae	Chaphamaparvovirus	CChPV	Chicken-chapparvovirus-2	n/a	Gallus gallus	NK	NK	NK	NK	NK	NK	NK	
 MH670587	Hamaparvovirinae	Chaphamaparvovirus	MkPV	Mouse kidney parvoviruses	n/a	Mus musculus	NK	NK	NK	NK	NK	NK	NK	
 MK448316	Hamaparvovirinae	Chaphamaparvovirus	Cachavirus	Cachavirus-1B	n/a	Canis familiaris	NK	NK	NK	NK	NK	NK	NK	

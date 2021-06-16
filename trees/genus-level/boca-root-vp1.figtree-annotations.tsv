@@ -1,7 +1,7 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JF429835	JF429835	Sus-ArtBoV4-1	Porcine bocavirus 4-1	-	Bocaparvovirus	NK	NK	NK	NK	-	Sus scrofa	-	Hong Kong
-alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JN420361	JN420361	Zac-PnBov1	California sea lion bocavirus 1	-	Bocaparvovirus	NK	NK	NK	NK	1153	Zalophus californianus (California sea lion)	-	USA: California
-alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682922	MF682922	Rp-BtBoV1	Rhinolophus pusillus bocaparvovirus 1	-	Bocaparvovirus	NK	NK	NK	NK	-	Rhinolophus pusillus	-	China
-alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682923	MF682923	Rp-BtBoV2	Rhinolophus pusillus bocaparvovirus 2	-	Bocaparvovirus	NK	NK	NK	NK	-	Rhinolophus pusillus	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JF429835	JF429835	Sus-ArtBoV4-1	Porcine bocavirus 4-1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Sus scrofa	-	Hong Kong
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JN420361	JN420361	Zac-PnBov1	California sea lion bocavirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	1153	Zalophus californianus (California sea lion)	-	USA: California
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682922	MF682922	Rp-BtBoV1	Rhinolophus pusillus bocaparvovirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rhinolophus pusillus	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682923	MF682923	Rp-BtBoV2	Rhinolophus pusillus bocaparvovirus 2	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rhinolophus pusillus	-	China
 alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs/NC_001540	NC_001540	BPV	Bovine parvovirus	Parvovirinae	Bocaparvovirus	not-set	not-set	not-set	not-set	-	-	-	-
-alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_004442	NC_004442	CanFam-CarBV1	Canine minute virus	-	Bocaparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_004442	NC_004442	CanFam-CarBV1	Canine minute virus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	-	-	-
