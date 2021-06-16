@@ -2,7 +2,7 @@
 
 
   #~# Root (Family)  
-  alignment AL_Parvoviridae_MASTER add member --whereClause "sequence.source.name like '%ichthama-epv'"
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name like '%ichthama-epv'"
 
 
   alignment AL_Parvoviridae_MASTER
@@ -22,6 +22,6 @@
   alignment AL_GENUS_Ichthama
   
 	# Derive constrained alignment segments from unconstrained alignments
-    alignment AL_GENUS_Ichthama derive segments AL_UNC_EPV_ichthama-root  -a --mergeStrategy OVERWRITE	
+    derive segments AL_UNC_EPV_ichthama-root  -a --mergeStrategy OVERWRITE	
     exit
 

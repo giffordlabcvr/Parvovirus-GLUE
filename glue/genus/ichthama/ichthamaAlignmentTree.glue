@@ -3,7 +3,7 @@
   #~# Root level (Family)
   alignment AL_Parvoviridae_MASTER
     add member  --whereClause "source.name = 'ncbi-refseqs-ichthama'"
-    demote member AL_Hamaparvovirinae  -w  "source.name = 'ncbi-refseqs-ichthama'"
+    demote member AL_Hamaparvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-ichthama'"
     exit
     
   #~# Subfamily level
