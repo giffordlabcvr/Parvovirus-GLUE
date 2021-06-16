@@ -1,0 +1,22 @@
+  ### Set up constrained alignment tree for EPV subclades
+
+
+  #~# Root (Family)  
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-refseqs-proto-epv'"
+  alignment AL_Parvoviridae_MASTER add member --whereClause "source.name = 'fasta-digs-proto-epv'"
+ 
+
+  alignment AL_Parvoviridae_MASTER
+  
+	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv' and sequence.subfamily = 'Parvovirinae'"
+	demote member AL_Parvovirinae  --whereClause "sequence.source.name = 'fasta-digs-proto-epv' and sequence.subfamily = 'Parvovirinae'"
+    exit
+
+
+  #~# Subfamily
+  alignment AL_Parvovirinae
+  
+	demote member AL_CROSS_GENUS_Amdo_Proto  --whereClause "sequence.source.name = 'fasta-refseqs-proto-epv' and sequence.genus = 'Protoparvovirus'"	
+	demote member AL_CROSS_GENUS_Amdo_Proto  --whereClause "sequence.source.name = 'fasta-digs-proto-epv' and sequence.genus = 'Protoparvovirus'"
+    exit
+
