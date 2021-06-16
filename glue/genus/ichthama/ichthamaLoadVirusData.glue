@@ -1,5 +1,5 @@
   # Import metadata for exogenous reference sequences from tabular
-  module ichthamaSideDataImporter 
+  module parvoSideDataImporter 
     populate -f tabular/genus/ichthama-refseqs-side-data.tsv
     exit
 

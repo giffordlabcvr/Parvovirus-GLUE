@@ -1,3 +1,2 @@
 
-  create module -f modules/genus/chaphama/chaphamaSideDataImporter.xml 
   create module -f modules/genus/chaphama/chaphamaCompoundAligner.xml
