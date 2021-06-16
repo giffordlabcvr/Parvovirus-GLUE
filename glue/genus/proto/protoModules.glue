@@ -1,4 +1,2 @@
 
-  create module -f modules/genus/proto/protoSideDataImporter.xml 
   create module -f modules/genus/proto/protoCompoundAligner.xml
-  create module -f modules/eve/proto/epvFigTreeAnnotationExporter.xml

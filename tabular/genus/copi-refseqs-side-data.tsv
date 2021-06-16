@@ -1,2 +1,2 @@
-accession-ID	virus_name	virus_full_name	host_species	assign_clade	virus_genus	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
-MG972981	BPV	Bovine parvovirus	Bos taurus	NK	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
+sequenceID	virus_name	virus_full_name	host_species	assign_clade	virus_subfamily	virus_genus	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
+MG972981	BPV	Bovine parvovirus	Bos taurus	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE

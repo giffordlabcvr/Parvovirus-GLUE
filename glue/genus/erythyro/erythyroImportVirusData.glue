@@ -1,5 +1,5 @@
   # Import metadata for exogenous reference sequences from tabular
-  module erythyroSideDataImporter 
+  module parvoSideDataImporter 
     populate -f tabular/genus/erythyro-refseqs-side-data.tsv
     exit
 

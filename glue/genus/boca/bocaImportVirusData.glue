@@ -1,5 +1,5 @@
   # Import metadata for exogenous reference sequences from tabular
-  module bocaSideDataImporter 
+  module parvoSideDataImporter 
     populate -f tabular/genus/boca-refseqs-side-data.tsv
     exit
 

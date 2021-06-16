@@ -1,9 +1,9 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/AF406967	AF406967	BPV3	Ungulate erythroparvovirus 1	-	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/fasta-refseqs-erythyro/ErythyroPV-Giraffe-1	ErythyroPV-Giraffe-1	GiEPV	Ungulate erythroparvovirus 2	-	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/fasta-refseqs-erythyro/ErythyroPV-Hyaena-1	ErythyroPV-Hyaena-1	HhEPV	Ungulate erythroparvovirus 2	-	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/AF406967	AF406967	BPV3	Ungulate erythroparvovirus 1	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/fasta-refseqs-erythyro/ErythyroPV-Giraffe-1	ErythyroPV-Giraffe-1	GiEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/fasta-refseqs-erythyro/ErythyroPV-Hyaena-1	ErythyroPV-Hyaena-1	HhEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs/NC_000883	NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythyroparvovirus	not-set	not-set	not-set	not-set	J35	-	-	-
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038540	NC_038540	SPV	Primate erythroparvovirus 2	-	Erythyroparvovirus	NK	NK	NK	NK	-	Macaca fascicularis	-	-
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038541	NC_038541	RmPV	Primate erythroparvovirus 3	-	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038542	NC_038542	PmPV	Primate erythroparvovirus 4	-	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038543	NC_038543	ChpPV	Rodent erythroparvovirus 1	-	Erythyroparvovirus	NK	NK	NK	NK	-	Manchurian chipmunk	-	South Korea
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038540	NC_038540	SPV	Primate erythroparvovirus 2	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	Macaca fascicularis	-	-
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038541	NC_038541	RmPV	Primate erythroparvovirus 3	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038542	NC_038542	PmPV	Primate erythroparvovirus 4	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_ERYTHYRO_ROOT_VP/member/ncbi-refseqs-erythyro/NC_038543	NC_038543	ChpPV	Rodent erythroparvovirus 1	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	Manchurian chipmunk	-	South Korea

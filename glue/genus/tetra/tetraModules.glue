@@ -1,3 +1,2 @@
 
-  create module -f modules/genus/tetra/tetraSideDataImporter.xml 
   create module -f modules/genus/tetra/tetraCompoundAligner.xml

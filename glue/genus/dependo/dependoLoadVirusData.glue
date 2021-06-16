@@ -1,5 +1,5 @@
   # Import metadata for exogenous reference sequences from tabular
-  module dependoSideDataImporter 
+  module parvoSideDataImporter 
     populate -f tabular/genus/dependo-refseqs-side-data.tsv
     exit
 
