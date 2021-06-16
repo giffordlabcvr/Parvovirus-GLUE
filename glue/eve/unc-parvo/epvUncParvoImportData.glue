@@ -1,8 +1,8 @@
 
   # Import EVE references/consensus data
-  run script glue/eve/unc-proto/epvUncParvoLoadRefConData1.js
-  run script glue/eve/unc-proto/epvUncParvoLoadRefConData2.js
+  run script glue/eve/unc-parvo/epvUncParvoLoadRefConData1.js
+  run script glue/eve/unc-parvo/epvUncParvoLoadRefConData2.js
 
   # Import EVE locus data from DIGS
-  run script glue/eve/unc-proto/epvUncParvoLoadLocusData1.js
-  run script glue/eve/unc-proto/epvUncParvoLoadLocusData2.js
+  run script glue/eve/unc-parvo/epvUncParvoLoadLocusData1.js
+  run script glue/eve/unc-parvo/epvUncParvoLoadLocusData2.js

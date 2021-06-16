@@ -1,7 +1,6 @@
   
   # delete previous extension
-  run file glue/eve/unc-parvo/deletePreviousExtensionBuild.glue
-  
+  #run file glue/eve/unc-parvo/deletePreviousExtensionBuild.glue
   
   # Import endogenous parvoviral element (EPV) sequences
   run file glue/eve/unc-parvo/epvUncParvoImportSources.glue
