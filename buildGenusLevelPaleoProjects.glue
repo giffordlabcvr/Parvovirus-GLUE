@@ -1,11 +1,20 @@
-# Build genus-level extensions
+# Build paleovirus extensions for each genus that has EVE representatives
 project parvoviridae
 
+  # Parvovirinae EVEs
   run file glue/eve/amdo/buildAmdoPaleoProject.glue
   run file glue/eve/erythyro/buildErythyroPaleoProject.glue
-  #run file glue/eve/proto/buildProtoPaleoProject.glue
+  run file glue/eve/proto/buildProtoPaleoProject.glue
   run file glue/eve/dependo/buildDependoPaleoProject.glue
+  #run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
 
+  # Hamaparvovirinae EVEs
+  run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
+
+  # Create the root phylogeny with EVEs included
+  run file glue/core/epvCreateRootPhylogenies.glue
+  run file glue/core/epvRerootPhylogenies.glue
+  run file glue/core/epvRootPhylogeniesExportAnnotations.glue
+  
 exit
-
 
