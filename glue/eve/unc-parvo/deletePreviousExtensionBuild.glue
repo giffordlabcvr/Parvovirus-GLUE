@@ -1,0 +1,20 @@
+  delete alignment AL_UNC_EPV_unc-parvo
+
+  # Delete EVEs from genus alignments
+  alignment AL_GENUS_Proto
+  
+    remove member -w "sequence.source.name = 'fasta-refseqs-unc-parvo-epv'"
+    remove member -w "sequence.source.name = 'fasta-digs-epv'"
+    exit  
+
+  # Delete extension reference sequences
+  multi-delete reference -w "name like 'REF_EPV_unc-parvo%'"
+
+  # Delete links to 
+  run script glue/eve/unc-parvo/deleteProtoRefConTableRows.js
+  run script glue/eve/unc-parvo/deleteProtoLocusTableRows.js
+
+  # Delete sources
+  delete source fasta-refseqs-unc-parvo-epv
+  delete source fasta-digs-unc-parvo-epv
+

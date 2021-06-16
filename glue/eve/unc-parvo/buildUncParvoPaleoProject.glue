@@ -1,7 +1,6 @@
   
   # delete previous extension
-  run file glue/eve/unc-parvo/deletePreviousExtensionBuild.glue
-  
+  #run file glue/eve/unc-parvo/deletePreviousExtensionBuild.glue
   
   # Import endogenous parvoviral element (EPV) sequences
   run file glue/eve/unc-parvo/epvUncParvoImportSources.glue
@@ -11,7 +10,6 @@
   
   # Declare references 
   run file glue/eve/unc-parvo/epvUncParvoReferences.glue
-
 
   # Set up constrained alignment tree for the EPV subclades
   run file glue/eve/unc-parvo/epvUncParvoAlignmentTree.glue
@@ -28,7 +26,6 @@
 
   # Create tip-level phylogenies
   run script glue/eve/unc-parvo/epvUncParvoCreateTipPhylogenies.js
-
 
 
   # Create root-level phylogenies for major genes
