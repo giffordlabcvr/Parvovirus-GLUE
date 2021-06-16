@@ -1,8 +1,11 @@
   # Declare protoparvovirus EVE reference sequences
   
+  # Shark
+  create reference REF_EPV_unc-parvo.7-bradypus            fasta-refseqs-unc-parvo-epv  unc-parvo.7-bradypus
+  
+  # Fish
+
   # Mammal
-  create reference REF_EPV_proto.1-RatNor      fasta-refseqs-proto-epv  proto.1-RatNor
-  create reference REF_EPV_proto.3-apodemus    fasta-refseqs-proto-epv  proto.3-apodemus
   create reference REF_EPV_unc-parvo.7-bradypus            fasta-refseqs-unc-parvo-epv  unc-parvo.7-bradypus
   create reference REF_EPV_unc-parvo.20-laurasiatheria     fasta-refseqs-unc-parvo-epv  unc-parvo.20-laurasiatheria
   create reference REF_EPV_unc-parvo.22-laurasiatheria     fasta-refseqs-unc-parvo-epv  unc-parvo.22-laurasiatheria
