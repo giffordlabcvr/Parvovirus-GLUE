@@ -1,3 +1,2 @@
 
-  create module -f modules/genus/amdo/amdoSideDataImporter.xml 
   create module -f modules/genus/amdo/amdoCompoundAligner.xml

@@ -1,6 +1,0 @@
-create module -f modules/aavNcbiImporterEpv.xml aavNcbiImporterEpv
-
-# Download NCBI sequences 
-module aavNcbiImporterEpv import
-
-export source ncbi-refseqs-epv
