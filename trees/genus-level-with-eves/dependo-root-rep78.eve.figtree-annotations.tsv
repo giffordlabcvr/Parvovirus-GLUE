@@ -14,8 +14,6 @@ alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.174-PipPip	dependo.174-PipPip	dependo.174-Pipistrellus-pipistrellus	174	species	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.180-rhinolophus	dependo.180-rhinolophus	dependo.180-Rhinolophus-sinicus	180	species	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.2-vespertilionidae	dependo.2-vespertilionidae	dependo.2-vespertilionidae	2	clade	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.20-laurasiatheria	dependo.20-laurasiatheria	dependo.20-laurasiatheria	20	superorder	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.22-laurasiatheria	dependo.22-laurasiatheria	dependo.22-laurasiatheria	22	superorder	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.27-eulemur	dependo.27-eulemur	dependo.27-eulemur	27	genus	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.28-daubentonia	dependo.28-daubentonia	dependo.28-daubentonia	28	genus	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.3-lagomorpha	dependo.3-lagomorpha	dependo.3-lagomorpha	3	order	-	-	-
@@ -30,7 +28,6 @@ alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.54-cavia	dependo.54-cavia	dependo.54-cavia	54	genus	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.56-cavia	dependo.56-cavia	dependo.56-cavia	56	family	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.6-elephas	dependo.6-elephas	dependo.6-elephas	6	genus	-	-	-
-alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.7-bradypus	dependo.7-bradypus	dependo.7-bradypus	7	species	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/fasta-refseqs-dependo-epv/dependo.9-hyracoidea	dependo.9-hyracoidea	dependo.9-hyracoidea	9	clade	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/ncbi-refseqs-dependo/DQ813647	DQ813647	AAV12	-	-	-	-	-
 alignment/AL_TREE_ROOT_EPV_DEPENDO_Rep/member/ncbi-refseqs-dependo/FJ688147	FJ688147	AAVpo1	-	-	-	-	-

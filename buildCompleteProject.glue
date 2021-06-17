@@ -26,7 +26,7 @@ project parvoviridae
   # Parvovirinae
   run file glue/genus/ave/buildAveProject.glue
   run file glue/genus/boca/buildBocaProject.glue
-  run file glue/genus/erythyro/buildErythyroProject.glue
+  run file glue/genus/erythro/buildErythroProject.glue
   run file glue/genus/dependo/buildDependoProject.glue
   run file glue/genus/copi/buildCopiProject.glue
   run file glue/genus/tetra/buildTetraProject.glue
@@ -45,7 +45,7 @@ project parvoviridae
 
   # Parvovirinae EVEs
   run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  run file glue/eve/erythyro/buildErythyroPaleoProject.glue
+  run file glue/eve/erythro/buildErythroPaleoProject.glue
   run file glue/eve/proto/buildProtoPaleoProject.glue
   run file glue/eve/dependo/buildDependoPaleoProject.glue
   #run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
