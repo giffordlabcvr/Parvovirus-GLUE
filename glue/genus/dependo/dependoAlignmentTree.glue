@@ -9,12 +9,12 @@
     
   #~# Subfamily level
   alignment AL_Parvovirinae
-    demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
+    demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
 
 
   #~#  Cross-Genus level
-  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
+  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
     demote member AL_GENUS_Dependo  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
 

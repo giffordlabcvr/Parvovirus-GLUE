@@ -1,5 +1,5 @@
-var refconDataPath = "tabular/eve/parvovirinae//epv-erythyro-refseqs-side-data.tsv";
-var source_name = "fasta-digs-erythyro-epv";
+var refconDataPath = "tabular/eve/parvovirinae//epv-erythro-refseqs-side-data.tsv";
+var source_name = "fasta-digs-erythro-epv";
 
 // Load the refcon data and store relationships between locus and viral taxonomy
 var epvRefseqResultMap = {};
@@ -9,7 +9,7 @@ get_refcon_data(epvRefseqResultMap, refconDataPath);
 // Load EVE side data from tab file 
 var loadResult;
 glue.inMode("module/tabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae//epv-erythyro-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/parvovirinae//epv-erythro-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -64,7 +64,7 @@ _.each(loadResult, function(eveObj) {
 			
 			glue.command(["set", "field", "assign_clade", assign_clade]);
 			glue.command(["set", "field", "assign_subclade", assign_subclade]);
-			glue.command(["set", "field", "genus", "Erythyroparvovirus"]);
+			glue.command(["set", "field", "genus", "Erythroparvovirus"]);
 			glue.command(["set", "field", "subfamily", "Parvovirinae"]);
 
 			glue.command(["set", "field", "name", eveObj.sequenceID]);

@@ -48,11 +48,11 @@
 	demote member AL_CROSS_GENUS_Ave_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
 	demote member AL_CROSS_GENUS_Ave_Boca --whereClause "sequence.genus = 'Aveparvovirus'"
 
-	extract child AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --r REF_MASTER_Erythyro_B19
-	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Erythyroparvovirus'"
-	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Dependoparvovirus'"
-	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Copiparvovirus'"
-	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
+	extract child AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --r REF_MASTER_Erythro_B19
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Erythroparvovirus'"
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Dependoparvovirus'"
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Copiparvovirus'"
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
 		
     exit
 
@@ -82,7 +82,7 @@
 
 
 
-  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
+  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
   
 	extract child AL_GENUS_Dependo --r REF_MASTER_Dependo_AAV2
 	demote member AL_GENUS_Dependo --whereClause "sequence.genus = 'Dependoparvovirus'"
@@ -93,8 +93,8 @@
 	extract child AL_GENUS_Tetra --r REF_MASTER_Tetra_EhBtPV1  # NC_016744
 	demote member AL_GENUS_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
 
-	extract child AL_GENUS_Erythyro --r REF_MASTER_Erythyro_B19
-	demote member AL_GENUS_Erythyro --whereClause "sequence.genus = 'Erythyroparvovirus'"
+	extract child AL_GENUS_Erythro --r REF_MASTER_Erythro_B19
+	demote member AL_GENUS_Erythro --whereClause "sequence.genus = 'Erythroparvovirus'"
 
     exit
 
@@ -132,8 +132,8 @@
     derive segments AL_UNC_AVE_BOCA -a --mergeStrategy OVERWRITE
     exit
     
-  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
-    derive segments AL_UNC_Erythyro_Dependo_Copi_Tetra -a --mergeStrategy OVERWRITE
+  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
+    derive segments AL_UNC_Erythro_Dependo_Copi_Tetra -a --mergeStrategy OVERWRITE
     exit
 
 

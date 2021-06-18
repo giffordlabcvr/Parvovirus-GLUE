@@ -1,10 +1,10 @@
   # Import metadata for exogenous reference sequences from tabular
   module parvoSideDataImporter 
-    populate -f tabular/genus/erythyro-refseqs-side-data.tsv
+    populate -f tabular/genus/erythro-refseqs-side-data.tsv
     exit
 
   # Link reference sequences to isolate table
-  run script glue/genus/erythyro/erythyroLoadIsolateData1.js
+  run script glue/genus/erythro/erythroLoadIsolateData1.js
 
   # Populate fields from GenBank data
   module parvoGenbankXmlPopulator populate 

@@ -14,6 +14,7 @@
     #~# Subfamily
     record feature-presence AL_CROSS_GENUS_Amdo_Proto --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_CROSS_GENUS_Ave_Boca --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --recursive --featureName whole_genome --descendentFeatures
     exit
 
+ 

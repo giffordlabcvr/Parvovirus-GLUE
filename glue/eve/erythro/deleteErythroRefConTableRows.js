@@ -1,6 +1,6 @@
 
-// Delete custom-table table rows for erythyro genus extension sequences
- var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'fasta-refseqs-erythyro-epv'"]));	
+// Delete custom-table table rows for erythro genus extension sequences
+ var resultList = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", "source.name = 'fasta-refseqs-erythro-epv'"]));	
  	 
  _.each(resultList,function(resultObj) {
 

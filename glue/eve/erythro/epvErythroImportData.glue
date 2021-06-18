@@ -1,0 +1,8 @@
+
+  # Import EVE references/consensus data
+  run script glue/eve/erythyro/epvErythroLoadRefConData1.js
+  run script glue/eve/erythyro/epvErythroLoadRefConData2.js
+
+  # Import EVE locus data from DIGS
+  run script glue/eve/erythyro/epvErythroLoadLocusData1.js
+  run script glue/eve/erythyro/epvErythroLoadLocusData2.js
