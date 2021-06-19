@@ -19,13 +19,13 @@
 
   alignment AL_Parvovirinae
   
-	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv'"
-	demote member AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra   --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv'"
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv'"
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra   --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv'"
     
     exit
 
 
-  alignment AL_CROSS_GENUS_Erythyro_Dependo_Copi_Tetra
+  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
   
 	demote member AL_GENUS_Dependo   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv'"
 	demote member AL_GENUS_Dependo   --whereClause "sequence.source.name = 'ncbi-refseqs-dependo-epv'"

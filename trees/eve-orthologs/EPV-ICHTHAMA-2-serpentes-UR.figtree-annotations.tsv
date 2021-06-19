@@ -1,7 +1,7 @@
-taxon	sequenceID	name	locus_name	locus_numeric_id	scaffold	start_position	end_position	host_sci_name	host_class	host_superorder	host_order	host_family	host_genus
-alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Emydocephalus_ijimae	ichthama.2-Emydocephalus_ijimae	ichthama.2-Emydocephalus_ijimae	ichthama.2-serpentes-UR	2	BHEV01068060.1	1978	4482	Emydocephalus_ijimae	-	-	-	-	-
-alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Hydrophis_cyanocinctus	ichthama.2-Hydrophis_cyanocinctus	ichthama.2-Hydrophis_cyanocinctus	ichthama.2-serpentes-UR	2	RSAE01053122.1	1937	2821	Hydrophis_cyanocinctus	-	-	-	-	-
-alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Hydrophis_melanocephalus	ichthama.2-Hydrophis_melanocephalus	ichthama.2-Hydrophis_melanocephalus	ichthama.2-serpentes-UR	2	BHFS01040130.1	15274	17836	Hydrophis_melanocephalus	-	-	-	-	-
-alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Thamnophis_elegans	ichthama.2-Thamnophis_elegans	ichthama.2-Thamnophis_elegans	ichthama.2-serpentes-UR	2	NC_045543.1	72152472	72153041	Thamnophis_elegans	-	-	-	-	-
-alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Thamnophis_sirtalis	ichthama.2-Thamnophis_sirtalis	ichthama.2-Thamnophis_sirtalis	ichthama.2-serpentes-UR	2	gi|923465097|ref|NW_013658921.1|	320102	320644	Thamnophis_sirtalis	-	-	-	-	-
-alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Vipera_berus	ichthama.2-Vipera_berus	ichthama.2-Vipera_berus	ichthama.2-serpentes-UR	2	KN632776.1	68225	68530	Vipera_berus	-	-	-	-	-
+taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Emydocephalus_ijimae	ichthama.2-Emydocephalus_ijimae	ichthama.2-Emydocephalus_ijimae	-	-	-	-	-
+alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Hydrophis_cyanocinctus	ichthama.2-Hydrophis_cyanocinctus	ichthama.2-Hydrophis_cyanocinctus	-	-	-	-	-
+alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Hydrophis_melanocephalus	ichthama.2-Hydrophis_melanocephalus	ichthama.2-Hydrophis_melanocephalus	-	-	-	-	-
+alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Thamnophis_elegans	ichthama.2-Thamnophis_elegans	ichthama.2-Thamnophis_elegans	-	-	-	-	-
+alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Thamnophis_sirtalis	ichthama.2-Thamnophis_sirtalis	ichthama.2-Thamnophis_sirtalis	-	-	-	-	-
+alignment/AL_EPV-ICHTHAMA-2-serpentes-UR/member/fasta-digs-ichthama-epv/ichthama.2-Vipera_berus	ichthama.2-Vipera_berus	ichthama.2-Vipera_berus	-	-	-	-	-

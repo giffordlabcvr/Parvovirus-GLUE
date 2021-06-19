@@ -24,39 +24,40 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae
-  run file glue/genus/ave/buildAveProject.glue
-  run file glue/genus/boca/buildBocaProject.glue
-  run file glue/genus/erythro/buildErythroProject.glue
-  run file glue/genus/dependo/buildDependoProject.glue
-  run file glue/genus/copi/buildCopiProject.glue
-  run file glue/genus/tetra/buildTetraProject.glue
-  run file glue/genus/amdo/buildAmdoProject.glue
-  run file glue/genus/proto/buildProtoProject.glue
+  #run file glue/genus/ave/buildAveProject.glue
+  #run file glue/genus/boca/buildBocaProject.glue
+  #run file glue/genus/erythro/buildErythroProject.glue
+  #run file glue/genus/dependo/buildDependoProject.glue
+  #run file glue/genus/copi/buildCopiProject.glue
+  #run file glue/genus/tetra/buildTetraProject.glue
+  #run file glue/genus/amdo/buildAmdoProject.glue
+  #run file glue/genus/proto/buildProtoProject.glue
       
   # Hamaparvovirinae
-  run file glue/genus/chaphama/buildChaphamaProject.glue
-  run file glue/genus/ichthama/buildIchthamaProject.glue
+  #run file glue/genus/chaphama/buildChaphamaProject.glue
+  #run file glue/genus/ichthama/buildIchthamaProject.glue
 
-exit
+  exit
 
 
 # Build paleovirus extensions for each genus that has EVE representatives
 project parvoviridae
 
   # Parvovirinae EVEs
-  run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  run file glue/eve/erythro/buildErythroPaleoProject.glue
-  run file glue/eve/proto/buildProtoPaleoProject.glue
-  run file glue/eve/dependo/buildDependoPaleoProject.glue
-  #run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
+  #run file glue/eve/amdo/buildAmdoPaleoProject.glue
+  #run file glue/eve/erythro/buildErythroPaleoProject.glue
+  #run file glue/eve/proto/buildProtoPaleoProject.glue
+  #run file glue/eve/dependo/buildDependoPaleoProject.glue
+  run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
 
   # Hamaparvovirinae EVEs
-  run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
+  #run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
 
   # Create the root phylogeny with EVEs included
+  run file glue/core/epvAlignments.glue
   run file glue/core/epvCreateRootPhylogenies.glue
   run file glue/core/epvRerootPhylogenies.glue
   run file glue/core/epvRootPhylogeniesExportAnnotations.glue
   
-exit
+  exit
 

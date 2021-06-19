@@ -1,6 +1,6 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-proto/AF321230	AF321230	KilhamRat	Kilham rat virus	Parvovirinae	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythyro/AF406967	AF406967	BPV3	Ungulate erythroparvovirus 1	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythro/AF406967	AF406967	BPV3	Ungulate erythroparvovirus 1	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-amdo-epv/amdo.1-ellobius	amdo.1-ellobius	amdo.1-ellobius	amdo.1-ellobius	Parvovirinae	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-amdo-epv/amdo.2-ellobius	amdo.2-ellobius	amdo.2-ellobius	amdo.2-ellobius	Parvovirinae	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-amdo-epv/ap.101-serpentes-UR	ap.101-serpentes-UR	ap.101-serpentes-UR	ap.101-serpentes-UR	Parvovirinae	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	Amdoparvovirus	-	-	-	-
@@ -34,10 +34,10 @@ alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-dependo-epv/dependo.54-c
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-dependo-epv/dependo.56-cavia	dependo.56-cavia	dependo.56-cavia	dependo.56-cavia	Parvovirinae	Dependoparvovirus	Dependo3	Glires	NULL	NULL	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-dependo-epv/dependo.6-elephas	dependo.6-elephas	dependo.6-elephas	dependo.6-elephas	Parvovirinae	Dependoparvovirus	Dependo3	NK	NULL	NULL	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-dependo-epv/dependo.9-hyracoidea	dependo.9-hyracoidea	dependo.9-hyracoidea	dependo.9-hyracoidea	Parvovirinae	Dependoparvovirus	Dependo3	NK	NULL	NULL	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythyro-epv/erythyro.1-indri	erythyro.1-indri	erythyro.1-indri	erythyro.1-indri	Parvovirinae	Erythyroparvovirus	Erythyroparvovirus	Erythyroparvovirus	Erythyroparvovirus	Erythyroparvovirus	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythyro-epv/erythyro.2-dolichotis	erythyro.2-dolichotis	erythyro.2-dolichotis	erythyro.2-dolichotis	Parvovirinae	Erythyroparvovirus	Erythyroparvovirus	Erythyroparvovirus	Erythyroparvovirus	Erythyroparvovirus	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythyro/ErythyroPV-Giraffe-1	ErythyroPV-Giraffe-1	GiEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythyro/ErythyroPV-Hyaena-1	ErythyroPV-Hyaena-1	HhEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythro-epv/erythro.1-indri	erythro.1-indri	erythro.1-indri	erythro.1-indri	Parvovirinae	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythro-epv/erythro.2-dolichotis	erythro.2-dolichotis	erythro.2-dolichotis	erythro.2-dolichotis	Parvovirinae	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythro/ErythroPV-Giraffe-1	ErythroPV-Giraffe-1	GiEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-erythro/ErythroPV-Hyaena-1	ErythroPV-Hyaena-1	HhEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-dependo/FJ688147	FJ688147	AAVpo1	Adeno-associated virus Po1	Parvovirinae	Dependoparvovirus	Dependo3	Dependoparvovirus-B	Dependo3	Porcine	-	Sus domestica	-	Canada
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-boca/JF429835	JF429835	Sus-ArtBoV4-1	Porcine bocavirus 4-1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Sus scrofa	-	Hong Kong
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-boca/JN420361	JN420361	Zac-PnBov1	California sea lion bocavirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	1153	Zalophus californianus (California sea lion)	-	USA: California
@@ -51,7 +51,7 @@ alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-boca/MF682923	MF682923	Rp
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-boca/MF682925	MF682925	Rol-BtBoV1	Rousettus leschenaultii bocaparvovirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rousettus leschenaultii	-	China
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-amdo/MT770848	MT770848	LAPV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	-	Martes americana	-	Canada: Labrador
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-ave/MW046460	MW046460	MacawAvePV	Ara ararauna aveparvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	par085par04	Ara ararauna	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs/NC_000883	NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythyroparvovirus	not-set	not-set	not-set	not-set	J35	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs/NC_000883	NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	not-set	not-set	not-set	not-set	J35	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs/NC_001401	NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-proto/NC_001510	NC_001510	MVM	Rodent protoparvovirus 1	Parvovirinae	Protoparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs/NC_001539	NC_001539	CPV	Carnivore protoparvovirus	Parvovirinae	Protoparvovirus	Proto1	not-set	Proto1	Proto1	-	-	-	-
@@ -73,10 +73,10 @@ alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-amdo/NC_034445	NC_034445	
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-amdo/NC_038533	NC_038533	GFAV	 Carnivore amdoparvovirus 1	Parvovirinae	Amdoparvovirus	NK	NK	NK	NK	-	Urocyon cinereoargenteus	-	USA
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-ave/NC_038534	NC_038534	TurkeyAvePV	Turkey parvovirus 260	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	-	-	-	USA
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-dependo/NC_038539	NC_038539	AAV-sealion	California sea lion adeno-associated virus 1	Parvovirinae	Dependoparvovirus	Dependo3	Carnivore	Dependo3	Carnivore	1187	Zalophus californianus (California sea lion)	-	USA: California
-alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythyro/NC_038540	NC_038540	SPV	Primate erythroparvovirus 2	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	Macaca fascicularis	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythyro/NC_038541	NC_038541	RmPV	Primate erythroparvovirus 3	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythyro/NC_038542	NC_038542	PmPV	Primate erythroparvovirus 4	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythyro/NC_038543	NC_038543	ChpPV	Rodent erythroparvovirus 1	Parvovirinae	Erythyroparvovirus	NK	NK	NK	NK	-	Manchurian chipmunk	-	South Korea
+alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythro/NC_038540	NC_038540	SPV	Primate erythroparvovirus 2	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	Macaca fascicularis	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythro/NC_038541	NC_038541	RmPV	Primate erythroparvovirus 3	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythro/NC_038542	NC_038542	PmPV	Primate erythroparvovirus 4	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-erythro/NC_038543	NC_038543	ChpPV	Rodent erythroparvovirus 1	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	Manchurian chipmunk	-	South Korea
 alignment/AL_TREE_Parvovirinae_EPV/member/ncbi-refseqs-ave/NC_040672	NC_040672	CraneAvePV	Red-crowned crane parvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	yc-8	red-crowned crane	-	China
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-proto-epv/proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	proto.1-RatNor	Parvovirinae	Protoparvovirus	Proto1	Proto1	Proto1	Proto1	-	-	-	-
 alignment/AL_TREE_Parvovirinae_EPV/member/fasta-refseqs-proto-epv/proto.101-MonDom	proto.101-MonDom	proto.101-MonDom	proto.101-MonDom	Parvovirinae	Protoparvovirus	Proto2	Proto2	Proto2	Proto2	-	-	-	-

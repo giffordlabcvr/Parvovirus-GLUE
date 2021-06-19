@@ -1,6 +1,6 @@
-  # Declare erythyroparvovirus EVE reference sequences
+  # Declare erythroparvovirus EVE reference sequences
   
   # Mammal
-  create reference REF_EPV_erythyro.1-indri        fasta-refseqs-erythyro-epv  erythyro.1-indri
-  create reference REF_EPV_erythyro.2-dolichotis   fasta-refseqs-erythyro-epv  erythyro.2-dolichotis
+  create reference REF_EPV_erythro.1-indri        fasta-refseqs-erythro-epv  erythro.1-indri
+  create reference REF_EPV_erythro.2-dolichotis   fasta-refseqs-erythro-epv  erythro.2-dolichotis
 

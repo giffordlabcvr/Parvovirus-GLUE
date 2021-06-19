@@ -1,3 +1,3 @@
   delete module epvFigTreeAnnotationExporter
   
-  create module -f modules/eve/dependo/epvFigTreeAnnotationExporter.xml
+  create module -f modules/core/epvFigTreeAnnotationExporter.xml

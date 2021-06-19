@@ -1,6 +1,6 @@
-taxon	sequenceID	name	locus_name	locus_numeric_id	scaffold	start_position	end_position	host_sci_name	host_class	host_superorder	host_order	host_family	host_genus
-alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Camelus_bactrianus	dependo.23-Camelus_bactrianus	dependo.23-Camelus_bactrianus	dependo.23-camelidae	23	gi|741191286|ref|NW_011513264.1|	554173	554699	Camelus_bactrianus	Mammalia	Laurasiatheria	Unclassified	Camelidae	Camelus
-alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Camelus_dromedarius	dependo.23-Camelus_dromedarius	dependo.23-Camelus_dromedarius	dependo.23-camelidae	23	gi|742338961|ref|NW_011591754.1|	31379	31899	Camelus_dromedarius	Mammalia	Laurasiatheria	Unclassified	Camelidae	Camelus
-alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Camelus_ferus	dependo.23-Camelus_ferus	dependo.23-Camelus_ferus	dependo.23-camelidae	23	gi|429342667|gb|KB017125.1|	3396525	3396958	Camelus_ferus	Mammalia	Laurasiatheria	Unclassified	Camelidae	Camelus
-alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Lama_glama	dependo.23-Lama_glama	dependo.23-Lama_glama	dependo.23-camelidae	23	MU052497.1	154312	154790	Lama_glama	Mammalia	Laurasiatheria	Unclassified	Camelidae	Lama
-alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Vicugna_pacos	dependo.23-Vicugna_pacos	dependo.23-Vicugna_pacos	dependo.23-camelidae	23	KB632691	1513590	1514059	Vicugna_pacos	Mammalia	Laurasiatheria	Unclassified	Camelidae	Vicugna
+taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Camelus_bactrianus	dependo.23-Camelus_bactrianus	dependo.23-Camelus_bactrianus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Camelus_dromedarius	dependo.23-Camelus_dromedarius	dependo.23-Camelus_dromedarius	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Camelus_ferus	dependo.23-Camelus_ferus	dependo.23-Camelus_ferus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Lama_glama	dependo.23-Lama_glama	dependo.23-Lama_glama	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-23-camelidae/member/fasta-digs-dependo-epv/dependo.23-Vicugna_pacos	dependo.23-Vicugna_pacos	dependo.23-Vicugna_pacos	-	-	-	-	-

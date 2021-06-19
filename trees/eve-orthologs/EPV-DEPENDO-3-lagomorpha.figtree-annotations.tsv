@@ -1,5 +1,5 @@
-taxon	sequenceID	name	locus_name	locus_numeric_id	scaffold	start_position	end_position	host_sci_name	host_class	host_superorder	host_order	host_family	host_genus
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Lepus_americanus	dependo.3-Lepus_americanus	dependo.3-Lepus_americanus	dependo.3-lagomorpha	3	PVJM010047690.1	2374	5500	Lepus_americanus	Mammalia	Euarchontoglires	Lagomorpha	Leporidae	Lepus
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Lepus_timidus	dependo.3-Lepus_timidus	dependo.3-Lepus_timidus	dependo.3-lagomorpha	3	CM019678.1	6041389	6044512	Lepus_timidus	Mammalia	Euarchontoglires	Lagomorpha	Leporidae	Lepus
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Ochotona_princeps	dependo.3-Ochotona_princeps	dependo.3-Ochotona_princeps	dependo.3-lagomorpha	3	JH802073	30948507	30949100	Ochotona_princeps	Mammalia	Euarchontoglires	Lagomorpha	Ochotonidae	Ochotona
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Oryctolagus_cuniculus	dependo.3-Oryctolagus_cuniculus	dependo.3-Oryctolagus_cuniculus	dependo.3-lagomorpha	3	chr10	8292094	8295947	Oryctolagus_cuniculus	Mammalia	Euarchontoglires	Lagomorpha	Leporidae	Oryctolagus
+taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Lepus_americanus	dependo.3-Lepus_americanus	dependo.3-Lepus_americanus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Lepus_timidus	dependo.3-Lepus_timidus	dependo.3-Lepus_timidus	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Ochotona_princeps	dependo.3-Ochotona_princeps	dependo.3-Ochotona_princeps	-	-	-	-	-
+alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Oryctolagus_cuniculus	dependo.3-Oryctolagus_cuniculus	dependo.3-Oryctolagus_cuniculus	-	-	-	-	-

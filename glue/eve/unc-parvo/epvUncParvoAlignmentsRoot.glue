@@ -1,23 +1,8 @@
-  delete module epvFastaAlignmentExporter
-  delete module epvAlignmentImporterNucs
-  
-  create module -f modules/core/epvAlignmentImporterNucs.xml
-  create module -f modules/core/epvFastaAlignmentExporter.xml
+  delete alignment AL_UNC_PARVOVIRINAE
 
-  #~# Import pre-built alignments of EVE sequences
+  # Import unconstrained pre-built alignments
+  module unconstrainedAlignmentImporter 
 
-  module unconstrainedAlignmentImporter
-
-	#~# Root aligns
-
-	import AL_UNC_EPV_unc-parvo-root   -f alignments/internal/genus/parvovirinae/unc-parvo/unc-parvo-genome+eves.aln.fna
-	exit
-
-  #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_GENUS_UncParvo
-	add member -w "source.name = 'fasta-refseqs-unc-parvo-epv-con'"
-	derive segments AL_UNC_EPV_unc-parvo-root  -a --mergeStrategy OVERWRITE
-	exit
-
-
-
+    #~# Internal node alignments (subfamily)
+    import AL_UNC_PARVOVIRINAE     -f alignments/internal/subfamily/parvovirinae.eve.aln.fna
+    exit

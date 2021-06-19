@@ -38,11 +38,6 @@
 	  <primaryAccession>NC_005041</primaryAccession>  <!-- Blattambidensovirus -->
 	  <primaryAccession>NC_004286</primaryAccession>  <!-- Protoambidensovirus -->
 	  <primaryAccession>NC_038532</primaryAccession>  <!-- Aquiambidensovirus -->
-	
-	  <!-- BETAHERPES -->
-	  <primaryAccession>X59532</primaryAccession>  <!-- Parvo Rep in HHV6 -->
-
-
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
