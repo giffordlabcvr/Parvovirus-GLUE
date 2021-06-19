@@ -4,7 +4,7 @@
   module parvoFeaturePresenceRecorder 
 
     #~# Genus alignment
-    record feature-presence AL_GENUS_Proto --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_UNC_PARVOVIRINAE --recursive --featureName whole_genome --descendentFeatures
     
     exit
 
