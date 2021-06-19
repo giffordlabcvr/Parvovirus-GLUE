@@ -11,29 +11,15 @@
   # Declare references 
   run file glue/eve/unc-parvo/epvUncParvoReferences.glue
 
-  # Set up constrained alignment tree for the EPV subclades
-  run file glue/eve/unc-parvo/epvUncParvoAlignmentTree.glue
-
-  # Import genus level alignments
+  # Import subfamily level alignments with EVEs included
   run file glue/eve/unc-parvo/epvUncParvoAlignmentsRoot.glue
 
-  # Record feature coverage in root and clade-level alignments
+  # Set up constrained alignment tree for the subfamily with EVEs included
+  run file glue/eve/unc-parvo/epvUncParvoAlignmentTree.glue
+
+  # Record feature coverage subfamily-level alignments
   run file glue/eve/unc-parvo/epvUncParvoRecordFeaturePresence.glue
-
   
-  # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/unc-parvo/epvUncParvoDemoteOrthologsToTipAlignments.js
-
-  # Create tip-level phylogenies
-  run script glue/eve/unc-parvo/epvUncParvoCreateTipPhylogenies.js
-
-
-  # Create root-level phylogenies for major genes
-  run file glue/eve/unc-parvo/epvUncParvoCreateRootPhylogenies.glue
-
-  # Export annotations
-  run file glue/eve/unc-parvo/epvUncParvoExportRootPhylogenyAnnotations.glue
-
 
   # Validate
   validate
