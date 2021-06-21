@@ -10,9 +10,30 @@
   create reference REF_Tetra_BovineHoko     ncbi-refseqs-tetra EU200669  # Bovine hokovirus 1
   create reference REF_Tetra_PorcineHoko    ncbi-refseqs-tetra EU200677  # Porcine hokovirus
   create reference REF_Tetra_ChimpanzeePV   ncbi-refseqs-tetra HQ113143  # Chimpanzee parvovirus 4
-  create reference REF_Tetra_HPV4           ncbi-refseqs-tetra AY622943  # Human parvovirus 4 G1
   create reference REF_Tetra_Rodent         ncbi-refseqs-tetra MG745669  # Rodent tetraparvovirus
   create reference REF_Tetra_Didelphimorpha ncbi-refseqs-tetra MG745671  # Didelphimorpha tetraparvovirus
+
+
+  reference REF_Tetra_HPV4
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5268
+	  exit
+
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 283 2274 
+	  exit
+	  
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2378 5122
+	  exit
+    
+    exit
 
 
   reference REF_Tetra_Deer
@@ -117,28 +138,6 @@
  	add feature-location VP1
 	feature-location VP1
 	  add segment 2109 4853
-	  exit
-    
-    exit
-
-
-  reference REF_Tetra_HPV4
- 
- 	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1 5268
-	  exit
-
-
- 	add feature-location Rep78
-	feature-location Rep78
-	  add segment 283 2274 
-	  exit
-	  
-
- 	add feature-location VP1
-	feature-location VP1
-	  add segment 2378 5122
 	  exit
     
     exit

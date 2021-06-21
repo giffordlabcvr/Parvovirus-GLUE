@@ -5,15 +5,41 @@
     
     <aminoAcidRegionSelector>
         <featureName>Rep78</featureName>
-        <startCodon>117</startCodon>
-        <endCodon>620</endCodon>
+        <startCodon>228</startCodon>
+        <endCodon>270</endCodon>
+    </aminoAcidRegionSelector>
+ 
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>285</startCodon>
+        <endCodon>353</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>361</startCodon>
+        <endCodon>525</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Rep78</featureName>
-        <startNt>601</startNt>
-        <endNt>2072</endNt>
+        <startNt>953</startNt>
+        <endNt>1079</endNt>
     </nucleotideRegionSelector>
+
+    <nucleotideRegionSelector>
+        <featureName>Rep78</featureName>
+        <startNt>1124</startNt>
+        <endNt>1328</endNt>
+    </nucleotideRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Rep78</featureName>
+        <startNt>1352</startNt>
+        <endNt>1844</endNt>
+    </nucleotideRegionSelector>
+
+
     
 </alignmentColumnsSelector>
 

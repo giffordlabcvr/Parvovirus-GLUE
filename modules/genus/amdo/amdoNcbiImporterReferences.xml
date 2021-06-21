@@ -9,10 +9,8 @@
 	<primaryAccession>NC_038533</primaryAccession> <!-- Gray fox amdoparvovirus (GFAV) -->
 	<primaryAccession>NC_025825</primaryAccession> <!-- Racoon dog and fox amdoparvovirus (RFAV) -->
 	<primaryAccession>NC_034445</primaryAccession> <!-- Skunk amdoparvovirus (SKAV) -->
-	<primaryAccession>NC_031751</primaryAccession> <!-- Red panda amdoparvovirus (RpAPV) -->
+	<primaryAccession>NC_031751</primaryAccession> <!-- Carnivore amdoparvovirus 5 - Red panda amdoparvovirus (RpAPV) -->
 	<primaryAccession>MT770848</primaryAccession>  <!-- Labrador amdoparvovirus (LAPV) -->
-
-
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

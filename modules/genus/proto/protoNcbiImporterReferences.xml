@@ -6,7 +6,7 @@
   <specificPrimaryAccessions>
 
 	<!-- <primaryAccession>NC_001539</primaryAccession> Master refererence CPV is in core project -->
-	<primaryAccession>NC_030837</primaryAccession>
+	<primaryAccession>NC_030837</primaryAccession>   <!-- Sea otter protoparvovirus  -->
 	<primaryAccession>NC_029797</primaryAccession>
 	<primaryAccession>NC_026815</primaryAccession>
 	<primaryAccession>NC_038544</primaryAccession>
@@ -20,7 +20,7 @@
 	<primaryAccession>NC_043446</primaryAccession>
 	<primaryAccession>KT965075</primaryAccession>
 	<primaryAccession>U34255</primaryAccession>
-
+	
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>
