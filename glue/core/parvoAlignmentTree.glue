@@ -90,7 +90,7 @@
 	extract child AL_GENUS_Copi --r REF_MASTER_Copi_BPV2  # NC_006259
 	demote member AL_GENUS_Copi --whereClause "sequence.genus = 'Copiparvovirus'"
 
-	extract child AL_GENUS_Tetra --r REF_MASTER_Tetra_EhBtPV1  # NC_016744
+	extract child AL_GENUS_Tetra --r REF_MASTER_Tetra_HPV4  # NC_007018
 	demote member AL_GENUS_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
 
 	extract child AL_GENUS_Erythro --r REF_MASTER_Erythro_B19

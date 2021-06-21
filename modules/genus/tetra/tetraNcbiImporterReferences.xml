@@ -14,7 +14,8 @@
 	<primaryAccession>MG745669</primaryAccession>
 	<primaryAccession>MG745671</primaryAccession>
 	<primaryAccession>GU938300</primaryAccession>
-
+    <primaryAccession>NC_016744</primaryAccession>  <!-- Eidolon helvum parvovirus 1 -->
+    
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>

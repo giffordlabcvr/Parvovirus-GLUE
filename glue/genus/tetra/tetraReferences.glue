@@ -5,6 +5,7 @@
 
 
   ## Canonical parvovirus 
+  create reference REF_Tetra_EhBtPV1        ncbi-refseqs-tetra NC_016744 # Eid tetraparvovirus
   create reference REF_Tetra_Deer           ncbi-refseqs-tetra NC_031670 # Deer tetraparvovirus
   create reference REF_Tetra_OvineHoko      ncbi-refseqs-tetra JF504699  # Ovine hokovirus 1
   create reference REF_Tetra_BovineHoko     ncbi-refseqs-tetra EU200669  # Bovine hokovirus 1
@@ -14,26 +15,28 @@
   create reference REF_Tetra_Didelphimorpha ncbi-refseqs-tetra MG745671  # Didelphimorpha tetraparvovirus
 
 
-  reference REF_Tetra_HPV4
+  
+  
+   
+    reference REF_Tetra_EhBtPV1
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 5268
+	  add segment 1 5065
 	  exit
-
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 283 2274 
+	  add segment 174 2252
 	  exit
-	  
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2378 5122
+	  add segment 2279 5038
 	  exit
-    
+   
     exit
+
 
 
   reference REF_Tetra_Deer

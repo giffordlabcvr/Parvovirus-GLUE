@@ -8,7 +8,7 @@
   create reference REF_MASTER_Erythro_B19         ncbi-refseqs NC_000883
   create reference REF_MASTER_Boca_BPV            ncbi-refseqs NC_001540
   create reference REF_MASTER_Copi_BPV2           ncbi-refseqs NC_006259
-  create reference REF_MASTER_Tetra_EhBtPV1       ncbi-refseqs NC_016744
+  create reference REF_MASTER_Tetra_HPV4          ncbi-refseqs NC_007018
   create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
   create reference REF_MASTER_Lori_SlPV           ncbi-refseqs KP120516
 
@@ -216,21 +216,21 @@
 
 
   # Tetra
-  reference REF_MASTER_Tetra_EhBtPV1
+    reference REF_MASTER_Tetra_HPV4
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1 5065
+	  add segment 1 5268
 	  exit
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 174 2252
+	  add segment 283 2274
 	  exit
 
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2279 5038
+	  add segment 2378 5122
 	  exit
    
     exit

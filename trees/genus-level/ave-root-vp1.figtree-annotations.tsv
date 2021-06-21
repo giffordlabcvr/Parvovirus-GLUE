@@ -1,5 +1,5 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
 alignment/AL_UNC_AVE_ROOT_VP/member/ncbi-refseqs-ave/MW046460	MW046460	MacawAvePV	Ara ararauna aveparvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	par085par04	Ara ararauna	-	-
-alignment/AL_UNC_AVE_ROOT_VP/member/ncbi-refseqs/NC_024452	NC_024452	ChPV	Chicken parvovirus	Parvovirinae	Aveparvovirus	not-set	not-set	not-set	not-set	-	-	-	Hungary
+alignment/AL_UNC_AVE_ROOT_VP/member/ncbi-refseqs/NC_024452	NC_024452	ChPV	Chicken parvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	-	-	-	Hungary
 alignment/AL_UNC_AVE_ROOT_VP/member/ncbi-refseqs-ave/NC_038534	NC_038534	TurkeyAvePV	Turkey parvovirus 260	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	-	-	-	USA
 alignment/AL_UNC_AVE_ROOT_VP/member/ncbi-refseqs-ave/NC_040672	NC_040672	CraneAvePV	Red-crowned crane parvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	yc-8	red-crowned crane	-	China
