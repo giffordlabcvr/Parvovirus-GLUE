@@ -11,6 +11,7 @@
   create reference REF_MASTER_Tetra_HPV4          ncbi-refseqs NC_007018
   create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
   create reference REF_MASTER_Lori_SlPV           ncbi-refseqs KP120516
+  create reference REF_MASTER_Arti_Aj_BtPV        ncbi-refseqs NC_016752
 
  
   ## Densovirinae    
@@ -135,6 +136,30 @@
 	  add segment 2624 4969
 	  exit
    
+    exit
+
+
+
+
+
+  reference REF_MASTER_Arti_Aj_BtPV
+
+
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4595
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 84 1961
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 1965 4595
+	  exit
+    
     exit
 
 

@@ -17,6 +17,7 @@ alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_005041	NC_005041	BgDV	Bl
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_006259	NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	-	-	-	-
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_007018	NC_007018	PARV4	Human parvovirus 4	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	Homo sapiens	-	USA
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_014357	NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Hamaparvovirinae	Hepandensoparvovirus	NK	NK	NK	NK	-	Fenneropenaeus chinensis	-	China
+alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_016752	NC_016752	ArtiPV	Artibeus jamaicensis parvovirus 1	Parvovirinae	Artiparvovirus	NK	NK	NK	NK	-	Artibeus jamaicensis	-	Panama
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_022564	NC_022564	AdMADV	Acheta domesticus mini ambidensovirus	Densovirinae	Miniambidensovirus	NK	NK	NK	NK	Kalamazoo	cricket	-	USA
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_024452	NC_024452	ChPV	Chicken parvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	-	-	-	Hungary
 alignment/AL_Parvoviridae_MASTER/member/ncbi-refseqs/NC_038532	NC_038532	AaDV	Asteroid aquambidensovirus 1	Densovirinae	Aquiambidensovirus	NK	NK	NK	NK	-	Asteroidea	-	USA
