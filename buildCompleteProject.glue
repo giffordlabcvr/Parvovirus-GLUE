@@ -38,7 +38,7 @@ project parvoviridae
   run file glue/genus/chaphama/buildChaphamaProject.glue
   run file glue/genus/ichthama/buildIchthamaProject.glue
 
-  # Create the root phylogeny with viruses only
+  # Create the recursively populated subfamily phylogeny with viruses only
   run file glue/core/parvovirinaeCreatePhylogenies.glue
   run file glue/core/parvovirinaeRerootPhylogenies.glue
   run file glue/core/parvovirinaePhylogeniesExportAnnotations.glue
@@ -60,7 +60,7 @@ project parvoviridae
   # Hamaparvovirinae EVEs
   run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
 
-  # Create the root phylogeny with EVEs included
+  # Create the recursively populated subfamily phylogeny with EVEs included
   run file glue/core/epvCreateRootPhylogenies.glue
   run file glue/core/epvRerootPhylogenies.glue
   run file glue/core/epvRootPhylogeniesExportAnnotations.glue

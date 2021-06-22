@@ -33,14 +33,13 @@
   run script glue/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  run script glue/eve/dependo/epvDependoCreateTipPhylogenies.js
-
+  #run script glue/eve/dependo/epvDependoCreateTipPhylogenies.js
 
   # Create root-level phylogenies for major genes
-  run file glue/eve/dependo/epvDependoCreateRootPhylogenies.glue
+  #run file glue/eve/dependo/epvDependoCreateRootPhylogenies.glue
 
   # Export annotations
-  run file glue/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
+  #run file glue/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
 
 
   # Validate

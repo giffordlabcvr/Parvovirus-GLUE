@@ -53,10 +53,7 @@
 	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Dependoparvovirus'"
 	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Copiparvovirus'"
 	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
-		
- 
- 	extract child AL_GENUS_Arti --r REF_MASTER_Arti_Aj_BtPV
-	demote member AL_GENUS_Arti --whereClause "sequence.genus = 'Artiparvovirus'"
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Artiparvovirus'"
 
  
     exit
@@ -100,6 +97,9 @@
 
 	extract child AL_GENUS_Erythro --r REF_MASTER_Erythro_B19
 	demote member AL_GENUS_Erythro --whereClause "sequence.genus = 'Erythroparvovirus'"
+	 
+ 	extract child AL_GENUS_Arti --r REF_MASTER_Arti_Aj_BtPV
+	demote member AL_GENUS_Arti --whereClause "sequence.genus = 'Artiparvovirus'"
 
     exit
 
