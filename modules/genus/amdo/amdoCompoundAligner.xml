@@ -12,8 +12,12 @@
 		<codonAwareBlastAligner>
 			<featureName>VP1</featureName>
 		</codonAwareBlastAligner>
-		
-		<blastAligner/>
+
+		<blastAligner>
+			<featureName>whole_genome</featureName>
+		</blastAligner>
+
+
 	</aligners>
 </compoundAligner>
 
