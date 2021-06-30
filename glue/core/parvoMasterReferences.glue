@@ -141,7 +141,6 @@
 
 
 
-
   reference REF_MASTER_Arti_Aj_BtPV
 
 
@@ -161,6 +160,29 @@
 	  exit
     
     exit
+
+
+
+  reference REF_MASTER_Lori_SlPV
+
+
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4844
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 146 1894
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2187 4655
+	  exit
+    
+    exit
+
 
 
 
@@ -387,5 +409,13 @@
 
 
 
-
+  # Ambidenso
+  reference REF_MASTER_Ambidenso_JcDNV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5908
+	  exit
+    
+    exit
 
