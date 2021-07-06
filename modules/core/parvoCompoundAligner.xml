@@ -1,11 +1,20 @@
 <compoundAligner>
+	
 	<aligners>
+	
 		<codonAwareBlastAligner>
-			<featureName>NS</featureName>
+			<featureName>Rep78</featureName>
 		</codonAwareBlastAligner>
+		
 		<codonAwareBlastAligner>
-			<featureName>VP</featureName>
+			<featureName>VP1</featureName>
 		</codonAwareBlastAligner>
-		<blastAligner/>
+			
+		<blastAligner>
+			<featureName>whole_genome</featureName>
+		</blastAligner>
+
 	</aligners>
+	
 </compoundAligner>
+

@@ -1,1 +1,109 @@
-(alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Daubentonia_madagascariensis:0.05954621797415775124,((((alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_flavifrons:0.00123695054079052294,alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_macaco:0.00000100000050002909)100:0.00492472935490221794,alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_fulvus:0.00955046687145729399)98:0.01657964067034587222,alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Prolemur_simus:0.00778194166809496619)39:0.01532039477563437897,(alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Indri_indri:0.01167674604078492578,alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Propithecus_coquereli:0.01858228928447189232)99:0.00819782755781285274):0.01809571565672020606);
+#NEXUS
+begin taxa;
+	dimensions ntax=7;
+	taxlabels
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Daubentonia_madagascariensis'
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_flavifrons'
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_fulvus'
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_macaco'
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Indri_indri'
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Prolemur_simus'
+	'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Propithecus_coquereli'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Daubentonia_madagascariensis':0.059546,(((('alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_flavifrons':0.001237,'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_macaco':1.0E-6)[&label=100]:0.004925,'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Eulemur_fulvus':0.00955)[&label=98]:0.01658,'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Prolemur_simus':0.007782)[&label=39]:0.01532,('alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Indri_indri':0.011677,'alignment/AL_EPV-DEPENDO-26-strepsirrhini/member/fasta-digs-dependo-epv/dependo.26-Propithecus_coquereli':0.018582)[&label=99]:0.008198):0.018096);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

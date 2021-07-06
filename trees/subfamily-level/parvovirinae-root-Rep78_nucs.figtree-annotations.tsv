@@ -7,8 +7,8 @@ alignment/AL_TREE_Parvovirinae/member/fasta-refseqs-erythro/ErythroPV-Hyaena-1	E
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/EU200669	EU200669	BovineHoko1	Bovine_hokovirus_1	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	-	-	China
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/EU200677	EU200677	PorcineHoko1	Porcine_hokovirus	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	-	-	China
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-dependo/FJ688147	FJ688147	AAVpo1	Adeno-associated virus Po1	Parvovirinae	Dependoparvovirus	Dependo3	Dependoparvovirus-B	Dependo3	Porcine	-	Sus domestica	-	Canada
-alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/GU938300	GU938300	PorcineTetraPV	Porcine_Cn	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	CnPPV_JH13	Sus scrofa	-	China: Southeast China
-alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/HQ113143	HQ113143	CHhimpPV4	Chimpanzee_parvovirus_4	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	PT-P48	Pan troglodytes	-	Cameroon
+alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/GU938300	GU938300	PorcineTetraPV	Porcine tetraparvovirus	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	CnPPV_JH13	Sus scrofa	-	China: Southeast China
+alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/HQ113143	HQ113143	ChimpPV4	Chimpanzee_parvovirus_4	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	PT-P48	Pan troglodytes	-	Cameroon
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-boca/JF429835	JF429835	Sus-ArtBoV4-1	Porcine bocavirus 4-1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Sus scrofa	-	Hong Kong
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/JF504699	JF504699	OvineHoko1	Ovine_hokovirus_1	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	sheep	-	China
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-boca/JN420361	JN420361	Zac-PnBov1	California sea lion bocavirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	1153	Zalophus californianus (California sea lion)	-	USA: California
@@ -40,7 +40,7 @@ alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs/NC_006259	NC_006259	BPV2	Bovi
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs/NC_007018	NC_007018	PARV4	Human parvovirus 4	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	Homo sapiens	-	USA
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-dependo/NC_014468	NC_014468	AAV-bat	Bat adeno-associated virus YNM	Parvovirinae	Dependoparvovirus	Dependo3	Chiroptera	Dependo3	Chiroptera	-	Myotis ricketti	-	China
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-copi/NC_014665	NC_014665	PPV4	Ungulate copiparvovirus 2	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	-	Sus scrofa	-	USA
-alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/NC_016744	NC_016744	EhBtPV	Eidolon_helvum_parvovirus 	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	Eidolon helvum	-	Ghana
+alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-tetra/NC_016744	NC_016744	EhBtPV	Eidolon_helvum_parvovirus 1	Parvovirinae	Tetraparvovirus	NK	NK	NK	NK	-	Eidolon helvum	-	Ghana
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs/NC_016752	NC_016752	ArtiPV	Artibeus jamaicensis parvovirus 1	Parvovirinae	Artiparvovirus	NK	NK	NK	NK	-	Artibeus jamaicensis	-	Panama
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs-copi/NC_023860	NC_023860	PPV6	Ungulate copiparvovirus 4 (PPV6)	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	TJ	Sus scrofa	-	China
 alignment/AL_TREE_Parvovirinae/member/ncbi-refseqs/NC_024452	NC_024452	ChPV	Chicken parvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	-	-	-	Hungary

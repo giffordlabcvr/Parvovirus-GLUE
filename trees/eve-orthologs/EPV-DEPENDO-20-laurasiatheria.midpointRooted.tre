@@ -1,1 +1,129 @@
-(((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_caballus:0.01291869313399277193,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_zebra_hartmannae:0.00000100000050002909,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_kiang:0.00000100000050002909,((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_hemionus:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_grevyi:0.00000100000050002909)10:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_burchellii_boehmi:0.00000100000050002909)10:0.00000100000050002909)42:0.00000100000050002909)57:0.00000100000050002909)47:0.00006024509479862921,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_asinus_somalicus:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_africanus_asinus:0.00000100000050002909)87:0.00416801352153010982)100:0.20225770623945021216,(((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Physeter_catodon:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Kogia_breviceps:0.02433435965134802051)81:0.06287309987790071220,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Inia_geoffrensis:0.02232796516601169221,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Lipotes_vexillifer:0.02027229006466859870,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Mesoplodon_bidens:0.01121261564184846890)65:0.00862822767154692791)46:0.02417000296326678177)100:0.11465951840635141279,((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Paradoxurus_hermaphroditus:0.06256713717085736481,(((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_onca:0.00000100000050002909,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_leo:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_tigris_altaica:0.00000100000050002909)37:0.00000100000050002909)80:0.01702099952492795373,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Lynx_canadensis:0.00000100000050002909)3:0.00000100000050002909,((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Felis_nigripes:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Puma_concolor:0.00000100000050002909)29:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Prionailurus_bengalensis_euptilurus:0.01727289675521639575)9:0.00000100000050002909)92:0.01738039591873943857)88:0.02765803286052000501,((alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Halichoerus_grypus:0.02141654963969160871,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Martes_zibellina:0.02322846531248925692,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Gulo_gulo:0.00000100000050002909)99:0.06860096520408316689)54:0.01339815653686769401,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Callorhinus_ursinus:0.04179552978227932258,(alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Zalophus_californianus:0.00000100000050002909,alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Eumetopias_jubatus:0.00000100000050002909)96:0.06350780636042537008)58:0.01520960157875603756)32:0.02659311750587490392)94:0.06845790388056655074)100:0.01336966653264146780);
+#NEXUS
+begin taxa;
+	dimensions ntax=27;
+	taxlabels
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Callorhinus_ursinus'[&end_position=1669304,host_class="Mammalia",host_family="Otariidae",host_genus="Callorhinus",host_order="Carnivora",host_sci_name="Callorhinus_ursinus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Callorhinus_ursinus",scaffold="KZ836403.1",sequenceID="dependo.20-Callorhinus_ursinus",start_position=1669062]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_africanus_asinus'[&end_position=44970,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_africanus_asinus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_africanus_asinus",scaffold="scaffold15255",sequenceID="dependo.20-Equus_africanus_asinus",start_position=44734]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_asinus_somalicus'[&end_position=44970,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_asinus_somalicus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_asinus_somalicus",scaffold="scaffold15255",sequenceID="dependo.20-Equus_asinus_somalicus",start_position=44734]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_burchellii_boehmi'[&end_position=1277778,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_burchellii_boehmi",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_burchellii_boehmi",scaffold="chr8",sequenceID="dependo.20-Equus_burchellii_boehmi",start_position=1277542]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_caballus'[&end_position=1277778,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_caballus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_caballus",scaffold="chr8",sequenceID="dependo.20-Equus_caballus",start_position=1277542]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_grevyi'[&end_position=1277778,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_grevyi",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_grevyi",scaffold="chr8",sequenceID="dependo.20-Equus_grevyi",start_position=1277542]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_hemionus'[&end_position=44970,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_hemionus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_hemionus",scaffold="scaffold15255",sequenceID="dependo.20-Equus_hemionus",start_position=44734]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_kiang'[&end_position=44970,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_kiang",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_kiang",scaffold="scaffold15255",sequenceID="dependo.20-Equus_kiang",start_position=44734]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_zebra_hartmannae'[&end_position=1277778,host_class="Mammalia",host_family="Equidae",host_genus="Equus",host_order="Perissodactyla",host_sci_name="Equus_zebra_hartmannae",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Equus_zebra_hartmannae",scaffold="chr8",sequenceID="dependo.20-Equus_zebra_hartmannae",start_position=1277542]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Eumetopias_jubatus'[&end_position=208202,host_class="Mammalia",host_family="Otariidae",host_genus="Eumetopias",host_order="Carnivora",host_sci_name="Eumetopias_jubatus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Eumetopias_jubatus",scaffold="ML137966.1",sequenceID="dependo.20-Eumetopias_jubatus",start_position=207960]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Felis_nigripes'[&end_position=6759,host_class="Mammalia",host_family="Felidae",host_genus="Felis",host_order="Carnivora",host_sci_name="Felis_nigripes",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Felis_nigripes",scaffold="PISY01050105.1",sequenceID="dependo.20-Felis_nigripes",start_position=6610]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Gulo_gulo'[&end_position=44203,host_class="Mammalia",host_family="Mustelidae",host_genus="Gulo",host_order="Carnivora",host_sci_name="Gulo_gulo",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Gulo_gulo",scaffold="CYRY01002055.1",sequenceID="dependo.20-Gulo_gulo",start_position=44039]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Halichoerus_grypus'[&end_position=23051,host_class="Mammalia",host_family="Phocidae",host_genus="Halichoerus",host_order="Carnivora",host_sci_name="Halichoerus_grypus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Halichoerus_grypus",scaffold="JAAXOB010002173.1",sequenceID="dependo.20-Halichoerus_grypus",start_position=22896]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Inia_geoffrensis'[&end_position=2764,host_class="Mammalia",host_family="Iniidae",host_genus="Inia",host_order="Cetacea",host_sci_name="Inia_geoffrensis",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Inia_geoffrensis",scaffold="RJWO010003217.1",sequenceID="dependo.20-Inia_geoffrensis",start_position=2537]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Kogia_breviceps'[&end_position=43829,host_class="Mammalia",host_family="Physeteridae",host_genus="Kogia",host_order="Cetacea",host_sci_name="Kogia_breviceps",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Kogia_breviceps",scaffold="RJWL010008957.1",sequenceID="dependo.20-Kogia_breviceps",start_position=43647]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Lipotes_vexillifer'[&end_position=1004375,host_class="Mammalia",host_family="Lipotidae",host_genus="Lipotes",host_order="Cetacea",host_sci_name="Lipotes_vexillifer",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Lipotes_vexillifer",scaffold="gi|599273349|ref|NW_006777435.1|",sequenceID="dependo.20-Lipotes_vexillifer",start_position=1004199]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Lynx_canadensis'[&end_position=74711405,host_class="Mammalia",host_family="Felidae",host_genus="Lynx",host_order="Carnivora",host_sci_name="Lynx_canadensis",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Lynx_canadensis",scaffold="NC_044314.1",sequenceID="dependo.20-Lynx_canadensis",start_position=74711256]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Martes_zibellina'[&end_position=697988,host_class="Mammalia",host_family="Mustelidae",host_genus="Martes",host_order="Carnivora",host_sci_name="Martes_zibellina",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Martes_zibellina",scaffold="RDFD01012257.1",sequenceID="dependo.20-Martes_zibellina",start_position=697845]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Mesoplodon_bidens'[&end_position=3443,host_class="Mammalia",host_family="Ziphiidae",host_genus="Mesoplodon",host_order="Cetacea",host_sci_name="Mesoplodon_bidens",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Mesoplodon_bidens",scaffold="PVJJ010062959.1",sequenceID="dependo.20-Mesoplodon_bidens",start_position=3258]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_leo'[&end_position=69507602,host_class="Mammalia",host_family="Felidae",host_genus="Panthera",host_order="Carnivora",host_sci_name="Panthera_leo",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Panthera_leo",scaffold="CM018472.1",sequenceID="dependo.20-Panthera_leo",start_position=69507453]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_onca'[&end_position=182157,host_class="Mammalia",host_family="Felidae",host_genus="Panthera",host_order="Carnivora",host_sci_name="Panthera_onca",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Panthera_onca",scaffold="PISV01002781.1",sequenceID="dependo.20-Panthera_onca",start_position=182008]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_tigris_altaica'[&end_position=732855,host_class="Mammalia",host_family="Felidae",host_genus="Panthera",host_order="Carnivora",host_sci_name="Panthera_tigris_altaica",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Panthera_tigris_altaica",scaffold="gi|589288889|ref|NW_006712088.1|",sequenceID="dependo.20-Panthera_tigris_altaica",start_position=732706]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Paradoxurus_hermaphroditus'[&end_position=59731,host_class="Mammalia",host_family="Viverridae",host_genus="Paradoxurus",host_order="Carnivora",host_sci_name="Paradoxurus_hermaphroditus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Paradoxurus_hermaphroditus",scaffold="PITB01008125.1",sequenceID="dependo.20-Paradoxurus_hermaphroditus",start_position=59567]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Physeter_catodon'[&end_position=632556,host_class="Mammalia",host_family="Physeteridae",host_genus="Physeter",host_order="Cetacea",host_sci_name="Physeter_catodon",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Physeter_catodon",scaffold="gi|589812373|ref|NW_006724217.1|",sequenceID="dependo.20-Physeter_catodon",start_position=632335]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Prionailurus_bengalensis_euptilurus'[&end_position=3808,host_class="Mammalia",host_family="Felidae",host_genus="Prionailurus",host_order="Carnivora",host_sci_name="Prionailurus_bengalensis_euptilurus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Prionailurus_bengalensis_euptilurus",scaffold="BIMV01006763.1",sequenceID="dependo.20-Prionailurus_bengalensis_euptilurus",start_position=3659]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Puma_concolor'[&end_position=10982597,host_class="Mammalia",host_family="Felidae",host_genus="Puma",host_order="Carnivora",host_sci_name="Puma_concolor",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Puma_concolor",scaffold="NW_020340053.1",sequenceID="dependo.20-Puma_concolor",start_position=10982448]
+	'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Zalophus_californianus'[&end_position=24819328,host_class="Mammalia",host_family="Otariidae",host_genus="Zalophus",host_order="Carnivora",host_sci_name="Zalophus_californianus",host_superorder="Laurasiatheria",locus_name="dependo.20-laurasiatheria",locus_numeric_id=20,name="dependo.20-Zalophus_californianus",scaffold="NW_020878390.1",sequenceID="dependo.20-Zalophus_californianus",start_position=24819086]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_caballus':0.012919,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_zebra_hartmannae':1.0E-6,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_kiang':1.0E-6,(('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_hemionus':1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_grevyi':1.0E-6)[&label=10]:1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_burchellii_boehmi':1.0E-6)[&label=10]:1.0E-6)[&label=42]:1.0E-6)[&label=57]:1.0E-6)[&label=47]:6.0E-5,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_asinus_somalicus':1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Equus_africanus_asinus':1.0E-6)[&label=87]:0.004168)[&label=100]:0.202258,((('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Physeter_catodon':1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Kogia_breviceps':0.024334)[&label=81]:0.062873,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Inia_geoffrensis':0.022328,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Lipotes_vexillifer':0.020272,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Mesoplodon_bidens':0.011213)[&label=65]:0.008628)[&label=46]:0.02417)[&label=100]:0.11466,(('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Paradoxurus_hermaphroditus':0.062567,((('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_onca':1.0E-6,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_leo':1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Panthera_tigris_altaica':1.0E-6)[&label=37]:1.0E-6)[&label=80]:0.017021,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Lynx_canadensis':1.0E-6)[&label=3]:1.0E-6,(('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Felis_nigripes':1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Puma_concolor':1.0E-6)[&label=29]:1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Prionailurus_bengalensis_euptilurus':0.017273)[&label=9]:1.0E-6)[&label=92]:0.01738)[&label=88]:0.027658,(('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Halichoerus_grypus':0.021417,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Martes_zibellina':0.023228,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Gulo_gulo':1.0E-6)[&label=99]:0.068601)[&label=54]:0.013398,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Callorhinus_ursinus':0.041796,('alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Zalophus_californianus':1.0E-6,'alignment/AL_EPV-DEPENDO-20-laurasiatheria/member/fasta-digs-dependo-epv/dependo.20-Eumetopias_jubatus':1.0E-6)[&label=96]:0.063508)[&label=58]:0.01521)[&label=32]:0.026593)[&label=94]:0.068458)[&label=100]:0.01337);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_order";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
