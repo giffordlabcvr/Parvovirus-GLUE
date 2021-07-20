@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK026553</GBSeq_locus>
+    <GBSeq_length>3472</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-DEC-2018</GBSeq_update-date>
+    <GBSeq_create-date>24-DEC-2018</GBSeq_create-date>
+    <GBSeq_definition>Marsupial adeno-associated virus 1 isolate ex.mar.AAV1 rep protein (rep) and capsid protein (cap) genes, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK026553</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK026553.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK026553.1|</GBSeqid>
+      <GBSeqid>gi|1539079950</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Marsupial adeno-associated virus 1</GBSeq_source>
+    <GBSeq_organism>Marsupial adeno-associated virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; unclassified Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3472</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cabanes-Creus,M.</GBAuthor>
+          <GBAuthor>Ginn,S.L.</GBAuthor>
+          <GBAuthor>Amaya,A.K.</GBAuthor>
+          <GBAuthor>Liao,S.H.</GBAuthor>
+          <GBAuthor>Westhaus,A.</GBAuthor>
+          <GBAuthor>Hallwirth,C.V.</GBAuthor>
+          <GBAuthor>Wilmott,P.</GBAuthor>
+          <GBAuthor>Ward,J.</GBAuthor>
+          <GBAuthor>Dilworth,K.L.</GBAuthor>
+          <GBAuthor>Santilli,G.</GBAuthor>
+          <GBAuthor>Rybicki,A.</GBAuthor>
+          <GBAuthor>Nakai,H.</GBAuthor>
+          <GBAuthor>Thrasher,A.J.</GBAuthor>
+          <GBAuthor>Filip,A.C.</GBAuthor>
+          <GBAuthor>Alexander,I.E.</GBAuthor>
+          <GBAuthor>Lisowski,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Codon-Optimization of Wild-Type Adeno-Associated Virus Capsid Sequences Enhances DNA Family Shuffling while Conserving Functionality</GBReference_title>
+        <GBReference_journal>Mol Ther Methods Clin Dev 12, 71-84 (2018)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.omtm.2018.10.016</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>30534580</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3472</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hallwirth,C.V.</GBAuthor>
+          <GBAuthor>Hetherington,N.A.</GBAuthor>
+          <GBAuthor>Lisowski,L.</GBAuthor>
+          <GBAuthor>Alexander,I.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-OCT-2018) Gene Therapy Research Unit, Children's Medical Research Institute, 214 Hawkesbury Road, Westmead, NSW 2145, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3472</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3472</GBInterval_to>
+            <GBInterval_accession>MK026553.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Marsupial adeno-associated virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ex.mar.AAV1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>faeces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>marsupial</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2497568</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..1289</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1289</GBInterval_to>
+            <GBInterval_accession>MK026553.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rep</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..1289</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1289</GBInterval_to>
+            <GBInterval_accession>MK026553.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>rep protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AZP54391.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AWTNLEEYEEILLNIPARLQLAATAAASLPLPSSGRRQAAETQSSSGRTAPLYYGKHTQKYMDLVAWLVEEGITSEKQWIVENQESYLSFQATSNGARQIKAALDNASKIMNLTKTAADYLITKHESNFDNIEENRIYKIFDMNGYDPLYAGNILTGWCKREFGKRNTIWLYGKATTGKTNIAEVISHSVPFWGCVNWTNENFPFNDCVDKMIIWWEEGKMTSKVVETAKAILGGAKVRVDQKCKSSVQLDSTPVIITSNTDMCYVVDGNTTTFEHKQPSQDRMFQFLLMKRLPDDFGKVTREEVRQFFKWANENKVDVTREFTVKKRAPSESPAKTDDDRKRKWNFLKAPPTAEPPHKKRATAPKASFPFRDRTNEEIIERDAPTQESDLEFLKRFGLDLKQSENSESNFKPDEIENCDLDDIQDEQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1298..&gt;3472</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1298</GBInterval_from>
+            <GBInterval_to>3472</GBInterval_to>
+            <GBInterval_accession>MK026553.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1298..&gt;3472</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1298</GBInterval_from>
+            <GBInterval_to>3472</GBInterval_to>
+            <GBInterval_accession>MK026553.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AZP54392.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSFLEAFEDWYEKAAATWRHLEPGAPRPKANQQHQEQHHPVPAEEPKDQARGLVLPGYKYLGPFNGLDKGDPVNQADAAALEHDKAYNHLLEEGQNPYLVYNEADKHFQETLQGDTSFGGNLGKAVFQGKKRVLEPFGLVDEEPHELAPPPKKKTKQEYKDTLEAIPPPSREEQTPQKGSSASKNGASSSAAAAAPSNLGSGIMAEGGGAPMGDNQQGADGVGNASGNWHCDSHWMGDKVVTRTTRTWVLPTYNNHLYQAIDENTTLGSANNFYGFSTPWGYFDFNRFHCHFSPRDWQRLINNNWGIRPRSLRFKLFNIQVKEVTTTSGETTIANNLTSTVQVFADEEMHLPYVLGSAHDGCFPPFPPDIYMLPQYGYCTLDYQGLTTDRSAFYCLEYFPSQMLRTGNNFELTYNFEKLPFHSMWMHNQSLDRIMNPLIDQYLYRFASKTGNTWTYQKGSKDDKTAQARNWLPGPSIRNQPLYSSGNQTNLSGYDIAPKTEVNEKQMTVFPGLSMATENERSGTIKEQPTSNLLIFANKADAATSQTTSSVGSTATLLVTNENEVKTVNPSATEAWGSAAANKQTSATASQSVAIHAQGVVPGMVWQDRDIYFQGPIWAKIPHTDGHFHPSPLMGGFGLKHPPPQIFIKNTPVPSNPATTYTTAKYNSFITQYSTGQVTVEIDWELQKETSKKWNPEIQFTSNYNGTDTLGFAPDAAGDYTEPRA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gagcgtggacaaatctggaggaatatgaggagatactgctaaatattcccgccagattgcagttggcagccaccgcggcagcatcgctcccgctcccgtcctcaggtaggagacaggcagcagagactcagagcagttcaggccgtaccgctcctttgtattacggtaaacatacccaaaaatacatggatctcgtggcctggttagtggaggaaggtatcacttccgagaaacaatggattgtcgagaatcaggagagctatctctccttccaggcgaccagtaatggcgcccggcagatcaaagcggctctggacaatgccagtaagatcatgaatctgacaaagactgccgccgattatctgatcaccaaacacgagtcaaattttgacaacatcgaagagaacagaatttacaaaatatttgacatgaacggatacgacccgctgtacgctggaaatattctgacaggatggtgcaagagagaatttggcaaaagaaacactatctggctgtatggaaaagccaccacgggaaagacaaatatcgctgaagtcatcagccacagcgtccctttctggggctgcgtgaactggaccaacgagaactttccgttcaacgactgcgtggacaagatgatcatctggtgggaagaaggcaagatgacctccaaggtagtggagaccgctaaagctatcctggggggtgccaaagtcagagttgaccagaagtgtaaaagctctgttcaactggacagcaccccggtcatcatcaccagcaacacggacatgtgctacgtagtggacggcaacaccacgacctttgaacacaagcagccgtcacaggaccgcatgttccagttcctgctcatgaagagacttccggacgattttggcaaggtcacgcgagaagaggtcagacagtttttcaaatgggccaatgagaataaagttgacgtcacccgggaatttaccgtcaagaaaagggcgccaagcgaatctcccgccaaaactgatgacgacagaaaacggaagtggaactttctaaaggctccgcctaccgctgagcctccgcataaaaagcgcgccacggcgcccaaagcgtcatttccttttcgcgaccggacgaacgaggagattatcgagagagacgctcccacccaggaatctgacctcgaatttctgaaaaggtttggacttgacttgaaacagtcagaaaattcagagtcaaattttaaacctgacgagatcgaaaactgtgatctcgacgacattcaggatgagcaatgactttgtagatgtcttttttagaagcgtttgaggactggtacgaaaaagcagcggctacttggcgacatctcgaacctggcgccccccgtcctaaagccaaccagcagcatcaggaacagcatcatccggttcctgctgaagagcctaaagatcaagctcgaggccttgtgctacctggctacaagtacctcggcccctttaacggccttgataaaggtgatccggttaatcaagcggacgctgcggcgcttgaacacgataaagcgtacaaccaccttctcgaagaaggacaaaacccgtacctcgtgtataacgaggctgataagcatttccaggaaactctacagggggatacgagcttcggcggtaacctcggcaaagcagtcttccaaggcaagaaacgagtcctagagccctttggactcgttgacgaggagcctcacgaactggctccacctccaaaaaagaagacaaaacaggaatacaaagacactctagaggctattcctcctcctagcagagaggaacagactcctcagaagggatcttcagcatccaaaaacggagcctcatcttcagcagcagcagcagcccccagtaatttgggatctggtatcatggcagaaggcggtggcgcaccaatgggcgacaatcaacagggtgccgatggagtgggtaatgcctcgggaaattggcattgcgattcccactggatgggcgacaaagtcgtcacccgcaccaccagaacctgggtcctgcccacctacaacaaccacctctaccaagccatcgacgagaatactactctcggatccgccaacaacttctacggattcagcaccccatgggggtactttgactttaaccgcttccactgccacttctccccacgtgactggcaaagactcatcaacaacaactggggcatccgacccagaagcctcagattcaagctgttcaacatccaagtcaaggaggtcacgacgacgtcgggcgaaacgaccatcgccaataaccttaccagcacggttcaggtttttgcggatgaagaaatgcacctcccgtacgtcttagggagtgcccacgacgggtgctttcctccatttccaccagacatttacatgctgccccaatacgggtactgcactctggactatcagggactcaccacagacaggagcgccttctactgtctggagtacttcccttctcagatgctgagaacgggcaacaactttgagcttacttacaactttgagaagctgcctttccacagcatgtggatgcacaaccagtccctggacaggatcatgaatcctctcatcgatcagtacctgtatcgcttcgcctccaagactggcaacacatggacataccaaaaaggcagcaaagacgacaagaccgctcaagccagaaactggcttcctggaccctccatcagaaatcagcctctgtactcgagtggtaatcaaaccaacctctcgggatacgatatcgctccaaaaacagaagtcaacgagaaacagatgactgtgtttcctggactttctatggccaccgaaaacgagaggagcggaaccatcaaagagcagccaacgtccaatctgctcatctttgccaacaaagcggatgcggctacctctcagaccacttctagcgtgggcagtacagcgacactcctggtcaccaacgaaaacgaagtcaagactgtcaatccctccgccaccgaagcgtggggttcggctgcggccaacaaacagacatctgctaccgcctctcaaagcgtggctattcacgctcaaggcgtggtgccaggcatggtctggcaagacagagacatctactttcagggccccatctgggccaagatcccgcatacagatggacactttcacccatctcctctcatgggtggattcggactcaaacatcctcctccacaaattttcattaaaaacactcctgtcccctccaatcctgctaccacgtacaccaccgccaagtacaactccttcatcacccagtactccaccggtcaagtgactgtggagattgactgggaactccagaaggagacctccaaaaagtggaaccccgagatccagttcacctccaattacaacgggacagacacgctcggattcgctccagatgccgctggagactacaccgaaccacgtgcc</GBSeq_sequence>
+  </GBSeq>

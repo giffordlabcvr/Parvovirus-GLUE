@@ -43,10 +43,11 @@
     exit
 
   # Export annotations
-  module parvoFigTreeAnnotationExporter 
+  module parvoFigTreeAnnotationExporter
+  
     export figtree-annotation AL_UNC_DEPENDO_ROOT_NS -f trees/genus-level/dependo-root-rep78.figtree-annotations.tsv
     export figtree-annotation AL_UNC_DEPENDO_ROOT_VP -f trees/genus-level/dependo-root-vp1.figtree-annotations.tsv
 
-  exit
+    exit
 
 

@@ -6,13 +6,14 @@
     import AL_UNC_DEPENDO_ROOT     -f alignments/internal/genus/parvovirinae/dependo/dependo-genome.aln.fna
     
     #~# Internal node deep splits 
-    import AL_UNC_DEPENDO_MAMMAL   -f alignments/internal/genus/parvovirinae/dependo/lineage-mammal.aln.fna
-    import AL_UNC_DEPENDO_AVES     -f alignments/internal/genus/parvovirinae/dependo/lineage-aves.aln.fna
-    import AL_UNC_DEPENDO_REPTILE  -f alignments/internal/genus/parvovirinae/dependo/lineage-reptile.aln.fna
+    import AL_UNC_DEPENDO_1         -f alignments/internal/genus/parvovirinae/dependo/lineage-reptile.aln.fna
+    import AL_UNC_DEPENDO_2         -f alignments/internal/genus/parvovirinae/dependo/lineage-aves.aln.fna
+    import AL_UNC_DEPENDO_3         -f alignments/internal/genus/parvovirinae/dependo/lineage-mammal.aln.fna
+
     
     #~# Internal node mammalian subclades     
     import AL_UNC_DEPENDO_A        -f alignments/internal/genus/parvovirinae/dependo/dependo-a.aln.fna   
-    #import AL_UNC_DEPENDO_B        -f alignments/internal/genus/parvovirinae/dependo/dependo-b.aln.fna
+    import AL_UNC_DEPENDO_B        -f alignments/internal/genus/parvovirinae/dependo/dependo-b.aln.fna
     
     exit
 

@@ -1,1 +1,116 @@
-((alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006148:0.84507574037413324408,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_027429:1.38803362338437130674)100:1.93465351209394210985,((alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006152:0.14228499849939268973,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006147:2.04075668232581897144)6:0.13575236674762394817,(alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_038539:0.54569940996920662801,((alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/MF416383:1.01178757246473938203,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_014468:0.59829820927048782409)4:0.20986279039378899491,(alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs/NC_001401:0.09527138990635886096,((alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_001829:0.05687018556303229805,(alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AF028705:0.00047867293853600941,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_001729:0.00225201266742815253)100:0.04647667230340568612)98:0.03045217973863080865,(alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/DQ813647:0.09520975566957470826,((((alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AX753250:0.01092204498110132399,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006261:0.02946555446240455706)98:0.01136540556634327639,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006260:0.01211998874743198951)78:0.00839890203071773887,(alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AF028704:0.01592002019248341810,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_002077:0.00401766882260030673)100:0.01476428735938060607)98:0.01920088109354501152,(alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/LY408697:0.00730381310970247728,alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AY631966:0.00308018893489564330)100:0.01912954350646176721)100:0.05447628234705053502)38:0.02091582419740568161)69:0.03220465140265903886)100:0.30780286538778195427)4:0.17401480027327112521)13:0.16825474754614197503)100:1.14617808640487049698);
+#NEXUS
+begin taxa;
+	dimensions ntax=14;
+	taxlabels
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AF028704'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 6",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV6",sample_date="-",sequenceID="AF028704",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AF028705'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 3B",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV3B",sample_date="-",sequenceID="AF028705",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AX753250'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 9",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV9",sample_date="-",sequenceID="AX753250",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AY631966'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 11",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV11",sample_date="-",sequenceID="AY631966",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-C",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/DQ813647'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 12",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV12",sample_date="-",sequenceID="DQ813647",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-C",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/LY408697'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 11",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV10",sample_date="-",sequenceID="LY408697",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_001729'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 3",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV3",sample_date="-",sequenceID="NC_001729",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_001829'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 4",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV4",sample_date="-",sequenceID="NC_001829",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-C",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_002077'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 1",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV1",sample_date="-",sequenceID="NC_002077",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006147'[&clade_ns="Dependo2",clade_vp="Dependo2",country="-",full_name="Muscovy duck parvovirus",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="MDPV",sample_date="-",sequenceID="NC_006147",subclade_ns="Galloanserae",subclade_vp="Galloanserae",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006148'[&clade_ns="Dependo1",clade_vp="Dependo1",country="-",full_name="Snake parvovirus 1",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="SnakePV",sample_date="-",sequenceID="NC_006148",subclade_ns="Sauria",subclade_vp="Sauria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006260'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 7",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV7",sample_date="-",sequenceID="NC_006260",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006261'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 8",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV8",sample_date="-",sequenceID="NC_006261",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs/NC_001401'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 2",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="AAV2",sample_date="-",sequenceID="NC_001401",subclade_ns="Dependo-A",subclade_vp="Dependo-A",subfamily="Parvovirinae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006148':11.04971,('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006147':5.202598,('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs/NC_001401':1.0E-6,((('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AF028705':3.93E-4,'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_001729':0.002357)[&label=100]:0.048397,'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_001829':0.060555)[&label=100]:0.031181,('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/DQ813647':0.103697,((('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006260':0.012404,('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AX753250':0.010944,'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_006261':0.030128)[&label=100]:0.01143)[&label=75]:0.008261,('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AF028704':0.016047,'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/NC_002077':0.004011)[&label=100]:0.01508)[&label=99]:0.019917,('alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/AY631966':0.002936,'alignment/AL_UNC_DEPENDO_ROOT_NS/member/ncbi-refseqs-dependo/LY408697':0.007455)[&label=100]:0.019166)[&label=100]:0.058747)[&label=100]:0.022165)[&label=100]:0.141888)[&label=96]:2.432993):5.847112);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -10,8 +10,7 @@
   create reference REF_AvAAV-atcc       ncbi-refseqs-dependo NC_004828
   create reference REF_AvAAV-da1        ncbi-refseqs-dependo NC_006263
 
-  ## Dependo3
-  
+  ## Dependo3 
   # Dependo_A (Primate)
   create reference REF_AAV1             ncbi-refseqs-dependo NC_002077
   create reference REF_AAV3a            ncbi-refseqs-dependo NC_001729
@@ -29,16 +28,11 @@
   create reference REF_AAV5             ncbi-refseqs-dependo NC_006152  
   create reference REF_BAAV             ncbi-refseqs-dependo NC_005889 
   create reference REF_CAV              ncbi-refseqs-dependo DQ335246 
-
-  # Rodent
-  create reference REF_Mouse-AAV1       ncbi-refseqs-dependo MF416383     
-
-  # Porcine
   create reference REF_PorcinePV        ncbi-refseqs-dependo FJ688147     
 
-  # Laurasiatheria
+  create reference REF_Mouse-AAV1       ncbi-refseqs-dependo MF416383     
   create reference REF_AAV-bat          ncbi-refseqs-dependo NC_014468
   create reference REF_SealionPV        ncbi-refseqs-dependo NC_038539
 
-
-
+  # Dependo4
+  create reference REF_MAAV             ncbi-refseqs-dependo MK026553     
