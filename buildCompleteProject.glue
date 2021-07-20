@@ -51,19 +51,19 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae EVEs
-  #run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  #run file glue/eve/erythro/buildErythroPaleoProject.glue
-  #run file glue/eve/proto/buildProtoPaleoProject.glue
-  #run file glue/eve/dependo/buildDependoPaleoProject.glue
-  #run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
+  run file glue/eve/amdo/buildAmdoPaleoProject.glue
+  run file glue/eve/erythro/buildErythroPaleoProject.glue
+  run file glue/eve/proto/buildProtoPaleoProject.glue
+  run file glue/eve/dependo/buildDependoPaleoProject.glue
+  run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
 
   # Hamaparvovirinae EVEs
-  #run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
+  run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
 
   # Create the recursively populated subfamily phylogeny with EVEs included
-  #run file glue/core/epvCreateRootPhylogenies.glue
-  #run file glue/core/epvRerootPhylogenies.glue
-  #run file glue/core/epvRootPhylogeniesExportAnnotations.glue
+  run file glue/core/epvCreateRootPhylogenies.glue
+  run file glue/core/epvRerootPhylogenies.glue
+  run file glue/core/epvRootPhylogeniesExportAnnotations.glue
   
   exit
 

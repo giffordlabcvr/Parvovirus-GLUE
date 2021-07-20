@@ -10,6 +10,9 @@
     record feature-presence AL_Dependo1 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Dependo2 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Dependo3 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Dependo4 --recursive --featureName whole_genome --descendentFeatures
+   
+    #~# Clade alignments
     record feature-presence AL_Dependo_A --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Dependo_B --recursive --featureName whole_genome --descendentFeatures    
     exit

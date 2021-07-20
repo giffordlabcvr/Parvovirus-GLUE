@@ -13,7 +13,7 @@
 
   # Export the gene alignments 
   module fastaAlignmentExporter
-    export AL_GENUS_Dependo -r REF_MASTER_Dependo_AAV2 -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/dependo-root-rep78.aln.fna
+    export AL_GENUS_Dependo -r REF_MASTER_Dependo_AAV2 -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 40"  -c -e -o alignments/tree/dependo-root-rep78.aln.fna
  	export AL_GENUS_Dependo -r REF_MASTER_Dependo_AAV2 -f VP1 -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 60"  -c -e -o alignments/tree/dependo-root-vp1.aln.fna
  	exit
 
