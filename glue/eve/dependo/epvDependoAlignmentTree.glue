@@ -42,6 +42,7 @@
     demote member AL_Dependo1    --whereClause "sequence.assign_clade = 'Dependo1' and sequence.source.name like '%-dependo-epv'"
     demote member AL_Dependo2    --whereClause "sequence.assign_clade = 'Dependo2' and sequence.source.name like '%-dependo-epv'"  
     demote member AL_Dependo3    --whereClause "sequence.assign_clade = 'Dependo3' and sequence.source.name like '%-dependo-epv'"
+    demote member AL_Dependo4    --whereClause "sequence.assign_clade = 'Dependo4' and sequence.source.name like '%-dependo-epv'"
 
     exit
 
@@ -61,14 +62,9 @@
 
     demote member AL_Dependo_A   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Dependo_A'"
     demote member AL_Dependo_B   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Dependo_B'"
-    demote member AL_Rodent      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Rodent'"
-    demote member AL_Chiroptera  --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Chiroptera'"
-    demote member AL_Carnivore   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Carnivore'"   
 
     extract child AL_Glires      --refName REF_EPV_dependo.3-lagomorpha
     demote member AL_Glires      --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Glires'"
 
-    extract child AL_Marsupial   --refName REF_EPV_dependo.0-macropus
-    demote member AL_Marsupial   --whereClause "sequence.source.name = 'fasta-refseqs-dependo-epv' and sequence.assign_subclade = 'Marsupial'"
-
     exit
+
