@@ -4,33 +4,33 @@
   <head>
   
     <meta charset="UTF-8">
-    <title>Parvoviridae-GLUE by giffordlabcvr: An example-based tutorial - parvoviruses and the mink fur industry</title>
+    <title>Parvovirus-GLUE by giffordlabcvr: An example-based tutorial - parvoviruses and the mink fur industry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/github-light.css" media="screen">
 
   </head>
 
   <body>
     <section class="page-header">
-      <h1 class="project-name">Parvoviridae-GLUE</h1>
+      <h1 class="project-name">Parvovirus-GLUE</h1>
       <h2 class="project-tagline">A sequence data resource for parvoviruses (family <i>Parvoviridae</i>).</h2>
-      <a href="../index.html" class="btn">Home</a>
+      <a href="../../index.html" class="btn">Home</a>
       <a href="./viruses.html" class="btn">Viruses</a>
       <a href="./paleoviruses.html" class="btn">Paleoviruses</a>
       <a href="./highlights.html" class="btn">Highlights</a>      
       
-      <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/zipball/master" class="btn">Download</a>
-      <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master" class="btn">View on GitHub</a>
+      <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/zipball/master" class="btn">Download</a>
+      <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
     <section class="main-content">
 
 
 	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Parvoviridae-GLUE - an example-driven tutorial</strong>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Parvovirus-GLUE - an example-driven tutorial</strong>
 	   </h3>
        <hr>
 
@@ -77,7 +77,7 @@
 	   </h3>
        <hr>
 
-        <p><img src="./images/fur-trade-parvoviruses-header.png" alt="Parvoviruses and the fur industry" /></p>
+        <p><img src="../assets/images/fur-trade-parvoviruses-header.png" alt="Parvoviruses and the fur industry" /></p>
 
 
 <blockquote>
@@ -163,7 +163,7 @@
 	   <p>
 
 
-        <p><img src="./images/fur-trade-parvoviruses-midlevel.png" alt="Carnivores, parvoviruses and the fur trade" /></p>
+        <p><img src="../assets/images/fur-trade-parvoviruses-midlevel.png" alt="Carnivores, parvoviruses and the fur trade" /></p>
 
 
 <blockquote>
@@ -192,12 +192,12 @@
 
 
 	   <p>
-         In this tutorial we will use the <b>Parvoviridae-GLUE</b> project
+         In this tutorial we will use the <b>Parvovirus-GLUE</b> project
          and published parvovirus sequence data to <b>(i)</b>
          investigate AMDV distribution diversity and evolution, and <b>(ii)</b> establish
          a sequence-based resource for AMDV.
          The entire sequence of commands used for this tutorial are captured in  
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/buildAmdvExtension.glue"><b>this file</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/buildAmdvExtension.glue"><b>this file</b></a>.
  	   </p>
 
 
@@ -214,7 +214,7 @@
          will use a customised version of GLUE's  module
          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/ncbiImporter">'<b>ncbiImporter</b>'</a>       
          module. Our project-specific configuration of the module can be viewed
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/amdoNcbiImporterExampleAmdv.xml"><b>here</b></a>.
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/modules/genus/amdo/amdoNcbiImporterExampleAmdv.xml"><b>here</b></a>.
          Viewing the file, you can probably see that it is configured to download sequences
          based on a query phrase:
 
@@ -235,7 +235,7 @@
          
          
   <pre>
-  <code>MyComputer:Parvoviridae-GLUE rob$ gluetools.sh 
+  <code>MyComputer:Parvovirus-GLUE rob$ gluetools.sh 
   GLUE Version 1.1.103
   Copyright (C) 2015-2020 The University of Glasgow
   This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
@@ -247,7 +247,7 @@
 
 
           
-         Notice from the first line that I'm in the 'Parvoviridae-GLUE' directory when
+         Notice from the first line that I'm in the 'Parvovirus-GLUE' directory when
          I initiate GLUE.
          This means that, by default, it will be my 'working directory' - when I reference
          a file from the GLUE console, I'll need to do so <u>relative to this directory</u>.
@@ -267,8 +267,8 @@
  
 	   <p>
          Now create the module using it's
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/amdoNcbiImporterExampleAmdv.xml"><b> configuration file</b></a>,
-         which is contained in the Parvoviridae-GLUE project, as shown here:
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/modules/genus/amdo/amdoNcbiImporterExampleAmdv.xml"><b> configuration file</b></a>,
+         which is contained in the Parvovirus-GLUE project, as shown here:
 
   <pre>
   <code>Mode path: /project/parvoviridae/
@@ -314,7 +314,7 @@
    <code>Mode path: /project/parvoviridae
    GLUE> export source ncbi-curated-parvo-amdv -p sources/</code></pre>
 
-		  The sequences are now in your local copy of the Parvoviridae-GLUE project, under
+		  The sequences are now in your local copy of the Parvovirus-GLUE project, under
 		  './sources/ncbi-curated-parvo'. However, they are in XML format - not
 		  particularly convenient for human use - so how do we 
 		  get our hands on the FASTA versions of these sequences?
@@ -367,7 +367,7 @@
 
 	   <p>
          Now that we've downloaded a set of AMDV sequences, we can incorporate them into 
-         the Parvoviridae-GLUE project.
+         the Parvovirus-GLUE project.
          Load the sequences as follows:
 
   <pre>
@@ -379,7 +379,7 @@
           All AMDV sequences obviously have the same taxonomic information.
           To input the taxonomic data for each sequence in the main 'sequence' table,
           we can use
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataAmdv.js"><b>this script</b></a>.
+		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleLoadSequenceDataAmdv.js"><b>this script</b></a>.
 	      which utilise two GLUE commands: (1) listing all sequences in a particular source;
 	      (ii) 
 	   </p>
@@ -393,7 +393,7 @@
  	   
 	   <p>
           Link each new AMDV sequence to the isolate table using
-          <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleLoadIsolateDataAmdv.js"><b>this script</b></a>.
+          <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleLoadIsolateDataAmdv.js"><b>this script</b></a>.
   <pre>
   <code>Mode path: /project/parvoviridae
   GLUE> run script glue/genus/amdo/exampleLoadSequenceDataAmdv.js</code></pre>
@@ -539,7 +539,7 @@
 
 		 <p>
            Use       
-		   <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleImportCuratedSideData.js"><strong>this script</strong></a>
+		   <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleImportCuratedSideData.js"><strong>this script</strong></a>
 		   to upload the refined data.
 		 </p>
 
@@ -561,10 +561,10 @@
 
 
 		 <p>
-		   The 'Parvovirus' extension of Parvoviridae-GLUE includes reference sequences for 
+		   The 'Parvovirus' extension of Parvovirus-GLUE includes reference sequences for 
 		   most (if not all) species, including AMDV.
 		   The reference sequence declarations can be found
-		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/parvoReferences.glue"><b>in this file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/parvoReferences.glue"><b>in this file</b></a>.
 		 </p>
 	   
 	   
@@ -607,7 +607,7 @@
 		 
 		 
 		 <p>
-           First, lets examine all of the features defined in the entire Parvoviridae-GLUE 
+           First, lets examine all of the features defined in the entire Parvovirus-GLUE 
            project.
 
   <pre>
@@ -656,7 +656,7 @@
 
   		 
 
-        <p><img src="./images/amdo-midlevel.png" alt="Amdoparvovirus-related images" /></p>
+        <p><img src="../assets/images/amdo-midlevel.png" alt="Amdoparvovirus-related images" /></p>
 
 
        <br>
@@ -677,7 +677,7 @@
 
 		   At this point, I should mention that some AMDV sequences are in the opposite
 		   orientation to our chosen AMDV reference. To address this, run
-		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
+		   <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleApplyReverseComplement.glue"><b>this GLUE file</b></a>.
 		   This will allow us to proceed with directly to the alignment step with all 
 		   sequences in the same orientation. Later in this section,
 		   I'll explain how I created the file.
@@ -719,8 +719,8 @@
 
 		 <p>
 		   Now we can construct the alignment.
-		   The Parvoviridae-GLUE project contains a 
-		   <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/modules/genus/amdo/parvovirusCompoundAligner.xml"><b>parvovirus-specific configuration file</b></a>
+		   The Parvovirus-GLUE project contains a 
+		   <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/modules/genus/amdo/parvovirusCompoundAligner.xml"><b>parvovirus-specific configuration file</b></a>
 		   for GLUE's  'compoundAligner' module.
   <pre>
   <code>compute alignment AL_AMDV parvovirusCompoundAligner</code></pre>
@@ -826,7 +826,7 @@
 	   
 		 <p>
 		   This can also be accomplished by by running
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
 		 as follows:
 		 </p>
 
@@ -853,8 +853,8 @@
          
          
          The entire sequence of commands for creating both trees can be found in
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
-		 which is in the Parvoviridae-GLUE repo, as follows:
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
+		 which is in the Parvovirus-GLUE repo, as follows:
   <pre>
   <code>Mode path: /project/parvoviridae
   GLUE> run file glue/genus/amdo/exampleCreateAmdvPhylogenies.glue</code></pre>
@@ -869,7 +869,7 @@
 		<p>
 		  To midpoint-root the trees, we will use GLUE's
 		  module. To apply the module to the two trees we've constructed, run
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleRerootPhylogeny.glue"><b>this file</b></a>
+		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleRerootPhylogeny.glue"><b>this file</b></a>
 		  as follows:
 
 
@@ -886,7 +886,7 @@
  	   
 		<p>
 		  Export annotations for the trees by running
-		  <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/blob/master/glue/genus/amdo/exampleExportAnnotations.glue"><b>this file</b></a>,
+		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/genus/amdo/exampleExportAnnotations.glue"><b>this file</b></a>,
 		  as follows:
 
 
@@ -901,7 +901,7 @@
   
 		<p>
 		  The finished trees with annotations can be found 
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master/trees/virus-level"><b>here</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/trees/virus-level"><b>here</b></a>.
           One way to view these trees is by using Andrew Rambaut's
 		  <a target="_blank" href="https://github.com/rambaut/figtree/releases"><b>FigTree</b></a>
 		  program.
@@ -912,7 +912,7 @@
 
        <br>
 	   <h3>
-		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing Parvoviridae-GLUE resources</strong>.
+		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing Parvovirus-GLUE resources</strong>.
 	   </h3>
        <hr>
 
@@ -975,8 +975,8 @@
 
 	  <footer class="site-footer">
 	 
-		<span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/">
-		  Parvoviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.
+		<span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/">
+		  Parvovirus-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.
 		</span>
 
 		<span class="site-footer-credits">
