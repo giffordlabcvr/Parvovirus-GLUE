@@ -3,20 +3,20 @@ create project parvoviridae "A GLUE project for the Parvoviridae" --minVersion 0
 
 # Create the database schema
 schema-project parvoviridae
-  run file glue/core/parvoSchemaExtensions.glue
-  run file glue/core/parvoSchemaExtensionsPaleovirus.glue
+  run file glue/build/core/parvoSchemaExtensions.glue
+  run file glue/build/core/parvoSchemaExtensionsPaleovirus.glue
   exit
 
 
 # Load project settings
 project parvoviridae
-  run file glue/core/parvoProjectSettings.glue
+  run file glue/build/core/parvoProjectSettings.glue
   exit
 
 
 # Build the core project for family Parvoviridae (Genus master references only)
 project parvoviridae
-  run file glue/core/buildParvoCoreProject.glue
+  run file glue/build/core/buildParvoCoreProject.glue
   exit
 
 
@@ -25,23 +25,25 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae
-  run file glue/genus/ave/buildAveProject.glue
-  run file glue/genus/boca/buildBocaProject.glue
-  run file glue/genus/erythro/buildErythroProject.glue
-  run file glue/genus/dependo/buildDependoProject.glue
-  run file glue/genus/copi/buildCopiProject.glue
-  run file glue/genus/tetra/buildTetraProject.glue
-  run file glue/genus/amdo/buildAmdoProject.glue
-  run file glue/genus/proto/buildProtoProject.glue
+  run file glue/build/genus/ave/buildAveProject.glue
+  run file glue/build/genus/boca/buildBocaProject.glue
+
+  run file glue/build/genus/amdo/buildAmdoProject.glue
+  run file glue/build/genus/proto/buildProtoProject.glue
+
+  run file glue/build/genus/erythro/buildErythroProject.glue
+  run file glue/build/genus/dependo/buildDependoProject.glue
+  run file glue/build/genus/copi/buildCopiProject.glue
+  run file glue/build/genus/tetra/buildTetraProject.glue
 
   # Hamaparvovirinae
-  run file glue/genus/chaphama/buildChaphamaProject.glue
-  run file glue/genus/ichthama/buildIchthamaProject.glue
+  run file glue/build/genus/chaphama/buildChaphamaProject.glue
+  run file glue/build/genus/ichthama/buildIchthamaProject.glue
 
   # Create the recursively populated subfamily phylogeny with viruses only
-  run file glue/core/parvovirinaeCreatePhylogenies.glue
-  run file glue/core/parvovirinaeRerootPhylogenies.glue
-  run file glue/core/parvovirinaePhylogeniesExportAnnotations.glue
+  run file glue/build/core/parvovirinaeCreatePhylogenies.glue
+  run file glue/build/core/parvovirinaeRerootPhylogenies.glue
+  run file glue/build/core/parvovirinaePhylogeniesExportAnnotations.glue
 
   exit
 
@@ -51,19 +53,20 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae EVEs
-  run file glue/eve/amdo/buildAmdoPaleoProject.glue
-  run file glue/eve/erythro/buildErythroPaleoProject.glue
-  run file glue/eve/proto/buildProtoPaleoProject.glue
-  run file glue/eve/dependo/buildDependoPaleoProject.glue
-  run file glue/eve/unc-parvo/buildUncParvoPaleoProject.glue
+  run file glue/build/eve/amdo/buildAmdoPaleoProject.glue
+  run file glue/build/eve/proto/buildProtoPaleoProject.glue
+
+  run file glue/build/eve/erythro/buildErythroPaleoProject.glue
+  run file glue/build/eve/dependo/buildDependoPaleoProject.glue
+  run file glue/build/eve/unc-parvo/buildUncParvoPaleoProject.glue
 
   # Hamaparvovirinae EVEs
-  run file glue/eve/ichthama/buildIchthamaPaleoProject.glue
+  run file glue/build/eve/ichthama/buildIchthamaPaleoProject.glue
 
   # Create the recursively populated subfamily phylogeny with EVEs included
-  run file glue/core/epvCreateRootPhylogenies.glue
-  run file glue/core/epvRerootPhylogenies.glue
-  run file glue/core/epvRootPhylogeniesExportAnnotations.glue
+  run file glue/build/core/epvCreateRootPhylogenies.glue
+  run file glue/build/core/epvRerootPhylogenies.glue
+  run file glue/build/core/epvRootPhylogeniesExportAnnotations.glue
   
   exit
 

@@ -1,0 +1,6 @@
+
+  # Create the root phylogenies for the parvoviridae (master reference sequences only)
+  run file glue/build/core/parvoviridaeCreatePhylogenies.glue
+  run file glue/build/core/parvoviridaeRerootPhylogenies.glue
+  run file glue/build/core/parvoviridaePhylogeniesExportAnnotations.glue
+

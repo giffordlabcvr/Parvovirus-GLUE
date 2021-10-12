@@ -1,0 +1,12 @@
+
+  # Import metadata for exogenous reference sequences from tabular
+  module parvoSideDataImporter 
+    populate -f tabular/core/parvo-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Link to isolate table
+  run script glue/build/core/loadIsolateData.js
+  
+  # Populate fields from GenBank data
+  module parvoGenbankXmlPopulator populate 
+

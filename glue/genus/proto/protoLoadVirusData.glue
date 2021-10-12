@@ -1,8 +1,0 @@
-  # Import metadata for exogenous reference sequences from tabular
-  module parvoSideDataImporter 
-    populate -f tabular/genus/proto-refseqs-side-data.tsv
-    exit
-
-  # Link reference sequences to isolate table
-  run script glue/genus/proto/protoLoadIsolateData1.js
-

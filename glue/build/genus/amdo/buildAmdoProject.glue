@@ -1,0 +1,27 @@
+
+  # delete previous extension build
+  run file glue/build/genus/amdo/deleteAmdoExtension.glue
+
+  # create modules
+  run file glue/build/genus/amdo/amdoModules.glue
+
+  # Import sources 
+  import source sources/genus/amdo/ncbi-refseqs-amdo
+
+  # Import data 
+  run file glue/build/genus/amdo/amdoImportVirusData.glue
+
+  # Declare reference sequences
+  run file glue/build/genus/amdo/amdoReferences.glue
+
+  # Import alignments 
+  run file glue/build/genus/amdo/amdoAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/build/genus/amdo/amdoAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/build/genus/amdo/amdoRecordFeaturePresence.glue
+
+  # Validate
+  validate

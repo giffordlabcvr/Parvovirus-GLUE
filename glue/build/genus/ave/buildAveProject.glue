@@ -1,0 +1,27 @@
+
+  # delete previous extension build
+  run file glue/build/genus/ave/deleteAveExtension.glue
+
+  # create modules
+  run file glue/build/genus/ave/aveModules.glue
+
+  # Import sources 
+  import source sources/genus/ave/ncbi-refseqs-ave
+
+  # Import data 
+  run file glue/build/genus/ave/aveImportVirusData.glue
+
+  # Declare reference sequences
+  run file glue/build/genus/ave/aveReferences.glue
+
+  # Import alignments 
+  run file glue/build/genus/ave/aveAlignments.glue
+
+  # Define constrained alignment tree 
+  run file glue/build/genus/ave/aveAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/build/genus/ave/aveRecordFeaturePresence.glue
+
+  # Validate
+  validate

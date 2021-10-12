@@ -1,0 +1,8 @@
+
+  # Delete extension specific components
+  delete alignment AL_UNC_AMDO_ROOT
+  delete alignment AL_Amdo
+  multi-delete reference -w "name like '%REF_Amdo%'"
+  
+  run script glue/build/genus/amdo/deleteAmdoIsolateTableRows.js
+  delete source ncbi-refseqs-amdo

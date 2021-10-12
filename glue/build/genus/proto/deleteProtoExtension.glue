@@ -1,0 +1,9 @@
+
+  # Delete extension specific components
+  delete alignment AL_UNC_PROTO_ROOT
+  delete alignment AL_Proto
+  multi-delete reference -w "name like '%REF_Proto%'"
+
+  run script glue/build/genus/proto/deleteProtoIsolateTableRows.js
+  delete source ncbi-refseqs-proto
+  delete source fasta-refseqs-proto

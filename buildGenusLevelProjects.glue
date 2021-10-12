@@ -2,17 +2,17 @@
 project parvoviridae
 
   # Parvovirinae
-  run file glue/genus/ave/buildAveProject.glue
-  run file glue/genus/boca/buildBocaProject.glue
-  run file glue/genus/erythyro/buildErythyroProject.glue
-  run file glue/genus/dependo/buildDependoProject.glue
-  run file glue/genus/copi/buildCopiProject.glue
-  run file glue/genus/tetra/buildTetraProject.glue
-  run file glue/genus/amdo/buildAmdoProject.glue
-  run file glue/genus/proto/buildProtoProject.glue
+  run file glue/build/genus/ave/buildAveProject.glue
+  run file glue/build/genus/boca/buildBocaProject.glue
+  run file glue/build/genus/erythyro/buildErythyroProject.glue
+  run file glue/build/genus/dependo/buildDependoProject.glue
+  run file glue/build/genus/copi/buildCopiProject.glue
+  run file glue/build/genus/tetra/buildTetraProject.glue
+  run file glue/build/genus/amdo/buildAmdoProject.glue
+  run file glue/build/genus/proto/buildProtoProject.glue
       
   # Hamaparvovirinae
-  run file glue/genus/chaphama/buildChaphamaProject.glue
-  run file glue/genus/ichthama/buildIchthamaProject.glue
+  run file glue/build/genus/chaphama/buildChaphamaProject.glue
+  run file glue/build/genus/ichthama/buildIchthamaProject.glue
 
 exit

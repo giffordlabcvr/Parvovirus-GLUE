@@ -1,8 +1,0 @@
-
-  # Delete extension specific components
-  delete alignment AL_UNC_AVE_ROOT
-  delete alignment AL_Ave
-  multi-delete reference -w "name like '%REF_Ave%'"
-  
-  run script glue/genus/ave/deleteAveIsolateTableRows.js
-  delete source ncbi-refseqs-ave
