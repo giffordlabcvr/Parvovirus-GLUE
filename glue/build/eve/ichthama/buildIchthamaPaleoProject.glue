@@ -1,39 +1,39 @@
   
   # delete previous extension
-  run file glue/eve/ichthama/deletePreviousExtensionBuild.glue
+  run file glue/build/eve/ichthama/deletePreviousExtensionBuild.glue
  
   # Create modules
-  run file glue/eve/ichthama/epvIchthamaModules.glue
+  run file glue/build/eve/ichthama/epvIchthamaModules.glue
   
   # Import endogenous parvoviral element (EPV) sequences
-  run file glue/eve/ichthama/epvIchthamaImportSources.glue
+  run file glue/build/eve/ichthama/epvIchthamaImportSources.glue
   
   # Import data for EVE sequences
-  run file glue/eve/ichthama/epvIchthamaImportData.glue
+  run file glue/build/eve/ichthama/epvIchthamaImportData.glue
   
   # Declare references 
-  run file glue/eve/ichthama/epvIchthamaReferences.glue
+  run file glue/build/eve/ichthama/epvIchthamaReferences.glue
 
   # Import genus level alignments
-  run file glue/eve/ichthama/epvIchthamaAlignmentsRoot.glue
+  run file glue/build/eve/ichthama/epvIchthamaAlignmentsRoot.glue
 
   # Set up constrained alignment tree for the EPV subclades
-  run file glue/eve/ichthama/epvIchthamaAlignmentTree.glue
+  run file glue/build/eve/ichthama/epvIchthamaAlignmentTree.glue
 
   # Record feature coverage in root and clade-level alignments
-  run file glue/eve/ichthama/epvIchthamaRecordFeaturePresence.glue
+  run file glue/build/eve/ichthama/epvIchthamaRecordFeaturePresence.glue
   
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/ichthama/epvIchthamaDemoteOrthologsToTipAlignments.js
+  run script glue/build/eve/ichthama/epvIchthamaDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  run script glue/eve/ichthama/epvIchthamaCreateTipPhylogenies.js
+  run script glue/build/eve/ichthama/epvIchthamaCreateTipPhylogenies.js
 
   # Create root-level phylogenies for major genes
-  #run file glue/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
+  #run file glue/build/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
 
   # Export annotations
-  #run file glue/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
+  #run file glue/build/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
 
   # Validate
   validate

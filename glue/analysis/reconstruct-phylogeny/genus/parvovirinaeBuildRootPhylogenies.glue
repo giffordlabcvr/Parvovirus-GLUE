@@ -1,0 +1,5 @@
+
+  # Create the recursively populated subfamily phylogeny with viruses only
+  run file glue/reconstruct-phylogeny/genus/core/parvovirinaeCreatePhylogenies.glue
+  run file glue/reconstruct-phylogeny/genus/core/parvovirinaeRerootPhylogenies.glue
+  run file glue/reconstruct-phylogeny/genus/core/parvovirinaePhylogeniesExportAnnotations.glue

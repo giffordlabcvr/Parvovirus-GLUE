@@ -1,45 +1,45 @@
   
   # delete previous extension
-  run file glue/eve/erythro/deletePreviousExtensionBuild.glue
+  run file glue/build/eve/erythro/deletePreviousExtensionBuild.glue
   
   
   
   # Import endogenous parvoviral element (EPV) sequences
-  run file glue/eve/erythro/epvErythroImportSources.glue
+  run file glue/build/eve/erythro/epvErythroImportSources.glue
   
   # Import data for EVE sequences
-  run file glue/eve/erythro/epvErythroImportData.glue
+  run file glue/build/eve/erythro/epvErythroImportData.glue
   
   # Declare references 
-  run file glue/eve/erythro/epvErythroReferences.glue
+  run file glue/build/eve/erythro/epvErythroReferences.glue
 
 
 
   # Set up constrained alignment tree for the EPV subclades
-  run file glue/eve/erythro/epvErythroAlignmentTree.glue
+  run file glue/build/eve/erythro/epvErythroAlignmentTree.glue
 
   # Import genus level alignments
-  run file glue/eve/erythro/epvErythroAlignmentsRoot.glue
+  run file glue/build/eve/erythro/epvErythroAlignmentsRoot.glue
 
 
   # Record feature coverage in root and clade-level alignments
-  run file glue/eve/erythro/epvErythroRecordFeaturePresence.glue
+  run file glue/build/eve/erythro/epvErythroRecordFeaturePresence.glue
 
 
   
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/erythro/epvErythroDemoteOrthologsToTipAlignments.js
+  run script glue/build/eve/erythro/epvErythroDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  run script glue/eve/erythro/epvErythroCreateTipPhylogenies.js
+  run script glue/build/eve/erythro/epvErythroCreateTipPhylogenies.js
 
 
 
   # Create root-level phylogenies for major genes
-  run file glue/eve/erythro/epvErythroCreateRootPhylogenies.glue
+  run file glue/build/eve/erythro/epvErythroCreateRootPhylogenies.glue
 
   # Export annotations
-  run file glue/eve/erythro/epvErythroExportRootPhylogenyAnnotations.glue
+  run file glue/build/eve/erythro/epvErythroExportRootPhylogenyAnnotations.glue
 
 
 

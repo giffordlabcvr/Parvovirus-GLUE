@@ -1,0 +1,35 @@
+
+  
+  # Protoparvovirus
+
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/build/eve/amdo/epvAmdoDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/build/eve/amdo/epvAmdoCreateTipPhylogenies.js
+
+  # Create root-level phylogenies for major genes
+  run file glue/build/eve/amdo/epvAmdoCreateRootPhylogenies.glue
+
+  # Export annotations
+  run file glue/build/eve/amdo/epvAmdoExportRootPhylogenyAnnotations.glue
+  
+  
+  # Protoparvovirus
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/build/eve/proto/epvProtoDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/build/eve/proto/epvProtoCreateTipPhylogenies.js
+
+  # Create root-level phylogenies for major genes
+  run file glue/build/eve/proto/epvProtoCreateRootPhylogenies.glue
+
+  # Export annotations
+  run file glue/build/eve/proto/epvProtoExportRootPhylogenyAnnotations.glue
+
+
+
+

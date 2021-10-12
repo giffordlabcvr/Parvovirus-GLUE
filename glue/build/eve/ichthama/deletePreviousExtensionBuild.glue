@@ -11,8 +11,8 @@
   multi-delete reference -w "name like 'REF_EPV_Ichthama%'"
 
   # Delete links to 
-  run script glue/eve/ichthama/deleteIchthamaRefConTableRows.js
-  run script glue/eve/ichthama/deleteIchthamaLocusTableRows.js
+  run script glue/build/eve/ichthama/deleteIchthamaRefConTableRows.js
+  run script glue/build/eve/ichthama/deleteIchthamaLocusTableRows.js
 
   # Delete sources
   delete source fasta-refseqs-ichthama-epv

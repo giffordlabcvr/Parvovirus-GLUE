@@ -4,5 +4,5 @@
     exit
 
   # Link reference sequences to isolate table
-  run script glue/genus/ichthama/ichthamaLoadIsolateData1.js
+  run script glue/build/genus/ichthama/ichthamaLoadIsolateData1.js
 

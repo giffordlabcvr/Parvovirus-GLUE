@@ -1,24 +1,24 @@
   
   # delete previous extension
-  #run file glue/eve/unc-parvo/deletePreviousExtensionBuild.glue
+  #run file glue/build/eve/unc-parvo/deletePreviousExtensionBuild.glue
   
   # Import endogenous parvoviral element (EPV) sequences
-  run file glue/eve/unc-parvo/epvUncParvoImportSources.glue
+  run file glue/build/eve/unc-parvo/epvUncParvoImportSources.glue
   
   # Import data for EVE sequences
-  run file glue/eve/unc-parvo/epvUncParvoImportData.glue
+  run file glue/build/eve/unc-parvo/epvUncParvoImportData.glue
   
   # Declare references 
-  run file glue/eve/unc-parvo/epvUncParvoReferences.glue
+  run file glue/build/eve/unc-parvo/epvUncParvoReferences.glue
 
   # Import subfamily level alignments with EVEs included
-  run file glue/eve/unc-parvo/epvUncParvoAlignmentsRoot.glue
+  run file glue/build/eve/unc-parvo/epvUncParvoAlignmentsRoot.glue
 
   # Set up constrained alignment tree for the subfamily with EVEs included
-  run file glue/eve/unc-parvo/epvUncParvoAlignmentTree.glue
+  run file glue/build/eve/unc-parvo/epvUncParvoAlignmentTree.glue
 
   # Record feature coverage subfamily-level alignments
-  run file glue/eve/unc-parvo/epvUncParvoRecordFeaturePresence.glue
+  run file glue/build/eve/unc-parvo/epvUncParvoRecordFeaturePresence.glue
   
 
   # Validate

@@ -1,45 +1,45 @@
   
   # delete previous extension
-  #run file glue/eve/dependo/epvDependoDeletePreviousExtensionBuild.glue
+  #run file glue/build/eve/dependo/epvDependoDeletePreviousExtensionBuild.glue
 
 
   # create modules
-  run file glue/eve/dependo/epvDependoModules.glue
+  run file glue/build/eve/dependo/epvDependoModules.glue
   
   # Import endogenous parvoviral element (EPV) sequences
-  run file glue/eve/dependo/epvDependoImportSources.glue
+  run file glue/build/eve/dependo/epvDependoImportSources.glue
   
   # Import data for EVE sequences
-  run file glue/eve/dependo/epvDependoImportData.glue
+  run file glue/build/eve/dependo/epvDependoImportData.glue
   
   # Declare references 
-  run file glue/eve/dependo/epvDependoReferences.glue
+  run file glue/build/eve/dependo/epvDependoReferences.glue
 
 
   # Set up constrained alignment tree for the Dependoparvoviruses
-  run file glue/eve/dependo/epvDependoAlignmentTree.glue
+  run file glue/build/eve/dependo/epvDependoAlignmentTree.glue
 
   # Import genus level alignments and define constrained alignment tree
-  run file glue/eve/dependo/epvDependoAlignmentsRoot.glue
+  run file glue/build/eve/dependo/epvDependoAlignmentsRoot.glue
   
   # Record feature coverage in root and clade-level alignments
-  run file glue/eve/dependo/epvDependoRecordFeaturePresence.glue
+  run file glue/build/eve/dependo/epvDependoRecordFeaturePresence.glue
 
 
   # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
-  run file glue/eve/dependo/epvDependoAlignmentTreeDigs.glue
+  run file glue/build/eve/dependo/epvDependoAlignmentTreeDigs.glue
 
   # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
+  run script glue/build/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
 
   # Create tip-level phylogenies
-  #run script glue/eve/dependo/epvDependoCreateTipPhylogenies.js
+  #run script glue/build/eve/dependo/epvDependoCreateTipPhylogenies.js
 
   # Create root-level phylogenies for major genes
-  run file glue/eve/dependo/epvDependoCreateRootPhylogenies.glue
+  run file glue/build/eve/dependo/epvDependoCreateRootPhylogenies.glue
 
   # Export annotations
-  run file glue/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
+  run file glue/build/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
 
 
   # Validate
