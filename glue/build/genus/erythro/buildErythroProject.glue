@@ -1,28 +1,28 @@
 
   # delete previous extension build
-  run file glue/genus/erythro/deleteErythroExtension.glue
+  run file glue/build/genus/erythro/deleteErythroExtension.glue
 
   # create modules
-  run file glue/genus/erythro/erythroModules.glue
+  run file glue/build/genus/erythro/erythroModules.glue
 
   # Import sources 
   import source sources/genus/erythro/ncbi-refseqs-erythro
   import source sources/genus/erythro/fasta-refseqs-erythro
 
   # Import data 
-  run file glue/genus/erythro/erythroImportVirusData.glue
+  run file glue/build/genus/erythro/erythroImportVirusData.glue
 
   # Declare reference sequences
-  run file glue/genus/erythro/erythroReferences.glue
+  run file glue/build/genus/erythro/erythroReferences.glue
 
   # Import alignments 
-  run file glue/genus/erythro/erythroAlignments.glue
+  run file glue/build/genus/erythro/erythroAlignments.glue
 
   # Define constrained alignment tree 
-  run file glue/genus/erythro/erythroAlignmentTree.glue
+  run file glue/build/genus/erythro/erythroAlignmentTree.glue
 
   # Record feature coverage in alignments
-  run file glue/genus/erythro/erythroRecordFeaturePresence.glue
-w
+  run file glue/build/genus/erythro/erythroRecordFeaturePresence.glue
+
   # Validate
   validate

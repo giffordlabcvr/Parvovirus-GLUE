@@ -4,7 +4,7 @@
     exit
 
   # Link reference sequences to isolate table
-  run script glue/genus/erythro/erythroLoadIsolateData1.js
+  run script glue/build/genus/erythro/erythroLoadIsolateData1.js
 
   # Populate fields from GenBank data
   module parvoGenbankXmlPopulator populate 

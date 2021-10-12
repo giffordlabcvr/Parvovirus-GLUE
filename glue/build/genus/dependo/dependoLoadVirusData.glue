@@ -4,6 +4,6 @@
     exit
 
   # Link reference sequences to isolate table
-  run script glue/genus/dependo/dependoLoadIsolateData1.js
+  run script glue/build/genus/dependo/dependoLoadIsolateData1.js
 
     

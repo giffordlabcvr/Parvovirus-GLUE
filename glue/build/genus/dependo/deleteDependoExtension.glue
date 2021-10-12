@@ -3,7 +3,7 @@
   delete alignment AL_UNC_DEPENDO_ROOT
   delete alignment AL_Dependo
   multi-delete reference -w "name like '%REF_Dependo%'"
-  run script glue/genus/dependo/deleteDependoIsolateTableRows.js
+  run script glue/build/genus/dependo/deleteDependoIsolateTableRows.js
   delete source ncbi-refseqs-dependo
   delete source fasta-refseqs-dependo
 
