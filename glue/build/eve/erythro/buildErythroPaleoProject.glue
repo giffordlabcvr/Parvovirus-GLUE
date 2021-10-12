@@ -26,22 +26,5 @@
   run file glue/build/eve/erythro/epvErythroRecordFeaturePresence.glue
 
 
-  
-  # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/build/eve/erythro/epvErythroDemoteOrthologsToTipAlignments.js
-
-  # Create tip-level phylogenies
-  run script glue/build/eve/erythro/epvErythroCreateTipPhylogenies.js
-
-
-
-  # Create root-level phylogenies for major genes
-  run file glue/build/eve/erythro/epvErythroCreateRootPhylogenies.glue
-
-  # Export annotations
-  run file glue/build/eve/erythro/epvErythroExportRootPhylogenyAnnotations.glue
-
-
-
   # Validate
   validate

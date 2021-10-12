@@ -22,18 +22,6 @@
 
   # Record feature coverage in root and clade-level alignments
   run file glue/build/eve/ichthama/epvIchthamaRecordFeaturePresence.glue
-  
-  # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/build/eve/ichthama/epvIchthamaDemoteOrthologsToTipAlignments.js
-
-  # Create tip-level phylogenies
-  run script glue/build/eve/ichthama/epvIchthamaCreateTipPhylogenies.js
-
-  # Create root-level phylogenies for major genes
-  #run file glue/build/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
-
-  # Export annotations
-  #run file glue/build/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
 
   # Validate
   validate

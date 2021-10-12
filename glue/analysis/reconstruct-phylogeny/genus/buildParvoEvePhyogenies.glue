@@ -1,6 +1,6 @@
 
   
-  # Protoparvovirus
+  # Amdooparvovirus
 
   
   # Create the ortholog (tip) alignments in the constrained alignment tree
@@ -31,5 +31,51 @@
   run file glue/build/eve/proto/epvProtoExportRootPhylogenyAnnotations.glue
 
 
+  
+  # Erythroparvovirus
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/build/eve/erythro/epvErythroDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/build/eve/erythro/epvErythroCreateTipPhylogenies.js
+
+  # Create root-level phylogenies for major genes
+  run file glue/build/eve/erythro/epvErythroCreateRootPhylogenies.glue
+
+  # Export annotations
+  run file glue/build/eve/erythro/epvErythroExportRootPhylogenyAnnotations.glue
+
+
+  
+  # Dependoparvovirus
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/build/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  #run script glue/build/eve/dependo/epvDependoCreateTipPhylogenies.js
+
+  # Create root-level phylogenies for major genes
+  run file glue/build/eve/dependo/epvDependoCreateRootPhylogenies.glue
+
+  # Export annotations
+  run file glue/build/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
+
+
+  
+  # Ichthamaparvovirus
+  
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/build/eve/ichthama/epvIchthamaDemoteOrthologsToTipAlignments.js
+
+  # Create tip-level phylogenies
+  run script glue/build/eve/ichthama/epvIchthamaCreateTipPhylogenies.js
+
+  # Create root-level phylogenies for major genes
+  #run file glue/build/eve/ichthama/epvIchthamaCreateRootPhylogenies.glue
+
+  # Export annotations
+  #run file glue/build/eve/ichthama/epvIchthamaExportRootPhylogenyAnnotations.glue
 
 

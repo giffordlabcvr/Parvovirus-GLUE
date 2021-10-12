@@ -29,18 +29,6 @@
   # Set up constrained alignment tree for the Dependoparvovirus EPV subclades
   run file glue/build/eve/dependo/epvDependoAlignmentTreeDigs.glue
 
-  # Create the ortholog (tip) alignments in the constrained alignment tree
-  run script glue/build/eve/dependo/epvDependoDemoteOrthologsToTipAlignments.js
-
-  # Create tip-level phylogenies
-  #run script glue/build/eve/dependo/epvDependoCreateTipPhylogenies.js
-
-  # Create root-level phylogenies for major genes
-  run file glue/build/eve/dependo/epvDependoCreateRootPhylogenies.glue
-
-  # Export annotations
-  run file glue/build/eve/dependo/epvDependoExportRootPhylogenyAnnotations.glue
-
 
   # Validate
   validate
