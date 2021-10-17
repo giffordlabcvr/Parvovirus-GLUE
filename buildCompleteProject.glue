@@ -57,11 +57,6 @@ project parvoviridae
 
   # Hamaparvovirinae EVEs
   run file glue/build/eve/ichthama/buildIchthamaPaleoProject.glue
-
-  # Create the recursively populated subfamily phylogeny with EVEs included
-  run file glue/build/core/epvCreateRootPhylogenies.glue
-  run file glue/build/core/epvRerootPhylogenies.glue
-  run file glue/build/core/epvRootPhylogeniesExportAnnotations.glue
   
   exit
 
