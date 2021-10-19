@@ -29,8 +29,10 @@
     <section class="main-content">
 
 
+
+
 	   <h3>
-		 <a id="GlueProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of parvoviruses using Parvovirus-GLUE</strong>
+		 <a id="VirusProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of parvoviruses using Parvovirus-GLUE</strong>
 	   </h3>
 	   <hr>
 	   
@@ -41,14 +43,28 @@
 		 in an <b>efficient, standardised and reproducible</b> way.
 	   </p>
 
+        
+       <p><img src="../assets/images/parvovirus-header.jpg" alt="Parvoviruses"/></p>
+         
+	   
+
+<blockquote>
+		 <p>
+		   Comparative genomic analysis of parvoviruses can help reveal the biological basis
+		   of parvovirus replication.
+		   The insights obtained via comparative analysis of parvovirus genomes can directly
+		   inform efforts to limit parvovirus-associated disease and develop parvovirus-based 
+		   therapeutics. 
+		 </p>
+         
+</blockquote>
+
 
 	   <p>
 		 This page provides background information on the <b>virus-associated</b>
 		 data items included in the project  - information about endogenous parvoviral elements (EPVs)
 		 can be found <a href="./paleoviruses.html""><b>here</b></a>.
 	   </p>
-	   
-
 
 
 
@@ -60,25 +76,67 @@
 
 
 	   <p>
-		 The sequence data in this project are prganised into multiple distinct sources:<br>
+		 The sequence data in this project are organised into multiple distinct sources.
+		 Each source contains data in either GenBank XML or plain FASTA format.
+		 The type of data is indicated by the name of the source (all GenBank XML sources 
+		 contain 'ncbi' in the name).
 	   </p>
 	   
-	   
-	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/core/cress-refseqs-side-data.tsv">representative Parvovirus species</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
 
 	   <p>
-         Sequences included in this project are linked to 
-		<a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/core/parvo-ncbi-refseqs-side-data.tsv">auxiliary data in tabular format</a>
+		 GenBank XML files are imported into this project directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using
+		 a GLUE module and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
 
+		 Where possible, we prefer to use sequences obtained via GenBank since it
+		 represents the principle source of published nucleotide sequence data.
+		 However, FASTA sources can also be used in GLUE,
+		 making it straightforward to expand the curated, GenBank-derived set with 
+		 unpublished sequences. 
+	   </p>
+
+
+
+	   <p>
+         This project includes the following NCBI-derived sources:
+
+
+		 <ul>
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/amdo/ncbi-refseqs"><b>ncbi-refseqs</b></a>: Core project master reference sequences (one per parvovirus genus)</li>
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/amdo/ncbi-refseqs-amdo"><b>ncbi-refseqs-amdo</b></a>: Amdoparvovirus genus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/proto/ncbi-refseqs-proto"><b>ncbi-refseqs-proto</b></a>: Protoparvovirus genus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/boca/ncbi-refseqs-boca"><b>ncbi-refseqs-boca</b></a>: Bocaparvovirus genus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/ave/ncbi-refseqs-ave"><b>ncbi-refseqs-ave</b></a>: Aveparvovirus genus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/tetra/ncbi-refseqs-tetra"><b>ncbi-refseqs-tetra</b></a>: Tetraparvovirusgenus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/copi/ncbi-refseqs-copi"><b>ncbi-refseqs-copi</b></a>: Copiparvovirus genus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/erythro/ncbi-refseqs-erythro"><b>ncbi-refseqs-erythro</b></a>: Erythroparvovirus genus extension reference sequences</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/sources/genus/dependo/ncbi-refseqs-dependo"><b>ncbi-refseqs-dependo</b></a>: Dependoparvovirus genus extension reference sequences</li> 		   	   
+		 </ul>
+		 
 		 
 	   </p>
 
+
+
+
+	   <p>
+         Sequences included in this project are linked to auxiliary data in tabular format:
+
+
+		 <ul>
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/core/parvo-ncbi-refseqs-side-data.tsv"><b>Core project</b></a> master reference data</li>
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/amdo-refseqs-side-data.tsv"><b>Amdoparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/proto-refseqs-side-data.tsv"><b>Protoparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/boca-refseqs-side-data.tsv"><b>Bocaparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/ave-refseqs-side-data.tsv"><b>Aveparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/tetra-refseqs-side-data.tsv"><b>Tetraparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/copi-refseqs-side-data.tsv"><b>Copiparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/erythro-refseqs-side-data.tsv"><b>Erythroparvovirus</b></a> genus extension reference data</li> 
+		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/dependo-refseqs-side-data.tsv"><b>Dependoparvovirus</b></a> genus extension reference data</li> 
+		   	   
+		 </ul>
+
+
+	   </p>
 
 
 	   <br>
@@ -89,31 +147,17 @@
 
 
 
-		 <p>
-		 Three subfamilies are currently recognised within the family:
-		 
-		 <ol>
-		   <li><b>Parvovirinae</b></li>
-		   <li><b>Hamaparvovirinae</b></li> 
-		   <li><b>Densovirinae</b></li> 
-		 </ol>
-
-
-
-		  We used GLUE to derive annotated reference sequences for parvovirus species.
-		  Reference sequences are linked to auxiliary data in		 
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/core/parvo-ncbi-refseqs-side-data.tsv"><b>tabular format</b></a>.
-		</p>
-
-
-	   <h4>
-		 <a id="Parvovirinae" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Parvovirinae</strong>
-	   </h4>
-	   
 	   
 		<p>
 
  		  For selected parvoviral genera, we defined a 'master' reference sequence, as follows:
+
+
+	   <h4>
+		 <a id="Parvovirinae" class="anchor" href="#Epiparvovirinae" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Parvovirinae</strong>
+	   </h4>
+
+
 		  <ul>
 		    <li><b><i>Protoparvovirus</i></b>: Carnivore protoparvovirus 1 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001539"><b>NC_001539</b></a>)</li>
 		    <li><b><i>Aveparvovirus</i></b>: Chicken parvovirus (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_024452"><b>NC_024452</b></a>)</li>
