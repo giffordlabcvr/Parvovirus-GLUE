@@ -16,12 +16,14 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Parvovirus-GLUE</h1>
+ 
       
-      <h2 class="project-tagline">A GLUE project for the Parvoviridae.</h2>
+      <h2 class="project-tagline">Resources for comparative genomic analysis of parvoviruses.</h2>
+
       <a href="../../index.html" class="btn">Home</a>
       <a href="./paleoviruses.html" class="btn">Paleoviruses</a>
       <a href="./highlights.html" class="btn">Highlights</a>
-       <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/zipball/master" class="btn">Download</a>
+      <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master" class="btn">View on GitHub</a>
       
     </section>
@@ -197,23 +199,80 @@
 
 	   <br>
 	   <h3>
-		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments</strong>
+		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
 	   </h3>
 	   <hr>
 
-
 		<p>
-          Multiple sequence alignment constructed in this study are linked together using
-          GLUE's 
-          ‘<a href="./alignmentTree.html">alignment tree</a>’
-          data structure. Alignments in the project include:
+          Multiple sequence alignments (MSAs) are the basic currency of comparative genomic analysis.
+          MSAs constructed in this study are linked together using
+          GLUE's <b>constrained MSA tree</b> data structure.
+  		</p>
+
+         
+ 		<p>
+          A 'constrained MSA' is an alignment in which the coordinate space is defined by 
+          a selected reference sequence. Where alignment members contain insertions relative
+          to the reference sequence, the inserted sequences are recorded and stored
+          (i.e. sequence data is never deleted).
+  		</p>
+
+         
+ 		<p>
+           
+          GLUE projects have the option of using a data structure called an <b>alignment tree</b>
+          to link constrained MSAs representing different taxonomic levels,
+          and we've used this approach in Parvovirus-GLUE.
+ 		</p>
+
+
+ 	    <br>
+
+        <p><img src="../assets/images/parvo-msa-tree3.jpg" alt="Alignment tree concept" /></p>
+ 
+ 		
+
+<blockquote>
+		<p>
+		  The schematic figure above shows the '<b>alignment tree</b>' data structure 
+		  currently implemented in <b>Parvovirus-GLUE</b>.
+          For the highest taxonomic levels (i.e. at the root) we aligned only the most
+          conserved regions of the genome, whereas for the lower
+          taxonomic levels (i.e. within and below genus level) we aligned complete coding
+          sequences.
+
+          We used an alignment tree data structure to link these alignments,
+          via a set of common reference sequences.
+          The root alignment contains reference sequences for major clades,
+          whereas all children of the
+          root inherit at least one reference from their immediate parent.
+          Thus, all alignments are linked to one another via our chosen set of
+          master reference sequences.
+		</p>
+         
+</blockquote>
+
+
+ 	    <br>
+   
+		<p>
+             
+          
+          Alignments in the project include:
          
 		  
 		  <ol>
 			<li> A ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/alignments/root/parvo-ns-root.aln.fna"><strong>root</strong></a>’
+			alignment constructed to represent homology between the two largest subgroupings in the <i>Parvoviridae</i>.
+			<li> ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/alignments/internal/subfamily"><strong>subfamily</strong></a>’
 			alignment constructed to represent proposed
-			homologies between representative members of major parvovirus lineages</li>
-			<li> ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/alignments/internal/"><strong>genus-level</strong></a>’
+			homologies between representative members of <i>Parvoviridae</i> subfamilies</li>
+
+			<li> ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/alignments/internal/cross-genus"><strong>cross-genus</strong></a>’
+			alignment constructed to represent proposed
+			homologies between representative members of 'minor' <i>Parvoviridae</i> lineages</li>
+
+			<li> ‘<a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/alignments/internal/genus/"><strong>genus-level</strong></a>’
 			alignments constructed to represent proposed homologies between the genomes of
 			representative members of specific parvovirus genera.</li>
 		  </ol>
