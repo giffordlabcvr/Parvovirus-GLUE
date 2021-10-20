@@ -21,7 +21,7 @@
   create reference REF_MASTER_Hepandenso_FCDNV    ncbi-refseqs NC_014357
 
 
-  ## Epiparvovirinae    
+  ## Hamaparvovirinae    
   create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
   create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
   create reference REF_MASTER_Chaphama_PPV7       ncbi-refseqs NC_040562
