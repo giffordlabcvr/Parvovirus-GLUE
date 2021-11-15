@@ -1,4 +1,4 @@
-## Database integrated genome screening (DIGS) control file for endogenous flaviviral element screen
+## Database integrated genome screening (DIGS) control file for endogenous parvoviral element (EPV) screen
 # DIGS tool: https://giffordlabcvr.github.io/DIGS-tool/
 
 
