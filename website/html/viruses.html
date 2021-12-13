@@ -84,7 +84,56 @@
 
 
 
+	   <br>
+	   <h3>
+		 <a id="genomeFeatures" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Parvovirus genome features</strong>
+	   </h3>
+	   <hr>
 
+
+	   <p>
+
+         Parvoviruses have linear, single-stranded DNA genomes that are typically ~5 kilobases (kb)
+         in length. Parvovirus genomes are typically very compact and generally exhibit the same basic
+         genetic organisation comprising two major gene cassettes, one (Rep/NS) that encodes the
+         non-structural proteins,
+         and another (Cap/VP) that encodes the structural coat proteins of the virion.
+	   </p>
+
+	   <br>
+
+
+        <p><img src="../assets/images/cpv-genome.png" alt="CPV genome" /></p>
+ 
+<blockquote>
+		<p>
+		   A schematic representation of the canine parvovirus (CPV) genome. NS=non-structural;
+		   VP=capsid; PLA2=phospholipase A2; ITR=inverted terminal repeat; Kb=kilobases
+		</p>
+         
+</blockquote>
+
+	   <br>
+
+	   <p>
+         Some species and genera contain additional open reading frames (ORFs) adjacent to
+         these genes or overlapping them in alternative reading frames. 
+         The genome is flanked at the 3' and 5' ends by palindromic inverted terminal repeat (ITR)
+         sequences that are the only <i>cis</i> elements required for replication. 
+
+	   </p>
+
+	   <p>
+	   
+		 We defined a
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/build/core/parvoFeatures.glue"><b>standard set of genome features</b></a>
+		 for parvoviruses and recorded the locations of these genome features on master reference sequences
+		 (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/build/core/parvoMasterReferences.glue">here</b></a>).
+	   
+	   </p>
+
+
+	   <br>
 	   <h3>
 		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequences and sequence-associated data</strong>
 	   </h3>
@@ -100,20 +149,7 @@
 	   
 
 	   <p>
-		 GenBank XML files are imported into this project directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using
-		 a GLUE module and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-
-		 Where possible, we prefer to use sequences obtained via GenBank since it
-		 represents the principle source of published nucleotide sequence data.
-		 However, FASTA sources can also be used in GLUE,
-		 making it straightforward to expand the curated, GenBank-derived set with 
-		 unpublished sequences. 
-	   </p>
-
-
-
-	   <p>
-         This project includes the following NCBI-derived sources:
+         The following NCBI-derived sources are included in the project:
 
 
 		 <ul>
@@ -135,66 +171,156 @@
 
 
 	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format:
-
-
-		 <ul>
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/core/parvo-ncbi-refseqs-side-data.tsv"><b>Core project master references</b></a></li>
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/amdo-refseqs-side-data.tsv"><b>Amdoparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/proto-refseqs-side-data.tsv"><b>Protoparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/boca-refseqs-side-data.tsv"><b>Bocaparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/ave-refseqs-side-data.tsv"><b>Aveparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/tetra-refseqs-side-data.tsv"><b>Tetraparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/copi-refseqs-side-data.tsv"><b>Copiparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/erythro-refseqs-side-data.tsv"><b>Erythroparvovirus</b></a> </li> 
-		   <li><a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/tabular/genus/dependo-refseqs-side-data.tsv"><b>Dependoparvovirus</b></a> </li> 
-		   	   
-		 </ul>
-
-
-	   </p>
-
-
-	   <br>
-	   <h3>
-		 <a id="genomeFeatures" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Parvovirus genome features</strong>
-	   </h3>
-	   <hr>
-
-
-
-	   <p>
-
-         Parvoviruses have linear, single-stranded DNA genomes that are typically ~5 kilobases (kb)
-         in length. Parvovirus genomes are typically very compact and generally exhibit the same basic
-         genetic organisation comprising two major gene cassettes, one (Rep/NS) that encodes the
-         non-structural proteins,
-         and another (Cap/VP) that encodes the structural coat proteins of the virion.
-         However, some genera contain additional open reading frames (ORFs) adjacent to
-         these genes or overlapping them in alternative reading frames. 
-
+		 GenBank XML files are imported into this project directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a>
+		 using <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/modules/core/parvoGenbankXmlPopulator.xml">an appropriately configured version</a>		 
+		 of GLUE's 'GenBankPopulator' module and are uniquely identified within this project by their
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
+		 Where possible, we prefer to use sequences obtained via GenBank since it
+		 represents the principle source of published nucleotide sequence data.
+		 However, FASTA sources can also be used in GLUE,
+		 making it straightforward to expand the curated, GenBank-derived set with 
+		 unpublished sequences. 
 	   </p>
 
 
 
 	   <p>
-
-         The genome is flanked at the 3' and 5' ends by palindromic inverted terminal repeat (ITR)
-         sequences that are the only <i>cis</i> elements required for replication. 
+         Sequences included in this project are linked to auxiliary data in tabular format, as follows:
 
 	   </p>
 
-	   <p>
-	   
-		 We defined a
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/build/core/parvoFeatures.glue"><b>standard set of genome features</b></a>
-		 for parvoviruses and recorded the locations of these genome features on master reference sequences
-		 (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/build/core/parvoMasterReferences.glue">here</b></a>).
-	   
-	   </p>
 
+       <br>
 
 	   
+	   <table>
+	
+		   <thead>
+			   <tr>
+				   <th>Parameter</th>
+				   <th>Type</th>
+				   <th>Definition</th>
+			   </tr>
+		   </thead>
+	
+		   <tbody>
+
+			   <tr>
+				   <td><i>full_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Full name of the virus this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Abbreviated name of the virus this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>subfamily</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus subfamily (proposed)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>supergenus</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus supergenus (proposed)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>genus</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus genus</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>subgenus</i></td>
+				   <td>VARCHAR</td>				   
+				   <td>Taxonomy - virus subgenus</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>clade</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus clade</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>isolate_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Name of the isolate this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>isolation_host</i></td>
+				   <td>VARCHAR</td>
+				   <td>Species (latin binomial) virus was isolated from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>length</i></td>
+				   <td>INTEGER</td>
+				   <td>Length of the sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>pubmed_id</i></td>
+				   <td>INTEGER</td>
+				   <td>PubMed ID of manuscript associated with sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>gb_create_date</i></td>
+				   <td>GenBank</td>
+				   <td>GenBank creation date of the sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>gb_update_date</i></td>
+				   <td>VARCHAR</td>
+				   <td>Date of most recent GenBank update</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>country</i></td>
+				   <td>VARCHAR</td>
+				   <td>Country where virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>place_sampled</i></td>
+				   <td>VARCHAR</td>
+				   <td>Location of sampling (state, region, or city)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_year</i></td>
+				   <td>INTEGER</td>
+				   <td>Year virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_month</i></td>
+				   <td>VARCHAR</td>
+				   <td>Month virus was isolated</td>
+			   </tr>
+
+
+			   <tr>
+				   <td><i>collection_month_day</i></td>
+				   <td>VARCHAR</td>
+				   <td>Day of month virus was isolated</td>
+			   </tr>
+
+
+		   </tbody>
+		
+	   </table>
+
+
+ 
 	   <br>
 	   <h3>
 		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Parvovirus reference sequences</strong>
