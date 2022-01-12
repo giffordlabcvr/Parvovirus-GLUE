@@ -14,6 +14,7 @@
     create field gb_lab_construct BOOLEAN
     create field gb_create_date DATE
     create field gb_update_date DATE
+    create field reverse_complement BOOLEAN
   exit
 
   table alignment

@@ -1,0 +1,8 @@
+
+  # Reverse complement specific references
+
+  # Densoviruses 
+  sequence ncbi-refseqs NC_000936 set field reverse_complement true    # PEFUAMBIDENSO
+  sequence ncbi-refseqs NC_038532 set field reverse_complement true    # AQUAAMBIDENSO
+  sequence ncbi-refseqs NC_004289 set field reverse_complement true    # SCINDOAMBI
+  

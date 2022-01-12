@@ -13,6 +13,7 @@
 
   # Declare reference sequences
   run file glue/build/core/parvoMasterReferences.glue
+  run file glue/build/core/parvoRefseqsApplyReverseComplement.glue  
 
   # Import alignments and build constrained alignment tree
   run file glue/build/core/parvoAlignments.glue

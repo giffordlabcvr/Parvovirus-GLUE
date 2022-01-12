@@ -2,6 +2,8 @@
 aaCompositionResults = {}
 
 // get list of reference sequences from GLUE
+// command list reference -w "" 
+
 
 // iterate through reference list
 
