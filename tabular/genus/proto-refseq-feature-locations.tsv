@@ -2,6 +2,7 @@ referenceName	featureName	startNT	endNT
 REF_Proto_HamsterPV	whole_genome	1	4773
 REF_Proto_HamsterPV	Rep78	122	2140
 REF_Proto_HamsterPV	VP1	2664	4427
+REF_Proto_MpBuV	whole_genome	1	4613
 REF_Proto_MpBuV	Rep78	63	1982
 REF_Proto_MpBuV	VP1	2247	4403
 REF_Proto_MVM1	whole_genome	1	5149

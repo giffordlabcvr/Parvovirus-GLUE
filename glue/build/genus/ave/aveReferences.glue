@@ -59,7 +59,7 @@
  
  	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 220 2118
+	  add segment 220 5458
 	  exit
 
  	add feature-location Rep78
