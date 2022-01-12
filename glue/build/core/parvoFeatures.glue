@@ -1,24 +1,45 @@
-  # Top level (whole genome)
-  create feature whole_genome "Whole genome"
-  feature whole_genome set metatag INFORMATIONAL true
+  ### Top level (whole genome)
+  
+  create feature whole_genome "Whole genome"  
+  feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 5UTR -p whole_genome "5' UTR"
 
-  create feature 5IR -p 5UTR "5' inverted terminal repeat"
+  ### Non-coding features
+
+  create feature 5UTR -p whole_genome "5 prime UTR"
+  create feature 5IR -p 5UTR "5 prime inverted terminal repeat"
+  
+  create feature 3UTR "3 prime UTR"
+  create feature 3IR -p 3UTR "3 prime inverted terminal repeat"
+
+
+  ### Main coding features - replicase
 
   create feature NS -p whole_genome "Replicase protein"
   feature NS set field displayName "Replicase"
   feature NS set metatag OWN_CODON_NUMBERING true
   feature NS set metatag INCLUDE_IN_SUMMARY true
   feature NS set metatag CODES_AMINO_ACIDS true
+  
+  create feature NS1 -p whole_genome "Replicase protein NS1"
+  feature NS1 set field displayName "Replicase N1"
+  feature NS1 set metatag OWN_CODON_NUMBERING true
+  feature NS1 set metatag INCLUDE_IN_SUMMARY true
+  feature NS1 set metatag CODES_AMINO_ACIDS true
 
-  create feature Rep40 -p whole_genome "Rep 78 protein"
+  create feature NS2 -p whole_genome "Replicase protein NS2"
+  feature NS2 set field displayName "Replicase NS2"
+  feature NS2 set metatag OWN_CODON_NUMBERING true
+  feature NS2 set metatag INCLUDE_IN_SUMMARY true
+  feature NS2 set metatag CODES_AMINO_ACIDS true
+
+  create feature Rep40 -p whole_genome "Rep 40 protein"
   feature Rep40 set field displayName "Replicase"
   feature Rep40 set metatag OWN_CODON_NUMBERING true
   feature Rep40 set metatag INCLUDE_IN_SUMMARY true
   feature Rep40 set metatag CODES_AMINO_ACIDS true
 
-  create feature Rep52 -p whole_genome "Rep 78 protein"
+  create feature Rep52 -p whole_genome "Rep 52 protein"
   feature Rep52 set field displayName "Replicase"
   feature Rep52 set metatag OWN_CODON_NUMBERING true
   feature Rep52 set metatag INCLUDE_IN_SUMMARY true
@@ -36,23 +57,47 @@
   feature Rep78 set metatag INCLUDE_IN_SUMMARY true
   feature Rep78 set metatag CODES_AMINO_ACIDS true
 
+
+  ### Main coding features - capsid
+
+  create feature VP -p whole_genome "Capsid protein"
+  feature VP set field displayName "Capsid"
+  feature VP set metatag OWN_CODON_NUMBERING true
+  feature VP set metatag INCLUDE_IN_SUMMARY true
+  feature VP set metatag CODES_AMINO_ACIDS true
+
+  create feature VP1 -p whole_genome "Capsid protein VP1"
+  feature VP1 set field displayName "Capsid"
+  feature VP1 set metatag OWN_CODON_NUMBERING true
+  feature VP1 set metatag INCLUDE_IN_SUMMARY true
+  feature VP1 set metatag CODES_AMINO_ACIDS true
+
+  create feature VP2 -p whole_genome "Capsid protein VP2"
+  feature VP2 set field displayName "Capsid"
+  feature VP2 set metatag OWN_CODON_NUMBERING true
+  feature VP2 set metatag INCLUDE_IN_SUMMARY true
+  feature VP2 set metatag CODES_AMINO_ACIDS true
+
+  create feature VP3 -p whole_genome "Capsid protein VP3"
+  feature VP3 set field displayName "Capsid"
+  feature VP3 set metatag OWN_CODON_NUMBERING true
+  feature VP3 set metatag INCLUDE_IN_SUMMARY true
+  feature VP3 set metatag CODES_AMINO_ACIDS true
+
+  create feature CP -p whole_genome "Capsid protein (Denso)"
+  feature CP set field displayName "Capsid"
+  feature CP set metatag OWN_CODON_NUMBERING true
+  feature CP set metatag INCLUDE_IN_SUMMARY true
+  feature CP set metatag CODES_AMINO_ACIDS true
+
+
+  ### Additional coding features
+
   create feature AAP -p whole_genome "Assembly activating protein"
-  feature AAP set field displayName "Replicase"
+  feature AAP set field displayName "Assembly activating protein"
   feature AAP set metatag OWN_CODON_NUMBERING true
   feature AAP set metatag INCLUDE_IN_SUMMARY true
   feature AAP set metatag CODES_AMINO_ACIDS true
-
-  create feature NS1 -p whole_genome "Replicase protein NS1"
-  feature NS1 set field displayName "Replicase N1"
-  feature NS1 set metatag OWN_CODON_NUMBERING true
-  feature NS1 set metatag INCLUDE_IN_SUMMARY true
-  feature NS1 set metatag CODES_AMINO_ACIDS true
-
-  create feature NS2 -p whole_genome "Replicase protein NS2"
-  feature NS2 set field displayName "Replicase NS2"
-  feature NS2 set metatag OWN_CODON_NUMBERING true
-  feature NS2 set metatag INCLUDE_IN_SUMMARY true
-  feature NS2 set metatag CODES_AMINO_ACIDS true
 
   create feature NP -p whole_genome "NP protein"
   feature NP set field displayName "Nucleoprotein"
@@ -65,6 +110,12 @@
   feature M set metatag OWN_CODON_NUMBERING true
   feature M set metatag INCLUDE_IN_SUMMARY true
   feature M set metatag CODES_AMINO_ACIDS true
+
+  create feature X -p whole_genome "X protein"
+  feature X set field displayName "X"
+  feature X set metatag OWN_CODON_NUMBERING true
+  feature X set metatag INCLUDE_IN_SUMMARY true
+  feature X set metatag CODES_AMINO_ACIDS true
 
   create feature NP1 -p whole_genome "NP1 protein"
   feature NP1 set field displayName "NP1 protein"
@@ -114,175 +165,8 @@
   feature ORF7 set metatag INCLUDE_IN_SUMMARY true
   feature ORF7 set metatag CODES_AMINO_ACIDS true
 
-  create feature NS2-P -p whole_genome "Nonstructural protein NS2-P"
-  feature NS2-P set field displayName "NS2-P"
-  feature NS2-P set metatag OWN_CODON_NUMBERING true
-  feature NS2-P set metatag INCLUDE_IN_SUMMARY true
-  feature NS2-P set metatag CODES_AMINO_ACIDS true
 
-  create feature NS2-L -p whole_genome "Nonstructural protein NS2-L"
-  feature NS2-L set field displayName "NS2-L"
-  feature NS2-L set metatag OWN_CODON_NUMBERING true
-  feature NS2-L set metatag INCLUDE_IN_SUMMARY true
-  feature NS2-L set metatag CODES_AMINO_ACIDS true
-
-  create feature VP -p whole_genome "Capsid protein"
-  feature VP set field displayName "Capsid"
-  feature VP set metatag OWN_CODON_NUMBERING true
-  feature VP set metatag INCLUDE_IN_SUMMARY true
-  feature VP set metatag CODES_AMINO_ACIDS true
-
-  create feature VP1 -p whole_genome "Capsid protein VP1"
-  feature VP1 set field displayName "Capsid"
-  feature VP1 set metatag OWN_CODON_NUMBERING true
-  feature VP1 set metatag INCLUDE_IN_SUMMARY true
-  feature VP1 set metatag CODES_AMINO_ACIDS true
-
-  create feature VP2 -p whole_genome "Capsid protein  VP2"
-  feature VP2 set field displayName "Capsid"
-  feature VP2 set metatag OWN_CODON_NUMBERING true
-  feature VP2 set metatag INCLUDE_IN_SUMMARY true
-  feature VP2 set metatag CODES_AMINO_ACIDS true
-
-  create feature VP3 -p whole_genome "Capsid protein  VP3"
-  feature VP3 set field displayName "Capsid"
-  feature VP3 set metatag OWN_CODON_NUMBERING true
-  feature VP3 set metatag INCLUDE_IN_SUMMARY true
-  feature VP3 set metatag CODES_AMINO_ACIDS true
-
-  create feature CP -p whole_genome "Capsid protein (Denso)"
-  feature CP set field displayName "Capsid"
-  feature CP set metatag OWN_CODON_NUMBERING true
-  feature CP set metatag INCLUDE_IN_SUMMARY true
-  feature CP set metatag CODES_AMINO_ACIDS true
-
-  create feature X -p whole_genome "X protein"
-  feature X set field displayName "X"
-  feature X set metatag OWN_CODON_NUMBERING true
-  feature X set metatag INCLUDE_IN_SUMMARY true
-  feature X set metatag CODES_AMINO_ACIDS true
-
-  ## Capsid detail  
-  
-  create feature PLA2 -p VP1 "PLA2 domain"
-  feature PLA2 set field displayName "PLA2 domain"
-  feature PLA2 set metatag OWN_CODON_NUMBERING true
-  feature PLA2 set metatag INCLUDE_IN_SUMMARY true
-  feature PLA2 set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-B -p VP1 "Beta sheet B"
-  feature Beta-B set field displayName "Beta sheet-B"
-  feature Beta-B set metatag OWN_CODON_NUMBERING true
-  feature Beta-B set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-B set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_I -p VP1 "Variable loop I"
-  feature VL_I set field displayName "VL I"
-  feature VL_I set metatag OWN_CODON_NUMBERING true
-  feature VL_I set metatag INCLUDE_IN_SUMMARY true
-  feature VL_I set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-C -p VP1 "Beta sheet C"
-  feature Beta-C set field displayName "Beta sheet-C"
-  feature Beta-C set metatag OWN_CODON_NUMBERING true
-  feature Beta-C set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-C set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_alpha-1 -p VP1 "Variable loop alpha 1"
-  feature VL_alpha-1 set field displayName "Beta sheet-B"
-  feature VL_alpha-1 set metatag OWN_CODON_NUMBERING true
-  feature VL_alpha-1 set metatag INCLUDE_IN_SUMMARY true
-  feature VL_alpha-1 set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-D -p VP1 "Beta sheet D"
-  feature Beta-D set field displayName "Beta sheet-D"
-  feature Beta-D set metatag OWN_CODON_NUMBERING true
-  feature Beta-D set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-D set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_II -p VP1 "Variable loop II"
-  feature VL_II set field displayName "VL II"
-  feature VL_II set metatag OWN_CODON_NUMBERING true
-  feature VL_II set metatag INCLUDE_IN_SUMMARY true
-  feature VL_II set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-E -p VP1 "Beta sheet E"
-  feature Beta-E set field displayName "Beta sheet-E"
-  feature Beta-E set metatag OWN_CODON_NUMBERING true
-  feature Beta-E set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-E set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_III -p VP1 "Variable loop III"
-  feature VL_III set field displayName "VL III"
-  feature VL_III set metatag OWN_CODON_NUMBERING true
-  feature VL_III set metatag INCLUDE_IN_SUMMARY true
-  feature VL_III set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-F -p VP1 "Beta sheet F"
-  feature Beta-F set field displayName "Beta sheet-F"
-  feature Beta-F set metatag OWN_CODON_NUMBERING true
-  feature Beta-F set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-F set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-G -p VP1 "Beta sheet G"
-  feature Beta-G set field displayName "Beta sheet-G"
-  feature Beta-G set metatag OWN_CODON_NUMBERING true
-  feature Beta-G set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-G set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_IV -p VP1 "Variable loop IV"
-  feature VL_IV set field displayName "VL IV"
-  feature VL_IV set metatag OWN_CODON_NUMBERING true
-  feature VL_IV set metatag INCLUDE_IN_SUMMARY true
-  feature VL_IV set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_V -p VP1 "Variable loop V"
-  feature VL_V set field displayName "VL V"
-  feature VL_V set metatag OWN_CODON_NUMBERING true
-  feature VL_V set metatag INCLUDE_IN_SUMMARY true
-  feature VL_V set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_VI -p VP1 "Variable loop VI"
-  feature VL_VI set field displayName "VL VI"
-  feature VL_VI set metatag OWN_CODON_NUMBERING true
-  feature VL_VI set metatag INCLUDE_IN_SUMMARY true
-  feature VL_VI set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_VII -p VP1 "Variable loop VII"
-  feature VL_VII set field displayName "VL VII"
-  feature VL_VII set metatag OWN_CODON_NUMBERING true
-  feature VL_VII set metatag INCLUDE_IN_SUMMARY true
-  feature VL_VII set metatag CODES_AMINO_ACIDS true
-
-  create feature VL_VIII -p VP1 "Variable loop VIII"
-  feature VL_VIII set field displayName "VL VIII"
-  feature VL_VIII set metatag OWN_CODON_NUMBERING true
-  feature VL_VIII set metatag INCLUDE_IN_SUMMARY true
-  feature VL_VIII set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-H -p VP1 "Beta sheet H"
-  feature Beta-H set field displayName "Beta sheet-H"
-  feature Beta-H set metatag OWN_CODON_NUMBERING true
-  feature Beta-H set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-H set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-I -p VP1 "Beta sheet I"
-  feature Beta-I set field displayName "Beta sheet-I"
-  feature Beta-I set metatag OWN_CODON_NUMBERING true
-  feature Beta-I set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-I set metatag CODES_AMINO_ACIDS true
-
-  create feature Beta-IX -p VP1 "Beta sheet IX"
-  feature Beta-IX set field displayName "Beta sheet-IX"
-  feature Beta-IX set metatag OWN_CODON_NUMBERING true
-  feature Beta-IX set metatag INCLUDE_IN_SUMMARY true
-  feature Beta-IX set metatag CODES_AMINO_ACIDS true
-
-  create feature 3UTR "3' UTR"
-
-  create feature 3IR -p 3UTR "3' inverted terminal repeat"
-
-  # For EPVs - flanking genomic regions 
+  ### For EPVs - flanking genomic regions 
   
   create feature 3flank "3 prime genomic flanking sequence"
   feature 3flank set field displayName "5' flank"
