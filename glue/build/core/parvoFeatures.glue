@@ -58,6 +58,7 @@
   feature Rep78 set metatag CODES_AMINO_ACIDS true
 
 
+
   ### Main coding features - capsid
 
   create feature VP -p whole_genome "Capsid protein"
