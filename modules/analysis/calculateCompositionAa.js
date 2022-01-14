@@ -109,11 +109,8 @@ function calculateCompositionAa() {
 	//glue.log("INFO", "FINAL RESULT WAS ", aaCompositionResults);
 
 	// Transform the data 
-	// Create column headers
-	// Reference Feature A C D E F etc
-	var headerRow1 = [  'ReferenceName', 'FeatureName' ];
-	var headerRowAas = ['A', 'I', 'L', 'M', 'V', 'F', 'W', 'Y', 'N', 'C', 'Q', 'S', 'T', 'D', 'E', 'R', 'H', 'K', 'G', 'P' ];
 	var outputArray = [];
+	var headerRowAas = ['A', 'I', 'L', 'M', 'V', 'F', 'W', 'Y', 'N', 'C', 'Q', 'S', 'T', 'D', 'E', 'R', 'H', 'K', 'G', 'P' ];
 
 	// Iterate through reference sequences
 	_.each(_.keys(aaCompositionResults), function(referenceName) {
@@ -155,13 +152,51 @@ function calculateCompositionAa() {
 		   // add results to array to be returned to GLUE
 		   outputArray.push({
 		
-			   reference: referenceName,
-			   feature: featureName,
-			   A: aaFreqResults["A"]+" ("+aaCountResults["A"]+")",
-			   C: aaFreqResults["C"]+" ("+aaCountResults["C"]+")",
-			   D: aaFreqResults["D"]+" ("+aaCountResults["D"]+")",
-			   E: aaFreqResults["E"]+" ("+aaCountResults["E"]+")",
-			   F: aaFreqResults["F"]+" ("+aaCountResults["F"]+")"
+			   referenceName: referenceName,
+			   featureName: featureName,
+			   seqLength: length,
+			   A: aaFreqResults["A"],
+			   C: aaFreqResults["C"],
+			   D: aaFreqResults["D"],
+			   E: aaFreqResults["E"],
+			   F: aaFreqResults["F"],
+			   G: aaFreqResults["G"],
+			   H: aaFreqResults["H"],
+			   I: aaFreqResults["I"],
+			   K: aaFreqResults["K"],
+			   L: aaFreqResults["L"],
+			   M: aaFreqResults["M"],
+			   N: aaFreqResults["N"],
+			   P: aaFreqResults["P"],
+			   Q: aaFreqResults["Q"],
+			   R: aaFreqResults["R"],
+			   S: aaFreqResults["S"],
+			   T: aaFreqResults["T"],
+			   V: aaFreqResults["V"],
+			   W: aaFreqResults["W"],
+			   Y: aaFreqResults["Y"]
+
+			   //A: aaFreqResults["A"]+" ("+aaCountResults["A"]+")",
+			   //C: aaFreqResults["C"]+" ("+aaCountResults["C"]+")",
+			   //D: aaFreqResults["D"]+" ("+aaCountResults["D"]+")",
+			   //E: aaFreqResults["E"]+" ("+aaCountResults["E"]+")",
+			   //F: aaFreqResults["F"]+" ("+aaCountResults["F"]+")",
+			   //G: aaFreqResults["G"]+" ("+aaCountResults["G"]+")",
+			   //H: aaFreqResults["H"]+" ("+aaCountResults["H"]+")",
+			   //I: aaFreqResults["I"]+" ("+aaCountResults["I"]+")",
+			   //K: aaFreqResults["K"]+" ("+aaCountResults["K"]+")",
+			   //L: aaFreqResults["L"]+" ("+aaCountResults["L"]+")",
+			   //M: aaFreqResults["M"]+" ("+aaCountResults["M"]+")",
+			   //N: aaFreqResults["N"]+" ("+aaCountResults["N"]+")",
+			   //P: aaFreqResults["P"]+" ("+aaCountResults["P"]+")",
+			   //Q: aaFreqResults["Q"]+" ("+aaCountResults["Q"]+")",
+			   //R: aaFreqResults["R"]+" ("+aaCountResults["R"]+")",
+			   //S: aaFreqResults["S"]+" ("+aaCountResults["S"]+")",
+			   //T: aaFreqResults["T"]+" ("+aaCountResults["T"]+")",
+			   //V: aaFreqResults["V"]+" ("+aaCountResults["V"]+")",
+			   //W: aaFreqResults["W"]+" ("+aaCountResults["W"]+")",
+			   //Y: aaFreqResults["Y"]+" ("+aaCountResults["Y"]+")"
+
 
 
 		   });
