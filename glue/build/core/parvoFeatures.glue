@@ -88,14 +88,15 @@
 
   ### Protein subdomains
 
-
-
-  create feature BSheetB -p VP1 "Beta sheet B"
- 
   create feature PLA2 -p VP1 "PLA2 domain"
   feature PLA2 set field displayName "PLA2 domain"
   feature PLA2 set metatag INCLUDE_IN_SUMMARY true
   feature PLA2 set metatag CODES_AMINO_ACIDS true
+
+  create feature PLA3 -p VP2 "PLA3 domain"
+  feature PLA3 set field displayName "PLA3 domain"
+  feature PLA3 set metatag INCLUDE_IN_SUMMARY true
+  feature PLA3 set metatag CODES_AMINO_ACIDS true
 
 
 
