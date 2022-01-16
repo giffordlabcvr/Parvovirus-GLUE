@@ -61,12 +61,6 @@
 
   ### Main coding features - capsid
 
-  create feature VP -p whole_genome "Capsid protein"
-  feature VP set field displayName "Capsid"
-  feature VP set metatag OWN_CODON_NUMBERING true
-  feature VP set metatag INCLUDE_IN_SUMMARY true
-  feature VP set metatag CODES_AMINO_ACIDS true
-
   create feature VP1 -p whole_genome "Capsid protein VP1"
   feature VP1 set field displayName "Capsid"
   feature VP1 set metatag OWN_CODON_NUMBERING true
@@ -90,6 +84,19 @@
   feature CP set metatag OWN_CODON_NUMBERING true
   feature CP set metatag INCLUDE_IN_SUMMARY true
   feature CP set metatag CODES_AMINO_ACIDS true
+
+
+  ### Protein subdomains
+
+
+
+  create feature BSheetB -p VP1 "Beta sheet B"
+ 
+  create feature PLA2 -p VP1 "PLA2 domain"
+  feature PLA2 set field displayName "PLA2 domain"
+  feature PLA2 set metatag INCLUDE_IN_SUMMARY true
+  feature PLA2 set metatag CODES_AMINO_ACIDS true
+
 
 
   ### Additional coding features
@@ -165,6 +172,7 @@
   feature ORF7 set metatag OWN_CODON_NUMBERING true
   feature ORF7 set metatag INCLUDE_IN_SUMMARY true
   feature ORF7 set metatag CODES_AMINO_ACIDS true
+
 
 
   ### For EPVs - flanking genomic regions 
