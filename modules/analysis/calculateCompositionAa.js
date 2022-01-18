@@ -1,28 +1,23 @@
+// Calculate amino acid composition of all coding features annotated in reference sequences
 function calculateCompositionAa() {
 
-	// Script to calculate amino acid composition in reference sequences
-
+    // Get all coding features in a map referenced by their names
 	var codingFeatures = {};
 	var resultMap = glue.command(["list", "feature","-w", "featureMetatags.name = 'CODES_AMINO_ACIDS'"]);
 	var featureList = resultMap["listResult"];
 	var codingFeatureList = featureList["row"];
 	_.each(codingFeatureList,function(featureObj){
-
-		//glue.log("INFO", "RESULT WAS ", featureObj);
-	
+		//glue.log("INFO", "RESULT WAS ", featureObj);	
 		var valueArray = featureObj["value"];
 		var codingFeatureName = valueArray[0];
 		//glue.log("INFO", "NAME WAS ", featureName)
 		codingFeatures[codingFeatureName] = featureObj;
-
 	
 	});	
 	//glue.log("INFO", "RESULT WAS ", codingFeatures);
 
 	// get list of reference sequences from GLUE
 	var referencesResult = glue.command(["list","reference"]);
-	//glue.log("INFO", "RESULT WAS ", referencesResult);
-
 	var listResult = referencesResult["listResult"];
 	var referencesList = listResult["row"];
 	//glue.log("INFO", "RESULT WAS ", referencesList);
@@ -33,27 +28,24 @@ function calculateCompositionAa() {
 	_.each(referencesList, function(refObj) {
 
 		//glue.log("INFO", "RESULT WAS ", refObj);
-	
 		var refseqResults = {};
 		var referenceProperties = refObj["value"];
 		var referenceName = referenceProperties[0];
-	
 		//glue.log("INFO", "Reference name result was:", referenceName);
 
 		// list all features annotated in this reference 
-		// GLUE COMMAND: reference [referenceName] list feature-location
 		glue.inMode("/reference/"+referenceName, function() {
 
 			var featuresResult = glue.tableToObjects(glue.command(["list", "feature-location"]));
 			//glue.log("INFO", "RESULT WAS ", featuresResult);
 			 
-			// iterate through features
+			// iterate through feature locations
 			_.each(featuresResult, function(featureObj) {
 
 			   //glue.log("INFO", "RESULT WAS ", featureObj);
 			   var featureResults = {};
 		   
-			   // get amino acid sequence
+			   // get amino acid sequence of coding feature
 			   var featureName = featureObj["feature.name"];
 			   //glue.log("INFO", "Feature name result was:", featureName);
 		   
@@ -208,6 +200,7 @@ function calculateCompositionAa() {
 	});
 	 
 	return outputArray;
+
 }
 
 
