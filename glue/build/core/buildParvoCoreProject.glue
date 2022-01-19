@@ -12,8 +12,11 @@
   run file glue/build/core/parvoFeatures.glue
 
   # Declare reference sequences
+  run file glue/build/core/parvoApplyReverseComplement.glue  
   run file glue/build/core/parvoMasterReferences.glue
-  run file glue/build/core/parvoRefseqsApplyReverseComplement.glue  
+
+  # Define feature locations on master reference sequences
+  run file glue/build/core/parvoExplicitRefseqFeatureLocations.glue
 
   # Import alignments and build constrained alignment tree
   run file glue/build/core/parvoAlignments.glue

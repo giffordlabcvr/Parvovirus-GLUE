@@ -33,17 +33,11 @@
   feature NS2 set metatag INCLUDE_IN_SUMMARY true
   feature NS2 set metatag CODES_AMINO_ACIDS true
 
-  create feature Rep40 -p whole_genome "Rep 40 protein"
-  feature Rep40 set field displayName "Replicase"
-  feature Rep40 set metatag OWN_CODON_NUMBERING true
-  feature Rep40 set metatag INCLUDE_IN_SUMMARY true
-  feature Rep40 set metatag CODES_AMINO_ACIDS true
-
-  create feature Rep52 -p whole_genome "Rep 52 protein"
-  feature Rep52 set field displayName "Replicase"
-  feature Rep52 set metatag OWN_CODON_NUMBERING true
-  feature Rep52 set metatag INCLUDE_IN_SUMMARY true
-  feature Rep52 set metatag CODES_AMINO_ACIDS true
+  create feature Rep78 -p whole_genome "Rep 78 protein"
+  feature Rep78 set field displayName "Replicase"
+  feature Rep78 set metatag OWN_CODON_NUMBERING true
+  feature Rep78 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep78 set metatag CODES_AMINO_ACIDS true
 
   create feature Rep68 -p whole_genome "Rep 68 protein"
   feature Rep68 set field displayName "Replicase"
@@ -51,12 +45,17 @@
   feature Rep68 set metatag INCLUDE_IN_SUMMARY true
   feature Rep68 set metatag CODES_AMINO_ACIDS true
 
-  create feature Rep78 -p whole_genome "Rep 78 protein"
-  feature Rep78 set field displayName "Replicase"
-  feature Rep78 set metatag OWN_CODON_NUMBERING true
-  feature Rep78 set metatag INCLUDE_IN_SUMMARY true
-  feature Rep78 set metatag CODES_AMINO_ACIDS true
+  create feature Rep52 -p whole_genome "Rep 52 protein"
+  feature Rep52 set field displayName "Replicase"
+  feature Rep52 set metatag OWN_CODON_NUMBERING true
+  feature Rep52 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep52 set metatag CODES_AMINO_ACIDS true
 
+  create feature Rep40 -p whole_genome "Rep 40 protein"
+  feature Rep40 set field displayName "Replicase"
+  feature Rep40 set metatag OWN_CODON_NUMBERING true
+  feature Rep40 set metatag INCLUDE_IN_SUMMARY true
+  feature Rep40 set metatag CODES_AMINO_ACIDS true
 
 
   ### Main coding features - capsid
@@ -87,6 +86,30 @@
 
 
   ### Protein subdomains
+
+  create feature RCR -p Rep78 "RCR domain"
+  feature RCR set field displayName "RCR domain"
+  feature RCR set metatag OWN_CODON_NUMBERING true
+  feature RCR set metatag INCLUDE_IN_SUMMARY true
+  feature RCR set metatag CODES_AMINO_ACIDS true
+
+  create feature ATPase-A -p Rep78 "ATPase-A domain"
+  feature ATPase-A set field displayName "ATPase-A domain"
+  feature ATPase-A set metatag OWN_CODON_NUMBERING true
+  feature ATPase-A set metatag INCLUDE_IN_SUMMARY true
+  feature ATPase-A set metatag CODES_AMINO_ACIDS true
+
+  create feature ATPase-B -p Rep78 "ATPase-B domain"
+  feature ATPase-B set field displayName "ATPase-B domain"
+  feature ATPase-B set metatag OWN_CODON_NUMBERING true
+  feature ATPase-B set metatag INCLUDE_IN_SUMMARY true
+  feature ATPase-B set metatag CODES_AMINO_ACIDS true
+
+  create feature ATPase-C -p Rep78 "ATPase-C domain"
+  feature ATPase-C set field displayName "ATPase-B domain"
+  feature ATPase-C set metatag OWN_CODON_NUMBERING true
+  feature ATPase-C set metatag INCLUDE_IN_SUMMARY true
+  feature ATPase-C set metatag CODES_AMINO_ACIDS true
 
   create feature PLA2 -p VP1 "PLA2 domain"
   feature PLA2 set field displayName "PLA2 domain"
