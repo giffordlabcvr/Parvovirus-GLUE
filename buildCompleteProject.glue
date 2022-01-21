@@ -48,15 +48,15 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae EVEs
-  run file glue/build/eve/amdo/buildAmdoPaleoProject.glue
-  run file glue/build/eve/proto/buildProtoPaleoProject.glue
+  run file glue/build/epv/amdo/buildAmdoPaleoProject.glue
+  run file glue/build/epv/proto/buildProtoPaleoProject.glue
 
-  run file glue/build/eve/erythro/buildErythroPaleoProject.glue
-  run file glue/build/eve/dependo/buildDependoPaleoProject.glue
-  run file glue/build/eve/unc-parvo/buildUncParvoPaleoProject.glue
+  run file glue/build/epv/erythro/buildErythroPaleoProject.glue
+  run file glue/build/epv/dependo/buildDependoPaleoProject.glue
+  run file glue/build/epv/unc-parvo/buildUncParvoPaleoProject.glue
 
   # Hamaparvovirinae EVEs
-  run file glue/build/eve/ichthama/buildIchthamaPaleoProject.glue
+  run file glue/build/epv/ichthama/buildIchthamaPaleoProject.glue
   
   exit
 

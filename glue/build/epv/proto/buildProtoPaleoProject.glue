@@ -1,28 +1,28 @@
   
   # delete previous extension
-  run file glue/build/eve/proto/deletePreviousExtensionBuild.glue
+  run file glue/build/epv/proto/deletePreviousExtensionBuild.glue
   
   
   
   # Import endogenous parvoviral element (EPV) sequences
-  run file glue/build/eve/proto/epvProtoImportSources.glue
+  run file glue/build/epv/proto/epvProtoImportSources.glue
   
   # Import data for EVE sequences
-  run file glue/build/eve/proto/epvProtoImportData.glue
+  run file glue/build/epv/proto/epvProtoImportData.glue
   
   # Declare references 
-  run file glue/build/eve/proto/epvProtoReferences.glue
+  run file glue/build/epv/proto/epvProtoReferences.glue
 
 
 
   # Set up constrained alignment tree for the EPV subclades
-  run file glue/build/eve/proto/epvProtoAlignmentTree.glue
+  run file glue/build/epv/proto/epvProtoAlignmentTree.glue
 
   # Import genus level alignments
-  run file glue/build/eve/proto/epvProtoAlignmentsRoot.glue
+  run file glue/build/epv/proto/epvProtoAlignmentsRoot.glue
 
   # Record feature coverage in root and clade-level alignments
-  run file glue/build/eve/proto/epvProtoRecordFeaturePresence.glue
+  run file glue/build/epv/proto/epvProtoRecordFeaturePresence.glue
 
 
 
