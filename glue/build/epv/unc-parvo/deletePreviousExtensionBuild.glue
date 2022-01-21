@@ -11,8 +11,8 @@
   multi-delete reference -w "name like 'REF_EPV_unc-parvo%'"
 
   # Delete links to 
-  run script glue/eve/unc-parvo/deleteProtoRefConTableRows.js
-  run script glue/eve/unc-parvo/deleteProtoLocusTableRows.js
+  run script glue/epv/unc-parvo/deleteProtoRefConTableRows.js
+  run script glue/epv/unc-parvo/deleteProtoLocusTableRows.js
 
   # Delete sources
   delete source fasta-refseqs-unc-parvo-epv

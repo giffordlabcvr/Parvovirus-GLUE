@@ -11,8 +11,8 @@
   multi-delete reference -w "name like 'REF_EPV_proto%'"
 
   # Delete links to 
-  run script glue/build/eve/proto/deleteProtoRefConTableRows.js
-  run script glue/build/eve/proto/deleteProtoLocusTableRows.js
+  run script glue/build/epv/proto/deleteProtoRefConTableRows.js
+  run script glue/build/epv/proto/deleteProtoLocusTableRows.js
 
   # Delete sources
   delete source fasta-refseqs-proto-epv

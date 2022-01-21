@@ -11,8 +11,8 @@
   multi-delete reference -w "name like 'REF_EPV_erythro%'"
 
   # Delete links to 
-  run script glue/build/eve/erythro/deleteErythroRefConTableRows.js
-  run script glue/build/eve/erythro/deleteErythroLocusTableRows.js
+  run script glue/build/epv/erythro/deleteErythroRefConTableRows.js
+  run script glue/build/epv/erythro/deleteErythroLocusTableRows.js
 
   # Delete sources
   delete source fasta-refseqs-erythro-epv
