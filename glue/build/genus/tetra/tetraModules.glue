@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/tetra/tetraCompoundAligner.xml
+  create module -f modules/build/genus/tetra/tetraCompoundAligner.xml

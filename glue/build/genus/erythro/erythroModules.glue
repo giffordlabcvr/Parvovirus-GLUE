@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/erythro/erythroCompoundAligner.xml
+  create module -f modules/build/genus/erythro/erythroCompoundAligner.xml

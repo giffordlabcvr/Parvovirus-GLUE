@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/dependo/dependoCompoundAligner.xml
+  create module -f modules/build/genus/dependo/dependoCompoundAligner.xml

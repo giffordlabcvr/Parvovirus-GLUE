@@ -1,8 +1,8 @@
   delete module epvFastaAlignmentExporter
   delete module epvAlignmentImporterNucs
   
-  create module -f modules/core/epvAlignmentImporterNucs.xml
-  create module -f modules/core/epvFastaAlignmentExporter.xml
+  create module -f modules/build/epv/epvAlignmentImporterNucs.xml
+  create module -f modules/build/epv/epvFastaAlignmentExporter.xml
 
   #~# Import pre-built alignments of EVE sequences
 

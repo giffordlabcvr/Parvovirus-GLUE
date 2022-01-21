@@ -1,1 +1,1 @@
-  create module -f modules/genus/ichthama/ichthamaCompoundAligner.xml
+  create module -f modules/build/genus/ichthama/ichthamaCompoundAligner.xml

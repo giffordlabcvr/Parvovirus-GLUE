@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/proto/protoCompoundAligner.xml
+  create module -f modules/build/genus/proto/protoCompoundAligner.xml
