@@ -1,5 +1,3 @@
-  delete module parvoFeaturePresenceRecorder
-  create module -f modules/core/parvoFeaturePresenceRecorder.xml
 
   module parvoFeaturePresenceRecorder 
 

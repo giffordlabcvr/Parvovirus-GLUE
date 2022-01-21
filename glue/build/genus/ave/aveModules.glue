@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/ave/aveCompoundAligner.xml
+  create module -f modules/build/genus/ave/aveCompoundAligner.xml

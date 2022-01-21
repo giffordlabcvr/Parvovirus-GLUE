@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/boca/bocaCompoundAligner.xml
+  create module -f modules/build/genus/boca/bocaCompoundAligner.xml

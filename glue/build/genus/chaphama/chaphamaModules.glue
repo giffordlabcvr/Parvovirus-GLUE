@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/chaphama/chaphamaCompoundAligner.xml
+  create module -f modules/build/genus/chaphama/chaphamaCompoundAligner.xml

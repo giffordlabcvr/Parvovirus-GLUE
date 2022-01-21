@@ -1,2 +1,2 @@
 
-  create module -f modules/genus/amdo/amdoCompoundAligner.xml
+  create module -f modules/build/genus/amdo/amdoCompoundAligner.xml

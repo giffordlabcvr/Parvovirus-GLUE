@@ -1,6 +1,0 @@
-
-  reference REF_Circo_AMDV
-
-	add feature-location v2
-	feature-location v2 add segment 550 1026
-	exit
