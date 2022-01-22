@@ -6,8 +6,8 @@
   delete module parvoTreeAlignmentImporterNucs
   
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/build/core/fastaAlignmentExporter.xml
+  create module -f modules/build/core/parvoTreeAlignmentImporterNucs.xml
 
   # Export the gene alignments 
   module fastaAlignmentExporter
@@ -44,7 +44,7 @@
 
   # Export annotations
   delete module parvoFigTreeAnnotationExporter
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  create module -f modules/build/core/parvoFigTreeAnnotationExporter.xml
 
   module parvoFigTreeAnnotationExporter 
     export figtree-annotation AL_UNC_AMDO_ROOT_NS -f trees/genus-level/amdo-root-rep78.figtree-annotations.tsv

@@ -1,6 +1,6 @@
 
   delete module parvoPhyloUtility
-  create module -f modules/core/parvoPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/parvoPhyloUtility.xml
 
   # Re-root phylogeny 
   module parvoPhyloUtility 
