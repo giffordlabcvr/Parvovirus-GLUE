@@ -7,7 +7,7 @@
   delete module parvoFigTreeAnnotationExporter
   
   # Create all the modules we need
-  create module -f modules/analysis/phylogeny/fastaAlignmentExporter.xml
+  create module -f modules/build/core/fastaAlignmentExporter.xml
   create module -f modules/analysis/phylogeny/parvoTreeAlignmentImporterNucs.xml
   create module -f modules/analysis/phylogeny/parvoFigTreeAnnotationExporter.xml
 
