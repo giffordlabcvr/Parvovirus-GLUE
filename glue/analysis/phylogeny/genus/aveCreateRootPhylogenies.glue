@@ -6,8 +6,8 @@
   delete module parvoTreeAlignmentImporterNucs
   
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/build/core/fastaAlignmentExporter.xml
+  create module -f modules/analysis/phylogeny/parvoTreeAlignmentImporterNucs.xml
 
   # Export the gene alignments 
   module fastaAlignmentExporter
@@ -47,7 +47,7 @@
 
   # Export annotations
   delete module parvoFigTreeAnnotationExporter
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/parvoFigTreeAnnotationExporter.xml
 
   module parvoFigTreeAnnotationExporter
   

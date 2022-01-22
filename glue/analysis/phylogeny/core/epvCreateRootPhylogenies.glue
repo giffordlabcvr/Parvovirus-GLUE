@@ -12,13 +12,13 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/parvoTreeAlignmentImporterNucs.xml
-  create module -f modules/core/parvoPhyloUtility.xml
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
-  create module -f modules/core/parvoFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorParvovirinaeRep78.xml
-  #create module -f modules/core/alignmentColumnsSelectorParvovirinaeRoot.xml
+  create module -f modules/build/core/fastaAlignmentExporter.xml
+  create module -f modules/analysis/phylogeny/parvoTreeAlignmentImporterNucs.xml
+  create module -f modules/analysis/phylogeny/parvoPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/parvoFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/parvoFeaturePresenceRecorder.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorParvovirinaeRep78.xml
+  #create module -f modules/analysis/phylogeny/alignmentColumnsSelectorParvovirinaeRoot.xml
 
 
   # Export the recursively populated root gene alignments 

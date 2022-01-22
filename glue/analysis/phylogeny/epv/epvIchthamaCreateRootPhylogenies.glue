@@ -6,8 +6,8 @@
  
   
   # Create all the modules we need
-  create module -f modules/core/epvFastaAlignmentExporter.xml
-  create module -f modules/core/epvAlignmentImporterNucs.xml
+  create module -f modules/analysis/phylogeny/epvFastaAlignmentExporter.xml
+  create module -f modules/analysis/phylogeny/epvAlignmentImporterNucs.xml
 
 
   # Export the gene alignments 

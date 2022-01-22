@@ -1,5 +1,5 @@
   delete module parvoFeaturePresenceRecorder
-  create module -f modules/core/parvoFeaturePresenceRecorder.xml
+  create module -f modules/build/core/parvoFeaturePresenceRecorder.xml
 
   module parvoFeaturePresenceRecorder 
 
@@ -11,5 +11,6 @@
     record feature-presence AL_Dependo2 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Dependo3 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Dependo4 --recursive --featureName whole_genome --descendentFeatures
+    
     exit
 

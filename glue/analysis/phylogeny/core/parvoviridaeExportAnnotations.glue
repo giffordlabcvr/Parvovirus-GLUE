@@ -1,7 +1,7 @@
   # Export annotations
   delete module parvoFigTreeAnnotationExporter
   
-  create module -f modules/core/parvoFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/parvoFigTreeAnnotationExporter.xml
   
   module parvoFigTreeAnnotationExporter 
   
