@@ -1,6 +1,6 @@
 project parvoviridae
 
-  # Parvoviridae (non-recursive)
+  # Parvoviridae root (non-recursive)
   #run file glue/analysis/phylogeny/core/parvoviridaeCreatePhylogenies.glue
   #run file glue/analysis/phylogeny/core/parvoviridaeRerootPhylogenies.glue
   #run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
