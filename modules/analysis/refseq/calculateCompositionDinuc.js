@@ -3,7 +3,8 @@ function calculateCompositionDinuc() {
 
 	var dinucCompositionResults = {};
 	var lengthResults = {};
-
+    var outputArray = [];
+	
 	// export reference sequences from GLUE
 	glue.inMode("module/fastaExporter", function(){
 
@@ -18,7 +19,7 @@ function calculateCompositionDinuc() {
 		
 			var sequence   = seq.sequence;
 			var sequenceId = seq.id;
-			glue.log("INFO", "ID result was:", sequenceId);
+			//glue.log("INFO", "ID result was:", sequenceId);
 
 			//loop through each position in the current sequence
 			var lastBase;
@@ -30,15 +31,12 @@ function calculateCompositionDinuc() {
 			
 					var dinuc = lastBase += base;
 			
-					if (seqDinucComposition[dinuc]) {
-
-						seqDinucComposition[dinuc] += 1;
-			
+					if (seqDinucComposition[dinuc]) {				
+						seqDinucComposition[dinuc] += 1;		
 					}
 					else {
 						seqDinucComposition[dinuc] = 1;
-					}
-				
+					}				
 					lastBase = undefined;
 				
 				}
@@ -48,7 +46,7 @@ function calculateCompositionDinuc() {
 				}		
 			}
 		
-			glue.log("INFO", "Dinucleotide composition result was:", seqDinucComposition);
+			//glue.log("INFO", "Dinucleotide composition result was:", seqDinucComposition);
 			dinucCompositionResults[sequenceId] = seqDinucComposition;
 			lengthResults[sequenceId] = seq.sequence.length;
 			
@@ -58,91 +56,55 @@ function calculateCompositionDinuc() {
 		_.each(_.keys(dinucCompositionResults), function(sequenceID) {
 	
 			var seqResults = dinucCompositionResults[sequenceID];
-			glue.log("INFO", "RESULTS FOR '"+sequenceID+"'");
+			//glue.log("INFO", "RESULTS FOR '"+sequenceID+"'");
 
+		    var dinucCountResults = {};
+		    var dinucFreqResults = {};
+            var length = lengthResults[sequenceID];
+            
 			_.each(_.keys(seqResults), function(dinucleotide) {
 
 				var count = seqResults[dinucleotide];
-				var length = lengthResults[sequenceID];		
-				var ratio = count / length;
-				//glue.log("INFO", "Got count '"+count+"' for dinucleotide character'"+dinucleotide+"'");
-				glue.log("INFO", "Got ratio '"+ratio+"' for dinucleotide character'"+dinucleotide+"'");
+					
+				var ratio = (count / length) * 100;
+				var aaFormatedRatio = ratio.toFixed(2);
+				//glue.log("INFO", "Got ratio '"+aaFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
+				dinucCountResults[dinucleotide] = count;
+				dinucFreqResults[dinucleotide] = aaFormatedRatio;
+							
 		
 			});
+
+			// add results to array to be returned to GLUE
+			outputArray.push({
 		
-		});
-
-	});
-
-
-	//glue.log("INFO", "FINAL RESULT WAS ", dinucCompositionResults);
-
-	// Transform the data 
-	// Iterate through reference sequences
-	_.each(_.keys(dinucCompositionResults), function(referenceName) {
-
-		//glue.log("INFO", "Got reference name '"+referenceName);
-	
-		// Iterate through reference sequence features
-		var featuresObj = dinucCompositionResults[referenceName];
-   
-		_.each(_.keys(featuresObj), function(featureName) {
-
-		   // Write values for each amino (count + ratio) 
-		   var aaObj = featuresObj[featureName];
-		   var length = aaObj["length"];
-		   //glue.log("INFO", "Got reference name '"+referenceName+" and feature "+featureName+" length = "+length);
-		   
-		   
-		   var aaCountResults = {};
-		   var aaFreqResults = {};
-		   _.each(headerRowAas, function(aa) {
-
-			   var aaFreq;
-			   var aaCount = aaObj[aa];
-			   if (aaCount) {
-					var aaFreq = (aaCount / length) * 100;
-					var aaFormatedFreq = aaFreq.toFixed(2);
-					//glue.log("INFO", "  Amino acid '"+aa+" frequency = ("+aaCount+" / "+length+") "+aaFormatedFreq);
-			   }
-			   else {
-				    aaCount = '0';
-				    aaFormatedFreq = '0';		  
-			   }
-			  
-			  aaCountResults[aa] = aaCount;
-			  aaFreqResults[aa] = aaFormatedFreq;
-
-		   });
-
-		   // add results to array to be returned to GLUE
-		   outputArray.push({
-		
-			   referenceName: referenceName,
-			   featureName: featureName,
-			   seqLength: length,
-			   AA: aaFreqResults["AA"]+" ("+aaCountResults["AA"]+")",
-			   AT: aaFreqResults["AT"]+" ("+aaCountResults["AT"]+")",
-			   AC: aaFreqResults["AC"]+" ("+aaCountResults["AC"]+")",
-			   AG: aaFreqResults["AG"]+" ("+aaCountResults["AG"]+")",
-			   TA: aaFreqResults["TA"]+" ("+aaCountResults["TA"]+")",
-			   TT: aaFreqResults["TT"]+" ("+aaCountResults["TT"]+")",
-			   TC: aaFreqResults["TC"]+" ("+aaCountResults["TC"]+")",
-			   TG: aaFreqResults["TG"]+" ("+aaCountResults["TG"]+")",
-			   CA: aaFreqResults["CA"]+" ("+aaCountResults["CA"]+")",
-			   CT: aaFreqResults["CT"]+" ("+aaCountResults["CT"]+")",
-			   CC: aaFreqResults["CC"]+" ("+aaCountResults["CC"]+")",
-			   CG: aaFreqResults["CG"]+" ("+aaCountResults["CG"]+")",
-			   GA: aaFreqResults["GA"]+" ("+aaCountResults["GA"]+")",
-			   GT: aaFreqResults["GT"]+" ("+aaCountResults["GT"]+")",
-			   GC: aaFreqResults["GC"]+" ("+aaCountResults["GC"]+")",
-			   GG: aaFreqResults["GG"]+" ("+aaCountResults["GG"]+")"
+				referenceName: sequenceID,
+				seqLength: length,
+				"AA%": dinucFreqResults["AA"],
+				"AT%": dinucFreqResults["AT"],
+				"AC%": dinucFreqResults["AC"],
+				"AG%": dinucFreqResults["AG"],
+				"TA%": dinucFreqResults["TA"],
+				"TT%": dinucFreqResults["TT"],
+				"TC%": dinucFreqResults["TC"],
+				"TG%": dinucFreqResults["TG"],
+				"CA%": dinucFreqResults["CA"],
+				"CT%": dinucFreqResults["CT"],
+				"CC%": dinucFreqResults["CC"],
+				"CG%": dinucFreqResults["CG"],
+				"GA%": dinucFreqResults["GA"],
+				"GT%": dinucFreqResults["GT"],
+				"GC%": dinucFreqResults["GC"],
+				"GG%": dinucFreqResults["GG"]
 			   
-		   });
-   
+			});
+
+		
 		});
 
+
 	});
+
 	 
 	return outputArray;
 }
