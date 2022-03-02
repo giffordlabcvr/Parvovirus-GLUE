@@ -371,7 +371,7 @@
 
  <pre>
  <code>Mode path: /project/parvoviridae
- GLUE> run script glue/tutorial/exampleLoadSequenceDataAmdv.js</code></pre>
+ GLUE> run script glue/tutorial/exampleLinkIsolateDataAmdv.js</code></pre>
 	  
 
 
@@ -387,7 +387,7 @@
 
  <pre>
  <code>Mode path: /project/cress
- GLUE> module genbankPopulator populate</code></pre>
+ GLUE> module parvoGenbankXmlPopulator populate</code></pre>
 
 
 	   <p>
@@ -398,20 +398,20 @@
 	   </p>
 
 
- <pre>
- <code>Mode path: /project/parvoviridae
- Mode path: /project/parvoviridae
- GLUE> list sequence sequenceID isolate_data.isolate isolate_data.country -w "genus = 'Amdoparvovirus'"
- +========================+======================+==========================+
- |       sequenceID       | isolate_data.isolate |   isolate_data.country   |
- +========================+======================+==========================+
- | NC_001662              | -                    | -                        |
- | MT770848               | -                    | Canada: Labrador         |
- | NC_025825              | HS-R                 | China                    |
- | NC_031751              | amdo-CA1             | USA                      |
- | NC_034445              | -                    | Canada: British Columbia |
- | NC_038533              | -                    | USA                      |
- +========================+======================+==========================+</code></pre>		   
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> list sequence sequenceID isolate.isolate isolate.country -w "genus = 'Amdoparvovirus'"
+
++========================+======================+==========================+
+|       sequenceID       | isolate_data.isolate |   isolate_data.country   |
++========================+======================+==========================+
+| NC_001662              | -                    | -                        |
+| MT770848               | -                    | Canada: Labrador         |
+| NC_025825              | HS-R                 | China                    |
+| NC_031751              | amdo-CA1             | USA                      |
+| NC_034445              | -                    | Canada: British Columbia |
+| NC_038533              | -                    | USA                      |
++========================+======================+==========================+</code></pre>		   
 
 	   <p>
 		 Executing the query above without a where clause will show that
@@ -429,10 +429,10 @@
 	   </p>
  	  
 
- 
- <pre>
- <code>Mode path: /project/parvoviridae
- GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
+
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
 
 
 
@@ -443,25 +443,25 @@
 		   in this mode path):
 		 </p>
 
-   <pre>
-   <code>Mode path: /project/parvoviridae/reference/REF_Amdo_MASTER_AMDV
-   GLUE> project-mode 
-   OK
-   Mode path: /project/parvoviridae
-   GLUE></code></pre>
-	   
+ <pre>
+ <code>Mode path: /project/parvoviridae/reference/REF_Amdo_MASTER_AMDV
+ GLUE> project-mode 
+ OK
+ Mode path: /project/parvoviridae
+ GLUE></code></pre>
+	 
 		 <p>
 		   Before we perform the alignment construction, we need to first create 
 		   a <b>constrained alignment</b> object and specify which sequences belong in it:
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> create alignment AL_AMDV -r REF_Amdo_MASTER_AMDV
-  OK
-  Mode path: /project/parvoviridae
-  GLUE> alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-parvo-amdv'"
-  OK</code></pre>
-  
+ <pre>
+ <code>Mode path: /project/parvoviridae
+ GLUE> create alignment AL_AMDV -r REF_Amdo_MASTER_AMDV
+ OK
+ Mode path: /project/parvoviridae
+ GLUE> alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-parvo-amdv'"
+ OK</code></pre>
+ 
 		 </p>
 
 
