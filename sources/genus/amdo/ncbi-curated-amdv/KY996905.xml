@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KY996905</GBSeq_locus>
+    <GBSeq_length>4369</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-APR-2019</GBSeq_update-date>
+    <GBSeq_create-date>30-APR-2019</GBSeq_create-date>
+    <GBSeq_definition>Aleutian mink disease virus strain AMDV_mink-f_DK_113_2008-08-14 genomic sequence, sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KY996905</GBSeq_primary-accession>
+    <GBSeq_accession-version>KY996905.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KY996905.1|</GBSeqid>
+      <GBSeqid>gi|1243361749</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Aleutian mink disease virus</GBSeq_source>
+    <GBSeq_organism>Aleutian mink disease virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Amdoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4369</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hagberg,E.E.</GBAuthor>
+          <GBAuthor>Larsen,L.E.</GBAuthor>
+          <GBAuthor>Krarup,A.</GBAuthor>
+          <GBAuthor>Pedersen,A.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic analysis of the entire genome of Aleutian Mink Disease Virus determines its evolutionary rate and confirms bottleneck due to control program</GBReference_title>
+        <GBReference_journal>Infect. Genet. Evol. (2017) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4369</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hagberg,E.E.</GBAuthor>
+          <GBAuthor>Larsen,L.E.</GBAuthor>
+          <GBAuthor>Krarup,A.</GBAuthor>
+          <GBAuthor>Pedersen,A.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-APR-2017) Kopenhagen Diagnostics, Kopenhagen Fur, Langagervej 74, Glostrup, Copenhagen 2600, Denmark</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: bwa v. 0.7.7 ; Sequencing Technology :: IonTorrent ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4369</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4369</GBInterval_to>
+            <GBInterval_accession>KY996905.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Aleutian mink disease virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>AMDV_mink-f_DK_113_2008-08-14</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>spleen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:28314</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Denmark</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>14-Aug-2008</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atattggttgagaattaatccgtgtctttcctgtggaatgaggaagtagtgtggtatataagcagaagttgcttggagcaaagcacagaccggttacagcaaagtaacatggctcaagctcaaattgatgagcagaggagactgcaggacctgtatgagcagttgaagaaggagattattgacggtgaaggacttgcctggttgttccaacaaaagacctacaccgacaaggacaacaaaccaaccaaagcaacaccaccactgagaacaacctcttctgacctaaggttagcatttaactctattgaagaaaatttaacaacttctaatgaacacttaactaacgatcagataaacttttgtaaactagttttagggaagacgttggtgttacttgataagcatgtaaaaagccacagatgggatagtaacaaagttaacttaatttggcaaatagaaaaaggaaaaactcagaaatttcatatccactgttgcttaggttactttgataagaatgaagatcctaaggatgttcaaaaatccttaggttggtttataaaaagactaaataaagacctagcagttatttatagtaaccatcattgtgacatacaaaatattaaggatcctgaagatagagctaagaacctaaaagtgtgggttgaagatggacctactaaaccttataaatattatcacaaacaaaccaaacaagactacaacaaaccaattaacatgagagactattcaattatatacctgtttaacaaagataagataaataaagatggtatggatggttactttgctgccggtaacggtggcattattgacaacctaactaacaaagaacgaaaaactttaagaaaaatgtacttagatgagcaaagttcagatataatggatgctgatatagactgggaagatggccaagacgcgccaaaagtaactgaccaaactgactcagcaaccacaaaaacaggaactagtttgatttggaaatcatgtgctactaaagtaacctcaaaaaaagaagttgctaatccagttcagcaaccttctaaaaaactgtacacagctcaaaatactttagatgcattatttaacgatggttgctttactccagaagatatgattataaagcaaagtgacagataccttgaactatctttagaaccaaacgggcctcaaaaaattaacactttacttcacatgaaccaagtaaaggtatcaagcatgcttaatgcttttgaatgcattataaaatttaatgaagaggaagatgacaatcctttgctagcaactataaaagacatgggacttaatgaaaaataccttaaaaaggcactatgtaccatcctaaccaagcaaggtggaaagagaggttgtatttggttctatggaccggggggcactggaaaaaccttgctagcatctctaatatgtaaagcaacagtaaactttggtatggttactacaagcaatccaaactttccatggactgactgtggcaatagaaacatcatttgggctgaagagtgtggtaaccttggcaattgggttgaagactttaaagccattactggaggtggtgatgtaaaagtagacaccaagaacaagcaacctcaatctattaaaggatgtgtgattgtaacaagcaataccaacataaccaaagtaactgttggatgtgtggaaacaaacgctcacgcagagccactaaaacagagaatggttaaaatacgttgcatgaaaaccatcaaccctaaaactaaagtaacaccaggcatgttaaaaaaatggctaagtacctgggatagacaaccaattcaactaaaccatgagatgcctgaactgtacttaggtaagtgccgttggtaagtaacacattttaaatgccaactttaaaccaacatcaatttataaggttattttactttacagagactactggaccaaactcgagtgccacaactgccacgaagaatactggcaacttacaacctactactgcaaagagtgcagaaagtgtgaacacggaaaactgcgacacaccaaaaaggagtgcgagcagtgtgcctgcaaagcagcacaagagacctcggcatgagtaaaagtaagtaacctacttaaagtaacctaacaccataacactttactttgcttgtacttatgttactttactttagttcctcagcactatcctgggaaaaagagaagtgctccaaaacacgtgtttattcagcaagcaaaaaagaagaagcaaactaaccctgcggtctatcacggagaggacaccatagaggaaatggattctactgaagctgaacaaatggacactgagcaagcaactaaccaaactgctgaagctagtggtggggggggtgggggtggtgggggtggtggtggtggtggtggggttggtaacagcactggcggctttaataacacaacagaattcaaagtaataaacaatgaagtgtatattacttgtcacgctactagaatggtacacattaaccaagctgacacagatgaatacttgatatttaatgctggtagaactactgataccaaaacacatcagcaaaaactaaacttagaattttttgtatatgatgattttcaccaacaagtaatgacaccttggtatttagtagatagcaacgcttggggtgtatggatgagtcctaaagattttcaacaaatgaaaacactgtgtagtgacattactttgcttactttggaacaagaaatagacaatgtaaccataaaaactgtaacagaaaccaaccaaggtaacgcatctaccaagcaattcaacaatgacttaactgcgtcgttacaggttgctttagatactaacaacatactgccatatactccagctgcgccgttgggggaaacactgggctttgttccttggagagcaaccaaaccaacccaatataggtattatcatccatgttacatttacaacagatatcctaacattcaaaaagttgcaacagaaacactaacctgggatgcagtacaagatgattaccttagtgtggatgaacagtactttaactttattactatagaaaacaacatacctattaacattctcagaacgggagataactttcatacaggcttgtatgagtttaacagtaaaccatgtaaactaaccttaagttatcaaagtacacgttgcttggggctacctcctctctgcaaaccaaaaacagatgcaacacacaaagtaacctcaaaagaaaacggagctgacctaatttacatacaaggacaagataataccagactaggtcacttttggggtgaggaaagaggtaagaaaaacgcagagatgaacagagttagaccttacaacataggttaccaatatcctgaatggataataccagcagggttacagggtagttactttgctggaggaccaagacagtggagtgacacaaccaaaggtgcaggtacacacagtcaacagttacaacaaaactttagtactaggtacatctatgacagaaaccacggtggagacaacgaggtagacctattagatggaatacccattcatgaaagaagtaactactactcagaccatgagatagagcaacatacagcaaagcaaccaaagttacgtacaccacccattcaccactcaaaaatagactcatgggaagaagaaggttggcctgctgcttcaggcacacactttgaagatgaggttatatacctagactactttaactttagtggtgaacaggagctagactttccacatgaagtattagatgatgctgctcagatgaaaaagctacttaactcataccaaccaacagttgctcaagacaacgttggtcctgtatacccatggggacagatatgggacaagaaacctgatatggatcacaaacctagcatgaacaacaacgctccatttgtatgtaaaaacaaccctccaggtcaactctttgttaaactaacagaaaacctcactgatacatttaactatgatgaaaatccagacagaataaaaacatatggttactttacttggagaggcaagcttgtattaaaaggcaaactaagccaagtaacatgctggaatcctgttaagagagaacttataggagaacctggtgtatttagtaaagacaactatcacaaacaaataccaaacaacaaaggtaactttgaaatagggttacaatatggaagaagtactatcaaatatatttactaaagtaacctgtgtactatgttactatgttactataataatatctcaataaaagttacatgaatagtgaacaacctaaatactgtgtacttccttattttaccagaaagtggcggatta</GBSeq_sequence>
+  </GBSeq>
