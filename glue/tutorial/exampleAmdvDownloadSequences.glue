@@ -1,8 +1,8 @@
   delete module amdoNcbiImporterExampleAmdv
-  create module -f modules/build/genus/amdo/amdoNcbiImporterExampleAmdv.xml
+  create module -f modules/build/genus/amdo/amdoNcbiImporterExample.xml
 
   # Download AMDV sequences from NCBI GenBank  
-  module amdoNcbiImporterExampleAmdv import
+  module amdoNcbiImporterExample import
 
-  export source ncbi-curated-amdv
+  export source ncbi-curated-parvo-amdv -p sources/genus/amdo/
 
