@@ -27,10 +27,10 @@
   	exit
 
   # Create schema extension
-  create custom-table isolate_data
+  create custom-table isolate
 
   # Table for isolates
-  table isolate_data
+  table isolate
     create field isolate VARCHAR 100
     create field host_sci_name VARCHAR 100
     create field sample_date DATE
@@ -42,6 +42,6 @@
     create field collection_month_day INTEGER
   exit
 
-  create link sequence isolate_data
+  create link sequence isolate
 
 

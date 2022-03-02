@@ -11,10 +11,10 @@ _.each(seqIds, function(seqId) {
 
 	if (seqId != masterRef) { // Skip master reference
 	  // create an object in the custom table which uses the sequence ID as the row ID.
-	  glue.command(["create", "custom-table-row", "isolate_data", seqId]);
+	  glue.command(["create", "custom-table-row", "isolate", seqId]);
 	  // associate the corresponding sequence with this object.
 	  glue.inMode("sequence/ncbi-refseqs-chaphama/"+seqId, function() {
-		  glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
+		  glue.command(["set", "link-target", "isolate", "custom-table-row/isolate/"+seqId]);
 	  });
     }
 });

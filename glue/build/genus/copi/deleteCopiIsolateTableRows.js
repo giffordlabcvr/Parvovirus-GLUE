@@ -6,7 +6,7 @@
 
 	var sequenceID = resultObj["sequenceID"];
 	glue.log("INFO", "Deleting isolate data table for:", sequenceID);
-	glue.command(["delete", "custom-table-row", "isolate_data", sequenceID]);				
+	glue.command(["delete", "custom-table-row", "isolate", sequenceID]);				
 
 });
 

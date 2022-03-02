@@ -358,8 +358,23 @@
 </blockquote>
  
 	   <br>
- 
- 
+
+	   <p>
+          Before we can import sequence-associated data to the isolate table we need to
+          create a link to that table for each sequence we have imported.
+          This can be accomplished on a sequence-by-sequence basis using GLUE commands.
+          Alternatively, to make the process more efficient, we can use a script.
+	   </p>
+ 	   
+	   <p>
+		  The script is run as follows:
+
+ <pre>
+ <code>Mode path: /project/parvoviridae
+ GLUE> run script glue/tutorial/exampleLoadSequenceDataAmdv.js</code></pre>
+	  
+
+
 
 	   <p>
 
@@ -369,107 +384,60 @@
 		 We can use this module to extract useful isolate-related information 
 	     that is embedded in the "notes" section of the GenBank file.
 	   </p>
-	   
-	   
-	   <p>  
 
  <pre>
  <code>Mode path: /project/cress
  GLUE> module genbankPopulator populate</code></pre>
 
+
+	   <p>
+		 Inspect data in the isolate table via the command line. This time using a
+         <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
+		 to limit the query to Japanese isolates only:
+
 	   </p>
 
 
-		 <p>
-           Inspect data in the isolate table via the command line. This time using a
-          <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
-           to limit the query to Japanese isolates only:
-
  <pre>
- <code>Mode path: /project/cress
- GLUE> list custom-table-row isolate id isolate_id country -w "country = 'Japan'"
- +==========+============+=========+
- |    id    |  isolate   | country |
- +==========+============+=========+
- | AB277726 | AGP-SA1P-1 | Japan   |
- | AB277727 | AGP-SA1P-2 | Japan   |
- | AB277728 | AGP-SA1P-3 | Japan   |
- | AB277729 | AGP-SA1P-4 | Japan   |
- | AB277730 | AGP-SA1P-5 | Japan   |</code></pre>		   
+ <code>Mode path: /project/parvoviridae
+ Mode path: /project/parvoviridae
+ GLUE> list sequence sequenceID isolate_data.isolate isolate_data.country -w "genus = 'Amdoparvovirus'"
+ +========================+======================+==========================+
+ |       sequenceID       | isolate_data.isolate |   isolate_data.country   |
+ +========================+======================+==========================+
+ | NC_001662              | -                    | -                        |
+ | MT770848               | -                    | Canada: Labrador         |
+ | NC_025825              | HS-R                 | China                    |
+ | NC_031751              | amdo-CA1             | USA                      |
+ | NC_034445              | -                    | Canada: British Columbia |
+ | NC_038533              | -                    | USA                      |
+ +========================+======================+==========================+</code></pre>		   
+
+	   <p>
+		 Executing the query above without a where clause will show that
+		 not every sequence has complete information for each field in the isolate
+		 table. This is because typically, some GenBank entries for any given virus
+		 lack this information.
+	   </p>
 
 
- 	   
 	   <p>
           All AMDV sequences obviously have the same taxonomic information.
           To input the taxonomic data for each sequence in the main 'sequence' table,
-          we can use
+          we can again use a script
 		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleLoadSequenceDataAmdv.js"><b>this script</b></a>.
-	      which utilises two GLUE commands: (1) listing all sequences in a particular source;
-	      (ii) 
 	   </p>
- 	   
-	   <p>
-		  The script is run as follows:
+ 	  
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/tutorial/exampleLoadSequenceDataAmdv.js</code></pre>
- 	   
-
-
-	   <p>
-         Extracting information from GenBank fields using a
-         customised version
-         of GLUE's 'genbankPopulator' module.
-         We can use this module to search for for <i>host species</i>,
-         <i>time and place of isolation</i>,
-         and <i>isolate</i> data in the "notes" section of the GenBank XML. 
- 	   </p>
- 	   
-	   <p>
-         Use of FreeMarker and REGEX in this and other GLUE modules.
-         If unfamiliar the examples included in this project can be modified. 
-  
-  
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
-
- 	   </p>
+ 
+ <pre>
+ <code>Mode path: /project/parvoviridae
+ GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
 
 
 
-		 <p>
-           Inspect data in the isolate table via the command line. This time using a
-          <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
-           to limit the query to Japanese isolates only:
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  Mode path: /project/parvoviridae
-  GLUE> list sequence sequenceID isolate_data.isolate isolate_data.country -w "genus = 'Amdoparvovirus'"
-  +========================+======================+==========================+
-  |       sequenceID       | isolate_data.isolate |   isolate_data.country   |
-  +========================+======================+==========================+
-  | NC_001662              | -                    | -                        |
-  | MT770848               | -                    | Canada: Labrador         |
-  | NC_025825              | HS-R                 | China                    |
-  | NC_031751              | amdo-CA1             | USA                      |
-  | NC_034445              | -                    | Canada: British Columbia |
-  | NC_038533              | -                    | USA                      |
-  +========================+======================+==========================+</code></pre>		   
-
-
-  		 </p>
-
-		 <p>
-           Executing the query above without a where clause will show that
-           not every sequence has complete information for each field in the isolate
-           table. This is because typically, some GenBank entries for any given virus
-           lack this information.
-  		 </p>
-
-	   
+   
 		 <p>
 		   To create an alignment, first, exit the reference sequence to project level (assuming you are still 
 		   in this mode path):
