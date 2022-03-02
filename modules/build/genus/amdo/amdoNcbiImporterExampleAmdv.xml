@@ -8,7 +8,7 @@
   <!-- GLUE example project is available here: http://glue-tools.cvr.gla.ac.uk/#/exampleProject  -->
        
   <eSearchTerm>
-     "Carnivore amdoparvovirus 1"[Organism] AND 200:5000[SLEN] OR 
+     "Carnivore amdoparvovirus 1"[Organism] AND 200:5000[SLEN]
   </eSearchTerm>
     
   <sequenceFormat>GENBANK_XML</sequenceFormat>
