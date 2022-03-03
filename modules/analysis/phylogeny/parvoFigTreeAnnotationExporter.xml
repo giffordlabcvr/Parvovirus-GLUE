@@ -47,22 +47,22 @@
 
 	<figTreeAnnotation>
 		<annotationName>isolate</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.isolate')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.isolate')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
 		<annotationName>host_sci_name</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.host_sci_name')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.host_sci_name')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
 		<annotationName>sample_date</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sample_date')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.sample_date')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
 		<annotationName>country</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.country')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate.country')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 </figTreeAnnotationExporter>

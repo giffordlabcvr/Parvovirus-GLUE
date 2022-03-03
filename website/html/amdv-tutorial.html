@@ -409,12 +409,10 @@ GLUE> run script glue/tutorial/exampleSetTaxonomicDataAmdv.js</code></pre>
 
 
 	   <p>
-		 Inspect data in the isolate table via the command line. A
-         <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
-		 is used to limit the query to AMDV:
-
+		 We can now inspect the data in the isolate table via the command line, to
+		 see if it has been extracted as expected:
 	   </p>
-
+		 
 
 <pre>
 <code>Mode path: /project/parvoviridae
@@ -430,6 +428,18 @@ GLUE> list sequence sequenceID isolate.isolate isolate.country -w "name = 'AMDV'
 | EU652447   | 782    | Neovison vison             | China                             |
 | EU652448   | 785    | Neovison vison             | China                             |
 | EU652449   | 785    | Neovison vison             | China                             |</code></pre>		   
+
+	   <p>
+		 
+		 Note that a
+         <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
+		 is used to limit the query to AMDV. Where clauses can be used in GLUE to 
+		 control how data are selected, and can reference any data field represented 
+		 in the underlying <b>project database schema</b>. The schema can be extended with new 
+		 fields and tables as required.
+
+	   </p>
+
 
   
        <br>
@@ -591,7 +601,8 @@ GLUE> module parvoFeaturePresenceRecorder record feature-presence AL_AMDV -f who
 
 <pre>
 <code>Mode path: /project/parvoviridae
-GLUE> run file glue/tutorial/exampleCreateAmdvPhylogenies.glue</code></pre>
+GLUE> module raxmlPhylogenyGenerator generate nucleotide phylogeny AL_AMDV -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" -o trees/example/amdv-all-genbank-rep.tre NEWICK_BOOTSTRAPS
+</code></pre>
 
 		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
 		 maximum likelihood tree for thousands of sequences. On my computer it took 
@@ -601,54 +612,45 @@ GLUE> run file glue/tutorial/exampleCreateAmdvPhylogenies.glue</code></pre>
 
 	   
 		<p>
-		  To midpoint-root the trees, we will use GLUE's
-		  module. To apply the module to the two trees we've constructed, run
-		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleRerootPhylogeny.glue"><b>this file</b></a>
-		  as follows:
+
+		 To inspect the alignment that is selected using the where clause above, GLUE's
+		 fastaAlignmentExporter module can be used.
+		 
 
 
 <pre>
 <code>Mode path: /project/parvoviridae
-GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
+GLUE> module fastaAlignmentExporter export AL_AMDV -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 80" -p</code></pre>
 
-         Note that trees could also be midpoint rooted by importing them into another application
-         that offers this functionality. However, it is often convenient to be able to 
-         do this within GLUE.
-         
-		</p>
-	 
- 	   
+
+ 
+		</p>	 
+  
+
+	   
 		<p>
 		  Export annotations for the trees by running
 		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleExportAnnotations.glue"><b>this file</b></a>,
 		  as follows:
 
 
+
 <pre>
 <code>Mode path: /project/parvoviridae
-GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
-
+GLUE> module parvoFigTreeAnnotationExporter export figtree-annotation AL_AMDV -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 80" -f tutorial/amdv-annotations.tsv</code></pre>
 
 		</p>	 
   
-  
+
   
 		<p>
 		  The finished trees with annotations can be found 
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/trees/virus-level"><b>here</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/trees/tutorial/amdv-all-genbank-rep.tre.pdf"><b>here</b></a>.
           One way to view these trees is by using Andrew Rambaut's
 		  <a target="_blank" href="https://github.com/rambaut/figtree/releases"><b>FigTree</b></a>
 		  program.
 		</p>
 
-
-
-
-       <br>
-	   <h3>
-		 <a id="CollaborativeUse" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Collaboratively developing Parvovirus-GLUE resources</strong>.
-	   </h3>
-       <hr>
 
 
 
@@ -684,27 +686,6 @@ GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
 
 		</p>
 
-
-
-       <br>
-	   <h3>
-		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
-	   </h3>
-       <hr>
-
-
-
-	   <ul>
-		 <li> <b>The history of fur farming</b>:
-		 </li>
-		 <li> <b>Comparative phylogenetic analysis of viruses</b>:
-		 </li>
-		 <li> <b>Introduction to the console</b>:
-		 </li>
-	   </ul>
-
-
-	  
 
 
 	  <footer class="site-footer">
