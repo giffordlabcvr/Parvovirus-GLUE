@@ -573,43 +573,6 @@ GLUE> module parvoFeaturePresenceRecorder record feature-presence AL_AMDV -f who
 | AL_AMDV               | ncbi-curated-amdv           | AF107627                   | REF_MASTER_Amdo_AMDV              | whole_genome            | 6.998541970422829   |</code></pre>
 
 
-
-
-       <br>
-       <br>
-       
-       
-       
-	   <h3>
-		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
-	   </h3>
-       <hr>
-	   
-	   <p>
-         In the final step in this tutorial, we will create a set of midpoint-rooted
-         tree for each of the two main genes in the AMDV genome.
-	   </p>
-
-	   <p>
-         First, lets build trees for both VP1 and Rep68. We are going to use GLUE's
-          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/raxmlPhylogenyGenerator">'<b>raxmlPhylogenyGenerator</b>'</a>       
-         
-         
-         The entire sequence of commands for creating both trees can be found in
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
-		 which is in the Parvovirus-GLUE repo, as follows:
-
-<pre>
-<code>Mode path: /project/parvoviridae
-GLUE> module raxmlPhylogenyGenerator generate nucleotide phylogeny AL_AMDV -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" -o trees/example/amdv-all-genbank-rep.tre NEWICK_BOOTSTRAPS
-</code></pre>
-
-		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
-		 maximum likelihood tree for thousands of sequences. On my computer it took 
-		 over an hour to build trees for both genes.  
-		 
-	   </p>
-
 	   
 		<p>
 
@@ -626,6 +589,30 @@ GLUE> module fastaAlignmentExporter export AL_AMDV -r REF_MASTER_Amdo_AMDV -f Re
  
 		</p>	 
   
+
+
+       <br>
+	   <h3>
+		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
+	   </h3>
+       <hr>
+	   
+	   <p>
+         In the final step in this tutorial, we will reconstruct a phylogeny of AMDV
+         Rep78 genes using the feature coverage tables we have just generated.
+
+	   <p>
+
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> module raxmlPhylogenyGenerator generate nucleotide phylogeny AL_AMDV -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" -o trees/example/amdv-all-genbank-rep.tre NEWICK_BOOTSTRAPS
+</code></pre>
+
+		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
+		 maximum likelihood tree for thousands of sequences. On my computer it took 
+		 over an hour to build trees for both genes.  
+		 
+	   </p>
 
 	   
 		<p>
