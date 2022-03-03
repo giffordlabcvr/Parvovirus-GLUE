@@ -610,17 +610,14 @@ GLUE> module fastaAlignmentExporter export AL_AMDV -r REF_MASTER_Amdo_AMDV -f Re
 GLUE> module raxmlPhylogenyGenerator generate nucleotide phylogeny AL_AMDV -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 50" -o trees/example/amdv-all-genbank-rep.tre NEWICK_BOOTSTRAPS
 </code></pre>
 
-		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
-		 maximum likelihood tree for thousands of sequences. On my computer it took 
-		 over an hour to build trees for both genes.  
+		 Before you attempt this, bear in mind that reconstructing this phylogeny will
+		 take some time (e.g. around an hour).  
 		 
 	   </p>
 
 	   
 		<p>
-		  Export annotations for the trees by running
-		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleExportAnnotations.glue"><b>this file</b></a>,
-		  as follows:
+		  Export annotations for the trees as follows:
 
 
 		</p>	 
