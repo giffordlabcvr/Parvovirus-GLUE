@@ -579,16 +579,19 @@ GLUE> module parvoFeaturePresenceRecorder record feature-presence AL_AMDV -f who
 		 To inspect the alignment that is selected using the where clause above, GLUE's
 		 fastaAlignmentExporter module can be used.
 		 
+	   </p>
 
 
 <pre>
 <code>Mode path: /project/parvoviridae
 GLUE> module fastaAlignmentExporter export AL_AMDV -r REF_MASTER_Amdo_AMDV -f Rep78 -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 80" -p</code></pre>
 
-
- 
-		</p>	 
   
+		<p>
+		  The exported alignment can be found 
+		  <a target="_blank" href="../../trees/tutorial/AMDV-REP78-80pct-coverage.aln.fna"><b>here</b></a>.
+
+	   </p>
 
 
        <br>
@@ -601,7 +604,6 @@ GLUE> module fastaAlignmentExporter export AL_AMDV -r REF_MASTER_Amdo_AMDV -f Re
          In the final step in this tutorial, we will reconstruct a phylogeny of AMDV
          Rep78 genes using the feature coverage tables we have just generated.
 
-	   <p>
 
 <pre>
 <code>Mode path: /project/parvoviridae
@@ -621,15 +623,15 @@ GLUE> module raxmlPhylogenyGenerator generate nucleotide phylogeny AL_AMDV -r RE
 		  as follows:
 
 
+		</p>	 
+  
 
+ 
 <pre>
 <code>Mode path: /project/parvoviridae
 GLUE> module parvoFigTreeAnnotationExporter export figtree-annotation AL_AMDV -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 80" -f tutorial/amdv-annotations.tsv</code></pre>
 
-		</p>	 
-  
-
-  
+ 
 		<p>
 		  The finished trees with annotations can be found 
 		  <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/tree/master/trees/tutorial/amdv-all-genbank-rep.tre.pdf"><b>here</b></a>.
