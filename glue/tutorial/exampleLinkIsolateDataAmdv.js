@@ -12,7 +12,19 @@ _.each(seqIds, function(seqId) {
     
     // associate the corresponding sequence with this object.
     glue.inMode("sequence/ncbi-curated-amdv/"+seqId, function() {
-        glue.command(["set", "link-target", "isolate", "custom-table-row/isolate/"+seqId]);
+    
+        if (seqId == 'NC_001662') {
+             
+             // Do nothing for main AMDV reference sequence
+             
+        }
+        else {
+	
+		    glue.log("INFO", "Linking sequence to isolate table:", seqId );
+
+        	glue.command(["set", "link-target", "isolate", "custom-table-row/isolate/"+seqId]);
+        	
+    	}
     });
     
 });

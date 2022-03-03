@@ -231,17 +231,17 @@
 	   <p>
          To use the module, first initiate GLUE on the command line as follows: 
          
-         
-  <pre>
-  <code>MyComputer:Parvovirus-GLUE rob$ gluetools.sh 
-  GLUE Version 1.1.103
-  Copyright (C) 2015-2020 The University of Glasgow
-  This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
-  are welcome to redistribute it under certain conditions. For details see
-  GNU Affero General Public License v3: http://www.gnu.org/licenses/
+	   
+<pre>
+<code>MyComputer:Parvovirus-GLUE rob$ gluetools.sh 
+GLUE Version 1.1.103
+Copyright (C) 2015-2020 The University of Glasgow
+This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
+are welcome to redistribute it under certain conditions. For details see
+GNU Affero General Public License v3: http://www.gnu.org/licenses/
 
-  Mode path: /
-  GLUE></code></pre>
+Mode path: /
+GLUE></code></pre>
 
 
           
@@ -256,10 +256,10 @@
          Next, navigate to the 'parvoviridae' project as shown here:
 	   </p>
 
-  <pre>
-  <code>GLUE> project parvoviridae 
-  OK
-  Mode path: /project/parvoviridae/</code></pre>
+<pre>
+<code>GLUE> project parvoviridae 
+OK
+Mode path: /project/parvoviridae/</code></pre>
 
  	   </p>
  
@@ -268,20 +268,20 @@
 		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/modules/build/genus/amdo/amdoNcbiImporterExample.xml"><b> configuration file</b></a>,
          which is contained in the Parvovirus-GLUE project, as shown here:
 
-  <pre>
-  <code>Mode path: /project/parvoviridae/
-  GLUE> create module -f modules/build/genus/amdo/amdoNcbiImporterExample.xml
-  OK
-  (1 Module created) </code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae/
+GLUE> create module -f modules/build/genus/amdo/amdoNcbiImporterExample.xml
+OK
+(1 Module created) </code></pre>
 
  	   </p>
 
  	   <p>
          To run the module, execute the following command in the GLUE shell:
 
-  <pre>
-  <code>Mode path: /project/parvoviridae/
-  GLUE> module amdoNcbiImporterExample import</code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae/
+GLUE> module amdoNcbiImporterExample import</code></pre>
 
  	   </p>
  	   <p>
@@ -306,11 +306,11 @@
  
  	   <p>
  	     Now export the sequences to a 'source' directory as follows.
- 	   
+	  
 
-   <pre>
-   <code>Mode path: /project/parvoviridae
-   GLUE> export source ncbi-curated-parvo-amdv -p sources/genus/amdo/</code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> export source ncbi-curated-parvo-amdv -p sources/genus/amdo/</code></pre>
 		</p>
 
   
@@ -326,9 +326,10 @@
          the Parvovirus-GLUE project.
          Load the sequences as follows:
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> import source sources/genus/amdo/ncbi-curated-amdv/</code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> import source sources/genus/amdo/ncbi-curated-amdv/</code></pre>
+
  	   </p>
  
  
@@ -339,28 +340,45 @@
 		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/build/core/parvoSchemaExtensions.glue"><b>this file</b></a>.
  	   </p>
 
- 
-        <p><img src="../assets/images/schema-extensions.png" alt="DB schema" /></p>
+
+	   <p><img src="../assets/images/schema-extensions.png" alt="DB schema" /></p>
 
 
 <blockquote>
-		 <p>
-		   <b>Parvovirus-GLUE schema extensions</b>.  All GLUE projects have a 'sequence' table.
-		   In Parvovirus-GLUE we've extended this table to capture taxonomic information as 
-		   well as some other sequence-associated data fields. In addition, we've defined 
-		   a separate 'isolate' table that is linked to the 'sequence' table via the
-		   'sequenceID' field (always unique to every sequence). The isolate table contains
-		   information specific to the isolate that the sequence was obtained from - e.g.
-		   host species from which the isolate was obtained, isolate name, and spatiotemporal
-		   data associated with isolation.
+	   <p>
+		 <b>Parvovirus-GLUE schema extensions</b>.  All GLUE projects have a 'sequence' table.
+		 In Parvovirus-GLUE we've extended this table to capture taxonomic information as 
+		 well as some other sequence-associated data fields. In addition, we've defined 
+		 a separate 'isolate' table that is linked to the 'sequence' table via the
+		 'sequenceID' field (always unique to every sequence). The isolate table contains
+		 information specific to the isolate that the sequence was obtained from - e.g.
+		 host species from which the isolate was obtained, isolate name, and spatiotemporal
+		 data associated with isolation.
 
-		 </p>
+	   </p>
 </blockquote>
  
 	   <br>
 
+
 	   <p>
-          Before we can import sequence-associated data to the isolate table we need to
+          All AMDV sequences have the same taxonomic information.
+          This data can be entered on a sequence-by-sequence basis using GLUE commands, but
+          to make the process more efficient, we can instead use 
+
+		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleSetTaxonomicDataAmdv.js"><b>a script</b></a>.
+	   </p>
+ 	  
+
+
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> run script glue/tutorial/exampleSetTaxonomicDataAmdv.js</code></pre>
+
+
+
+	   <p>
+          Before we can import sequence-associated data to the isolate table we need to first
           create a link to that table for each sequence we have imported.
           This can be accomplished on a sequence-by-sequence basis using GLUE commands.
           Alternatively, to make the process more efficient, we can use a script.
@@ -391,157 +409,123 @@
 
 
 	   <p>
-		 Inspect data in the isolate table via the command line. This time using a
+		 Inspect data in the isolate table via the command line. A
          <a target="_blank" href="https://www.w3schools.com/sql/sql_where.asp"><b>'where clause'</b></a>         
-		 to limit the query to Japanese isolates only:
+		 is used to limit the query to AMDV:
 
 	   </p>
 
 
 <pre>
 <code>Mode path: /project/parvoviridae
-GLUE> list sequence sequenceID isolate.isolate isolate.country -w "genus = 'Amdoparvovirus'"
+GLUE> list sequence sequenceID isolate.isolate isolate.country -w "name = 'AMDV'"
 
-+========================+======================+==========================+
-|       sequenceID       | isolate_data.isolate |   isolate_data.country   |
-+========================+======================+==========================+
-| NC_001662              | -                    | -                        |
-| MT770848               | -                    | Canada: Labrador         |
-| NC_025825              | HS-R                 | China                    |
-| NC_031751              | amdo-CA1             | USA                      |
-| NC_034445              | -                    | Canada: British Columbia |
-| NC_038533              | -                    | USA                      |
-+========================+======================+==========================+</code></pre>		   
++============+========+============================+===================================+
+| sequenceID | length |   isolate.host_sci_name    |         isolate.country           |
++============+========+============================+===================================+
+| AF205380   | 690    | Mustela lutreola           | Spain                             |
+| AF205381   | 687    | Neovison vison             | Spain                             |
+| AF205382   | 690    | Lutra lutra                | Spain                             |
+| EU652446   | 782    | Neovison vison             | China                             |
+| EU652447   | 782    | Neovison vison             | China                             |
+| EU652448   | 785    | Neovison vison             | China                             |
+| EU652449   | 785    | Neovison vison             | China                             |</code></pre>		   
 
-	   <p>
-		 Executing the query above without a where clause will show that
-		 not every sequence has complete information for each field in the isolate
-		 table. This is because typically, some GenBank entries for any given virus
-		 lack this information.
-	   </p>
-
-
-	   <p>
-          All AMDV sequences obviously have the same taxonomic information.
-          To input the taxonomic data for each sequence in the main 'sequence' table,
-          we can again use a script
-		  <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleLoadSequenceDataAmdv.js"><b>this script</b></a>.
-	   </p>
- 	  
-
-
-<pre>
-<code>Mode path: /project/parvoviridae
-GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
-
-
+  
+       <br>
+ 	   <h3>
+		 <a id="CreateMsa" class="anchor" href="#CreateMsa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>3. Creating an alignment of all AMDV sequences</strong>.
+	   </h3>
+       <hr>
 
 
    
 		 <p>
-		   To create an alignment, first, exit the reference sequence to project level (assuming you are still 
-		   in this mode path):
+		   To create an alignment, we need to first create a <b>constrained alignment</b> object as follows:
 		 </p>
 
- <pre>
- <code>Mode path: /project/parvoviridae/reference/REF_Amdo_MASTER_AMDV
- GLUE> project-mode 
- OK
- Mode path: /project/parvoviridae
- GLUE></code></pre>
-	 
-		 <p>
-		   Before we perform the alignment construction, we need to first create 
-		   a <b>constrained alignment</b> object and specify which sequences belong in it:
 
- <pre>
- <code>Mode path: /project/parvoviridae
- GLUE> create alignment AL_AMDV -r REF_Amdo_MASTER_AMDV
- OK
- Mode path: /project/parvoviridae
- GLUE> alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-parvo-amdv'"
- OK</code></pre>
- 
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> create alignment AL_AMDV -r REF_MASTER_Amdo_AMDV
+OK</code></pre>
+
+  
+		 <p>		   
+		   We can now specify which sequences belong to this constrained aignment object, as follows:
 		 </p>
 
+
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> alignment AL_AMDV add member --whereClause "source.name = 'ncbi-curated-amdv'"
+OK</code></pre>
 
 		 <p>
 		   Now we can construct the alignment.
 		   The Parvovirus-GLUE project contains a 
 		   <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/modules/build/genus/amdo/parvovirusCompoundAligner.xml"><b>parvovirus-specific configuration file</b></a>
 		   for GLUE's  'compoundAligner' module.
-  <pre>
-  <code>compute alignment AL_AMDV parvovirusCompoundAligner</code></pre>
 		 </p>
 
-  
+<pre>
+<code>GLUE> compute alignment AL_AMDV parvoCompoundAligner</code></pre>
+
 
 		 <p>
 		   Now let's inspect the resulting alignment:
-  <pre>
-  <code>GLUE> alignment AL_AMDV show statistics</code></pre>
-
 		 </p>
+
+<pre>
+<code>GLUE> alignment AL_AMDV show statistics
+OK
+GLUE> project parvoviridae alignment AL_AMDV show statistics
++======================+=====================+============================+=========================+==========+==========+=============+=============+
+| sequence.source.name | sequence.sequenceID | referenceNtCoveragePercent | memberNtCoveragePercent | minRefNt | maxRefNt | minMemberNt | maxMemberNt |
++======================+=====================+============================+=========================+==========+==========+=============+=============+
+| ncbi-curated-amdv    | AB044558            | 7.6025827952509895         | 100.0                   | 3043     | 3407     | 1           | 365         |
+| ncbi-curated-amdv    | AB044559            | 7.6025827952509895         | 100.0                   | 3043     | 3407     | 1           | 365         |
+| ncbi-curated-amdv    | AF107626            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |
+| ncbi-curated-amdv    | AF107627            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |
+| ncbi-curated-amdv    | AF107628            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |
+| ncbi-curated-amdv    | AF107629            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |
+| ncbi-curated-amdv    | AF107630            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |
+| ncbi-curated-amdv    | AF107631            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |
+| ncbi-curated-amdv    | AF107632            | 6.998541970422829          | 100.0                   | 587      | 922      | 1           | 336         |</code></pre>
+
+
+		 <p>
+		   (only the first few results are shown here)
+		 </p>
+
+
 
 		 <p>
 		   Or alternatively, list alignment members, along with their associated data, like this:
 
-  <pre>
-  <code>GLUE> alignment AL_AMDV 
-  OK
-  Mode path: /project/parvoviridae/alignment/AL_AMDV
-  GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate
-  +=====================+===============+====================================+
-  | sequence.sequenceID | sequence.name |      sequence.isolate.isolate      |
-  +=====================+===============+====================================+
-  | AB182568            | AMDV          | YCC-IN1P                           |
-  | AB182569            | AMDV          | YCC-IN2P                           |
-  | AB182570            | AMDV          | RRP-JP11P                          |
-  | AB182571            | AMDV          | RRP-JP12P                          |
-  | AB182572            | AMDV          | BTP-SA11P                          |</code></pre>
-  
+
+<pre>
+<code>GLUE> alignment AL_AMDV 
+OK
+Mode path: /project/parvoviridae/alignment/AL_AMDV
+GLUE> list member sequence.sequenceID sequence.name sequence.isolate.isolate
++=====================+===============+====================================+
+| sequence.sequenceID | sequence.name |      sequence.isolate.isolate      |
++=====================+===============+====================================+
+| AB182568            | AMDV          | YCC-IN1P                           |
+| AB182569            | AMDV          | YCC-IN2P                           |
+| AB182570            | AMDV          | RRP-JP11P                          |
+| AB182571            | AMDV          | RRP-JP12P                          |
+| AB182572            | AMDV          | BTP-SA11P                          |</code></pre>
+
+
  		 </p>
 
 		 <p>
 		   (only the first few results are shown here)
 		 </p>
 
-	   
-		 <p>
-		   How did I figure out which ones? There are lots of ways to do this 
-		   using GLUE. In this case I used a fairly unsophisticated approach 
-		   (but one that seemed to work quite well).
-		 </p>
 
-	   
-		 <p>
-		   I naively aligned all AMDV sequences then inspected the alignment
-		   in the console. Since we had excluded sequences shorter than 200bp when we
-		   downloaded from AMDV sequences GenBank (see above), it was a reasonable guess that any
-		   sequences for which the only aligned segments were drastically shorter than
-		   this length were in reverse orientation relative to the reference.
-		 </p>
-
-	   
-		 <p>
-		   
-		   Additionally, 
-		   since orientation of sequences is usually consistent within a study, it
-		   wasn't particularly difficult to create a list of sequences suspected to 
-		   require reverse complementation. 
-		 </p>
-
-	   
-		 <p>
-		   Refining the alignment - may want to manually adjust and re-import.
-		   Note, the structure of the alignments directory - refer to alignment tree.
-		   AMDV is a 'tip' alignment'.
-		 </p>
-
-   <pre>
-   <code>Mode path: /project/parvoviridae/
-   GLUE> import alignment -f alignments/tip/</code></pre>
-	   
 
        <br>
 	   <h3>
@@ -553,38 +537,39 @@ GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
 		 <p>
 		   Now that we have created an alignment of AMDV sequences that is constrained to 
 		   the AMDV reference sequence, we can use this alignment in combination with GLUE's
-          <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/moduleReference/moduleType/featurePresenceRecorder">'<b>featurePresenceRecorder</b>'</a>       
-		   module to examine feature coverage within individual AMDV sequences.
-		   Run the module as follows:
-		 </p>
+           featurePresenceRecorder module to examine feature coverage within individual AMDV
+           sequences.
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> create module -f modules/build/genus/amdo/parvoFeaturePresenceRecorder.xml 
-  OK
-  (1 Module created)
-  Mode path: /project/parvoviridae
-  GLUE> module parvoFeaturePresenceRecorder
-  OK
-  Mode path: /project/parvoviridae/module/parvoFeaturePresenceRecorder
-  GLUE> record feature-presence AL_AMDV -r -f whole_genome -d
-  OK
-</code></pre>
+ 		 </p>
 
-	   
 		 <p>
-		   This can also be accomplished by by running
-		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleRecordFeaturePresenceAmdv.glue"><b>this file</b></a>,
-		 as follows:
+           
+		   Run the module as follows to generate feature coverage data for the alignment:
 		 </p>
 
-  <code>Mode path: /project/parvoviridae
-  GLUE> run file 
-  OK
-</code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> module parvoFeaturePresenceRecorder record feature-presence AL_AMDV -f whole_genome -d
+
++=======================+=============================+============================+===================================+=========================+=====================+
+| member.alignment.name | member.sequence.source.name | member.sequence.sequenceID | featureLoc.referenceSequence.name | featureLoc.feature.name | referenceNtCoverage |
++=======================+=============================+============================+===================================+=========================+=====================+
+| AL_AMDV               | ncbi-curated-amdv           | AB044558                   | REF_MASTER_Amdo_AMDV              | whole_genome            | 7.6025827952509895  |
+| AL_AMDV               | ncbi-curated-amdv           | AB044558                   | REF_MASTER_Amdo_AMDV              | VP1                     | 18.775720164609055  |
+| AL_AMDV               | ncbi-curated-amdv           | AB044559                   | REF_MASTER_Amdo_AMDV              | whole_genome            | 7.6025827952509895  |
+| AL_AMDV               | ncbi-curated-amdv           | AB044559                   | REF_MASTER_Amdo_AMDV              | VP1                     | 18.775720164609055  |
+| AL_AMDV               | ncbi-curated-amdv           | AF107626                   | REF_MASTER_Amdo_AMDV              | whole_genome            | 6.998541970422829   |
+| AL_AMDV               | ncbi-curated-amdv           | AF107626                   | REF_MASTER_Amdo_AMDV              | Rep78                   | 18.95093062605753   |
+| AL_AMDV               | ncbi-curated-amdv           | AF107627                   | REF_MASTER_Amdo_AMDV              | whole_genome            | 6.998541970422829   |</code></pre>
+
+
+
 
        <br>
        <br>
+       
+       
+       
 	   <h3>
 		 <a id="buildPhylogenies" class="anchor" href="#buildPhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>7. Reconstructing phylogenetic trees</strong>.
 	   </h3>
@@ -603,9 +588,10 @@ GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
          The entire sequence of commands for creating both trees can be found in
 		 <a target="_blank" href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/glue/tutorial/exampleCreateAmdvPhylogenies.glue"><b>this file</b></a>,
 		 which is in the Parvovirus-GLUE repo, as follows:
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/tutorial/exampleCreateAmdvPhylogenies.glue</code></pre>
+
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> run file glue/tutorial/exampleCreateAmdvPhylogenies.glue</code></pre>
 
 		 Before you attempt this, bear in mind that we are about to build a bootstrapped,
 		 maximum likelihood tree for thousands of sequences. On my computer it took 
@@ -621,9 +607,9 @@ GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
 		  as follows:
 
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
 
          Note that trees could also be midpoint rooted by importing them into another application
          that offers this functionality. However, it is often convenient to be able to 
@@ -638,9 +624,9 @@ GLUE> run script glue/tutorial/exampleLoadIsolateDataAmdv.js</code></pre>
 		  as follows:
 
 
-  <pre>
-  <code>Mode path: /project/parvoviridae
-  GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
+<pre>
+<code>Mode path: /project/parvoviridae
+GLUE> run file glue/tutorial/exampleRerootPhylogeny.glue</code></pre>
 
 
 		</p>	 
