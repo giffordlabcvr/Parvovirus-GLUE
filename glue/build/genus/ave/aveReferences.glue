@@ -64,7 +64,7 @@
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 470 2083 
+	  add segment 220 2118 
 	  exit
 
  	add feature-location NP
