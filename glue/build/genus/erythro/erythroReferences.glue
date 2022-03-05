@@ -79,6 +79,18 @@
 	feature-location whole_genome
 	  add segment 1 5049
 	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 296 2314
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2307 4664
+	  exit
+
+
     exit
 
 
@@ -88,6 +100,17 @@
 	feature-location whole_genome
 	  add segment 1 5205
 	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 306 2441
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2619 5108
+	  exit
+    
     exit
 
 
@@ -97,5 +120,15 @@
 	feature-location whole_genome
 	  add segment 1 5276
 	  exit
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 261 2216
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2219 5062
+	  exit
+
     exit
 

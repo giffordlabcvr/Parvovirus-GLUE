@@ -16,3 +16,86 @@
   create reference REF_Chaphama_Snake_ChPV       fasta-refseqs-chaphama Snake_ChPV
 
 
+  reference REF_Chaphama_UrChPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3787
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 260 2239
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2232 3701
+	  exit
+    
+    exit
+
+
+  reference REF_Chaphama_MkPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4228
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 581 2602
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2599 4228
+	  exit
+    
+    exit
+
+
+
+  reference REF_Chaphama_Cachavirus
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4226
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 620 2611
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2565 4118
+	  exit
+    
+    exit
+
+
+
+  reference REF_Chaphama_UrChPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4442
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 811 2790
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2783 4273
+	  exit
+    
+    exit
+
+
+ 
