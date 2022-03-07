@@ -20,6 +20,11 @@
 	feature-location Rep78
 	  add segment 319 2325
 	  exit
+
+ 	add feature-location Erythro_ORF2
+	feature-location Erythro_ORF2
+	  add segment 3119 3544
+	  exit
 	  
  	add feature-location VP1
 	feature-location VP1
@@ -40,7 +45,11 @@
 	feature-location Rep78
 	  add segment 307 2370
 	  exit
-	  
+
+ 	add feature-location Erythro_ORF1
+	feature-location Erythro_ORF1
+	  add segment 1667 2062
+	  exit
 
  	add feature-location VP1
 	feature-location VP1
@@ -63,7 +72,6 @@
 	  add segment 439 2490
 	  exit
 	  
-
  	add feature-location VP1
 	feature-location VP1
 	  add segment 2480 4942

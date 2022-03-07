@@ -62,8 +62,8 @@
 	  add segment 849 2645
 	  exit
 
- 	add feature-location ORF3
-	feature-location ORF3
+ 	add feature-location Copi_ORF3
+	feature-location Copi_ORF3
 	  add segment 2795 3409
 	  exit
 

@@ -24,8 +24,8 @@
 	  add segment 208 2589 
 	  exit
 
- 	add feature-location NP1
-	feature-location NP1
+ 	add feature-location Boca_NP
+	feature-location Boca_NP
 	  add segment 2354 2971 
 	  exit
 
@@ -49,8 +49,8 @@
 	  add segment 258 2639 
 	  exit
 
- 	add feature-location NP1
-	feature-location NP1
+ 	add feature-location Boca_NP
+	feature-location Boca_NP
 	  add segment 2443 3024 
 	  exit
 
@@ -75,8 +75,8 @@
 	  add segment 27 2072 
 	  exit
 
- 	add feature-location NP1
-	feature-location NP1
+ 	add feature-location Boca_NP
+	feature-location Boca_NP
 	  add segment 1870 2457 
 	  exit
 	  
@@ -100,8 +100,8 @@
 	  add segment 232 2235 
 	  exit
 
- 	add feature-location NP1
-	feature-location NP1
+ 	add feature-location Boca_NP
+	feature-location Boca_NP
 	  add segment 2360 3040 
 	  exit	  
 
@@ -125,8 +125,8 @@
 	  add segment 59 1933 
 	  exit
 
- 	add feature-location NP1
-	feature-location NP1
+ 	add feature-location Boca_NP
+	feature-location Boca_NP
 	  add segment 2064 2663 
 	  exit	  
 

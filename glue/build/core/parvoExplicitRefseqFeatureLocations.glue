@@ -95,8 +95,8 @@
 	  add segment 2809 4410
 	  exit
 		
-	add feature-location X
-	feature-location X
+	add feature-location Dependo_X
+	feature-location Dependo_X
 	  add segment 3929 4396
 	  exit
 		
@@ -161,8 +161,13 @@
 	  add segment 616 2631
 	  exit
 
- 	add feature-location X
-	feature-location  X
+ 	add feature-location Erythro_ORF1
+	feature-location  Erythro_ORF1
+	  add segment 2084 2308
+	  exit
+
+ 	add feature-location Erythro_X
+	feature-location  Erythro_X
 	  add segment 2874 3119
 	  exit
 
@@ -219,8 +224,6 @@
     exit
 
 
-
-
   reference REF_MASTER_Ave_ChPV
  
  	add feature-location whole_genome
@@ -233,8 +236,8 @@
 	  add segment 411 2495
 	  exit
 
- 	add feature-location NP
-	feature-location NP
+ 	add feature-location Ave_NP
+	feature-location Ave_NP
 	  add segment 2696 3001
 	  exit
 
@@ -258,8 +261,8 @@
 	  add segment 740 2920
 	  exit
 
- 	add feature-location M
-	feature-location M
+ 	add feature-location Boca_NP
+	feature-location Boca_NP
 	  add segment 2661 3302
 	  exit
 
@@ -378,9 +381,19 @@
 	  add segment 1 195
 	  exit
 
+ 	add feature-location Chaphama_ORF1
+	feature-location Chaphama_ORF1
+	  add segment 196 597
+	  exit
+
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 510 2528
+	  exit
+
+ 	add feature-location Chaphama_NP
+	feature-location Chaphama_NP
+	  add segment 557 1306
 	  exit
 
  	add feature-location VP1
@@ -415,8 +428,8 @@
 	  add segment 216 2639
 	  exit
 
- 	add feature-location ORF1
-	feature-location ORF1
+ 	add feature-location Ichthama_ORF1
+	feature-location Ichthama_ORF1
 	  add segment 352 810
 	  exit
 
@@ -430,8 +443,8 @@
 	  add segment 1852 2562
 	  exit
 
- 	add feature-location ORF6
-	feature-location ORF6
+ 	add feature-location Ichthama_ORF6
+	feature-location Ichthama_ORF6
 	  add segment 3177 3884
 	  exit
 
