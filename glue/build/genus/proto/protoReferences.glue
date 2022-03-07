@@ -10,3 +10,113 @@
   create reference REF_Proto_MpBuV          ncbi-refseqs-proto NC_026815
   create reference REF_Proto_OtterPV-1      ncbi-refseqs-proto NC_030837
 
+
+  reference REF_Proto_PPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5075
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 292 2280 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2287 2314 --spliceIndex 1
+	  add segment 2388 4549 --spliceIndex 2
+	  exit
+    
+    exit
+
+
+  reference REF_Proto_MVM1
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5149
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 114 2279 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2286 2316 --spliceIndex 1
+	  add segment 2399 4557 --spliceIndex 2
+	  exit
+    
+    exit
+
+
+  reference REF_Proto_HamsterPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4773
+	  exit
+    
+    exit
+
+
+  reference REF_Proto_Zsana
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4281
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 1 1833 
+	  exit
+    
+    exit
+
+
+  reference REF_Proto_MpBuV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4613
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 63 1982 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 1969 1996 --spliceIndex 1
+	  add segment 2247 4405 --spliceIndex 2
+	  exit
+    
+    
+    exit
+
+ 
+  reference REF_Proto_OtterPV-1
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4639
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 121 2097 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2084 2111 --spliceIndex 1
+	  add segment 2506 4628 --spliceIndex 2
+	  exit
+
+
+

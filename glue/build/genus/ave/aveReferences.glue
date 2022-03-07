@@ -17,8 +17,8 @@
 	  add segment 1 2085 
 	  exit
 
- 	add feature-location NP
-	feature-location NP
+ 	add feature-location Ave_NP
+	feature-location Ave_NP
 	  add segment 2286 2591
 	  exit
 
@@ -42,8 +42,8 @@
 	  add segment 335 2377 
 	  exit
 
- 	add feature-location NP
-	feature-location NP
+ 	add feature-location Ave_NP
+	feature-location Ave_NP
 	  add segment 2950 3435 
 	  exit
 
@@ -67,8 +67,8 @@
 	  add segment 220 2118 
 	  exit
 
- 	add feature-location NP
-	feature-location NP
+ 	add feature-location Ave_NP
+	feature-location Ave_NP
 	  add segment 2151 3341 
 	  exit
 

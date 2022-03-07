@@ -425,8 +425,8 @@
 	  add segment 2626 3720
 	  exit
 
- 	add feature-location NP
-	feature-location NP
+ 	add feature-location Ichthama_NP
+	feature-location Ichthama_NP
 	  add segment 1852 2562
 	  exit
 

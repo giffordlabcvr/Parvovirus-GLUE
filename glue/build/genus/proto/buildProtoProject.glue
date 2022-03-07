@@ -15,7 +15,7 @@
   run file glue/build/genus/proto/protoReferences.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/genus/proto-refseq-feature-locations.tsv -r
+  #module featureLocationTextToGlue transform tabular/genus/proto-refseq-feature-locations.tsv -r
 
   # Import alignments 
   run file glue/build/genus/proto/protoAlignments.glue

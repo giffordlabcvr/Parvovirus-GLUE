@@ -15,28 +15,25 @@
   create reference REF_Tetra_Didelphimorpha ncbi-refseqs-tetra MG745671  # Didelphimorpha tetraparvovirus
 
 
-  
-  
-   
-    reference REF_Tetra_EhBtPV1
  
- 	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1 5065
-	  exit
+  reference REF_Tetra_EhBtPV1
 
- 	add feature-location Rep78
-	feature-location Rep78
-	  add segment 174 2252
-	  exit
+  add feature-location whole_genome
+  feature-location whole_genome
+	add segment 1 5065
+	exit
 
- 	add feature-location VP1
-	feature-location VP1
-	  add segment 2279 5038
-	  exit
-   
-    exit
+  add feature-location Rep78
+  feature-location Rep78
+	add segment 174 2252
+	exit
 
+  add feature-location VP1
+  feature-location VP1
+	add segment 2279 5038
+	exit
+ 
+  exit
 
 
   reference REF_Tetra_Deer
