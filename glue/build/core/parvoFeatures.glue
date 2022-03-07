@@ -12,6 +12,13 @@
   create feature 3UTR -p whole_genome "3 prime UTR"
   create feature 3IR -p 3UTR "3 prime inverted terminal repeat"
 
+  create feature TATA_box -p 5UTR "TATA box"
+  feature TATA_box set field displayName "TATA box"
+  feature TATA_box set metatag INCLUDE_IN_SUMMARY true
+
+  create feature PolyA -p 3UTR "PolyA loop"
+  feature PolyA set field displayName "PolyA"
+  feature PolyA set metatag INCLUDE_IN_SUMMARY true
 
   ### Main coding features - replicase
 
@@ -61,7 +68,7 @@
   feature VP3 set metatag CODES_AMINO_ACIDS true
 
   create feature CP -p whole_genome "Capsid protein (Denso)"
-  feature CP set field displayName "Capsid"
+  feature CP set field displayName "Densovirus Capsid"
   feature CP set metatag OWN_CODON_NUMBERING true
   feature CP set metatag INCLUDE_IN_SUMMARY true
   feature CP set metatag CODES_AMINO_ACIDS true
@@ -76,6 +83,12 @@
   feature M set metatag OWN_CODON_NUMBERING true
   feature M set metatag INCLUDE_IN_SUMMARY true
   feature M set metatag CODES_AMINO_ACIDS true
+
+  create feature SAT -p whole_genome "Small alternatively translated (SAT) protein"
+  feature SAT set field displayName "SAT"
+  feature SAT set metatag OWN_CODON_NUMBERING true
+  feature SAT set metatag INCLUDE_IN_SUMMARY true
+  feature SAT set metatag CODES_AMINO_ACIDS true
 
 
   ## Ave

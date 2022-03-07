@@ -3,13 +3,13 @@
 
   ## Parvovirinae  
   create reference REF_MASTER_Amdo_AMDV           ncbi-refseqs NC_001662
-  create reference REF_MASTER_Dependo_AAV2        ncbi-refseqs NC_001401
   create reference REF_MASTER_Proto_CPV           ncbi-refseqs NC_001539
-  create reference REF_MASTER_Erythro_B19         ncbi-refseqs NC_000883
   create reference REF_MASTER_Boca_BPV            ncbi-refseqs NC_001540
+  create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
+  create reference REF_MASTER_Dependo_AAV2        ncbi-refseqs NC_001401 
+  create reference REF_MASTER_Erythro_B19         ncbi-refseqs NC_000883
   create reference REF_MASTER_Copi_BPV2           ncbi-refseqs NC_006259
   create reference REF_MASTER_Tetra_HPV4          ncbi-refseqs NC_007018
-  create reference REF_MASTER_Ave_ChPV            ncbi-refseqs NC_024452
   create reference REF_MASTER_Lori_SlPV           ncbi-refseqs KP120516
   create reference REF_MASTER_Arti_Aj_BtPV        ncbi-refseqs NC_016752
 

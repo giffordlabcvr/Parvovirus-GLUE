@@ -1,5 +1,4 @@
 
-
   # Add feature locations to genus master reference sequences
   reference REF_MASTER_Amdo_AMDV
  
@@ -26,12 +25,58 @@
     exit
 
 
+  # Proto
+  reference REF_MASTER_Proto_CPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 5323
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 130
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 272 2278
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2285 4540
+	  exit
+		
+	add feature-location PLA2
+	feature-location PLA2
+	  add segment 2793 2999
+	  exit
+
+ 	add feature-location SAT
+	feature-location SAT
+	  add segment 272 2278
+	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 3000 5323
+	  exit
+   
+    exit
+
+
 
   reference REF_MASTER_Dependo_AAV2
  
  	add feature-location whole_genome
 	feature-location whole_genome
 	  add segment 1 4679
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 320
 	  exit
 
  	add feature-location Rep78
@@ -144,6 +189,11 @@
 	feature-location Beta-F
 	  add segment 3403 3414
 	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4411 4679
+	  exit
 		
   exit 
 
@@ -154,6 +204,11 @@
  	add feature-location whole_genome
 	feature-location whole_genome
 	  add segment 1 5596
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 615
 	  exit
 
  	add feature-location Rep78
@@ -175,9 +230,18 @@
 	feature-location VP1
 	  add segment 2624 4969
 	  exit
+
+	add feature-location PLA2
+	feature-location PLA2
+	  add segment 2990 3166
+	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4970 5596
+	  exit
    
     exit
-
 
 
 
@@ -189,6 +253,11 @@
 	  add segment 1 4595
 	  exit
 
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 83
+	  exit
+
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 84 1961
@@ -198,7 +267,7 @@
 	feature-location VP1
 	  add segment 1965 4595
 	  exit
-    
+
     exit
 
 
@@ -211,6 +280,11 @@
 	  add segment 1 4844
 	  exit
 
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 145
+	  exit
+
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 146 1894
@@ -219,6 +293,11 @@
  	add feature-location VP1
 	feature-location VP1
 	  add segment 2187 4655
+	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4656 4844
 	  exit
     
     exit
@@ -229,6 +308,11 @@
  	add feature-location whole_genome
 	feature-location whole_genome
 	  add segment 1 5257
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 145
 	  exit
 
  	add feature-location Rep78
@@ -245,7 +329,12 @@
 	feature-location VP1
 	  add segment 2998 5025
 	  exit
-    
+ 
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 5026 5257
+	  exit
+   
     exit
 
 
@@ -254,6 +343,11 @@
  	add feature-location whole_genome
 	feature-location whole_genome
 	  add segment 1 5517
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 739
 	  exit
 
  	add feature-location Rep78
@@ -270,31 +364,10 @@
 	feature-location VP1
 	  add segment 3286 5307
 	  exit
-   
-    exit
 
-
-  # Proto
-  reference REF_MASTER_Proto_CPV
- 
- 	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1 5323
-	  exit
-
- 	add feature-location 5UTR
-	feature-location 5UTR
-	  add segment 1 130
-	  exit
-
- 	add feature-location Rep78
-	feature-location Rep78
-	  add segment 272 2278
-	  exit
-
- 	add feature-location VP1
-	feature-location VP1
-	  add segment 2285 4540
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 5308 5517
 	  exit
    
     exit
@@ -308,6 +381,11 @@
 	  add segment 1 5268
 	  exit
 
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 282
+	  exit
+
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 283 2274
@@ -317,7 +395,12 @@
 	feature-location VP1
 	  add segment 2378 5122
 	  exit
-   
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 5121 5268
+	  exit
+	  
     exit
 
 
@@ -330,6 +413,11 @@
 	  add segment 1 5610
 	  exit
 
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 305
+	  exit
+
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 306 1919
@@ -339,9 +427,13 @@
 	feature-location VP1
 	  add segment 2268 5384
 	  exit
+
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 5383 5610
+	  exit
    
     exit
-
 
 
 
@@ -353,11 +445,15 @@
 	  add segment 1 6085
 	  exit
 
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 61
+	  exit
+
  	add feature-location Rep78
 	feature-location Rep78
 	  add segment 62 1345
 	  exit
-
 
  	add feature-location CP
 	feature-location CP
