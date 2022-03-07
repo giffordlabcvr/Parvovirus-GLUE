@@ -9,7 +9,7 @@
   create reference REF_Proto_Zsana          ncbi-refseqs-proto KT965075
   create reference REF_Proto_MpBuV          ncbi-refseqs-proto NC_026815
   create reference REF_Proto_OtterPV-1      ncbi-refseqs-proto NC_030837
-
+  create reference REF_Proto_Newlavirus-1   ncbi-refseqs-proto MZ813278
 
   reference REF_Proto_PPV
  
@@ -28,6 +28,14 @@
 	  add segment 2287 2314 --spliceIndex 1
 	  add segment 2388 4549 --spliceIndex 2
 	  exit
+
+
+ 	add feature-location SAT
+	feature-location SAT
+	  add segment 2820 3026
+	  exit
+
+
     
     exit
 
@@ -117,6 +125,42 @@
 	  add segment 2084 2111 --spliceIndex 1
 	  add segment 2506 4628 --spliceIndex 2
 	  exit
+
+   
+    exit
+
+ 
+  reference REF_Proto_Newlavirus
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4772
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 68 1921 
+	  exit
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 1926 1953 --spliceIndex 1
+	  add segment 2457 4696 --spliceIndex 2
+	  exit
+
+ 	add feature-location VP2
+	feature-location VP2
+	  add segment 2924 4696 
+	  exit
+ 
+ 	add feature-location SAT
+	feature-location SAT
+	  add segment 2931 3122 
+	  exit
+  
+    exit
+
+
 
 
 

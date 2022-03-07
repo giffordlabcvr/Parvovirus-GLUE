@@ -1,4 +1,4 @@
-create module -f modules/genus/proto/protoNcbiImporterReferences.xml ncbiImporter
+create module -f modules/build/genus/proto/protoNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import
