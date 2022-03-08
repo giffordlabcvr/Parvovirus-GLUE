@@ -41,7 +41,7 @@ project parvoviridae
   run file glue/build/genus/ichthama/buildIchthamaProject.glue
   
   # Inherit feature locations
-  run script glue/build/core/refseqsInheritFeatureLocations.js
+  #run script glue/build/core/refseqsInheritFeatureLocations.js
   
   exit
 

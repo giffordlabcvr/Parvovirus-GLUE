@@ -82,7 +82,12 @@
 	feature-location Rep78
 	  add segment 1 1833 
 	  exit
-    
+
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2668 4281
+	  exit
+
     exit
 
 
