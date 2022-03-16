@@ -10,4 +10,7 @@
   create module -f modules/build/core/parvoStrictFastaAlignmentImporter.xml
   create module -f modules/build/core/parvoFeaturePresenceRecorder.xml
   create module -f modules/build/core/unconstrainedAlignmentImporter.xml 
-  create module -t fastaExporter 
+  create module -t fastaExporter
+  create module -t raxmlPhylogenyGenerator
+  create module -t phyloUtility
+  

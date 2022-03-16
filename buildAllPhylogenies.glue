@@ -1,24 +1,24 @@
 project parvoviridae
 
   # Parvoviridae root (non-recursive)
-  run file glue/analysis/phylogeny/core/parvoviridaeCreatePhylogenies.glue
-  run file glue/analysis/phylogeny/core/parvoviridaeRerootPhylogenies.glue
-  run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
+  #run file glue/analysis/phylogeny/core/parvoviridaeCreatePhylogenies.glue
+  #run file glue/analysis/phylogeny/core/parvoviridaeRerootPhylogenies.glue
+  #run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
 
   # Genus-level
-  run file glue/analysis/phylogeny/genus/tetraCreateRootPhylogenies.glue
+  run file glue/analysis/phylogeny/genus/protoCreateRootPhylogenies.glue
   run file glue/analysis/phylogeny/genus/amdoCreateRootPhylogenies.glue
   run file glue/analysis/phylogeny/genus/aveCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/dependoCreateRootPhylogenies.glue
+  run file glue/analysis/phylogeny/genus/tetraCreateRootPhylogenies.glue
   run file glue/analysis/phylogeny/genus/erythroCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/protoCreateRootPhylogenies.glue
+  run file glue/analysis/phylogeny/genus/dependoCreateRootPhylogenies.glue
 
   # Root-level with EPVs
   #run file glue/analysis/phylogeny/core/epvCreateRootPhylogenies.glue
   #run file glue/analysis/phylogeny/core/epvRerootPhylogenies.glue
   #run file glue/analysis/phylogeny/core/epvRootPhylogeniesExportAnnotations.glue
 
-  # Parvovirinae (recursively populated sequence alignment - contains all taxa)
+  # Parvovirinae (recursively populated)
   #run file glue/analysis/phylogeny/core/parvovirinaeCreatePhylogenies.glue
   #run file glue/analysis/phylogeny/core/parvovirinaeRerootPhylogenies.glue
   #run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
