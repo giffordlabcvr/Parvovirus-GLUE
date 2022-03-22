@@ -1,4 +1,4 @@
-create module -f modules/genus/erythro/erythroNcbiImporterReferences.xml ncbiImporter
+create module -f modules/build/genus/erythro/erythroNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import

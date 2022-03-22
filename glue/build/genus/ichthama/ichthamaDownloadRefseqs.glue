@@ -1,4 +1,4 @@
-create module -f modules/genus/icthama/icthamaNcbiImporterReferences.xml ncbiImporter
+create module -f modules/build/genus/icthama/icthamaNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import

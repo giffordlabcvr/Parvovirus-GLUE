@@ -1,4 +1,4 @@
-create module -f modules/genus/chaphama/chaphamaNcbiImporterReferences.xml ncbiImporter
+create module -f modules/build/genus/chaphama/chaphamaNcbiImporterReferences.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import

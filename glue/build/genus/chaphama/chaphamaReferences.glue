@@ -6,6 +6,8 @@
   create reference REF_Chaphama_CKPV             ncbi-refseqs-chaphama MN265364
   create reference REF_Chaphama_UrChPV           ncbi-refseqs-chaphama MN166196
   create reference REF_Chaphama_DrChPv           ncbi-refseqs-chaphama NC_032097
+  create reference REF_Chapthama_IcthPV          ncbi-refseqs-ichthama MN162688
+  create reference REF_Chapthama_BtlPV1          ncbi-refseqs-ichthama MN996276
   
    
   # Virus sequences found in WGS
@@ -13,6 +15,8 @@
   create reference REF_Chaphama_Mesitornis_ChPV  fasta-refseqs-chaphama Mesitornis_ChPV
   create reference REF_Chaphama_Myotis_ChPV      fasta-refseqs-chaphama Myotis_ChPV
   create reference REF_Chaphama_Snake_ChPV       fasta-refseqs-chaphama Snake_ChPV
+  create reference REF_Chaphama_Snake_ChPV       fasta-refseqs-chaphama Snake_ChPV
+   
 
 
   reference REF_Chaphama_MkPV

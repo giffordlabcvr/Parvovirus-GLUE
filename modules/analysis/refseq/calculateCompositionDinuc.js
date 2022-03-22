@@ -295,7 +295,7 @@ function calculateCompositionDinuc() {
 
 				var count = seqDinucComposition[dinucleotide];
 					
-				var ratio = (count / seqLength) * 100;
+				var ratio = ((count / seqLength) * 100) * 2;
 				var aaFormatedRatio = ratio.toFixed(2);
 				//glue.log("INFO", "Got ratio '"+aaFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
 				dinucCountResults[dinucleotide] = count;

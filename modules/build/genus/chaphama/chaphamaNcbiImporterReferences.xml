@@ -13,6 +13,8 @@
 	<primaryAccession>MN265364</primaryAccession>
 	<primaryAccession>MN166196</primaryAccession>
 	<primaryAccession>NC_032097</primaryAccession>
+	<primaryAccession>MN162688</primaryAccession>   <!-- Ichthyic parvovirus isolate HMU-HKU -->
+	<primaryAccession>MN996276</primaryAccession>   <!-- Lizard parvovirus 1 -->
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
