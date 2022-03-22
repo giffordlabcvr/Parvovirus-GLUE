@@ -6,8 +6,8 @@
   create reference REF_Chaphama_CKPV             ncbi-refseqs-chaphama MN265364
   create reference REF_Chaphama_UrChPV           ncbi-refseqs-chaphama MN166196
   create reference REF_Chaphama_DrChPv           ncbi-refseqs-chaphama NC_032097
-  create reference REF_Chapthama_IcthPV          ncbi-refseqs-ichthama MN162688
-  create reference REF_Chapthama_BtlPV1          ncbi-refseqs-ichthama MN996276
+  create reference REF_Chapthama_IcthPV          ncbi-refseqs-chaphama MN162688
+  create reference REF_Chapthama_BtlPV1          ncbi-refseqs-chaphama MN996276
   
    
   # Virus sequences found in WGS
@@ -15,8 +15,6 @@
   create reference REF_Chaphama_Mesitornis_ChPV  fasta-refseqs-chaphama Mesitornis_ChPV
   create reference REF_Chaphama_Myotis_ChPV      fasta-refseqs-chaphama Myotis_ChPV
   create reference REF_Chaphama_Snake_ChPV       fasta-refseqs-chaphama Snake_ChPV
-  create reference REF_Chaphama_Snake_ChPV       fasta-refseqs-chaphama Snake_ChPV
-   
 
 
   reference REF_Chaphama_MkPV
@@ -154,6 +152,48 @@
  	add feature-location VP1
 	feature-location VP1
 	  add segment 2651 4105
+	  exit
+    
+    exit
+
+
+
+  reference  REF_Chapthama_IcthPV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3566
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 269 2125
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2303 3565
+	  exit
+    
+    exit
+
+
+
+  reference REF_Chapthama_BtlPV1
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3411
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 344 2101
+	  exit
+	  
+ 	add feature-location VP1
+	feature-location VP1
+	  add segment 2059 3411
 	  exit
     
     exit

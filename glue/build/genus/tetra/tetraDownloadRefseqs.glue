@@ -1,5 +1,5 @@
 delete module ncbiImporter
-create module -f modules/genus/tetra/tetraNcbiImporterReferences.xml tetraNcbiImporterReferences
+create module -f modules/build/genus/tetra/tetraNcbiImporterReferences.xml tetraNcbiImporterReferences
 
 # Download NCBI sequences 
 module tetraNcbiImporterReferences import
