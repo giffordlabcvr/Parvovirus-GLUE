@@ -12,6 +12,10 @@ project parvoviridae
   run file glue/analysis/phylogeny/genus/tetraCreateRootPhylogenies.glue
   run file glue/analysis/phylogeny/genus/erythroCreateRootPhylogenies.glue
   run file glue/analysis/phylogeny/genus/dependoCreateRootPhylogenies.glue
+  run file glue/analysis/phylogeny/genus/copiCreateRootPhylogenies.glue  
+  run file glue/analysis/phylogeny/genus/bocaCreateRootPhylogenies.glue
+  
+  run file glue/analysis/phylogeny/genus/chaphamaCreateRootPhylogenies.glue
 
   # Root-level with EPVs
   #run file glue/analysis/phylogeny/core/epvCreateRootPhylogenies.glue
