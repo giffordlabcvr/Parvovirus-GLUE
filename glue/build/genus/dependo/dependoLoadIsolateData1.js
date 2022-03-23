@@ -1,7 +1,7 @@
 var masterRef = 'NC_001401';
 
 // list the sequences in source ncbi-refseqs-dependo
-var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-dependo' and genus = 'Dependoparvovirus'"]);
+var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-dependo'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");

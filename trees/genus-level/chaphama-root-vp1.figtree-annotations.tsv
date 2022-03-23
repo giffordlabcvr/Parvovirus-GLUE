@@ -1,15 +1,15 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/KX272741	KX272741	RChPV	Rat parvovirus 2	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Mesitornis_ChPV	Mesitornis_ChPV	Mesitornis_ChPV	Mesitornis_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MG846443	MG846443	CChPV	Chicken-chapparvovirus-2	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MH670587	MH670587	MkPV	Mouse kidney parvoviruses	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MK448316	MK448316	Cachavirus	Cachavirus-1B	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN162688	MN162688	IcthPV 	Ichthyic parvovirus isolate HMU-HKU	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN166196	MN166196	UrChPV	Ursus americanus chapparvovirus	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN265364	MN265364	CKPV	Capuchin kidney parvovirus	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN996276	MN996276	BtlPV	Lizard parvovirus 1	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Myotis_ChPV	Myotis_ChPV	Myotis_ChPV	Myotis_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/NC_032097	NC_032097	DrChPv	Desmodus rotundus parvovirus	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs/NC_040562	NC_040562	PPV7	Porcine parvovirus 7	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	GX49	Sus scrofa	-	China
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Serinus_ChPV	Serinus_ChPV	Serinus_ChPV	Serinus_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
-alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Snake_ChPV	Snake_ChPV	Snake_ChPV	Snake_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	-	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/KX272741	KX272741	RChPV	Rat parvovirus 2	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Rattus norvegicus	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Mesitornis_ChPV	Mesitornis_ChPV	Mesitornis_ChPV	Mesitornis_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Mesitornis unicolor	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MG846443	MG846443	CChPV	Chicken-chapparvovirus-2	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Gallus gallus	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MH670587	MH670587	MkPV	Mouse kidney parvoviruses	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Mus musculus	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MK448316	MK448316	Cachavirus	Cachavirus-1B	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Canis familiaris	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN162688	MN162688	IcthPV 	Ichthyic parvovirus isolate HMU-HKU	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Tilapia	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN166196	MN166196	UrChPV	Ursus americanus chapparvovirus	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Ursus americanus	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN265364	MN265364	CKPV	Capuchin kidney parvovirus	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Cebus capucinus imitator	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/MN996276	MN996276	BtlPV	Lizard parvovirus 1	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Tiliqua	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Myotis_ChPV	Myotis_ChPV	Myotis_ChPV	Myotis_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Myotis davidii	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs-chaphama/NC_032097	NC_032097	DrChPv	Desmodus rotundus parvovirus	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Desmodus rotundus	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/ncbi-refseqs/NC_040562	NC_040562	PPV7	Porcine parvovirus 7	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	GX49	NK	-	China
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Serinus_ChPV	Serinus_ChPV	Serinus_ChPV	Serinus_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Serinus canaria	-	-
+alignment/AL_UNC_CHAPHAMA_ROOT_VP/member/fasta-refseqs-chaphama/Snake_ChPV	Snake_ChPV	Snake_ChPV	Snake_ChPV	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	-	Protobothrops mucrosquamatus	-	-
