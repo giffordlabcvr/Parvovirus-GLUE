@@ -1,10 +1,11 @@
+
+  # Link reference sequences to isolate table
+  run script glue/build/genus/ave/aveLoadIsolateData1.js
+
   # Import metadata for exogenous reference sequences from tabular
   module parvoSideDataImporter 
     populate -f tabular/genus/ave-refseqs-side-data.tsv
     exit
-
-  # Link reference sequences to isolate table
-  run script glue/build/genus/ave/aveLoadIsolateData1.js
 
   # Populate fields from GenBank data
   module parvoGenbankXmlPopulator populate 

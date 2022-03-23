@@ -1,10 +1,11 @@
+
+  # Link reference sequences to isolate table
+  run script glue/build/genus/tetra/tetraLoadIsolateData1.js
+
   # Import metadata for exogenous reference sequences from tabular
   module parvoSideDataImporter 
     populate -f tabular/genus/tetra-refseqs-side-data.tsv
     exit
-
-  # Link reference sequences to isolate table
-  run script glue/build/genus/tetra/tetraLoadIsolateData1.js
 
   # Populate fields from GenBank data
   module parvoGenbankXmlPopulator populate 

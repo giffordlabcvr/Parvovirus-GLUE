@@ -1,9 +1,0 @@
-
-  # Delete extension specific components
-  delete alignment AL_UNC_ICTHAMA_ROOT
-  delete alignment AL_Icthama
-  multi-delete reference -w "name like '%REF_Icthama%'"
-
-  #run script glue/build/genus/icthama/deleteIcthamaIsolateTableRows.js
-  delete source ncbi-refseqs-icthama
-  delete source fasta-refseqs-icthama
