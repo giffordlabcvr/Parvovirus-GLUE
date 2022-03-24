@@ -11,6 +11,9 @@
 	<primaryAccession>NC_034445</primaryAccession> <!-- Skunk amdoparvovirus (SKAV) -->
 	<primaryAccession>NC_031751</primaryAccession> <!-- Carnivore amdoparvovirus 5 - Red panda amdoparvovirus (RpAPV) -->
 	<primaryAccession>MT770848</primaryAccession>  <!-- Labrador amdoparvovirus (LAPV) -->
+	<primaryAccession>KJ641663</primaryAccession>  <!-- Rattus nitidus parvovirus -->
+	<primaryAccession>KY432922</primaryAccession>  <!-- Rhinolophus lepidus parvovirus -->
+
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
