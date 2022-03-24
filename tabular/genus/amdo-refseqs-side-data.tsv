@@ -5,5 +5,5 @@ NC_025825	RFAV	Parvovirinae	 Carnivore amdoparvovirus 3	racoon dog and fox amdop
 NC_034445	SKAV	Parvovirinae	 Carnivore amdoparvovirus 4	skunk amdoparvovirus	Mephitis mephitis	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	KX981923
 NC_031751	RpAPV	Parvovirinae	 Carnivore amdoparvovirus 5	red panda amdoparvovirus	Ailurus fulgens	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	KT878839
 MT770848	LaAV-1	Parvovirinae	Labrador-amdoparvovirus-1	NA	Martes americana	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NULL
-KJ641663	RtRn-ParV	Parvovirinae	Rattus nitidus parvovirus	NA	Rattus nitidus	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NULL
-KY432922	BtRl-PV	Parvovirinae	Rhinolophus lepidus parvovirus	NA	Rhinolophus lepidus	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NULL
+KJ641663	BtRl-PV	Parvovirinae	Rhinolophus lepidus parvovirus	NA	Rhinolophus lepidus	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NULL
+KY432922	RtRn-ParV	Parvovirinae	Rattus nitidus parvovirus	NA	Rattus nitidus	Amdoparvovirus	NK	NK	NK	NK	NK	NK	NK	NULL
