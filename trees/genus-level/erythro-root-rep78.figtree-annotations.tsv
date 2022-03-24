@@ -1,7 +1,5 @@
 taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
 alignment/AL_UNC_ERYTHRO_ROOT_NS/member/ncbi-refseqs-erythro/AF406967	AF406967	BPV3	Ungulate erythroparvovirus 1	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	Bos taurus	-	-
-alignment/AL_UNC_ERYTHRO_ROOT_NS/member/fasta-refseqs-erythro-epv/erythro.1-indri	erythro.1-indri	erythro.1-indri	erythro.1-indri	Parvovirinae	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	-	-	-	-
-alignment/AL_UNC_ERYTHRO_ROOT_NS/member/fasta-refseqs-erythro-epv/erythro.2-dolichotis	erythro.2-dolichotis	erythro.2-dolichotis	erythro.2-dolichotis	Parvovirinae	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	Erythroparvovirus	-	-	-	-
 alignment/AL_UNC_ERYTHRO_ROOT_NS/member/fasta-refseqs-erythro/ErythroPV-Giraffe-1	ErythroPV-Giraffe-1	GiEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	Giraffa camelopardalis	-	-
 alignment/AL_UNC_ERYTHRO_ROOT_NS/member/fasta-refseqs-erythro/ErythroPV-Hyaena-1	ErythroPV-Hyaena-1	HhEPV	Ungulate erythroparvovirus 2	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	-	Hyaena hyaena	-	-
 alignment/AL_UNC_ERYTHRO_ROOT_NS/member/ncbi-refseqs/NC_000883	NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	J35	NK	-	-
