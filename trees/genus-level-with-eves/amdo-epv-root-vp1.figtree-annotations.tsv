@@ -1,8 +1,0 @@
-taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/fasta-refseqs-amdo-epv/ap.101-serpentes-UR	ap.101-serpentes-UR	ap.101-serpentes-UR	101	Species	-	R3HDM2	INHBC
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/ncbi-refseqs-amdo/MT770848	MT770848	LAPV	-	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/ncbi-refseqs/NC_001662	NC_001662	AMDV	-	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/ncbi-refseqs-amdo/NC_025825	NC_025825	RFAV	-	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/ncbi-refseqs-amdo/NC_031751	NC_031751	RpAPV	-	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/ncbi-refseqs-amdo/NC_034445	NC_034445	SKAV	-	-	-	-	-
-alignment/AL_UNC_AMDO_ROOT_EVE_VP/member/ncbi-refseqs-amdo/NC_038533	NC_038533	GFAV	-	-	-	-	-

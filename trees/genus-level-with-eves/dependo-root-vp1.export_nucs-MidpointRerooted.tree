@@ -1,0 +1,135 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=33;
+	taxlabels
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.0-macropus'[&clade_ns="Dependo4",clade_vp="Dependo4",country="-",full_name="dependo.0-macropus",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.0-macropus",sample_date="-",sequenceID="dependo.0-macropus",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.1-whippomorpha'[&clade_ns="Dependo2",clade_vp="Dependo2",country="-",full_name="dependo.1-whippomorpha",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.1-whippomorpha",sample_date="-",sequenceID="dependo.1-whippomorpha",subclade_ns="Lemuria",subclade_vp="Lemuria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.160-gymnobelideus'[&clade_ns="Dependo4",clade_vp="Dependo4",country="-",full_name="dependo.160-gymnobelideus",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.160-gymnobelideus",sample_date="-",sequenceID="dependo.160-gymnobelideus",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.174-PipPip'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="dependo.174-Pipistrellus-pipistrellus",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.174-Pipistrellus-pipistrellus",sample_date="-",sequenceID="dependo.174-PipPip",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.180-rhinolophus'[&clade_ns="NK",clade_vp="NK",country="-",full_name="dependo.180-Rhinolophus-sinicus",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.180-Rhinolophus-sinicus",sample_date="-",sequenceID="dependo.180-rhinolophus",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.2-vespertilionidae'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="dependo.2-vespertilionidae",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.2-vespertilionidae",sample_date="-",sequenceID="dependo.2-vespertilionidae",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.28-daubentonia'[&clade_ns="Dependo2",clade_vp="Dependo2",country="-",full_name="dependo.28-daubentonia",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.28-daubentonia",sample_date="-",sequenceID="dependo.28-daubentonia",subclade_ns="Lemuria",subclade_vp="Lemuria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.3-lagomorpha'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="dependo.3-lagomorpha",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.3-lagomorpha",sample_date="-",sequenceID="dependo.3-lagomorpha",subclade_ns="Glires",subclade_vp="Dependo_B",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.36-phyllostomidae'[&clade_ns="Dependo2",clade_vp="Dependo2",country="-",full_name="dependo.36-phyllostomidae",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.36-phyllostomidae",sample_date="-",sequenceID="dependo.36-phyllostomidae",subclade_ns="Lemuria",subclade_vp="Lemuria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.4-rhinocerotidae'[&clade_ns="Dependo2",clade_vp="Dependo2",country="-",full_name="dependo.4-rhinocerotidae",genus="Dependoparvovirus",host_sci_name="-",isolate="-",name="dependo.4-rhinocerotidae",sample_date="-",sequenceID="dependo.4-rhinocerotidae",subclade_ns="Lemuria",subclade_vp="Lemuria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AF028704'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 6",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV6",sample_date="-",sequenceID="AF028704",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AF028705'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 3B",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV3B",sample_date="-",sequenceID="AF028705",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AX753250'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 9",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV9",sample_date="-",sequenceID="AX753250",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AY631966'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 11",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV11",sample_date="-",sequenceID="AY631966",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-C",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/DQ813647'[&clade_ns="Dependo3",clade_vp="Dependo3",country="USA",full_name="Adeno-associated virus 12",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV12",sample_date="-",sequenceID="DQ813647",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-C",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/FJ688147'[&clade_ns="Dependo3",clade_vp="Dependo3",country="Canada",full_name="Adeno-associated virus Po1",genus="Dependoparvovirus",host_sci_name="Sus scrofa",isolate="-",name="AAVpo1",sample_date="-",sequenceID="FJ688147",subclade_ns="Dependoparvovirus-B",subclade_vp="Porcine",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/LY408697'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 11",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV10",sample_date="-",sequenceID="LY408697",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/MF416383'[&clade_ns="Dependo3",clade_vp="Dependo3",country="USA",full_name="Mouse adeno associated virus 1",genus="Dependoparvovirus",host_sci_name="Mus musculus",isolate="MAAV1/NYC/Manhattan/poolF1",name="Mouse-AAV1",sample_date="-",sequenceID="MF416383",subclade_ns="Rodent",subclade_vp="Rodent",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/MK026553'[&clade_ns="Dependo4",clade_vp="Dependo4",country="Australia",full_name="Marsupial adeno-associated virus 1",genus="Dependoparvovirus",host_sci_name="Macropus eugenii",isolate="ex.mar.AAV1",name="Marsupial-AAV",sample_date="-",sequenceID="MK026553",subclade_ns="Marsupial",subclade_vp="Marsupial",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_001729'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 3",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV3",sample_date="-",sequenceID="NC_001729",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_001829'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 4",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="ATCC VR-646",name="AAV4",sample_date="-",sequenceID="NC_001829",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-C",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_002077'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 1",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV1",sample_date="-",sequenceID="NC_002077",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006147'[&clade_ns="Dependo2",clade_vp="Dependo2",country="-",full_name="Muscovy duck parvovirus",genus="Dependoparvovirus",host_sci_name="Cairina moschata",isolate="-",name="MDPV",sample_date="-",sequenceID="NC_006147",subclade_ns="Galloanserae",subclade_vp="Galloanserae",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006148'[&clade_ns="Dependo1",clade_vp="Dependo1",country="Germany",full_name="Snake parvovirus 1",genus="Dependoparvovirus",host_sci_name="Python regius",isolate="-",name="SnakePV",sample_date="-",sequenceID="NC_006148",subclade_ns="Sauria",subclade_vp="Sauria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006152'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 5",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV5",sample_date="-",sequenceID="NC_006152",subclade_ns="Dependoparvovirus-B",subclade_vp="Dependoparvovirus-B",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006260'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 7",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV7",sample_date="-",sequenceID="NC_006260",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006261'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 8",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV8",sample_date="-",sequenceID="NC_006261",subclade_ns="Dependoparvovirus-A",subclade_vp="Dependoparvovirus-A",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006263'[&clade_ns="Dependo2",clade_vp="Dependo2",country="USA",full_name="Avian adeno-associated virus strain DA-1",genus="Dependoparvovirus",host_sci_name="Cell culture",isolate="-",name="AvAAV-da1",sample_date="-",sequenceID="NC_006263",subclade_ns="Galloanserae",subclade_vp="Galloanserae",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_014468'[&clade_ns="Dependo3",clade_vp="Dependo3",country="China",full_name="Bat adeno-associated virus YNM",genus="Dependoparvovirus",host_sci_name="Myotis ricketti",isolate="-",name="AAV-bat",sample_date="-",sequenceID="NC_014468",subclade_ns="Chiroptera",subclade_vp="Chiroptera",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_027429'[&clade_ns="Dependo1",clade_vp="Dependo1",country="Hungary",full_name="Bearded dragon parvovirus strain 2014",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="BdrPV",sample_date="-",sequenceID="NC_027429",subclade_ns="Sauria",subclade_vp="Sauria",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_038539'[&clade_ns="Dependo3",clade_vp="Dependo3",country="USA: California",full_name="California sea lion adeno-associated virus 1",genus="Dependoparvovirus",host_sci_name="Zalophus californianus",isolate="1187",name="AAV-sealion",sample_date="-",sequenceID="NC_038539",subclade_ns="Carnivore",subclade_vp="Carnivore",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_040671'[&clade_ns="Dependo2",clade_vp="Dependo2",country="China",full_name="Avian adeno-associated virus isolate MHH-05-2015",genus="Dependoparvovirus",host_sci_name="Cell culture",isolate="MHH-05-2015",name="AvAAV-mhh",sample_date="-",sequenceID="NC_040671",subclade_ns="Galloanserae",subclade_vp="Galloanserae",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs/NC_001401'[&clade_ns="Dependo3",clade_vp="Dependo3",country="-",full_name="Adeno-associated virus 2",genus="Dependoparvovirus",host_sci_name="Homo sapiens",isolate="-",name="AAV2",sample_date="-",sequenceID="NC_001401",subclade_ns="Dependo-A",subclade_vp="Dependo-A",subfamily="Parvovirinae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.3-lagomorpha':1.372381,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/FJ688147':0.102022,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006152':0.098378)[&label=100]:0.233679,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.36-phyllostomidae':0.292264,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.1-whippomorpha':0.311384,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.4-rhinocerotidae':0.22947,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.28-daubentonia':0.25114)[&label=56]:0.028633)[&label=87]:0.05609)[&label=100]:0.790148,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_014468':0.214553,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.174-PipPip':0.297908)[&label=100]:0.311517,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.2-vespertilionidae':0.735905,((('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/MF416383':0.679811,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.160-gymnobelideus':0.511644,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.0-macropus':0.278529)[&label=100]:0.203603,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/MK026553':0.29035)[&label=99]:0.111764)[&label=14]:0.028964,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_038539':0.790856)[&label=4]:0.02784,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_027429':0.25662,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006148':0.411241)[&label=100]:0.408,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_040671':0.362532,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006263':0.385575,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006147':0.596829)[&label=62]:0.076679)[&label=89]:0.136227)[&label=90]:0.070512)[&label=34]:0.045197)[&label=15]:0.057333,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/fasta-refseqs-dependo-epv/dependo.180-rhinolophus':1.039144,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_001829':0.150338,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/DQ813647':0.156373,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AY631966':0.123678)[&label=83]:0.040764)[&label=100]:0.261837,((('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_001729':0.003308,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AF028705':3.88E-4)[&label=100]:0.125924,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs/NC_001401':0.175144)[&label=88]:0.044133,(('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006260':0.078655,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/LY408697':0.058744,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AX753250':0.095043,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_006261':0.072274)[&label=91]:0.026533)[&label=99]:0.028492)[&label=98]:0.044978,('alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/AF028704':0.017365,'alignment/AL_UNC_DEPENDO_ROOT_VP/member/ncbi-refseqs-dependo/NC_002077':0.014133)[&label=100]:0.095829)[&label=95]:0.030071)[&label=100]:0.144347)[&label=91]:0.12762)[&label=13]:0.004295)[&label=39]:0.04995)[&label=46]:0.130726)[&label=65]:0.024331):0.123935);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

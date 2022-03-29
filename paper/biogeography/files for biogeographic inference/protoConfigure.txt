@@ -1,5 +1,0 @@
-treefile = protoexport.tre
-datafile = protoData.txt
-areanames = NAm SAm Car Eur NAfr Asia Aust
-ancstate = _all_
-states

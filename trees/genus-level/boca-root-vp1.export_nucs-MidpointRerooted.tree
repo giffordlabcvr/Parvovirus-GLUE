@@ -1,1 +1,108 @@
-(alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs/NC_001540:1.033114577692684388225,(alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JF429835:0.80784921462191883190,((alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682922:0.28121422647068800016,alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682923:0.24453583233934542140)100:0.32411888410919603709,(alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JN420361:0.35132244697460807137,alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_004442:0.49900086550258931917)100:0.16261595255876726274)100:0.35017246969127330258):0.021325289940054503735);
+#NEXUS
+begin taxa;
+	dimensions ntax=6;
+	taxlabels
+	'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JF429835'[&clade_ns="NK",clade_vp="NK",country="Hong Kong",full_name="Porcine bocavirus 4-1",genus="Bocaparvovirus",host_sci_name="Sus scrofa",isolate="-",name="Sus-ArtBoV4-1",sample_date="-",sequenceID="JF429835",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JN420361'[&clade_ns="NK",clade_vp="NK",country="USA: California",full_name="California sea lion bocavirus 1",genus="Bocaparvovirus",host_sci_name="Zalophus californianus",isolate="1153",name="Zac-PnBov1",sample_date="-",sequenceID="JN420361",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682922'[&clade_ns="NK",clade_vp="NK",country="China",full_name="Rhinolophus pusillus bocaparvovirus 1",genus="Bocaparvovirus",host_sci_name="Rhinolophus pusillus",isolate="-",name="Rp-BtBoV1",sample_date="-",sequenceID="MF682922",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682923'[&clade_ns="NK",clade_vp="NK",country="China",full_name="Rhinolophus pusillus bocaparvovirus 2",genus="Bocaparvovirus",host_sci_name="Rhinolophus pusillus",isolate="-",name="Rp-BtBoV2",sample_date="-",sequenceID="MF682923",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_004442'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Canine minute virus",genus="Bocaparvovirus",host_sci_name="Canis familiaris",isolate="-",name="CanFam-CarBV1",sample_date="-",sequenceID="NC_004442",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs/NC_001540'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Bovine parvovirus",genus="Bocaparvovirus",host_sci_name="Bos taurus",isolate="-",name="BPV",sample_date="-",sequenceID="NC_001540",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs/NC_001540':1.033115,('alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JF429835':0.807849,(('alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682922':0.281214,'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682923':0.244536)[&label=100]:0.324119,('alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JN420361':0.351322,'alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_004442':0.499001)[&label=100]:0.162616)[&label=100]:0.350172):0.021325);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

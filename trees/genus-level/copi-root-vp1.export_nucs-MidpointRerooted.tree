@@ -1,1 +1,109 @@
-((((alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/MN615703:0.63125952069341484396,alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs/NC_006259:0.32596728794094109727)100:0.12721514009076095864,alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_055518:0.76237516882410305552)100:0.42494494962964290963,(alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/KM035804:0.92815528507039890549,alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_031959:0.72222124874605397871)98:0.11666681148743386631)100:0.070025314998580445725,(alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_014665:0.66254829728584763160,alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_023860:0.98452986899161898382)100:0.272815564460707427055);
+#NEXUS
+begin taxa;
+	dimensions ntax=7;
+	taxlabels
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/KM035804'[&clade_ns="NK",clade_vp="NK",country="USA",full_name="Sesavirus",genus="Copiparvovirus",host_sci_name="Sea lion",isolate="-",name="SesaPv",sample_date="-",sequenceID="KM035804",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/MN615703'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Ungulate copiparvovirus 3",genus="Copiparvovirus",host_sci_name="Bos taurus",isolate="JB9",name="BosCopiPV",sample_date="-",sequenceID="MN615703",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_014665'[&clade_ns="NK",clade_vp="NK",country="USA",full_name="Ungulate copiparvovirus 2",genus="Copiparvovirus",host_sci_name="Sus scrofa",isolate="-",name="PPV4",sample_date="-",sequenceID="NC_014665",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_023860'[&clade_ns="NK",clade_vp="NK",country="China",full_name="Ungulate copiparvovirus 4 (PPV6)",genus="Copiparvovirus",host_sci_name="Sus scrofa",isolate="TJ",name="PPV6",sample_date="-",sequenceID="NC_023860",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_031959'[&clade_ns="NK",clade_vp="NK",country="USA",full_name="Ungulate copiparvovirus 5 Bosavirus",genus="Copiparvovirus",host_sci_name="NK",isolate="-",name="Bosavirus",sample_date="-",sequenceID="NC_031959",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_055518'[&clade_ns="NK",clade_vp="NK",country="Belgium",full_name="Roe deer copiparvovirus",genus="Copiparvovirus",host_sci_name="Roe deer",isolate="BE1801",name="Roe",sample_date="-",sequenceID="NC_055518",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+	'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs/NC_006259'[&clade_ns="NK",clade_vp="NK",country="-",full_name="Bovine parvovirus 2",genus="Copiparvovirus",host_sci_name="NK",isolate="-",name="BPV2",sample_date="-",sequenceID="NC_006259",subclade_ns="NK",subclade_vp="NK",subfamily="Parvovirinae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((('alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/MN615703':0.63126,'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs/NC_006259':0.325967)[&label=100]:0.127215,'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_055518':0.762375)[&label=100]:0.424945,('alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/KM035804':0.928155,'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_031959':0.722221)[&label=98]:0.116667)[&label=100]:0.070025,('alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_014665':0.662548,'alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_023860':0.98453)[&label=100]:0.272816);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
