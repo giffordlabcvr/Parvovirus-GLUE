@@ -6,15 +6,15 @@ project parvoviridae
   #run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
 
   # Genus-level
-  run file glue/analysis/phylogeny/genus/protoCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/amdoCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/aveCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/tetraCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/erythroCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/dependoCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/copiCreateRootPhylogenies.glue  
-  run file glue/analysis/phylogeny/genus/bocaCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/genus/chaphamaCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/protoCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/amdoCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/aveCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/tetraCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/erythroCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/dependoCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/copiCreateRootPhylogenies.glue  
+  #run file glue/analysis/phylogeny/genus/bocaCreateRootPhylogenies.glue
+  #run file glue/analysis/phylogeny/genus/chaphamaCreateRootPhylogenies.glue
 
   # Root-level with EPVs
   #run file glue/analysis/phylogeny/core/epvCreateRootPhylogenies.glue
@@ -26,4 +26,12 @@ project parvoviridae
   #run file glue/analysis/phylogeny/core/parvovirinaeRerootPhylogenies.glue
   #run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
 
+  # EPV ortholog phylogenies
+  run script glue/analysis/phylogeny/epv/epvAmdoCreateTipPhylogenies.js
+  run script glue/analysis/phylogeny/epv/epvErythroCreateTipPhylogenies.js
+  run script glue/analysis/phylogeny/epv/epvDependoCreateTipPhylogenies.js
+  run script glue/analysis/phylogeny/epv/epvProtoCreateTipPhylogenies.js
+  run script glue/analysis/phylogeny/epv/epvIchthamaCreateTipPhylogenies.js
+
   exit
+
