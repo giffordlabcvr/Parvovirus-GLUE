@@ -21,7 +21,9 @@
 	<primaryAccession>KT965075</primaryAccession>
 	<primaryAccession>U34255</primaryAccession>
 	<primaryAccession>MZ813278</primaryAccession>
-	
+	<primaryAccession>XM_039762195</primaryAccession>
+	<primaryAccession>XM_039761881</primaryAccession>
+
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>

@@ -12,6 +12,17 @@
 	<primaryAccession>MF682923</primaryAccession>
 	<primaryAccession>JF429835</primaryAccession>
 	<primaryAccession>MF682922</primaryAccession>
+	<primaryAccession>MN871711</primaryAccession>
+	<primaryAccession>NC_040533</primaryAccession>
+	<primaryAccession>NC_055487</primaryAccession>
+	<primaryAccession>MN091929</primaryAccession>
+	<primaryAccession>MT150090</primaryAccession>	
+	<primaryAccession>MG905225</primaryAccession>
+	<primaryAccession>NC_035185</primaryAccession>
+	<primaryAccession>NC_035186</primaryAccession>
+	<primaryAccession>MW824450</primaryAccession>
+	<primaryAccession>MK513525</primaryAccession>
+
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

@@ -45,6 +45,6 @@ project parvoviridae
   exit
 
 # Build genus-level paleovirus components of project
-run file buildGenusLevelPaleoProjects.glue
+#run file buildGenusLevelPaleoProjects.glue
 
 
