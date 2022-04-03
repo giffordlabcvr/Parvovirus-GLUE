@@ -3,5 +3,16 @@ alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JF429835	JF429835	Sus-Art
 alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/JN420361	JN420361	Zac-PnBov1	California sea lion bocavirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	1153	Zalophus californianus	-	USA: California
 alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682922	MF682922	Rp-BtBoV1	Rhinolophus pusillus bocaparvovirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rhinolophus pusillus	-	China
 alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682923	MF682923	Rp-BtBoV2	Rhinolophus pusillus bocaparvovirus 2	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rhinolophus pusillus	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MF682925	MF682925	Rol-BtBoV1	Rousettus leschenaultii bocaparvovirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rousettus leschenaultii	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MG905225	MG905225	Rat-Bv	Rat bocavirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Rattus norvegicus	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MK513525	MK513525	Devil-BV-1	Tasmanian devil-associated bocavirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Sarcophilus harrisii	-	Australia: Maria Island, Tasmania
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MN091929	MN091929	Pri-Bv-3	Primate bocaparvovirus 3	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	MmBOV	Macaca mulatta	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MN871711	MN871711	Sq-Bv	Squirrel bocaparvovirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	SQBOV/KM/2017	Callosciurus phayrei	-	China
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MT150090	MT150090	Rabbit-Bv	Rabbit bocavirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	rab049bov01	Oryctolagus cuniculus	-	-
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/MW824450	MW824450	ElaCepBv	Elaphodus cephalophus bocavirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	tdf70	Elaphodus cephalophus	-	China
 alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs/NC_001540	NC_001540	BPV	Bovine parvovirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Bos taurus	-	-
 alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_004442	NC_004442	CanFam-CarBV1	Canine minute virus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	-	Canis familiaris	-	-
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_035185	NC_035185	Cam-Bv-1	Dromedary camel bocaparvovirus 1	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	16C-F	Camelus dromedarius	-	United Arab Emirates: Dubai
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_035186	NC_035186	Cam-Bv-2	Dromedary camel bocaparvovirus 2	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	54C-F	Camelus dromedarius	-	United Arab Emirates: Dubai
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_040533	NC_040533	Lup-Bv	Lupine bocavirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	South Douro	Canis lupus	-	Portugal
+alignment/AL_UNC_BOCA_ROOT_VP/member/ncbi-refseqs-boca/NC_055487	NC_055487	Mur-Bv	Murine bocavirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	MBV/NYC/2014/Q055/1700	Mus musculus	-	USA

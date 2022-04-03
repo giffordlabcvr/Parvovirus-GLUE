@@ -233,7 +233,7 @@
 
  	add feature-location Rep78
 	feature-location Rep78
-	  add segment 1103 2019
+	  add segment 103 2019
 	  exit
 
  	add feature-location Boca_NP
@@ -386,10 +386,9 @@
 	  add segment 327 2048
 	  exit
 
-
  	add feature-location VP1
 	feature-location VP1
-	  add segment 2483 4328
+	  add segment 2483 4327
 	  exit
     
     exit
