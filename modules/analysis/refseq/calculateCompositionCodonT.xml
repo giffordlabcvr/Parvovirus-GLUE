@@ -1,0 +1,13 @@
+<ecmaFunctionInvoker>
+
+	<scriptFileName>calculateCompositionCodonT.js</scriptFileName>
+	
+	<function>
+		<name>calculateCompositionCodonT</name>
+	
+		<tableFromObjectsResultType/>
+	</function>
+	
+</ecmaFunctionInvoker>
+
+
