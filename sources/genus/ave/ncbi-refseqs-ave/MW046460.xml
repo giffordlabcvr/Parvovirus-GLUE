@@ -9,7 +9,7 @@
     <GBSeq_division>ENV</GBSeq_division>
     <GBSeq_update-date>27-MAR-2021</GBSeq_update-date>
     <GBSeq_create-date>27-MAR-2021</GBSeq_create-date>
-    <GBSeq_definition>MAG: Ara ararauna aveparvovirus isolate par085par04 genomic sequence</GBSeq_definition>
+    <GBSeq_definition>MAG: Ara ararauna aveparvovirus isolate par085par04 genomic sequence, sequence</GBSeq_definition>
     <GBSeq_primary-accession>MW046460</GBSeq_primary-accession>
     <GBSeq_accession-version>MW046460.1</GBSeq_accession-version>
     <GBSeq_other-seqids>
@@ -24,7 +24,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Ara ararauna aveparvovirus (bird metagenome)</GBSeq_source>
     <GBSeq_organism>Ara ararauna aveparvovirus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Aveparvovirus; unclassified Aveparvovirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Aveparvovirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

@@ -9,6 +9,7 @@
 	<primaryAccession>NC_038534</primaryAccession>
 	<primaryAccession>NC_040672</primaryAccession>
 	<primaryAccession>MW046460</primaryAccession>
+	<primaryAccession>MG745672</primaryAccession>
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
