@@ -18,6 +18,14 @@
 		<propertyPopulator property="gb_update_date"/>
 	</gbUpdateDate>
 
+
+	<!-- #### ORGANISM -->			
+	<gbOrganism>
+		<propertyPopulator property="full_name">
+		</propertyPopulator>
+	</gbOrganism>
+
+
 	
 	<gbFeature key="source">
 	
@@ -43,7 +51,7 @@
 
 				<!-- #### MUSTELIDS -->
 				<valueConverter>
-					<matchPattern>.*[mM]ink.*</matchPattern>
+					<matchPattern>.*^[mM]ink.*</matchPattern>
 					<outputTemplate>Neovison vison</outputTemplate>
 				</valueConverter>
 				<valueConverter>
@@ -58,15 +66,159 @@
 					<matchPattern>.*[aA]merican mink.*</matchPattern>
 					<outputTemplate>Neovison vison</outputTemplate>
 				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[rR]accoon dog.*</matchPattern>
-					<outputTemplate>Nyctereutes procyonoides</outputTemplate>
-				</valueConverter>
+				
+				
 				<valueConverter>
 					<matchPattern>[aA]rctic fox</matchPattern>
+					<matchPattern>[bB]lue fox</matchPattern>
 					<outputTemplate>Vulpes lagopus</outputTemplate>
 				</valueConverter>
+							
+				<valueConverter>
+					<matchPattern>.*[rR]ed [pP]anda.*</matchPattern>
+					<outputTemplate>Ailurus fulgens</outputTemplate>
+				</valueConverter>
+								
+				<valueConverter>
+					<matchPattern>.*^[cC]at.*</matchPattern>
+					<matchPattern>.*^[cC]at;</matchPattern>
+					<matchPattern>.*^[dD]omestic [cC]at.*</matchPattern>
+					<matchPattern>.*^[fF]elix catus</matchPattern>
+					<matchPattern>.*^[fF]elis catus</matchPattern>
+					<matchPattern>.*^[fF]eline.*</matchPattern>
+					<matchPattern>.*^[hH]ealth cat.*</matchPattern>
+					<outputTemplate>Felis catus</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[mM]ountain [lL]ion.*</matchPattern>
+					<outputTemplate>Puma concolor</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[tT]iger.*</matchPattern>
+					<matchPattern>.*^[sS]outh [cC]hina [tT]iger.*</matchPattern>
+					<outputTemplate>Panthera tigris</outputTemplate>
+				</valueConverter>
 
+				
+				<valueConverter>
+					<matchPattern>.*^[lL]ion.*</matchPattern>
+					<outputTemplate>Panthera leo</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[jJ]aguar.*</matchPattern>
+					<outputTemplate>Panthera onca</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[sS]erval.*</matchPattern>
+					<outputTemplate>Leptailurus serval</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[lL]untra luntra.*</matchPattern>
+					<outputTemplate>Luntra luntra</outputTemplate>
+				</valueConverter>
+	
+				
+				<valueConverter>
+					<matchPattern>.*^[gG]uigna.*</matchPattern>
+					<outputTemplate>Leopardus guigna</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[oO]celot.*</matchPattern>
+					<outputTemplate>Leopardus pardalis</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[aA]frican black footed cat.*</matchPattern>
+					<outputTemplate>Felis nigripes</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*^[aA]cinonyx jubatus (Cheetah).*</matchPattern>
+					<matchPattern>.*^[cC]heetah.*</matchPattern>					
+					<outputTemplate>Acinonyx jubatus</outputTemplate>
+				</valueConverter>
+			
+				<valueConverter>
+					<matchPattern>.*^[gG]iant panda.*</matchPattern>
+					<outputTemplate>Ailuropoda melanoleuca</outputTemplate>
+				</valueConverter>
+			
+				<valueConverter>
+					<matchPattern>.*^[aA]sian palm civet.*</matchPattern>
+					<outputTemplate>Paradoxurus hermaphroditus</outputTemplate>
+				</valueConverter>
+
+
+								
+				<valueConverter>
+					<matchPattern>.*^[dD]omestic [dD]og.*</matchPattern>
+					<matchPattern>.*^[wW]ild [dD]og.*</matchPattern>
+					<matchPattern>.*^[cC]hinese Rural dog</matchPattern>
+					<matchPattern>.*^[dD]og.*</matchPattern>
+					<matchPattern>.*^[cC]anis lupus familiaris</matchPattern>
+					<matchPattern>.*^[cC]anine.*</matchPattern>
+					<matchPattern>.*^[cC]anis.*</matchPattern>
+					<matchPattern>.*^[gG]erman Shepherd Dog.*</matchPattern>
+					<matchPattern>.*^[gG]olden Retriever.*</matchPattern>
+					<matchPattern>.*^[lL]abrador Retriever.*</matchPattern>
+					<matchPattern>.*^[pP]oodle.*</matchPattern>
+					<matchPattern>.*^[pP]omeranyiany.*</matchPattern>
+					<matchPattern>.*^[pP]it bull.*</matchPattern> 
+					<matchPattern>.*^[pP]ug.*</matchPattern>
+					<matchPattern>.*^[pP]uppy.*</matchPattern>
+					<matchPattern>.*^[sS]iberian [hH]usky.*</matchPattern>
+					<matchPattern>.*^[rR]ottweiler.*</matchPattern>
+					<matchPattern>.*^[wW]elsh Corgi.*</matchPattern>
+					<matchPattern>.*^[gG]reat Pyrenees.*</matchPattern>
+					<matchPattern>.*^[sS]hih Tzu.*</matchPattern>
+					<matchPattern>.*^[sS]pringer Spaniel.*</matchPattern>
+					<matchPattern>.*^[aA]laskan Malamute.*</matchPattern> 			 
+					<outputTemplate>Canis familiaris</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^Canis lupus (Gray wolf).*</matchPattern>					
+					<matchPattern>.*^[wW]olf.*</matchPattern>
+					<outputTemplate>Canis lupus</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^[rR]ed fox.*</matchPattern>					
+					<outputTemplate>Vulpes vulpes</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^[cC]hinese pangolin.*</matchPattern>					
+					<outputTemplate>Manis pentadactyla</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^[mM]ouse.*</matchPattern>					
+					<outputTemplate>Mus musculus</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^[mM]asked civet.*</matchPattern>					
+					<outputTemplate>Paguma larvata</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^[sS]mall Indian civet.*</matchPattern>					
+					<outputTemplate>Viverricula indica</outputTemplate>
+				</valueConverter>
+
+				<valueConverter>
+					<matchPattern>.*^[nN]yctereutes procyonoides</matchPattern>
+					<matchPattern>.*^[rR]acoon dog</matchPattern>
+					<matchPattern>.*^[rR]accoon dog</matchPattern>					
+					<outputTemplate>Nyctereutes procyonoides</outputTemplate>
+				</valueConverter>
 
 				<!-- #### Avian -->																																									
 				<valueConverter>
@@ -107,13 +259,14 @@
 
 				<!-- #### Porcine -->																																									
 				<valueConverter>
-					<matchPattern>.*[Pp]ig.*</matchPattern>
-					<matchPattern>.*[Pp]iglet.*</matchPattern>
-					<matchPattern>.*[Ss]wine.*</matchPattern>
+					<matchPattern>.*^[Pp]ig.*</matchPattern>
+					<matchPattern>.*^[Pp]iglet.*</matchPattern>
+					<matchPattern>.*^[Ss]wine.*</matchPattern>
 					<matchPattern>.*Sus scrofa domesticus*</matchPattern>
 					<matchPattern>.*Sus scrofa*</matchPattern>
 					<matchPattern>.*[Pp]orcine.*</matchPattern>
 					<matchPattern>.*[Ww]ild boar.*</matchPattern>
+					<matchPattern>.*^[hH]og.*</matchPattern>
 					<outputTemplate>Sus scrofa</outputTemplate>
 				</valueConverter>
 
@@ -127,14 +280,19 @@
 					<outputTemplate>Bos taurus</outputTemplate>
 				</valueConverter>	
 
+				<valueConverter>
+					<matchPattern>.*^[yY]ak$.*</matchPattern>					
+					<outputTemplate>Bos grunniens</outputTemplate>
+				</valueConverter>
+
 				<!-- #### Primate -->																																													
 				<valueConverter>
 					<matchPattern>.*[Rr]hesus monkey.*</matchPattern>
 					<outputTemplate>Macaca mulatta</outputTemplate>
 				</valueConverter>	
 	
-				
 			</propertyPopulator>
+			
 		</gbQualifier>
 
 		
