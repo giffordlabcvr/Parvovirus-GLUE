@@ -2,12 +2,10 @@
   ### Define constrained alignment tree for the Parvoviridae
 
   #~# Root (Family)
-  
   create alignment AL_Parvoviridae_MASTER -r REF_MASTER_Proto_CPV
   alignment AL_Parvoviridae_MASTER add member --allSequences
 
   #~# Subfamily
-  
   alignment AL_Parvoviridae_MASTER
   
 	extract child AL_Parvovirinae      --refName REF_MASTER_Proto_CPV        # NC_001539
@@ -16,25 +14,16 @@
     extract child AL_Densovirinae      --refName REF_MASTER_Ambidenso_JcDNV  # NC_004284
 	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
 	
-    extract child AL_Hamaparvovirinae  --refName REF_MASTER_Hepandenso_FCDNV # NC_014357
-	demote member AL_Hamaparvovirinae  --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 
-	
+    extract child AL_Hamaparvovirinae  --refName REF_MASTER_Chaphama_PPV7 # NC_040562
+	demote member AL_Hamaparvovirinae  --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 	
     exit
-
-
-
 
   alignment AL_Hamaparvovirinae
   
-	extract child AL_GENUS_Chaphama --r REF_MASTER_Chaphama_PPV7
-	demote member AL_GENUS_Chaphama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
-  
-	extract child AL_GENUS_Ichthama --r REF_MASTER_Ichthama_SynChPV
-	demote member AL_GENUS_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
-	
+	extract child AL_CROSS_GENUS_Chaphama_Ichthama --r REF_MASTER_Chaphama_PPV7
+	demote member AL_CROSS_GENUS_Chaphama_Ichthama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
+	demote member AL_CROSS_GENUS_Chaphama_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
     exit
-
-
 
 
   #~# Cross-genus
@@ -53,12 +42,8 @@
 	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Dependoparvovirus'"
 	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Copiparvovirus'"
 	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
-	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Artiparvovirus'"
-
- 
+	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Artiparvovirus'" 
     exit
-
-
 
 
   #~# Genus
@@ -69,7 +54,6 @@
 
 	extract child AL_GENUS_Proto  --refName REF_MASTER_Proto_CPV        # NC_001539
 	demote member AL_GENUS_Proto  --whereClause "sequence.genus = 'Protoparvovirus'" 		
-
     exit
 
 
@@ -81,7 +65,6 @@
 	extract child AL_GENUS_Boca --r REF_MASTER_Boca_BPV  # NC_001540
 	demote member AL_GENUS_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"	
     exit
-
 
 
   alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
@@ -100,19 +83,25 @@
 	 
  	extract child AL_GENUS_Arti --r REF_MASTER_Arti_Aj_BtPV
 	demote member AL_GENUS_Arti --whereClause "sequence.genus = 'Artiparvovirus'"
-
     exit
 
+
+  alignment AL_CROSS_GENUS_Chaphama_Ichthama
+
+	extract child AL_GENUS_Chaphama --r REF_MASTER_Chaphama_PPV7
+	demote member AL_GENUS_Chaphama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
+  
+	extract child AL_GENUS_Ichthama --r REF_MASTER_Ichthama_SynChPV
+	demote member AL_GENUS_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
+    exit
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
   
-
   #~# Family level
   alignment AL_Parvoviridae_MASTER
     derive segments AL_UNC_ROOT          -a --mergeStrategy OVERWRITE
     exit
-
 
   #~# Subfamily level
   alignment AL_Parvovirinae
@@ -122,7 +111,7 @@
   alignment AL_Hamaparvovirinae
     derive segments AL_UNC_HAMAPARVOVIRINAE  -a --mergeStrategy OVERWRITE
     exit
- 
+
   alignment AL_Densovirinae
     derive segments AL_UNC_DENSOPARVOVIRINAE  -a --mergeStrategy OVERWRITE
     exit
@@ -141,4 +130,7 @@
     derive segments AL_UNC_Erythro_Dependo_Copi_Tetra -a --mergeStrategy OVERWRITE
     exit
 
+  alignment AL_CROSS_GENUS_Chaphama_Ichthama
+    derive segments AL_UNC_Chaphama_Ichthama -a --mergeStrategy OVERWRITE
+    exit
 
