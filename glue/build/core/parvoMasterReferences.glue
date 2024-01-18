@@ -15,16 +15,19 @@
 
  
   ## Densovirinae    
-  create reference REF_MASTER_Ambidenso_JcDNV     ncbi-refseqs NC_004284
-  create reference REF_MASTER_Ambidenso_PfDNV     ncbi-refseqs NC_000936
-  create reference REF_MASTER_Iteradenso_BmDNV-5  ncbi-refseqs NC_004287
-  create reference REF_MASTER_Hepandenso_FCDNV    ncbi-refseqs NC_014357
+  create reference REF_MASTER_Ambidenso_JcDNV        ncbi-refseqs NC_004284
+  create reference REF_MASTER_Pefuambidenso_PfDNV    ncbi-refseqs NC_000936 
+  create reference REF_MASTER_Iteradenso_BmDNV5      ncbi-refseqs NC_004287
+  create reference REF_MASTER_Protoambidenso_GmDV    ncbi-refseqs NC_004286
+  create reference REF_MASTER_Scindoambidenso_PcDV   ncbi-refseqs NC_004289
+  create reference REF_MASTER_Blattambidenso_BgDV    ncbi-refseqs NC_005041
+  create reference REF_MASTER_Miniambidenso_AdMADV   ncbi-refseqs NC_022564
+  create reference REF_MASTER_Aquiambidenso_AaDV     ncbi-refseqs NC_038532
 
 
   ## Hamaparvovirinae    
-  create reference REF_MASTER_Brevidenso_AalDNV-2 ncbi-refseqs NC_004285
+  create reference REF_MASTER_Brevidenso_AalDNV2  ncbi-refseqs NC_004285
   create reference REF_MASTER_Penstyldenso_IHHN   ncbi-refseqs NC_002190
   create reference REF_MASTER_Chaphama_PPV7       ncbi-refseqs NC_040562
   create reference REF_MASTER_Ichthama_SynChPV    ncbi-refseqs MN049932
-
-  
+  create reference REF_MASTER_Hepandenso_FCDNV    ncbi-refseqs NC_014357
