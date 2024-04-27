@@ -7,7 +7,6 @@ NC_004287	BmDNV-5	Bombyx mori densovirus 5	Densovirinae	Iteradensoparvovirus	NK	
 NC_004289	PcDV	Planococcus citri densovirus	Densovirinae	Scindoambidensovirus	NK	NK	NK	NK	NK	NK	NK
 NC_022564	AdMADV	Acheta domesticus mini ambidensovirus	Densovirinae	Miniambidensovirus	NK	NK	NK	NK	NK	NK	NK
 NC_004286	GmDV	Galleria mellonella densovirus	Densovirinae	Protoambidensovirus	NK	NK	NK	NK	NK	NK	NK
-MN162688	IcthPV	Ichthyic parvovirus	Hamaparvovirinae	Ichthamaparvovirus	NK	NK	NK	NK	NK	NK	NK
 NC_004285	AalDNV-2	Aedes albopictus densovirus 2	Hamaparvovirinae	Brevidensoparvovirus	NK	NK	NK	NK	NK	NK	NK
 NC_040562	PPV7	Porcine parvovirus 7	Hamaparvovirinae	Chaphamaparvovirus	NK	NK	NK	NK	NK	NK	NK
 NC_014357	FCDNV	Fenneropenaeus chinensis hepatopancreatic densovirus	Hamaparvovirinae	Hepandensoparvovirus	NK	NK	NK	NK	NK	NK	NK
@@ -17,7 +16,7 @@ NC_001662	AMDV	Aleutian mink disease virus	Parvovirinae	Amdoparvovirus	NK	NK	NK	
 NC_024452	ChPV	Chicken parvovirus	Parvovirinae	Aveparvovirus	NK	NK	NK	NK	NK	NK	Gallus_gallus
 NC_001540	BPV	Bovine parvovirus	Parvovirinae	Bocaparvovirus	NK	NK	NK	NK	NK	NK	Bos taurus
 NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	NK	NK
-NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	Dependo3	Dependo-A	Dependo3	Dependo-A	Dependo3	Dependo-A	Homo sapiens
+NC_001401	AAV2	Adeno-associated virus 2	Parvovirinae	Dependoparvovirus	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Dependo3	Dependoparvovirus-A	Homo sapiens
 NC_000883	B19	Human parvovirus B19	Parvovirinae	Erythroparvovirus	NK	NK	NK	NK	NK	NK	NK
 KP120516	SlPV	Slow loris parvovirus 1	Parvovirinae	Loriparvovirus	NK	NK	NK	NK	NK	NK	NK
 NC_001539	CPV	Carnivore protoparvovirus	Parvovirinae	Protoparvovirus	Proto1	NK	Proto1	NK	Proto1	Proto1	NK

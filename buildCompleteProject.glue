@@ -25,19 +25,19 @@ project parvoviridae
 project parvoviridae
 
   # Parvovirinae
-  #run file glue/build/genus/ave/buildAveProject.glue
-  #run file glue/build/genus/boca/buildBocaProject.glue
+  run file glue/build/genus/ave/buildAveProject.glue
+  run file glue/build/genus/boca/buildBocaProject.glue
 
-  #run file glue/build/genus/amdo/buildAmdoProject.glue
+  run file glue/build/genus/amdo/buildAmdoProject.glue
   run file glue/build/genus/proto/buildProtoProject.glue
 
-  #run file glue/build/genus/erythro/buildErythroProject.glue
-  #run file glue/build/genus/dependo/buildDependoProject.glue
-  #run file glue/build/genus/copi/buildCopiProject.glue
-  #run file glue/build/genus/tetra/buildTetraProject.glue
+  run file glue/build/genus/erythro/buildErythroProject.glue
+  run file glue/build/genus/dependo/buildDependoProject.glue
+  run file glue/build/genus/copi/buildCopiProject.glue
+  run file glue/build/genus/tetra/buildTetraProject.glue
 
   # Hamaparvovirinae
-  #run file glue/build/genus/chaphama/buildChaphamaProject.glue
+  run file glue/build/genus/chaphama/buildChaphamaProject.glue
   
   # Inherit feature locations
   #run script glue/build/core/refseqsInheritFeatureLocations.js

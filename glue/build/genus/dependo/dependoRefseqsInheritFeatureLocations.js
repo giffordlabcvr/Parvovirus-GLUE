@@ -4,15 +4,14 @@
 var constrainingRef = 'REF_MASTER_Dependo_AAV2';
 
 // Get list of features on master reference
-var featuresToInherit = get_features('REF_MASTER_Dependo_AAV2');
-
-
-//list all alignments constrained by 
-
-
+//var featuresToInherit = get_features('REF_MASTER_Dependo_AAV2');
+var featuresToInherit = [ 'RCR', 'AAP'  ];
 
 //list all dependo reference sequences
 var refSeqObjList = glue.tableToObjects(glue.command(["list", "reference", "name"]));
+
+var refseqs = ['REF_AAV1', 'REF_AAV10', 'REF_AAV11', 'REF_AAV12', 'REF_AAV3a', 'REF_AAV3b', 'REF_AAV4', 'REF_AAV5', 'REF_AAV6', 'REF_AAV7', 'REF_AAV8','REF_AAV9' ]
+
 
 
 _.each(refSeqObjList, function(refSeqObj) {
@@ -20,11 +19,11 @@ _.each(refSeqObjList, function(refSeqObj) {
 	 for(var k = 0; k < featuresToInherit.length; k++) {
 		 var featureID = featuresToInherit[k];
 		 
-		 glue.logInfo(" Inheriting feature: "+featureID+" from AAV2 to "+refSeqObj.name);		
+		 glue.logInfo(" Inheriting feature: "+featureID+" from " +constrainingRef+ " to "+refSeqObj.name);		
 
 		 glue.inMode("reference/"+refSeqObj.name, function() {
 			 glue.command(["inherit", "feature-location", 			
-				 "AL_Dependo3", "-l", "REF_MASTER_Dependo_AAV2", featureID]);
+				 "AL_Dependo_A", "-l", "REF_MASTER_Dependo_AAV2", featureID]);
 		 });			
 		 
 	 }
