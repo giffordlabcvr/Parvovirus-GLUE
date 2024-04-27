@@ -13,6 +13,7 @@
     import AL_UNC_AVE_BOCA                    -f alignments/internal/cross-genus/ave-boca-genome.aln.fna
     import AL_UNC_AMDO_PROTO                  -f alignments/internal/cross-genus/amdo-proto-genome.aln.fna
     import AL_UNC_Erythro_Dependo_Copi_Tetra  -f alignments/internal/cross-genus/erythro-dependo-copi-tetra.aln.fna
-    #import AL_UNC_Chaphama_Ichthama           -f alignments/internal/cross-genus/chaphama-ichthama.aln.fna
+    import AL_UNC_Chaphama_Ichthama           -f alignments/internal/cross-genus/chaphama-ichthama.aln.fna
     
     exit
+
