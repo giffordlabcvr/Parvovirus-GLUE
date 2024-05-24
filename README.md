@@ -1,8 +1,10 @@
 # Parvovirus-GLUE: Phylogenomic Analysis of Parvoviruses
 
+Welcome to Parvovirus-GLUE, a project developed to support the comparative genomic and evolutionary analysis of parvoviruses, developed using the [GLUE](https://github.com/giffordlabcvr/gluetools) software framework.
+
 ## Overview
 
-Parvovirus-GLUE is a sequence-oriented resource for comparative genomic analysis of parvoviruses (family *Parvoviridae*), developed using the [GLUE](https://github.com/giffordlabcvr/gluetools) software framework.
+Parvoviruses (family *Parvoviridae*) are a diverse group of small, non-enveloped DNA viruses that infect a broad range of animal species. This family includes several pathogens of humans and domesticated animals, as well as viruses being developed for therapeutic uses.
 
 GLUE is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data.
 
@@ -16,8 +18,6 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 - [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Genotyping](#genotyping)
-- [Mutation frequencies](#mutation-frequencies)
 - [Data Sources](#data-sources)
 - [Contributing](#contributing)
 - [License](#license)
