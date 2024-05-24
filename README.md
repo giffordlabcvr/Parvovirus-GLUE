@@ -37,15 +37,38 @@ If you have not done so already, install the GLUE software framework by followin
 
 Download the Parvovirus-GLUE repository, navigate into the top-level directory, and start the GLUE command line interpreter.
 
-At the GLUE command prompt, run the 'buildParvovirusProject.glue' file as follows:
+### Steps
+
+1. **Build the Core Project**:
+   
+```
+   Mode path: /
+   GLUE> run file buildCoreProject.glue
+```
+
+This command builds the core project, representing diversity among the parvovirus family via a minimal annotated species reference sequences.
+
+2. **Build Genus-Level Extension Projects**:
 
 ```
-GLUE Version 1.1.107
-Copyright (C) 2015-2020 The University of Glasgow
-This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
-are welcome to redistribute it under certain conditions. For details see
-GNU Affero General Public License v3: http://www.gnu.org/licenses/
+Mode path: /
+GLUE> run file buildGenusLevelProjects.glue
+```
 
+This command constructs genus-level extensions, incorporating a more extensive set of species.
+
+3. **Build Paleovirus Extension Projects**:
+
+```
+Mode path: /
+GLUE> run file buildGenusLevelPaleoProjects.glue
+```
+
+This command builds the paleovirus extension, which includes endogenous viral elements (EVEs) from metazoan genomes, enabling automated alignment and phylogeny reconstruction for individual EPV lineages.
+
+To build all three project layers in one go, run the 'buildParvovirusProject.glue' file as follows:
+
+```
 Mode path: /
 GLUE> run file buildParvovirusProject.glue
 ```
