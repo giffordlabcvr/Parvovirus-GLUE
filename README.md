@@ -25,11 +25,25 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 ## Key Features
 
+
 - **GLUE Framework Integration**: Built on the GLUE software framework, Parvovirus-GLUE offers an extensible platform for efficient, standardized, and reproducible computational genomic analysis of parvoviruses.
 
 - **Phylogenetic Structure**: Sequence data in Parvovirus-GLUE is organized in a phylogenetically-structured manner, allowing users to explore evolutionary relationships easily.
 
 - **Rich Annotations**: Annotated reference sequences enable rigorous comparative genomic analysis related to conservation, adaptation, structural context, and genotype-to-phenotype associations.
+  
+- **Reproducibility**: Ensures fully reproducible analyses through data standards and a relational database.
+  
+- **Reusable Data Objects**: High-value data items such as multiple sequence alignments are prepared once and reused.
+  
+- **Validation**: Enforces high data integrity through cross-validation.
+  
+- **Standardisation of Genomic Coordinates**: All sequences use the coordinate space of a chosen reference sequence.
+  
+- **Predefined Reference Sequences**: Includes fully-annotated reference sequences for parvovirus species.
+  
+- **Alignment Trees**: Links alignments constructed at distinct taxonomic levels, maintaining a standardised coordinate system.
+  
 
 ## Installation
 
