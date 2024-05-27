@@ -1,6 +1,0 @@
-create module -f modules/dependoNcbiImporterEpv.xml dependoNcbiImporterEpv
-
-# Download NCBI sequences 
-module dependoNcbiImporterEpv import
-
-export source ncbi-refseqs-epv

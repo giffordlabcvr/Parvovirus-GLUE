@@ -1,8 +1,0 @@
-
-  #~# Import pre-built alignments of EVE sequences
-  module unconstrainedAlignmentImporter
-
-	#~# Genus-level alignment with EVEs aligns
-	import AL_UNC_EPV_ichthama-root   -f alignments/internal/genus/hamaparvovirinae/ichthama/ichthama-genome+eves.fna
-	exit
-
