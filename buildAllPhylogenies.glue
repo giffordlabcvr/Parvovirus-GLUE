@@ -16,22 +16,10 @@ project parvoviridae
   run file glue/analysis/phylogeny/genus/bocaCreateRootPhylogenies.glue
   run file glue/analysis/phylogeny/genus/chaphamaCreateRootPhylogenies.glue
 
-  # Root-level with EPVs
-  run file glue/analysis/phylogeny/core/epvCreateRootPhylogenies.glue
-  run file glue/analysis/phylogeny/core/epvRerootPhylogenies.glue
-  run file glue/analysis/phylogeny/core/epvRootPhylogeniesExportAnnotations.glue
-
   # Parvovirinae (recursively populated)
   run file glue/analysis/phylogeny/core/parvovirinaeCreatePhylogenies.glue
   run file glue/analysis/phylogeny/core/parvovirinaeRerootPhylogenies.glue
   run file glue/analysis/phylogeny/core/parvoviridaeExportAnnotations.glue
-
-  # EPV ortholog phylogenies
-  run script glue/analysis/phylogeny/epv/epvAmdoCreateTipPhylogenies.js
-  run script glue/analysis/phylogeny/epv/epvErythroCreateTipPhylogenies.js
-  run script glue/analysis/phylogeny/epv/epvDependoCreateTipPhylogenies.js
-  run script glue/analysis/phylogeny/epv/epvProtoCreateTipPhylogenies.js
-  run script glue/analysis/phylogeny/epv/epvIchthamaCreateTipPhylogenies.js
 
   exit
 
