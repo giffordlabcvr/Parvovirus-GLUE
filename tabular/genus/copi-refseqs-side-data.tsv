@@ -1,9 +1,0 @@
-sequenceID	virus_name	virus_full_name	host_species	assign_clade	virus_subfamily	virus_genus	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
-NC_006259	BPV	Bovine parvovirus	Bos taurus	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-MN615703	BosCopiPV	Ungulate copiparvovirus 3	Bos taurus	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-MW256660	EqPv-H	Ungulate copiparvovirus 6 (EqPv-H)	Equus cabalus	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-NC_014665	PPV4	Ungulate copiparvovirus 2	Sus scrofa	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-NC_023860	PPV6	Ungulate copiparvovirus 4 (PPV6)	Sus scrofa	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-NC_031959	Bosavirus	Ungulate copiparvovirus 5 Bosavirus	NK	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-NC_055518	Roe	Roe deer copiparvovirus	Roe deer	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE
-KM035804	SesaPv	Sesavirus	Sea lion	NK	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	NK	FALSE

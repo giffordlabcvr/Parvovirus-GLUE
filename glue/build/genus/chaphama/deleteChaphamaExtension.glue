@@ -1,9 +1,0 @@
-
-  # Delete extension specific components
-  delete alignment AL_UNC_CHAPHAMA_ROOT
-  delete alignment AL_Chaphama
-  multi-delete reference -w "name like '%REF_Chaphama%'"
-
-  #run script glue/build/genus/chaphama/deleteChaphamaIsolateTableRows.js
-  delete source ncbi-refseqs-chaphama
-  delete source fasta-refseqs-chaphama

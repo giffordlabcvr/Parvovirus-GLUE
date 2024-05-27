@@ -1,8 +1,0 @@
-
-  # Delete extension specific components
-  delete alignment AL_UNC_TETRA_ROOT
-  delete alignment AL_Tetra
-  multi-delete reference -w "name like '%REF_Tetra%'"
-  
-  run script glue/build/genus/tetra/deleteTetraIsolateTableRows.js
-  delete source ncbi-refseqs-tetra

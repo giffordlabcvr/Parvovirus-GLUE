@@ -1,3 +1,0 @@
-<fastaExporter>
-	<idTemplate>${sequenceID}.${genus}.${name}</idTemplate>
-</fastaExporter>

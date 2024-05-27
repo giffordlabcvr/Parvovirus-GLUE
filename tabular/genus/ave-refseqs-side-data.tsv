@@ -1,5 +1,0 @@
-sequenceID	virus_name	virus_full_name	host_species	assign_clade	virus_genus	virus_subfamily	assign_subclade	virus_clade_ns	virus_subclade_ns	virus_clade_vp	virus_subclade_vp	lab_construct
-NC_038534	TurkeyAvePV	Turkey parvovirus 260	Meleagris gallopavo	NK	Aveparvovirus	Parvovirinae	NK	NK	NK	NK	NK	FALSE
-NC_040672	CraneAvePV	Red-crowned crane parvovirus	Grus japonensis	NK	Aveparvovirus	Parvovirinae	NK	NK	NK	NK	NK	FALSE
-MW046460	MacawAvePV	Ara ararauna aveparvovirus	Ara ararauna	NK	Aveparvovirus	Parvovirinae	NK	NK	NK	NK	NK	FALSE
-MG745672	FinchAvePV	Pileated finch aveparvovirus	Coryphospingus pileatus	NK	Aveparvovirus	Parvovirinae	NK	NK	NK	NK	NK	FALSE

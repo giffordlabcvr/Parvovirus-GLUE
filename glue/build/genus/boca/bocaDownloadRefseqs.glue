@@ -1,7 +1,0 @@
-delete module ncbiImporter
-create module -f modules/build/genus/boca/bocaNcbiImporterReferences.xml bocaNcbiImporterReferences
-
-# Download NCBI sequences 
-module bocaNcbiImporterReferences import
-
-export source ncbi-refseqs-boca

@@ -1,7 +1,0 @@
-delete module ncbiImporter
-create module -f modules/build/genus/amdo/amdoNcbiImporterReferences.xml ncbiImporter
-
-# Download NCBI sequences 
-module ncbiImporter import
-
-export source ncbi-refseqs-amdo

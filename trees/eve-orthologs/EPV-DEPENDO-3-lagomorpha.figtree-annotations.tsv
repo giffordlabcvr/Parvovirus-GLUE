@@ -1,5 +1,0 @@
-taxon	sequenceID	name	locus_numeric_id	scaffold	num_species	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Lepus_americanus	dependo.3-Lepus_americanus	dependo.3-Lepus_americanus	-	-	-	-	-
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Lepus_timidus	dependo.3-Lepus_timidus	dependo.3-Lepus_timidus	-	-	-	-	-
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Ochotona_princeps	dependo.3-Ochotona_princeps	dependo.3-Ochotona_princeps	-	-	-	-	-
-alignment/AL_EPV-DEPENDO-3-lagomorpha/member/fasta-digs-dependo-epv/dependo.3-Oryctolagus_cuniculus	dependo.3-Oryctolagus_cuniculus	dependo.3-Oryctolagus_cuniculus	-	-	-	-	-

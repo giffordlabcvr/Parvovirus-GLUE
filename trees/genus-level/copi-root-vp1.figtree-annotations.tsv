@@ -1,8 +1,0 @@
-taxon	sequenceID	name	full_name	subfamily	genus	clade_ns	subclade_ns	clade_vp	subclade_vp	isolate	host_sci_name	sample_date	country
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/KM035804	KM035804	SesaPv	Sesavirus	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	-	Sea lion	-	USA
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/MN615703	MN615703	BosCopiPV	Ungulate copiparvovirus 3	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	JB9	Bos taurus	-	-
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs/NC_006259	NC_006259	BPV2	Bovine parvovirus 2	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	-	NK	-	-
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_014665	NC_014665	PPV4	Ungulate copiparvovirus 2	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	-	Sus scrofa	-	USA
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_023860	NC_023860	PPV6	Ungulate copiparvovirus 4 (PPV6)	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	TJ	Sus scrofa	-	China
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_031959	NC_031959	Bosavirus	Ungulate copiparvovirus 5 Bosavirus	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	-	NK	-	USA
-alignment/AL_UNC_COPI_ROOT_VP/member/ncbi-refseqs-copi/NC_055518	NC_055518	Roe	Roe deer copiparvovirus	Parvovirinae	Copiparvovirus	NK	NK	NK	NK	BE1801	Roe deer	-	Belgium
