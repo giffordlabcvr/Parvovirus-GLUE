@@ -12,6 +12,10 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 **Parvovirus-GLUE** contains parvovirus feature definitions, alignments, and reference sequences for all parvovirus species.
 
+This **Parvovirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
+
+  - **[Parvovirus-GLUE-EVE](https://github.com/giffordlabcvr/Parvovirus-GLUE-EVE)**: extends Parvovirus-GLUE through the incorporation of endogenous parvoviral elements.
+
 ## Table of Contents
 
 - [Overview](#overview)
