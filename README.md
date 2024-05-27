@@ -75,23 +75,12 @@ GLUE> run file buildGenusLevelProjects.glue
 
 This command constructs genus-level extensions, incorporating a more extensive set of species.
 
-3. **Build Paleovirus Extension Projects**:
-
-```
-Mode path: /
-GLUE> run file buildGenusLevelPaleoProjects.glue
-```
-
-This command builds the paleovirus extension, which includes endogenous viral elements (EVEs) from metazoan genomes, enabling automated alignment and phylogeny reconstruction for individual EPV lineages.
-
-To build all three project layers in one go, run the 'buildParvovirusProject.glue' file as follows:
+To build both project layers in one go, run the 'buildParvovirusProject.glue' file as follows:
 
 ```
 Mode path: /
 GLUE> run file buildParvovirusProject.glue
 ```
-
-This will build the base project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
 
 ## Usage
 
