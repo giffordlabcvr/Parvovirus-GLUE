@@ -4,9 +4,7 @@ create project parvoviridae "A GLUE project for the Parvoviridae" --minVersion 0
 # Create the database schema
 schema-project parvoviridae
   run file glue/build/core/parvoSchemaExtensions.glue
-  run file glue/build/core/parvoSchemaExtensionsPaleovirus.glue
   exit
-
 
 # Load project settings
 project parvoviridae
