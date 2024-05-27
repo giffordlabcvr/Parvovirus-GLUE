@@ -5,16 +5,16 @@
     add member  --whereClause "source.name = 'ncbi-refseqs-chaphama'"
     demote member AL_Hamaparvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
-    
+
   #~# Subfamily level
   alignment AL_Hamaparvovirinae
-    demote member AL_GENUS_Chaphama  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
+    demote member AL_CROSS_GENUS_Chaphama_Ichthama  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
     
   #~# Genus level
-  # No sublevels yet
-
-
+  alignment AL_CROSS_GENUS_Chaphama_Ichthama
+    demote member AL_GENUS_Chaphama  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
+    exit
 
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_GENUS_Chaphama
