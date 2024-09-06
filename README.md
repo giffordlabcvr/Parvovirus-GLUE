@@ -1,6 +1,6 @@
 # Parvovirus-GLUE: Phylogenomic Analysis of Parvoviruses
 
-Welcome to Parvovirus-GLUE, a project developed to support the comparative genomic and evolutionary analysis of parvoviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+Welcome to Parvovirus-GLUE, a resource for comparative genomic analysis of parvoviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 ## Overview
 
