@@ -10,7 +10,7 @@ Welcome to Parvovirus-GLUE, a resource for comparative genomic analysis of parvo
 
 Projects are loaded into the GLUE "engine," forming a relational database that represents the semantic relationships between data items. This foundation supports systematic comparative analyses and the development of sequence-based resources.
 
-**Parvovirus-GLUE** contains parvovirus feature definitions, alignments, and reference sequences for all parvovirus species.
+**Parvovirus-GLUE** contains genome feature definitions, multiple sequence alignments, and annotated reference sequences for all parvovirus species included in the most recent ICTV report.
 
 This **Parvovirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
 
