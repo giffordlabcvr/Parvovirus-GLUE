@@ -1,4 +1,4 @@
-# Parvovirus-GLUE: Phylogenomic Analysis of Parvoviruses
+# Parvovirus-GLUE
 
 <img src="md/parvo-glue-logo.png" align="right" alt="" width="280"/>
 
