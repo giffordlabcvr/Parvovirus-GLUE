@@ -16,7 +16,7 @@ This **Parvovirus-GLUE**  project can be extended with additional layers, openly
 
   - **[Parvovirus-GLUE-EVE](https://github.com/giffordlabcvr/Parvovirus-GLUE-EVE)**: extends Parvovirus-GLUE through the incorporation of endogenous parvoviral elements.
 
-Please see the [User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki) for more details.
+Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for more details.
 
 ## Table of Contents
 
