@@ -12,9 +12,7 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 **Parvovirus-GLUE** contains genome feature definitions, multiple sequence alignments, and annotated reference sequences for all parvovirus species included in the [most recent ICTV report](https://ictv.global/report/chapter/parvoviridae/parvoviridae).
 
-This **Parvovirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
-
-  - **[Parvovirus-GLUE-EVE](https://github.com/giffordlabcvr/Parvovirus-GLUE-EVE)**: extends Parvovirus-GLUE through the incorporation of endogenous parvoviral elements.
+This **Parvovirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including **[Parvovirus-GLUE-EVE](https://github.com/giffordlabcvr/Parvovirus-GLUE-EVE)**, which extends Parvovirus-GLUE through the incorporation of endogenous parvoviral elements.
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for more details.
 
