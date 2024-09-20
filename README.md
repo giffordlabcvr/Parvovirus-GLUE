@@ -76,13 +76,6 @@ GLUE> run file buildGenusLevelProjects.glue
 
 This command constructs genus-level extensions, incorporating a more extensive set of species.
 
-To build both project layers in one go, run the 'buildParvovirusProject.glue' file as follows:
-
-```
-Mode path: /
-GLUE> run file buildParvovirusProject.glue
-```
-
 ## Usage
 
 GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
