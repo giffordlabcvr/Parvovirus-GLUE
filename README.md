@@ -50,29 +50,7 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/w
 
 ## Installation
 
-If you have not done so already, install the GLUE software framework by following the [installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation) on the GLUE web site: 
-
-Download the Parvovirus-GLUE repository, navigate into the top-level directory, and start the GLUE command line interpreter.
-
-### Steps
-
-1. **Build the Core Project**:
-   
-```
-   Mode path: /
-   GLUE> run file buildCoreProject.glue
-```
-
-This command builds the core project, representing diversity among the parvovirus family via a minimal annotated species reference sequences.
-
-2. **Build Genus-Level Extension Projects**:
-
-```
-Mode path: /
-GLUE> run file buildGenusLevelProjects.glue
-```
-
-This command constructs genus-level extensions, incorporating a more extensive set of species.
+Please see the User Guide for **[installation instructions](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Installation)**.
 
 ## Usage
 
