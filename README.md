@@ -60,9 +60,7 @@ For detailed instructions on how to use Parvovirus-GLUE for your comparative gen
 
 ## Data Sources
 
-Parvovirus-GLUE relies on the following data sources:
-
-- [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
+Parvovirus-GLUE is constructed using data published in the [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) database.
 
 
 ## Contributing
