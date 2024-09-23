@@ -1,5 +1,6 @@
 schema-project parvoviridae
-
+ 
+  # Extend sequence data table with additional fields
   table sequence
     create field name VARCHAR 150  
     create field full_name VARCHAR 200
