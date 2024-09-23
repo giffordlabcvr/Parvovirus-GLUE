@@ -45,9 +45,8 @@ schema-project parvoviridae
   exit 
 
   table member_floc_note
-  	create field ref_nt_coverage_pct DOUBLE
-  	exit
-
+    create field ref_nt_coverage_pct DOUBLE
+    exit
 
   exit
   
