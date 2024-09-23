@@ -1,3 +1,5 @@
+schema-project parvoviridae
+
   table sequence
     create field name VARCHAR 150  
     create field full_name VARCHAR 200
@@ -17,15 +19,6 @@
     create field reverse_complement BOOLEAN
   exit
 
-  table alignment
-    create field clade_category VARCHAR 20
-    create field phylogeny CLOB
-  exit 
-
-  table member_floc_note
-  	create field ref_nt_coverage_pct DOUBLE
-  	exit
-
   # Create schema extension
   create custom-table isolate
 
@@ -44,4 +37,17 @@
 
   create link sequence isolate
 
+  # Utility Tables
+  
+  table alignment
+    create field clade_category VARCHAR 20
+    create field phylogeny CLOB
+  exit 
 
+  table member_floc_note
+  	create field ref_nt_coverage_pct DOUBLE
+  	exit
+
+
+  exit
+  
