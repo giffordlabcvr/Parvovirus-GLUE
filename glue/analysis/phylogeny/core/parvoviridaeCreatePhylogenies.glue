@@ -10,7 +10,7 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_Parvoviridae_MASTER -s alignmentColumnsSelectorParvoRoot \
+    generate nucleotide phylogeny AL_FAMILY_Parvoviridae  -s alignmentColumnsSelectorParvoRoot \
       -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 3" \
       -o trees/family-root/parvoviridae-root-Rep78_nucs.tre NEWICK_BOOTSTRAPS
 

@@ -1,18 +1,18 @@
   ### Constrained alignment tree for the Chaphamaparvovirus genus
 
   #~# Root level (Family)
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae 
     add member  --whereClause "source.name = 'ncbi-refseqs-chaphama'"
-    demote member AL_Hamaparvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-chaphama'"
+    demote member AL_SUBFAMILY_Hamaparvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
 
   #~# Subfamily level
-  alignment AL_Hamaparvovirinae
-    demote member AL_CROSS_GENUS_Chaphama_Ichthama  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
+  alignment AL_SUBFAMILY_Hamaparvovirinae
+    demote member AL_SUPERGENUS_Chaph_Ichth  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
     
   #~# Genus level
-  alignment AL_CROSS_GENUS_Chaphama_Ichthama
+  alignment AL_SUPERGENUS_Chaph_Ichth
     demote member AL_GENUS_Chaphama  -w "sequence.source.name = 'ncbi-refseqs-chaphama'"
     exit
 

@@ -1,6 +1,6 @@
 
   # Add feature locations to genus master reference sequences
-  reference REF_MASTER_Amdo_AMDV
+  reference REF_Amdo_MASTER_AMDV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -26,7 +26,7 @@
 
 
   # Proto
-  reference REF_MASTER_Proto_CPV
+  reference REF_Proto_MASTER_CPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -67,7 +67,7 @@
 
 
 
-  reference REF_MASTER_Dependo_AAV2
+  reference REF_Dependo_MASTER_AAV2
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -199,7 +199,7 @@
 
 
 
-  reference REF_MASTER_Erythro_B19
+  reference REF_Erythro_MASTER_B19
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -245,7 +245,7 @@
 
 
 
-  reference REF_MASTER_Arti_Aj_BtPV
+  reference REF_Arti_MASTER_Aj_BtPV
 
 
  	add feature-location whole_genome
@@ -272,7 +272,7 @@
 
 
 
-  reference REF_MASTER_Lori_SlPV
+  reference REF_Lori_MASTER_SlPV
 
 
  	add feature-location whole_genome
@@ -303,7 +303,7 @@
     exit
 
 
-  reference REF_MASTER_Ave_ChPV
+  reference REF_Ave_MASTER_ChPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -338,7 +338,7 @@
     exit
 
 
-  reference REF_MASTER_Boca_BPV
+  reference REF_Boca_MASTER_BPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -374,7 +374,7 @@
 
 
   # Tetra
-    reference REF_MASTER_Tetra_HPV4
+    reference REF_Tetra_MASTER_HPV4
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -406,7 +406,7 @@
 
 
   # Copi
-  reference REF_MASTER_Copi_BPV2
+  reference REF_Copi_MASTER_BPV2
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -438,7 +438,7 @@
 
 
   # Hepandenso
-  reference REF_MASTER_Hepandenso_FCDNV
+  reference REF_Hepandenso_MASTER_FCDNV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -465,7 +465,7 @@
 
 
   # Chaphama
-  reference REF_MASTER_Chaphama_PPV7
+  reference REF_Chaphama_MASTER_PPV7
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -507,7 +507,7 @@
 
 
   # Ichthama
-  reference REF_MASTER_Ichthama_SynChPV
+  reference REF_Ichthama_MASTER_SynChPV
  
  	add feature-location whole_genome
 	feature-location whole_genome
@@ -554,7 +554,7 @@
 
 
   # Pefuambidenso
-  reference REF_MASTER_Ambidenso_JcDNV
+  reference REF_Ambidenso_MASTER_JcDNV
  
  	add feature-location whole_genome
 	feature-location whole_genome

@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/proto/deleteProtoExtension.glue
+  #run file glue/build/genus/proto/deleteProtoExtension.glue
 
   # create modules
   run file glue/build/genus/proto/protoModules.glue

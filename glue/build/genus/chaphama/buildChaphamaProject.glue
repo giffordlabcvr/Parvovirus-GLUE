@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/chaphama/deleteChaphamaExtension.glue
+  #run file glue/build/genus/chaphama/deleteChaphamaExtension.glue
 
   # create modules
   run file glue/build/genus/chaphama/chaphamaModules.glue

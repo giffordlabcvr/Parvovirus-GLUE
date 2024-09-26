@@ -2,18 +2,18 @@
   module parvoFeaturePresenceRecorder 
 
     #~# Root (Family)
-    record feature-presence AL_Parvoviridae_MASTER --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FAMILY_Parvoviridae  --recursive --featureName whole_genome --descendentFeatures
     
     #~# Internal node alignments (subfamily)
-    record feature-presence AL_Parvovirinae --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Densovirinae --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Hamaparvovirinae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBFAMILY_Parvovirinae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBFAMILY_Densovirinae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBFAMILY_Hamaparvovirinae --recursive --featureName whole_genome --descendentFeatures
 
     #~# Cross-Genus
-    record feature-presence AL_CROSS_GENUS_Amdo_Proto --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_CROSS_GENUS_Ave_Boca --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_CROSS_GENUS_Chaphama_Ichthama --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUPERGENUS_Amdo_Proto --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUPERGENUS_Ave_Boca --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUPERGENUS_DECTA --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUPERGENUS_Chaph_Ichth --recursive --featureName whole_genome --descendentFeatures
 
     exit
 

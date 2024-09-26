@@ -1,18 +1,18 @@
   ### Constrained alignment tree for the Erythroparvovirus genus
 
   #~# Root level (Family)
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae 
     add member  --whereClause "source.name = 'ncbi-refseqs-erythro'"
-    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-erythro'"
+    demote member AL_SUBFAMILY_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-erythro'"
     exit
     
   #~# Root level (Subfamily)
-  alignment AL_Parvovirinae
-    demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra -w "sequence.genus = 'Erythroparvovirus' and sequence.source.name = 'ncbi-refseqs-erythro'"
+  alignment AL_SUBFAMILY_Parvovirinae
+    demote member AL_SUPERGENUS_DECTA -w "sequence.genus = 'Erythroparvovirus' and sequence.source.name = 'ncbi-refseqs-erythro'"
     exit
 
   #~# Cross-genus level   
-  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
+  alignment AL_SUPERGENUS_DECTA
     demote member AL_GENUS_Erythro  -w "sequence.genus = 'Erythroparvovirus' and sequence.source.name = 'ncbi-refseqs-erythro'"
     exit
 

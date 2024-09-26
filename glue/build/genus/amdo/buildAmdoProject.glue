@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/amdo/deleteAmdoExtension.glue
+  #run file glue/build/genus/amdo/deleteAmdoExtension.glue
 
   # create modules
   run file glue/build/genus/amdo/amdoModules.glue

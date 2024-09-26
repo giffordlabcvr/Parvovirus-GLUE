@@ -2,176 +2,324 @@
   ### Define constrained alignment tree for the Parvoviridae
 
   #~# Root (Family)
-  create alignment AL_Parvoviridae_MASTER -r REF_MASTER_Proto_CPV
-  alignment AL_Parvoviridae_MASTER add member --allSequences
+  create alignment AL_FAMILY_Parvoviridae  -r REF_Proto_MASTER_CPV
+  alignment AL_FAMILY_Parvoviridae  add member --allSequences
 
   #~# Subfamily
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae
   
-	extract child AL_Parvovirinae      --refName REF_MASTER_Proto_CPV        # NC_001539
-	demote member AL_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'"
+    set field clade_category "Family"
+    set field displayName "Family Parvoviridae"
+ 
+	extract child AL_SUBFAMILY_Parvovirinae      --refName REF_Proto_MASTER_CPV        # NC_001539
+	demote member AL_SUBFAMILY_Parvovirinae      --whereClause "sequence.subfamily = 'Parvovirinae'"
 	
-    extract child AL_Densovirinae      --refName REF_MASTER_Pefuambidenso_PfDNV  # NC_004284
-	demote member AL_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
+    extract child AL_SUBFAMILY_Densovirinae      --refName REF_Pefuambidenso_MASTER_PfDNV  # NC_004284
+	demote member AL_SUBFAMILY_Densovirinae      --whereClause "sequence.subfamily = 'Densovirinae'"
 	
-    extract child AL_Hamaparvovirinae  --refName REF_MASTER_Chaphama_PPV7 # NC_040562
-	demote member AL_Hamaparvovirinae  --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 	
+    extract child AL_SUBFAMILY_Hamaparvovirinae  --refName REF_Chaphama_MASTER_PPV7 # NC_040562
+	demote member AL_SUBFAMILY_Hamaparvovirinae  --whereClause "sequence.subfamily = 'Hamaparvovirinae'" 	
     exit
 
 
   # The hamaparvoviruses (Note some genera are still named 'denso-' for legacy reasons)
-  alignment AL_Hamaparvovirinae
+  alignment AL_SUBFAMILY_Hamaparvovirinae
   
-	extract child AL_CROSS_GENUS_Chaphama_Ichthama --r REF_MASTER_Chaphama_PPV7
-	demote member AL_CROSS_GENUS_Chaphama_Ichthama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
-	demote member AL_CROSS_GENUS_Chaphama_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
+    set field clade_category "Subfamily"
+    set field displayName "Subfamily Hamaparvovirinae"
 
-	extract child AL_GENUS_Penstyldenso --r REF_MASTER_Penstyldenso_IHHN
+	extract child AL_SUPERGENUS_Chaph_Ichth --r REF_Chaphama_MASTER_PPV7
+	demote member AL_SUPERGENUS_Chaph_Ichth --whereClause "sequence.genus = 'Chaphamaparvovirus'"
+	demote member AL_SUPERGENUS_Chaph_Ichth --whereClause "sequence.genus = 'Ichthamaparvovirus'"
+
+	extract child AL_GENUS_Penstyldenso --r REF_Penstyldenso_MASTER_IHHN
 	demote member AL_GENUS_Penstyldenso --whereClause "sequence.genus = 'Penstyldensoparvovirus'"
 
-	extract child AL_GENUS_Brevidenso --r REF_MASTER_Brevidenso_AalDNV2
+	extract child AL_GENUS_Brevidenso --r REF_Brevidenso_MASTER_AalDNV2
 	demote member AL_GENUS_Brevidenso --whereClause "sequence.genus = 'Brevidensoparvovirus'"
 
-	extract child AL_GENUS_Hepandenso --r REF_MASTER_Hepandenso_FCDNV
+	extract child AL_GENUS_Hepandenso --r REF_Hepandenso_MASTER_FCDNV
 	demote member AL_GENUS_Hepandenso --whereClause "sequence.genus = 'Hepandensoparvovirus'"
     exit
 
 
   # The densoviruses 
-  alignment AL_Densovirinae
+  alignment AL_SUBFAMILY_Densovirinae
+
+    set field clade_category "Subfamily"
+    set field displayName "Subfamily Densovirinae"
   
-	extract child AL_GENUS_Pefuambidenso --r REF_MASTER_Pefuambidenso_PfDNV
+	extract child AL_GENUS_Pefuambidenso --r REF_Pefuambidenso_MASTER_PfDNV
 	demote member AL_GENUS_Pefuambidenso --whereClause "sequence.genus = 'Pefuambidensovirus'"
 
-	extract child AL_GENUS_Ambidenso --r REF_MASTER_Ambidenso_JcDNV
+	extract child AL_GENUS_Ambidenso --r REF_Ambidenso_MASTER_JcDNV
 	demote member AL_GENUS_Ambidenso --whereClause "sequence.genus = 'Ambidensoparvovirus'"
 
-	extract child AL_GENUS_Protoambidenso --r REF_MASTER_Protoambidenso_GmDV
+	extract child AL_GENUS_Protoambidenso --r REF_Protoambidenso_MASTER_GmDV
 	demote member AL_GENUS_Protoambidenso --whereClause "sequence.genus = 'Protoambidensovirus'"
  
-	extract child AL_GENUS_Iteradenso --r REF_MASTER_Iteradenso_BmDNV5
+	extract child AL_GENUS_Iteradenso --r REF_Iteradenso_MASTER_BmDNV5
 	demote member AL_GENUS_Iteradenso --whereClause "sequence.genus = 'Iteradensoparvovirus'"
  
-	extract child AL_GENUS_Scindoambidenso --r REF_MASTER_Scindoambidenso_PcDV
+	extract child AL_GENUS_Scindoambidenso --r REF_Scindoambidenso_MASTER_PcDV
 	demote member AL_GENUS_Scindoambidenso --whereClause "sequence.genus = 'Scindoambidensovirus'"
 
- 	extract child AL_GENUS_Blattambidenso --r REF_MASTER_Blattambidenso_BgDV
+ 	extract child AL_GENUS_Blattambidenso --r REF_Blattambidenso_MASTER_BgDV
 	demote member AL_GENUS_Blattambidenso --whereClause "sequence.genus = 'Blattambidensovirus'"
 
- 	extract child AL_GENUS_Miniambidenso --r REF_MASTER_Miniambidenso_AdMADV
+ 	extract child AL_GENUS_Miniambidenso --r REF_Miniambidenso_MASTER_AdMADV
 	demote member AL_GENUS_Miniambidenso --whereClause "sequence.genus = 'Miniambidensovirus'"
 
- 	extract child AL_GENUS_Aquiambidenso --r REF_MASTER_Aquiambidenso_AaDV
+ 	extract child AL_GENUS_Aquiambidenso --r REF_Aquiambidenso_MASTER_AaDV
 	demote member AL_GENUS_Aquiambidenso --whereClause "sequence.genus = 'Aquiambidensovirus'" 
     exit
 
 
 
   #~# Cross-genus
-  alignment AL_Parvovirinae
+  alignment AL_SUBFAMILY_Parvovirinae
+
+    set field clade_category "Subfamily"
+    set field displayName "Subfamily Parvovirinae"
   
-	extract child AL_CROSS_GENUS_Amdo_Proto --r REF_MASTER_Proto_CPV
-	demote member AL_CROSS_GENUS_Amdo_Proto --whereClause "sequence.genus = 'Amdoparvovirus'"
-	demote member AL_CROSS_GENUS_Amdo_Proto --whereClause "sequence.genus = 'Protoparvovirus'"
+	extract child AL_SUPERGENUS_Amdo_Proto --r REF_Proto_MASTER_CPV
+	demote member AL_SUPERGENUS_Amdo_Proto --whereClause "sequence.genus = 'Amdoparvovirus'"
+	demote member AL_SUPERGENUS_Amdo_Proto --whereClause "sequence.genus = 'Protoparvovirus'"
 
-	extract child AL_CROSS_GENUS_Ave_Boca --r REF_MASTER_Boca_BPV
-	demote member AL_CROSS_GENUS_Ave_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
-	demote member AL_CROSS_GENUS_Ave_Boca --whereClause "sequence.genus = 'Aveparvovirus'"
+	extract child AL_SUPERGENUS_Ave_Boca --r REF_Boca_MASTER_BPV
+	demote member AL_SUPERGENUS_Ave_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"
+	demote member AL_SUPERGENUS_Ave_Boca --whereClause "sequence.genus = 'Aveparvovirus'"
 
-	extract child AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --r REF_MASTER_Erythro_B19
-	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Erythroparvovirus'"
-	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Dependoparvovirus'"
-	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Copiparvovirus'"
-	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
-	demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra --whereClause "sequence.genus = 'Artiparvovirus'" 
+	extract child AL_SUPERGENUS_DECTA --r REF_Boca_MASTER_BPV
+	demote member AL_SUPERGENUS_DECTA --whereClause "sequence.genus = 'Erythroparvovirus'"
+	demote member AL_SUPERGENUS_DECTA --whereClause "sequence.genus = 'Dependoparvovirus'"
+	demote member AL_SUPERGENUS_DECTA --whereClause "sequence.genus = 'Copiparvovirus'"
+	demote member AL_SUPERGENUS_DECTA --whereClause "sequence.genus = 'Tetraparvovirus'"
+	demote member AL_SUPERGENUS_DECTA --whereClause "sequence.genus = 'Artiparvovirus'" 
     exit
 
 
   #~# Genus
-  alignment AL_CROSS_GENUS_Amdo_Proto
-  
-	extract child AL_GENUS_Amdo --r REF_MASTER_Amdo_AMDV
+  alignment AL_SUPERGENUS_Amdo_Proto
+
+    set field clade_category "Supergenus"
+    set field displayName "Supergenus Amdo-Proto"
+ 
+	extract child AL_GENUS_Amdo --r REF_Amdo_MASTER_AMDV
 	demote member AL_GENUS_Amdo --whereClause "sequence.genus = 'Amdoparvovirus'"
 
-	extract child AL_GENUS_Proto  --refName REF_MASTER_Proto_CPV        # NC_001539
+	extract child AL_GENUS_Proto  --refName REF_Proto_MASTER_CPV        # NC_001539
 	demote member AL_GENUS_Proto  --whereClause "sequence.genus = 'Protoparvovirus'" 		
     exit
 
 
-  alignment AL_CROSS_GENUS_Ave_Boca
+  alignment AL_SUPERGENUS_Ave_Boca
+
+    set field clade_category "Supergenus"
+    set field displayName "Supergenus Ave-Boca"
   
-	extract child AL_GENUS_Ave --r REF_MASTER_Ave_ChPV  # NC_024452
+	extract child AL_GENUS_Ave --r REF_Ave_MASTER_ChPV  # NC_024452
 	demote member AL_GENUS_Ave --whereClause "sequence.genus = 'Aveparvovirus'"
 
-	extract child AL_GENUS_Boca --r REF_MASTER_Boca_BPV  # NC_001540
+	extract child AL_GENUS_Boca --r REF_Boca_MASTER_BPV  # NC_001540
 	demote member AL_GENUS_Boca --whereClause "sequence.genus = 'Bocaparvovirus'"	
     exit
 
 
-  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
-  
-	extract child AL_GENUS_Dependo --r REF_MASTER_Dependo_AAV2
+  alignment AL_SUPERGENUS_DECTA
+ 
+    set field clade_category "Supergenus"
+    set field displayName "Supergenus DECTA"
+ 
+	extract child AL_GENUS_Dependo --r REF_Dependo_MASTER_AAV2
 	demote member AL_GENUS_Dependo --whereClause "sequence.genus = 'Dependoparvovirus'"
+
+	extract child AL_GENUS_Erythro --r REF_Erythro_MASTER_B19
+	demote member AL_GENUS_Erythro --whereClause "sequence.genus = 'Erythroparvovirus'"
 	
-	extract child AL_GENUS_Copi --r REF_MASTER_Copi_BPV2  # NC_006259
+	extract child AL_GENUS_Copi --r REF_Copi_MASTER_BPV2  # NC_006259
 	demote member AL_GENUS_Copi --whereClause "sequence.genus = 'Copiparvovirus'"
 
-	extract child AL_GENUS_Tetra --r REF_MASTER_Tetra_HPV4  # NC_007018
+	extract child AL_GENUS_Tetra --r REF_Tetra_MASTER_HPV4  # NC_007018
 	demote member AL_GENUS_Tetra --whereClause "sequence.genus = 'Tetraparvovirus'"
-
-	extract child AL_GENUS_Erythro --r REF_MASTER_Erythro_B19
-	demote member AL_GENUS_Erythro --whereClause "sequence.genus = 'Erythroparvovirus'"
 	 
- 	extract child AL_GENUS_Arti --r REF_MASTER_Arti_Aj_BtPV
+ 	extract child AL_GENUS_Arti --r REF_Arti_MASTER_Aj_BtPV
 	demote member AL_GENUS_Arti --whereClause "sequence.genus = 'Artiparvovirus'"
     exit
 
 
-  alignment AL_CROSS_GENUS_Chaphama_Ichthama
+  alignment AL_SUPERGENUS_Chaph_Ichth
 
-	extract child AL_GENUS_Chaphama --r REF_MASTER_Chaphama_PPV7
+    set field clade_category "Supergenus"
+    set field displayName "Supergenus Chap-Icth"
+
+	extract child AL_GENUS_Chaphama --r REF_Chaphama_MASTER_PPV7
 	demote member AL_GENUS_Chaphama --whereClause "sequence.genus = 'Chaphamaparvovirus'"
   
-	extract child AL_GENUS_Ichthama --r REF_MASTER_Ichthama_SynChPV
+	extract child AL_GENUS_Ichthama --r REF_Ichthama_MASTER_SynChPV
 	demote member AL_GENUS_Ichthama --whereClause "sequence.genus = 'Ichthamaparvovirus'"
     exit
+
+
+  #### Set clade categories in genus-level alignments
+
+  #~# Hamaparvovirinae
+   
+  alignment AL_GENUS_Penstyldenso
+   set field displayName "Penstyldensoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Brevidenso
+   set field displayName "Brevidensoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Hepandenso
+   set field displayName "Hepandensoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Chaphama
+   set field displayName "Chaphamaparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Ichthama
+   set field displayName "Ichthamaparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+
+  #~# Densovirinae
+
+  alignment AL_GENUS_Pefuambidenso
+   set field displayName "Pefuambidensovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Ambidenso
+   set field displayName "Ambidensoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Protoambidenso
+   set field displayName "Protoambidensovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Iteradenso
+   set field displayName "Iteradensoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Scindoambidenso
+   set field displayName "Scindoambidensovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Blattambidenso
+   set field displayName "Blattambidensovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Miniambidenso
+   set field displayName "Miniambidensovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Aquiambidenso
+   set field displayName "Aquiambidensovirus"
+   set field clade_category "Genus" 
+   exit
+
+
+  #~# Parvovirinae
+
+  alignment AL_GENUS_Amdo
+   set field displayName "Amdoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Proto
+   set field displayName "Protoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Ave
+   set field displayName "Aveparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Boca
+   set field displayName "Bocaparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Dependo
+   set field displayName "Dependoparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Copi
+   set field displayName "Copiparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Tetra
+   set field displayName "Tetraparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Erythro
+   set field displayName "Erythroparvovirus"
+   set field clade_category "Genus" 
+   exit
+
+  alignment AL_GENUS_Arti
+   set field displayName "Artiparvovirus"
+   set field clade_category "Genus" 
+   exit
+
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
   
   #~# Family level
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae 
     derive segments AL_UNC_ROOT          -a --mergeStrategy OVERWRITE
     exit
 
   #~# Subfamily level
-  alignment AL_Parvovirinae
+  alignment AL_SUBFAMILY_Parvovirinae
     derive segments AL_UNC_PARVOVIRINAE  -a --mergeStrategy OVERWRITE
     exit
  
-  alignment AL_Hamaparvovirinae
+  alignment AL_SUBFAMILY_Hamaparvovirinae
     derive segments AL_UNC_HAMAPARVOVIRINAE  -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_Densovirinae
+  alignment AL_SUBFAMILY_Densovirinae
     derive segments AL_UNC_DENSOPARVOVIRINAE  -a --mergeStrategy OVERWRITE
     exit
 
  
   #~# Cross-genus level
-  alignment AL_CROSS_GENUS_Amdo_Proto
+  alignment AL_SUPERGENUS_Amdo_Proto
     derive segments AL_UNC_AMDO_PROTO -a --mergeStrategy OVERWRITE
     exit   
     
-  alignment AL_CROSS_GENUS_Ave_Boca
+  alignment AL_SUPERGENUS_Ave_Boca
     derive segments AL_UNC_AVE_BOCA -a --mergeStrategy OVERWRITE
     exit
     
-  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
+  alignment AL_SUPERGENUS_DECTA
     derive segments AL_UNC_Erythro_Dependo_Copi_Tetra -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_CROSS_GENUS_Chaphama_Ichthama
+  alignment AL_SUPERGENUS_Chaph_Ichth
     derive segments AL_UNC_Chaphama_Ichthama -a --mergeStrategy OVERWRITE
     exit
+
+
 

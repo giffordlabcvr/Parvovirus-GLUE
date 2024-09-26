@@ -1,18 +1,18 @@
   ### Constrained alignment tree for the Protoparvovirus genus
 
   #~# Root level (Family)
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae 
     add member  --whereClause "source.name = 'ncbi-refseqs-proto'"
-    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-proto'"
+    demote member AL_SUBFAMILY_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-proto'"
     exit
     
   #~# Subfamily level
-  alignment AL_Parvovirinae
-    demote member AL_CROSS_GENUS_Amdo_Proto  -w "sequence.source.name = 'ncbi-refseqs-proto'"
+  alignment AL_SUBFAMILY_Parvovirinae
+    demote member AL_SUPERGENUS_Amdo_Proto  -w "sequence.source.name = 'ncbi-refseqs-proto'"
     exit
     
     #~# Cross-Genus level
-  alignment AL_CROSS_GENUS_Amdo_Proto
+  alignment AL_SUPERGENUS_Amdo_Proto
     demote member AL_GENUS_Proto  -w "sequence.source.name = 'ncbi-refseqs-proto'"
     exit
     
@@ -20,7 +20,7 @@
   #~# Internal nodes (Protoparvovirus sub-lineages) 
   alignment AL_GENUS_Proto
   
-    extract child AL_Proto1     --refName REF_MASTER_Proto_CPV
+    extract child AL_Proto1     --refName REF_Proto_MASTER_CPV
     demote member AL_Proto1     --whereClause "sequence.assign_clade = 'Proto1'"
     
     extract child AL_Proto2     --refName REF_Proto_MpBuV

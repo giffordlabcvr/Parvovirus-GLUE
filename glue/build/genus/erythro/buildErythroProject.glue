@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/erythro/deleteErythroExtension.glue
+  #run file glue/build/genus/erythro/deleteErythroExtension.glue
 
   # create modules
   run file glue/build/genus/erythro/erythroModules.glue

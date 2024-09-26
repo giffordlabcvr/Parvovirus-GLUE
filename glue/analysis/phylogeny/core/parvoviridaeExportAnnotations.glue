@@ -5,7 +5,7 @@
   
   module parvoFigTreeAnnotationExporter 
   
-    export figtree-annotation AL_Parvoviridae_MASTER -f trees/family-root/parvoviridae-root-Rep78_nucs.figtree-annotations.tsv
+    export figtree-annotation AL_FAMILY_Parvoviridae  -f trees/family-root/parvoviridae-root-Rep78_nucs.figtree-annotations.tsv
     
   exit
 

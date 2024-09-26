@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/tetra/deleteTetraExtension.glue
+  #run file glue/build/genus/tetra/deleteTetraExtension.glue
 
   # create modules
   run file glue/build/genus/tetra/tetraModules.glue

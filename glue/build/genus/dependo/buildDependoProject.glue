@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/dependo/deleteDependoExtension.glue
+  #run file glue/build/genus/dependo/deleteDependoExtension.glue
 
   # create modules
   run file glue/build/genus/dependo/dependoModules.glue

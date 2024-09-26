@@ -2,19 +2,19 @@
 
 
   #~# Root level (Family)
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae 
     add member  --whereClause "source.name = 'ncbi-refseqs-dependo'"
-    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-dependo'"
+    demote member AL_SUBFAMILY_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
     
   #~# Subfamily level
-  alignment AL_Parvovirinae
-    demote member AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
+  alignment AL_SUBFAMILY_Parvovirinae
+    demote member AL_SUPERGENUS_DECTA  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
 
 
   #~#  Cross-Genus level
-  alignment AL_CROSS_GENUS_Erythro_Dependo_Copi_Tetra
+  alignment AL_SUPERGENUS_DECTA
     demote member AL_GENUS_Dependo  -w "sequence.source.name = 'ncbi-refseqs-dependo'"
     exit
 
@@ -28,7 +28,7 @@
     extract child AL_Dependo2     --refName REF_MDPV
     demote member AL_Dependo2     --whereClause "sequence.clade_ns = 'Dependo2'"     
 
-    extract child AL_Dependo3     --refName REF_MASTER_Dependo_AAV2
+    extract child AL_Dependo3     --refName REF_Dependo_MASTER_AAV2
     demote member AL_Dependo3     --whereClause "sequence.clade_ns = 'Dependo3'"
 
     extract child AL_Dependo4     --refName REF_MAAV
@@ -55,7 +55,7 @@
 
   alignment AL_Dependo3
 
-    extract child AL_Dependo_A   --refName REF_MASTER_Dependo_AAV2
+    extract child AL_Dependo_A   --refName REF_Dependo_MASTER_AAV2
     demote member AL_Dependo_A   --whereClause "sequence.subclade_ns = 'Dependoparvovirus-A'"
       
     extract child AL_Dependo_B   --refName REF_AAV5

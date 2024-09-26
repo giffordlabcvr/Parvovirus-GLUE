@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/copi/deleteCopiExtension.glue
+  #run file glue/build/genus/copi/deleteCopiExtension.glue
 
   # create modules
   run file glue/build/genus/copi/copiModules.glue

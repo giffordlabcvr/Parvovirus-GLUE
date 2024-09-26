@@ -1,19 +1,19 @@
   ### Constrained alignment tree for the Amdoparvovirus genus
 
   #~# Root level (Family)
-  alignment AL_Parvoviridae_MASTER
+  alignment AL_FAMILY_Parvoviridae 
     add member  --whereClause "source.name = 'ncbi-refseqs-amdo'"
-    demote member AL_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-amdo'"
+    demote member AL_SUBFAMILY_Parvovirinae  -w  "sequence.source.name = 'ncbi-refseqs-amdo'"
     exit
     
   #~# Root level (Subfamily)
-  alignment AL_Parvovirinae
-    demote member AL_CROSS_GENUS_Amdo_Proto  -w "sequence.source.name = 'ncbi-refseqs-amdo'"
+  alignment AL_SUBFAMILY_Parvovirinae
+    demote member AL_SUPERGENUS_Amdo_Proto  -w "sequence.source.name = 'ncbi-refseqs-amdo'"
 
     exit
     
    #~# Root level (Subfamily)
-  alignment AL_CROSS_GENUS_Amdo_Proto
+  alignment AL_SUPERGENUS_Amdo_Proto
 
     demote member AL_GENUS_Amdo  -w "sequence.source.name = 'ncbi-refseqs-amdo'"
     exit

@@ -1,6 +1,6 @@
 
   # delete previous extension build
-  run file glue/build/genus/ave/deleteAveExtension.glue
+  #run file glue/build/genus/ave/deleteAveExtension.glue
 
   # create modules
   run file glue/build/genus/ave/aveModules.glue
