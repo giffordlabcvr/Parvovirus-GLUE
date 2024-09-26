@@ -50,7 +50,7 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/w
 
 ## Installation
 
-Please see the User Guide for **[installation instructions](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Installation)**.
+Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for installation instructions.
 
 ## Usage
 
