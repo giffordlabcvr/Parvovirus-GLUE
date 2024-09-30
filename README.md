@@ -22,9 +22,7 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/w
 
 ## Usage
 
-GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
-
-For detailed instructions on how to use Parvovirus-GLUE for your comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)**.
+For detailed instructions on how to use Parvovirus-GLUE for your comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Navigating-and-Querying)**.
 
 ## Data Sources
 
