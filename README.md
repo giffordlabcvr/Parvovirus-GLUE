@@ -16,38 +16,6 @@ This **Parvovirus-GLUE**  project can be extended with additional layers, openly
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for more details.
 
-## Table of Contents
-
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Sources](#data-sources)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Key Features
-
-
-- **GLUE Framework Integration**: Built on the GLUE software framework, Parvovirus-GLUE offers an extensible platform for efficient, standardized, and reproducible computational genomic analysis of parvoviruses.
-
-- **Phylogenetic Structure**: Sequence data in Parvovirus-GLUE is organized in a phylogenetically-structured manner, allowing users to explore evolutionary relationships easily.
-
-- **Rich Annotations**: Annotated reference sequences enable rigorous comparative genomic analysis related to conservation, adaptation, structural context, and genotype-to-phenotype associations.
-  
-- **Reproducibility**: Ensures fully reproducible analyses through data standards and a relational database.
-  
-- **Reusable Data Objects**: High-value data items such as multiple sequence alignments are prepared once and reused.
-  
-- **Validation**: Enforces high data integrity through cross-validation.
-  
-- **Standardisation of Genomic Coordinates**: All sequences use the coordinate space of a chosen reference sequence.
-  
-- **Predefined Reference Sequences**: Includes fully-annotated reference sequences for parvovirus species.
-  
-- **Alignment Trees**: Links alignments constructed at distinct taxonomic levels, maintaining a standardised coordinate system.
-  
-
 ## Installation
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for installation instructions.
@@ -56,19 +24,17 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/w
 
 GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
 
-For detailed instructions on how to use Parvovirus-GLUE for your comparative genomic analysis, refer to the GLUE's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
+For detailed instructions on how to use Parvovirus-GLUE for your comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)**.
 
 ## Data Sources
 
 Parvovirus-GLUE is constructed using data published in the [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) database.
-
 
 ## Contributing
 
 We welcome contributions from the community! If you're interested in contributing to Parvovirus-GLUE, please review our [Contribution Guidelines](./md/CONTRIBUTING.md).
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
-
 
 ## License
 
