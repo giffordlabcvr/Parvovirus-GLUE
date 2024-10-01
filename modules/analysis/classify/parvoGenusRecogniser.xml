@@ -1,0 +1,245 @@
+<blastSequenceRecogniser>
+	<blastRunner/>
+  
+	<!-- Parvovirinae reference declarations -->	
+	<referenceSequence>REF_Proto_MASTER_CPV</referenceSequence>
+	<referenceSequence>REF_Amdo_MASTER_AMDV</referenceSequence>	
+	<referenceSequence>REF_Boca_MASTER_BPV</referenceSequence>
+	<referenceSequence>REF_Ave_MASTER_ChPV</referenceSequence>
+	<referenceSequence>REF_Dependo_MASTER_AAV2</referenceSequence>
+	<referenceSequence>REF_Erythro_MASTER_B19</referenceSequence>	
+	<referenceSequence>REF_Copi_MASTER_BPV2</referenceSequence>
+	<referenceSequence>REF_Tetra_MASTER_HPV4</referenceSequence>
+	<referenceSequence>REF_Lori_MASTER_SlPV</referenceSequence>
+	<referenceSequence>REF_Arti_MASTER_Aj_BtPV</referenceSequence>
+
+	<!-- Densovirinae reference declarations -->
+	<referenceSequence>REF_Pefuambidenso_MASTER_PfDNV</referenceSequence>
+	<referenceSequence>REF_Ambidenso_MASTER_JcDNV</referenceSequence>
+	<referenceSequence>REF_Protoambidenso_MASTER_GmDV</referenceSequence>
+	<referenceSequence>REF_Iteradenso_MASTER_BmDNV5</referenceSequence>
+	<referenceSequence>REF_Scindoambidenso_MASTER_PcDV</referenceSequence>	
+	<referenceSequence>REF_Blattambidenso_MASTER_BgDV</referenceSequence>
+	<referenceSequence>REF_Miniambidenso_MASTER_AdMADV</referenceSequence>
+	<referenceSequence>REF_Aquiambidenso_MASTER_AaDV</referenceSequence>
+
+	<!-- Hamaparvovirinae reference declarations -->
+	<referenceSequence>REF_Brevidenso_MASTER_AalDNV2</referenceSequence>	
+	<referenceSequence>REF_Penstyldenso_MASTER_IHHN</referenceSequence>	
+	<referenceSequence>REF_Chaphama_MASTER_PPV7</referenceSequence>	
+	<referenceSequence>REF_Ichthama_MASTER_SynChPV</referenceSequence>
+	<referenceSequence>REF_Hepandenso_MASTER_FCDNV</referenceSequence>
+
+
+
+	<!-- Parvovirinae reference declarations -->
+	<recognitionCategory>
+		<id>1</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Proto_MASTER_CPV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>1</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Amdo_MASTER_AMDV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>1</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Boca_MASTER_BPV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>1</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Ave_MASTER_ChPV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Dependo_MASTER_AAV2</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Erythro_MASTER_B19</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Copi_MASTER_BPV2</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Tetra_MASTER_HPV4</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Lori_MASTER_SlPV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Arti_MASTER_Aj_BtPV</referenceSequence>
+	</recognitionCategory>
+	
+
+
+	<!-- Densovirinae reference declarations -->	
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Pefuambidenso_MASTER_PfDNV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Ambidenso_MASTER_JcDNV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Protoambidenso_MASTER_GmDV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Iteradenso_MASTER_BmDNV5</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Scindoambidenso_MASTER_PcDV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Blattambidenso_MASTER_BgDV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Miniambidenso_MASTER_AdMADV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>2</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Aquiambidenso_MASTER_AaDV</referenceSequence>
+	</recognitionCategory>
+
+
+
+	<!--  Hamaparvovirinae reference declarations -->		
+	<recognitionCategory>
+		<id>3</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Brevidenso_MASTER_AalDNV2</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>3</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Penstyldenso_MASTER_IHHN</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>3</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Chaphama_MASTER_PPV7</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>4</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Ichthama_MASTER_SynChPV</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>4</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>200</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_Hepandenso_MASTER_FCDNV</referenceSequence>
+	</recognitionCategory>
+
+
+	<!-- if one category result has an HSP with an identity percent more than 1.5 higher than the highest identity percent 
+         score in a second category result, the second category result is discarded -->
+	<maxIdentityPctCategoryResultResolver>
+		<minDifference>1.5</minDifference>
+	</maxIdentityPctCategoryResultResolver>
+	<!-- if one category result has an HSP with a bit score more than 15 higher than the highest bit score in a second category result, 
+		 the second category result is discarded -->
+	<maxBitScoreCategoryResultResolver>
+		<minDifference>15</minDifference>
+	</maxBitScoreCategoryResultResolver>
+	<!-- if one category result has an HSP with a total alignment length more 50 higher than the total alignment length in a second category result, 
+		 the second category result is discarded -->
+	<totalAlignLengthCategoryResultResolver>
+		<minDifference>50</minDifference>
+	</totalAlignLengthCategoryResultResolver>
+	
+</blastSequenceRecogniser>
+
