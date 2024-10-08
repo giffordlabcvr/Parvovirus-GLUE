@@ -32,83 +32,83 @@
 
 
 
-	<!-- Parvovirinae reference declarations -->
+	<!-- RECOGNITION CATEGORIES -->
 	<recognitionCategory>
-		<id>1</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Protoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Proto_MASTER_CPV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>1</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Amdoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Amdo_MASTER_AMDV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>1</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Bocaparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Boca_MASTER_BPV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>1</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Aveparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Ave_MASTER_ChPV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Dependoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Dependo_MASTER_AAV2</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Erythrooparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Erythro_MASTER_B19</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Copiparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Copi_MASTER_BPV2</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Tetraparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Tetra_MASTER_HPV4</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Loriparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Lori_MASTER_SlPV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Artiparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Arti_MASTER_Aj_BtPV</referenceSequence>
 	</recognitionCategory>
@@ -118,65 +118,65 @@
 	<!-- Densovirinae reference declarations -->	
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Pefuambidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Pefuambidenso_MASTER_PfDNV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Ambidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Ambidenso_MASTER_JcDNV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Protoambidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Protoambidenso_MASTER_GmDV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Iteradenso</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Iteradenso_MASTER_BmDNV5</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Scindoambidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Scindoambidenso_MASTER_PcDV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Blattambidenso</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Blattambidenso_MASTER_BgDV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Miniambidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Miniambidenso_MASTER_AdMADV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>2</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Aquiambidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Aquiambidenso_MASTER_AaDV</referenceSequence>
 	</recognitionCategory>
@@ -185,41 +185,41 @@
 
 	<!--  Hamaparvovirinae reference declarations -->		
 	<recognitionCategory>
-		<id>3</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Brevidensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Brevidenso_MASTER_AalDNV2</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>3</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Penstyldensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Penstyldenso_MASTER_IHHN</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>3</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Chaphamaparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Chaphama_MASTER_PPV7</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>4</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Ichthamaparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Ichthama_MASTER_SynChPV</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
-		<id>4</id>
-		<minimumIdentityPct>70</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<id>Hepandensoparvovirus</id>
+		<minimumIdentityPct>60</minimumIdentityPct>
+	  	<minimumBitScore>70</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_Hepandenso_MASTER_FCDNV</referenceSequence>
 	</recognitionCategory>
