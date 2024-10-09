@@ -22,7 +22,7 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/w
 
 ## Usage
 
-For detailed instructions on how to use Parvovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Navigating-and-Querying)**.
+For detailed instructions on how to use Parvovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Interacting-with-Projects)**.
 
 ## Data Sources
 
