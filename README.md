@@ -2,7 +2,7 @@
 
 <img src="md/parvo-glue-logo.png" align="right" alt="" width="280"/>
 
-Welcome to Parvovirus-GLUE, a resource for comparative genomic analysis of parvoviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+Welcome to **Parvovirus-GLUE**, a resource for comparative genomic analysis of parvoviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 **Parvoviruses** (family *Parvoviridae*) are a diverse group of small, non-enveloped DNA viruses that infect a broad range of animal species. This family includes several pathogens of humans and domesticated animals, as well as viruses being developed for therapeutic uses.
 
