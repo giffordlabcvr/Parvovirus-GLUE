@@ -6,18 +6,21 @@ schema-project parvoviridae
     create field full_name VARCHAR 200
     create field subfamily VARCHAR 50
     create field genus VARCHAR 50
+
     create field assign_clade VARCHAR 50
     create field assign_subclade VARCHAR 50
     create field clade_ns VARCHAR 50
     create field subclade_ns VARCHAR 50
     create field clade_vp VARCHAR 50
     create field subclade_vp VARCHAR 50		
+
     create field length INTEGER
     create field pubmed_id INTEGER
     create field gb_lab_construct BOOLEAN
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field reverse_complement BOOLEAN
+
   exit
 
   # Create schema extension
@@ -25,6 +28,7 @@ schema-project parvoviridae
 
   # Table for isolates
   table isolate
+
     create field isolate VARCHAR 100
     create field host_sci_name VARCHAR 100
     create field sample_date DATE
@@ -34,6 +38,7 @@ schema-project parvoviridae
     create field collection_year INTEGER 
     create field collection_month VARCHAR
     create field collection_month_day INTEGER
+
   exit
 
   create link sequence isolate
