@@ -19,14 +19,14 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/w
 Installation
 ------------
 
-To install Dengue-GLUE, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Dengue-GLUE/wiki)**.
+To install Parvovirus-GLUE, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)**.
 
 You can choose between:
 
--   **[Docker-based installation](https://github.com/giffordlabcvr/Dengue-GLUE/wiki/Docker-Installation)** for ease of deployment.
--   **[Native installation](https://github.com/giffordlabcvr/Dengue-GLUE/wiki/Native-Installation)** for traditional setup.
+-   **[Docker-based installation](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Docker-Installation)** for ease of deployment.
+-   **[Native installation](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Native-Installation)** for traditional setup.
 
-Dengue-GLUE can be installed as a prebuilt database for quick setup or constructed from scratch for more customization.
+Parvovirus-GLUE can be installed as a prebuilt database for quick setup or constructed from scratch for more customization.
 
 * * * * *
 
