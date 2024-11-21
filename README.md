@@ -16,17 +16,31 @@ This **Parvovirus-GLUE**  project can be extended with additional layers, openly
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for more details.
 
-## Installation
+Installation
+------------
 
-Please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki)** for installation instructions.
+To install Dengue-GLUE, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Dengue-GLUE/wiki)**.
+
+You can choose between:
+
+-   **[Docker-based installation](https://github.com/giffordlabcvr/Dengue-GLUE/wiki/Docker-Installation)** for ease of deployment.
+-   **[Native installation](https://github.com/giffordlabcvr/Dengue-GLUE/wiki/Native-Installation)** for traditional setup.
+
+Dengue-GLUE can be installed as a prebuilt database for quick setup or constructed from scratch for more customization.
+
+* * * * *
 
 ## Usage
 
 For detailed instructions on how to use Parvovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Interacting-with-Projects)**.
 
+* * * * *
+
 ## Data Sources
 
 Parvovirus-GLUE is constructed using data published in the [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) database.
+
+* * * * *
 
 ## Contributing
 
@@ -34,11 +48,16 @@ We welcome contributions from the community! If you're interested in contributin
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
 
+* * * * *
+
 ## License
 
 The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+* * * * *
 
 ## Contact
 
 For questions, issues, or feedback, please open an issue on the [GitHub repository](https://github.com/giffordlabcvr/Parvovirus-GLUE/issues).
 
+* * * * *
