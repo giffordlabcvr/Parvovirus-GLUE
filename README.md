@@ -32,7 +32,7 @@ Parvovirus-GLUE can be installed as a prebuilt database for quick setup or const
 
 ## Usage
 
-For detailed instructions on how to use Parvovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/Interacting-with-Projects)**.
+For detailed instructions on how to use Parvovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Parvovirus-GLUE/wiki/)**.
 
 * * * * *
 
