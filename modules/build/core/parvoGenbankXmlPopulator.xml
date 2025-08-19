@@ -32,7 +32,8 @@
 		<gbQualifier name="isolate">
 			<propertyPopulator property="isolate.isolate"/>
 		</gbQualifier>
-		<gbQualifier name="country">
+		
+		<gbQualifier name="geo_loc_name">
 			<propertyPopulator property="isolate.country"/>
 			<propertyPopulator property="isolate.place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>

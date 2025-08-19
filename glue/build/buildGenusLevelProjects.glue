@@ -15,9 +15,10 @@ project parvoviridae
 
   # Hamaparvovirinae
   run file glue/build/genus/chaphama/buildChaphamaProject.glue
+
+  # Densovirinae
   
-  # Inherit feature locations
-  #run script glue/build/core/refseqsInheritFeatureLocations.js
+  
   
   exit
 

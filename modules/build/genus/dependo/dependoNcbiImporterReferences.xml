@@ -3,39 +3,46 @@
 
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sourceName>ncbi-refseqs-dependo</sourceName>
+  
   <specificPrimaryAccessions>
+  
+	<primaryAccession>MG745677</primaryAccession>	<!--- DrDPV -->
+	<primaryAccession>MN794870</primaryAccession>	<!--- FeDPV -->
 
-	<!-- <primaryAccession>NC_001401</primaryAccession> Master refererence AAV-2 is in core project --> 
-	<primaryAccession>NC_006148</primaryAccession>
-	<primaryAccession>NC_027429</primaryAccession>
-	<primaryAccession>NC_006147</primaryAccession>
-	<primaryAccession>NC_001701</primaryAccession>
-	<primaryAccession>NC_004828</primaryAccession>
-	<primaryAccession>NC_006263</primaryAccession>
-	<primaryAccession>NC_005889</primaryAccession>
-	<primaryAccession>DQ335246</primaryAccession>
-	<primaryAccession>NC_014468</primaryAccession>
-	<primaryAccession>NC_040671</primaryAccession>
-	<primaryAccession>NC_002077</primaryAccession>
-	<primaryAccession>NC_001729</primaryAccession>
-	<primaryAccession>NC_001829</primaryAccession>
-	<primaryAccession>NC_006152 </primaryAccession>
-	<primaryAccession>AF028704</primaryAccession>
-	<primaryAccession>AF028705</primaryAccession>
-	<primaryAccession>NC_006260</primaryAccession>
-	<primaryAccession>NC_006261</primaryAccession>
-	<primaryAccession>AX753250</primaryAccession>
-	<primaryAccession>LY408697</primaryAccession>
-	<primaryAccession>AY631966</primaryAccession>
-	<primaryAccession>DQ813647</primaryAccession>
-	<primaryAccession>NC_038539</primaryAccession>
-	<primaryAccession>MF416383</primaryAccession>
-	<primaryAccession>KT984498</primaryAccession>
-	<primaryAccession>MF416384</primaryAccession>
-	<primaryAccession>FJ688147</primaryAccession>
-	<primaryAccession>MK026553</primaryAccession>
+	<primaryAccession>NC_027429</primaryAccession>	<!--- BdrPV -->
+	<primaryAccession>NC_006148</primaryAccession>	<!--- SnakePV -->
+	<primaryAccession>NC_001701</primaryAccession>	<!--- GPV -->
+	<primaryAccession>NC_006147</primaryAccession>	<!--- MDPV -->
+	<primaryAccession>NC_004828</primaryAccession>	<!--- AvAAV-atcc -->
+	<primaryAccession>NC_006263</primaryAccession>	<!--- AvAAV-da1 -->
+	<primaryAccession>NC_040671</primaryAccession>	<!--- AvAAV-mhh -->
+	<primaryAccession>NC_038539</primaryAccession>	<!--- AAV-sealion -->
+	<primaryAccession>NC_014468</primaryAccession>	<!--- AAV-bat -->
+
+	<primaryAccession>NC_002077</primaryAccession>	<!--- AAV1 -->	
+	<primaryAccession>NC_001401</primaryAccession>	<!--- AAV2 -->
+	<primaryAccession>NC_001729</primaryAccession>	<!--- AAV3 -->
+	<primaryAccession>NC_001829</primaryAccession>	<!--- AAV4 -->
+	<primaryAccession>AF028704</primaryAccession>	<!--- AAV6 -->
+	<primaryAccession>NC_006260</primaryAccession>	<!--- AAV7 -->
+	<primaryAccession>NC_006261</primaryAccession>	<!--- AAV8 -->
+	<primaryAccession>AX753250</primaryAccession>	<!--- AAV9 -->
+	<primaryAccession>LY408697</primaryAccession>	<!--- AAV10 -->
+	<primaryAccession>AY631966</primaryAccession>	<!--- AAV11 -->
+	<primaryAccession>DQ813647</primaryAccession>	<!--- AAV12 -->
+	<primaryAccession>AF028705</primaryAccession>	<!--- AAV3B -->
+
+	<primaryAccession>DQ335246</primaryAccession>	<!--- CAV -->
+	<primaryAccession>NC_006152</primaryAccession>	<!--- AAV5 -->
+	<primaryAccession>NC_005889</primaryAccession>	<!--- BAAV -->
 	
-  </specificPrimaryAccessions>  
+	<primaryAccession>FJ688147</primaryAccession>	<!--- AAVpo1 -->
+	<primaryAccession>MF416383</primaryAccession>	<!--- Mouse-AAV1 -->
+	<primaryAccession>MF416384</primaryAccession>	<!--- Mouse-AAV2 -->
+	<primaryAccession>MK026553</primaryAccession>	<!--- Marsupial-AAV -->
+	
+  </specificPrimaryAccessions>
+  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>
 
